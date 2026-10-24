@@ -1,0 +1,50 @@
+{
+  "day": 1,
+  "title": "Hallo! Wie ben jij?",
+  "names": ["Sara", "Tom"],
+  "words": [
+    { "id": "hallo", "nl": "hallo", "en": "hello", "example": { "nl": "Hallo, ik ben Sara.", "en": "Hello, I am Sara." } },
+    { "id": "ik", "nl": "ik", "en": "I", "example": { "nl": "Ik ben Tom.", "en": "I am Tom." } },
+    { "id": "jij", "nl": "jij", "en": "you", "forms": ["je", "jou"], "example": { "nl": "Wie ben jij?", "en": "Who are you?" } },
+    { "id": "zijn", "nl": "zijn", "en": "to be", "forms": ["ben", "bent", "is"], "example": { "nl": "Jij bent Sara.", "en": "You are Sara." } },
+    { "id": "heten", "nl": "heten", "en": "to be called", "forms": ["heet"], "example": { "nl": "Ik heet Tom.", "en": "My name is Tom." } },
+    { "id": "wie", "nl": "wie", "en": "who", "example": { "nl": "Wie ben jij?", "en": "Who are you?" } },
+    { "id": "hoe-gaat-het", "nl": "hoe gaat het?", "en": "how are you?", "example": { "nl": "Hallo Tom! Hoe gaat het?", "en": "Hi Tom! How are you?" } },
+    { "id": "goed", "nl": "goed", "en": "good, fine", "example": { "nl": "Het gaat goed.", "en": "I'm doing fine." } },
+    { "id": "dank-je-wel", "nl": "dank je wel", "en": "thank you", "example": { "nl": "Goed, dank je wel.", "en": "Fine, thank you." } },
+    { "id": "en", "nl": "en", "en": "and", "example": { "nl": "Ik ben Sara en jij bent Tom.", "en": "I am Sara and you are Tom." } },
+    { "id": "met", "nl": "met", "en": "with", "example": { "nl": "En met jou?", "en": "And you? (lit. and with you?)" } }
+  ],
+  "grammar": {
+    "title": "zijn (to be): ik ben, jij bent",
+    "points": [
+      "ik ben = I am, jij bent = you are, het is = it is.",
+      "jij and je both mean 'you'. je is the short, unstressed form — very common in speech.",
+      "In a yes/no question the verb comes first: Jij bent Tom → Ben jij Tom?",
+      "Notice: bent becomes ben when jij comes after the verb."
+    ],
+    "examples": [
+      { "nl": "Ik ben Sara.", "en": "I am Sara." },
+      { "nl": "Jij bent Tom.", "en": "You are Tom." },
+      { "nl": "Ben jij Tom?", "en": "Are you Tom?" },
+      { "nl": "Ik heet Sara.", "en": "My name is Sara." }
+    ],
+    "exercises": [
+      { "prompt": "Ik ___ Sara.", "answer": "ben", "hint": "zijn" },
+      { "prompt": "Jij ___ Tom.", "answer": "bent", "hint": "zijn" },
+      { "prompt": "___ jij Sara?", "answer": "Ben", "hint": "zijn" },
+      { "prompt": "Ik ___ Tom.", "answer": "heet", "hint": "heten" }
+    ]
+  },
+  "dialogue": {
+    "title": "Kennismaken",
+    "scene": "Sara meets her new neighbour Tom in the hallway.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Hallo! Ik ben Sara. Wie ben jij?", "en": "Hi! I'm Sara. Who are you?" },
+      { "speaker": "Tom", "nl": "Hallo Sara! Ik heet Tom.", "en": "Hi Sara! My name is Tom.", "gap": "heet" },
+      { "speaker": "Sara", "nl": "Hoe gaat het, Tom?", "en": "How are you, Tom?" },
+      { "speaker": "Tom", "nl": "Goed, dank je wel. En met jou?", "en": "Fine, thank you. And you?", "gap": "wel" },
+      { "speaker": "Sara", "nl": "Goed!", "en": "Good!" }
+    ]
+  }
+}

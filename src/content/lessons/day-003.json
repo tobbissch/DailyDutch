@@ -1,0 +1,56 @@
+{
+  "day": 3,
+  "title": "Bij de bakker",
+  "words": [
+    { "id": "de", "nl": "de", "en": "the (most words, all plurals)", "example": { "nl": "de euro", "en": "the euro" } },
+    { "id": "het", "nl": "het", "en": "the (het-words) / it", "example": { "nl": "het brood", "en": "the bread" } },
+    { "id": "een", "nl": "een", "en": "a, an", "example": { "nl": "Ik wil een brood.", "en": "I want a loaf of bread." } },
+    { "id": "brood", "nl": "brood", "en": "bread, loaf", "article": "het", "plural": "broden", "example": { "nl": "Het brood is goed.", "en": "The bread is good." } },
+    { "id": "willen", "nl": "willen", "en": "to want", "forms": ["wil", "wilt"], "example": { "nl": "Ik wil een brood.", "en": "I want a loaf of bread." } },
+    { "id": "graag", "nl": "graag", "en": "gladly (makes a request polite)", "example": { "nl": "Ik wil graag een brood.", "en": "I'd like a loaf of bread." } },
+    { "id": "wat", "nl": "wat", "en": "what", "example": { "nl": "Wat wil jij?", "en": "What do you want?" } },
+    { "id": "u", "nl": "u", "en": "you (polite)", "example": { "nl": "Hoe gaat het met u?", "en": "How are you? (polite)" } },
+    { "id": "dank-u-wel", "nl": "dank u wel", "en": "thank you (polite)", "example": { "nl": "Goed, dank u wel.", "en": "Fine, thank you." } },
+    { "id": "hoeveel", "nl": "hoeveel", "en": "how much, how many", "example": { "nl": "Hoeveel kost het?", "en": "How much does it cost?" } },
+    { "id": "kosten", "nl": "kosten", "en": "to cost", "forms": ["kost"], "example": { "nl": "Het brood kost drie euro.", "en": "The bread costs three euros." } },
+    { "id": "euro", "nl": "euro", "en": "euro", "article": "de", "example": { "nl": "Het kost drie euro.", "en": "It costs three euros." } },
+    { "id": "drie", "nl": "drie", "en": "three", "example": { "nl": "drie broden", "en": "three loaves" } },
+    { "id": "alstublieft", "nl": "alstublieft", "en": "please / here you are (polite)", "example": { "nl": "Een brood, alstublieft.", "en": "A loaf of bread, please." } },
+    { "id": "dag", "nl": "dag", "en": "hello / goodbye", "example": { "nl": "Dag! Hoe gaat het?", "en": "Hi! How are you?" } }
+  ],
+  "grammar": {
+    "title": "de or het?",
+    "points": [
+      "Dutch has two words for 'the': de and het.",
+      "Most nouns are de-words. About one in three is a het-word.",
+      "There is no reliable rule — learn every noun together with its article: het brood, de euro.",
+      "All plurals take de: het brood → de broden.",
+      "een (a/an) is the same for both: een brood, een euro."
+    ],
+    "examples": [
+      { "nl": "het brood", "en": "the bread" },
+      { "nl": "de broden", "en": "the loaves" },
+      { "nl": "Het brood kost drie euro.", "en": "The bread costs three euros." },
+      { "nl": "Ik wil graag een brood.", "en": "I'd like a loaf of bread." }
+    ],
+    "exercises": [
+      { "prompt": "___ brood is goed.", "answer": "Het", "hint": "de / het" },
+      { "prompt": "___ broden zijn goed.", "answer": "De", "hint": "de / het" },
+      { "prompt": "Ik wil graag ___ brood.", "answer": "een", "hint": "a" },
+      { "prompt": "Hoeveel ___ het brood?", "answer": "kost", "hint": "kosten" }
+    ]
+  },
+  "dialogue": {
+    "title": "Een brood, alstublieft",
+    "scene": "Sara buys bread at the bakery. She uses u — polite with people she doesn't know.",
+    "lines": [
+      { "speaker": "Bakker", "nl": "Dag! Wat wilt u?", "en": "Hello! What would you like?" },
+      { "speaker": "Sara", "nl": "Dag! Ik wil graag een brood, alstublieft.", "en": "Hello! I'd like a loaf of bread, please.", "gap": "graag" },
+      { "speaker": "Bakker", "nl": "Een brood. Alstublieft.", "en": "A loaf. Here you are." },
+      { "speaker": "Sara", "nl": "Dank u wel. Hoeveel kost het?", "en": "Thank you. How much is it?", "gap": "Hoeveel" },
+      { "speaker": "Bakker", "nl": "Het brood kost drie euro.", "en": "The bread is three euros.", "gap": "kost" },
+      { "speaker": "Sara", "nl": "Alstublieft.", "en": "Here you are." },
+      { "speaker": "Bakker", "nl": "Dank u wel. Dag!", "en": "Thank you. Bye!" }
+    ]
+  }
+}

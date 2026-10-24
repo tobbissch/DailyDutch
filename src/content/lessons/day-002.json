@@ -1,0 +1,52 @@
+{
+  "day": 2,
+  "title": "Waar kom jij vandaan?",
+  "names": ["Spanje", "Amsterdam", "Utrecht"],
+  "words": [
+    { "id": "waar", "nl": "waar", "en": "where", "example": { "nl": "Waar woon jij?", "en": "Where do you live?" } },
+    { "id": "komen", "nl": "komen", "en": "to come", "forms": ["kom", "komt"], "example": { "nl": "Ik kom uit Spanje.", "en": "I come from Spain." } },
+    { "id": "uit", "nl": "uit", "en": "from, out of", "example": { "nl": "Jij komt uit Utrecht.", "en": "You come from Utrecht." } },
+    { "id": "vandaan", "nl": "vandaan", "en": "from (in 'waar … vandaan')", "example": { "nl": "Waar kom jij vandaan?", "en": "Where do you come from?" } },
+    { "id": "wonen", "nl": "wonen", "en": "to live (reside)", "forms": ["woon", "woont"], "example": { "nl": "Ik woon in Amsterdam.", "en": "I live in Amsterdam." } },
+    { "id": "in", "nl": "in", "en": "in", "example": { "nl": "Tom woont in Utrecht.", "en": "Tom lives in Utrecht." } },
+    { "id": "nederland", "nl": "Nederland", "en": "the Netherlands", "example": { "nl": "Ik woon in Nederland.", "en": "I live in the Netherlands." } },
+    { "id": "nu", "nl": "nu", "en": "now", "example": { "nl": "Ik woon nu in Nederland.", "en": "I live in the Netherlands now." } },
+    { "id": "ook", "nl": "ook", "en": "also, too", "example": { "nl": "Ik woon ook in Amsterdam.", "en": "I live in Amsterdam too." } },
+    { "id": "ja", "nl": "ja", "en": "yes", "example": { "nl": "Ja, ik kom uit Spanje.", "en": "Yes, I come from Spain." } },
+    { "id": "nee", "nl": "nee", "en": "no", "example": { "nl": "Nee, ik woon in Utrecht.", "en": "No, I live in Utrecht." } },
+    { "id": "niet", "nl": "niet", "en": "not", "example": { "nl": "Ik woon niet in Amsterdam.", "en": "I don't live in Amsterdam." } }
+  ],
+  "grammar": {
+    "title": "Present tense: ik woon, jij woont",
+    "points": [
+      "Take the verb, drop -en: wonen → woon. That is the stem.",
+      "ik + stem: ik woon, ik kom.",
+      "jij + stem + t: jij woont, jij komt.",
+      "Question with jij after the verb: the -t disappears. Woon jij in Amsterdam?",
+      "niet (not) usually comes after the verb: Ik woon niet in Amsterdam."
+    ],
+    "examples": [
+      { "nl": "Ik woon in Utrecht.", "en": "I live in Utrecht." },
+      { "nl": "Jij woont in Amsterdam.", "en": "You live in Amsterdam." },
+      { "nl": "Woon jij in Amsterdam?", "en": "Do you live in Amsterdam?" },
+      { "nl": "Ik kom niet uit Nederland.", "en": "I don't come from the Netherlands." }
+    ],
+    "exercises": [
+      { "prompt": "Ik ___ in Utrecht.", "answer": "woon", "hint": "wonen" },
+      { "prompt": "Jij ___ uit Spanje.", "answer": "komt", "hint": "komen" },
+      { "prompt": "___ jij in Amsterdam?", "answer": "Woon", "hint": "wonen" },
+      { "prompt": "Ik woon ___ in Amsterdam.", "answer": "niet", "hint": "not" }
+    ]
+  },
+  "dialogue": {
+    "title": "Waar kom jij vandaan?",
+    "scene": "Sara and Tom chat at a birthday party.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Waar kom jij vandaan, Sara?", "en": "Where are you from, Sara?" },
+      { "speaker": "Sara", "nl": "Ik kom uit Spanje. En jij?", "en": "I'm from Spain. And you?", "gap": "kom" },
+      { "speaker": "Tom", "nl": "Ik kom uit Nederland. Woon jij in Amsterdam?", "en": "I'm from the Netherlands. Do you live in Amsterdam?" },
+      { "speaker": "Sara", "nl": "Ja, ik woon nu in Amsterdam. Woon jij ook in Amsterdam?", "en": "Yes, I live in Amsterdam now. Do you live in Amsterdam too?", "gap": "ook" },
+      { "speaker": "Tom", "nl": "Nee, ik woon niet in Amsterdam. Ik woon in Utrecht.", "en": "No, I don't live in Amsterdam. I live in Utrecht.", "gap": "niet" }
+    ]
+  }
+}
