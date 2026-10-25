@@ -1,7 +1,7 @@
 import { useSyncExternalStore } from 'react'
 
 /** Speaking speed: slower than normal so learners can follow. */
-export const RATE = 0.6
+export const RATE = 0.8
 
 const supported = typeof window !== 'undefined' && 'speechSynthesis' in window
 
