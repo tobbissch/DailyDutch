@@ -1,4 +1,5 @@
 import { useState, type FormEvent } from 'react'
+import { Speak } from '../components/Speak'
 import { displayNl } from '../lib/content'
 import { addMyWord, removeMyWord, useStore } from '../lib/store'
 
@@ -39,7 +40,7 @@ export function MyWords() {
         {[...s.myWords].reverse().map((w) => (
           <li key={w.id} className="word-head">
             <span>
-              <strong>{displayNl(w)}</strong> <span className="muted">{w.en}</span>
+              <strong>{displayNl(w)}</strong> <Speak text={displayNl(w)} /> <span className="muted">{w.en}</span>
             </span>
             <button type="button" className="link" onClick={() => removeMyWord(w.id)}>
               remove

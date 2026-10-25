@@ -16,6 +16,8 @@ How to write lessons: `docs/writing-lessons.md`.
 - [x] Lessons 4–30 (A1 basics)
 - [x] Lessons 31–120 (A2)
 - [x] Installable on phone (PWA, offline)
+- [x] Listen buttons (browser Dutch voice, speed 0.6)
+- [x] Sounds page: Dutch pronunciation rules with examples
 
 ## Next
 - [ ] Try it daily, fix what annoys

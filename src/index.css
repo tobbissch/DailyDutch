@@ -344,3 +344,31 @@ select {
   flex: 1;
   min-width: 0;
 }
+
+button.speak {
+  padding: 0.15rem;
+  margin-left: 0.3rem;
+  border: none;
+  background: none;
+  color: var(--accent);
+  vertical-align: middle;
+  line-height: 0;
+}
+
+.sounds .rule {
+  margin-bottom: 1.5rem;
+}
+
+.sounds .rule h3 {
+  margin-top: 0;
+}
+
+.sounds .sound-examples {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+}
+
+.sounds .sound-examples li {
+  padding: 0.3rem 0;
+}

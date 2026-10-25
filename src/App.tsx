@@ -3,6 +3,7 @@ import { Home } from './pages/Home'
 import { LessonPage } from './pages/LessonPage'
 import { MyWords } from './pages/MyWords'
 import { Review } from './pages/Review'
+import { Sounds } from './pages/Sounds'
 
 function useHash() {
   const [hash, setHash] = useState(location.hash)
@@ -19,6 +20,7 @@ function Page({ path }: { path: string }) {
   if (lesson) return <LessonPage key={lesson[1]} day={Number(lesson[1])} />
   if (path === '/review') return <Review />
   if (path === '/words') return <MyWords />
+  if (path === '/sounds') return <Sounds />
   return <Home />
 }
 
@@ -36,6 +38,9 @@ export function App() {
           </a>
           <a href="#/words" className={path === '/words' ? 'active' : ''}>
             My words
+          </a>
+          <a href="#/sounds" className={path === '/sounds' ? 'active' : ''}>
+            Sounds
           </a>
         </nav>
       </header>

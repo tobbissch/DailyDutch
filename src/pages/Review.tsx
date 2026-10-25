@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Speak } from '../components/Speak'
 import { isCorrect } from '../lib/answer'
 import { displayNl, lessonWords } from '../lib/content'
 import { today } from '../lib/dates'
@@ -90,11 +91,11 @@ export function Review() {
       ) : (
         <>
           <p className={result.correct ? 'right' : 'wrong'}>
-            {result.correct ? 'Goed!' : <>Correct: <strong>{expected}</strong></>}
+            {result.correct ? 'Goed!' : <>Correct: <strong>{expected}</strong></>} <Speak text={expected} />
           </p>
           {word.example && (
             <p className="example">
-              {word.example.nl} <span className="muted">— {word.example.en}</span>
+              {word.example.nl} <Speak text={word.example.nl} /> <span className="muted">— {word.example.en}</span>
             </p>
           )}
           <div className="actions">

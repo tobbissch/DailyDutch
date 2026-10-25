@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Gapped } from '../components/Gapped'
+import { Speak } from '../components/Speak'
 import { displayNl, getLesson } from '../lib/content'
 import { completeLesson, useStore } from '../lib/store'
 
@@ -43,13 +44,16 @@ export function LessonPage({ day }: { day: number }) {
           {lesson.words.map((w) => (
             <li key={w.id}>
               <div className="word-head">
-                <strong>{displayNl(w)}</strong>
+                <span>
+                  <strong>{displayNl(w)}</strong>
+                  <Speak text={displayNl(w)} />
+                </span>
                 <span>{w.en}</span>
               </div>
               {w.plural && <div className="muted">plural: de {w.plural}</div>}
               {w.example && (
                 <div className="example">
-                  {w.example.nl} <span className="muted">— {w.example.en}</span>
+                  {w.example.nl} <Speak text={w.example.nl} /> <span className="muted">— {w.example.en}</span>
                 </div>
               )}
             </li>
@@ -68,7 +72,7 @@ export function LessonPage({ day }: { day: number }) {
           <ul className="examples">
             {lesson.grammar.examples.map((e) => (
               <li key={e.nl}>
-                {e.nl} <span className="muted">— {e.en}</span>
+                {e.nl} <Speak text={e.nl} /> <span className="muted">— {e.en}</span>
               </li>
             ))}
           </ul>
@@ -94,6 +98,7 @@ export function LessonPage({ day }: { day: number }) {
                 <dt>{line.speaker}</dt>
                 <dd>
                   {line.gap ? <Gapped text={line.nl} marker={line.gap} answer={line.gap} /> : line.nl}
+                  <Speak text={line.nl} />
                   {showEn && <div className="muted">{line.en}</div>}
                 </dd>
               </div>
