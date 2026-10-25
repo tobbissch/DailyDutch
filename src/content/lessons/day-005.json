@@ -1,0 +1,68 @@
+{
+  "day": 5,
+  "title": "Mijn familie",
+  "names": ["Anna", "Mark", "Noor", "Daan", "Henk", "Ria"],
+  "words": [
+    { "id": "hij", "nl": "hij", "en": "he", "example": { "nl": "Hij heet Daan.", "en": "His name is Daan." } },
+    { "id": "zij", "nl": "zij", "en": "she; they", "forms": ["ze"], "example": { "nl": "Zij heet Noor.", "en": "Her name is Noor." } },
+    { "id": "man", "nl": "man", "en": "man; husband", "article": "de", "plural": "mannen", "forms": ["mannetje", "manneke", "manneken"], "example": { "nl": "Mark is de man van Anna.", "en": "Mark is Anna's husband." } },
+    { "id": "vrouw", "nl": "vrouw", "en": "woman; wife", "article": "de", "plural": "vrouwen", "forms": ["vrouwtje", "vrouwetje", "vrouwke"], "example": { "nl": "Anna is de vrouw van Mark.", "en": "Anna is Mark's wife." } },
+    { "id": "vader", "nl": "vader", "en": "father", "article": "de", "plural": "vaders", "forms": ["vadertje", "vaderke"], "example": { "nl": "Henk is de vader van Tom.", "en": "Henk is Tom's father." } },
+    { "id": "moeder", "nl": "moeder", "en": "mother", "article": "de", "plural": "moeders", "forms": ["moedertje"], "example": { "nl": "Ria is de moeder van Tom.", "en": "Ria is Tom's mother." } },
+    { "id": "broer", "nl": "broer", "en": "brother", "article": "de", "plural": "broers", "forms": ["broertje"], "example": { "nl": "Tom is de broer van Anna.", "en": "Tom is Anna's brother." } },
+    { "id": "zus", "nl": "zus", "en": "sister", "article": "de", "plural": "zussen", "forms": ["zusje"], "example": { "nl": "Anna is de zus van Tom.", "en": "Anna is Tom's sister." } },
+    { "id": "kind", "nl": "kind", "en": "child", "article": "het", "plural": "kinderen", "forms": ["kindje", "kindertje", "kindeken", "kindelijn"], "example": { "nl": "Anna heeft twee kinderen.", "en": "Anna has two children." } },
+    { "id": "zoon", "nl": "zoon", "en": "son", "article": "de", "plural": "zoons", "forms": ["zoontje"], "example": { "nl": "Daan is de zoon van Anna.", "en": "Daan is Anna's son." } },
+    { "id": "dochter", "nl": "dochter", "en": "daughter", "article": "de", "plural": "dochters", "forms": ["dochtertje"], "example": { "nl": "Noor is de dochter van Mark.", "en": "Noor is Mark's daughter." } },
+    { "id": "familie", "nl": "familie", "en": "family", "article": "de", "plural": "families", "example": { "nl": "Mijn familie woont in Spanje.", "en": "My family lives in Spain." } },
+    { "id": "van", "nl": "van", "en": "of; from (belonging)", "example": { "nl": "Het brood is van Sara.", "en": "The bread is Sara's." } },
+    { "id": "oud", "nl": "oud", "en": "old", "forms": ["ouder", "oudst", "oude", "oudere", "oudste", "oudt"], "example": { "nl": "Hoe oud is hij?", "en": "How old is he?" } },
+    { "id": "jaar", "nl": "jaar", "en": "year", "article": "het", "plural": "jaren", "forms": ["jaartje"], "example": { "nl": "Noor is zeven jaar.", "en": "Noor is seven years old." } },
+    { "id": "getrouwd", "nl": "getrouwd", "en": "married", "forms": ["getrouwde"], "example": { "nl": "Ben jij getrouwd?", "en": "Are you married?" } },
+    { "id": "foto", "nl": "foto", "en": "photo", "article": "de", "plural": "foto's", "forms": ["fotootje"], "example": { "nl": "Ik heb een foto van mijn familie.", "en": "I have a photo of my family." } },
+    { "id": "vriend", "nl": "vriend", "en": "friend; boyfriend", "article": "de", "plural": "vrienden", "forms": ["vriendje"], "example": { "nl": "Tom is een vriend van Sara.", "en": "Tom is a friend of Sara's." } },
+    { "id": "vriendin", "nl": "vriendin", "en": "(female) friend; girlfriend", "article": "de", "plural": "vriendinnen", "forms": ["vriendinnetje"], "example": { "nl": "Anna heeft een vriendin in Amsterdam.", "en": "Anna has a friend in Amsterdam." } },
+    { "id": "gezin", "nl": "gezin", "en": "family (parents and children)", "article": "het", "plural": "gezinnen", "forms": ["gezinnetje"], "example": { "nl": "Anna en Mark hebben een gezin met twee kinderen.", "en": "Anna and Mark have a family with two children." } },
+    { "id": "allemaal", "nl": "allemaal", "en": "all (of them), everybody", "example": { "nl": "Ze wonen allemaal in Utrecht.", "en": "They all live in Utrecht." } }
+  ],
+  "grammar": {
+    "title": "hij and zij: hij woont, zij heeft; van",
+    "points": [
+      "hij = he, zij = she. ze is the short, unstressed form of zij.",
+      "With hij and zij the verb is stem + t, just like with jij: hij woont, zij komt.",
+      "Unlike jij, the -t stays in a question: Woont hij in Utrecht?",
+      "Two irregular verbs: hij is (zijn), zij heeft (hebben).",
+      "van shows belonging: de vader van Tom = Tom's father."
+    ],
+    "examples": [
+      { "nl": "Hij woont in Utrecht.", "en": "He lives in Utrecht." },
+      { "nl": "Zij heeft twee kinderen.", "en": "She has two children." },
+      { "nl": "Daan is tien jaar oud.", "en": "Daan is ten years old." },
+      { "nl": "Woont zij in Amsterdam?", "en": "Does she live in Amsterdam?" },
+      { "nl": "Henk is de vader van Tom.", "en": "Henk is Tom's father." }
+    ],
+    "exercises": [
+      { "prompt": "Hij ___ in Utrecht.", "answer": "woont", "hint": "wonen" },
+      { "prompt": "Zij ___ twee kinderen.", "answer": "heeft", "hint": "hebben" },
+      { "prompt": "Daan ___ tien jaar.", "answer": "is", "hint": "zijn" },
+      { "prompt": "___ zij in Amsterdam?", "answer": "Woont", "hint": "wonen" },
+      { "prompt": "Ria is de moeder ___ Tom.", "answer": "van", "hint": "of" }
+    ]
+  },
+  "dialogue": {
+    "title": "De familie van Tom",
+    "scene": "Tom shows Sara a photo of his family.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Ik heb een foto van mijn familie.", "en": "I have a photo of my family." },
+      { "speaker": "Sara", "nl": "Wie is de man?", "en": "Who is the man?" },
+      { "speaker": "Tom", "nl": "Hij is mijn vader. Hij heet Henk.", "en": "He's my father. His name is Henk.", "gap": "vader" },
+      { "speaker": "Sara", "nl": "En de vrouw? Is zij jouw moeder?", "en": "And the woman? Is she your mother?", "gap": "moeder" },
+      { "speaker": "Tom", "nl": "Ja, zij heet Ria. En Anna is mijn zus.", "en": "Yes, her name is Ria. And Anna is my sister." },
+      { "speaker": "Sara", "nl": "Is Anna getrouwd?", "en": "Is Anna married?", "gap": "getrouwd" },
+      { "speaker": "Tom", "nl": "Ja, met Mark. Zij heeft twee kinderen, Noor en Daan.", "en": "Yes, to Mark. She has two children, Noor and Daan.", "gap": "heeft" },
+      { "speaker": "Sara", "nl": "Hoe oud zijn de kinderen?", "en": "How old are the children?" },
+      { "speaker": "Tom", "nl": "Noor is zeven jaar en Daan is tien.", "en": "Noor is seven and Daan is ten.", "gap": "jaar" },
+      { "speaker": "Sara", "nl": "Mijn familie woont in Spanje.", "en": "My family lives in Spain." }
+    ]
+  }
+}

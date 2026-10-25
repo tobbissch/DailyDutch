@@ -1,0 +1,63 @@
+{
+  "day": 106,
+  "title": "Belastingen",
+  "words": [
+    { "id": "belastingaangifte", "nl": "belastingaangifte", "en": "tax return", "article": "de", "plural": "belastingaangiften", "example": { "nl": "Ik moet nog mijn belastingaangifte doen.", "en": "I still have to do my tax return." } },
+    { "id": "belastingdienst", "nl": "Belastingdienst", "en": "Dutch tax authority", "article": "de", "plural": "belastingdiensten", "forms": ["belastingdienstje"], "example": { "nl": "De Belastingdienst heeft mij een brief gestuurd.", "en": "The tax authority has sent me a letter." } },
+    { "id": "inkomstenbelasting", "nl": "inkomstenbelasting", "en": "income tax", "article": "de", "plural": "inkomstenbelastingen", "forms": ["inkomstenbelastingetje"], "example": { "nl": "Over mijn salaris betaal ik inkomstenbelasting.", "en": "I pay income tax on my salary." } },
+    { "id": "terugkrijgen", "nl": "terugkrijgen", "en": "to get back", "forms": ["krijg terug", "kreeg terug", "terugkrijg", "terugkreeg", "krijgt terug", "terugkrijgt", "kreegt terug", "terugkreegt", "krijgen terug", "kregen terug", "terugkregen", "terugkrijgend", "teruggekregen"], "example": { "nl": "Krijg ik dit jaar geld terug?", "en": "Will I get money back this year?" } },
+    { "id": "formulier-noun", "nl": "formulier", "en": "form (to fill in)", "article": "het", "plural": "formulieren", "forms": ["formuliertje"], "example": { "nl": "Je vult het formulier online in.", "en": "You fill in the form online." } },
+    { "id": "digitaal", "nl": "digitaal", "en": "digital, online", "forms": ["digitale"], "example": { "nl": "Je doet de aangifte digitaal.", "en": "You file the return online." } },
+    { "id": "digid", "nl": "DigiD", "en": "DigiD (Dutch government login)", "article": "de", "example": { "nl": "Je logt in met je DigiD.", "en": "You log in with your DigiD." } },
+    { "id": "aftrek", "nl": "aftrek", "en": "(tax) deduction", "article": "de", "plural": "aftrekken", "example": { "nl": "Heb je recht op een aftrek?", "en": "Are you entitled to a deduction?" } },
+    { "id": "huurtoeslag", "nl": "huurtoeslag", "en": "rent benefit", "article": "de", "example": { "nl": "Omdat mijn huur duur is, krijg ik huurtoeslag.", "en": "Because my rent is expensive, I get rent benefit." } },
+    { "id": "zorgtoeslag", "nl": "zorgtoeslag", "en": "healthcare benefit", "article": "de", "example": { "nl": "De zorgtoeslag helpt bij de premie van je verzekering.", "en": "The healthcare benefit helps with your insurance premium." } },
+    { "id": "aanvragen", "nl": "aanvragen", "en": "to apply for, to request", "forms": ["vraag aan", "vroeg aan", "aanvraag", "aanvroeg", "vraagt aan", "aanvraagt", "vroegt aan", "aanvroegt", "vragen aan", "vroegen aan", "aanvroegen", "aanvragend", "aangevraagd", "vraagde aan", "aanvraagde", "vraagden aan", "aanvraagden"], "example": { "nl": "Je kunt de toeslag online aanvragen.", "en": "You can apply for the benefit online." } },
+    { "id": "aanvraag", "nl": "aanvraag", "en": "application, request", "article": "de", "plural": "aanvragen", "forms": ["aanvraagje"], "example": { "nl": "Ik heb de aanvraag gisteren gestuurd.", "en": "I sent the application yesterday." } },
+    { "id": "jaaroverzicht", "nl": "jaaroverzicht", "en": "annual statement", "article": "het", "example": { "nl": "Mijn werkgever stuurt mij een jaaroverzicht van mijn salaris.", "en": "My employer sends me an annual statement of my salary." } },
+    { "id": "berekenen", "nl": "berekenen", "en": "to calculate", "forms": ["bereken", "berekende", "berekent", "berekenden", "berekenend", "berekend"], "example": { "nl": "De Belastingdienst berekent hoeveel je moet betalen.", "en": "The tax authority calculates how much you have to pay." } }
+  ],
+  "grammar": {
+    "title": "omdat with a modal: omdat ik moet betalen",
+    "points": [
+      "After omdat (and other linking words like dat, als, terwijl) the conjugated verb goes to the end of the clause.",
+      "With a modal verb (kunnen, moeten, willen, mogen) both verbs go to the end. Usually the modal comes first: omdat ik moet betalen.",
+      "The other order, omdat ik betalen moet, is also correct but sounds a bit more formal or regional.",
+      "A separable verb stays in one piece after the modal: omdat ik geld wil terugkrijgen, omdat je toeslag kunt aanvragen.",
+      "Compare with a main clause, where the modal is second and the infinitive is last: Ik moet veel belasting betalen."
+    ],
+    "examples": [
+      { "nl": "Ik doe aangifte, omdat ik geld wil terugkrijgen.", "en": "I'm filing a return because I want to get money back." },
+      { "nl": "Sara belt Tom, omdat ze het formulier niet kan invullen.", "en": "Sara calls Tom because she can't fill in the form." },
+      { "nl": "Je hebt je DigiD nodig, omdat je moet inloggen.", "en": "You need your DigiD because you have to log in." },
+      { "nl": "Hij is boos, omdat hij meer belasting moet betalen.", "en": "He is angry because he has to pay more tax." },
+      { "nl": "Je kunt zorgtoeslag krijgen, omdat je inkomen laag is.", "en": "You can get healthcare benefit because your income is low." }
+    ],
+    "exercises": [
+      { "prompt": "Ik doe aangifte, omdat ik geld wil ___.", "answer": "terugkrijgen", "hint": "to get back" },
+      { "prompt": "Sara belt Tom, omdat ze het formulier niet ___ invullen.", "answer": "kan", "hint": "kunnen" },
+      { "prompt": "Hij is boos, omdat hij meer belasting ___ betalen.", "answer": "moet", "hint": "moeten" },
+      { "prompt": "Ik heb mijn DigiD nodig, omdat ik moet ___.", "answer": "inloggen", "hint": "to log in" },
+      { "prompt": "We krijgen huurtoeslag, omdat ons inkomen laag ___.", "answer": "is", "hint": "zijn" }
+    ]
+  },
+  "dialogue": {
+    "title": "De belastingaangifte",
+    "scene": "Tom helps Sara with her first Dutch tax return on her laptop.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Tom, kun je mij helpen? Ik moet mijn belastingaangifte doen, maar ik vind het moeilijk.", "en": "Tom, can you help me? I have to do my tax return, but I find it difficult." },
+      { "speaker": "Tom", "nl": "Natuurlijk. Heb je je DigiD bij de hand?", "en": "Of course. Do you have your DigiD at hand?", "gap": "DigiD" },
+      { "speaker": "Sara", "nl": "Ja, ik log nu in bij de Belastingdienst.", "en": "Yes, I'm logging in to the tax authority now." },
+      { "speaker": "Tom", "nl": "Je hebt ook je jaaroverzicht nodig, omdat je je salaris moet invullen.", "en": "You also need your annual statement, because you have to fill in your salary.", "gap": "moet invullen" },
+      { "speaker": "Sara", "nl": "Hier is het. Kijk, er is al veel ingevuld!", "en": "Here it is. Oh, a lot has already been filled in!" },
+      { "speaker": "Tom", "nl": "Ja, dat doet de Belastingdienst digitaal. Jij moet alles nog wel even goed lezen.", "en": "Yes, the tax authority does that online. You do still have to read everything carefully." },
+      { "speaker": "Sara", "nl": "En dan? Krijg ik geld terug of moet ik betalen?", "en": "And then? Do I get money back or do I have to pay?" },
+      { "speaker": "Tom", "nl": "Dat berekent de Belastingdienst voor je.", "en": "The tax authority calculates that for you.", "gap": "berekent" },
+      { "speaker": "Sara", "nl": "Kijk! Ik krijg 200 euro terug!", "en": "Look! I'm getting 200 euros back!" },
+      { "speaker": "Tom", "nl": "Mooi zo! Heb je ook al zorgtoeslag aangevraagd?", "en": "Great! Have you applied for healthcare benefit yet?", "gap": "aangevraagd" },
+      { "speaker": "Sara", "nl": "Nee. Moet dat?", "en": "No. Do I have to?" },
+      { "speaker": "Tom", "nl": "Je hebt er misschien recht op, omdat je inkomen laag is.", "en": "You might be entitled to it, because your income is low." },
+      { "speaker": "Sara", "nl": "Dan doe ik vandaag nog een aanvraag. Dank je wel!", "en": "Then I'll send an application today. Thanks!" }
+    ]
+  }
+}

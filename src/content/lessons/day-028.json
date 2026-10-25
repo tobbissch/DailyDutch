@@ -1,0 +1,66 @@
+{
+  "day": 28,
+  "title": "Op vakantie geweest",
+  "names": ["Sara", "Tom", "Spanje", "Utrecht"],
+  "words": [
+    { "id": "vakantie", "nl": "vakantie", "en": "holiday, vacation", "article": "de", "plural": "vakanties", "forms": ["vakantietje"], "example": { "nl": "Ik ben op vakantie.", "en": "I'm on holiday." } },
+    { "id": "land", "nl": "land", "en": "country; land", "article": "het", "plural": "landen", "forms": ["landje"], "example": { "nl": "Nederland is een klein land.", "en": "The Netherlands is a small country." } },
+    { "id": "zee", "nl": "zee", "en": "sea", "article": "de", "plural": "zeeën", "forms": ["zeetje"], "example": { "nl": "De zee is warm.", "en": "The sea is warm." } },
+    { "id": "strand", "nl": "strand", "en": "beach", "article": "het", "plural": "stranden", "forms": ["strandje"], "example": { "nl": "We zijn naar het strand gegaan.", "en": "We went to the beach." } },
+    { "id": "vliegen", "nl": "vliegen", "en": "to fly", "forms": ["vlieg", "vloog", "vliegt", "vlogen", "vliegend", "gevlogen"], "example": { "nl": "Ik ben naar Spanje gevlogen.", "en": "I flew to Spain." } },
+    { "id": "vliegtuig", "nl": "vliegtuig", "en": "plane", "article": "het", "plural": "vliegtuigen", "forms": ["vliegtuigje"], "example": { "nl": "Het vliegtuig gaat om acht uur.", "en": "The plane leaves at eight." } },
+    { "id": "reizen", "nl": "reizen", "en": "to travel", "forms": ["reis", "reisde", "reist", "reisden", "reizend", "gereisd"], "example": { "nl": "Ik reis graag.", "en": "I like travelling." } },
+    { "id": "blijven", "nl": "blijven", "en": "to stay", "forms": ["blijf", "bleef", "blijft", "bleven", "blijvend", "gebleven"], "example": { "nl": "Ik ben thuis gebleven.", "en": "I stayed at home." } },
+    { "id": "worden", "nl": "worden", "en": "to become, to get", "forms": ["word", "werd", "wordt", "werden", "wordend", "geworden"], "example": { "nl": "Tom is ziek geworden.", "en": "Tom has fallen ill." } },
+    { "id": "frankrijk", "nl": "Frankrijk", "en": "France", "example": { "nl": "Tom is naar Frankrijk gegaan.", "en": "Tom went to France." } },
+    { "id": "hotel", "nl": "hotel", "en": "hotel", "article": "het", "plural": "hotels", "forms": ["hotelletje"], "example": { "nl": "We hebben in een hotel geslapen.", "en": "We slept in a hotel." } },
+    { "id": "koffer", "nl": "koffer", "en": "suitcase", "article": "de", "plural": "koffers", "forms": ["koffertje"], "example": { "nl": "Mijn koffer is zwaar.", "en": "My suitcase is heavy." } },
+    { "id": "terug", "nl": "terug", "en": "back", "example": { "nl": "Wanneer ben je terug?", "en": "When are you back?" } },
+    { "id": "weg-adv", "nl": "weg", "en": "away; gone", "example": { "nl": "Mijn sleutel is weg!", "en": "My key is gone!" } },
+    { "id": "eergisteren", "nl": "eergisteren", "en": "the day before yesterday", "example": { "nl": "Eergisteren ben ik teruggekomen.", "en": "I came back the day before yesterday." } },
+    { "id": "ooit", "nl": "ooit", "en": "ever; once", "example": { "nl": "Ben jij ooit in Frankrijk geweest?", "en": "Have you ever been to France?" } },
+    { "id": "wereld", "nl": "wereld", "en": "world", "article": "de", "plural": "werelden", "forms": ["wereldje"], "example": { "nl": "Ik wil de wereld zien.", "en": "I want to see the world." } }
+  ],
+  "grammar": {
+    "title": "Perfect tense with zijn: ik ben gegaan",
+    "points": [
+      "Some verbs form the perfect with zijn instead of hebben: Ik ben naar Frankrijk gegaan.",
+      "These are mostly verbs of moving to a place or changing state: gaan, komen, terugkomen, thuiskomen, worden (to become).",
+      "zijn and blijven also take zijn: Ik ben in Frankrijk geweest. Ik ben thuis gebleven.",
+      "Verbs like fietsen, lopen, rijden and vliegen: zijn when you say where to (Ik ben naar Utrecht gefietst), hebben when only the activity matters (Ik heb veel gefietst).",
+      "The word order is the same as with hebben: the participle goes to the end."
+    ],
+    "examples": [
+      { "nl": "Tom is naar Frankrijk gegaan.", "en": "Tom went to France." },
+      { "nl": "We zijn naar Spanje gevlogen.", "en": "We flew to Spain." },
+      { "nl": "Ik ben twee weken gebleven.", "en": "I stayed for two weeks." },
+      { "nl": "Ze is ziek geworden.", "en": "She has fallen ill." },
+      { "nl": "Ben je op vakantie geweest?", "en": "Have you been on holiday?" },
+      { "nl": "Ik ben naar Utrecht gefietst.", "en": "I cycled to Utrecht." }
+    ],
+    "exercises": [
+      { "prompt": "Tom ___ naar Frankrijk gegaan.", "answer": "is", "hint": "hebben / zijn" },
+      { "prompt": "Wij ___ in een hotel geslapen.", "answer": "hebben", "hint": "hebben / zijn" },
+      { "prompt": "Ik ben twee weken ___.", "answer": "gebleven", "hint": "blijven" },
+      { "prompt": "Ben je op vakantie ___?", "answer": "geweest", "hint": "zijn" },
+      { "prompt": "Ze zijn naar Spanje ___.", "answer": "gevlogen", "hint": "vliegen" },
+      { "prompt": "Het is laat ___.", "answer": "geworden", "hint": "worden" }
+    ]
+  },
+  "dialogue": {
+    "title": "Hoe was je vakantie?",
+    "scene": "Tom is back from a holiday in France. Sara wants to hear all about it.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Hallo Tom! Je bent terug! Hoe was je vakantie?", "en": "Hi Tom! You're back! How was your holiday?", "gap": "terug" },
+      { "speaker": "Tom", "nl": "Heel leuk! Ik ben twee weken in Frankrijk geweest.", "en": "Really nice! I was in France for two weeks.", "gap": "geweest" },
+      { "speaker": "Sara", "nl": "Ben je gevlogen?", "en": "Did you fly?", "gap": "gevlogen" },
+      { "speaker": "Tom", "nl": "Nee, ik ben met de trein gegaan.", "en": "No, I went by train." },
+      { "speaker": "Sara", "nl": "En waar heb je geslapen?", "en": "And where did you sleep?" },
+      { "speaker": "Tom", "nl": "In een klein hotel dichtbij de zee.", "en": "In a small hotel near the sea.", "gap": "zee" },
+      { "speaker": "Sara", "nl": "Ben je veel naar het strand gegaan?", "en": "Did you go to the beach a lot?" },
+      { "speaker": "Tom", "nl": "Ja, elke dag. Het weer was heel mooi.", "en": "Yes, every day. The weather was lovely." },
+      { "speaker": "Sara", "nl": "Wanneer ben je teruggekomen?", "en": "When did you get back?" },
+      { "speaker": "Tom", "nl": "Eergisteren. Ik ben nog moe!", "en": "The day before yesterday. I'm still tired!", "gap": "Eergisteren" }
+    ]
+  }
+}

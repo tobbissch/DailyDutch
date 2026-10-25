@@ -1,0 +1,68 @@
+{
+  "day": 6,
+  "title": "Wij leren Nederlands",
+  "words": [
+    { "id": "wij", "nl": "wij", "en": "we", "forms": ["we"], "example": { "nl": "Wij wonen in Amsterdam.", "en": "We live in Amsterdam." } },
+    { "id": "jullie", "nl": "jullie", "en": "you (plural)", "example": { "nl": "Spreken jullie Nederlands?", "en": "Do you (all) speak Dutch?" } },
+    { "id": "werken", "nl": "werken", "en": "to work", "forms": ["werk", "werkte", "werkt", "werkten", "werkend", "gewerkt"], "example": { "nl": "Tom werkt in Utrecht.", "en": "Tom works in Utrecht." } },
+    { "id": "spreken", "nl": "spreken", "en": "to speak", "forms": ["spreek", "sprak", "spreekt", "spraken", "sprekend", "gesproken"], "example": { "nl": "Ik spreek Spaans en Engels.", "en": "I speak Spanish and English." } },
+    { "id": "leren", "nl": "leren", "en": "to learn; to teach", "forms": ["leer", "leerde", "leert", "leerden", "lerend", "geleerd"], "example": { "nl": "Wij leren Nederlands.", "en": "We are learning Dutch." } },
+    { "id": "nederlands", "nl": "Nederlands", "en": "Dutch", "forms": ["Nederlandser", "Nederlandst", "Nederlandse", "Nederlandsere", "Nederlandste"], "example": { "nl": "Tom spreekt Nederlands.", "en": "Tom speaks Dutch." } },
+    { "id": "engels", "nl": "Engels", "en": "English", "forms": ["Engelser", "Engelst", "Engelse", "Engelsere", "Engelste"], "example": { "nl": "Spreekt u Engels?", "en": "Do you speak English?" } },
+    { "id": "spaans", "nl": "Spaans", "en": "Spanish", "forms": ["Spaanser", "Spaanst", "Spaanse", "Spaansere", "Spaanste"], "example": { "nl": "Sara komt uit Spanje. Zij spreekt Spaans.", "en": "Sara is from Spain. She speaks Spanish." } },
+    { "id": "een-beetje", "nl": "een beetje", "en": "a little, a bit", "example": { "nl": "Ik spreek een beetje Nederlands.", "en": "I speak a little Dutch." } },
+    { "id": "les", "nl": "les", "en": "lesson, class", "article": "de", "plural": "lessen", "forms": ["lesje"], "example": { "nl": "De les is goed.", "en": "The lesson is good." } },
+    { "id": "cursus", "nl": "cursus", "en": "course", "article": "de", "plural": "cursussen", "forms": ["cursusje"], "example": { "nl": "De cursus is in Amsterdam.", "en": "The course is in Amsterdam." } },
+    { "id": "leraar", "nl": "leraar", "en": "teacher", "article": "de", "plural": "leraren", "forms": ["leraartje"], "example": { "nl": "De leraar spreekt Nederlands en Engels.", "en": "The teacher speaks Dutch and English." } },
+    { "id": "student", "nl": "student", "en": "student", "article": "de", "plural": "studenten", "forms": ["studentje"], "example": { "nl": "Wij zijn studenten.", "en": "We are students." } },
+    { "id": "veel", "nl": "veel", "en": "a lot, much, many", "example": { "nl": "Jullie leren veel!", "en": "You're learning a lot!" } },
+    { "id": "maar", "nl": "maar", "en": "but", "example": { "nl": "Ik spreek Spaans, maar niet veel Nederlands.", "en": "I speak Spanish, but not much Dutch." } },
+    { "id": "dat", "nl": "dat", "en": "that", "example": { "nl": "Dat is goed!", "en": "That's good!" } },
+    { "id": "zo", "nl": "zo", "en": "so, like that", "example": { "nl": "Is dat zo?", "en": "Is that so?" } },
+    { "id": "begrijpen", "nl": "begrijpen", "en": "to understand", "forms": ["begrijp", "begrijpt", "begreep", "begrepen", "begrijpend"], "example": { "nl": "Ik begrijp het niet.", "en": "I don't understand." } },
+    { "id": "bedoelen", "nl": "bedoelen", "en": "to mean", "forms": ["bedoel", "bedoelt", "bedoelde", "bedoelden", "bedoeld", "bedoelend"], "example": { "nl": "Wat bedoel je?", "en": "What do you mean?" } },
+    { "id": "noemen", "nl": "noemen", "en": "to call, to name", "forms": ["noem", "noemt", "noemde", "noemden", "genoemd", "noemend"], "example": { "nl": "Hoe noem je dat in het Nederlands?", "en": "What do you call that in Dutch?" } },
+    { "id": "alleen", "nl": "alleen", "en": "only; alone", "example": { "nl": "Ik spreek alleen een beetje Nederlands.", "en": "I only speak a little Dutch." } }
+  ],
+  "grammar": {
+    "title": "wij, jullie, zij + infinitive; spelling: spreken → ik spreek",
+    "points": [
+      "Plural subjects: wij/we (we), jullie (you, plural) and zij/ze (they).",
+      "With all three, the verb is simply the infinitive: wij werken, jullie werken, zij werken.",
+      "The full picture: ik werk, jij werkt, hij/zij werkt, wij/jullie/zij werken.",
+      "Spelling: a long vowel at the end of a syllable is written once (spre-ken), but inside a closed syllable it's doubled: spreken → ik spreek, leren → ik leer.",
+      "A stem never ends in a double consonant: zeggen → ik zeg, hebben → ik heb.",
+      "zij can mean 'she' or 'they' — the verb tells you which: zij spreekt (she), zij spreken (they)."
+    ],
+    "examples": [
+      { "nl": "Wij leren Nederlands.", "en": "We are learning Dutch." },
+      { "nl": "Jullie spreken Engels.", "en": "You (all) speak English." },
+      { "nl": "Zij werken in Utrecht.", "en": "They work in Utrecht." },
+      { "nl": "Ik spreek een beetje Nederlands.", "en": "I speak a little Dutch." },
+      { "nl": "Hij leert Spaans.", "en": "He is learning Spanish." }
+    ],
+    "exercises": [
+      { "prompt": "Wij ___ Nederlands.", "answer": "leren", "hint": "leren" },
+      { "prompt": "Ik ___ Spaans.", "answer": "spreek", "hint": "spreken" },
+      { "prompt": "Jullie ___ in Amsterdam.", "answer": "werken", "hint": "werken" },
+      { "prompt": "Zij ___ Engels.", "answer": "spreken", "hint": "spreken (they)" },
+      { "prompt": "Hij ___ Nederlands.", "answer": "leert", "hint": "leren" }
+    ]
+  },
+  "dialogue": {
+    "title": "De eerste les",
+    "scene": "Sara on the first evening of her Dutch course.",
+    "lines": [
+      { "speaker": "Leraar", "nl": "Dag! Ik ben de leraar. Wie zijn jullie?", "en": "Hello! I'm the teacher. Who are you all?" },
+      { "speaker": "Leraar", "nl": "En waar komen jullie vandaan?", "en": "And where do you come from?", "gap": "komen" },
+      { "speaker": "Sara", "nl": "Ik ben Sara. Ik kom uit Spanje.", "en": "I'm Sara. I'm from Spain." },
+      { "speaker": "Leraar", "nl": "Spreek jij Nederlands, Sara?", "en": "Do you speak Dutch, Sara?", "gap": "Spreek" },
+      { "speaker": "Sara", "nl": "Een beetje. Ik spreek Spaans en Engels.", "en": "A little. I speak Spanish and English.", "gap": "Een beetje" },
+      { "speaker": "Student", "nl": "Ik kom ook niet uit Nederland. Ik werk in Amsterdam.", "en": "I'm not from the Netherlands either. I work in Amsterdam." },
+      { "speaker": "Leraar", "nl": "Goed! Wij leren veel Nederlands in de cursus.", "en": "Good! We're going to learn a lot of Dutch in this course.", "gap": "leren" },
+      { "speaker": "Sara", "nl": "Is de les in het Engels?", "en": "Is the class in English?" },
+      { "speaker": "Leraar", "nl": "Nee, de les is in het Nederlands! Maar ik spreek ook Engels.", "en": "No, the class is in Dutch! But I speak English too." },
+      { "speaker": "Sara", "nl": "Oké, ik begrijp het. Dat is goed!", "en": "OK, I understand. That's good!" }
+    ]
+  }
+}

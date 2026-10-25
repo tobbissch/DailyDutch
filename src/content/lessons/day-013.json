@@ -1,0 +1,66 @@
+{
+  "day": 13,
+  "title": "Mijn huis",
+  "words": [
+    { "id": "huis", "nl": "huis", "en": "house, home", "article": "het", "plural": "huizen", "forms": ["huisje"], "example": { "nl": "Henk en Ria hebben een groot huis.", "en": "Henk and Ria have a big house." } },
+    { "id": "kamer", "nl": "kamer", "en": "room", "article": "de", "plural": "kamers", "forms": ["kamertje"], "example": { "nl": "Mijn kamer is klein.", "en": "My room is small." } },
+    { "id": "keuken", "nl": "keuken", "en": "kitchen", "article": "de", "plural": "keukens", "forms": ["keukentje"], "example": { "nl": "De keuken is nieuw.", "en": "The kitchen is new." } },
+    { "id": "badkamer", "nl": "badkamer", "en": "bathroom", "article": "de", "plural": "badkamers", "forms": ["badkamertje"], "example": { "nl": "Waar is de badkamer?", "en": "Where is the bathroom?" } },
+    { "id": "slaapkamer", "nl": "slaapkamer", "en": "bedroom", "article": "de", "plural": "slaapkamers", "forms": ["slaapkamertje"], "example": { "nl": "Het appartement heeft twee slaapkamers.", "en": "The apartment has two bedrooms." } },
+    { "id": "woonkamer", "nl": "woonkamer", "en": "living room", "article": "de", "plural": "woonkamers", "forms": ["woonkamertje"], "example": { "nl": "De woonkamer is groot en mooi.", "en": "The living room is big and nice." } },
+    { "id": "tuin", "nl": "tuin", "en": "garden", "article": "de", "plural": "tuinen", "forms": ["tuintje"], "example": { "nl": "Hebben jullie een tuin?", "en": "Do you have a garden?" } },
+    { "id": "appartement", "nl": "appartement", "en": "apartment, flat", "article": "het", "plural": "appartementen", "forms": ["appartementje"], "example": { "nl": "Sara woont in een klein appartement.", "en": "Sara lives in a small apartment." } },
+    { "id": "zijn-det", "nl": "zijn", "en": "his", "example": { "nl": "Anna is zijn zus.", "en": "Anna is his sister." } },
+    { "id": "haar", "nl": "haar", "en": "her", "example": { "nl": "Mark is haar man.", "en": "Mark is her husband." } },
+    { "id": "ons", "nl": "ons", "en": "our", "forms": ["onze"], "example": { "nl": "Ons huis is groot. Onze tuin is klein.", "en": "Our house is big. Our garden is small." } },
+    { "id": "hun", "nl": "hun", "en": "their", "example": { "nl": "Noor en Daan zijn hun kinderen.", "en": "Noor and Daan are their children." } },
+    { "id": "hier", "nl": "hier", "en": "here", "example": { "nl": "Hier is de keuken.", "en": "Here is the kitchen." } },
+    { "id": "daar", "nl": "daar", "en": "there", "example": { "nl": "Daar is de badkamer.", "en": "The bathroom is over there." } },
+    { "id": "buurman", "nl": "buurman", "en": "neighbour (man)", "article": "de", "plural": "buurmannen", "forms": ["buurmannetje"], "example": { "nl": "Mijn buurman spreekt Engels.", "en": "My neighbour speaks English." } },
+    { "id": "buurvrouw", "nl": "buurvrouw", "en": "neighbour (woman)", "article": "de", "plural": "buurvrouwen", "forms": ["buurvrouwtje"], "example": { "nl": "Mijn buurvrouw heeft een mooie tuin.", "en": "My neighbour has a beautiful garden." } },
+    { "id": "welkom", "nl": "welkom", "en": "welcome", "forms": ["welkome"], "example": { "nl": "Welkom in mijn huis!", "en": "Welcome to my house!" } },
+    { "id": "buurt", "nl": "buurt", "en": "neighbourhood (in de buurt = nearby)", "article": "de", "plural": "buurten", "forms": ["buurtje"], "example": { "nl": "Mijn huis is in een mooie buurt.", "en": "My house is in a nice neighbourhood." } },
+    { "id": "ander", "nl": "ander", "en": "other, different", "forms": ["andere"], "example": { "nl": "De andere kamer is klein.", "en": "The other room is small." } }
+  ],
+  "grammar": {
+    "title": "Possessives: mijn, jouw, zijn, haar, ons/onze, hun",
+    "points": [
+      "mijn (my), jouw/je (your), uw (your, polite), zijn (his), haar (her), ons/onze (our), jullie (your, plural), hun (their).",
+      "ons is for singular het-words: ons huis. onze is for de-words and all plurals: onze tuin, onze huizen.",
+      "jouw is stressed; je is the everyday unstressed form: je kamer.",
+      "A possessive replaces de or het: de kamer → mijn kamer.",
+      "zijn means 'his' as well as 'to be' — the context tells you which."
+    ],
+    "examples": [
+      { "nl": "Hier is mijn appartement.", "en": "Here's my apartment." },
+      { "nl": "Is dat jouw kamer?", "en": "Is that your room?" },
+      { "nl": "Anna woont met haar man in Utrecht.", "en": "Anna lives in Utrecht with her husband." },
+      { "nl": "Ons huis heeft een tuin.", "en": "Our house has a garden." },
+      { "nl": "Onze keuken is klein.", "en": "Our kitchen is small." },
+      { "nl": "Henk en Ria wonen in Utrecht. Hun tuin is groot.", "en": "Henk and Ria live in Utrecht. Their garden is big." }
+    ],
+    "exercises": [
+      { "prompt": "Hier is ___ appartement.", "answer": "mijn", "hint": "ik" },
+      { "prompt": "Is dat ___ kamer, Sara?", "answer": "jouw", "hint": "jij" },
+      { "prompt": "Anna is de zus van Tom. Tom is ___ broer.", "answer": "haar", "hint": "zij (she)" },
+      { "prompt": "___ huis is groot.", "answer": "Ons", "hint": "wij (het huis)" },
+      { "prompt": "___ keuken is klein.", "answer": "Onze", "hint": "wij (de keuken)" },
+      { "prompt": "Noor en Daan wonen in Utrecht. ___ moeder is Anna.", "answer": "Hun", "hint": "zij (they)" }
+    ]
+  },
+  "dialogue": {
+    "title": "Het appartement van Sara",
+    "scene": "Tom visits Sara's new apartment.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Hallo Tom! Welkom! Hier is mijn appartement.", "en": "Hi Tom! Welcome! Here's my apartment.", "gap": "mijn" },
+      { "speaker": "Tom", "nl": "Wat mooi! Is het groot?", "en": "How nice! Is it big?" },
+      { "speaker": "Sara", "nl": "Nee, het is klein. Hier is de woonkamer en daar is de keuken.", "en": "No, it's small. Here's the living room and there's the kitchen.", "gap": "daar" },
+      { "speaker": "Tom", "nl": "En waar is de badkamer?", "en": "And where's the bathroom?" },
+      { "speaker": "Sara", "nl": "De badkamer is hier. En dat is mijn slaapkamer.", "en": "The bathroom is here. And that's my bedroom.", "gap": "slaapkamer" },
+      { "speaker": "Tom", "nl": "Heb jij ook een tuin?", "en": "Do you have a garden too?" },
+      { "speaker": "Sara", "nl": "Nee, maar mijn buurman en buurvrouw hebben een grote tuin.", "en": "No, but my neighbours have a big garden.", "gap": "buurvrouw" },
+      { "speaker": "Tom", "nl": "Daar? Hun tuin is heel mooi!", "en": "Over there? Their garden is really beautiful!", "gap": "Hun" },
+      { "speaker": "Sara", "nl": "Ja! Ik woon hier graag. Het is een mooie buurt.", "en": "Yes! I like living here. It's a nice neighbourhood." }
+    ]
+  }
+}

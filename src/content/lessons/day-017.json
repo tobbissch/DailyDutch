@@ -1,0 +1,61 @@
+{
+  "day": 17,
+  "title": "Waar is de bakker?",
+  "words": [
+    { "id": "links", "nl": "links", "en": "left", "forms": ["linkser", "linkst", "linkse", "linksere", "linkste"], "example": { "nl": "Ga hier links.", "en": "Turn left here." } },
+    { "id": "rechts", "nl": "rechts", "en": "right", "forms": ["rechtser", "rechtst", "rechtse", "rechtsere", "rechtste"], "example": { "nl": "Het station is rechts.", "en": "The station is on the right." } },
+    { "id": "rechtdoor", "nl": "rechtdoor", "en": "straight on", "example": { "nl": "Ga rechtdoor.", "en": "Go straight on." } },
+    { "id": "straat", "nl": "straat", "en": "street", "article": "de", "plural": "straten", "forms": ["straatje"], "example": { "nl": "Mijn straat is heel lang.", "en": "My street is very long." } },
+    { "id": "hoek", "nl": "hoek", "en": "corner", "article": "de", "plural": "hoeken", "forms": ["hoekje"], "example": { "nl": "De bakker is op de hoek.", "en": "The bakery is on the corner." } },
+    { "id": "weg", "nl": "weg", "en": "road; way", "article": "de", "plural": "wegen", "forms": ["wegje", "weggetje"], "example": { "nl": "Ik zoek de weg naar het station.", "en": "I'm looking for the way to the station." } },
+    { "id": "plein", "nl": "plein", "en": "square", "article": "het", "plural": "pleinen", "forms": ["pleintje"], "example": { "nl": "Het museum is op het plein.", "en": "The museum is on the square." } },
+    { "id": "brug", "nl": "brug", "en": "bridge", "article": "de", "plural": "bruggen", "forms": ["bruggetje", "brugje"], "example": { "nl": "Ga over de brug.", "en": "Go over the bridge." } },
+    { "id": "oversteken", "nl": "oversteken", "en": "to cross", "forms": ["steek over", "stak over", "oversteek", "overstak", "steekt over", "oversteekt", "steken over", "staken over", "overstaken", "overstekend", "overgestoken"], "example": { "nl": "Steek de straat over.", "en": "Cross the street." } },
+    { "id": "eerste", "nl": "eerste", "en": "first", "example": { "nl": "Neem de eerste straat rechts.", "en": "Take the first street on the right." } },
+    { "id": "tweede", "nl": "tweede", "en": "second", "example": { "nl": "Neem de tweede straat links.", "en": "Take the second street on the left." } },
+    { "id": "derde", "nl": "derde", "en": "third", "example": { "nl": "Mijn huis is het derde huis.", "en": "My house is the third house." } },
+    { "id": "stoplicht", "nl": "stoplicht", "en": "traffic light", "article": "het", "plural": "stoplichten", "forms": ["stoplichtje"], "example": { "nl": "Daar is een stoplicht. Ga daar links.", "en": "There's a traffic light there. Turn left there." } },
+    { "id": "zoeken", "nl": "zoeken", "en": "to look for, to search", "forms": ["zoek", "zocht", "zoekt", "zochten", "zoekend", "gezocht"], "example": { "nl": "Ik zoek de bakker.", "en": "I'm looking for the bakery." } },
+    { "id": "vinden", "nl": "vinden", "en": "to find", "forms": ["vind", "vond", "vindt", "vonden", "vindend", "gevonden"], "example": { "nl": "Ik kan het station niet vinden.", "en": "I can't find the station." } },
+    { "id": "bakker", "nl": "bakker", "en": "baker; bakery", "article": "de", "plural": "bakkers", "forms": ["bakkertje"], "example": { "nl": "Waar is de bakker?", "en": "Where is the bakery?" } }
+  ],
+  "grammar": {
+    "title": "Giving directions: Ga rechtdoor!",
+    "points": [
+      "The imperative (an order or instruction) is just the stem of the verb: gaan → ga, nemen → neem, kijken → kijk.",
+      "It's the same for one person or more, and for jij and u: Ga rechtdoor! Neem de tweede straat.",
+      "With a separable verb the prefix goes to the end: oversteken → Steek de straat over.",
+      "Add alstublieft (or a friendly tone) to sound polite: Neem de eerste straat links, alstublieft.",
+      "Ordinals: eerste (1st), tweede (2nd), derde (3rd)."
+    ],
+    "examples": [
+      { "nl": "Ga rechtdoor.", "en": "Go straight on." },
+      { "nl": "Neem de tweede straat links.", "en": "Take the second street on the left." },
+      { "nl": "Steek de straat over.", "en": "Cross the street." },
+      { "nl": "Ga over de brug.", "en": "Go over the bridge." },
+      { "nl": "Kijk, daar is de bakker!", "en": "Look, there's the bakery!" }
+    ],
+    "exercises": [
+      { "prompt": "___ rechtdoor.", "answer": "Ga", "hint": "gaan" },
+      { "prompt": "___ de eerste straat rechts.", "answer": "Neem", "hint": "nemen" },
+      { "prompt": "___ de straat over.", "answer": "Steek", "hint": "oversteken" },
+      { "prompt": "___, daar is het station!", "answer": "Kijk", "hint": "kijken" },
+      { "prompt": "Neem de ___ straat links.", "answer": "tweede", "hint": "2nd" }
+    ]
+  },
+  "dialogue": {
+    "title": "Ik zoek de bakker",
+    "scene": "A tourist asks Sara the way to the bakery.",
+    "lines": [
+      { "speaker": "Toerist", "nl": "Sorry, ik zoek de bakker. Waar is de bakker?", "en": "Excuse me, I'm looking for the bakery. Where is it?", "gap": "zoek" },
+      { "speaker": "Sara", "nl": "De bakker? Dat is niet ver.", "en": "The bakery? It's not far." },
+      { "speaker": "Toerist", "nl": "Is het links of rechts?", "en": "Is it left or right?" },
+      { "speaker": "Sara", "nl": "Ga hier rechtdoor. Daar is een stoplicht. Ga daar links.", "en": "Go straight on here. There's a traffic light there. Turn left there.", "gap": "rechtdoor" },
+      { "speaker": "Toerist", "nl": "Daar links. En dan?", "en": "Left there. And then?" },
+      { "speaker": "Sara", "nl": "Ga over de brug en neem de tweede straat rechts.", "en": "Go over the bridge and take the second street on the right.", "gap": "over de brug" },
+      { "speaker": "Toerist", "nl": "De tweede straat rechts.", "en": "The second street on the right." },
+      { "speaker": "Sara", "nl": "Ja. Steek daar de straat over. De bakker is op de hoek.", "en": "Yes. Cross the street there. The bakery is on the corner.", "gap": "Steek" },
+      { "speaker": "Toerist", "nl": "Dank u wel! Dag!", "en": "Thank you! Bye!" }
+    ]
+  }
+}

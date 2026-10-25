@@ -1,0 +1,70 @@
+{
+  "day": 70,
+  "title": "Klagen",
+  "names": ["Sara", "Tom"],
+  "words": [
+    { "id": "klacht", "nl": "klacht", "en": "complaint", "article": "de", "plural": "klachten", "forms": ["klachtje"], "example": { "nl": "Ik heb een klacht over het eten.", "en": "I have a complaint about the food." } },
+    { "id": "spijt-me", "nl": "het spijt me", "en": "I'm sorry", "forms": ["spijt me"], "example": { "nl": "Het spijt me, maar de soep is koud.", "en": "I'm sorry, but the soup is cold." } },
+    { "id": "spijten", "nl": "spijten", "en": "to be sorry (het spijt me = I'm sorry)", "forms": ["spijt", "speet", "speten", "spijtend", "gespeten"], "example": { "nl": "Het speet hem echt.", "en": "He was really sorry." } },
+    { "id": "lauw", "nl": "lauw", "en": "lukewarm", "forms": ["lauwer", "lauwst", "lauwe", "lauwere", "lauwste"], "example": { "nl": "De koffie is lauw.", "en": "The coffee is lukewarm." } },
+    { "id": "rauw", "nl": "rauw", "en": "raw", "forms": ["rauwer", "rauwst", "rauwe", "rauwere", "rauwste"], "example": { "nl": "Het vlees is nog rauw.", "en": "The meat is still raw." } },
+    { "id": "verbrand", "nl": "verbrand", "en": "burnt", "forms": ["verbrande"], "example": { "nl": "Het brood is verbrand.", "en": "The bread is burnt." } },
+    { "id": "zout", "nl": "zout", "en": "salty", "forms": ["zouter", "zoutst", "zoute", "zoutere", "zoutste"], "example": { "nl": "De vis is te zout.", "en": "The fish is too salty." } },
+    { "id": "zoet", "nl": "zoet", "en": "sweet", "forms": ["zoeter", "zoetst", "zoete", "zoetere", "zoetste"], "example": { "nl": "Deze taart is heel zoet.", "en": "This cake is very sweet." } },
+    { "id": "zuur", "nl": "zuur", "en": "sour", "forms": ["zuurder", "zuurst", "zure", "zuurdere", "zuurste"], "example": { "nl": "De wijn is zuur.", "en": "The wine is sour." } },
+    { "id": "bitter", "nl": "bitter", "en": "bitter", "forms": ["bitterder", "bitterst", "bittere", "bitterdere", "bitterste"], "example": { "nl": "Deze koffie is te bitter.", "en": "This coffee is too bitter." } },
+    { "id": "fout", "nl": "fout", "en": "mistake, error", "article": "de", "plural": "fouten", "forms": ["foutje"], "example": { "nl": "Er staat een fout in de rekening.", "en": "There's a mistake in the bill." } },
+    { "id": "terugsturen", "nl": "terugsturen", "en": "to send back", "forms": ["stuur terug", "stuurde terug", "terugstuur", "terugstuurde", "stuurt terug", "terugstuurt", "sturen terug", "stuurden terug", "terugstuurden", "terugsturend", "teruggestuurd"], "example": { "nl": "Ik stuur de soep terug.", "en": "I'm sending the soup back." } },
+    { "id": "manager", "nl": "manager", "en": "manager", "article": "de", "plural": "managers", "forms": ["managertje"], "example": { "nl": "Mag ik de manager spreken?", "en": "May I speak to the manager?" } },
+    { "id": "oplossen", "nl": "oplossen", "en": "to solve, to sort out", "forms": ["los op", "loste op", "oplos", "oploste", "lost op", "oplost", "lossen op", "losten op", "oplosten", "oplossend", "opgelost"], "example": { "nl": "We lossen het samen op.", "en": "We'll sort it out together." } },
+    { "id": "toch", "nl": "toch", "en": "still, anyway; …, right? (surprise or contrast)", "example": { "nl": "Ik had toch vis besteld?", "en": "I did order fish, didn't I?" } },
+    { "id": "kloppen", "nl": "kloppen", "en": "to be right, to add up; to knock", "forms": ["klop", "klopt", "klopte", "klopten", "kloppend", "geklopt"], "example": { "nl": "De rekening klopt niet.", "en": "The bill isn't right." } }
+  ],
+  "grammar": {
+    "title": "Complaining politely: Het spijt me, maar…",
+    "points": [
+      "Start softly: Het spijt me, maar… or Sorry, maar… Then say what is wrong.",
+      "helaas = unfortunately. It makes a complaint sound friendlier: De soep is helaas koud.",
+      "te + adjective = too …: te zout, te zoet, te bitter. Other useful words: lauw, rauw, verbrand.",
+      "toch in a question shows surprise: Ik had toch vis besteld? = I did order fish, didn't I? On its own it can mean 'still, anyway': Toch een leuke avond!",
+      "Ask for a solution with zou: Zou u de soep kunnen terugsturen? Zou u dit kunnen oplossen?",
+      "Staff often answer: Het spijt me. / Excuus. / Dat lossen we op."
+    ],
+    "examples": [
+      { "nl": "Het spijt me, maar de soep is koud.", "en": "I'm sorry, but the soup is cold." },
+      { "nl": "De vis is helaas te zout.", "en": "Unfortunately the fish is too salty." },
+      { "nl": "We hebben toch geen nagerecht gehad?", "en": "We didn't have dessert, did we?" },
+      { "nl": "De rekening klopt niet: er staat twee keer wijn op.", "en": "The bill isn't right: the wine is on it twice." },
+      { "nl": "Zou u dit kunnen oplossen?", "en": "Could you sort this out?" },
+      { "nl": "Mag ik de manager spreken?", "en": "May I speak to the manager?" }
+    ],
+    "exercises": [
+      { "prompt": "Het ___ me, maar de soep is koud.", "answer": "spijt", "hint": "spijten" },
+      { "prompt": "De vis is ___ te zout.", "answer": "helaas", "hint": "unfortunately" },
+      { "prompt": "Ik had ___ geen kaas besteld?", "answer": "toch", "hint": "surprise" },
+      { "prompt": "De rekening ___ niet.", "answer": "klopt", "hint": "kloppen" },
+      { "prompt": "Het vlees is nog ___ en rood.", "answer": "rauw", "hint": "raw" },
+      { "prompt": "Zou u dit kunnen ___?", "answer": "oplossen", "hint": "to sort out" }
+    ]
+  },
+  "dialogue": {
+    "title": "De rekening klopt niet",
+    "scene": "At a restaurant, Sara's soup is cold, Tom's fish is too salty — and then the bill is wrong.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Sorry! Mag ik even iets zeggen?", "en": "Excuse me! Could I say something?" },
+      { "speaker": "Ober", "nl": "Ja, zegt u het maar.", "en": "Yes, go ahead." },
+      { "speaker": "Sara", "nl": "Het spijt me, maar mijn soep is koud.", "en": "I'm sorry, but my soup is cold.", "gap": "spijt" },
+      { "speaker": "Tom", "nl": "En mijn vis is helaas heel zout.", "en": "And unfortunately my fish is very salty.", "gap": "helaas" },
+      { "speaker": "Ober", "nl": "Excuus! Ik stuur het eten terug naar de keuken.", "en": "I apologise! I'll send the food back to the kitchen." },
+      { "speaker": "Sara", "nl": "Dank u. Nu is de soep lekker warm.", "en": "Thank you. Now the soup is nice and hot." },
+      { "speaker": "Tom", "nl": "Sara, kijk naar de rekening. Die klopt niet.", "en": "Sara, look at the bill. It isn't right.", "gap": "klopt" },
+      { "speaker": "Sara", "nl": "Nee, er staat twee keer wijn op. En we hebben toch geen nagerecht gehad?", "en": "No, the wine is on there twice. And we didn't have dessert, did we?", "gap": "toch" },
+      { "speaker": "Tom", "nl": "Sorry, maar er staan fouten in de rekening.", "en": "Sorry, but there are mistakes in the bill." },
+      { "speaker": "Ober", "nl": "Dat spijt me echt. Ik haal de manager.", "en": "I'm really sorry. I'll get the manager." },
+      { "speaker": "Manager", "nl": "Dag. Ik hoor dat u een klacht heeft. Dat lossen we nu op.", "en": "Hello. I hear you have a complaint. We'll sort that out now.", "gap": "lossen" },
+      { "speaker": "Manager", "nl": "De koude soep staat niet op de rekening.", "en": "The cold soup won't be on the bill." },
+      { "speaker": "Tom", "nl": "Dank u. Dat is heel vriendelijk.", "en": "Thank you. That's very kind." },
+      { "speaker": "Sara", "nl": "Toch een leuke avond!", "en": "A nice evening anyway!" }
+    ]
+  }
+}

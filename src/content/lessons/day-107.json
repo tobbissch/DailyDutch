@@ -1,0 +1,65 @@
+{
+  "day": 107,
+  "title": "De bibliotheek",
+  "words": [
+    { "id": "bibliotheek", "nl": "bibliotheek", "en": "library", "article": "de", "plural": "bibliotheken", "forms": ["bibliotheekje"], "example": { "nl": "De bibliotheek is op zondag gesloten.", "en": "The library is closed on Sunday." } },
+    { "id": "pasje", "nl": "pasje", "en": "card, pass", "article": "het", "plural": "pasjes", "example": { "nl": "Met dit pasje kun je boeken lenen.", "en": "With this card you can borrow books." } },
+    { "id": "uitlenen", "nl": "uitlenen", "en": "to lend (out)", "forms": ["leen uit", "leende uit", "uitleen", "uitleende", "leent uit", "uitleent", "lenen uit", "leenden uit", "uitleenden", "uitlenend", "uitgeleend"], "example": { "nl": "De bibliotheek leent ook films uit.", "en": "The library also lends out films." } },
+    { "id": "inleveren", "nl": "inleveren", "en": "to hand in, to return", "forms": ["lever in", "leverde in", "inlever", "inleverde", "levert in", "inlevert", "leveren in", "leverden in", "inleverden", "inleverend", "ingeleverd"], "example": { "nl": "Ik moet de boeken morgen inleveren.", "en": "I have to return the books tomorrow." } },
+    { "id": "verlengen", "nl": "verlengen", "en": "to renew, to extend", "forms": ["verleng", "verlengde", "verlengt", "verlengden", "verlengend", "verlengd"], "example": { "nl": "Je kunt de boeken online verlengen.", "en": "You can renew the books online." } },
+    { "id": "boete-noun", "nl": "boete", "en": "fine", "article": "de", "plural": "boetes", "example": { "nl": "Te laat? Dan betaal je een boete.", "en": "Too late? Then you pay a fine." } },
+    { "id": "roman", "nl": "roman", "en": "novel", "article": "de", "plural": "romans", "forms": ["romannetje"], "example": { "nl": "Ik lees een spannende roman.", "en": "I'm reading an exciting novel." } },
+    { "id": "schrijver", "nl": "schrijver", "en": "writer, author", "article": "de", "plural": "schrijvers", "forms": ["schrijvertje"], "example": { "nl": "Wie is de schrijver van dit boek?", "en": "Who is the author of this book?" } },
+    { "id": "schrijfster", "nl": "schrijfster", "en": "writer (female)", "article": "de", "plural": "schrijfsters", "forms": ["schrijfstertje"], "example": { "nl": "Die schrijfster komt uit Utrecht.", "en": "That writer comes from Utrecht." } },
+    { "id": "tijdschrift", "nl": "tijdschrift", "en": "magazine", "article": "het", "plural": "tijdschriften", "forms": ["tijdschriftje"], "example": { "nl": "In de bibliotheek lees ik tijdschriften.", "en": "At the library I read magazines." } },
+    { "id": "strip", "nl": "strip", "en": "comic (strip)", "article": "de", "plural": "strips", "forms": ["stripje"], "example": { "nl": "Daan leest graag strips.", "en": "Daan likes reading comics." } },
+    { "id": "lezing", "nl": "lezing", "en": "lecture, talk", "article": "de", "plural": "lezingen", "forms": ["lezinkje"], "example": { "nl": "Donderdag is er een lezing over Amsterdam.", "en": "On Thursday there is a talk about Amsterdam." } },
+    { "id": "cursus-noun", "nl": "cursus", "en": "course", "article": "de", "plural": "cursussen", "forms": ["cursusje"], "example": { "nl": "De bibliotheek organiseert een cursus Nederlands.", "en": "The library organises a Dutch course." } },
+    { "id": "workshop", "nl": "workshop", "en": "workshop", "article": "de", "plural": "workshops", "example": { "nl": "Ik doe mee aan een workshop schrijven.", "en": "I'm taking part in a writing workshop." } },
+    { "id": "stilte", "nl": "stilte", "en": "silence", "article": "de", "plural": "stilten", "forms": ["stiltetje"], "example": { "nl": "In de bibliotheek is het stilte.", "en": "In the library it's quiet. (lit. it is silence)" } }
+  ],
+  "grammar": {
+    "title": "lenen or uitlenen? Verbs with a preposition",
+    "points": [
+      "lenen usually means 'to borrow': Ik leen een boek van de bibliotheek (from = van).",
+      "lenen can also mean 'to lend': Kun jij mij tien euro lenen? The person who gets something comes right after the verb or after aan.",
+      "uitlenen means 'to lend out', usually by an organisation: De bibliotheek leent boeken uit.",
+      "Many verbs go with a fixed preposition that you have to learn: wachten op, houden van, denken aan, praten over, lenen van.",
+      "inleveren bij: you return something to a person or place: Ik lever het boek in bij de bibliotheek."
+    ],
+    "examples": [
+      { "nl": "Ik leen een roman van de bibliotheek.", "en": "I borrow a novel from the library." },
+      { "nl": "Kun jij mij je fiets lenen?", "en": "Can you lend me your bike?" },
+      { "nl": "De bibliotheek leent ook tijdschriften uit.", "en": "The library also lends out magazines." },
+      { "nl": "Sara wacht op haar pasje.", "en": "Sara is waiting for her card." },
+      { "nl": "Ik lever de boeken in bij de bibliotheek.", "en": "I return the books to the library." }
+    ],
+    "exercises": [
+      { "prompt": "Ik ___ een roman van de bibliotheek.", "answer": "leen", "hint": "lenen" },
+      { "prompt": "De bibliotheek ___ ook strips uit.", "answer": "leent", "hint": "uitlenen" },
+      { "prompt": "Ik denk ___ de lezing van donderdag.", "answer": "aan", "hint": "preposition" },
+      { "prompt": "Sara wacht ___ haar pasje.", "answer": "op", "hint": "preposition" },
+      { "prompt": "Daan houdt ___ strips.", "answer": "van", "hint": "preposition" },
+      { "prompt": "Heb jij de boeken al ___?", "answer": "ingeleverd", "hint": "inleveren" }
+    ]
+  },
+  "dialogue": {
+    "title": "Lid worden van de bibliotheek",
+    "scene": "Sara gets a library card at her local library in Amsterdam.",
+    "lines": [
+      { "speaker": "Medewerker", "nl": "Dag, kan ik u helpen?", "en": "Hello, can I help you?" },
+      { "speaker": "Sara", "nl": "Ja, ik wil graag lid worden van de bibliotheek.", "en": "Yes, I'd like to become a member of the library.", "gap": "bibliotheek" },
+      { "speaker": "Medewerker", "nl": "Dat kan. Heeft u een paspoort bij u?", "en": "Sure. Do you have a passport with you?" },
+      { "speaker": "Sara", "nl": "Alstublieft. Hoeveel kost een pasje?", "en": "Here you are. How much does a card cost?" },
+      { "speaker": "Medewerker", "nl": "Voor een jaar betaalt u 45 euro. Dan kunt u ook digitale boeken lenen.", "en": "It's 45 euros for a year. Then you can also borrow e-books." },
+      { "speaker": "Sara", "nl": "Hoe lang mag ik een boek houden?", "en": "How long can I keep a book?" },
+      { "speaker": "Medewerker", "nl": "Drie weken. U kunt de boeken ook online verlengen.", "en": "Three weeks. You can also renew the books online.", "gap": "verlengen" },
+      { "speaker": "Sara", "nl": "En als ik een boek te laat inlever?", "en": "And if I return a book late?", "gap": "inlever" },
+      { "speaker": "Medewerker", "nl": "Dan betaalt u een kleine boete.", "en": "Then you pay a small fine." },
+      { "speaker": "Sara", "nl": "Ik wil mijn Nederlands verbeteren. Heeft u makkelijke romans?", "en": "I want to improve my Dutch. Do you have easy novels?" },
+      { "speaker": "Medewerker", "nl": "Zeker. Die staan daar, naast de tijdschriften en de strips.", "en": "Certainly. They're over there, next to the magazines and the comics." },
+      { "speaker": "Sara", "nl": "Organiseert de bibliotheek ook lezingen of workshops?", "en": "Does the library also organise talks or workshops?" },
+      { "speaker": "Medewerker", "nl": "Ja, elke donderdag is er een lezing van een schrijver of schrijfster.", "en": "Yes, every Thursday there's a talk by a writer.", "gap": "lezing" }
+    ]
+  }
+}

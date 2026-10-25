@@ -1,0 +1,61 @@
+{
+  "day": 51,
+  "title": "Op zoek naar werk",
+  "words": [
+    { "id": "solliciteren", "nl": "solliciteren", "en": "to apply (for a job) (solliciteren naar)", "forms": ["solliciteer", "solliciteerde", "solliciteert", "solliciteerden", "solliciterend", "gesolliciteerd"], "example": { "nl": "Ik solliciteer naar een baan in Amsterdam.", "en": "I'm applying for a job in Amsterdam." } },
+    { "id": "vacature", "nl": "vacature", "en": "vacancy, job opening", "article": "de", "plural": "vacatures", "forms": ["vacaturetje"], "example": { "nl": "Ik heb een leuke vacature gevonden.", "en": "I've found a nice job opening." } },
+    { "id": "functie", "nl": "functie", "en": "position, job; function", "article": "de", "plural": "functies", "forms": ["functietje"], "example": { "nl": "Wat is je functie bij het bedrijf?", "en": "What's your position at the company?" } },
+    { "id": "ervaring", "nl": "ervaring", "en": "experience", "article": "de", "plural": "ervaringen", "forms": ["ervarinkje"], "example": { "nl": "Heb je ervaring met klanten?", "en": "Do you have experience with customers?" } },
+    { "id": "cv", "nl": "cv", "en": "CV, résumé", "article": "het", "plural": "cv's", "forms": ["CV's"], "example": { "nl": "Mijn cv is in het Engels.", "en": "My CV is in English." } },
+    { "id": "opleiding", "nl": "opleiding", "en": "education, training (course)", "article": "de", "plural": "opleidingen", "forms": ["opleidinkje"], "example": { "nl": "Ik heb mijn opleiding in Spanje gedaan.", "en": "I did my training in Spain." } },
+    { "id": "diploma", "nl": "diploma", "en": "diploma, certificate", "article": "het", "plural": "diploma's", "forms": ["diplomaatje"], "example": { "nl": "Mijn diploma komt uit Spanje.", "en": "My diploma is from Spain." } },
+    { "id": "motivatie", "nl": "motivatie", "en": "motivation", "article": "de", "plural": "motivaties", "forms": ["motivatietje"], "example": { "nl": "Schrijf een brief met je motivatie.", "en": "Write a cover letter explaining your motivation." } },
+    { "id": "geschikt", "nl": "geschikt", "en": "suitable, right (for)", "forms": ["geschikter", "geschiktst", "geschikte", "geschiktere", "geschiktste"], "example": { "nl": "Ik denk dat ik geschikt ben voor de functie.", "en": "I think I'm right for the position." } },
+    { "id": "werkgever", "nl": "werkgever", "en": "employer", "article": "de", "plural": "werkgevers", "forms": ["werkgevertje"], "example": { "nl": "Mijn nieuwe werkgever is een klein bedrijf.", "en": "My new employer is a small company." } },
+    { "id": "werknemer", "nl": "werknemer", "en": "employee", "article": "de", "plural": "werknemers", "forms": ["werknemertje"], "example": { "nl": "Het bedrijf heeft twintig werknemers.", "en": "The company has twenty employees." } },
+    { "id": "fulltime", "nl": "fulltime", "en": "full-time", "forms": ["full-time"], "example": { "nl": "Ik wil fulltime werken.", "en": "I want to work full-time." } },
+    { "id": "parttime", "nl": "parttime", "en": "part-time", "forms": ["part-time"], "example": { "nl": "Ze werkt parttime, drie dagen per week.", "en": "She works part-time, three days a week." } }
+  ],
+  "grammar": {
+    "title": "om ... te + infinitive; solliciteren naar",
+    "points": [
+      "om ... te + infinitive says why you do something (in order to): Ik leer Nederlands om een baan te vinden.",
+      "It also follows many adjectives and nouns: Het is moeilijk om een baan te vinden. Ik heb zin om te solliciteren.",
+      "The infinitive with te comes last. With separable verbs te goes in the middle: om op te bellen, om in te vullen.",
+      "Many verbs have a fixed preposition: solliciteren naar (apply for), zoeken naar (look for), wachten op (wait for).",
+      "Learn the verb and its preposition together — the preposition often isn't the one English uses."
+    ],
+    "examples": [
+      { "nl": "Ik solliciteer naar een functie bij een bedrijf in het centrum.", "en": "I'm applying for a position at a company in the centre." },
+      { "nl": "Ik leer Nederlands om hier een baan te vinden.", "en": "I'm learning Dutch to find a job here." },
+      { "nl": "Het is niet makkelijk om een goede baan te vinden.", "en": "It isn't easy to find a good job." },
+      { "nl": "Ik zoek naar een vacature in Amsterdam.", "en": "I'm looking for a vacancy in Amsterdam." },
+      { "nl": "Ik bel het bedrijf om iets over de functie te vragen.", "en": "I'm calling the company to ask something about the position." }
+    ],
+    "exercises": [
+      { "prompt": "Ik solliciteer ___ een functie bij een bedrijf.", "answer": "naar", "hint": "preposition" },
+      { "prompt": "Ik leer Nederlands ___ een baan te vinden.", "answer": "om", "hint": "in order to" },
+      { "prompt": "Het is leuk om in een groot bedrijf ___ werken.", "answer": "te", "hint": "om ... te" },
+      { "prompt": "Ik ga naar huis om mijn cv te ___.", "answer": "schrijven", "hint": "to write" },
+      { "prompt": "Wacht je nog ___ een antwoord?", "answer": "op", "hint": "wachten ..." }
+    ]
+  },
+  "dialogue": {
+    "title": "Een nieuwe baan",
+    "scene": "Sara wants a new job. She shows Tom a vacancy she wants to apply for.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Wat zoek je?", "en": "What are you looking for?" },
+      { "speaker": "Sara", "nl": "Een nieuwe baan. Ik wil solliciteren naar deze vacature.", "en": "A new job. I want to apply for this vacancy.", "gap": "vacature" },
+      { "speaker": "Tom", "nl": "Wat voor functie is het?", "en": "What kind of position is it?" },
+      { "speaker": "Sara", "nl": "Het is een functie bij een klein bedrijf in het centrum. Ze zoeken een nieuwe collega met drie jaar ervaring.", "en": "It's a position at a small company in the centre. They're looking for a new colleague with three years' experience.", "gap": "ervaring" },
+      { "speaker": "Tom", "nl": "En heb jij die ervaring?", "en": "And do you have that experience?" },
+      { "speaker": "Sara", "nl": "Ja, ik heb in Spanje vier jaar bij een bedrijf gewerkt.", "en": "Yes, I worked at a company in Spain for four years." },
+      { "speaker": "Tom", "nl": "Is het fulltime of parttime?", "en": "Is it full-time or part-time?", "gap": "parttime" },
+      { "speaker": "Sara", "nl": "Fulltime. Ze willen een cv en een brief met je motivatie.", "en": "Full-time. They want a CV and a cover letter.", "gap": "motivatie" },
+      { "speaker": "Tom", "nl": "Schrijf je cv in het Nederlands. Dat vinden werkgevers leuk.", "en": "Write your CV in Dutch. Employers like that." },
+      { "speaker": "Sara", "nl": "Hebben ze mijn diploma ook nodig?", "en": "Do they need my diploma too?" },
+      { "speaker": "Tom", "nl": "Misschien later. Ik denk dat je heel geschikt bent.", "en": "Maybe later. I think you're a really good fit.", "gap": "geschikt" },
+      { "speaker": "Sara", "nl": "Ik hoop het! Dan begin ik nu, om op tijd klaar te zijn.", "en": "I hope so! Then I'll start now, so I'm done in time." }
+    ]
+  }
+}

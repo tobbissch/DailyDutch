@@ -1,0 +1,66 @@
+{
+  "day": 89,
+  "title": "Vrijwilligerswerk",
+  "names": ["Sara", "Tom", "Fatima", "Amsterdam"],
+  "words": [
+    { "id": "vrijwilligerswerk", "nl": "vrijwilligerswerk", "en": "volunteer work", "article": "het", "example": { "nl": "Ik doe op zaterdag vrijwilligerswerk.", "en": "I do volunteer work on Saturdays." } },
+    { "id": "vrijwilliger", "nl": "vrijwilliger", "en": "volunteer", "article": "de", "plural": "vrijwilligers", "forms": ["vrijwilligertje"], "example": { "nl": "We zoeken nog vrijwilligers.", "en": "We're still looking for volunteers." } },
+    { "id": "voedselbank", "nl": "voedselbank", "en": "food bank", "article": "de", "plural": "voedselbanken", "example": { "nl": "De voedselbank helpt mensen die niet veel geld hebben.", "en": "The food bank helps people who don't have much money." } },
+    { "id": "organisatie", "nl": "organisatie", "en": "organisation", "article": "de", "plural": "organisaties", "forms": ["organisatietje"], "example": { "nl": "Het is een organisatie voor kinderen.", "en": "It's an organisation for children." } },
+    { "id": "ondersteunen", "nl": "ondersteunen", "en": "to support", "forms": ["ondersteun", "ondersteunde", "ondersteunt", "ondersteunden", "ondersteunend", "ondersteund"], "example": { "nl": "Wij ondersteunen families in de wijk.", "en": "We support families in the area." } },
+    { "id": "hulp", "nl": "hulp", "en": "help; helper", "article": "de", "plural": "hulpen", "forms": ["hulpje"], "example": { "nl": "Bedankt voor je hulp!", "en": "Thanks for your help!" } },
+    { "id": "doel", "nl": "doel", "en": "goal, aim; destination", "article": "het", "plural": "doelen", "forms": ["doeltje"], "example": { "nl": "Ons doel is dat niemand honger heeft.", "en": "Our goal is that nobody goes hungry." } },
+    { "id": "ouderen", "nl": "ouderen", "en": "older people, the elderly", "article": "de", "example": { "nl": "In het buurthuis drinken ouderen samen koffie.", "en": "Older people have coffee together at the community centre." } },
+    { "id": "oudere", "nl": "oudere", "en": "older person, senior", "article": "de", "plural": "ouderen", "example": { "nl": "Ze helpt een oudere met boodschappen doen.", "en": "She helps an older person with the shopping." } },
+    { "id": "buurthuis", "nl": "buurthuis", "en": "community centre", "article": "het", "plural": "buurthuizen", "forms": ["buurthuisje"], "example": { "nl": "Het buurthuis is elke dag open.", "en": "The community centre is open every day." } },
+    { "id": "activiteit", "nl": "activiteit", "en": "activity", "article": "de", "plural": "activiteiten", "forms": ["activiteitje"], "example": { "nl": "Er zijn veel activiteiten voor kinderen.", "en": "There are lots of activities for children." } },
+    { "id": "organiseren", "nl": "organiseren", "en": "to organise", "forms": ["organiseer", "organiseerde", "organiseert", "organiseerden", "organiserend", "georganiseerd"], "example": { "nl": "Wie organiseert het feest?", "en": "Who's organising the party?" } },
+    { "id": "dankbaarheid", "nl": "dankbaarheid", "en": "gratitude", "article": "de", "plural": "dankbaarheden", "forms": ["dankbaarheidje"], "example": { "nl": "Ik zie de dankbaarheid in hun ogen.", "en": "I see the gratitude in their eyes." } },
+    { "id": "nuttig", "nl": "nuttig", "en": "useful", "forms": ["nuttiger", "nuttigst", "nuttige", "nuttigere", "nuttigste", "nuttigs"], "example": { "nl": "Ik wil iets nuttigs doen.", "en": "I want to do something useful." } }
+  ],
+  "grammar": {
+    "title": "Relative wie, wat, waar: alles wat, de man met wie",
+    "points": [
+      "After alles, iets, niets, veel and het enige you use wat, not dat: Alles wat je geeft, helpt. Dat is iets wat ik graag doe.",
+      "wat also refers back to a whole sentence: Ze helpt elke week, wat ik heel mooi vind.",
+      "After a preposition, use wie for people: de vrouw met wie ik werk, de mensen voor wie we koken.",
+      "For things, use waar + preposition, written as one word: de auto waarmee we rijden, het geld waarmee we eten kopen.",
+      "waar alone refers to a place: het buurthuis waar ik vrijwilliger ben.",
+      "Wie at the start of a sentence can mean 'whoever / anyone who': Wie wil helpen, kan zaterdag komen."
+    ],
+    "examples": [
+      { "nl": "Alles wat we krijgen, geven we weg.", "en": "Everything we get, we give away." },
+      { "nl": "De vrouw met wie ik werk, komt uit Spanje.", "en": "The woman I work with comes from Spain." },
+      { "nl": "Dit is het geld waarmee we eten kopen.", "en": "This is the money we buy food with." },
+      { "nl": "Het buurthuis waar we koffie drinken, is dichtbij het station.", "en": "The community centre where we have coffee is right by the station." },
+      { "nl": "Wie wil helpen, kan zaterdag komen.", "en": "Anyone who wants to help can come on Saturday." }
+    ],
+    "exercises": [
+      { "prompt": "Is er iets ___ ik kan doen?", "answer": "wat", "hint": "iets ..." },
+      { "prompt": "De man met ___ ik praat, is vrijwilliger.", "answer": "wie", "hint": "person after met" },
+      { "prompt": "Het buurthuis ___ ik werk, is groot.", "answer": "waar", "hint": "place" },
+      { "prompt": "Dat is de auto ___ we het eten halen.", "answer": "waarmee", "hint": "waar + mee" },
+      { "prompt": "Alles ___ je geeft, is nuttig.", "answer": "wat", "hint": "alles ..." },
+      { "prompt": "Het buurthuis ___ elke week activiteiten voor ouderen.", "answer": "organiseert", "hint": "organiseren" }
+    ]
+  },
+  "dialogue": {
+    "title": "Bij de voedselbank",
+    "scene": "On her first Saturday as a volunteer at the food bank, Sara gets shown around by Henriëtte, who has volunteered there for years.",
+    "lines": [
+      { "speaker": "Henriëtte", "nl": "Hallo Sara! Fijn dat je ons komt helpen.", "en": "Hi Sara! Great that you've come to help us." },
+      { "speaker": "Sara", "nl": "Dank je. Ik wilde al lang iets nuttigs doen.", "en": "Thank you. I've wanted to do something useful for a long time.", "gap": "nuttigs" },
+      { "speaker": "Henriëtte", "nl": "Hier is de zaal waar we de pakketten maken.", "en": "Here's the room where we make the food parcels.", "gap": "waar" },
+      { "speaker": "Sara", "nl": "Waar komt al het eten vandaan?", "en": "Where does all the food come from?" },
+      { "speaker": "Henriëtte", "nl": "Van supermarkten en van mensen uit de wijk. Alles wat we krijgen, geven we weg.", "en": "From supermarkets and people in the neighbourhood. Everything we get, we give away.", "gap": "wat" },
+      { "speaker": "Sara", "nl": "En wie komen er naar de voedselbank?", "en": "And who comes to the food bank?" },
+      { "speaker": "Henriëtte", "nl": "Families met kinderen, maar ook veel ouderen die geen partner meer hebben.", "en": "Families with children, but also lots of older people who no longer have a partner.", "gap": "ouderen" },
+      { "speaker": "Henriëtte", "nl": "De mensen voor wie we werken, hebben echt niet veel geld.", "en": "The people we work for really don't have much money.", "gap": "voor wie" },
+      { "speaker": "Sara", "nl": "Hoeveel vrijwilligers werken hier?", "en": "How many volunteers work here?" },
+      { "speaker": "Henriëtte", "nl": "Ongeveer veertig. Zonder hen kan onze organisatie niet werken.", "en": "About forty. Our organisation couldn't run without them." },
+      { "speaker": "Henriëtte", "nl": "Op woensdag organiseren we ook activiteiten in het buurthuis.", "en": "On Wednesdays we also organise activities at the community centre." },
+      { "speaker": "Sara", "nl": "Misschien kan ik daar ook helpen. Is er iets wat ik nu kan doen?", "en": "Maybe I can help there too. Is there something I can do now?" },
+      { "speaker": "Henriëtte", "nl": "Ja! Zet deze dozen maar op tafel. Over tien minuten komen de eerste klanten.", "en": "Yes! Just put these boxes on the table. The first clients arrive in ten minutes." }
+    ]
+  }
+}

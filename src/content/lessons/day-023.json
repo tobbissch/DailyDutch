@@ -1,0 +1,65 @@
+{
+  "day": 23,
+  "title": "Hoeveel kost dat?",
+  "names": ["Sara", "Tom"],
+  "words": [
+    { "id": "dertig", "nl": "dertig", "en": "thirty", "forms": ["eenendertig", "vijfendertig", "achtendertig"], "example": { "nl": "Tom is dertig jaar.", "en": "Tom is thirty." } },
+    { "id": "veertig", "nl": "veertig", "en": "forty", "forms": ["vijfenveertig"], "example": { "nl": "Veertig euro is te veel.", "en": "Forty euros is too much." } },
+    { "id": "vijftig", "nl": "vijftig", "en": "fifty", "forms": ["vijfenvijftig"], "example": { "nl": "Het kost vijftig cent.", "en": "It costs fifty cents." } },
+    { "id": "zestig", "nl": "zestig", "en": "sixty", "example": { "nl": "Mijn vader is zestig.", "en": "My father is sixty." } },
+    { "id": "zeventig", "nl": "zeventig", "en": "seventy", "example": { "nl": "Ik heb zeventig euro.", "en": "I have seventy euros." } },
+    { "id": "tachtig", "nl": "tachtig", "en": "eighty", "forms": ["vijfentachtig"], "example": { "nl": "Het huis is tachtig jaar oud.", "en": "The house is eighty years old." } },
+    { "id": "negentig", "nl": "negentig", "en": "ninety", "example": { "nl": "De film is negentig minuten.", "en": "The film is ninety minutes long." } },
+    { "id": "honderd", "nl": "honderd", "en": "hundred", "forms": ["tweehonderd", "driehonderd"], "example": { "nl": "De fiets kost honderd euro.", "en": "The bike costs a hundred euros." } },
+    { "id": "duizend", "nl": "duizend", "en": "thousand", "forms": ["tweeduizend"], "example": { "nl": "De auto kost duizend euro.", "en": "The car costs a thousand euros." } },
+    { "id": "cent", "nl": "cent", "en": "cent", "article": "de", "plural": "centen", "forms": ["centje"], "example": { "nl": "Een appel kost vijftig cent.", "en": "An apple costs fifty cents." } },
+    { "id": "geld", "nl": "geld", "en": "money", "article": "het", "plural": "gelden", "example": { "nl": "Ik heb geen geld.", "en": "I have no money." } },
+    { "id": "prijs", "nl": "prijs", "en": "price; prize", "article": "de", "plural": "prijzen", "forms": ["prijsje"], "example": { "nl": "Wat is de prijs?", "en": "What's the price?" } },
+    { "id": "contant", "nl": "contant", "en": "(in) cash", "forms": ["contante"], "example": { "nl": "Kan ik contant betalen?", "en": "Can I pay cash?" } },
+    { "id": "pinnen", "nl": "pinnen", "en": "to pay by card; to get cash from a machine", "forms": ["pin", "pinde", "pint", "pinden", "pinnend", "gepind"], "example": { "nl": "Kan ik hier pinnen?", "en": "Can I pay by card here?" } },
+    { "id": "markt", "nl": "markt", "en": "market", "article": "de", "plural": "markten", "forms": ["marktje"], "example": { "nl": "Op zaterdag is er een markt.", "en": "There's a market on Saturdays." } },
+    { "id": "tweedehands", "nl": "tweedehands", "en": "second-hand", "forms": ["tweedehandse"], "example": { "nl": "Ik zoek een tweedehands fiets.", "en": "I'm looking for a second-hand bike." } },
+    { "id": "eenentwintig", "nl": "eenentwintig", "en": "twenty-one", "forms": ["tweeëntwintig", "vijfentwintig"], "example": { "nl": "Ik ben eenentwintig jaar.", "en": "I'm twenty-one." } },
+    { "id": "alle", "nl": "alle", "en": "all (+ plural noun)", "example": { "nl": "Alle appels kosten een euro.", "en": "All the apples cost one euro." } }
+  ],
+  "grammar": {
+    "title": "Numbers 21–1000 and prices",
+    "points": [
+      "From 21 to 99 Dutch says the unit first, then en (and), then the ten — all as one word: eenentwintig (21, lit. one-and-twenty), vijfenveertig (45).",
+      "After a number ending in e, write ë: tweeëntwintig (22), drieëndertig (33).",
+      "honderd (100), tweehonderd (200), duizend (1000), tweeduizend (2000). No een in front: honderd euro = a hundred euros.",
+      "Prices: € 4,50 = vier euro vijftig. Dutch uses a comma for decimals. euro and cent stay singular after a number.",
+      "Paying: contant (cash) or pinnen (by debit card). Kan ik pinnen? is the everyday question."
+    ],
+    "examples": [
+      { "nl": "De fiets kost vijfenveertig euro.", "en": "The bike costs forty-five euros." },
+      { "nl": "Het brood kost twee euro vijftig.", "en": "The bread costs two euros fifty." },
+      { "nl": "Ik ben vijfendertig jaar.", "en": "I'm thirty-five." },
+      { "nl": "Tweehonderd euro is te duur.", "en": "Two hundred euros is too expensive." },
+      { "nl": "Kan ik hier pinnen?", "en": "Can I pay by card here?" }
+    ],
+    "exercises": [
+      { "prompt": "35 = vijf___dertig", "answer": "en", "hint": "and" },
+      { "prompt": "De fiets kost ___ euro. (45)", "answer": "vijfenveertig", "hint": "45" },
+      { "prompt": "22 = ___", "answer": "tweeëntwintig", "hint": "twee + twintig" },
+      { "prompt": "Kan ik hier ___?", "answer": "pinnen", "hint": "pay by card" },
+      { "prompt": "€ 3,50 = drie euro ___", "answer": "vijftig", "hint": "50" }
+    ]
+  },
+  "dialogue": {
+    "title": "Een tweedehands fiets",
+    "scene": "Sara buys a second-hand bike at the market and haggles a little.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Dag! Hoeveel kost de fiets?", "en": "Hello! How much is the bike?" },
+      { "speaker": "Verkoper", "nl": "De grote fiets? Honderd euro.", "en": "The big bike? A hundred euros." },
+      { "speaker": "Sara", "nl": "Honderd euro? Dat is duur voor een tweedehands fiets.", "en": "A hundred euros? That's expensive for a second-hand bike.", "gap": "tweedehands" },
+      { "speaker": "Verkoper", "nl": "Het is een heel mooie fiets.", "en": "It's a really nice bike." },
+      { "speaker": "Sara", "nl": "Ik heb maar zeventig euro.", "en": "I only have seventy euros.", "gap": "zeventig" },
+      { "speaker": "Verkoper", "nl": "Vijfentachtig?", "en": "Eighty-five?" },
+      { "speaker": "Sara", "nl": "Tachtig euro. Kan ik pinnen?", "en": "Eighty euros. Can I pay by card?", "gap": "pinnen" },
+      { "speaker": "Verkoper", "nl": "Nee, sorry. U moet contant betalen.", "en": "No, sorry. You have to pay cash.", "gap": "contant" },
+      { "speaker": "Sara", "nl": "Goed. Hier is tachtig euro.", "en": "OK. Here's eighty euros." },
+      { "speaker": "Verkoper", "nl": "Dank u wel! De fiets is van u.", "en": "Thank you! The bike is yours." }
+    ]
+  }
+}

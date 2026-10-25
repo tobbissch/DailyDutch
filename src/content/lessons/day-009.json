@@ -1,0 +1,61 @@
+{
+  "day": 9,
+  "title": "Hoe laat is het?",
+  "words": [
+    { "id": "uur", "nl": "uur", "en": "hour; o'clock", "article": "het", "plural": "uren", "forms": ["uurtje"], "example": { "nl": "Het is drie uur.", "en": "It's three o'clock." } },
+    { "id": "minuut", "nl": "minuut", "en": "minute", "article": "de", "plural": "minuten", "forms": ["minuutje"], "example": { "nl": "Nog vijf minuten!", "en": "Five more minutes!" } },
+    { "id": "half", "nl": "half", "en": "half; half past (before the next hour)", "forms": ["halve"], "example": { "nl": "Het is half vier.", "en": "It's half past three." } },
+    { "id": "kwart", "nl": "kwart", "en": "quarter", "article": "het", "plural": "kwarten", "forms": ["kwartje"], "example": { "nl": "Het is kwart over twee.", "en": "It's a quarter past two." } },
+    { "id": "over", "nl": "over", "en": "past (time); over; about", "example": { "nl": "Het is tien over acht.", "en": "It's ten past eight." } },
+    { "id": "voor", "nl": "voor", "en": "to (time); before; for", "example": { "nl": "Het is vijf voor zeven.", "en": "It's five to seven." } },
+    { "id": "laat", "nl": "laat", "en": "late", "forms": ["later", "laatst", "late", "latere", "laatste"], "example": { "nl": "Hoe laat is het?", "en": "What time is it?" } },
+    { "id": "vroeg", "nl": "vroeg", "en": "early", "forms": ["vroeger", "vroegst", "vroege", "vroegere", "vroegste"], "example": { "nl": "Het is nog vroeg.", "en": "It's still early." } },
+    { "id": "ochtend", "nl": "ochtend", "en": "morning", "article": "de", "plural": "ochtenden", "forms": ["ochtendje"], "example": { "nl": "Ik werk in de ochtend.", "en": "I work in the morning." } },
+    { "id": "middag", "nl": "middag", "en": "afternoon", "article": "de", "plural": "middagen", "forms": ["middagje"], "example": { "nl": "In de middag heb ik les.", "en": "In the afternoon I have class." } },
+    { "id": "avond", "nl": "avond", "en": "evening", "article": "de", "plural": "avonden", "forms": ["avondje"], "example": { "nl": "Ik heb in de avond tijd.", "en": "I have time in the evening." } },
+    { "id": "nacht", "nl": "nacht", "en": "night", "article": "de", "plural": "nachten", "forms": ["nachtje"], "example": { "nl": "Het is nog nacht.", "en": "It's still night." } },
+    { "id": "om", "nl": "om", "en": "at (a time)", "example": { "nl": "De les is om acht uur.", "en": "The class is at eight o'clock." } },
+    { "id": "beginnen", "nl": "beginnen", "en": "to begin, to start", "forms": ["begin", "begon", "begint", "begonnen", "beginnend"], "example": { "nl": "Wanneer begint de cursus?", "en": "When does the course start?" } },
+    { "id": "ongeveer", "nl": "ongeveer", "en": "about, roughly", "example": { "nl": "Het is ongeveer vier uur.", "en": "It's about four o'clock." } },
+    { "id": "bijna", "nl": "bijna", "en": "almost", "example": { "nl": "Het is bijna acht uur.", "en": "It's almost eight o'clock." } }
+  ],
+  "grammar": {
+    "title": "Telling the time: half drie, kwart over vier",
+    "points": [
+      "Hoe laat is het? = What time is it? Answer: Het is drie uur. (uur stays singular.)",
+      "om = at: om drie uur = at three o'clock. Hoe laat begint de les? Om acht uur.",
+      "over = past, voor = to: tien over twee (2:10), vijf voor drie (2:55). kwart over vier = 4:15, kwart voor vijf = 4:45.",
+      "Careful: half looks ahead to the next hour. half drie = 2:30 (halfway to three), not 3:30!",
+      "Around the half hour, count from half: vijf voor half drie = 2:25, tien over half drie = 2:40.",
+      "In everyday speech the Dutch use the 12-hour clock."
+    ],
+    "examples": [
+      { "nl": "Het is drie uur.", "en": "It's three o'clock." },
+      { "nl": "Het is half drie.", "en": "It's half past two. (2:30)" },
+      { "nl": "Het is kwart over vier.", "en": "It's a quarter past four." },
+      { "nl": "Het is tien voor negen.", "en": "It's ten to nine." },
+      { "nl": "De les begint om half acht.", "en": "The class starts at half past seven." }
+    ],
+    "exercises": [
+      { "prompt": "Het is half ___.", "answer": "drie", "hint": "2:30" },
+      { "prompt": "Het is kwart ___ vier.", "answer": "over", "hint": "4:15" },
+      { "prompt": "Het is vijf ___ zes.", "answer": "voor", "hint": "5:55" },
+      { "prompt": "De les begint ___ acht uur.", "answer": "om", "hint": "at" },
+      { "prompt": "Het is tien over half ___.", "answer": "vijf", "hint": "4:40" }
+    ]
+  },
+  "dialogue": {
+    "title": "Hoe laat is het?",
+    "scene": "On her way to Dutch class, Sara asks a stranger at the station for the time.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Sorry, hoe laat is het?", "en": "Excuse me, what time is it?", "gap": "hoe laat" },
+      { "speaker": "Man", "nl": "Het is kwart over vijf.", "en": "It's a quarter past five.", "gap": "kwart" },
+      { "speaker": "Sara", "nl": "Kwart over vijf? Dat is laat!", "en": "A quarter past five? That's late!" },
+      { "speaker": "Man", "nl": "Hoe laat heeft u les?", "en": "What time is your class?" },
+      { "speaker": "Sara", "nl": "Om half zes.", "en": "At half past five.", "gap": "Om half zes" },
+      { "speaker": "Man", "nl": "U heeft nog vijftien minuten.", "en": "You still have fifteen minutes.", "gap": "minuten" },
+      { "speaker": "Sara", "nl": "Vijftien minuten? Dat is goed. Dank u wel!", "en": "Fifteen minutes? That's fine. Thank you!" },
+      { "speaker": "Man", "nl": "Dag!", "en": "Bye!" }
+    ]
+  }
+}

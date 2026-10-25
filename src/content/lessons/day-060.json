@@ -1,0 +1,69 @@
+{
+  "day": 60,
+  "title": "Kerst en oud en nieuw",
+  "names": ["Sara", "Tom", "Anna", "Mark", "Spanje", "Nederland", "Utrecht"],
+  "words": [
+    { "id": "kerst", "nl": "Kerst", "en": "Christmas", "article": "de", "plural": "kersten", "example": { "nl": "Wat doe je met Kerst?", "en": "What are you doing for Christmas?" } },
+    { "id": "kerstboom", "nl": "kerstboom", "en": "Christmas tree", "article": "de", "plural": "kerstbomen", "forms": ["kerstboompje"], "example": { "nl": "We hebben een grote kerstboom.", "en": "We've got a big Christmas tree." } },
+    { "id": "oud-en-nieuw", "nl": "oud en nieuw", "en": "New Year's Eve (lit. old and new)", "example": { "nl": "Met oud en nieuw kijken we naar het vuurwerk.", "en": "On New Year's Eve we watch the fireworks." } },
+    { "id": "vuurwerk", "nl": "vuurwerk", "en": "fireworks", "article": "het", "plural": "vuurwerken", "forms": ["vuurwerkje"], "example": { "nl": "Om twaalf uur begint het vuurwerk.", "en": "The fireworks start at midnight." } },
+    { "id": "oliebol", "nl": "oliebol", "en": "oliebol (deep-fried doughnut ball)", "article": "de", "plural": "oliebollen", "forms": ["oliebolletje"], "example": { "nl": "Met oud en nieuw eten we oliebollen.", "en": "On New Year's Eve we eat oliebollen." } },
+    { "id": "nieuwjaar", "nl": "nieuwjaar", "en": "New Year", "article": "het", "example": { "nl": "Gelukkig nieuwjaar!", "en": "Happy New Year!" } },
+    { "id": "wensen", "nl": "wensen", "en": "to wish", "forms": ["wens", "wenste", "wenst", "wensten", "wensend", "gewenst"], "example": { "nl": "Ik wens je een gelukkig nieuwjaar.", "en": "I wish you a happy New Year." } },
+    { "id": "wens", "nl": "wens", "en": "wish", "article": "de", "plural": "wensen", "forms": ["wensje"], "example": { "nl": "Wat is jouw wens voor het nieuwe jaar?", "en": "What's your wish for the new year?" } },
+    { "id": "voornemen", "nl": "voornemen", "en": "resolution, intention", "article": "het", "plural": "voornemens", "forms": ["voornementje"], "example": { "nl": "Mijn goede voornemen: meer sporten.", "en": "My New Year's resolution: more exercise." } },
+    { "id": "kerstvakantie", "nl": "kerstvakantie", "en": "Christmas holidays", "article": "de", "plural": "kerstvakanties", "example": { "nl": "In de kerstvakantie gaat Sara naar Spanje.", "en": "Sara is going to Spain over the Christmas holidays." } },
+    { "id": "familie-noun", "nl": "familie", "en": "family, relatives", "article": "de", "plural": "families", "example": { "nl": "Met Kerst ziet Sara haar familie.", "en": "At Christmas Sara sees her family." } },
+    { "id": "schoonouders", "nl": "schoonouders", "en": "parents-in-law (plural)", "article": "de", "example": { "nl": "Mark viert Kerst bij zijn schoonouders.", "en": "Mark celebrates Christmas at his parents-in-law's." } },
+    { "id": "versieren", "nl": "versieren", "en": "to decorate", "forms": ["versier", "versierde", "versiert", "versierden", "versierend", "versierd"], "example": { "nl": "De kinderen versieren de kerstboom.", "en": "The children are decorating the Christmas tree." } },
+    { "id": "terwijl", "nl": "terwijl", "en": "while; whereas", "example": { "nl": "Ik lees terwijl de kinderen slapen.", "en": "I read while the children are asleep." } },
+    { "id": "voordat", "nl": "voordat", "en": "before (+ clause)", "example": { "nl": "Voordat we eten, versieren we de kerstboom.", "en": "Before we eat, we decorate the Christmas tree." } },
+    { "id": "nadat", "nl": "nadat", "en": "after (+ clause)", "example": { "nl": "Nadat we gegeten hebben, gaan we wandelen.", "en": "After we've eaten, we'll go for a walk." } }
+  ],
+  "grammar": {
+    "title": "voordat, nadat, terwijl: time clauses",
+    "points": [
+      "voordat (before), nadat (after) and terwijl (while) start a subordinate clause, so the conjugated verb goes to the end: ... voordat we eten.",
+      "If the time clause comes first, the main clause starts with its verb: Voordat we eten, versieren we de kerstboom.",
+      "nadat is about an action that is already finished, so its clause is usually in the perfect: Nadat we gegeten hebben, ... In a past story use had/hadden: Nadat ze haar koffer had ingepakt, ging ze naar het station.",
+      "terwijl means two things happen at the same time: Ik kook terwijl jij de kerstboom versiert. It can also mean 'whereas'.",
+      "Before a noun, use the prepositions voor and na instead: voor het eten (before dinner)."
+    ],
+    "examples": [
+      { "nl": "Voordat we eten, versieren we de kerstboom.", "en": "Before we eat, we decorate the Christmas tree." },
+      { "nl": "Nadat we gegeten hebben, gaan we wandelen.", "en": "After we've eaten, we'll go for a walk." },
+      { "nl": "Terwijl Tom kookt, zingt Sara een liedje.", "en": "While Tom cooks, Sara sings a song." },
+      { "nl": "Ik bel mijn familie voordat het vuurwerk begint.", "en": "I'll call my family before the fireworks start." },
+      { "nl": "Ze eten oliebollen terwijl ze naar het vuurwerk kijken.", "en": "They eat oliebollen while they watch the fireworks." },
+      { "nl": "Nadat ze haar koffer had ingepakt, ging Sara naar het station.", "en": "After she had packed her suitcase, Sara went to the station." }
+    ],
+    "exercises": [
+      { "prompt": "___ we eten, versieren we de kerstboom.", "answer": "Voordat", "hint": "before" },
+      { "prompt": "Nadat we gegeten ___, kijken we naar het vuurwerk.", "answer": "hebben", "hint": "hebben" },
+      { "prompt": "Ik kook ___ jij de kerstboom versiert.", "answer": "terwijl", "hint": "while" },
+      { "prompt": "Voordat het vuurwerk begint, ___ we oliebollen.", "answer": "eten", "hint": "eten (verb first)" },
+      { "prompt": "Ze belde haar familie ___ ze naar bed ging.", "answer": "voordat", "hint": "before" },
+      { "prompt": "___ we gegeten hebben, gaan we wandelen.", "answer": "Nadat", "hint": "after" }
+    ]
+  },
+  "dialogue": {
+    "title": "Fijne feestdagen!",
+    "scene": "Just before the Christmas holidays, Tom and Sara talk about their plans for Christmas and New Year's Eve.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Wat ga je doen in de kerstvakantie?", "en": "What are you doing over the Christmas holidays?", "gap": "kerstvakantie" },
+      { "speaker": "Sara", "nl": "Ik ga naar mijn familie in Spanje. Mijn moeder versiert de kerstboom altijd voordat ik thuiskom.", "en": "I'm going to my family in Spain. My mother always decorates the Christmas tree before I get home.", "gap": "voordat" },
+      { "speaker": "Tom", "nl": "Wat leuk! Wij vieren Kerst bij mijn vader en moeder, met Anna, Mark en de kinderen.", "en": "How nice! We celebrate Christmas at my parents', with Anna, Mark and the kids." },
+      { "speaker": "Sara", "nl": "Met oud en nieuw ben ik weer in Nederland. Wat doen jullie dan?", "en": "I'll be back in the Netherlands for New Year's Eve. What do you do then?" },
+      { "speaker": "Tom", "nl": "Kom naar Utrecht! We eten oliebollen terwijl we op het vuurwerk wachten.", "en": "Come to Utrecht! We eat oliebollen while we wait for the fireworks.", "gap": "terwijl" },
+      { "speaker": "Sara", "nl": "Oliebollen? Die heb ik nog nooit gegeten.", "en": "Oliebollen? I've never had them." },
+      { "speaker": "Tom", "nl": "Dan wordt het tijd! En om twaalf uur wens ik je een gelukkig nieuwjaar.", "en": "Then it's about time! And at midnight I'll wish you a happy New Year." },
+      { "speaker": "Sara", "nl": "En wat doen we nadat we het vuurwerk gezien hebben?", "en": "And what do we do after we've seen the fireworks?", "gap": "nadat" },
+      { "speaker": "Tom", "nl": "Dan gaan we naar een feestje bij Anna en Mark.", "en": "Then we go to a party at Anna and Mark's." },
+      { "speaker": "Sara", "nl": "Leuk! Heb jij al een goed voornemen voor het nieuwe jaar?", "en": "Great! Have you got a New Year's resolution yet?", "gap": "voornemen" },
+      { "speaker": "Tom", "nl": "Ja: meer Spaans leren. En jij?", "en": "Yes: learn more Spanish. And you?" },
+      { "speaker": "Sara", "nl": "Ik wil leren hoe je oliebollen maakt!", "en": "I want to learn how to make oliebollen!" },
+      { "speaker": "Tom", "nl": "Dat leert mijn moeder je wel. Fijne Kerst alvast, Sara!", "en": "My mother will teach you. Merry Christmas in advance, Sara!" },
+      { "speaker": "Sara", "nl": "Jij ook, Tom! Fijne feestdagen!", "en": "You too, Tom! Happy holidays!" }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "day": 45,
+  "title": "Een bankrekening openen",
+  "words": [
+    { "id": "bankrekening", "nl": "bankrekening", "en": "bank account", "article": "de", "plural": "bankrekeningen", "example": { "nl": "Ik wil een bankrekening openen.", "en": "I'd like to open a bank account." } },
+    { "id": "bank-noun", "nl": "bank", "en": "bank (for money)", "article": "de", "plural": "banken", "forms": ["bankje"], "example": { "nl": "Ik ga morgen naar de bank.", "en": "I'm going to the bank tomorrow." } },
+    { "id": "openen", "nl": "openen", "en": "to open", "forms": ["open", "opende", "opent", "openden", "openend", "geopend"], "example": { "nl": "De bank opent om negen uur.", "en": "The bank opens at nine o'clock." } },
+    { "id": "sluiten", "nl": "sluiten", "en": "to close", "forms": ["sluit", "sloot", "sloten", "sluitend", "gesloten"], "example": { "nl": "De bank sluit om vijf uur.", "en": "The bank closes at five o'clock." } },
+    { "id": "sparen", "nl": "sparen", "en": "to save (money)", "forms": ["spaar", "spaarde", "spaart", "spaarden", "sparend", "gespaard"], "example": { "nl": "Ik spaar voor een nieuwe fiets.", "en": "I'm saving for a new bike." } },
+    { "id": "rente", "nl": "rente", "en": "interest (on money)", "article": "de", "plural": "rentes", "forms": ["rentetje"], "example": { "nl": "Wat is de rente op deze rekening?", "en": "What's the interest rate on this account?" } },
+    { "id": "overmaken", "nl": "overmaken", "en": "to transfer (money)", "forms": ["maak over", "maakte over", "overmaak", "overmaakte", "maakt over", "overmaakt", "maken over", "maakten over", "overmaakten", "overmakend", "overgemaakt"], "example": { "nl": "Ik maak het geld morgen over.", "en": "I'll transfer the money tomorrow." } },
+    { "id": "bedrag", "nl": "bedrag", "en": "amount (of money)", "article": "het", "plural": "bedragen", "forms": ["bedragje"], "example": { "nl": "Het bedrag is vijftig euro.", "en": "The amount is fifty euros." } },
+    { "id": "app", "nl": "app", "en": "app; text message (sent with an app)", "article": "de", "plural": "apps", "forms": ["appje"], "example": { "nl": "Ik betaal met de app van de bank.", "en": "I pay with the bank's app." } },
+    { "id": "inloggen", "nl": "inloggen", "en": "to log in", "forms": ["log in", "logde in", "inlog", "inlogde", "logt in", "inlogt", "loggen in", "logden in", "inlogden", "inloggend", "ingelogd"], "example": { "nl": "Ik kan niet inloggen.", "en": "I can't log in." } },
+    { "id": "wachtwoord", "nl": "wachtwoord", "en": "password", "article": "het", "plural": "wachtwoorden", "forms": ["wachtwoordje"], "example": { "nl": "Ik ben mijn wachtwoord vergeten.", "en": "I've forgotten my password." } },
+    { "id": "veilig", "nl": "veilig", "en": "safe, secure", "forms": ["veiliger", "veiligst", "veilige", "veiligere", "veiligste"], "example": { "nl": "Is deze app veilig?", "en": "Is this app safe?" } },
+    { "id": "medewerker", "nl": "medewerker", "en": "employee, member of staff", "article": "de", "plural": "medewerkers", "forms": ["medewerkertje"], "example": { "nl": "Een medewerker van de bank helpt me.", "en": "A bank employee is helping me." } },
+    { "id": "pas", "nl": "pas", "en": "card, pass (e.g. bank card)", "article": "de", "plural": "passen", "forms": ["pasje"], "example": { "nl": "Mag ik uw pas even zien?", "en": "May I see your card for a moment?" } },
+    { "id": "bankpas", "nl": "bankpas", "en": "bank card, debit card", "article": "de", "plural": "bankpassen", "forms": ["bankpasje"], "example": { "nl": "Mijn nieuwe bankpas komt met de post.", "en": "My new bank card is coming in the post." } }
+  ],
+  "grammar": {
+    "title": "Indirect questions: Weet u waar...?",
+    "points": [
+      "A question with a question word (waar, wanneer, hoe, wat, wie, hoeveel, waarom) can go inside another sentence: Waar is de bank? → Weet u waar de bank is?",
+      "The question word stays at the start of the clause, but the conjugated verb moves to the end, just like after dat, omdat and of.",
+      "Polite openings: Weet u…?, Kunt u me zeggen…?, Ik weet niet…, Ik vraag me af…",
+      "Separable verbs join together and extra verbs also go to the end: Weet u hoe ik geld overmaak? Ik weet niet wanneer ik kan inloggen.",
+      "Remember: a yes/no question uses of (Weet u of de bank open is?); a question with a question word just keeps that word."
+    ],
+    "examples": [
+      { "nl": "Weet u waar de bank is?", "en": "Do you know where the bank is?" },
+      { "nl": "Kunt u me zeggen wanneer de bank sluit?", "en": "Can you tell me when the bank closes?" },
+      { "nl": "Ik weet niet hoeveel geld er op mijn rekening staat.", "en": "I don't know how much money there is in my account." },
+      { "nl": "Weet jij hoe ik in de app inlog?", "en": "Do you know how I log in to the app?" },
+      { "nl": "Ik weet niet meer wat mijn wachtwoord is.", "en": "I can't remember what my password is." },
+      { "nl": "Mag ik vragen waarom u een bankrekening wilt openen?", "en": "May I ask why you want to open a bank account?" }
+    ],
+    "exercises": [
+      { "prompt": "Weet u waar de bank ___?", "answer": "is", "hint": "zijn" },
+      { "prompt": "Kunt u me zeggen wanneer de bank ___?", "answer": "opent", "hint": "openen" },
+      { "prompt": "Ik weet niet ___ ik moet inloggen.", "answer": "hoe", "hint": "how" },
+      { "prompt": "Weet jij hoeveel geld ik al heb ___?", "answer": "gespaard", "hint": "sparen" },
+      { "prompt": "Ik weet niet meer ___ mijn wachtwoord is.", "answer": "wat", "hint": "what" },
+      { "prompt": "Kunt u me zeggen hoe ik geld ___?", "answer": "overmaak", "hint": "overmaken" }
+    ]
+  },
+  "dialogue": {
+    "title": "Bij de bank",
+    "scene": "Now that she's registered, Sara goes to the bank to open an account.",
+    "lines": [
+      { "speaker": "Medewerker", "nl": "Dag mevrouw. Kan ik u helpen?", "en": "Hello. Can I help you?" },
+      { "speaker": "Sara", "nl": "Ja, ik wil graag een bankrekening openen.", "en": "Yes, I'd like to open a bank account.", "gap": "bankrekening openen" },
+      { "speaker": "Medewerker", "nl": "Dat kan. Heeft u een paspoort en een adres in Nederland?", "en": "Certainly. Do you have a passport and an address in the Netherlands?" },
+      { "speaker": "Sara", "nl": "Ja. Ik heb me vorige week ingeschreven bij de gemeente.", "en": "Yes. I registered with the council last week." },
+      { "speaker": "Medewerker", "nl": "Heel goed. Wilt u ook sparen? Dan betalen wij u een beetje rente.", "en": "Very good. Would you like to save as well? Then we pay you a little interest.", "gap": "sparen" },
+      { "speaker": "Sara", "nl": "Ja, graag. Kunt u me zeggen wat de rente is?", "en": "Yes, please. Can you tell me what the interest rate is?" },
+      { "speaker": "Medewerker", "nl": "Niet veel, helaas. Maar uw geld is wel veilig bij ons.", "en": "Not much, unfortunately. But your money is safe with us." },
+      { "speaker": "Sara", "nl": "Weet u wanneer mijn bankpas komt?", "en": "Do you know when my bank card will arrive?", "gap": "bankpas" },
+      { "speaker": "Medewerker", "nl": "Over een week, met de post. Daarna kunt u in de app inloggen.", "en": "In a week, by post. After that you can log in to the app.", "gap": "inloggen" },
+      { "speaker": "Sara", "nl": "Kan ik in de app ook geld overmaken?", "en": "Can I transfer money in the app too?", "gap": "overmaken" },
+      { "speaker": "Medewerker", "nl": "Ja, natuurlijk. Kies wel een goed wachtwoord, dan is het veilig.", "en": "Yes, of course. But do choose a good password, so it's secure." },
+      { "speaker": "Sara", "nl": "Dank u wel. Weet u ook hoe laat de bank op zaterdag sluit?", "en": "Thank you. Do you also know what time the bank closes on Saturdays?" },
+      { "speaker": "Medewerker", "nl": "Op zaterdag is de bank gesloten, mevrouw.", "en": "The bank is closed on Saturdays, madam." },
+      { "speaker": "Sara", "nl": "Dan kom ik op maandag terug!", "en": "Then I'll come back on Monday!" }
+    ]
+  }
+}

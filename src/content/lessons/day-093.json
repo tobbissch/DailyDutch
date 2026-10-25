@@ -1,0 +1,66 @@
+{
+  "day": 93,
+  "title": "Op de camping",
+  "names": ["Henk", "Ria"],
+  "words": [
+    { "id": "camping", "nl": "camping", "en": "campsite", "article": "de", "plural": "campings", "forms": ["campinkje"], "example": { "nl": "We gaan dit jaar naar een camping in Frankrijk.", "en": "This year we're going to a campsite in France." } },
+    { "id": "tent", "nl": "tent", "en": "tent", "article": "de", "plural": "tenten", "forms": ["tentje"], "example": { "nl": "Onze tent is te klein voor vier mensen.", "en": "Our tent is too small for four people." } },
+    { "id": "opzetten", "nl": "opzetten", "en": "to put up, to set up", "forms": ["zet op", "zette op", "opzet", "opzette", "zetten op", "opzettend", "opgezet"], "example": { "nl": "Tom zet de tent op.", "en": "Tom puts up the tent." } },
+    { "id": "slaapzak", "nl": "slaapzak", "en": "sleeping bag", "article": "de", "plural": "slaapzakken", "forms": ["slaapzakje"], "example": { "nl": "Mijn slaapzak is nat.", "en": "My sleeping bag is wet." } },
+    { "id": "luchtbed", "nl": "luchtbed", "en": "air mattress", "article": "het", "plural": "luchtbedden", "forms": ["luchtbedje"], "example": { "nl": "Het luchtbed is kapot.", "en": "The air mattress is broken." } },
+    { "id": "luchtbed-noun", "nl": "luchtbed", "en": "air bed", "article": "het", "plural": "luchtbedden", "forms": ["luchtbedje"], "example": { "nl": "Ik slaap liever op een luchtbed.", "en": "I'd rather sleep on an air bed." } },
+    { "id": "kampvuur", "nl": "kampvuur", "en": "campfire", "article": "het", "plural": "kampvuren", "forms": ["kampvuurtje"], "example": { "nl": "In de avond zitten we bij het kampvuur.", "en": "In the evening we sit by the campfire." } },
+    { "id": "zaklamp", "nl": "zaklamp", "en": "torch, flashlight", "article": "de", "plural": "zaklampen", "forms": ["zaklampje"], "example": { "nl": "Waar is de zaklamp? Ik zie niets.", "en": "Where's the torch? I can't see a thing." } },
+    { "id": "mug", "nl": "mug", "en": "mosquito", "article": "de", "plural": "muggen", "forms": ["mugje", "muggetje"], "example": { "nl": "Er zijn hier veel muggen.", "en": "There are a lot of mosquitoes here." } },
+    { "id": "douche", "nl": "douche", "en": "shower", "article": "de", "plural": "douches", "forms": ["doucheje"], "example": { "nl": "De douche is koud.", "en": "The shower is cold." } },
+    { "id": "toiletgebouw", "nl": "toiletgebouw", "en": "toilet block", "article": "het", "example": { "nl": "Het toiletgebouw is naast de caravans.", "en": "The toilet block is next to the caravans." } },
+    { "id": "sanitair", "nl": "sanitair", "en": "toilets and showers, washing facilities", "article": "het", "example": { "nl": "Het sanitair op deze camping is heel schoon.", "en": "The washing facilities at this campsite are very clean." } },
+    { "id": "caravan", "nl": "caravan", "en": "caravan", "article": "de", "plural": "caravans", "forms": ["caravannetje"], "example": { "nl": "Henk en Ria hebben een caravan.", "en": "Henk and Ria have a caravan." } },
+    { "id": "avontuurlijk", "nl": "avontuurlijk", "en": "adventurous", "forms": ["avontuurlijker", "avontuurlijkst", "avontuurlijke", "avontuurlijkere", "avontuurlijkste"], "example": { "nl": "Kamperen in de regen is avontuurlijk.", "en": "Camping in the rain is adventurous." } },
+    { "id": "primitief", "nl": "primitief", "en": "basic, primitive", "forms": ["primitiever", "primitiefst", "primitieve", "primitievere", "primitiefste"], "example": { "nl": "Deze camping is primitief: er is geen douche.", "en": "This campsite is basic: there's no shower." } },
+    { "id": "kamperen", "nl": "kamperen", "en": "to camp, to go camping", "forms": ["kampeer", "kampeert", "kampeerde", "kampeerden", "kamperend", "gekampeerd"], "example": { "nl": "Wij kamperen elke zomer.", "en": "We go camping every summer." } }
+  ],
+  "grammar": {
+    "title": "er + preposition; zou for wishes",
+    "points": [
+      "After a preposition, Dutch doesn't use het or ze for things. Instead it uses er + preposition: op het luchtbed → erop, in de tent → erin.",
+      "met becomes mee: met de zaklamp → ermee. naar stays naar: ernaar.",
+      "In a sentence er and the preposition are usually split up: Ik heb er slecht op geslapen. Ik zoek er al een uur naar.",
+      "For people you keep the normal preposition + pronoun: met hem, naast haar.",
+      "zou/zouden + infinitive is used for wishes and polite wants: Ik zou graag een warme douche willen.",
+      "Put graag after zou and the infinitive at the end: Ik zou nu graag in een hotel zijn."
+    ],
+    "examples": [
+      { "nl": "Dit is mijn luchtbed. Ik heb er slecht op geslapen.", "en": "This is my air mattress. I slept badly on it." },
+      { "nl": "Ik heb de tent opgezet, maar er komt regen in.", "en": "I've put up the tent, but rain is getting into it." },
+      { "nl": "Waar is de zaklamp? Ik zoek er al een uur naar.", "en": "Where's the torch? I've been looking for it for an hour." },
+      { "nl": "Ik zou nu graag in een warm bed willen liggen.", "en": "I'd love to be lying in a warm bed right now." },
+      { "nl": "We zouden graag een caravan willen.", "en": "We'd like a caravan." }
+    ],
+    "exercises": [
+      { "prompt": "De zaklamp? Ik zoek ___ al een uur naar.", "answer": "er", "hint": "it (a thing)" },
+      { "prompt": "Het luchtbed is kapot. Ik kan er niet ___ slapen.", "answer": "op", "hint": "on" },
+      { "prompt": "Dat is mijn slaapzak. Ik slaap er elke nacht ___.", "answer": "in", "hint": "in" },
+      { "prompt": "Ik ___ graag een warme douche willen.", "answer": "zou", "hint": "zullen (wish)" },
+      { "prompt": "We ___ nu graag thuis zijn.", "answer": "zouden", "hint": "zullen (wish)" }
+    ]
+  },
+  "dialogue": {
+    "title": "Kamperen in de regen",
+    "scene": "Tom has talked Sara into a camping weekend. It hasn't stopped raining since they arrived.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Tom, het regent al uren!", "en": "Tom, it's been raining for hours!" },
+      { "speaker": "Tom", "nl": "Ja, maar kamperen in de regen is ook avontuurlijk!", "en": "Yes, but camping in the rain is an adventure too!", "gap": "avontuurlijk" },
+      { "speaker": "Sara", "nl": "Avontuurlijk? Er staat water in onze tent!", "en": "An adventure? There's water in our tent!" },
+      { "speaker": "Tom", "nl": "Dan zetten we de tent bij de caravans op. Daar is het droog.", "en": "Then we'll put the tent up by the caravans. It's dry there.", "gap": "zetten" },
+      { "speaker": "Sara", "nl": "En mijn slaapzak is ook nat. Ik kan er niet in slapen.", "en": "And my sleeping bag is wet too. I can't sleep in it.", "gap": "slaapzak" },
+      { "speaker": "Tom", "nl": "Je kunt op het luchtbed slapen.", "en": "You can sleep on the air mattress." },
+      { "speaker": "Sara", "nl": "Het luchtbed is kapot. Ik heb er gisteren slecht op geslapen.", "en": "The air mattress is broken. I slept badly on it last night.", "gap": "er" },
+      { "speaker": "Tom", "nl": "Goed. Ik zou nu ook graag een warme douche nemen.", "en": "OK. I'd love a hot shower right now too." },
+      { "speaker": "Sara", "nl": "De douches in het toiletgebouw zijn koud. Het sanitair is hier heel primitief.", "en": "The showers in the toilet block are cold. The facilities here are very basic." },
+      { "speaker": "Tom", "nl": "En dan die muggen! Waar is de zaklamp?", "en": "And then those mosquitoes! Where's the torch?" },
+      { "speaker": "Sara", "nl": "Ik zou nu zo graag in een hotel willen zijn.", "en": "I'd so love to be in a hotel right now.", "gap": "zou" },
+      { "speaker": "Tom", "nl": "Goed, morgen zoeken we een hotel.", "en": "Fine, tomorrow we'll look for a hotel." }
+    ]
+  }
+}

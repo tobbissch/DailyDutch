@@ -1,0 +1,63 @@
+{
+  "day": 27,
+  "title": "Wat heb je gedaan?",
+  "names": ["Sara", "Tom", "Fatima", "Utrecht"],
+  "words": [
+    { "id": "doen", "nl": "doen", "en": "to do", "forms": ["doe", "deed", "doet", "deden", "doend", "gedaan"], "example": { "nl": "Wat heb je gedaan?", "en": "What did you do?" } },
+    { "id": "gisteren", "nl": "gisteren", "en": "yesterday", "example": { "nl": "Gisteren heb ik gewerkt.", "en": "I worked yesterday." } },
+    { "id": "vorig", "nl": "vorig", "en": "last, previous", "forms": ["vorige"], "example": { "nl": "Vorige week heb ik veel gewerkt.", "en": "Last week I worked a lot." } },
+    { "id": "al", "nl": "al", "en": "already; yet (in questions)", "example": { "nl": "Heb je al gegeten?", "en": "Have you eaten yet?" } },
+    { "id": "net", "nl": "net", "en": "just (a moment ago); neat", "example": { "nl": "Ik heb net koffie gedronken.", "en": "I've just had coffee." } },
+    { "id": "maken", "nl": "maken", "en": "to make; to fix", "forms": ["maak", "maakte", "maakt", "maakten", "makend", "gemaakt"], "example": { "nl": "Ik heb een taart gemaakt.", "en": "I made a cake." } },
+    { "id": "vragen", "nl": "vragen", "en": "to ask", "forms": ["vraag", "vroeg", "vraagt", "vroegen", "vragend", "gevraagd"], "example": { "nl": "Ik heb het aan Tom gevraagd.", "en": "I asked Tom." } },
+    { "id": "vraag", "nl": "vraag", "en": "question", "article": "de", "plural": "vragen", "forms": ["vraagje"], "example": { "nl": "Ik heb een vraag.", "en": "I have a question." } },
+    { "id": "antwoord", "nl": "antwoord", "en": "answer", "article": "het", "plural": "antwoorden", "forms": ["antwoordje"], "example": { "nl": "Wat is het antwoord?", "en": "What's the answer?" } },
+    { "id": "antwoorden", "nl": "antwoorden", "en": "to answer", "forms": ["antwoord", "antwoordde", "antwoordt", "antwoordden", "antwoordend", "geantwoord"], "example": { "nl": "Ze heeft niet geantwoord.", "en": "She hasn't answered." } },
+    { "id": "horen", "nl": "horen", "en": "to hear", "forms": ["hoor", "hoorde", "hoort", "hoorden", "horend", "gehoord", "hoor'n"], "example": { "nl": "Heb je het gehoord?", "en": "Have you heard?" } },
+    { "id": "bezoeken", "nl": "bezoeken", "en": "to visit", "forms": ["bezoek", "bezocht", "bezoekt", "bezochten", "bezoekend"], "example": { "nl": "Ik heb mijn moeder bezocht.", "en": "I visited my mother." } },
+    { "id": "schoonmaken", "nl": "schoonmaken", "en": "to clean", "forms": ["maak schoon", "maakte schoon", "schoonmaak", "schoonmaakte", "maakt schoon", "schoonmaakt", "maken schoon", "maakten schoon", "schoonmaakten", "schoonmakend", "schoongemaakt"], "example": { "nl": "Ik heb mijn huis schoongemaakt.", "en": "I cleaned my house." } },
+    { "id": "sporten", "nl": "sporten", "en": "to do sport, to work out", "forms": ["sport", "sportte", "sportten", "sportend", "gesport"], "example": { "nl": "Ik heb gisteren gesport.", "en": "I worked out yesterday." } },
+    { "id": "juist", "nl": "juist", "en": "right, correct; exactly", "forms": ["juiste"], "example": { "nl": "Het antwoord is juist.", "en": "The answer is correct." } }
+  ],
+  "grammar": {
+    "title": "Perfect tense: ik heb gewerkt",
+    "points": [
+      "To talk about the past, Dutch usually uses the perfect: hebben + past participle. Ik heb gewerkt = I worked / I have worked.",
+      "The participle goes to the end of the sentence: Ik heb gisteren veel gewerkt.",
+      "Regular participles: ge + stem + t or d. Use -t if the stem ends in one of the consonants of 't kofschip (t, k, f, s, ch, p): werken → gewerkt, maken → gemaakt. Otherwise -d: wonen → gewoond, horen → gehoord.",
+      "No extra ge- if the verb starts with be-, ge-, ver- or ont-: bezoeken → bezocht. Separable verbs put ge- after the particle: schoonmaken → schoongemaakt.",
+      "Many common verbs are irregular — learn them by heart: doen → gedaan, eten → gegeten, drinken → gedronken, zien → gezien, lezen → gelezen."
+    ],
+    "examples": [
+      { "nl": "Ik heb gisteren gewerkt.", "en": "I worked yesterday." },
+      { "nl": "Wat heb je in het weekend gedaan?", "en": "What did you do at the weekend?" },
+      { "nl": "We hebben een film gezien.", "en": "We saw a film." },
+      { "nl": "Ik heb mijn huis schoongemaakt.", "en": "I cleaned my house." },
+      { "nl": "Hij heeft zijn moeder bezocht.", "en": "He visited his mother." },
+      { "nl": "Heb je al gegeten?", "en": "Have you eaten yet?" }
+    ],
+    "exercises": [
+      { "prompt": "Ik heb gisteren ___.", "answer": "gewerkt", "hint": "werken" },
+      { "prompt": "Wij hebben pasta ___.", "answer": "gekookt", "hint": "koken" },
+      { "prompt": "Wat heb je ___?", "answer": "gedaan", "hint": "doen" },
+      { "prompt": "Ik ___ een film gezien.", "answer": "heb", "hint": "hebben" },
+      { "prompt": "Ze heeft haar moeder ___.", "answer": "bezocht", "hint": "bezoeken" },
+      { "prompt": "Heb je het ___?", "answer": "gehoord", "hint": "horen" }
+    ]
+  },
+  "dialogue": {
+    "title": "Maandagochtend",
+    "scene": "Monday morning at the office. Sara and Fatima talk about their weekend.",
+    "lines": [
+      { "speaker": "Fatima", "nl": "Dag Sara! Wat heb je in het weekend gedaan?", "en": "Hi Sara! What did you do at the weekend?", "gap": "gedaan" },
+      { "speaker": "Sara", "nl": "Op zaterdag heb ik mijn huis schoongemaakt. Niet zo leuk!", "en": "On Saturday I cleaned my flat. Not much fun!", "gap": "schoongemaakt" },
+      { "speaker": "Fatima", "nl": "En op zondag?", "en": "And on Sunday?" },
+      { "speaker": "Sara", "nl": "Op zondag heb ik Tom in Utrecht bezocht. We hebben gewandeld en een film gezien. En jij?", "en": "On Sunday I visited Tom in Utrecht. We went for a walk and saw a film. And you?", "gap": "bezocht" },
+      { "speaker": "Fatima", "nl": "Ik heb gesport en ik heb veel geslapen.", "en": "I worked out and slept a lot.", "gap": "gesport" },
+      { "speaker": "Sara", "nl": "Heb je het al gehoord? Er is vandaag een vergadering om negen uur.", "en": "Have you heard? There's a meeting at nine today." },
+      { "speaker": "Fatima", "nl": "Nee, dat heb ik niet gehoord. Hoe laat is het nu?", "en": "No, I hadn't heard that. What time is it now?", "gap": "gehoord" },
+      { "speaker": "Sara", "nl": "Het is net negen uur.", "en": "It's just gone nine." },
+      { "speaker": "Fatima", "nl": "Dan moeten we gaan!", "en": "Then we have to go!" }
+    ]
+  }
+}

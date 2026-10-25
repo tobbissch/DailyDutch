@@ -1,0 +1,70 @@
+{
+  "day": 4,
+  "title": "Mijn telefoonnummer",
+  "names": ["Sara", "Tom"],
+  "words": [
+    { "id": "hebben", "nl": "hebben", "en": "to have", "forms": ["heb", "had", "hebt", "heeft", "hadden", "hebbend", "gehad"], "example": { "nl": "Ik heb een telefoon.", "en": "I have a phone." } },
+    { "id": "nul", "nl": "nul", "en": "zero", "example": { "nl": "Nul, één, twee, drie.", "en": "Zero, one, two, three." } },
+    { "id": "een-num", "nl": "één", "en": "one", "example": { "nl": "Ik wil graag één brood.", "en": "I'd like one loaf of bread." } },
+    { "id": "twee", "nl": "twee", "en": "two", "example": { "nl": "Ik wil graag twee broden.", "en": "I'd like two loaves of bread." } },
+    { "id": "vier", "nl": "vier", "en": "four", "example": { "nl": "Het brood kost vier euro.", "en": "The bread costs four euros." } },
+    { "id": "vijf", "nl": "vijf", "en": "five", "example": { "nl": "Vijf euro, alstublieft.", "en": "Five euros, please." } },
+    { "id": "zes", "nl": "zes", "en": "six", "example": { "nl": "Ik heb zes broden.", "en": "I have six loaves of bread." } },
+    { "id": "zeven", "nl": "zeven", "en": "seven", "example": { "nl": "Drie en vier is zeven.", "en": "Three and four is seven." } },
+    { "id": "acht", "nl": "acht", "en": "eight", "example": { "nl": "Vier en vier is acht.", "en": "Four and four is eight." } },
+    { "id": "negen", "nl": "negen", "en": "nine", "example": { "nl": "Hoeveel is vijf en vier? Negen.", "en": "What is five and four? Nine." } },
+    { "id": "tien", "nl": "tien", "en": "ten", "example": { "nl": "Ik heb tien euro.", "en": "I have ten euros." } },
+    { "id": "nummer", "nl": "nummer", "en": "number", "article": "het", "plural": "nummers", "forms": ["nummertje"], "example": { "nl": "Heb jij mijn nummer?", "en": "Do you have my number?" } },
+    { "id": "telefoon", "nl": "telefoon", "en": "phone", "article": "de", "plural": "telefoons", "forms": ["telefoontje"], "example": { "nl": "Waar is mijn telefoon?", "en": "Where is my phone?" } },
+    { "id": "mijn", "nl": "mijn", "en": "my", "example": { "nl": "Mijn nummer is nul zes, twee vier.", "en": "My number is oh six, two four." } },
+    { "id": "jouw", "nl": "jouw", "en": "your", "example": { "nl": "Wat is jouw nummer?", "en": "What is your number?" } },
+    { "id": "sorry", "nl": "sorry", "en": "sorry, excuse me", "example": { "nl": "Sorry, wat zeg je?", "en": "Sorry, what did you say?" } },
+    { "id": "nog", "nl": "nog", "en": "still, yet; more", "example": { "nl": "Ik heb nog tien euro.", "en": "I still have ten euros." } },
+    { "id": "keer", "nl": "keer", "en": "time (occasion)", "article": "de", "plural": "keren", "forms": ["keertje"], "example": { "nl": "Sorry, nog een keer?", "en": "Sorry, once more?" } },
+    { "id": "zeggen", "nl": "zeggen", "en": "to say", "forms": ["zeg", "zei", "zegde", "zegt", "zeiden", "zegden", "zeggend", "gezegd"], "example": { "nl": "Ik zeg het nog een keer.", "en": "I'll say it once more." } },
+    { "id": "telefoonnummer", "nl": "telefoonnummer", "en": "phone number", "article": "het", "plural": "telefoonnummers", "example": { "nl": "Wat is jouw telefoonnummer?", "en": "What is your phone number?" } },
+    { "id": "naam", "nl": "naam", "en": "name", "article": "de", "plural": "namen", "forms": ["naampje"], "example": { "nl": "Mijn naam is Sara.", "en": "My name is Sara." } },
+    { "id": "hoi", "nl": "hoi", "en": "hi", "example": { "nl": "Hoi! Ik ben Tom.", "en": "Hi! I'm Tom." } },
+    { "id": "oke", "nl": "oké", "en": "OK, okay", "forms": ["oke"], "example": { "nl": "Oké, nog een keer.", "en": "OK, one more time." } }
+  ],
+  "grammar": {
+    "title": "hebben (to have) and numbers 0–10",
+    "points": [
+      "ik heb = I have, jij hebt = you have, u hebt or u heeft = you have (polite; both are correct).",
+      "In a question with jij after the verb, the -t drops, just like with wonen: Heb jij een telefoon?",
+      "Numbers 0–10: nul, één, twee, drie, vier, vijf, zes, zeven, acht, negen, tien.",
+      "één (one) has accents to tell it apart from een (a/an). één rhymes with 'rain', een sounds like 'un'.",
+      "Phone numbers are often read digit by digit or in pairs: 06 = nul zes."
+    ],
+    "examples": [
+      { "nl": "Ik heb een telefoon.", "en": "I have a phone." },
+      { "nl": "Heb jij een telefoon?", "en": "Do you have a phone?" },
+      { "nl": "Heeft u een telefoonnummer?", "en": "Do you have a phone number?" },
+      { "nl": "Ik heb één brood en jij hebt twee broden.", "en": "I have one loaf and you have two loaves." },
+      { "nl": "Mijn nummer is nul zes, twee vier, acht vijf.", "en": "My number is oh six, two four, eight five." }
+    ],
+    "exercises": [
+      { "prompt": "Ik ___ een telefoon.", "answer": "heb", "hint": "hebben" },
+      { "prompt": "Jij ___ mijn nummer.", "answer": "hebt", "hint": "hebben" },
+      { "prompt": "___ jij een telefoon?", "answer": "Heb", "hint": "hebben" },
+      { "prompt": "Drie en vier is ___.", "answer": "zeven", "hint": "3 + 4" },
+      { "prompt": "Vijf en vijf is ___.", "answer": "tien", "hint": "5 + 5" }
+    ]
+  },
+  "dialogue": {
+    "title": "Wat is jouw nummer?",
+    "scene": "Sara gives Tom her phone number.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Hoi Sara! Heb jij een telefoon?", "en": "Hi Sara! Do you have a phone?", "gap": "Heb" },
+      { "speaker": "Sara", "nl": "Ja, ik heb een telefoon.", "en": "Yes, I have a phone." },
+      { "speaker": "Tom", "nl": "Wat is jouw telefoonnummer?", "en": "What's your phone number?", "gap": "telefoonnummer" },
+      { "speaker": "Sara", "nl": "Mijn nummer is nul zes, twee vier, acht vijf, negen zeven, één nul.", "en": "My number is 06 24 85 97 10." },
+      { "speaker": "Tom", "nl": "Sorry, nog een keer?", "en": "Sorry, once more?", "gap": "nog een keer" },
+      { "speaker": "Sara", "nl": "Nul zes, twee vier, acht vijf, negen zeven, één nul.", "en": "06 24 85 97 10." },
+      { "speaker": "Tom", "nl": "Dank je wel! Heb jij mijn nummer ook?", "en": "Thanks! Do you have my number too?" },
+      { "speaker": "Sara", "nl": "Nee, nog niet.", "en": "No, not yet.", "gap": "nog" },
+      { "speaker": "Tom", "nl": "Mijn nummer is nul zes, drie drie, zeven twee, vier acht, nul vijf.", "en": "My number is 06 33 72 48 05." },
+      { "speaker": "Sara", "nl": "Oké, dank je wel, Tom!", "en": "OK, thanks, Tom!" }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "day": 86,
+  "title": "Kinderen en school",
+  "names": ["Anna", "Sara", "Noor", "Daan", "Mark"],
+  "words": [
+    { "id": "basisschool", "nl": "basisschool", "en": "primary school", "article": "de", "plural": "basisscholen", "forms": ["basisschooltje"], "example": { "nl": "Noor en Daan zitten op de basisschool.", "en": "Noor and Daan are at primary school." } },
+    { "id": "middelbare-school", "nl": "middelbare school", "en": "secondary school, high school", "article": "de", "plural": "middelbare scholen", "example": { "nl": "Daan gaat over twee jaar naar de middelbare school.", "en": "Daan is going to secondary school in two years." } },
+    { "id": "middelbaar", "nl": "middelbaar", "en": "middle; secondary", "forms": ["middelbaarder", "middelbaarst", "middelbare", "middelbaardere", "middelbaarste"], "example": { "nl": "Op de middelbare school heb je veel huiswerk.", "en": "At secondary school you have a lot of homework." } },
+    { "id": "klas", "nl": "klas", "en": "class; classroom", "article": "de", "plural": "klassen", "forms": ["klasje"], "example": { "nl": "Er zitten 28 kinderen in de klas.", "en": "There are 28 children in the class." } },
+    { "id": "juf", "nl": "juf", "en": "(female) teacher, Miss", "article": "de", "plural": "juffen", "forms": ["jufje", "juffie"], "example": { "nl": "Noor vindt haar juf heel aardig.", "en": "Noor thinks her teacher is really nice." } },
+    { "id": "meester", "nl": "meester", "en": "(male) teacher, Sir; master", "article": "de", "plural": "meesters", "forms": ["meestertje"], "example": { "nl": "Daan heeft dit jaar een meester.", "en": "Daan has a male teacher this year." } },
+    { "id": "huiswerk", "nl": "huiswerk", "en": "homework", "article": "het", "forms": ["huiswerkje"], "example": { "nl": "Heb je je huiswerk al gemaakt?", "en": "Have you done your homework yet?" } },
+    { "id": "rapport", "nl": "rapport", "en": "school report, report card; report", "article": "het", "plural": "rapporten", "forms": ["rapportje"], "example": { "nl": "Daan had een heel goed rapport.", "en": "Daan had a really good report." } },
+    { "id": "cijfer", "nl": "cijfer", "en": "mark, grade; number, figure", "article": "het", "plural": "cijfers", "forms": ["cijfertje"], "example": { "nl": "In Nederland is een tien het hoogste cijfer.", "en": "In the Netherlands a ten is the highest mark." } },
+    { "id": "toets", "nl": "toets", "en": "test (at school), quiz; key (on a keyboard)", "article": "de", "plural": "toetsen", "forms": ["toetsje"], "example": { "nl": "Morgen heeft Daan een toets.", "en": "Daan has a test tomorrow." } },
+    { "id": "ouderavond", "nl": "ouderavond", "en": "parents' evening", "article": "de", "plural": "ouderavonden", "example": { "nl": "Morgen is er ouderavond op school.", "en": "There's a parents' evening at school tomorrow." } },
+    { "id": "schoolreis", "nl": "schoolreis", "en": "school trip", "article": "de", "plural": "schoolreizen", "forms": ["schoolreisje"], "example": { "nl": "De klas gaat op schoolreisje naar het strand.", "en": "The class is going on a school trip to the beach." } },
+    { "id": "zodat", "nl": "zodat", "en": "so that", "example": { "nl": "Ik help hem, zodat hij sneller klaar is.", "en": "I'm helping him so that he's finished sooner." } },
+    { "id": "hoewel", "nl": "hoewel", "en": "although", "example": { "nl": "Hoewel hij moe is, maakt hij zijn huiswerk.", "en": "Although he's tired, he does his homework." } },
+    { "id": "groep", "nl": "groep", "en": "group; year (at Dutch primary school)", "article": "de", "plural": "groepen", "forms": ["groepje"], "example": { "nl": "Noor zit in groep 4.", "en": "Noor is in year 4 (groep 4)." } }
+  ],
+  "grammar": {
+    "title": "zodat and hoewel: so that, although",
+    "points": [
+      "zodat (so that) and hoewel (although) start a subordinate clause, just like omdat and dat: the conjugated verb goes to the end.",
+      "zodat gives a result or goal: Ik leg het uit, zodat je het begrijpt.",
+      "hoewel gives a contrast: Hoewel ze moe is, gaat ze naar school. It's a bit more formal than maar: Ze is moe, maar ze gaat naar school.",
+      "If the subordinate clause comes first, the main clause starts with the verb: Hoewel het regent, gaan we naar buiten.",
+      "Main clauses with hoewel often add toch (still, anyway): Hoewel hij weinig leert, haalt hij toch goede cijfers.",
+      "Don't confuse zodat with om ... te: om ... te only works when the subject is the same (Ik leer veel om een goed cijfer te halen)."
+    ],
+    "examples": [
+      { "nl": "Ik help Daan met zijn huiswerk, zodat hij op tijd klaar is.", "en": "I help Daan with his homework so that he's finished on time." },
+      { "nl": "Hoewel Noor pas zeven is, leest ze al heel goed.", "en": "Although Noor is only seven, she already reads very well." },
+      { "nl": "De juf praat hard, zodat iedereen haar hoort.", "en": "The teacher speaks loudly so that everyone can hear her." },
+      { "nl": "Hij haalde een acht, hoewel hij niet veel had geleerd.", "en": "He got an eight, although he hadn't studied much." },
+      { "nl": "Hoewel het regende, ging de klas toch op schoolreis.", "en": "Although it was raining, the class still went on the school trip." }
+    ],
+    "exercises": [
+      { "prompt": "___ hij ziek was, ging hij naar school.", "answer": "Hoewel", "hint": "although" },
+      { "prompt": "We vertrekken vroeg, ___ we op tijd zijn.", "answer": "zodat", "hint": "so that" },
+      { "prompt": "Hoewel ze moe is, ___ ze haar huiswerk.", "answer": "maakt", "hint": "maken" },
+      { "prompt": "Ik zeg het nog een keer, zodat je het goed ___.", "answer": "hoort", "hint": "horen" },
+      { "prompt": "Daan heeft morgen een ___ over Nederland.", "answer": "toets", "hint": "test" },
+      { "prompt": "Noor vindt ___ juf heel aardig.", "answer": "haar", "hint": "her" }
+    ]
+  },
+  "dialogue": {
+    "title": "Hoe gaat het op school?",
+    "scene": "Sara visits Anna. While Noor and Daan play outside, Anna talks about their school.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Hoe gaat het met Noor en Daan op school?", "en": "How are Noor and Daan doing at school?" },
+      { "speaker": "Anna", "nl": "Goed! Gisteren heb ik hun rapporten gelezen.", "en": "Well! I read their school reports yesterday.", "gap": "rapport" },
+      { "speaker": "Anna", "nl": "Daan haalde voor zijn toetsen vaak een acht of een negen.", "en": "Daan often got an eight or a nine for his tests.", "gap": "toetsen" },
+      { "speaker": "Sara", "nl": "Wat goed! En Noor?", "en": "Wow, that's great! And Noor?" },
+      { "speaker": "Anna", "nl": "Hoewel ze pas in groep 4 zit, leest ze al lange boeken.", "en": "Although she's only in year 4, she's already reading long books.", "gap": "Hoewel" },
+      { "speaker": "Anna", "nl": "Haar juf zegt dat ze heel slim is, maar ze praat te veel in de klas.", "en": "Her teacher says she's very clever, but she talks too much in class.", "gap": "juf" },
+      { "speaker": "Sara", "nl": "Dat is echt Noor! Hebben ze veel huiswerk?", "en": "That's Noor all over! Do they have much homework?" },
+      { "speaker": "Anna", "nl": "Daan wel. Elke avond help ik hem even, zodat hij niet te laat naar bed gaat.", "en": "Daan does. Every evening I help him a bit so that he doesn't go to bed too late.", "gap": "zodat" },
+      { "speaker": "Sara", "nl": "En is hij dit jaar al klaar met de basisschool?", "en": "And is he finishing primary school this year?" },
+      { "speaker": "Anna", "nl": "Nee, over twee jaar. Dan gaat hij naar de middelbare school.", "en": "No, in two years. Then he goes to secondary school." },
+      { "speaker": "Anna", "nl": "Deze week is er ouderavond. Mark en ik gaan samen met de meester praten.", "en": "There's a parents' evening this week. Mark and I are going to talk to his teacher together." },
+      { "speaker": "Sara", "nl": "En gaan ze dit jaar nog op schoolreisje?", "en": "And are they going on a school trip this year?" },
+      { "speaker": "Anna", "nl": "Ja, in juni. Ze praten over niets anders!", "en": "Yes, in June. They talk about nothing else!" }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "day": 52,
+  "title": "Het sollicitatiegesprek",
+  "names": ["Peter"],
+  "words": [
+    { "id": "gesprek", "nl": "gesprek", "en": "conversation, talk; interview", "article": "het", "plural": "gesprekken", "forms": ["gesprekje"], "example": { "nl": "Ik heb morgen een gesprek bij een bedrijf.", "en": "I have an interview at a company tomorrow." } },
+    { "id": "voorstellen", "nl": "voorstellen", "en": "to introduce; to suggest", "forms": ["stel voor", "stelde voor", "voorstel", "voorstelde", "stelt voor", "voorstelt", "stellen voor", "stelden voor", "voorstelden", "voorstellend", "voorgesteld"], "example": { "nl": "Mag ik me even voorstellen?", "en": "May I introduce myself?" } },
+    { "id": "sterkte", "nl": "sterkte", "en": "strength, strong point", "article": "de", "plural": "sterkten", "forms": ["sterktes"], "example": { "nl": "Wat is uw grootste sterkte?", "en": "What is your greatest strength?" } },
+    { "id": "kwaliteit", "nl": "kwaliteit", "en": "quality", "article": "de", "plural": "kwaliteiten", "forms": ["kwaliteitje"], "example": { "nl": "Wat zijn uw kwaliteiten?", "en": "What are your qualities?" } },
+    { "id": "zwakte", "nl": "zwakte", "en": "weakness", "article": "de", "plural": "zwakten", "forms": ["zwaktes", "zwaktetje"], "example": { "nl": "Mijn zwakte is dat ik soms te snel werk.", "en": "My weakness is that I sometimes work too fast." } },
+    { "id": "team", "nl": "team", "en": "team", "article": "het", "plural": "teams", "forms": ["teampje"], "example": { "nl": "Ons team heeft acht mensen.", "en": "Our team has eight people." } },
+    { "id": "samenwerken", "nl": "samenwerken", "en": "to work together, to cooperate", "forms": ["werk samen", "werkte samen", "samenwerk", "samenwerkte", "werkt samen", "samenwerkt", "werken samen", "werkten samen", "samenwerkten", "samenwerkend", "samengewerkt"], "example": { "nl": "Ik werk graag samen.", "en": "I like working with others." } },
+    { "id": "zelfstandig", "nl": "zelfstandig", "en": "independent(ly); self-employed", "forms": ["zelfstandiger", "zelfstandigst", "zelfstandige", "zelfstandigere", "zelfstandigste"], "example": { "nl": "Ze kan goed zelfstandig werken.", "en": "She's good at working independently." } },
+    { "id": "verantwoordelijk", "nl": "verantwoordelijk", "en": "responsible", "forms": ["verantwoordelijker", "verantwoordelijkst", "verantwoordelijke", "verantwoordelijkere", "verantwoordelijkste"], "example": { "nl": "Ik ben verantwoordelijk voor de klanten.", "en": "I'm responsible for the customers." } },
+    { "id": "verantwoordelijkheid", "nl": "verantwoordelijkheid", "en": "responsibility", "article": "de", "plural": "verantwoordelijkheden", "example": { "nl": "Ik wil graag meer verantwoordelijkheid.", "en": "I'd like more responsibility." } },
+    { "id": "ambitieus", "nl": "ambitieus", "en": "ambitious", "forms": ["ambitieuzer", "ambitieust", "ambitieuze", "ambitieuzere", "ambitieuste"], "example": { "nl": "Ze is jong en ambitieus.", "en": "She's young and ambitious." } },
+    { "id": "flexibel", "nl": "flexibel", "en": "flexible", "forms": ["flexibeler", "flexibelst", "flexibele", "flexibelere", "flexibelste"], "example": { "nl": "Ik ben flexibel: ik kan ook in het weekend werken.", "en": "I'm flexible: I can work at weekends too." } },
+    { "id": "uitdaging", "nl": "uitdaging", "en": "challenge", "article": "de", "plural": "uitdagingen", "forms": ["uitdaginkje"], "example": { "nl": "Ik zoek een nieuwe uitdaging.", "en": "I'm looking for a new challenge." } },
+    { "id": "afspreken", "nl": "afspreken", "en": "to agree; to arrange (to meet)", "forms": ["spreek af", "sprak af", "afspreek", "afsprak", "spreekt af", "afspreekt", "spreken af", "spraken af", "afspraken", "afsprekend", "afgesproken"], "example": { "nl": "We spreken af om drie uur.", "en": "We'll meet at three." } },
+    { "id": "uw-pron", "nl": "uw", "en": "your (polite)", "example": { "nl": "Wat is uw adres?", "en": "What is your address?" } }
+  ],
+  "grammar": {
+    "title": "Formal u and polite zou",
+    "points": [
+      "In a job interview you use u, and uw for 'your': Wat zijn uw kwaliteiten?",
+      "The verb with u is like the hij-form: u bent, u heeft (or u hebt), u werkt, u kunt.",
+      "zou (plural zouden) + infinitive at the end makes things polite or hypothetical: Ik zou graag bij uw bedrijf werken.",
+      "Wat zou u doen als ...? asks about an imagined situation: What would you do if ...?",
+      "To introduce yourself: Mag ik me even voorstellen? Then Ik ben ..., ik kom uit ..., ik werk ..."
+    ],
+    "examples": [
+      { "nl": "Mag ik me even voorstellen? Ik ben Sara.", "en": "May I introduce myself? I'm Sara." },
+      { "nl": "Ik zou graag in uw team werken.", "en": "I would like to work in your team." },
+      { "nl": "Wat zou u doen als een klant klaagt?", "en": "What would you do if a customer complained?" },
+      { "nl": "Ik werk graag samen, maar ik kan ook zelfstandig werken.", "en": "I like working with others, but I can also work independently." },
+      { "nl": "Mijn sterkte is dat ik flexibel ben.", "en": "My strength is that I'm flexible." }
+    ],
+    "exercises": [
+      { "prompt": "Ik ___ graag bij uw bedrijf werken.", "answer": "zou", "hint": "zullen (polite)" },
+      { "prompt": "___ u ervaring in een team?", "answer": "Heeft", "hint": "hebben (u)" },
+      { "prompt": "Mag ik me even ___?", "answer": "voorstellen", "hint": "to introduce" },
+      { "prompt": "Ik werk graag ___ in een team.", "answer": "samen", "hint": "samenwerken" },
+      { "prompt": "Wat is ___ adres?", "answer": "uw", "hint": "your (polite)" },
+      { "prompt": "Zullen we een tweede gesprek ___?", "answer": "afspreken", "hint": "to arrange" }
+    ]
+  },
+  "dialogue": {
+    "title": "Mag ik me even voorstellen?",
+    "scene": "Sara has a job interview with Peter, the manager of a design agency.",
+    "lines": [
+      { "speaker": "Peter", "nl": "Dag Sara, ik ben Peter. Gaat u zitten.", "en": "Hello Sara, I'm Peter. Please have a seat." },
+      { "speaker": "Sara", "nl": "Dank u wel. Mag ik me even voorstellen?", "en": "Thank you. May I introduce myself?", "gap": "voorstellen" },
+      { "speaker": "Sara", "nl": "Ik ben Sara, ik kom uit Spanje en ik woon sinds vorig jaar in Amsterdam.", "en": "I'm Sara, I'm from Spain and I've been living in Amsterdam since last year." },
+      { "speaker": "Peter", "nl": "Waarom wilt u bij ons werken?", "en": "Why do you want to work for us?" },
+      { "speaker": "Sara", "nl": "Ik zoek een nieuwe uitdaging, en uw bedrijf maakt heel mooi werk.", "en": "I'm looking for a new challenge, and your company does really beautiful work.", "gap": "uitdaging" },
+      { "speaker": "Peter", "nl": "Wat zijn uw kwaliteiten?", "en": "What are your strengths?", "gap": "kwaliteiten" },
+      { "speaker": "Sara", "nl": "Ik ben flexibel en ik werk graag samen in een team. Maar ik kan ook goed zelfstandig werken.", "en": "I'm flexible and I like working in a team. But I can also work well independently.", "gap": "zelfstandig" },
+      { "speaker": "Peter", "nl": "En wat is uw zwakte?", "en": "And what's your weakness?" },
+      { "speaker": "Sara", "nl": "Soms neem ik te veel werk mee naar huis.", "en": "Sometimes I take too much work home." },
+      { "speaker": "Peter", "nl": "Wat zou u doen als een klant klaagt?", "en": "What would you do if a customer complained?" },
+      { "speaker": "Sara", "nl": "Ik zou eerst goed luisteren en dan rustig met de klant praten.", "en": "I would listen carefully first and then talk to the customer calmly.", "gap": "zou" },
+      { "speaker": "Peter", "nl": "Mooi. U bent jong en ambitieus. Zullen we een tweede gesprek afspreken?", "en": "Good. You're young and ambitious. Shall we arrange a second interview?" },
+      { "speaker": "Sara", "nl": "Heel graag!", "en": "I'd love to!" }
+    ]
+  }
+}

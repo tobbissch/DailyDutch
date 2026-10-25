@@ -1,0 +1,64 @@
+{
+  "day": 114,
+  "title": "De markt van de toekomst",
+  "names": ["Tom", "Sara", "Utrecht"],
+  "words": [
+    { "id": "technologie", "nl": "technologie", "en": "technology", "article": "de", "plural": "technologieën", "forms": ["technologietje"], "example": { "nl": "De technologie gaat heel snel.", "en": "Technology is moving very fast." } },
+    { "id": "robot", "nl": "robot", "en": "robot", "article": "de", "plural": "robots", "forms": ["robotje"], "example": { "nl": "Bij ons thuis stofzuigt een robot.", "en": "At our place a robot does the vacuuming." } },
+    { "id": "kunstmatige-intelligentie", "nl": "kunstmatige intelligentie", "en": "artificial intelligence, AI", "article": "de", "plural": "kunstmatige intelligenties", "example": { "nl": "Kunstmatige intelligentie kan een brief voor je schrijven.", "en": "AI can write a letter for you." } },
+    { "id": "kunstmatig", "nl": "kunstmatig", "en": "artificial, man-made", "forms": ["kunstmatiger", "kunstmatigst", "kunstmatige", "kunstmatigere", "kunstmatigste"], "example": { "nl": "Het meer in dit park is kunstmatig.", "en": "The lake in this park is man-made." } },
+    { "id": "intelligentie", "nl": "intelligentie", "en": "intelligence", "article": "de", "plural": "intelligenties", "forms": ["intelligentietje"], "example": { "nl": "Intelligentie is niet alles.", "en": "Intelligence isn't everything." } },
+    { "id": "uitvinding", "nl": "uitvinding", "en": "invention", "article": "de", "plural": "uitvindingen", "forms": ["uitvindinkje"], "example": { "nl": "De fiets is een mooie uitvinding.", "en": "The bicycle is a great invention." } },
+    { "id": "uitvinden", "nl": "uitvinden", "en": "to invent", "forms": ["vind uit", "vond uit", "uitvind", "uitvond", "vindt uit", "uitvindt", "vondt uit", "uitvondt", "vinden uit", "vonden uit", "uitvonden", "uitvindend", "uitgevonden"], "example": { "nl": "Wie heeft de fiets uitgevonden?", "en": "Who invented the bicycle?" } },
+    { "id": "mogelijkheid", "nl": "mogelijkheid", "en": "possibility, option", "article": "de", "plural": "mogelijkheden", "example": { "nl": "Er zijn veel mogelijkheden.", "en": "There are many possibilities." } },
+    { "id": "mogelijk", "nl": "mogelijk", "en": "possible", "forms": ["mogelijke"], "example": { "nl": "Is het mogelijk om morgen te komen?", "en": "Is it possible to come tomorrow?" } },
+    { "id": "onmogelijk", "nl": "onmogelijk", "en": "impossible", "forms": ["onmogelijker", "onmogelijkst", "onmogelijke", "onmogelijkere", "onmogelijkste"], "example": { "nl": "Dat is onmogelijk!", "en": "That's impossible!" } },
+    { "id": "waarschijnlijk", "nl": "waarschijnlijk", "en": "probably; likely", "forms": ["waarschijnlijker", "waarschijnlijkst", "waarschijnlijke", "waarschijnlijkere", "waarschijnlijkste", "wrs", "ws", "wsl", "wss", "wrsch", "wrslk"], "example": { "nl": "Morgen gaat het waarschijnlijk regenen.", "en": "It will probably rain tomorrow." } },
+    { "id": "verwachten", "nl": "verwachten", "en": "to expect", "forms": ["verwacht", "verwachtte", "verwachtten", "verwachtend"], "example": { "nl": "Ik verwacht veel van de toekomst.", "en": "I expect a lot from the future." } },
+    { "id": "zelfrijdend", "nl": "zelfrijdend", "en": "self-driving", "forms": ["zelfrijdende"], "example": { "nl": "Zelfrijdende auto's zijn er al.", "en": "Self-driving cars already exist." } },
+    { "id": "elektrisch", "nl": "elektrisch", "en": "electric", "forms": ["elektrische", "electrisch"], "example": { "nl": "Tom fietst op een elektrische fiets.", "en": "Tom rides an electric bike." } },
+    { "id": "ontwikkeling-noun", "nl": "ontwikkeling", "en": "development", "article": "de", "plural": "ontwikkelingen", "forms": ["ontwikkelingetje", "ontwikkelinkje"], "example": { "nl": "De ontwikkeling van robots gaat snel.", "en": "The development of robots is going fast." } }
+  ],
+  "grammar": {
+    "title": "The future: gaan or zullen? And: zal wel",
+    "points": [
+      "gaan + infinitive is the most common way to talk about plans and things that are clearly coming: Ik ga een fiets kopen. Het gaat regenen.",
+      "zullen + infinitive is used for predictions, promises and in more formal language: In 2050 zullen veel auto's zelfrijdend zijn. Ik zal je helpen.",
+      "Forms: ik zal, jij zult / zal, hij zal, wij / jullie / zij zullen.",
+      "Very often Dutch just uses the present tense with a time word: Morgen werk ik thuis.",
+      "zal wel = 'probably, I suppose' (a guess): Tom is laat. Hij zal wel in de file staan."
+    ],
+    "examples": [
+      { "nl": "Ik ga morgen een elektrische fiets kopen.", "en": "I'm going to buy an electric bike tomorrow." },
+      { "nl": "In 2050 zullen veel auto's zelfrijdend zijn.", "en": "In 2050 many cars will be self-driving." },
+      { "nl": "Maak je geen zorgen, ik zal je helpen.", "en": "Don't worry, I'll help you." },
+      { "nl": "Kijk die wolken! Het gaat regenen.", "en": "Look at those clouds! It's going to rain." },
+      { "nl": "Tom is er nog niet. Hij zal wel in de file staan.", "en": "Tom isn't here yet. He's probably stuck in traffic." }
+    ],
+    "exercises": [
+      { "prompt": "Morgen ___ ik een nieuwe laptop kopen.", "answer": "ga", "hint": "gaan (a plan)" },
+      { "prompt": "In 2050 ___ veel auto's zelfrijdend zijn.", "answer": "zullen", "hint": "zullen (prediction)" },
+      { "prompt": "Tom is laat. Hij ___ wel in de file staan.", "answer": "zal", "hint": "a guess" },
+      { "prompt": "Kijk die wolken! Het ___ regenen.", "answer": "gaat", "hint": "gaan" },
+      { "prompt": "Maak je geen zorgen, ik ___ je helpen.", "answer": "zal", "hint": "a promise" }
+    ]
+  },
+  "dialogue": {
+    "title": "Het leven in 2050",
+    "scene": "On the sofa, Tom and Sara imagine what life will be like in 2050.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Wat denk jij: hoe zal ons leven in 2050 zijn?", "en": "What do you think: what will our life be like in 2050?" },
+      { "speaker": "Sara", "nl": "Ik denk dat auto's dan elektrisch zullen zijn.", "en": "I think cars will be electric by then.", "gap": "zullen" },
+      { "speaker": "Tom", "nl": "En zelfrijdend! Dan ga ik lekker in de auto slapen.", "en": "And self-driving! Then I'm going to have a nice sleep in the car.", "gap": "zelfrijdend" },
+      { "speaker": "Sara", "nl": "En robots zullen het huishouden doen.", "en": "And robots will do the housework." },
+      { "speaker": "Tom", "nl": "Dat zou mooi zijn. Ik verwacht ook dat kunstmatige intelligentie veel werk zal doen.", "en": "That would be nice. I also expect AI to do a lot of work." },
+      { "speaker": "Sara", "nl": "Maar is dat goed voor de mensen die nu dat werk doen?", "en": "But is that good for the people who do that work now?" },
+      { "speaker": "Tom", "nl": "Er zullen ook nieuwe banen komen. Elke uitvinding geeft nieuwe mogelijkheden.", "en": "New jobs will come too. Every invention creates new possibilities.", "gap": "uitvinding" },
+      { "speaker": "Sara", "nl": "Misschien. Wat zou jij willen uitvinden?", "en": "Maybe. What would you like to invent?", "gap": "uitvinden" },
+      { "speaker": "Tom", "nl": "Een robot die elke avond voor mij kookt!", "en": "A robot that cooks for me every evening!" },
+      { "speaker": "Sara", "nl": "Dat is niet onmogelijk. Misschien heeft iemand hem al uitgevonden.", "en": "That's not impossible. Maybe someone has already invented it." },
+      { "speaker": "Tom", "nl": "En wij? Waar wonen we in 2050?", "en": "And us? Where will we live in 2050?" },
+      { "speaker": "Sara", "nl": "We zullen wel in Utrecht wonen, met een robot in de keuken.", "en": "We'll probably live in Utrecht, with a robot in the kitchen.", "gap": "zullen wel" }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "day": 98,
+  "title": "De auto",
+  "names": ["Kees"],
+  "words": [
+    { "id": "rijbewijs", "nl": "rijbewijs", "en": "driving licence", "article": "het", "plural": "rijbewijzen", "forms": ["rijbewijsje"], "example": { "nl": "Sara wil haar rijbewijs halen.", "en": "Sara wants to get her driving licence." } },
+    { "id": "rijles", "nl": "rijles", "en": "driving lesson", "article": "de", "plural": "rijlessen", "forms": ["rijlesje"], "example": { "nl": "Ik heb twee keer per week rijles.", "en": "I have a driving lesson twice a week." } },
+    { "id": "rijschool", "nl": "rijschool", "en": "driving school", "article": "de", "plural": "rijscholen", "forms": ["rijschooltje"], "example": { "nl": "De rijschool is dichtbij mijn huis.", "en": "The driving school is close to my house." } },
+    { "id": "instructeur", "nl": "instructeur", "en": "instructor", "article": "de", "plural": "instructeurs", "forms": ["instructeurtje"], "example": { "nl": "Mijn instructeur is heel geduldig.", "en": "My instructor is very patient." } },
+    { "id": "motor", "nl": "motor", "en": "engine; motorbike", "article": "de", "plural": "motoren", "forms": ["motortje"], "example": { "nl": "De motor is kapot.", "en": "The engine is broken." } },
+    { "id": "starten", "nl": "starten", "en": "to start", "forms": ["start", "startte", "startten", "startend", "gestart"], "example": { "nl": "De auto start niet.", "en": "The car won't start." } },
+    { "id": "parkeren", "nl": "parkeren", "en": "to park", "forms": ["parkeer", "parkeerde", "parkeert", "parkeerden", "parkerend", "geparkeerd"], "example": { "nl": "Parkeren in Amsterdam is moeilijk en duur.", "en": "Parking in Amsterdam is difficult and expensive." } },
+    { "id": "parkeerplaats", "nl": "parkeerplaats", "en": "parking space; car park", "article": "de", "plural": "parkeerplaatsen", "forms": ["parkeerplaatsje"], "example": { "nl": "Ik kan geen parkeerplaats vinden.", "en": "I can't find a parking space." } },
+    { "id": "tanken", "nl": "tanken", "en": "to get petrol, to fill up", "forms": ["tank", "tankte", "tankt", "tankten", "tankend", "getankt"], "example": { "nl": "We moeten nog tanken.", "en": "We still need to fill up." } },
+    { "id": "benzine", "nl": "benzine", "en": "petrol", "article": "de", "example": { "nl": "Benzine is duur in Nederland.", "en": "Petrol is expensive in the Netherlands." } },
+    { "id": "snelweg", "nl": "snelweg", "en": "motorway", "article": "de", "plural": "snelwegen", "forms": ["snelwegje"], "example": { "nl": "Op de snelweg mag je honderd rijden.", "en": "On the motorway you can do a hundred." } },
+    { "id": "file", "nl": "file", "en": "traffic jam", "article": "de", "plural": "files", "forms": ["filetje"], "example": { "nl": "We stonden twee uur in de file.", "en": "We were stuck in a traffic jam for two hours." } },
+    { "id": "snelheid", "nl": "snelheid", "en": "speed", "article": "de", "plural": "snelheden", "forms": ["snelheidje"], "example": { "nl": "Rijd hier met een lage snelheid.", "en": "Drive slowly here." } },
+    { "id": "inhalen", "nl": "inhalen", "en": "to overtake; to catch up", "forms": ["haal in", "haalde in", "inhaal", "inhaalde", "haalt in", "inhaalt", "halen in", "haalden in", "inhaalden", "inhalend", "ingehaald"], "example": { "nl": "Je mag hier niet inhalen.", "en": "You're not allowed to overtake here." } },
+    { "id": "tenzij", "nl": "tenzij", "en": "unless", "example": { "nl": "Je mag hier niet parkeren, tenzij je hier woont.", "en": "You can't park here unless you live here." } },
+    { "id": "zolang", "nl": "zolang", "en": "as long as", "example": { "nl": "Zolang je geen rijbewijs hebt, mag je niet zonder instructeur rijden.", "en": "As long as you don't have a licence, you can't drive without an instructor." } }
+  ],
+  "grammar": {
+    "title": "tenzij (unless) and zolang (as long as)",
+    "points": [
+      "tenzij means 'unless' and zolang means 'as long as' (or 'while').",
+      "Both start a subordinate clause, so the verb goes to the end: ..., tenzij er file is.",
+      "When the clause comes first, the main clause starts with the verb: Zolang je les hebt, rijdt de instructeur mee.",
+      "tenzij already means 'if not', so don't add an extra niet: We gaan, tenzij het regent (We'll go unless it rains).",
+      "zolang is about time or a condition that lasts: Zolang de motor koud is, moet je rustig rijden."
+    ],
+    "examples": [
+      { "nl": "We gaan met de auto, tenzij er file is.", "en": "We'll go by car, unless there's a traffic jam." },
+      { "nl": "Zolang je les hebt, rijdt de instructeur met je mee.", "en": "As long as you're taking lessons, the instructor drives with you." },
+      { "nl": "Ik rijd niet op de snelweg, tenzij mijn instructeur naast me zit.", "en": "I don't drive on the motorway unless my instructor is sitting next to me." },
+      { "nl": "Zolang de motor koud is, moet je rustig rijden.", "en": "As long as the engine is cold, you should drive gently." },
+      { "nl": "Je mag hier niet parkeren, tenzij je hier woont.", "en": "You can't park here unless you live here." }
+    ],
+    "exercises": [
+      { "prompt": "We gaan met de auto, ___ er file is.", "answer": "tenzij", "hint": "unless" },
+      { "prompt": "___ je geen rijbewijs hebt, mag je niet zonder instructeur rijden.", "answer": "Zolang", "hint": "as long as" },
+      { "prompt": "Je mag hier niet parkeren, tenzij je hier ___.", "answer": "woont", "hint": "wonen" },
+      { "prompt": "Ik haal je om acht uur op, tenzij ik in de file ___.", "answer": "sta", "hint": "staan" },
+      { "prompt": "We moeten nog ___ voordat we de snelweg op gaan.", "answer": "tanken", "hint": "get petrol" }
+    ]
+  },
+  "dialogue": {
+    "title": "Rijles op de snelweg",
+    "scene": "Sara is taking driving lessons. Today her instructor Kees wants to take her onto the motorway for the first time.",
+    "lines": [
+      { "speaker": "Kees", "nl": "Goed, Sara. Start de motor maar.", "en": "Right, Sara. Go ahead and start the engine.", "gap": "motor" },
+      { "speaker": "Sara", "nl": "De auto start niet!", "en": "The car won't start!" },
+      { "speaker": "Kees", "nl": "Rustig. Je moet eerst je voet op de rem zetten.", "en": "Relax. You have to put your foot on the brake first.", "gap": "rem" },
+      { "speaker": "Sara", "nl": "Ja, nu doet hij het.", "en": "Yes, now it's working." },
+      { "speaker": "Kees", "nl": "Mooi. We gaan vandaag de snelweg op, tenzij je dat te eng vindt.", "en": "Good. We're going onto the motorway today, unless you find that too scary.", "gap": "tenzij" },
+      { "speaker": "Sara", "nl": "Een beetje eng, maar zolang u naast me zit, gaat het wel.", "en": "A bit scary, but as long as you're sitting next to me, I'll be fine.", "gap": "zolang" },
+      { "speaker": "Kees", "nl": "Niet te snel. Op deze snelweg mag je honderd.", "en": "Not too fast. On this motorway you can do a hundred." },
+      { "speaker": "Sara", "nl": "Mag ik die bus inhalen?", "en": "Can I overtake that bus?", "gap": "inhalen" },
+      { "speaker": "Kees", "nl": "Ja, maar kijk eerst in je spiegel. Goed zo!", "en": "Yes, but check your mirror first. Well done!" },
+      { "speaker": "Sara", "nl": "Kijk, daar is een file.", "en": "Look, there's a traffic jam there." },
+      { "speaker": "Kees", "nl": "Dan gaan we hier van de snelweg af. Daarna moeten we nog tanken.", "en": "Then we'll get off the motorway here. After that we still need to fill up." },
+      { "speaker": "Sara", "nl": "En parkeren? Daar ben ik niet goed in.", "en": "And parking? I'm not good at that." },
+      { "speaker": "Kees", "nl": "Dat oefenen we morgen. Zolang je oefent, word je beter.", "en": "We'll practise that tomorrow. As long as you keep practising, you'll get better." }
+    ]
+  }
+}

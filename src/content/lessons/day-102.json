@@ -1,0 +1,67 @@
+{
+  "day": 102,
+  "title": "Een bruiloft",
+  "names": ["Bas", "Eva", "Henk"],
+  "words": [
+    { "id": "bruidspaar", "nl": "bruidspaar", "en": "bride and groom, wedding couple", "article": "het", "plural": "bruidsparen", "forms": ["bruidspaartje"], "example": { "nl": "Het bruidspaar danst de eerste dans.", "en": "The bride and groom dance the first dance." } },
+    { "id": "getuige-noun", "nl": "getuige", "en": "witness", "article": "de", "plural": "getuigen", "forms": ["getuigetje"], "example": { "nl": "Tom is getuige op de bruiloft van zijn neef.", "en": "Tom is a witness at his cousin's wedding." } },
+    { "id": "ja-woord", "nl": "jawoord", "en": "the \"I do\" (het jawoord geven = to say \"I do\")", "article": "het", "forms": ["ja-woord"], "example": { "nl": "Bas en Eva gaven elkaar het jawoord.", "en": "Bas and Eva said \"I do\" to each other." } },
+    { "id": "toespraak", "nl": "toespraak", "en": "speech", "article": "de", "plural": "toespraken", "forms": ["toespraakje"], "example": { "nl": "Tom houdt een toespraak bij het diner.", "en": "Tom gives a speech at the dinner." } },
+    { "id": "ceremonie", "nl": "ceremonie", "en": "ceremony", "article": "de", "plural": "ceremoniën", "forms": ["ceremonietje", "ceremonies"], "example": { "nl": "De ceremonie begint om twee uur.", "en": "The ceremony starts at two o'clock." } },
+    { "id": "diner", "nl": "diner", "en": "dinner (formal)", "article": "het", "plural": "diners", "forms": ["dinertje"], "example": { "nl": "Eerst is de ceremonie, daarna is er een diner.", "en": "First there's the ceremony, then there's a dinner." } },
+    { "id": "dansen", "nl": "dansen", "en": "to dance", "forms": ["dans", "danste", "danst", "dansten", "dansend", "gedanst"], "example": { "nl": "Wil je met me dansen?", "en": "Do you want to dance with me?" } },
+    { "id": "dans", "nl": "dans", "en": "dance", "article": "de", "plural": "dansen", "forms": ["dansje"], "example": { "nl": "De eerste dans is voor het bruidspaar.", "en": "The first dance is for the bride and groom." } },
+    { "id": "jurk-noun", "nl": "jurk", "en": "dress", "article": "de", "plural": "jurken", "forms": ["jurkje"], "example": { "nl": "De bruid draagt een witte jurk.", "en": "The bride is wearing a white dress." } },
+    { "id": "pak-noun", "nl": "pak", "en": "suit; package", "article": "het", "plural": "pakken", "forms": ["pakje"], "example": { "nl": "Tom draagt een nieuw pak.", "en": "Tom is wearing a new suit." } },
+    { "id": "kostuum", "nl": "kostuum", "en": "suit; costume", "article": "het", "plural": "kostuums", "forms": ["kostuumpje"], "example": { "nl": "Bas trouwt in een blauw kostuum.", "en": "Bas is getting married in a blue suit." } },
+    { "id": "fotograaf", "nl": "fotograaf", "en": "photographer", "article": "de", "plural": "fotografen", "forms": ["fotograafje"], "example": { "nl": "De fotograaf maakt een foto van het bruidspaar.", "en": "The photographer takes a picture of the bride and groom." } },
+    { "id": "ontroerend", "nl": "ontroerend", "en": "moving, touching", "forms": ["ontroerender", "ontroerendst", "ontroerende", "ontroerendere", "ontroerendste"], "example": { "nl": "Het was een ontroerende ceremonie.", "en": "It was a moving ceremony." } },
+    { "id": "proosten", "nl": "proosten", "en": "to toast, to say cheers", "forms": ["proost", "proostte", "proostten", "proostend", "geproost"], "example": { "nl": "We proosten op het bruidspaar.", "en": "We drink a toast to the bride and groom." } },
+    { "id": "toost", "nl": "toost", "en": "toast (with a drink)", "article": "de", "plural": "toosten", "forms": ["toostje"], "example": { "nl": "Henk geeft een toost op het bruidspaar.", "en": "Henk makes a toast to the bride and groom." } },
+    { "id": "geluk", "nl": "geluk", "en": "happiness; luck", "article": "het", "example": { "nl": "Ik wens jullie veel geluk.", "en": "I wish you every happiness." } }
+  ],
+  "grammar": {
+    "title": "Wedding wishes and relative clauses: de man die ...",
+    "points": [
+      "A relative clause tells you more about a noun. Use die after a de-word or a plural, dat after a het-word: de man die daar staat, het pak dat ik draag.",
+      "In a relative clause the verb goes to the end, just like after omdat or dat: De vrouw die naast Bas staat, is Eva.",
+      "After a preposition, use wie for people: de vrouw met wie hij trouwt. For things, use waar + preposition: de zaal waar we dansen.",
+      "To wish someone something: iemand iets wensen, without a preposition: Ik wens jullie veel geluk.",
+      "A wedding speech often ends with a toast: Zullen we proosten op het bruidspaar? Proost!"
+    ],
+    "examples": [
+      { "nl": "De man die naast de bruid staat, is de fotograaf.", "en": "The man standing next to the bride is the photographer." },
+      { "nl": "Het pak dat Tom draagt, is nieuw.", "en": "The suit Tom is wearing is new." },
+      { "nl": "Eva is de vrouw met wie Bas vandaag trouwt.", "en": "Eva is the woman Bas is marrying today." },
+      { "nl": "We wensen jullie veel liefde en geluk.", "en": "We wish you lots of love and happiness." },
+      { "nl": "Zullen we proosten op het bruidspaar?", "en": "Shall we drink a toast to the bride and groom?" }
+    ],
+    "exercises": [
+      { "prompt": "De man ___ naast de bruid staat, is de fotograaf.", "answer": "die", "hint": "die / dat" },
+      { "prompt": "Het diner ___ we gisteren hadden, was lekker.", "answer": "dat", "hint": "die / dat" },
+      { "prompt": "Eva is de vrouw met ___ Bas trouwt.", "answer": "wie", "hint": "person after a preposition" },
+      { "prompt": "Ik ___ jullie veel geluk.", "answer": "wens", "hint": "wensen" },
+      { "prompt": "Zullen we ___ op het bruidspaar?", "answer": "proosten", "hint": "to toast" },
+      { "prompt": "Bas en Eva hebben elkaar het ___ gegeven.", "answer": "jawoord", "hint": "the \"I do\"" }
+    ]
+  },
+  "dialogue": {
+    "title": "De bruiloft van Bas en Eva",
+    "scene": "Tom's cousin Bas marries Eva. Tom is one of the witnesses, and Sara is his guest at the wedding.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Wat een mooie ceremonie! Ik vond het heel ontroerend.", "en": "What a beautiful ceremony! I found it really moving.", "gap": "ontroerend" },
+      { "speaker": "Tom", "nl": "Ja, en Eva zag er prachtig uit in die witte jurk.", "en": "Yes, and Eva looked gorgeous in that white dress." },
+      { "speaker": "Sara", "nl": "Wie is de man die naast de bruid staat?", "en": "Who's the man standing next to the bride?", "gap": "die" },
+      { "speaker": "Tom", "nl": "Dat is de fotograaf. Hij maakt vandaag wel duizend foto's.", "en": "That's the photographer. He's taking about a thousand pictures today.", "gap": "fotograaf" },
+      { "speaker": "Sara", "nl": "En jij was getuige. Wat moest je doen?", "en": "And you were a witness. What did you have to do?" },
+      { "speaker": "Tom", "nl": "Toen ze het jawoord hadden gegeven, moest ik mijn handtekening zetten.", "en": "Once they'd said \"I do\", I had to sign.", "gap": "jawoord" },
+      { "speaker": "Sara", "nl": "Je ziet er ook goed uit in dat pak.", "en": "You look good in that suit too." },
+      { "speaker": "Tom", "nl": "Dank je. Het is het pak dat ik voor vandaag heb gekocht.", "en": "Thanks. It's the suit I bought for today.", "gap": "pak" },
+      { "speaker": "Sara", "nl": "Moet jij ook een toespraak houden bij het diner?", "en": "Do you have to give a speech at the dinner too?", "gap": "toespraak" },
+      { "speaker": "Tom", "nl": "Ja. Ik wens het bruidspaar veel liefde en geluk, en dan gaan we proosten.", "en": "Yes. I wish the couple lots of love and happiness, and then we drink a toast.", "gap": "proosten" },
+      { "speaker": "Sara", "nl": "Wat kort! En daarna?", "en": "That's short! And after that?" },
+      { "speaker": "Tom", "nl": "Daarna gaan we dansen. Eerst de dans van het bruidspaar, en dan wij.", "en": "Then we dance. First the couple's dance, and then us." },
+      { "speaker": "Sara", "nl": "Dan dans ik graag met jou.", "en": "Then I'd love to dance with you." }
+    ]
+  }
+}

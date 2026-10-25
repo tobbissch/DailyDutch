@@ -1,0 +1,64 @@
+{
+  "day": 111,
+  "title": "Een sollicitatie voor promotie",
+  "names": ["Peter", "Fatima"],
+  "words": [
+    { "id": "promotie", "nl": "promotie", "en": "promotion", "article": "de", "plural": "promoties", "forms": ["promotietje"], "example": { "nl": "Fatima heeft promotie gemaakt.", "en": "Fatima got promoted." } },
+    { "id": "leidinggevende", "nl": "leidinggevende", "en": "manager, supervisor", "article": "de", "plural": "leidinggevenden", "example": { "nl": "Peter is mijn leidinggevende.", "en": "Peter is my manager." } },
+    { "id": "leiding-geven", "nl": "leiding geven", "en": "to manage, to lead (leiding geven aan)", "forms": ["leiding", "geef leiding", "geeft leiding"], "example": { "nl": "Ik wil graag leiding geven aan een team.", "en": "I'd like to lead a team." } },
+    { "id": "leiden", "nl": "leiden", "en": "to lead, to run", "forms": ["leid", "leidde", "leidt", "leidden", "leidend", "geleid"], "example": { "nl": "Wie leidt de vergadering?", "en": "Who's running the meeting?" } },
+    { "id": "verantwoordelijkheid-noun", "nl": "verantwoordelijkheid", "en": "responsibility", "article": "de", "plural": "verantwoordelijkheden", "example": { "nl": "Dit project is jouw verantwoordelijkheid.", "en": "This project is your responsibility." } },
+    { "id": "taak", "nl": "taak", "en": "task, duty", "article": "de", "plural": "taken", "forms": ["taakje"], "example": { "nl": "Wat zijn mijn taken?", "en": "What are my duties?" } },
+    { "id": "ontwikkeling", "nl": "ontwikkeling", "en": "development", "article": "de", "plural": "ontwikkelingen", "forms": ["ontwikkelingetje", "ontwikkelinkje"], "example": { "nl": "Mijn baas helpt mij bij mijn ontwikkeling.", "en": "My boss helps me with my development." } },
+    { "id": "ontwikkelen", "nl": "ontwikkelen", "en": "to develop", "forms": ["ontwikkel", "ontwikkelde", "ontwikkelt", "ontwikkelden", "ontwikkelend", "ontwikkeld"], "example": { "nl": "We ontwikkelen een nieuwe app.", "en": "We are developing a new app." } },
+    { "id": "vaardigheid", "nl": "vaardigheid", "en": "skill", "article": "de", "plural": "vaardigheden", "forms": ["vaardigheidje"], "example": { "nl": "Luisteren is een belangrijke vaardigheid.", "en": "Listening is an important skill." } },
+    { "id": "salaris-noun", "nl": "salaris", "en": "salary", "article": "het", "plural": "salarissen", "forms": ["salarisje"], "example": { "nl": "Mijn salaris komt aan het einde van de maand.", "en": "My salary comes at the end of the month." } },
+    { "id": "onderhandelen", "nl": "onderhandelen", "en": "to negotiate", "forms": ["onderhandel", "onderhandelde", "onderhandelt", "onderhandelden", "onderhandelend", "onderhandeld"], "example": { "nl": "Je kunt over je salaris onderhandelen.", "en": "You can negotiate your salary." } },
+    { "id": "functioneringsgesprek", "nl": "functioneringsgesprek", "en": "performance review", "article": "het", "plural": "functioneringsgesprekken", "example": { "nl": "Ik heb één keer per jaar een functioneringsgesprek.", "en": "Once a year I have a performance review." } },
+    { "id": "beoordeling", "nl": "beoordeling", "en": "assessment, evaluation", "article": "de", "plural": "beoordelingen", "forms": ["beoordelinkje"], "example": { "nl": "Mijn beoordeling was heel goed.", "en": "My evaluation was very good." } },
+    { "id": "verdienen", "nl": "verdienen", "en": "to earn; to deserve", "forms": ["verdien", "verdiende", "verdient", "verdienden", "verdienend", "verdiend"], "example": { "nl": "Je hebt hard gewerkt. Je verdient een pauze!", "en": "You've worked hard. You deserve a break!" } }
+  ],
+  "grammar": {
+    "title": "zou: wishes and imagined situations",
+    "points": [
+      "zou (ik/jij/hij) and zouden (wij/jullie/zij) + infinitive = would: Ik zou meer verdienen.",
+      "For an imagined (unreal) situation use als + past tense, then zou + infinitive: Als ik meer tijd had, zou ik een cursus doen.",
+      "You can also put zou in the als-clause: Als ik promotie zou krijgen, zou ik meer verdienen.",
+      "For a real possibility, use the present tense: Als ik promotie krijg, verdien ik meer.",
+      "zou also makes wishes and requests polite: Ik zou graag ... willen. / Zou ik u even mogen spreken?"
+    ],
+    "examples": [
+      { "nl": "Als ik promotie zou krijgen, zou ik meer verdienen.", "en": "If I got a promotion, I would earn more." },
+      { "nl": "Als ik leidinggevende was, zou ik meer luisteren.", "en": "If I were a manager, I would listen more." },
+      { "nl": "Als we meer geld hadden, zouden we een huis kopen.", "en": "If we had more money, we would buy a house." },
+      { "nl": "Ik zou graag meer verantwoordelijkheid willen.", "en": "I would like more responsibility." },
+      { "nl": "Zou ik u even mogen spreken?", "en": "Could I speak to you for a moment?" }
+    ],
+    "exercises": [
+      { "prompt": "Als ik promotie kreeg, ___ ik meer verdienen.", "answer": "zou", "hint": "would" },
+      { "prompt": "Als ik leidinggevende ___, zou ik meer luisteren.", "answer": "was", "hint": "zijn (past)" },
+      { "prompt": "Als we meer geld hadden, ___ we een huis kopen.", "answer": "zouden", "hint": "would (plural)" },
+      { "prompt": "___ u mij kunnen helpen?", "answer": "Zou", "hint": "polite request" },
+      { "prompt": "Ik zou graag over mijn salaris willen ___.", "answer": "onderhandelen", "hint": "to negotiate" }
+    ]
+  },
+  "dialogue": {
+    "title": "Het functioneringsgesprek",
+    "scene": "In her performance review, Sara asks her manager Peter about a promotion.",
+    "lines": [
+      { "speaker": "Peter", "nl": "Goed dat je er bent, Sara. Dit is je functioneringsgesprek.", "en": "Good to see you, Sara. This is your performance review.", "gap": "functioneringsgesprek" },
+      { "speaker": "Peter", "nl": "Je beoordeling is heel goed. Ik ben echt tevreden over je werk.", "en": "Your evaluation is very good. I'm really happy with your work." },
+      { "speaker": "Sara", "nl": "Dank je. Ik zou graag met je over mijn toekomst willen praten.", "en": "Thank you. I'd like to talk to you about my future." },
+      { "speaker": "Peter", "nl": "Natuurlijk. Wat zou je willen?", "en": "Of course. What would you like?" },
+      { "speaker": "Sara", "nl": "Ik zou graag promotie maken. Ik wil meer verantwoordelijkheid.", "en": "I'd like to be promoted. I want more responsibility.", "gap": "promotie" },
+      { "speaker": "Peter", "nl": "Zou je een team willen leiden?", "en": "Would you like to lead a team?", "gap": "leiden" },
+      { "speaker": "Sara", "nl": "Ja. Als ik leidinggevende was, zou ik nieuwe collega's helpen hun vaardigheden te ontwikkelen.", "en": "Yes. If I were a manager, I would help new colleagues develop their skills.", "gap": "zou" },
+      { "speaker": "Peter", "nl": "Dat is een goed plan. In januari komt er een functie vrij.", "en": "That's a good plan. A position opens up in January." },
+      { "speaker": "Sara", "nl": "En als ik die functie zou krijgen, zou ik dan ook meer verdienen?", "en": "And if I got that position, would I earn more too?", "gap": "verdienen" },
+      { "speaker": "Peter", "nl": "Ja, maar over je salaris moeten we nog onderhandelen.", "en": "Yes, but we still have to negotiate your salary." },
+      { "speaker": "Sara", "nl": "Natuurlijk. En wat zouden mijn nieuwe taken zijn?", "en": "Of course. And what would my new duties be?" },
+      { "speaker": "Peter", "nl": "Je zou leiding geven aan vier mensen en contact houden met de klanten.", "en": "You would manage four people and stay in touch with the clients." },
+      { "speaker": "Sara", "nl": "Dat lijkt me heel leuk!", "en": "That sounds really good to me!" }
+    ]
+  }
+}

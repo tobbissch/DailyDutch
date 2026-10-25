@@ -1,0 +1,66 @@
+{
+  "day": 44,
+  "title": "Naar de gemeente",
+  "names": ["Amsterdam"],
+  "words": [
+    { "id": "gemeentehuis", "nl": "gemeentehuis", "en": "town hall", "article": "het", "plural": "gemeentehuizen", "forms": ["gemeentehuisje"], "example": { "nl": "Het gemeentehuis staat op het plein.", "en": "The town hall is on the square." } },
+    { "id": "formulier", "nl": "formulier", "en": "form (to fill in)", "article": "het", "plural": "formulieren", "forms": ["formuliertje"], "example": { "nl": "Vul dit formulier in, alstublieft.", "en": "Please fill in this form." } },
+    { "id": "invullen", "nl": "invullen", "en": "to fill in", "forms": ["vul in", "vulde in", "invul", "invulde", "vult in", "invult", "vullen in", "vulden in", "invulden", "invullend", "ingevuld"], "example": { "nl": "Ik heb het formulier thuis ingevuld.", "en": "I filled in the form at home." } },
+    { "id": "handtekening", "nl": "handtekening", "en": "signature", "article": "de", "plural": "handtekeningen", "forms": ["handtekeningetje"], "example": { "nl": "Uw handtekening, alstublieft.", "en": "Your signature, please." } },
+    { "id": "tekenen", "nl": "tekenen", "en": "to sign; to draw", "forms": ["teken", "tekende", "tekent", "tekenden", "tekenend", "getekend"], "example": { "nl": "Wilt u hier tekenen?", "en": "Would you sign here, please?" } },
+    { "id": "paspoort", "nl": "paspoort", "en": "passport", "article": "het", "plural": "paspoorten", "forms": ["paspoortje"], "example": { "nl": "Heeft u uw paspoort bij u?", "en": "Do you have your passport with you?" } },
+    { "id": "adres", "nl": "adres", "en": "address", "article": "het", "plural": "adressen", "forms": ["adresje"], "example": { "nl": "Wat is uw nieuwe adres?", "en": "What is your new address?" } },
+    { "id": "geboortedatum", "nl": "geboortedatum", "en": "date of birth", "article": "de", "plural": "geboortedata", "forms": ["geboortedatumpje"], "example": { "nl": "Wat is uw geboortedatum?", "en": "What is your date of birth?" } },
+    { "id": "nationaliteit", "nl": "nationaliteit", "en": "nationality", "article": "de", "plural": "nationaliteiten", "example": { "nl": "Ik heb de Spaanse nationaliteit.", "en": "I have Spanish nationality." } },
+    { "id": "inschrijven", "nl": "inschrijven", "en": "to register (zich inschrijven: to register yourself)", "forms": ["schrijf in", "schreef in", "inschrijf", "inschreef", "schrijft in", "inschrijft", "schrijven in", "schreven in", "inschreven", "inschrijvend", "ingeschreven"], "example": { "nl": "Ik wil me inschrijven bij de gemeente.", "en": "I want to register with the council." } },
+    { "id": "loket", "nl": "loket", "en": "counter, desk (in an office)", "article": "het", "plural": "loketten", "forms": ["loketje"], "example": { "nl": "U kunt naar loket drie gaan.", "en": "You can go to desk three." } },
+    { "id": "nummertje", "nl": "nummertje", "en": "queue ticket, waiting number", "article": "het", "example": { "nl": "Ik heb nummertje vijfenvijftig.", "en": "I've got ticket number fifty-five." } },
+    { "id": "document", "nl": "document", "en": "document", "article": "het", "plural": "documenten", "forms": ["documentje"], "example": { "nl": "Ik heb twee documenten nodig.", "en": "I need two documents." } },
+    { "id": "geldig", "nl": "geldig", "en": "valid", "forms": ["geldige"], "example": { "nl": "Is uw paspoort nog geldig?", "en": "Is your passport still valid?" } }
+  ],
+  "grammar": {
+    "title": "Indirect questions with of: Weet u of...?",
+    "points": [
+      "A yes/no question can go inside another sentence with of (= if, whether): Is mijn paspoort geldig? → Ik weet niet of mijn paspoort geldig is.",
+      "of works like dat and omdat: the conjugated verb goes to the end of the clause.",
+      "Useful openings: Ik weet niet of…, Weet u of…?, Kunt u zeggen of…?, Ik vraag me af of… (I wonder if…).",
+      "These indirect questions sound more polite than direct ones, so they are very common in formal situations, together with u and uw.",
+      "Don't mix it up with of = or: Wilt u Engels of Nederlands? Here the word order doesn't change."
+    ],
+    "examples": [
+      { "nl": "Ik weet niet of mijn paspoort nog geldig is.", "en": "I don't know if my passport is still valid." },
+      { "nl": "Weet u of ik eerst een nummertje nodig heb?", "en": "Do you know if I need a ticket first?" },
+      { "nl": "Kunt u zeggen of ik het formulier goed heb ingevuld?", "en": "Can you tell me if I've filled in the form correctly?" },
+      { "nl": "De mevrouw achter het loket vraagt of ik een paspoort heb.", "en": "The woman behind the counter asks if I have a passport." },
+      { "nl": "Ik vraag me af of ik hier moet tekenen.", "en": "I wonder if I have to sign here." }
+    ],
+    "exercises": [
+      { "prompt": "Ik weet niet ___ mijn paspoort nog geldig is.", "answer": "of", "hint": "if / whether" },
+      { "prompt": "Weet u of ik hier moet ___?", "answer": "tekenen", "hint": "to sign" },
+      { "prompt": "Kunt u zeggen of ik een nummertje nodig ___?", "answer": "heb", "hint": "hebben" },
+      { "prompt": "Ik vraag me af of mijn adres goed ___.", "answer": "is", "hint": "zijn" },
+      { "prompt": "Ik heb het formulier thuis ___.", "answer": "ingevuld", "hint": "invullen" },
+      { "prompt": "Ik wil me ___ bij de gemeente.", "answer": "inschrijven", "hint": "to register" }
+    ]
+  },
+  "dialogue": {
+    "title": "Bij het gemeentehuis",
+    "scene": "Sara goes to the town hall to register at her new address.",
+    "lines": [
+      { "speaker": "Medewerker", "nl": "Dag mevrouw. Heeft u nummertje vijfenvijftig?", "en": "Hello. Do you have ticket number fifty-five?", "gap": "nummertje" },
+      { "speaker": "Sara", "nl": "Ja, dat ben ik. Ik wil me inschrijven op mijn nieuwe adres.", "en": "Yes, that's me. I'd like to register at my new address.", "gap": "inschrijven" },
+      { "speaker": "Medewerker", "nl": "Goed. Wat is uw naam en wat is uw geboortedatum?", "en": "Fine. What's your name and what's your date of birth?" },
+      { "speaker": "Sara", "nl": "Dat staat op het formulier. Ik heb het thuis al ingevuld.", "en": "It's on the form. I already filled it in at home.", "gap": "ingevuld" },
+      { "speaker": "Medewerker", "nl": "Heel goed. Mag ik ook uw paspoort zien?", "en": "Very good. May I see your passport too?" },
+      { "speaker": "Sara", "nl": "Natuurlijk. Maar ik weet niet of het nog geldig is.", "en": "Of course. But I don't know if it's still valid.", "gap": "ik weet niet of" },
+      { "speaker": "Medewerker", "nl": "Even kijken... Ja, het is nog twee jaar geldig.", "en": "Let me see... Yes, it's valid for two more years." },
+      { "speaker": "Sara", "nl": "Gelukkig! Heeft u ook het contract van mijn woning nodig?", "en": "Phew! Do you also need the rental contract for my flat?" },
+      { "speaker": "Medewerker", "nl": "Ja, dat document heb ik ook nodig. En wat is uw nationaliteit?", "en": "Yes, I need that document too. And what's your nationality?" },
+      { "speaker": "Sara", "nl": "Spaans. Ik kom uit Spanje.", "en": "Spanish. I'm from Spain." },
+      { "speaker": "Medewerker", "nl": "Dank u. Wilt u hier tekenen, onder uw adres?", "en": "Thank you. Would you sign here, under your address?", "gap": "tekenen" },
+      { "speaker": "Sara", "nl": "Kunt u me zeggen of ik nog iets moet doen?", "en": "Can you tell me if there's anything else I need to do?" },
+      { "speaker": "Medewerker", "nl": "Nee, u bent nu ingeschreven in Amsterdam. Nog een mooie dag!", "en": "No, you're now registered in Amsterdam. Have a nice day!" },
+      { "speaker": "Sara", "nl": "Dank u wel. Dag!", "en": "Thank you very much. Bye!" }
+    ]
+  }
+}

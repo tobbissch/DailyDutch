@@ -1,0 +1,68 @@
+{
+  "day": 59,
+  "title": "Sinterklaas",
+  "names": ["Sara", "Tom", "Noor", "Daan", "Riet", "Spanje"],
+  "words": [
+    { "id": "sinterklaas", "nl": "Sinterklaas", "en": "Sinterklaas, St Nicholas", "example": { "nl": "Sinterklaas komt elk jaar uit Spanje.", "en": "Sinterklaas comes from Spain every year." } },
+    { "id": "piet", "nl": "Piet", "en": "Piet (Sinterklaas's helper)", "article": "de", "plural": "pieten", "forms": ["pietje"], "example": { "nl": "De Pieten geven de kinderen pepernootjes.", "en": "The Pieten give the children pepernoten." } },
+    { "id": "gedicht", "nl": "gedicht", "en": "poem", "article": "het", "plural": "gedichten", "forms": ["gedichtje"], "example": { "nl": "Ik schrijf een gedicht voor Tom.", "en": "I'm writing a poem for Tom." } },
+    { "id": "surprise", "nl": "surprise", "en": "surprise gift (creatively wrapped, with a poem)", "article": "de", "plural": "surprises", "forms": ["surprisetje"], "example": { "nl": "Bij een surprise hoort een gedicht.", "en": "A surprise gift comes with a poem." } },
+    { "id": "pepernootje", "nl": "pepernootje", "en": "small spiced biscuit (Sinterklaas treat)", "article": "het", "plural": "pepernootjes", "example": { "nl": "Wil je een pepernootje?", "en": "Would you like a pepernoot?" } },
+    { "id": "chocoladeletter", "nl": "chocoladeletter", "en": "chocolate letter", "article": "de", "plural": "chocoladeletters", "forms": ["chocoladelettertje"], "example": { "nl": "Ik koop een chocoladeletter voor Daan.", "en": "I'm buying a chocolate letter for Daan." } },
+    { "id": "schoen-noun", "nl": "schoen", "en": "shoe", "article": "de", "plural": "schoenen", "forms": ["schoentje"], "example": { "nl": "De kinderen zetten hun schoen bij de deur.", "en": "The children put their shoe out by the door." } },
+    { "id": "liedje", "nl": "liedje", "en": "song", "article": "het", "plural": "liedjes", "example": { "nl": "Noor zingt een liedje.", "en": "Noor is singing a song." } },
+    { "id": "zingen", "nl": "zingen", "en": "to sing", "forms": ["zing", "zong", "zingt", "zongen", "zingend", "gezongen"], "example": { "nl": "Daan zingt heel hard.", "en": "Daan sings very loudly." } },
+    { "id": "feestje", "nl": "feestje", "en": "party", "article": "het", "plural": "feestjes", "example": { "nl": "Kom je naar mijn feestje?", "en": "Are you coming to my party?" } },
+    { "id": "vieren", "nl": "vieren", "en": "to celebrate", "forms": ["vier", "vierde", "viert", "vierden", "vierend", "gevierd"], "example": { "nl": "We vieren Sinterklaas op 5 december.", "en": "We celebrate Sinterklaas on 5 December." } },
+    { "id": "traditie", "nl": "traditie", "en": "tradition", "article": "de", "plural": "tradities", "forms": ["traditietje"], "example": { "nl": "Sinterklaas is een oude Nederlandse traditie.", "en": "Sinterklaas is an old Dutch tradition." } },
+    { "id": "verrassen", "nl": "verrassen", "en": "to surprise", "forms": ["verras", "verraste", "verrast", "verrasten", "verrassend"], "example": { "nl": "Ik wil Tom verrassen.", "en": "I want to surprise Tom." } },
+    { "id": "verrassing", "nl": "verrassing", "en": "surprise", "article": "de", "plural": "verrassingen", "forms": ["verrassinkje"], "example": { "nl": "Wat een verrassing!", "en": "What a surprise!" } },
+    { "id": "stoomboot", "nl": "stoomboot", "en": "steamboat", "article": "de", "plural": "stoomboten", "forms": ["stoombootje"], "example": { "nl": "Sinterklaas komt met de stoomboot.", "en": "Sinterklaas arrives by steamboat." } }
+  ],
+  "grammar": {
+    "title": "Telling a story: the simple past",
+    "points": [
+      "To tell a story or describe how things used to be, Dutch uses the simple past: Vroeger zette ik mijn schoen. For a single finished event in conversation, the perfect is more usual: Ik heb een gedicht geschreven.",
+      "Regular verbs add -te(n) if the stem ends in t, k, f, s, ch or p ('t kofschip), otherwise -de(n): zette, maakte, vierde, woonde.",
+      "Many common verbs are irregular and change their vowel: zingen → zong, komen → kwam, schrijven → schreef, vinden → vond.",
+      "The singular has one form for ik, jij and hij (zong); the plural adds -en (zongen).",
+      "Vroeger (in the past) and toen (then; when) are typical in stories: Toen ik klein was, vierden we Sinterklaas bij mijn oma."
+    ],
+    "examples": [
+      { "nl": "Vroeger zette ik in december mijn schoen.", "en": "When I was young, I used to put my shoe out in December." },
+      { "nl": "De kinderen zongen een liedje voor Sinterklaas.", "en": "The children sang a song for Sinterklaas." },
+      { "nl": "Toen ik klein was, vierden we Sinterklaas bij mijn oma.", "en": "When I was little, we celebrated Sinterklaas at my grandma's." },
+      { "nl": "Sinterklaas kwam met de stoomboot uit Spanje.", "en": "Sinterklaas came from Spain by steamboat." },
+      { "nl": "Mijn vader schreef altijd een gedicht.", "en": "My father always wrote a poem." },
+      { "nl": "In mijn schoen vond ik een pepernootje.", "en": "I found a pepernoot in my shoe." }
+    ],
+    "exercises": [
+      { "prompt": "Vroeger ___ ik elk jaar mijn schoen.", "answer": "zette", "hint": "zetten" },
+      { "prompt": "De kinderen ___ een liedje.", "answer": "zongen", "hint": "zingen" },
+      { "prompt": "Sinterklaas ___ met de stoomboot.", "answer": "kwam", "hint": "komen" },
+      { "prompt": "Toen ik klein was, ___ we Sinterklaas thuis.", "answer": "vierden", "hint": "vieren" },
+      { "prompt": "Mijn moeder ___ een mooi gedicht.", "answer": "schreef", "hint": "schrijven" },
+      { "prompt": "We ___ heel verrast.", "answer": "waren", "hint": "zijn" }
+    ]
+  },
+  "dialogue": {
+    "title": "Sinterklaas bij Anna",
+    "scene": "On 5 December Sara celebrates Sinterklaas with Tom's family at Anna's house. Oma Riet tells her how it used to be.",
+    "lines": [
+      { "speaker": "Noor", "nl": "Sara, kijk! Ik heb een chocoladeletter van Sinterklaas!", "en": "Sara, look! I've got a chocolate letter from Sinterklaas!", "gap": "chocoladeletter" },
+      { "speaker": "Sara", "nl": "Wat mooi! Zat die in je schoen?", "en": "How lovely! Was it in your shoe?", "gap": "schoen" },
+      { "speaker": "Noor", "nl": "Ja, en Daan en ik hebben een liedje gezongen.", "en": "Yes, and Daan and I sang a song.", "gap": "liedje" },
+      { "speaker": "Sara", "nl": "Oma Riet, hoe vierde u vroeger Sinterklaas?", "en": "Oma Riet, how did you celebrate Sinterklaas when you were young?", "gap": "vierde" },
+      { "speaker": "Oma Riet", "nl": "Op de boerderij hadden we niet veel geld. We zetten onze schoen bij de deur.", "en": "On the farm we didn't have much money. We put our shoes out by the door." },
+      { "speaker": "Sara", "nl": "En wat vond u erin?", "en": "And what did you find in it?" },
+      { "speaker": "Oma Riet", "nl": "Soms een appel of wat pepernootjes. Voor ons was dat een groot feest.", "en": "Sometimes an apple or a few pepernoten. For us that was a real treat." },
+      { "speaker": "Tom", "nl": "Sara, deze surprise is voor jou. Er hoort ook een gedicht bij.", "en": "Sara, this surprise gift is for you. There's a poem with it too.", "gap": "surprise" },
+      { "speaker": "Sara", "nl": "Voor mij? Wat een verrassing! Wie heeft hem gemaakt?", "en": "For me? What a surprise! Who made it?" },
+      { "speaker": "Tom", "nl": "Dat zeg ik niet. Lees eerst het gedicht maar voor.", "en": "I'm not telling. Read the poem out loud first." },
+      { "speaker": "Sara", "nl": "'Sara kwam uit Spanje naar dit koude land. Nu spreekt ze Nederlands, met een boek in haar hand.'", "en": "'Sara came from Spain to this cold land. Now she speaks Dutch, with a book in her hand.'" },
+      { "speaker": "Daan", "nl": "Maak hem open!", "en": "Open it!" },
+      { "speaker": "Sara", "nl": "Een boek met Nederlandse liedjes! Dank je, Sinterklaas!", "en": "A book of Dutch songs! Thank you, Sinterklaas!" },
+      { "speaker": "Henk", "nl": "Dan gaan we nu zingen!", "en": "Then let's sing now!" }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "day": 29,
+  "title": "De maanden",
+  "names": ["Sara", "Lucía", "Amsterdam", "Spanje", "Nederland"],
+  "words": [
+    { "id": "januari", "nl": "januari", "en": "January", "article": "de", "plural": "januari's", "example": { "nl": "Januari is de eerste maand.", "en": "January is the first month." } },
+    { "id": "februari", "nl": "februari", "en": "February", "article": "de", "example": { "nl": "Februari is een korte maand.", "en": "February is a short month." } },
+    { "id": "maart", "nl": "maart", "en": "March", "article": "de", "plural": "maarten", "forms": ["maartje"], "example": { "nl": "Mijn verjaardag is op twaalf maart.", "en": "My birthday is on 12 March." } },
+    { "id": "april", "nl": "april", "en": "April", "article": "de", "plural": "aprillen", "forms": ["aprilletje"], "example": { "nl": "April doet wat hij wil.", "en": "April does what it wants. (a saying about the changeable weather)" } },
+    { "id": "mei", "nl": "mei", "en": "May", "article": "de", "example": { "nl": "In mei ga ik naar Spanje.", "en": "In May I'm going to Spain." } },
+    { "id": "juni", "nl": "juni", "en": "June", "article": "de", "plural": "juni's", "forms": ["junietje"], "example": { "nl": "In juni is het lang licht.", "en": "In June it stays light for a long time." } },
+    { "id": "juli", "nl": "juli", "en": "July", "article": "de", "plural": "juli's", "forms": ["julietje"], "example": { "nl": "In juli heb ik vakantie.", "en": "I'm on holiday in July." } },
+    { "id": "augustus", "nl": "augustus", "en": "August", "article": "de", "plural": "augustussen", "example": { "nl": "In augustus is het warm.", "en": "It's warm in August." } },
+    { "id": "september", "nl": "september", "en": "September", "article": "de", "plural": "septembers", "example": { "nl": "In september begint de cursus.", "en": "The course starts in September." } },
+    { "id": "oktober", "nl": "oktober", "en": "October", "article": "de", "plural": "oktobers", "forms": ["oktobertje"], "example": { "nl": "Oktober is een mooie maand.", "en": "October is a lovely month." } },
+    { "id": "november", "nl": "november", "en": "November", "article": "de", "plural": "novembers", "forms": ["novembertje"], "example": { "nl": "In november is het niet warm.", "en": "It isn't warm in November." } },
+    { "id": "december", "nl": "december", "en": "December", "article": "de", "plural": "decembers", "forms": ["decembertje"], "example": { "nl": "December is de twaalfde maand.", "en": "December is the twelfth month." } },
+    { "id": "maand", "nl": "maand", "en": "month", "article": "de", "plural": "maanden", "forms": ["maandje"], "example": { "nl": "Een jaar heeft twaalf maanden.", "en": "A year has twelve months." } },
+    { "id": "lente", "nl": "lente", "en": "spring", "article": "de", "plural": "lentes", "forms": ["lentetje"], "example": { "nl": "In de lente is het weer mooi.", "en": "In spring the weather is nice." } },
+    { "id": "zomer", "nl": "zomer", "en": "summer", "article": "de", "plural": "zomers", "forms": ["zomertje"], "example": { "nl": "In de zomer gaan we naar het strand.", "en": "In summer we go to the beach." } },
+    { "id": "herfst", "nl": "herfst", "en": "autumn, fall", "article": "de", "plural": "herfsten", "forms": ["herfstje"], "example": { "nl": "In de herfst is er veel wind.", "en": "In autumn there's a lot of wind." } },
+    { "id": "winter", "nl": "winter", "en": "winter", "article": "de", "plural": "winters", "forms": ["wintertje"], "example": { "nl": "In de winter is het koud.", "en": "It's cold in winter." } },
+    { "id": "datum", "nl": "datum", "en": "date", "article": "de", "plural": "datums", "forms": ["datumpje"], "example": { "nl": "Wat is de datum vandaag?", "en": "What's the date today?" } },
+    { "id": "vierde", "nl": "vierde", "en": "fourth (ordinals: -de, from 20 on -ste)", "forms": ["vijfde", "zesde", "zevende", "achtste", "negende", "tiende", "elfde", "twaalfde", "dertiende", "veertiende", "vijftiende", "zestiende", "zeventiende", "achttiende", "negentiende", "twintigste", "eenentwintigste", "dertigste", "eenendertigste"], "example": { "nl": "Het is de vierde keer!", "en": "It's the fourth time!" } }
+  ],
+  "grammar": {
+    "title": "Months, seasons and dates",
+    "points": [
+      "Months and seasons: in januari, in de zomer. Months are written without a capital letter.",
+      "A date uses the normal number before the month: op twaalf maart (on 12 March). Written: 12 maart.",
+      "Ordinal numbers: add -de to most numbers (vierde, vijfde, twaalfde) and -ste from twenty on (twintigste, dertigste). Irregular: eerste, derde, and achtste.",
+      "With an ordinal you say de: de twaalfde maart, or simply op de twaalfde (on the twelfth).",
+      "Ask: Wat is de datum vandaag? (What's the date today?)"
+    ],
+    "examples": [
+      { "nl": "Mijn verjaardag is op twaalf maart.", "en": "My birthday is on 12 March." },
+      { "nl": "In de zomer gaan we naar Spanje.", "en": "In summer we're going to Spain." },
+      { "nl": "Het is vandaag de vijfde mei.", "en": "Today is the fifth of May." },
+      { "nl": "Lucía komt in juli.", "en": "Lucía is coming in July." },
+      { "nl": "Wat is de datum vandaag?", "en": "What's the date today?" },
+      { "nl": "Februari is de tweede maand.", "en": "February is the second month." }
+    ],
+    "exercises": [
+      { "prompt": "Januari is de ___ maand.", "answer": "eerste", "hint": "1st" },
+      { "prompt": "Maart is de ___ maand.", "answer": "derde", "hint": "3rd" },
+      { "prompt": "Mei is de ___ maand.", "answer": "vijfde", "hint": "5th" },
+      { "prompt": "December is de ___ maand.", "answer": "twaalfde", "hint": "12th" },
+      { "prompt": "In de ___ is het warm.", "answer": "zomer", "hint": "season" },
+      { "prompt": "Vandaag is het de ___ juni.", "answer": "twintigste", "hint": "20th" }
+    ]
+  },
+  "dialogue": {
+    "title": "Wanneer kom je?",
+    "scene": "Sara phones her friend Lucía in Spain to plan Lucía's summer visit to Amsterdam.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Hallo Lucía! Wanneer kom je naar Amsterdam?", "en": "Hi Lucía! When are you coming to Amsterdam?" },
+      { "speaker": "Lucía", "nl": "In de zomer! Misschien in juli.", "en": "In the summer! Maybe in July.", "gap": "zomer" },
+      { "speaker": "Sara", "nl": "Juli is goed, want dan heb ik vakantie. Wanneer kom je?", "en": "July is good, because I'm on holiday then. When are you coming?", "gap": "vakantie" },
+      { "speaker": "Lucía", "nl": "Op vijftien juli, en ik blijf twee weken.", "en": "On 15 July, and I'm staying two weeks.", "gap": "juli" },
+      { "speaker": "Sara", "nl": "Leuk! Dan ben je hier op mijn verjaardag.", "en": "Great! Then you'll be here for my birthday." },
+      { "speaker": "Lucía", "nl": "Is je verjaardag in juli?", "en": "Is your birthday in July?" },
+      { "speaker": "Sara", "nl": "Ja, op de twintigste!", "en": "Yes, on the twentieth!", "gap": "twintigste" },
+      { "speaker": "Lucía", "nl": "Dan neem ik een cadeau mee!", "en": "Then I'll bring a present!" },
+      { "speaker": "Sara", "nl": "Wat leuk! Dag Lucía!", "en": "How nice! Bye, Lucía!" }
+    ]
+  }
+}

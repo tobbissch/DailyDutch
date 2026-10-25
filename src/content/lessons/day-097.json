@@ -1,0 +1,63 @@
+{
+  "day": 97,
+  "title": "Fietsen in Nederland",
+  "words": [
+    { "id": "fietspad", "nl": "fietspad", "en": "cycle path", "article": "het", "plural": "fietspaden", "forms": ["fietspadje"], "example": { "nl": "Fietsers moeten op het fietspad rijden.", "en": "Cyclists have to ride on the cycle path." } },
+    { "id": "verkeersregel", "nl": "verkeersregel", "en": "traffic rule", "article": "de", "plural": "verkeersregels", "example": { "nl": "Ken jij de verkeersregels?", "en": "Do you know the traffic rules?" } },
+    { "id": "voorrang", "nl": "voorrang", "en": "right of way", "article": "de", "example": { "nl": "Verkeer van rechts heeft voorrang.", "en": "Traffic from the right has right of way." } },
+    { "id": "bel", "nl": "bel", "en": "(bicycle) bell", "article": "de", "plural": "bellen", "forms": ["belletje"], "example": { "nl": "Mijn bel doet het niet.", "en": "My bell isn't working." } },
+    { "id": "licht-noun", "nl": "licht", "en": "light; (bike) lamp", "article": "het", "plural": "lichten", "forms": ["lichtje"], "example": { "nl": "Zonder licht moet je een boete betalen.", "en": "Without lights you have to pay a fine." } },
+    { "id": "helm", "nl": "helm", "en": "helmet", "article": "de", "plural": "helmen", "forms": ["helmpje"], "example": { "nl": "In Nederland dragen weinig fietsers een helm.", "en": "In the Netherlands few cyclists wear a helmet." } },
+    { "id": "boete", "nl": "boete", "en": "fine (penalty)", "article": "de", "plural": "boetes", "example": { "nl": "De boete is zestig euro.", "en": "The fine is sixty euros." } },
+    { "id": "verkeer", "nl": "verkeer", "en": "traffic", "article": "het", "example": { "nl": "Er is veel verkeer in de stad.", "en": "There's a lot of traffic in the city." } },
+    { "id": "richting", "nl": "richting", "en": "direction", "article": "de", "plural": "richtingen", "forms": ["richtinkje"], "example": { "nl": "Het station is in die richting.", "en": "The station is in that direction." } },
+    { "id": "teken", "nl": "teken", "en": "sign, signal", "article": "het", "plural": "tekenen", "forms": ["tekentje"], "example": { "nl": "Geef een teken met je hand.", "en": "Give a signal with your hand." } },
+    { "id": "afslaan", "nl": "afslaan", "en": "to turn (left/right)", "forms": ["sla af", "sloeg af", "afsla", "afsloeg", "slaat af", "afslaat", "slaan af", "sloegen af", "afsloegen", "afslaand", "afgeslagen"], "example": { "nl": "Hier moet je links afslaan.", "en": "You have to turn left here." } },
+    { "id": "remmen", "nl": "remmen", "en": "to brake", "forms": ["rem", "remde", "remt", "remden", "remmend", "geremd"], "example": { "nl": "Rem op tijd!", "en": "Brake in time!" } },
+    { "id": "rem", "nl": "rem", "en": "brake", "article": "de", "plural": "remmen", "forms": ["remmetje"], "example": { "nl": "Mijn remmen doen het niet goed.", "en": "My brakes don't work properly." } },
+    { "id": "band-noun", "nl": "band", "en": "tyre; bond", "article": "de", "plural": "banden", "forms": ["bandje"], "example": { "nl": "Mijn band is lek.", "en": "I've got a flat tyre." } },
+    { "id": "men", "nl": "men", "en": "one, people (in general)", "example": { "nl": "In Nederland fietst men veel.", "en": "In the Netherlands people cycle a lot." } },
+    { "id": "gevaarlijk", "nl": "gevaarlijk", "en": "dangerous", "forms": ["gevaarlijker", "gevaarlijkst", "gevaarlijke", "gevaarlijkere", "gevaarlijkste"], "example": { "nl": "Fietsen zonder licht is gevaarlijk.", "en": "Cycling without lights is dangerous." } }
+  ],
+  "grammar": {
+    "title": "Rules: je moet, je mag niet, men",
+    "points": [
+      "To talk about rules for everybody, Dutch uses je (you, in general): Je moet licht hebben. Je mag niet door rood rijden.",
+      "je moet = you have to; je mag niet = you're not allowed to; je mag = you may.",
+      "je hoeft niet te = you don't have to (no obligation): Je hoeft geen helm te dragen. Don't use moet niet for this.",
+      "men (one, people) is the formal version, used in writing and signs: Men moet hier voorrang geven. It always takes the hij-form of the verb.",
+      "In speech, je is much more common than men. ze can also mean 'people/they': In Nederland fietsen ze veel."
+    ],
+    "examples": [
+      { "nl": "Je moet op het fietspad rijden.", "en": "You have to ride on the cycle path." },
+      { "nl": "Je mag niet door rood rijden.", "en": "You're not allowed to go through a red light." },
+      { "nl": "Je hoeft geen helm te dragen.", "en": "You don't have to wear a helmet." },
+      { "nl": "Hier moet men voorrang geven.", "en": "Here you must give way." },
+      { "nl": "Als je afslaat, moet je een teken geven.", "en": "When you turn, you have to give a signal." }
+    ],
+    "exercises": [
+      { "prompt": "Je ___ niet door rood rijden.", "answer": "mag", "hint": "mogen" },
+      { "prompt": "Je ___ geen helm te dragen.", "answer": "hoeft", "hint": "hoeven" },
+      { "prompt": "In de avond ___ je licht hebben.", "answer": "moet", "hint": "moeten" },
+      { "prompt": "In Nederland fietst ___ veel.", "answer": "men", "hint": "one / people" },
+      { "prompt": "Verkeer van rechts heeft ___.", "answer": "voorrang", "hint": "right of way" }
+    ]
+  },
+  "dialogue": {
+    "title": "De verkeersregels",
+    "scene": "Sara has a new bike. On a ride through Utrecht, Tom explains the Dutch traffic rules.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Mooie fiets! Maar je bel doet het niet.", "en": "Nice bike! But your bell isn't working.", "gap": "bel" },
+      { "speaker": "Sara", "nl": "Is dat belangrijk? Ik bel nooit.", "en": "Does that matter? I never ring it." },
+      { "speaker": "Tom", "nl": "Je moet een bel hebben. Anders moet je misschien een boete betalen.", "en": "You have to have a bell. Otherwise you might have to pay a fine." },
+      { "speaker": "Sara", "nl": "Echt? En moet ik ook een helm dragen?", "en": "Really? And do I have to wear a helmet too?", "gap": "helm" },
+      { "speaker": "Tom", "nl": "Nee, je hoeft geen helm te dragen. Maar in de avond moet je wel licht hebben.", "en": "No, you don't have to wear a helmet. But you do need lights in the evening.", "gap": "hoeft" },
+      { "speaker": "Sara", "nl": "Goed. En wie heeft hier voorrang?", "en": "OK. And who has right of way here?", "gap": "voorrang" },
+      { "speaker": "Tom", "nl": "Verkeer van rechts, als er geen teken staat.", "en": "Traffic from the right, if there's no sign." },
+      { "speaker": "Sara", "nl": "Ik wil hier links afslaan. Wat moet ik doen?", "en": "I want to turn left here. What should I do?" },
+      { "speaker": "Tom", "nl": "Steek je hand uit. Dan ziet het verkeer achter je wat je gaat doen.", "en": "Stick your hand out. Then the traffic behind you can see what you're going to do." },
+      { "speaker": "Sara", "nl": "Pas op, Tom! Die auto rijdt op het fietspad!", "en": "Watch out, Tom! That car is driving on the cycle path!" },
+      { "speaker": "Tom", "nl": "Rem! Dat mag niet. Wat gevaarlijk!", "en": "Brake! That's not allowed. How dangerous!", "gap": "mag niet" }
+    ]
+  }
+}

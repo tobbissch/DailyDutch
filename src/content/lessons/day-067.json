@@ -1,0 +1,66 @@
+{
+  "day": 67,
+  "title": "Muziek en concerten",
+  "names": ["Sara", "Tom", "Utrecht", "Spanje", "TivoliVredenburg"],
+  "words": [
+    { "id": "concert", "nl": "concert", "en": "concert", "article": "het", "plural": "concerten", "forms": ["concertje"], "example": { "nl": "Het concert begint om negen uur.", "en": "The concert starts at nine." } },
+    { "id": "band", "nl": "band", "en": "band (music); tie, bond", "article": "de", "plural": "bands", "forms": ["banden", "bandje"], "example": { "nl": "Tom speelt gitaar in een band.", "en": "Tom plays guitar in a band." } },
+    { "id": "zanger", "nl": "zanger", "en": "singer (male)", "article": "de", "plural": "zangers", "forms": ["zangertje"], "example": { "nl": "De zanger heeft een mooie stem.", "en": "The singer has a beautiful voice." } },
+    { "id": "zangeres", "nl": "zangeres", "en": "singer (female)", "article": "de", "plural": "zangeressen", "forms": ["zangeresje"], "example": { "nl": "Die zangeres komt uit Spanje.", "en": "That singer is from Spain." } },
+    { "id": "optreden", "nl": "optreden", "en": "performance, gig", "article": "het", "plural": "optredens", "forms": ["optredentje"], "example": { "nl": "Het optreden was prachtig.", "en": "The performance was wonderful." } },
+    { "id": "festival", "nl": "festival", "en": "festival", "article": "het", "plural": "festivals", "forms": ["festivalletje"], "example": { "nl": "In de zomer gaan we naar een festival.", "en": "In the summer we're going to a festival." } },
+    { "id": "podium", "nl": "podium", "en": "stage", "article": "het", "plural": "podia", "forms": ["podiumpje"], "example": { "nl": "De band staat op het podium.", "en": "The band is on stage." } },
+    { "id": "publiek", "nl": "publiek", "en": "audience, crowd", "article": "het", "plural": "publieken", "forms": ["publiekje"], "example": { "nl": "Het publiek zingt mee.", "en": "The crowd is singing along." } },
+    { "id": "kaartje-noun", "nl": "kaartje", "en": "ticket", "article": "het", "plural": "kaartjes", "example": { "nl": "Ik heb twee kaartjes voor het concert.", "en": "I've got two tickets for the concert." } },
+    { "id": "uitverkocht", "nl": "uitverkocht", "en": "sold out", "example": { "nl": "Het concert is uitverkocht.", "en": "The concert is sold out." } },
+    { "id": "live", "nl": "live", "en": "live", "example": { "nl": "Ik hoor muziek liever live.", "en": "I prefer hearing music live." } },
+    { "id": "stem", "nl": "stem", "en": "voice", "article": "de", "plural": "stemmen", "forms": ["stemmetje"], "example": { "nl": "Wat een mooie stem!", "en": "What a beautiful voice!" } },
+    { "id": "naartoe", "nl": "naartoe", "en": "to (there) (waar … naartoe = where … to)", "example": { "nl": "Waar ga je zaterdag naartoe?", "en": "Where are you going on Saturday?" } }
+  ],
+  "grammar": {
+    "title": "het concert waar ik naartoe ga",
+    "points": [
+      "When a relative clause about a thing needs a preposition, Dutch uses waar + preposition: het concert waar ik naartoe ga = the concert I'm going to.",
+      "waar comes first and the preposition usually goes near the end, just before the verb: de band waar ik van hou.",
+      "Two prepositions change shape: naar → naartoe and met → mee: de gitaar waar hij mee speelt.",
+      "For people, use preposition + wie: de zanger met wie ik praatte.",
+      "As in every relative clause, the verb goes to the end. The same pattern works in questions: Waar ga je naartoe? Waar luister je naar?"
+    ],
+    "examples": [
+      { "nl": "Dit is het concert waar ik naartoe ga.", "en": "This is the concert I'm going to." },
+      { "nl": "Dat is de band waar ik van hou.", "en": "That's the band I love." },
+      { "nl": "De gitaar waar hij mee speelt is heel oud.", "en": "The guitar he plays with is very old." },
+      { "nl": "Het festival waar we over praten is in augustus.", "en": "The festival we're talking about is in August." },
+      { "nl": "De zangeres met wie ik praatte komt uit Spanje.", "en": "The singer I talked to is from Spain." },
+      { "nl": "Waar luister je naar?", "en": "What are you listening to?" }
+    ],
+    "exercises": [
+      { "prompt": "Dit is het concert waar ik ___ ga.", "answer": "naartoe", "hint": "naar" },
+      { "prompt": "Dat is de band waar ik ___ hou.", "answer": "van", "hint": "houden van" },
+      { "prompt": "De gitaar waar hij ___ speelt is oud.", "answer": "mee", "hint": "met" },
+      { "prompt": "De zanger met ___ ik praatte was aardig.", "answer": "wie", "hint": "a person" },
+      { "prompt": "Het festival ___ we over praten is in juli.", "answer": "waar", "hint": "a thing" },
+      { "prompt": "Het concert is ___: er zijn geen kaartjes meer.", "answer": "uitverkocht", "hint": "sold out" }
+    ]
+  },
+  "dialogue": {
+    "title": "Kaartjes kopen",
+    "scene": "Sara sees that her favourite Spanish band is coming to Utrecht and buys tickets online with Tom.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Tom, kijk! De band waar ik zo van hou, komt naar Utrecht!", "en": "Tom, look! The band I love so much is coming to Utrecht!", "gap": "waar ik zo van hou" },
+      { "speaker": "Tom", "nl": "Echt? Die band uit Spanje?", "en": "Really? That band from Spain?" },
+      { "speaker": "Sara", "nl": "Ja! De zangeres heeft de mooiste stem die ik ken.", "en": "Yes! The singer has the most beautiful voice I know.", "gap": "stem" },
+      { "speaker": "Tom", "nl": "Wanneer is het concert?", "en": "When is the concert?" },
+      { "speaker": "Sara", "nl": "Op twaalf maart, in TivoliVredenburg.", "en": "On the twelfth of March, at TivoliVredenburg." },
+      { "speaker": "Tom", "nl": "Is het niet al uitverkocht?", "en": "Isn't it sold out already?", "gap": "uitverkocht" },
+      { "speaker": "Sara", "nl": "Nee, er zijn nog kaartjes. Zal ik er twee kopen?", "en": "No, there are still tickets. Shall I buy two?", "gap": "kaartjes" },
+      { "speaker": "Tom", "nl": "Ja, graag. Hoeveel kosten ze?", "en": "Yes, please. How much are they?" },
+      { "speaker": "Sara", "nl": "Veertig euro per kaartje.", "en": "Forty euros a ticket." },
+      { "speaker": "Tom", "nl": "Dat is duur, maar live is muziek altijd beter.", "en": "That's expensive, but music is always better live." },
+      { "speaker": "Sara", "nl": "Dat vind ik ook. Weet je nog, het festival waar we vorig jaar naartoe gingen?", "en": "I agree. Do you remember the festival we went to last year?" },
+      { "speaker": "Tom", "nl": "Natuurlijk! Het publiek was zo leuk.", "en": "Of course! The crowd was so much fun." },
+      { "speaker": "Sara", "nl": "Klaar! Twee kaartjes voor het concert.", "en": "Done! Two tickets for the concert." },
+      { "speaker": "Tom", "nl": "Ik verheug me er nu al op.", "en": "I'm already looking forward to it." }
+    ]
+  }
+}

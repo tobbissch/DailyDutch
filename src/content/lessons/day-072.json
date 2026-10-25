@@ -1,0 +1,69 @@
+{
+  "day": 72,
+  "title": "Op de markt",
+  "names": ["Sara", "Tom", "Noor"],
+  "words": [
+    { "id": "pond", "nl": "pond", "en": "half a kilo (500 grams); pound (money)", "article": "het", "plural": "ponden", "forms": ["pondje"], "example": { "nl": "Een pond aardbeien, graag.", "en": "Half a kilo of strawberries, please." } },
+    { "id": "ons-noun", "nl": "ons", "en": "100 grams", "article": "het", "plural": "onsen", "forms": ["onsje"], "example": { "nl": "Mag ik twee ons kaas?", "en": "Can I have 200 grams of cheese?" } },
+    { "id": "bos", "nl": "bos", "en": "bunch (of flowers); forest", "article": "de", "plural": "bossen", "forms": ["bosje"], "example": { "nl": "Ik koop een bos bloemen voor mijn moeder.", "en": "I'm buying a bunch of flowers for my mother." } },
+    { "id": "zak", "nl": "zak", "en": "bag; pocket", "article": "de", "plural": "zakken", "forms": ["zakje"], "example": { "nl": "Een zak aardappelen kost drie euro.", "en": "A bag of potatoes costs three euros." } },
+    { "id": "kraam", "nl": "kraam", "en": "market stall", "article": "de", "plural": "kramen", "forms": ["kraampje"], "example": { "nl": "Bij die kraam is het fruit goedkoop.", "en": "The fruit is cheap at that stall." } },
+    { "id": "verkoper", "nl": "verkoper", "en": "seller, salesperson", "article": "de", "plural": "verkopers", "forms": ["verkopertje"], "example": { "nl": "De verkoper is heel vriendelijk.", "en": "The seller is very friendly." } },
+    { "id": "aardbei", "nl": "aardbei", "en": "strawberry", "article": "de", "plural": "aardbeien", "forms": ["aardbeitje"], "example": { "nl": "De aardbeien zijn zoet en rood.", "en": "The strawberries are sweet and red." } },
+    { "id": "kers", "nl": "kers", "en": "cherry", "article": "de", "plural": "kersen", "forms": ["kersje"], "example": { "nl": "Noor eet graag kersen.", "en": "Noor loves eating cherries." } },
+    { "id": "peer", "nl": "peer", "en": "pear; light bulb", "article": "de", "plural": "peren", "forms": ["peertje"], "example": { "nl": "Deze peer is nog hard.", "en": "This pear is still hard." } },
+    { "id": "druif", "nl": "druif", "en": "grape", "article": "de", "plural": "druiven", "forms": ["druifje"], "example": { "nl": "Een pond groene druiven, alstublieft.", "en": "Half a kilo of green grapes, please." } },
+    { "id": "sla", "nl": "sla", "en": "lettuce; salad", "article": "de", "forms": ["slaatje"], "example": { "nl": "Ik maak een sla met tomaten.", "en": "I'm making a salad with tomatoes." } },
+    { "id": "komkommer", "nl": "komkommer", "en": "cucumber", "article": "de", "plural": "komkommers", "forms": ["komkommertje"], "example": { "nl": "Snijd de komkommer in stukken.", "en": "Cut the cucumber into pieces." } },
+    { "id": "vers", "nl": "vers", "en": "fresh", "forms": ["verser", "verst", "verse", "versere", "verste"], "example": { "nl": "Op de markt is de vis heel vers.", "en": "The fish at the market is very fresh." } },
+    { "id": "rijp", "nl": "rijp", "en": "ripe", "forms": ["rijper", "rijpst", "rijpe", "rijpere", "rijpste"], "example": { "nl": "Zijn de peren al rijp?", "en": "Are the pears ripe yet?" } },
+    { "id": "bloem", "nl": "bloem", "en": "flower; flour", "article": "de", "plural": "bloemen", "forms": ["bloempje", "bloemetje"], "example": { "nl": "Wat een mooie bloemen!", "en": "What beautiful flowers!" } }
+  ],
+  "grammar": {
+    "title": "Quantities: een kilo, een pond, een ons",
+    "points": [
+      "Put the amount straight before the thing, without van: een kilo aardappelen, een pond kersen, een ons kaas (English: a kilo of potatoes).",
+      "Dutch weights: een kilo = 1000 g, een pond = 500 g, een ons = 100 g. Twee ons kaas = 200 grams of cheese.",
+      "After a number, a measure word usually stays singular: twee kilo, drie pond, vier ons (not kilo's or onsen).",
+      "Containers and bunches work the same way: een zak aardappelen, een bos bloemen, een doosje aardbeien.",
+      "Half: een halve kilo (de kilo) but een half pond (het pond). Ask the price with Wat kost…? and per: Wat kost een kilo? Drie euro per kilo.",
+      "Market phrases: Zegt u het maar. (What can I get you?) — Anders nog iets? (Anything else?) — Dat was het. (That's all.)"
+    ],
+    "examples": [
+      { "nl": "Mag ik een kilo aardappelen?", "en": "Can I have a kilo of potatoes?" },
+      { "nl": "Twee ons kaas, graag.", "en": "200 grams of cheese, please." },
+      { "nl": "Een pond aardbeien kost vier euro.", "en": "Half a kilo of strawberries costs four euros." },
+      { "nl": "Ik neem ook een bos bloemen.", "en": "I'll take a bunch of flowers too." },
+      { "nl": "Wat kosten de peren? Twee euro per kilo.", "en": "How much are the pears? Two euros a kilo." },
+      { "nl": "Een halve kilo kersen en een zak druiven.", "en": "Half a kilo of cherries and a bag of grapes." }
+    ],
+    "exercises": [
+      { "prompt": "Mag ik twee ___ kaas?", "answer": "ons", "hint": "unit of 100 g" },
+      { "prompt": "Een ___ aardbeien, graag.", "answer": "pond", "hint": "unit of 500 g" },
+      { "prompt": "Ik koop een ___ bloemen.", "answer": "bos", "hint": "bunch" },
+      { "prompt": "Ik neem drie ___ aardappelen.", "answer": "kilo", "hint": "1000 grams, singular" },
+      { "prompt": "Een ___ kilo kersen, alstublieft.", "answer": "halve", "hint": "half" },
+      { "prompt": "Anders nog iets? — Nee, dat ___ het.", "answer": "was", "hint": "that's all" }
+    ]
+  },
+  "dialogue": {
+    "title": "Op de markt",
+    "scene": "On Saturday morning Sara and Tom buy fruit, vegetables and flowers at the market.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Kijk, bij die kraam is het fruit heel vers.", "en": "Look, the fruit at that stall is really fresh.", "gap": "kraam" },
+      { "speaker": "Verkoper", "nl": "Dag! Zegt u het maar.", "en": "Hello! What can I get you?" },
+      { "speaker": "Sara", "nl": "Mag ik een pond aardbeien?", "en": "Can I have half a kilo of strawberries?", "gap": "pond" },
+      { "speaker": "Verkoper", "nl": "Natuurlijk. Ze zijn lekker zoet vandaag. Anders nog iets?", "en": "Of course. They're nice and sweet today. Anything else?" },
+      { "speaker": "Tom", "nl": "Zijn de peren rijp?", "en": "Are the pears ripe?", "gap": "rijp" },
+      { "speaker": "Verkoper", "nl": "Nog niet, maar morgen wel. De druiven zijn wel rijp.", "en": "Not yet, but they will be tomorrow. The grapes are ripe, though." },
+      { "speaker": "Tom", "nl": "Dan neem ik een halve kilo druiven. Wat kosten de kersen?", "en": "Then I'll take half a kilo of grapes. How much are the cherries?" },
+      { "speaker": "Verkoper", "nl": "Zes euro per kilo.", "en": "Six euros a kilo." },
+      { "speaker": "Sara", "nl": "Dat is duur. Geeft u dan maar twee ons.", "en": "That's expensive. Just give me 200 grams, then.", "gap": "ons" },
+      { "speaker": "Tom", "nl": "We hebben ook nog een komkommer en sla nodig.", "en": "We also need a cucumber and lettuce." },
+      { "speaker": "Verkoper", "nl": "Alstublieft. Dat is samen twaalf euro.", "en": "Here you are. That's twelve euros altogether." },
+      { "speaker": "Sara", "nl": "Dank u wel. Dat was het.", "en": "Thank you. That's all." },
+      { "speaker": "Tom", "nl": "Wacht, ik koop nog een bos bloemen. Die zijn voor jou!", "en": "Wait, I'm buying a bunch of flowers too. They're for you!", "gap": "bos" },
+      { "speaker": "Sara", "nl": "Echt? Wat een mooie bloemen!", "en": "Really? What beautiful flowers!" }
+    ]
+  }
+}

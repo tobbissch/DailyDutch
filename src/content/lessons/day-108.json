@@ -1,0 +1,63 @@
+{
+  "day": 108,
+  "title": "Kunst en cultuur",
+  "names": ["Rijksmuseum", "Rembrandt", "Vermeer", "Nachtwacht", "Melkmeisje", "Delft"],
+  "words": [
+    { "id": "kunst", "nl": "kunst", "en": "art", "article": "de", "plural": "kunsten", "forms": ["kunstje"], "example": { "nl": "Ik hou van kunst en muziek.", "en": "I love art and music." } },
+    { "id": "kunstenaar", "nl": "kunstenaar", "en": "artist", "article": "de", "plural": "kunstenaars", "forms": ["kunstenaartje"], "example": { "nl": "Rembrandt is een beroemde kunstenaar.", "en": "Rembrandt is a famous artist." } },
+    { "id": "schilderij", "nl": "schilderij", "en": "painting", "article": "het", "plural": "schilderijen", "forms": ["schilderijtje"], "example": { "nl": "Dit schilderij is meer dan 300 jaar oud.", "en": "This painting is more than 300 years old." } },
+    { "id": "schilder", "nl": "schilder", "en": "painter (artist)", "article": "de", "plural": "schilders", "forms": ["schildertje"], "example": { "nl": "Vermeer was een schilder uit Delft.", "en": "Vermeer was a painter from Delft." } },
+    { "id": "tentoonstelling", "nl": "tentoonstelling", "en": "exhibition", "article": "de", "plural": "tentoonstellingen", "forms": ["tentoonstellinkje"], "example": { "nl": "De nieuwe tentoonstelling begint in mei.", "en": "The new exhibition starts in May." } },
+    { "id": "beeld", "nl": "beeld", "en": "statue, sculpture; image", "article": "het", "plural": "beelden", "forms": ["beeldje"], "example": { "nl": "In de tuin van het museum staan beelden.", "en": "There are statues in the museum garden." } },
+    { "id": "collectie", "nl": "collectie", "en": "collection", "article": "de", "plural": "collecties", "forms": ["collectietje"], "example": { "nl": "Het Rijksmuseum heeft een grote collectie.", "en": "The Rijksmuseum has a large collection." } },
+    { "id": "gouden", "nl": "gouden", "en": "golden, gold", "example": { "nl": "Rembrandt schilderde in de Gouden Eeuw.", "en": "Rembrandt painted in the Golden Age." } },
+    { "id": "bekend", "nl": "bekend", "en": "well-known, famous; familiar", "forms": ["bekender", "bekendst", "bekende", "bekendere", "bekendste"], "example": { "nl": "De Nachtwacht is het bekendste schilderij van Rembrandt.", "en": "The Night Watch is Rembrandt's best-known painting." } },
+    { "id": "gids", "nl": "gids", "en": "guide (person or book)", "article": "de", "plural": "gidsen", "forms": ["gidsje"], "example": { "nl": "De gids weet alles over de schilderijen.", "en": "The guide knows everything about the paintings." } },
+    { "id": "rondleiding", "nl": "rondleiding", "en": "guided tour", "article": "de", "plural": "rondleidingen", "forms": ["rondleidinkje"], "example": { "nl": "De rondleiding begint om twee uur.", "en": "The guided tour starts at two o'clock." } },
+    { "id": "indrukwekkend", "nl": "indrukwekkend", "en": "impressive", "forms": ["indrukwekkender", "indrukwekkendst", "indrukwekkende", "indrukwekkendere", "indrukwekkendste"], "example": { "nl": "Wat een indrukwekkend gebouw!", "en": "What an impressive building!" } },
+    { "id": "waarmee", "nl": "waarmee", "en": "with which (waar + preposition)", "forms": ["waarover", "waarin", "waarop", "waaraan", "waarnaar", "waarvoor", "waarvan"], "example": { "nl": "Dat is de boot waarmee we naar het museum gaan.", "en": "That's the boat we're taking to the museum." } }
+  ],
+  "grammar": {
+    "title": "Relative clauses with wat and waar + preposition",
+    "points": [
+      "After alles, iets and niets the relative pronoun is wat, not die or dat: alles wat ik zie, iets wat je moet zien.",
+      "When a relative clause needs a preposition and refers to a thing, Dutch uses waar + preposition: waarmee (with which), waarover (about which), waarin, waarop, waarnaar.",
+      "In speech the two parts are often split: het schilderij waar ik naar kijk = het schilderij waarnaar ik kijk.",
+      "For people, use preposition + wie: de gids met wie we praten.",
+      "As in every relative clause, the verb goes to the end."
+    ],
+    "examples": [
+      { "nl": "Is er iets wat je echt wilt zien?", "en": "Is there anything you really want to see?" },
+      { "nl": "Alles wat Rembrandt maakte, is beroemd.", "en": "Everything Rembrandt made is famous." },
+      { "nl": "Dit is het schilderij waarover ik een boek heb gelezen.", "en": "This is the painting I've read a book about." },
+      { "nl": "Het museum heeft een collectie waarop het heel trots is.", "en": "The museum has a collection it is very proud of." },
+      { "nl": "De gids met wie we praten, weet heel veel.", "en": "The guide we're talking to knows a lot." },
+      { "nl": "Dat is het schilderij waar iedereen naar kijkt.", "en": "That's the painting everyone is looking at." }
+    ],
+    "exercises": [
+      { "prompt": "Is er iets ___ je wilt zien?", "answer": "wat", "hint": "relative pronoun" },
+      { "prompt": "Dit is het schilderij ___ ik een boek heb gelezen.", "answer": "waarover", "hint": "waar + over" },
+      { "prompt": "Dat is de boot ___ we naar het museum gaan.", "answer": "waarmee", "hint": "waar + met" },
+      { "prompt": "Alles ___ hij maakt, is mooi.", "answer": "wat", "hint": "relative pronoun" },
+      { "prompt": "De gids met ___ we praten, is heel aardig.", "answer": "wie", "hint": "a person" }
+    ]
+  },
+  "dialogue": {
+    "title": "In het Rijksmuseum",
+    "scene": "Sara and Tom visit the Rijksmuseum in Amsterdam.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Kijk, daar is de Nachtwacht! Het schilderij waarover iedereen praat.", "en": "Look, there's the Night Watch! The painting everyone talks about.", "gap": "waarover" },
+      { "speaker": "Sara", "nl": "Wat groot! En heel indrukwekkend.", "en": "So big! And really impressive.", "gap": "indrukwekkend" },
+      { "speaker": "Tom", "nl": "Rembrandt heeft het in 1642 geschilderd.", "en": "Rembrandt painted it in 1642." },
+      { "speaker": "Sara", "nl": "Is er nog iets wat jij echt wilt zien?", "en": "Is there anything else you really want to see?", "gap": "wat" },
+      { "speaker": "Tom", "nl": "Ja, het Melkmeisje van Vermeer. Dat vind ik het mooiste schilderij.", "en": "Yes, The Milkmaid by Vermeer. I think it is the most beautiful painting." },
+      { "speaker": "Sara", "nl": "Zullen we ook de rondleiding doen? De gids weet alles over de Gouden Eeuw.", "en": "Shall we do the guided tour too? The guide knows everything about the Golden Age.", "gap": "rondleiding" },
+      { "speaker": "Tom", "nl": "Goed idee. Hij begint om drie uur in de grote zaal.", "en": "Good idea. It starts at three in the big hall." },
+      { "speaker": "Sara", "nl": "Wat een collectie! Ik wist niet dat er hier zo veel kunst is.", "en": "What a collection! I didn't know there was so much art here." },
+      { "speaker": "Tom", "nl": "Daar staan ook beelden. Dat is de tentoonstelling waarvoor ik eigenlijk kwam.", "en": "There are statues over there too. That's the exhibition I actually came for." },
+      { "speaker": "Sara", "nl": "Zijn dat gouden beelden?", "en": "Are those gold statues?" },
+      { "speaker": "Tom", "nl": "Nee, maar ze zijn wel heel bekend.", "en": "No, but they are very famous." },
+      { "speaker": "Sara", "nl": "Alles wat ik vandaag zie, is prachtig.", "en": "Everything I'm seeing today is beautiful." }
+    ]
+  }
+}

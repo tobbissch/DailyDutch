@@ -1,0 +1,67 @@
+{
+  "day": 41,
+  "title": "Verhuizen",
+  "names": ["Fatima"],
+  "words": [
+    { "id": "doos", "nl": "doos", "en": "box", "article": "de", "plural": "dozen", "forms": ["doosje"], "example": { "nl": "Deze doos is heel zwaar.", "en": "This box is very heavy." } },
+    { "id": "verhuizing", "nl": "verhuizing", "en": "move (moving house)", "article": "de", "plural": "verhuizingen", "forms": ["verhuizinkje"], "example": { "nl": "De verhuizing is zaterdag.", "en": "The move is on Saturday." } },
+    { "id": "inpakken", "nl": "inpakken", "en": "to pack", "forms": ["pak in", "pakte in", "inpak", "inpakte", "pakt in", "inpakt", "pakken in", "pakten in", "inpakten", "inpakkend", "ingepakt"], "example": { "nl": "Ik pak mijn boeken in.", "en": "I'm packing my books." } },
+    { "id": "uitpakken", "nl": "uitpakken", "en": "to unpack", "forms": ["pak uit", "pakte uit", "uitpak", "uitpakte", "pakt uit", "uitpakt", "pakken uit", "pakten uit", "uitpakten", "uitpakkend", "uitgepakt"], "example": { "nl": "Wij pakken de dozen morgen uit.", "en": "We'll unpack the boxes tomorrow." } },
+    { "id": "tillen", "nl": "tillen", "en": "to lift", "forms": ["til", "tilde", "tilt", "tilden", "tillend", "getild"], "example": { "nl": "Kun jij deze doos tillen?", "en": "Can you lift this box?" } },
+    { "id": "trap", "nl": "trap", "en": "stairs, staircase", "article": "de", "plural": "trappen", "forms": ["trapje", "trappetje"], "example": { "nl": "Wij tillen de bank de trap op.", "en": "We carry the sofa up the stairs." } },
+    { "id": "bus-noun", "nl": "bus", "en": "van (moving van); bus", "article": "de", "plural": "bussen", "forms": ["busje"], "example": { "nl": "De bus staat voor de deur.", "en": "The van is outside the door." } },
+    { "id": "meubel", "nl": "meubel", "en": "piece of furniture (plural: furniture)", "article": "het", "plural": "meubels", "forms": ["meubeltje"], "example": { "nl": "Wij hebben niet veel meubels.", "en": "We don't have much furniture." } },
+    { "id": "lamp", "nl": "lamp", "en": "lamp, light", "article": "de", "plural": "lampen", "forms": ["lampje"], "example": { "nl": "De lamp is kapot.", "en": "The lamp is broken." } },
+    { "id": "spullen", "nl": "spullen", "en": "stuff, things, belongings", "article": "de", "example": { "nl": "Waar zijn al mijn spullen?", "en": "Where are all my things?" } },
+    { "id": "vol", "nl": "vol", "en": "full", "forms": ["voller", "volst", "volle", "vollere", "volste"], "example": { "nl": "De bus is vol.", "en": "The van is full." } },
+    { "id": "leeg", "nl": "leeg", "en": "empty", "forms": ["leger", "leegst", "lege", "legere", "leegste", "ledig"], "example": { "nl": "Het huis is nu leeg.", "en": "The house is empty now." } },
+    { "id": "breken", "nl": "breken", "en": "to break", "forms": ["breek", "brak", "breekt", "braken", "brekend", "gebroken"], "example": { "nl": "Het glas is gebroken.", "en": "The glass is broken." } },
+    { "id": "kapot", "nl": "kapot", "en": "broken; worn out", "forms": ["kapotter", "kapotst", "kapotte", "kapottere", "kapotste"], "example": { "nl": "Mijn telefoon is kapot.", "en": "My phone is broken." } },
+    { "id": "er-voorzetsel", "nl": "erin, erop, ermee, eraan", "en": "in it, on it, with it, to it (er + preposition)", "forms": ["eruit", "erover", "ervoor", "ernaast", "eronder", "erachter", "erbij", "ernaar", "ertussen"], "example": { "nl": "Hier is een lege doos. De lamp kan erin.", "en": "Here is an empty box. The lamp can go in it." } }
+  ],
+  "grammar": {
+    "title": "erin, erop, ermee: er + preposition",
+    "points": [
+      "After a preposition Dutch doesn't use het (it) for things. Instead of in het you say erin (in it), instead of op het you say erop (on it).",
+      "er + preposition: erin, erop, eraan, eruit, eronder, ernaast, erover. It works for de-words, het-words and plurals (erin = in it / in them).",
+      "met changes to mee: ermee (with it).",
+      "For people use a normal pronoun: naast haar, met hem — not ernaast or ermee.",
+      "In longer sentences er and the preposition are often split: Er zitten boeken in. Ik kan er niet mee fietsen."
+    ],
+    "examples": [
+      { "nl": "De doos is vol. Er zitten boeken in.", "en": "The box is full. There are books in it." },
+      { "nl": "Is de tafel leeg? Nee, er staat een lamp op.", "en": "Is the table empty? No, there's a lamp on it." },
+      { "nl": "Ik heb een nieuwe bank. Ik zit er graag op.", "en": "I have a new sofa. I like sitting on it." },
+      { "nl": "Kijk, de bus! Onze spullen liggen erin.", "en": "Look, the van! Our things are in it." },
+      { "nl": "Mijn fiets is kapot. Ik kan er niet mee rijden.", "en": "My bike is broken. I can't ride it." },
+      { "nl": "De lamp staat op de tafel. — Ja, hij staat erop.", "en": "The lamp is on the table. — Yes, it's on it." }
+    ],
+    "exercises": [
+      { "prompt": "De doos is vol: er zitten boeken ___.", "answer": "in", "hint": "in" },
+      { "prompt": "Hier is de tafel. De lamp staat ___.", "answer": "erop", "hint": "er + op" },
+      { "prompt": "Mijn fiets is kapot. Ik kan er niet ___ fietsen.", "answer": "mee", "hint": "met" },
+      { "prompt": "Waar zijn mijn sleutels? In de tas? — Ja, ze liggen ___.", "answer": "erin", "hint": "er + in" },
+      { "prompt": "Hier is het bed. Mijn schoenen staan ___.", "answer": "eronder", "hint": "er + onder" },
+      { "prompt": "Dit is mijn zus. Ik woon naast ___.", "answer": "haar", "hint": "person!" }
+    ]
+  },
+  "dialogue": {
+    "title": "De verhuizing",
+    "scene": "Moving day: Tom and Fatima help Sara move into her new apartment.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Dag Sara! Ben je klaar voor de verhuizing?", "en": "Hi Sara! Are you ready for the move?", "gap": "verhuizing" },
+      { "speaker": "Sara", "nl": "Nee! Ik moet nog drie dozen inpakken.", "en": "No! I still have to pack three boxes.", "gap": "inpakken" },
+      { "speaker": "Tom", "nl": "Ik help je. Wat moet er in deze doos?", "en": "I'll help you. What goes in this box?" },
+      { "speaker": "Sara", "nl": "De boeken. Maar pas op, dan wordt de doos heel zwaar.", "en": "The books. But careful, then the box gets very heavy." },
+      { "speaker": "Tom", "nl": "Dat is goed. Ik kan hem tillen.", "en": "That's fine. I can lift it.", "gap": "tillen" },
+      { "speaker": "Sara", "nl": "En de lamp? Kan die in de bus?", "en": "And the lamp? Can it go in the van?" },
+      { "speaker": "Tom", "nl": "Ja, de bus is nog niet vol. Hij kan erin.", "en": "Yes, the van isn't full yet. It can go in.", "gap": "erin" },
+      { "speaker": "Fatima", "nl": "Sara, er ligt iets op de trap. Is dat van jou?", "en": "Sara, there's something on the stairs. Is that yours?" },
+      { "speaker": "Sara", "nl": "Nee! Mijn mooie glas! Is het kapot?", "en": "Oh no! My beautiful glass! Is it broken?", "gap": "kapot" },
+      { "speaker": "Fatima", "nl": "Nee, gelukkig niet. Het is niet gebroken.", "en": "No, luckily not. It isn't broken." },
+      { "speaker": "Tom", "nl": "Zo, de bus is vol en het huis is leeg.", "en": "Right, the van is full and the house is empty." },
+      { "speaker": "Sara", "nl": "Dank jullie wel! Morgen pakken we de dozen uit.", "en": "Thank you both! Tomorrow we'll unpack the boxes." },
+      { "speaker": "Tom", "nl": "Wij? Ik denk dat ik morgen heel moe ben!", "en": "We? I think I'll be very tired tomorrow!" }
+    ]
+  }
+}

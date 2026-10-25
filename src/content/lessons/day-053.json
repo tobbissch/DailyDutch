@@ -1,0 +1,65 @@
+{
+  "day": 53,
+  "title": "Het contract",
+  "names": ["Peter"],
+  "words": [
+    { "id": "loon", "nl": "loon", "en": "wage, pay", "article": "het", "plural": "lonen", "forms": ["loontje"], "example": { "nl": "Het loon wordt elke maand betaald.", "en": "The pay is paid every month." } },
+    { "id": "bruto", "nl": "bruto", "en": "gross (before tax)", "example": { "nl": "Het loon is 3200 euro bruto.", "en": "The pay is 3200 euros gross." } },
+    { "id": "netto", "nl": "netto", "en": "net (after tax)", "example": { "nl": "Netto is het minder.", "en": "Net, it's less." } },
+    { "id": "uur-noun", "nl": "uur", "en": "hour", "article": "het", "plural": "uren", "forms": ["uurtje"], "example": { "nl": "Ik werk 32 uur per week.", "en": "I work 32 hours a week." } },
+    { "id": "proeftijd", "nl": "proeftijd", "en": "probation period", "article": "de", "example": { "nl": "De proeftijd is een maand.", "en": "The probation period is one month." } },
+    { "id": "vakantiedagen", "nl": "vakantiedag", "en": "day off, day of paid leave", "article": "de", "plural": "vakantiedagen", "example": { "nl": "Ik heb 25 vakantiedagen per jaar.", "en": "I have 25 days of paid leave a year." } },
+    { "id": "ziek-melden", "nl": "ziek melden", "en": "to call in sick (zich ziek melden)", "forms": ["meld", "meldt", "meldde", "meldden", "gemeld"], "example": { "nl": "Als je ziek bent, meld je je voor negen uur ziek.", "en": "If you're ill, you call in sick before nine." } },
+    { "id": "werktijden", "nl": "werktijd", "en": "working hours (usually plural: werktijden)", "article": "de", "plural": "werktijden", "example": { "nl": "Mijn werktijden zijn flexibel.", "en": "My working hours are flexible." } },
+    { "id": "overwerken", "nl": "overwerken", "en": "to work overtime", "forms": ["werk over", "werkte over", "overwerk", "overwerkte", "werkt over", "overwerkt", "werken over", "werkten over", "overwerkten", "overwerkend", "overgewerkt"], "example": { "nl": "Ik moet soms overwerken.", "en": "I sometimes have to work overtime." } },
+    { "id": "pauze", "nl": "pauze", "en": "break", "article": "de", "plural": "pauzes", "forms": ["pauzetje"], "example": { "nl": "Om half één heb ik pauze.", "en": "I have a break at half past twelve." } },
+    { "id": "feestdag", "nl": "feestdag", "en": "public holiday", "article": "de", "plural": "feestdagen", "forms": ["feestdagje"], "example": { "nl": "Op feestdagen werk ik niet.", "en": "I don't work on public holidays." } },
+    { "id": "vast", "nl": "vast", "en": "permanent, fixed; surely", "forms": ["vaster", "vastst", "vaste", "vastere", "vastste"], "example": { "nl": "Ik wil graag een vast contract.", "en": "I'd like a permanent contract." } },
+    { "id": "tijdelijk", "nl": "tijdelijk", "en": "temporary", "forms": ["tijdelijker", "tijdelijkst", "tijdelijke", "tijdelijkere", "tijdelijkste"], "example": { "nl": "Het is eerst een tijdelijk contract.", "en": "It's a temporary contract at first." } },
+    { "id": "opzeggen", "nl": "opzeggen", "en": "to cancel, to give notice", "forms": ["zeg op", "zei op", "zegde op", "opzeg", "opzei", "opzegde", "zegt op", "opzegt", "zeggen op", "zeiden op", "zegden op", "opzeiden", "opzegden", "opzeggend", "opgezegd"], "example": { "nl": "Je kunt het contract met een maand opzeggen.", "en": "You can terminate the contract with a month's notice." } },
+    { "id": "door-prep", "nl": "door", "en": "by (in the passive); through", "example": { "nl": "Het contract is door Peter geschreven.", "en": "The contract was written by Peter." } }
+  ],
+  "grammar": {
+    "title": "Passive past: werd getekend, is getekend",
+    "points": [
+      "The passive is worden + past participle: Het loon wordt elke maand betaald (present, day 43).",
+      "Simple past passive: werd (singular) / werden (plural) + participle: Het contract werd gisteren getekend.",
+      "Perfect passive: is / zijn + participle — without geworden: Het contract is getekend (= has been signed).",
+      "is getekend focuses on the result (it's done now); werd getekend tells what happened, as in a story.",
+      "Say who did it with door: Het contract is door Peter getekend."
+    ],
+    "examples": [
+      { "nl": "Het contract werd gisteren getekend.", "en": "The contract was signed yesterday." },
+      { "nl": "Het contract is getekend.", "en": "The contract has been signed." },
+      { "nl": "Het loon wordt elke maand betaald.", "en": "The pay is paid every month." },
+      { "nl": "Mijn salaris is gisteren betaald.", "en": "My salary was paid yesterday." },
+      { "nl": "Sara is uitgenodigd voor een tweede gesprek.", "en": "Sara has been invited for a second interview." },
+      { "nl": "De contracten werden door Peter geschreven.", "en": "The contracts were written by Peter." }
+    ],
+    "exercises": [
+      { "prompt": "Het contract ___ gisteren getekend.", "answer": "werd", "hint": "worden (past)" },
+      { "prompt": "Het contract is door Sara ___.", "answer": "getekend", "hint": "tekenen" },
+      { "prompt": "De contracten ___ vorige week getekend.", "answer": "werden", "hint": "worden (past, plural)" },
+      { "prompt": "Het loon ___ al betaald.", "answer": "is", "hint": "zijn" },
+      { "prompt": "Het contract is ___ Peter geschreven.", "answer": "door", "hint": "by" }
+    ]
+  },
+  "dialogue": {
+    "title": "Ik heb de baan!",
+    "scene": "Sara got the job at the design agency. She reads her contract with Tom.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Tom, ik heb de baan! Het contract is vandaag met de post gekomen.", "en": "Tom, I got the job! The contract came in the post today." },
+      { "speaker": "Tom", "nl": "Gefeliciteerd! Heb je het al gelezen?", "en": "Congratulations! Have you read it yet?" },
+      { "speaker": "Sara", "nl": "Ja. Het is eerst een tijdelijk contract voor een jaar, met een proeftijd van een maand.", "en": "Yes. It's a temporary contract for a year first, with a one-month probation period.", "gap": "tijdelijk" },
+      { "speaker": "Tom", "nl": "Dat is in Nederland vaak zo. En het loon?", "en": "That's often how it is in the Netherlands. And the pay?", "gap": "loon" },
+      { "speaker": "Sara", "nl": "3200 euro bruto per maand, voor 36 uur per week.", "en": "3200 euros gross a month, for 36 hours a week.", "gap": "bruto" },
+      { "speaker": "Tom", "nl": "Netto is dat ongeveer 2600.", "en": "Net, that's about 2600." },
+      { "speaker": "Sara", "nl": "En ik heb 25 vakantiedagen, en ik ben vrij op de feestdagen.", "en": "And I have 25 days of leave, and I'm off on public holidays." },
+      { "speaker": "Tom", "nl": "Wat staat er over overwerken?", "en": "What does it say about overtime?" },
+      { "speaker": "Sara", "nl": "Als ik overwerk, worden de uren betaald.", "en": "If I work overtime, the hours are paid.", "gap": "overwerk" },
+      { "speaker": "Tom", "nl": "Mooi. Moet je het contract nog tekenen?", "en": "Great. Do you still have to sign the contract?" },
+      { "speaker": "Sara", "nl": "Nee, het is gisteren al door Peter en mij getekend.", "en": "No, Peter and I already signed it yesterday.", "gap": "getekend" },
+      { "speaker": "Tom", "nl": "Dan gaan we vandaag samen uit eten!", "en": "Then we're going out for dinner today!" }
+    ]
+  }
+}

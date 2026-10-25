@@ -1,0 +1,67 @@
+{
+  "day": 42,
+  "title": "De buren",
+  "names": ["Tom", "Fatima"],
+  "words": [
+    { "id": "buren", "nl": "buur", "en": "neighbour", "article": "de", "plural": "buren", "example": { "nl": "Onze buren hebben een hond en een kat.", "en": "Our neighbours have a dog and a cat." } },
+    { "id": "geluid", "nl": "geluid", "en": "sound, noise", "article": "het", "plural": "geluiden", "forms": ["geluidje"], "example": { "nl": "Hoor je dat geluid?", "en": "Can you hear that sound?" } },
+    { "id": "herrie", "nl": "herrie", "en": "racket, (loud) noise", "article": "de", "example": { "nl": "De kinderen van de buren maken veel herrie.", "en": "The neighbours' kids make a lot of noise." } },
+    { "id": "muziek", "nl": "muziek", "en": "music", "article": "de", "forms": ["muziekje"], "example": { "nl": "Ik luister graag naar muziek.", "en": "I like listening to music." } },
+    { "id": "hond", "nl": "hond", "en": "dog", "article": "de", "plural": "honden", "forms": ["hondje"], "example": { "nl": "Mijn hond wacht altijd bij de deur.", "en": "My dog always waits by the door." } },
+    { "id": "kat", "nl": "kat", "en": "cat", "article": "de", "plural": "katten", "forms": ["katje"], "example": { "nl": "De kat slaapt op de bank.", "en": "The cat is sleeping on the sofa." } },
+    { "id": "klagen", "nl": "klagen", "en": "to complain", "forms": ["klaag", "klaagde", "klaagt", "klaagden", "klagend", "geklaagd", "kloeg", "kloegen"], "example": { "nl": "De buurman klaagt over de muziek.", "en": "The neighbour is complaining about the music." } },
+    { "id": "excuus", "nl": "excuus", "en": "apology; excuse", "article": "het", "plural": "excuses", "forms": ["excusen", "excuusje"], "example": { "nl": "Excuses voor de herrie!", "en": "Sorry about the noise!" } },
+    { "id": "wachten", "nl": "wachten", "en": "to wait", "forms": ["wacht", "wachtte", "wachtten", "wachtend", "gewacht"], "example": { "nl": "Ik wacht op de bus.", "en": "I'm waiting for the bus." } },
+    { "id": "houden", "nl": "houden", "en": "to keep, to hold; houden van: to love", "forms": ["hou", "houd", "hield", "houdt", "hielden", "houdend", "gehouden", "houwen", "houen"], "example": { "nl": "Ik hou van katten.", "en": "I love cats." } },
+    { "id": "praten", "nl": "praten", "en": "to talk", "forms": ["praat", "praatte", "praatten", "pratend", "gepraat"], "example": { "nl": "Wij praten over de nieuwe buren.", "en": "We're talking about the new neighbours." } },
+    { "id": "luisteren", "nl": "luisteren", "en": "to listen", "forms": ["luister", "luisterde", "luistert", "luisterden", "luisterend", "geluisterd"], "example": { "nl": "Luister je wel naar mij?", "en": "Are you actually listening to me?" } },
+    { "id": "hard", "nl": "hard", "en": "hard; loud; fast", "forms": ["harder", "hardst", "harde", "hardere", "hardste"], "example": { "nl": "De muziek is te hard.", "en": "The music is too loud." } },
+    { "id": "zacht", "nl": "zacht", "en": "soft; quiet", "forms": ["zachter", "zachtst", "zachte", "zachtere", "zachtste"], "example": { "nl": "Kun je wat zachter praten?", "en": "Could you talk a bit more quietly?" } },
+    { "id": "stil", "nl": "stil", "en": "quiet, silent; still", "forms": ["stiller", "stilst", "stille", "stillere", "stilste"], "example": { "nl": "Het is hier heel stil.", "en": "It's very quiet here." } }
+  ],
+  "grammar": {
+    "title": "Verbs with a preposition: wachten op, houden van",
+    "points": [
+      "Many Dutch verbs come with a fixed preposition. Learn them as a pair: wachten op (wait for), houden van (love), denken aan (think of), praten over (talk about), luisteren naar (listen to), klagen over (complain about).",
+      "The preposition is often not the one you expect from English: wachten op, not wachten voor; denken aan, not denken over.",
+      "The preposition goes in front of the person or thing, but it can be far from the verb: Ik wacht al tien minuten op de bus.",
+      "houden van means to love or to really like: Ik hou van jou. Ik hou van muziek. In speech, ik hou is more common than ik houd.",
+      "For things you can use er + preposition (day 41): Ik denk er vaak aan. In a question: Waar wacht je op? For people: Op wie wacht je?"
+    ],
+    "examples": [
+      { "nl": "Ik wacht al tien minuten op de bus.", "en": "I've been waiting for the bus for ten minutes." },
+      { "nl": "Sara houdt van muziek, maar niet van herrie.", "en": "Sara loves music, but not noise." },
+      { "nl": "Ik denk vaak aan mijn familie in Spanje.", "en": "I often think of my family in Spain." },
+      { "nl": "De buren klagen over de hond.", "en": "The neighbours are complaining about the dog." },
+      { "nl": "Waar praten jullie over? — Over de nieuwe buren.", "en": "What are you talking about? — About the new neighbours." },
+      { "nl": "Luister je naar mij? — Nee, ik luister naar muziek.", "en": "Are you listening to me? — No, I'm listening to music." }
+    ],
+    "exercises": [
+      { "prompt": "Ik wacht ___ de trein.", "answer": "op", "hint": "wachten …" },
+      { "prompt": "Tom houdt ___ koffie.", "answer": "van", "hint": "houden …" },
+      { "prompt": "Ik denk vaak ___ mijn oma.", "answer": "aan", "hint": "denken …" },
+      { "prompt": "Wij praten ___ het weekend.", "answer": "over", "hint": "praten …" },
+      { "prompt": "Fatima luistert ___ muziek.", "answer": "naar", "hint": "luisteren …" },
+      { "prompt": "De buurman klaagt ___ de herrie.", "answer": "over", "hint": "klagen …" }
+    ]
+  },
+  "dialogue": {
+    "title": "De nieuwe buurvrouw",
+    "scene": "On the stairs, Sara meets her new downstairs neighbour, who has a dog — and a small complaint about noise.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Hallo! Ik ben Sara, de nieuwe buurvrouw van de derde verdieping.", "en": "Hello! I'm Sara, the new neighbour from the third floor." },
+      { "speaker": "Buurvrouw", "nl": "Dag Sara! Leuk! Ik woon hier met mijn hond en twee katten.", "en": "Hi Sara! Nice! I live here with my dog and two cats." },
+      { "speaker": "Sara", "nl": "Ik hou van honden! En van katten ook.", "en": "I love dogs! And cats too.", "gap": "hou van" },
+      { "speaker": "Buurvrouw", "nl": "Mag ik iets zeggen? Gisteren hoorde ik heel laat nog harde muziek.", "en": "Can I say something? Yesterday I could still hear loud music very late." },
+      { "speaker": "Sara", "nl": "Sorry! Dat waren Tom en Fatima. Ze hielpen me met de verhuizing.", "en": "Sorry! That was Tom and Fatima. They helped me with the move." },
+      { "speaker": "Sara", "nl": "Daarna hebben we samen gegeten en naar muziek geluisterd.", "en": "Afterwards we had dinner together and listened to music." },
+      { "speaker": "Buurvrouw", "nl": "Het is goed, hoor. Maar mijn hond houdt niet van harde geluiden.", "en": "It's fine, really. But my dog doesn't like loud noises.", "gap": "houdt niet van" },
+      { "speaker": "Sara", "nl": "Excuses! Ik zal de muziek zachter doen.", "en": "Sorry! I'll turn the music down.", "gap": "Excuses" },
+      { "speaker": "Buurvrouw", "nl": "Dank je. En als mijn hond te veel herrie maakt, moet je het zeggen.", "en": "Thanks. And if my dog makes too much noise, you have to tell me." },
+      { "speaker": "Sara", "nl": "Dat zal ik doen. Maar ik hoor hem nooit, hij is heel stil!", "en": "I will. But I never hear him, he's very quiet!", "gap": "stil" },
+      { "speaker": "Buurvrouw", "nl": "Ja, maar niet als hij op mijn man wacht! Dan maakt hij veel geluid.", "en": "Yes, but not when he's waiting for my husband! Then he makes a lot of noise.", "gap": "wacht" },
+      { "speaker": "Sara", "nl": "Het was leuk om met je te praten. Dag!", "en": "It was nice talking to you. Bye!" },
+      { "speaker": "Buurvrouw", "nl": "Dag Sara! Kom gauw een keer koffie drinken.", "en": "Bye Sara! Come over for coffee soon." }
+    ]
+  }
+}

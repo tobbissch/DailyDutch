@@ -1,0 +1,67 @@
+{
+  "day": 18,
+  "title": "Bij de huisarts",
+  "names": ["Sara", "Tom", "Anna"],
+  "words": [
+    { "id": "mij", "nl": "mij", "en": "me", "forms": ["me"], "example": { "nl": "Kunt u mij helpen?", "en": "Can you help me?" } },
+    { "id": "hem", "nl": "hem", "en": "him; it (for de-words)", "example": { "nl": "Ik bel hem morgen op.", "en": "I'll call him tomorrow." } },
+    { "id": "ons-pron", "nl": "ons", "en": "us", "example": { "nl": "Bel ons op zaterdag.", "en": "Call us on Saturday." } },
+    { "id": "hen", "nl": "hen", "en": "them (people)", "example": { "nl": "Ik zie hen vandaag.", "en": "I'm seeing them today." } },
+    { "id": "dokter", "nl": "dokter", "en": "doctor", "article": "de", "plural": "dokters", "forms": ["doktertje"], "example": { "nl": "Ik ga naar de dokter.", "en": "I'm going to the doctor." } },
+    { "id": "huisarts", "nl": "huisarts", "en": "family doctor, GP", "article": "de", "plural": "huisartsen", "forms": ["huisartsje"], "example": { "nl": "Ik bel de huisarts.", "en": "I'm calling the GP." } },
+    { "id": "ziek", "nl": "ziek", "en": "ill, sick", "forms": ["zieker", "ziekst", "zieke", "ziekere", "ziekste"], "example": { "nl": "Ik ben ziek.", "en": "I'm ill." } },
+    { "id": "pijn", "nl": "pijn", "en": "pain, ache", "article": "de", "plural": "pijnen", "forms": ["pijntje"], "example": { "nl": "Ik heb pijn in mijn buik.", "en": "My stomach hurts." } },
+    { "id": "hoofd", "nl": "hoofd", "en": "head", "article": "het", "plural": "hoofden", "forms": ["hoofdje"], "example": { "nl": "Mijn hoofd is warm.", "en": "My head is hot." } },
+    { "id": "buik", "nl": "buik", "en": "belly, stomach", "article": "de", "plural": "buiken", "forms": ["buikje"], "example": { "nl": "Hij heeft pijn in zijn buik.", "en": "He has a stomach ache." } },
+    { "id": "keel", "nl": "keel", "en": "throat", "article": "de", "plural": "kelen", "forms": ["keeltje"], "example": { "nl": "Heeft u pijn in de keel?", "en": "Do you have a sore throat?" } },
+    { "id": "helpen", "nl": "helpen", "en": "to help", "forms": ["help", "hielp", "helpt", "hielpt", "hielpen", "helpend", "geholpen"], "example": { "nl": "De huisarts helpt ons.", "en": "The GP helps us." } },
+    { "id": "afspraak", "nl": "afspraak", "en": "appointment; arrangement", "article": "de", "plural": "afspraken", "forms": ["afspraakje"], "example": { "nl": "Ik heb een afspraak om tien uur.", "en": "I have an appointment at ten o'clock." } },
+    { "id": "beter", "nl": "beter", "en": "better; recovered", "forms": ["best", "beste"], "example": { "nl": "Morgen gaat het beter.", "en": "Tomorrow it'll be better." } },
+    { "id": "voelen", "nl": "voelen", "en": "to feel", "forms": ["voel", "voelde", "voelt", "voelden", "voelend", "gevoeld"], "example": { "nl": "Ik voel me niet goed.", "en": "I don't feel well." } },
+    { "id": "medicijn", "nl": "medicijn", "en": "medicine", "article": "het", "plural": "medicijnen", "forms": ["medicijntje"], "example": { "nl": "Neem het medicijn elke ochtend.", "en": "Take the medicine every morning." } },
+    { "id": "uw", "nl": "uw", "en": "your (polite, goes with u)", "example": { "nl": "Wat is uw nummer?", "en": "What is your number?" } },
+    { "id": "beterschap", "nl": "beterschap", "en": "get well soon", "example": { "nl": "Beterschap!", "en": "Get well soon!" } },
+    { "id": "last", "nl": "last", "en": "trouble, bother (last hebben van = to suffer from)", "article": "de", "example": { "nl": "Ik heb last van mijn buik.", "en": "My stomach is bothering me." } }
+  ],
+  "grammar": {
+    "title": "Object pronouns: me, him, her, us",
+    "points": [
+      "After a verb or a preposition, use the object pronouns: mij/me (me), jou/je (you), u (you, polite), hem (him), haar (her), ons (us), jullie (you, plural), hen/ze (them).",
+      "me and je are the short, unstressed forms and the normal choice in speech: Kun je me helpen? Use mij and jou for emphasis: Hij helpt mij, niet jou.",
+      "hen is used for people, mostly in writing. In speech ze is much more common: Ik zie ze morgen.",
+      "Things: a de-word becomes hem, a het-word becomes het. De fiets? Ik zoek hem. Het boek? Ik lees het.",
+      "u, ons and jullie look the same as subject and object."
+    ],
+    "examples": [
+      { "nl": "Kunt u mij helpen?", "en": "Can you help me?" },
+      { "nl": "Ik bel je morgen op.", "en": "I'll call you tomorrow." },
+      { "nl": "De dokter helpt hem.", "en": "The doctor helps him." },
+      { "nl": "Ik zie haar vandaag.", "en": "I'm seeing her today." },
+      { "nl": "Tom gaat met ons mee.", "en": "Tom is coming with us." },
+      { "nl": "Mijn telefoon? Ik zoek hem.", "en": "My phone? I'm looking for it." }
+    ],
+    "exercises": [
+      { "prompt": "Kunt u ___ helpen?", "answer": "mij", "hint": "me" },
+      { "prompt": "Tom is ziek. Ik bel ___ op.", "answer": "hem", "hint": "him" },
+      { "prompt": "De dokter helpt ___.", "answer": "ons", "hint": "us" },
+      { "prompt": "Anna is hier. Ik zie ___.", "answer": "haar", "hint": "her" },
+      { "prompt": "Waar is mijn telefoon? Ik zoek ___.", "answer": "hem", "hint": "de telefoon" }
+    ]
+  },
+  "dialogue": {
+    "title": "Bij de huisarts",
+    "scene": "Sara feels ill and sees the GP. The doctor uses u, as with any patient.",
+    "lines": [
+      { "speaker": "Huisarts", "nl": "Dag Sara. Hoe gaat het met u?", "en": "Hello Sara. How are you?" },
+      { "speaker": "Sara", "nl": "Niet zo goed. Ik ben ziek.", "en": "Not so good. I'm ill.", "gap": "ziek" },
+      { "speaker": "Huisarts", "nl": "Waar heeft u pijn?", "en": "Where does it hurt?", "gap": "pijn" },
+      { "speaker": "Sara", "nl": "Ik heb pijn in mijn keel en in mijn hoofd.", "en": "My throat and my head hurt.", "gap": "hoofd" },
+      { "speaker": "Huisarts", "nl": "Ik ga in uw keel kijken.", "en": "I'm going to look at your throat." },
+      { "speaker": "Huisarts", "nl": "Het is niet slecht. Neem het medicijn in de ochtend en in de avond.", "en": "It's nothing bad. Take the medicine in the morning and in the evening.", "gap": "medicijn" },
+      { "speaker": "Sara", "nl": "Moet ik terugkomen?", "en": "Do I need to come back?" },
+      { "speaker": "Huisarts", "nl": "Nee. Op vrijdag bel ik u op.", "en": "No. I'll call you on Friday." },
+      { "speaker": "Sara", "nl": "Dank u wel, dokter.", "en": "Thank you, doctor." },
+      { "speaker": "Huisarts", "nl": "Beterschap!", "en": "Get well soon!", "gap": "Beterschap" }
+    ]
+  }
+}

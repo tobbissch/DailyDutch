@@ -1,0 +1,66 @@
+{
+  "day": 63,
+  "title": "Vriendschap",
+  "names": ["Sara", "Tom", "Fatima", "Lucía", "Spanje", "Nederland"],
+  "words": [
+    { "id": "elkaar", "nl": "elkaar", "en": "each other", "example": { "nl": "Sara en Fatima zien elkaar elke dag.", "en": "Sara and Fatima see each other every day." } },
+    { "id": "vriendschap-noun", "nl": "vriendschap", "en": "friendship", "article": "de", "plural": "vriendschappen", "forms": ["vriendschapje"], "example": { "nl": "Onze vriendschap is belangrijk voor mij.", "en": "Our friendship is important to me." } },
+    { "id": "vertrouwen", "nl": "vertrouwen", "en": "to trust", "forms": ["vertrouw", "vertrouwde", "vertrouwt", "vertrouwden", "vertrouwend", "vertrouwd"], "example": { "nl": "Ik vertrouw haar.", "en": "I trust her." } },
+    { "id": "steunen", "nl": "steunen", "en": "to support", "forms": ["steun", "steunde", "steunt", "steunden", "steunend", "gesteund"], "example": { "nl": "Fatima steunt Sara altijd.", "en": "Fatima always supports Sara." } },
+    { "id": "geheim", "nl": "geheim", "en": "secret", "article": "het", "plural": "geheimen", "forms": ["geheimpje"], "example": { "nl": "Kun je een geheim houden?", "en": "Can you keep a secret?" } },
+    { "id": "ruzie", "nl": "ruzie maken", "en": "to argue, to have a fight", "forms": ["ruzie", "ruzies", "maak ruzie", "maakt ruzie", "maakte ruzie", "maakten ruzie", "ruzie gemaakt"], "example": { "nl": "Ze maken nooit ruzie.", "en": "They never argue." } },
+    { "id": "ruzie-noun", "nl": "ruzie", "en": "argument, fight", "article": "de", "plural": "ruzies", "forms": ["ruzietje"], "example": { "nl": "Ze hadden ruzie over geld.", "en": "They had a fight about money." } },
+    { "id": "contact", "nl": "contact", "en": "contact", "article": "het", "plural": "contacten", "forms": ["contactje"], "example": { "nl": "Ik heb nog contact met haar.", "en": "I'm still in touch with her." } },
+    { "id": "bijhouden", "nl": "bijhouden", "en": "to keep up (contact bijhouden = to stay in touch)", "forms": ["hou bij", "houd bij", "hield bij", "bijhou", "bijhoud", "bijhield", "houdt bij", "bijhoudt", "hieldt bij", "bijhieldt", "houden bij", "hielden bij", "bijhielden", "bijhoudend", "bijgehouden"], "example": { "nl": "Het is moeilijk om contact bij te houden.", "en": "It's hard to stay in touch." } },
+    { "id": "ontmoeten", "nl": "ontmoeten", "en": "to meet", "forms": ["ontmoet", "ontmoette", "ontmoetten", "ontmoetend"], "example": { "nl": "Ik heb Fatima op mijn werk ontmoet.", "en": "I met Fatima at work." } },
+    { "id": "ontmoeting", "nl": "ontmoeting", "en": "meeting, encounter", "article": "de", "plural": "ontmoetingen", "forms": ["ontmoetinkje"], "example": { "nl": "Het was een leuke ontmoeting.", "en": "It was a nice encounter." } },
+    { "id": "trouw", "nl": "trouw", "en": "loyal, faithful", "forms": ["trouwer", "trouwst", "trouwe", "trouwere", "trouwste"], "example": { "nl": "Fatima is een trouwe vriendin.", "en": "Fatima is a loyal friend." } },
+    { "id": "delen", "nl": "delen", "en": "to share", "forms": ["deel", "deelde", "deelt", "deelden", "delend", "gedeeld"], "example": { "nl": "Ik deel mijn lunch met jou.", "en": "I'll share my lunch with you." } }
+  ],
+  "grammar": {
+    "title": "met hem, voor haar, elkaar",
+    "points": [
+      "After a preposition (met, voor, bij, van, aan…) use the object pronoun, not the subject pronoun: met mij (never met ik).",
+      "The full set: mij/me, jou/je, u, hem, haar, ons, jullie, hen (in speech often ze).",
+      "Use the stressed forms mij, jou, haar when you want emphasis: Dit cadeau is voor jou, niet voor hem!",
+      "For things, Dutch doesn't say met het but ermee, erop, ervan: Ik schrijf ermee.",
+      "elkaar = each other / one another. It never changes: Wij zien elkaar. Zij bellen elkaar. Ze praten met elkaar."
+    ],
+    "examples": [
+      { "nl": "Ik ga met hem naar de film.", "en": "I'm going to the cinema with him." },
+      { "nl": "Dit cadeau is voor haar.", "en": "This present is for her." },
+      { "nl": "Kom je bij ons eten?", "en": "Are you coming to eat at our place?" },
+      { "nl": "Fatima en Sara bellen elkaar elke dag.", "en": "Fatima and Sara call each other every day." },
+      { "nl": "Zij praten veel met elkaar.", "en": "They talk to each other a lot." },
+      { "nl": "Ik heb een geheim voor jou.", "en": "I have a secret for you." }
+    ],
+    "exercises": [
+      { "prompt": "Ik ga met ___ naar de bioscoop.", "answer": "hem", "hint": "hij" },
+      { "prompt": "Dit cadeau is voor ___.", "answer": "haar", "hint": "zij (she)" },
+      { "prompt": "Kom je bij ___ eten?", "answer": "ons", "hint": "wij" },
+      { "prompt": "Sara en Fatima zien ___ elke dag.", "answer": "elkaar", "hint": "each other" },
+      { "prompt": "Mag ik met ___ mee?", "answer": "jullie", "hint": "jullie" },
+      { "prompt": "Lucía belt ___ elke week.", "answer": "mij", "hint": "ik" }
+    ]
+  },
+  "dialogue": {
+    "title": "Echte vriendinnen",
+    "scene": "During a coffee break, Sara and her colleague Fatima talk about friendship.",
+    "lines": [
+      { "speaker": "Fatima", "nl": "Sara, heb je nog veel contact met je vriendinnen in Spanje?", "en": "Sara, are you still in touch with your friends in Spain a lot?", "gap": "contact" },
+      { "speaker": "Sara", "nl": "Met Lucía wel. We bellen elkaar elke week.", "en": "With Lucía, yes. We call each other every week.", "gap": "elkaar" },
+      { "speaker": "Fatima", "nl": "Wat leuk. Hoe lang kennen jullie elkaar al?", "en": "How nice. How long have you known each other?" },
+      { "speaker": "Sara", "nl": "Al twintig jaar! Ik deel al mijn geheimen met haar.", "en": "Twenty years! I share all my secrets with her.", "gap": "met haar" },
+      { "speaker": "Fatima", "nl": "Maken jullie nooit ruzie?", "en": "Do you never argue?" },
+      { "speaker": "Sara", "nl": "Soms wel, maar nooit lang. Ze steunt me altijd.", "en": "Sometimes, but never for long. She always supports me.", "gap": "steunt" },
+      { "speaker": "Fatima", "nl": "Dat is echte vriendschap. Ik vind het moeilijk om contact bij te houden.", "en": "That's real friendship. I find it hard to stay in touch." },
+      { "speaker": "Sara", "nl": "Waarom?", "en": "Why?" },
+      { "speaker": "Fatima", "nl": "Mijn vriendinnen hebben kinderen. Ze hebben het altijd druk.", "en": "My friends have kids. They're always busy." },
+      { "speaker": "Sara", "nl": "Spreek dan in het weekend met hen af!", "en": "Then arrange to meet them at the weekend!" },
+      { "speaker": "Fatima", "nl": "Goed idee. En hoe heb jij Tom eigenlijk ontmoet?", "en": "Good idea. And how did you actually meet Tom?" },
+      { "speaker": "Sara", "nl": "Op een feestje, in mijn eerste week in Nederland. Het was een grappige ontmoeting.", "en": "At a party, in my first week in the Netherlands. It was a funny encounter." },
+      { "speaker": "Fatima", "nl": "Een grappige ontmoeting? Ik ben nieuwsgierig!", "en": "A funny encounter? I'm curious!" },
+      { "speaker": "Sara", "nl": "Dat is een geheim!", "en": "That's a secret!" }
+    ]
+  }
+}

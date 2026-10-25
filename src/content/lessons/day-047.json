@@ -1,0 +1,68 @@
+{
+  "day": 47,
+  "title": "Het lichaam",
+  "names": ["Noor", "Daan"],
+  "words": [
+    { "id": "oog", "nl": "oog", "en": "eye", "article": "het", "plural": "ogen", "forms": ["oogje"], "example": { "nl": "Noor heeft blauwe ogen.", "en": "Noor has blue eyes." } },
+    { "id": "oor", "nl": "oor", "en": "ear", "article": "het", "plural": "oren", "forms": ["oortje"], "example": { "nl": "Mijn oren zijn koud.", "en": "My ears are cold." } },
+    { "id": "neus", "nl": "neus", "en": "nose", "article": "de", "plural": "neuzen", "forms": ["neusje"], "example": { "nl": "Hij heeft een grote neus.", "en": "He has a big nose." } },
+    { "id": "mond", "nl": "mond", "en": "mouth", "article": "de", "plural": "monden", "forms": ["mondje"], "example": { "nl": "Doe je mond open.", "en": "Open your mouth." } },
+    { "id": "gezicht", "nl": "gezicht", "en": "face; sight", "article": "het", "plural": "gezichten", "forms": ["gezichtje"], "example": { "nl": "Was je gezicht en poets je tanden.", "en": "Wash your face and brush your teeth." } },
+    { "id": "arm", "nl": "arm", "en": "arm", "article": "de", "plural": "armen", "forms": ["armpje"], "example": { "nl": "Mijn arm doet pijn.", "en": "My arm hurts." } },
+    { "id": "hand", "nl": "hand", "en": "hand", "article": "de", "plural": "handen", "forms": ["handje"], "example": { "nl": "Was je handen voor het eten.", "en": "Wash your hands before dinner." } },
+    { "id": "vinger", "nl": "vinger", "en": "finger", "article": "de", "plural": "vingers", "forms": ["vingertje"], "example": { "nl": "Een hand heeft vijf vingers.", "en": "A hand has five fingers." } },
+    { "id": "been", "nl": "been", "en": "leg", "article": "het", "plural": "benen", "forms": ["beentje"], "example": { "nl": "Hij heeft lange benen.", "en": "He has long legs." } },
+    { "id": "voet", "nl": "voet", "en": "foot", "article": "de", "plural": "voeten", "forms": ["voetje"], "example": { "nl": "Mijn voeten zijn moe.", "en": "My feet are tired." } },
+    { "id": "knie", "nl": "knie", "en": "knee", "article": "de", "plural": "knieën", "forms": ["knietje"], "example": { "nl": "Daan heeft pijn aan zijn knie.", "en": "Daan's knee hurts." } },
+    { "id": "rug", "nl": "rug", "en": "back (of the body)", "article": "de", "plural": "ruggen", "forms": ["ruggetje", "rugje"], "example": { "nl": "Ik heb pijn in mijn rug.", "en": "My back hurts." } },
+    { "id": "schouder", "nl": "schouder", "en": "shoulder", "article": "de", "plural": "schouders", "forms": ["schoudertje"], "example": { "nl": "Mijn schouder doet pijn van de zware tas.", "en": "My shoulder hurts from the heavy bag." } },
+    { "id": "hart", "nl": "hart", "en": "heart", "article": "het", "plural": "harten", "forms": ["hartje"], "example": { "nl": "Het hart is een spier.", "en": "The heart is a muscle." } },
+    { "id": "huid", "nl": "huid", "en": "skin", "article": "de", "plural": "huiden", "forms": ["huidje"], "example": { "nl": "De zon is slecht voor je huid.", "en": "The sun is bad for your skin." } }
+  ],
+  "grammar": {
+    "title": "Plurals: oog → ogen, voet → voeten",
+    "points": [
+      "Most nouns form the plural with -en: hand → handen, voet → voeten, arm → armen.",
+      "Watch the spelling: a long vowel in a closed syllable is written double, but single when the syllable opens: oor → oren, oog → ogen, been → benen.",
+      "A short vowel keeps its sound by doubling the consonant: rug → ruggen.",
+      "s often becomes z and f becomes v before -en: neus → neuzen.",
+      "Nouns ending in -er, -el or -je usually take -s: vinger → vingers, schouder → schouders.",
+      "All plurals take de: het oog → de ogen, het been → de benen."
+    ],
+    "examples": [
+      { "nl": "Ik heb twee ogen en twee oren.", "en": "I have two eyes and two ears." },
+      { "nl": "Een hand heeft vijf vingers.", "en": "A hand has five fingers." },
+      { "nl": "Mijn benen zijn moe.", "en": "My legs are tired." },
+      { "nl": "De kinderen wassen hun handen.", "en": "The children wash their hands." },
+      { "nl": "Hij heeft koude voeten.", "en": "He has cold feet." },
+      { "nl": "Ik heb pijn aan mijn knieën.", "en": "My knees hurt." }
+    ],
+    "exercises": [
+      { "prompt": "één oog, twee ___", "answer": "ogen", "hint": "plural" },
+      { "prompt": "één voet, twee ___", "answer": "voeten", "hint": "plural" },
+      { "prompt": "één been, twee ___", "answer": "benen", "hint": "plural" },
+      { "prompt": "één vinger, tien ___", "answer": "vingers", "hint": "plural (-s)" },
+      { "prompt": "één neus, drie ___", "answer": "neuzen", "hint": "plural (s → z)" },
+      { "prompt": "één knie, twee ___", "answer": "knieën", "hint": "plural" }
+    ]
+  },
+  "dialogue": {
+    "title": "Twee ogen, twee oren",
+    "scene": "Sara and Tom are looking after Tom's niece Noor (7). She has lots of questions about the body.",
+    "lines": [
+      { "speaker": "Noor", "nl": "Sara, waarom hebben we twee ogen?", "en": "Sara, why do we have two eyes?" },
+      { "speaker": "Sara", "nl": "Met twee ogen zie je beter. En je hebt ook twee oren.", "en": "You see better with two eyes. And you also have two ears.", "gap": "oren" },
+      { "speaker": "Noor", "nl": "En één neus en één mond!", "en": "And one nose and one mouth!", "gap": "neus" },
+      { "speaker": "Sara", "nl": "Ja, goed zo!", "en": "Yes, well done!" },
+      { "speaker": "Noor", "nl": "Hoeveel vingers heb jij?", "en": "How many fingers do you have?", "gap": "vingers" },
+      { "speaker": "Sara", "nl": "Tien, net als jij: vijf aan elke hand.", "en": "Ten, just like you: five on each hand." },
+      { "speaker": "Noor", "nl": "Kijk, mijn knie is rood.", "en": "Look, my knee is red." },
+      { "speaker": "Sara", "nl": "Doet het pijn?", "en": "Does it hurt?" },
+      { "speaker": "Noor", "nl": "Een beetje. Sara, waar is je hart?", "en": "A little. Sara, where's your heart?", "gap": "hart" },
+      { "speaker": "Sara", "nl": "Hier, links in je lichaam. Voel maar met je hand.", "en": "Here, on the left side of your body. Feel it with your hand." },
+      { "speaker": "Noor", "nl": "Ik voel het! Het gaat heel snel.", "en": "I can feel it! It's going really fast." },
+      { "speaker": "Tom", "nl": "Dat is omdat je zo veel rent, Noor!", "en": "That's because you run around so much, Noor!" },
+      { "speaker": "Noor", "nl": "Ja! Ik heb snelle benen.", "en": "Yes! I have fast legs.", "gap": "benen" }
+    ]
+  }
+}

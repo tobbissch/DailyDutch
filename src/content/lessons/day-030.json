@@ -1,0 +1,57 @@
+{
+  "day": 30,
+  "title": "Een dag in Amsterdam",
+  "names": ["Sara", "Lucía", "Tom", "Amsterdam"],
+  "words": [
+    { "id": "toerist", "nl": "toerist", "en": "tourist", "article": "de", "plural": "toeristen", "forms": ["toeristje"], "example": { "nl": "Er zijn veel toeristen in Amsterdam.", "en": "There are lots of tourists in Amsterdam." } },
+    { "id": "gracht", "nl": "gracht", "en": "canal (in a city)", "article": "de", "plural": "grachten", "forms": ["grachtje"], "example": { "nl": "Het huis staat aan een gracht.", "en": "The house is on a canal." } },
+    { "id": "boot", "nl": "boot", "en": "boat", "article": "de", "plural": "boten", "forms": ["bootje"], "example": { "nl": "We gaan met de boot.", "en": "We're going by boat." } },
+    { "id": "kaart", "nl": "kaart", "en": "map; card", "article": "de", "plural": "kaarten", "forms": ["kaartje"], "example": { "nl": "Heb je een kaart van de stad?", "en": "Have you got a map of the city?" } },
+    { "id": "kaartje", "nl": "kaartje", "en": "ticket", "article": "het", "plural": "kaartjes", "example": { "nl": "Twee kaartjes, alstublieft.", "en": "Two tickets, please." } },
+    { "id": "beroemd", "nl": "beroemd", "en": "famous", "forms": ["beroemder", "beroemdst", "beroemde", "beroemdere", "beroemdste"], "example": { "nl": "Het museum is beroemd.", "en": "The museum is famous." } },
+    { "id": "centrum", "nl": "centrum", "en": "centre, city centre", "article": "het", "plural": "centra", "forms": ["centrumpje"], "example": { "nl": "Het centrum is druk.", "en": "The city centre is busy." } },
+    { "id": "prachtig", "nl": "prachtig", "en": "beautiful, wonderful", "forms": ["prachtiger", "prachtigst", "prachtige", "prachtigere", "prachtigste"], "example": { "nl": "Wat een prachtige stad!", "en": "What a beautiful city!" } },
+    { "id": "rondvaart", "nl": "rondvaart", "en": "boat tour (on the canals)", "article": "de", "plural": "rondvaarten", "forms": ["rondvaartje"], "example": { "nl": "We gaan een rondvaart maken.", "en": "We're going on a canal tour." } },
+    { "id": "gezellig", "nl": "gezellig", "en": "cosy, sociable, fun (a typically Dutch word)", "forms": ["gezelliger", "gezelligst", "gezellige", "gezelligere", "gezelligste", "gezel", "gezellie"], "example": { "nl": "Het is heel gezellig hier.", "en": "It's really nice and cosy here." } }
+  ],
+  "grammar": {
+    "title": "Review: present, perfect and word order",
+    "points": [
+      "Present tense: ik + stem, jij/hij/zij + stem + t, wij/jullie/zij + infinitive: ik loop, jij loopt, wij lopen.",
+      "Verb second: the conjugated verb is always the second element in a statement. Vandaag gaan we naar het museum.",
+      "A second verb goes to the end: after a modal (Ik wil een rondvaart maken) or after gaan (We gaan wandelen).",
+      "Perfect tense: hebben or zijn + participle at the end. Ik heb een kaartje gekocht. We zijn naar het centrum gegaan.",
+      "Questions: verb first (Ga je mee?) or a question word + verb (Waar is de boot?)."
+    ],
+    "examples": [
+      { "nl": "Vandaag gaan we naar het centrum.", "en": "Today we're going to the city centre." },
+      { "nl": "Ik wil een rondvaart maken.", "en": "I want to go on a canal tour." },
+      { "nl": "We hebben twee kaartjes gekocht.", "en": "We bought two tickets." },
+      { "nl": "We zijn met de boot gegaan.", "en": "We went by boat." },
+      { "nl": "Ga je mee naar het museum?", "en": "Are you coming to the museum?" }
+    ],
+    "exercises": [
+      { "prompt": "Vandaag ___ we naar het museum.", "answer": "gaan", "hint": "gaan" },
+      { "prompt": "Ik wil een rondvaart ___.", "answer": "maken", "hint": "maken" },
+      { "prompt": "We hebben twee kaartjes ___.", "answer": "gekocht", "hint": "kopen" },
+      { "prompt": "We ___ naar het centrum gegaan.", "answer": "zijn", "hint": "hebben / zijn" },
+      { "prompt": "Op zaterdag ___ Lucía naar Amsterdam.", "answer": "komt", "hint": "komen" }
+    ]
+  },
+  "dialogue": {
+    "title": "Amsterdam met Lucía",
+    "scene": "Lucía is visiting from Spain. Sara shows her around Amsterdam.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Dit is het centrum van Amsterdam.", "en": "This is the centre of Amsterdam.", "gap": "centrum" },
+      { "speaker": "Lucía", "nl": "Wat een prachtige grachten!", "en": "What beautiful canals!", "gap": "prachtige" },
+      { "speaker": "Sara", "nl": "Ja, en er zijn veel toeristen.", "en": "Yes, and there are lots of tourists." },
+      { "speaker": "Lucía", "nl": "Kunnen we een rondvaart maken?", "en": "Can we go on a canal tour?", "gap": "rondvaart" },
+      { "speaker": "Sara", "nl": "Ja! Ik heb al twee kaartjes gekocht.", "en": "Yes! I've already bought two tickets.", "gap": "kaartjes" },
+      { "speaker": "Lucía", "nl": "Wat leuk! Wanneer gaat de boot?", "en": "How nice! When does the boat leave?" },
+      { "speaker": "Sara", "nl": "Om drie uur. Daarna gaan we naar een beroemd museum.", "en": "At three. After that we're going to a famous museum." },
+      { "speaker": "Lucía", "nl": "En in de avond?", "en": "And in the evening?" },
+      { "speaker": "Sara", "nl": "Dan eten we bij Tom. Hij kookt voor ons.", "en": "Then we're having dinner at Tom's. He's cooking for us." },
+      { "speaker": "Lucía", "nl": "Gezellig!", "en": "Lovely!", "gap": "Gezellig" }
+    ]
+  }
+}

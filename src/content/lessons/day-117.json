@@ -1,0 +1,68 @@
+{
+  "day": 117,
+  "title": "Een huis kopen",
+  "names": ["Utrecht"],
+  "words": [
+    { "id": "hypotheek", "nl": "hypotheek", "en": "mortgage", "article": "de", "plural": "hypotheken", "forms": ["hypotheekje"], "example": { "nl": "Zonder hypotheek kunnen we geen huis kopen.", "en": "We can't buy a house without a mortgage." } },
+    { "id": "koper", "nl": "koper", "en": "buyer", "article": "de", "plural": "kopers", "example": { "nl": "De koper betaalt de notaris.", "en": "The buyer pays the notary." } },
+    { "id": "verkoper-noun", "nl": "verkoper", "en": "seller; salesperson", "article": "de", "plural": "verkopers", "forms": ["verkopertje"], "example": { "nl": "De verkoper wil het huis snel verkopen.", "en": "The seller wants to sell the house quickly." } },
+    { "id": "eigenaar", "nl": "eigenaar", "en": "owner", "article": "de", "plural": "eigenaars", "forms": ["eigenaartje"], "example": { "nl": "De eigenaar woont al dertig jaar in dit huis.", "en": "The owner has lived in this house for thirty years." } },
+    { "id": "bod", "nl": "bod", "en": "offer, bid", "article": "het", "plural": "boden", "forms": ["bodje"], "example": { "nl": "We hebben een bod gedaan op het huis.", "en": "We've made an offer on the house." } },
+    { "id": "bieden", "nl": "bieden", "en": "to offer; to bid", "forms": ["bied", "bood", "biedt", "boodt", "boden", "biedend", "geboden"], "example": { "nl": "Hoeveel zullen we bieden?", "en": "How much shall we offer?" } },
+    { "id": "bezichtiging", "nl": "bezichtiging", "en": "viewing (of a house)", "article": "de", "plural": "bezichtigingen", "forms": ["bezichtigingetje"], "example": { "nl": "De bezichtiging is zaterdag om tien uur.", "en": "The viewing is on Saturday at ten o'clock." } },
+    { "id": "bezichtigen", "nl": "bezichtigen", "en": "to view (a house)", "forms": ["bezichtig", "bezichtigde", "bezichtigt", "bezichtigden", "bezichtigend", "bezichtigd"], "example": { "nl": "Vandaag bezichtigen we een huis in Utrecht.", "en": "Today we're viewing a house in Utrecht." } },
+    { "id": "taxatie", "nl": "taxatie", "en": "valuation (of a house)", "article": "de", "plural": "taxaties", "forms": ["taxatiën", "taxatietje"], "example": { "nl": "Voor de hypotheek is een taxatie nodig.", "en": "You need a valuation for the mortgage." } },
+    { "id": "notaris", "nl": "notaris", "en": "notary", "article": "de", "plural": "notarissen", "forms": ["notarisje"], "example": { "nl": "Bij de notaris tekenen we de papieren.", "en": "We sign the papers at the notary's." } },
+    { "id": "overdracht", "nl": "overdracht", "en": "transfer (of ownership)", "article": "de", "plural": "overdrachten", "forms": ["overdrachtje"], "example": { "nl": "De overdracht is op 1 mei bij de notaris.", "en": "The transfer is on 1 May at the notary's." } },
+    { "id": "koophuis", "nl": "koophuis", "en": "owner-occupied house (one you buy, not rent)", "article": "het", "plural": "koophuizen", "forms": ["koophuisje"], "example": { "nl": "Een koophuis is duur, maar huren is ook duur.", "en": "Buying a house is expensive, but renting is expensive too." } },
+    { "id": "eigendom", "nl": "eigendom", "en": "property, possession", "article": "het", "plural": "eigendommen", "forms": ["eigendommetje"], "example": { "nl": "Vanaf vandaag is het huis ons eigendom.", "en": "From today the house is our property." } },
+    { "id": "mits", "nl": "mits", "en": "provided that, as long as", "example": { "nl": "We kopen het huis, mits de prijs niet te hoog is.", "en": "We'll buy the house, provided the price isn't too high." } },
+    { "id": "sleuteloverdracht", "nl": "sleuteloverdracht", "en": "handover of the keys", "article": "de", "plural": "sleuteloverdrachten", "example": { "nl": "Bij de sleuteloverdracht kregen we drie sleutels.", "en": "At the key handover we got three keys." } }
+  ],
+  "grammar": {
+    "title": "Conditions: als … (dan) and mits",
+    "points": [
+      "als = if. It sends the verb to the end of its clause: als de bank ja zegt.",
+      "When the als-clause comes first, the main clause starts with its verb, often after dan: Als de bank ja zegt, (dan) kopen we het huis.",
+      "mits = provided that, on condition that. It has the same word order as als (verb at the end): We bieden, mits de taxatie goed is.",
+      "mits sets a condition for a decision; tenzij (unless) is its opposite: We kopen het, tenzij het dak kapot is.",
+      "Imagined conditions use the past tense and zou: Als we meer geld hadden, zouden we een huis met een grote tuin kopen."
+    ],
+    "examples": [
+      { "nl": "Als de bank ja zegt, kopen we het huis.", "en": "If the bank says yes, we'll buy the house." },
+      { "nl": "Als de taxatie te laag is, dan krijgen we geen hypotheek.", "en": "If the valuation is too low, then we won't get a mortgage." },
+      { "nl": "We doen een bod, mits de verkoper snel wil verkopen.", "en": "We'll make an offer, provided the seller wants to sell quickly." },
+      { "nl": "Je mag mijn fiets lenen, mits je hem morgen terugbrengt.", "en": "You can borrow my bike, as long as you bring it back tomorrow." },
+      { "nl": "We kopen het huis, tenzij het dak kapot is.", "en": "We'll buy the house, unless the roof is broken." },
+      { "nl": "Als we meer geld hadden, zouden we een huis met een grote tuin kopen.", "en": "If we had more money, we'd buy a house with a big garden." }
+    ],
+    "exercises": [
+      { "prompt": "Als de bank ja zegt, ___ we het huis.", "answer": "kopen", "hint": "kopen (word order)" },
+      { "prompt": "We kopen het huis, ___ de prijs niet te hoog is.", "answer": "mits", "hint": "provided that" },
+      { "prompt": "Als de taxatie goed is, ___ kunnen we bieden.", "answer": "dan", "hint": "then" },
+      { "prompt": "We bieden, mits de taxatie goed ___.", "answer": "is", "hint": "zijn (word order)" },
+      { "prompt": "We kopen het, ___ het dak kapot is.", "answer": "tenzij", "hint": "unless" },
+      { "prompt": "Als we meer geld ___, zouden we een grote tuin hebben.", "answer": "hadden", "hint": "hebben (past)" }
+    ]
+  },
+  "dialogue": {
+    "title": "Ons eigen huis",
+    "scene": "Sara and Tom have just viewed a house in Utrecht and talk about making an offer. A week later, the estate agent calls.",
+    "lines": [
+      { "speaker": "Tom", "nl": "En? Wat vond je van de bezichtiging?", "en": "So? What did you think of the viewing?", "gap": "bezichtiging" },
+      { "speaker": "Sara", "nl": "Prachtig! Drie slaapkamers, een tuin en dichtbij het station.", "en": "Beautiful! Three bedrooms, a garden and close to the station." },
+      { "speaker": "Tom", "nl": "De makelaar zei dat er nog vijf kopers zijn die willen bieden.", "en": "The estate agent said there are five other buyers who want to make an offer.", "gap": "kopers" },
+      { "speaker": "Sara", "nl": "Dan moeten we snel zijn. Hoeveel zullen we bieden?", "en": "Then we have to be quick. How much shall we offer?", "gap": "bieden" },
+      { "speaker": "Tom", "nl": "Ze vragen 450.000 euro. Als we 460.000 bieden, dan hebben we een goede kans.", "en": "They're asking 450,000 euros. If we offer 460,000, then we have a good chance." },
+      { "speaker": "Sara", "nl": "Kunnen we dat wel betalen?", "en": "Can we really afford that?" },
+      { "speaker": "Tom", "nl": "Ja, mits de bank ons een hypotheek geeft. En mits de taxatie niet te laag is.", "en": "Yes, provided the bank gives us a mortgage. And as long as the valuation isn't too low.", "gap": "mits" },
+      { "speaker": "Sara", "nl": "En als het dak kapot is? Het huis is al honderd jaar oud.", "en": "And what if the roof is broken? The house is already a hundred years old." },
+      { "speaker": "Tom", "nl": "Dan bieden we minder. Of de verkoper moet het betalen.", "en": "Then we'll offer less. Or the seller has to pay for it.", "gap": "verkoper" },
+      { "speaker": "Sara", "nl": "Goed. Doe maar een bod, mits jij de makelaar belt. Ik ben te zenuwachtig.", "en": "OK. Go ahead and make an offer, as long as you call the estate agent. I'm too nervous." },
+      { "speaker": "Tom", "nl": "Sara! De makelaar heeft gebeld. De eigenaar zegt ja tegen ons bod!", "en": "Sara! The estate agent called. The owner has said yes to our offer!" },
+      { "speaker": "Sara", "nl": "Echt waar? Dan wordt het huis ons eigendom!", "en": "Really? Then the house will be ours!" },
+      { "speaker": "Tom", "nl": "Over twee maanden is de overdracht bij de notaris.", "en": "The transfer at the notary's is in two months.", "gap": "notaris" },
+      { "speaker": "Sara", "nl": "En dan de sleuteloverdracht. Ik kan niet wachten!", "en": "And then the key handover. I can't wait!" }
+    ]
+  }
+}

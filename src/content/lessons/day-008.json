@@ -1,0 +1,61 @@
+{
+  "day": 8,
+  "title": "De week",
+  "words": [
+    { "id": "maandag", "nl": "maandag", "en": "Monday", "article": "de", "plural": "maandagen", "example": { "nl": "Op maandag werk ik.", "en": "On Mondays I work." } },
+    { "id": "dinsdag", "nl": "dinsdag", "en": "Tuesday", "article": "de", "plural": "dinsdagen", "example": { "nl": "Dinsdag heb ik les.", "en": "On Tuesday I have class." } },
+    { "id": "woensdag", "nl": "woensdag", "en": "Wednesday", "article": "de", "plural": "woensdagen", "example": { "nl": "Woensdag ben ik vrij.", "en": "On Wednesday I'm off." } },
+    { "id": "donderdag", "nl": "donderdag", "en": "Thursday", "article": "de", "plural": "donderdagen", "example": { "nl": "Op donderdag werkt Tom in Amsterdam.", "en": "On Thursdays Tom works in Amsterdam." } },
+    { "id": "vrijdag", "nl": "vrijdag", "en": "Friday", "article": "de", "plural": "vrijdagen", "example": { "nl": "Vrijdag is mijn verjaardag.", "en": "Friday is my birthday." } },
+    { "id": "zaterdag", "nl": "zaterdag", "en": "Saturday", "article": "de", "plural": "zaterdagen", "example": { "nl": "Op zaterdag werk ik niet.", "en": "I don't work on Saturdays." } },
+    { "id": "zondag", "nl": "zondag", "en": "Sunday", "article": "de", "plural": "zondagen", "example": { "nl": "Zondag ben ik altijd vrij.", "en": "I'm always off on Sunday." } },
+    { "id": "week", "nl": "week", "en": "week", "article": "de", "plural": "weken", "forms": ["weekje"], "example": { "nl": "Ik heb een drukke week.", "en": "I have a busy week." } },
+    { "id": "weekend", "nl": "weekend", "en": "weekend", "article": "het", "plural": "weekenden", "forms": ["weekendje"], "example": { "nl": "In het weekend ben ik vrij.", "en": "At the weekend I'm free." } },
+    { "id": "op", "nl": "op", "en": "on", "example": { "nl": "Op vrijdag heb ik les.", "en": "On Fridays I have class." } },
+    { "id": "vrij", "nl": "vrij", "en": "free, off (work)", "forms": ["vrijer", "vrijst", "vrije", "vrijere", "vrijste"], "example": { "nl": "Ben jij morgen vrij?", "en": "Are you off tomorrow?" } },
+    { "id": "wanneer", "nl": "wanneer", "en": "when", "example": { "nl": "Wanneer heb jij les?", "en": "When do you have class?" } },
+    { "id": "altijd", "nl": "altijd", "en": "always", "example": { "nl": "Op maandag is het altijd druk.", "en": "It's always busy on Mondays." } },
+    { "id": "druk", "nl": "druk", "en": "busy", "forms": ["drukker", "drukst", "drukke", "drukkere", "drukste"], "example": { "nl": "Ik heb het druk vandaag.", "en": "I'm busy today." } },
+    { "id": "tijd", "nl": "tijd", "en": "time", "article": "de", "plural": "tijden", "forms": ["tijdje"], "example": { "nl": "Heb jij tijd op zaterdag?", "en": "Do you have time on Saturday?" } },
+    { "id": "volgend", "nl": "volgend", "en": "next", "forms": ["volgende"], "example": { "nl": "Volgende week ben ik vrij.", "en": "I'm off next week." } }
+  ],
+  "grammar": {
+    "title": "Verb second: Op maandag werk ik.",
+    "points": [
+      "In a normal Dutch sentence the verb is always the second element.",
+      "If you start with something other than the subject — a time, a place — the subject moves to after the verb: Ik werk op maandag → Op maandag werk ik.",
+      "An element can be several words: 'op maandag' counts as one.",
+      "English says 'On Monday I work', but Dutch never: Op maandag ik werk is wrong.",
+      "Days of the week have no capital letter: maandag, dinsdag … op is often left out: Maandag werk ik."
+    ],
+    "examples": [
+      { "nl": "Ik werk op maandag.", "en": "I work on Mondays." },
+      { "nl": "Op maandag werk ik.", "en": "On Mondays I work." },
+      { "nl": "Vandaag ben ik vrij.", "en": "Today I'm off." },
+      { "nl": "In het weekend heeft Tom tijd.", "en": "At the weekend Tom has time." },
+      { "nl": "Morgen heb ik les.", "en": "Tomorrow I have class." }
+    ],
+    "exercises": [
+      { "prompt": "Op maandag ___ ik.", "answer": "werk", "hint": "werken" },
+      { "prompt": "Vandaag ___ ik vrij.", "answer": "ben", "hint": "zijn" },
+      { "prompt": "Morgen ___ Tom les.", "answer": "heeft", "hint": "hebben" },
+      { "prompt": "Op zaterdag ben ___ vrij.", "answer": "ik", "hint": "I" },
+      { "prompt": "___ heb jij tijd?", "answer": "Wanneer", "hint": "when" }
+    ]
+  },
+  "dialogue": {
+    "title": "Wanneer heb jij tijd?",
+    "scene": "Sara and Tom compare their weekly schedules.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Wanneer heb jij tijd, Sara?", "en": "When do you have time, Sara?", "gap": "tijd" },
+      { "speaker": "Sara", "nl": "Op maandag en dinsdag werk ik. Woensdag heb ik les.", "en": "On Monday and Tuesday I work. On Wednesday I have class.", "gap": "werk ik" },
+      { "speaker": "Tom", "nl": "En op donderdag?", "en": "And on Thursday?" },
+      { "speaker": "Sara", "nl": "Donderdag heb ik ook les. Ik heb het altijd druk!", "en": "On Thursday I have class too. I'm always busy!", "gap": "druk" },
+      { "speaker": "Tom", "nl": "Ik werk op maandag, dinsdag en woensdag. Op donderdag ben ik vrij.", "en": "I work Monday, Tuesday and Wednesday. On Thursday I'm off.", "gap": "vrij" },
+      { "speaker": "Sara", "nl": "Op vrijdag werk ik niet. Ben jij vrijdag vrij?", "en": "I don't work on Friday. Are you off on Friday?" },
+      { "speaker": "Tom", "nl": "Nee, vrijdag werk ik. Maar in het weekend heb ik tijd.", "en": "No, I work on Friday. But at the weekend I have time.", "gap": "weekend" },
+      { "speaker": "Sara", "nl": "Zaterdag? Ja, dat is goed!", "en": "Saturday? Yes, that works!" },
+      { "speaker": "Tom", "nl": "Goed, op zaterdag!", "en": "Great, Saturday then!" }
+    ]
+  }
+}

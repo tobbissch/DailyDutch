@@ -1,0 +1,65 @@
+{
+  "day": 40,
+  "title": "Een nieuw huis zoeken",
+  "words": [
+    { "id": "huren", "nl": "huren", "en": "to rent", "forms": ["huur", "huurde", "huurt", "huurden", "hurend", "gehuurd"], "example": { "nl": "Wij huren een appartement in het centrum.", "en": "We rent an apartment in the centre." } },
+    { "id": "huur", "nl": "huur", "en": "rent", "article": "de", "plural": "huren", "forms": ["huurtje"], "example": { "nl": "De huur is duizend euro in de maand.", "en": "The rent is a thousand euros a month." } },
+    { "id": "huurder", "nl": "huurder", "en": "tenant", "article": "de", "plural": "huurders", "forms": ["huurdertje"], "example": { "nl": "De huurder betaalt elke maand de huur.", "en": "The tenant pays the rent every month." } },
+    { "id": "verhuurder", "nl": "verhuurder", "en": "landlord", "article": "de", "plural": "verhuurders", "example": { "nl": "De verhuurder heeft de sleutel.", "en": "The landlord has the key." } },
+    { "id": "woning", "nl": "woning", "en": "home, place to live (house or flat)", "article": "de", "plural": "woningen", "forms": ["woninkje"], "example": { "nl": "In Amsterdam is het moeilijk om een woning te vinden.", "en": "In Amsterdam it's hard to find a place to live." } },
+    { "id": "makelaar", "nl": "makelaar", "en": "estate agent", "article": "de", "plural": "makelaars", "forms": ["makelaartje"], "example": { "nl": "Wij hebben een afspraak met de makelaar.", "en": "We have an appointment with the estate agent." } },
+    { "id": "vierkante-meter", "nl": "vierkante meter", "en": "square metre", "article": "de", "plural": "vierkante meters", "example": { "nl": "Het appartement is zestig vierkante meter.", "en": "The apartment is sixty square metres." } },
+    { "id": "gemeubileerd", "nl": "gemeubileerd", "en": "furnished", "forms": ["gemeubileerde"], "example": { "nl": "Is de kamer gemeubileerd?", "en": "Is the room furnished?" } },
+    { "id": "verdieping", "nl": "verdieping", "en": "floor, storey", "article": "de", "plural": "verdiepingen", "forms": ["verdiepinkje"], "example": { "nl": "Ik woon op de derde verdieping.", "en": "I live on the third floor." } },
+    { "id": "lift", "nl": "lift", "en": "lift, elevator", "article": "de", "plural": "liften", "forms": ["liftje"], "example": { "nl": "Is er een lift?", "en": "Is there a lift?" } },
+    { "id": "balkon", "nl": "balkon", "en": "balcony", "article": "het", "plural": "balkons", "forms": ["balkonnetje"], "example": { "nl": "Het appartement heeft een groot balkon.", "en": "The apartment has a big balcony." } },
+    { "id": "wijk", "nl": "wijk", "en": "neighbourhood, district", "article": "de", "plural": "wijken", "forms": ["wijkje"], "example": { "nl": "Dit is een rustige wijk.", "en": "This is a quiet neighbourhood." } },
+    { "id": "contract", "nl": "contract", "en": "contract", "article": "het", "plural": "contracten", "forms": ["contractje"], "example": { "nl": "Het contract is voor een jaar.", "en": "The contract is for one year." } },
+    { "id": "borg", "nl": "borg", "en": "deposit", "article": "de", "plural": "borgen", "example": { "nl": "De borg is twee maanden huur.", "en": "The deposit is two months' rent." } }
+  ],
+  "grammar": {
+    "title": "Review: subordinate clauses; huren or kopen?",
+    "points": [
+      "After omdat, dat, als, toen and the relative pronouns die/dat, the conjugated verb goes to the end of the clause.",
+      "If the subordinate clause comes first, the main clause starts with its verb: Als de woning te duur is, huur ik hem niet.",
+      "Two verbs both go to the end: Ik denk dat ik dit appartement wil huren.",
+      "Separable verbs join again at the end: …, omdat ik morgen de sleutel ophaal.",
+      "huren = to rent, kopen = to buy. The huurder (tenant) pays huur (rent) to the verhuurder (landlord). When you buy, you often use a makelaar."
+    ],
+    "examples": [
+      { "nl": "Ik zoek een woning die niet te duur is.", "en": "I'm looking for a place that isn't too expensive." },
+      { "nl": "Ik denk dat dit appartement te duur is.", "en": "I think this apartment is too expensive." },
+      { "nl": "Als het appartement gemeubileerd is, moet ik minder kopen.", "en": "If the apartment is furnished, I have to buy less." },
+      { "nl": "Omdat ik op de derde verdieping woon, wil ik een lift.", "en": "Because I live on the third floor, I want a lift." },
+      { "nl": "De makelaar zegt dat de borg twee maanden huur is.", "en": "The estate agent says the deposit is two months' rent." },
+      { "nl": "Wij willen niet huren, maar kopen.", "en": "We don't want to rent, we want to buy." }
+    ],
+    "exercises": [
+      { "prompt": "Ik zoek een appartement ___ een balkon heeft.", "answer": "dat", "hint": "die / dat" },
+      { "prompt": "Ik denk dat de wijk heel rustig ___.", "answer": "is", "hint": "zijn" },
+      { "prompt": "Omdat het appartement te klein is, ___ ik het niet.", "answer": "huur", "hint": "huren" },
+      { "prompt": "De makelaar zegt ___ het contract klaar is.", "answer": "dat", "hint": "that" },
+      { "prompt": "Als je een woning huurt, betaal je elke maand ___.", "answer": "huur", "hint": "rent" },
+      { "prompt": "Toen ik in Amsterdam ___, huurde ik een kleine kamer.", "answer": "woonde", "hint": "wonen" }
+    ]
+  },
+  "dialogue": {
+    "title": "Op zoek naar een woning",
+    "scene": "Sara wants a bigger place. She and Tom look at apartments online together.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Kijk, Tom! Dit appartement is in een mooie wijk.", "en": "Look, Tom! This apartment is in a nice neighbourhood.", "gap": "wijk" },
+      { "speaker": "Tom", "nl": "Hoeveel is de huur?", "en": "How much is the rent?", "gap": "huur" },
+      { "speaker": "Sara", "nl": "Duizend euro in de maand.", "en": "A thousand euros a month." },
+      { "speaker": "Tom", "nl": "Dat is duur! Hoe groot is het?", "en": "That's expensive! How big is it?" },
+      { "speaker": "Sara", "nl": "Vijftig vierkante meter, met een balkon. Het is op de derde verdieping.", "en": "Fifty square metres, with a balcony. It's on the third floor.", "gap": "vierkante meter" },
+      { "speaker": "Tom", "nl": "Is er een lift? Dat is belangrijk als je boodschappen doet.", "en": "Is there a lift? That matters when you do your shopping.", "gap": "lift" },
+      { "speaker": "Sara", "nl": "Ja, er is een lift. En het is gemeubileerd. Dat is makkelijk.", "en": "Yes, there's a lift. And it's furnished. That's handy.", "gap": "gemeubileerd" },
+      { "speaker": "Tom", "nl": "Wat moet je betalen als borg?", "en": "How much do you have to pay as a deposit?" },
+      { "speaker": "Sara", "nl": "Twee maanden huur. En het contract is voor een jaar.", "en": "Two months' rent. And the contract is for one year." },
+      { "speaker": "Tom", "nl": "Waarom wil je eigenlijk huren? Kopen is soms goedkoper.", "en": "Why do you actually want to rent? Buying is sometimes cheaper." },
+      { "speaker": "Sara", "nl": "Omdat ik nog geen geld heb voor een huis!", "en": "Because I don't have money for a house yet!" },
+      { "speaker": "Tom", "nl": "Dat is een goede reden. Zullen we de makelaar bellen?", "en": "That's a good reason. Shall we call the estate agent?" },
+      { "speaker": "Sara", "nl": "Ja! Ik hoop dat de verhuurder aardig is.", "en": "Yes! I hope the landlord is nice." }
+    ]
+  }
+}

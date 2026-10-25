@@ -1,0 +1,67 @@
+{
+  "day": 31,
+  "title": "Vroeger",
+  "words": [
+    { "id": "vroeger", "nl": "vroeger", "en": "in the past, in the old days (used to)", "example": { "nl": "Vroeger woonde ik in een dorp.", "en": "I used to live in a village." } },
+    { "id": "oma", "nl": "oma", "en": "grandma", "article": "de", "plural": "oma's", "forms": ["omaatje"], "example": { "nl": "Mijn oma is negentig jaar.", "en": "My grandma is ninety." } },
+    { "id": "opa", "nl": "opa", "en": "grandpa", "article": "de", "plural": "opa's", "forms": ["opaatje"], "example": { "nl": "Opa werkte elke dag op de boerderij.", "en": "Grandpa worked on the farm every day." } },
+    { "id": "dorp", "nl": "dorp", "en": "village", "article": "het", "plural": "dorpen", "forms": ["dorpje"], "example": { "nl": "Het dorp is klein en rustig.", "en": "The village is small and quiet." } },
+    { "id": "boer", "nl": "boer", "en": "farmer", "article": "de", "plural": "boeren", "forms": ["boertje"], "example": { "nl": "De boer heeft veel koeien.", "en": "The farmer has a lot of cows." } },
+    { "id": "boerderij", "nl": "boerderij", "en": "farm", "article": "de", "plural": "boerderijen", "forms": ["boerderijtje"], "example": { "nl": "Oma woonde vroeger op een boerderij.", "en": "Grandma used to live on a farm." } },
+    { "id": "paard", "nl": "paard", "en": "horse", "article": "het", "plural": "paarden", "forms": ["paardje"], "example": { "nl": "Het paard is groot en zwart.", "en": "The horse is big and black." } },
+    { "id": "koe", "nl": "koe", "en": "cow", "article": "de", "plural": "koeien", "forms": ["koetje"], "example": { "nl": "De koeien drinken water.", "en": "The cows are drinking water." } },
+    { "id": "spelen", "nl": "spelen", "en": "to play", "forms": ["speel", "speelde", "speelt", "speelden", "spelend", "gespeeld"], "example": { "nl": "De kinderen spelen in de tuin.", "en": "The children are playing in the garden." } },
+    { "id": "school", "nl": "school", "en": "school", "article": "de", "plural": "scholen", "forms": ["schooltje"], "example": { "nl": "Ik fietste elke dag naar school.", "en": "I cycled to school every day." } },
+    { "id": "toen", "nl": "toen", "en": "then, back then (in the past)", "example": { "nl": "Toen was het dorp nog klein.", "en": "Back then the village was still small." } },
+    { "id": "soms", "nl": "soms", "en": "sometimes", "example": { "nl": "Soms regende het een week lang.", "en": "Sometimes it rained for a whole week." } },
+    { "id": "vaak", "nl": "vaak", "en": "often", "example": { "nl": "Wij speelden vaak bij de paarden.", "en": "We often played near the horses." } },
+    { "id": "nooit", "nl": "nooit", "en": "never", "example": { "nl": "Wij hadden nooit vakantie.", "en": "We never had a holiday." } },
+    { "id": "dood", "nl": "dood", "en": "dead; death", "forms": ["dode"], "example": { "nl": "Opa is al lang dood.", "en": "Grandpa died a long time ago." } },
+    { "id": "doodgaan", "nl": "doodgaan", "en": "to die", "forms": ["ga dood", "gaat dood", "ging dood", "gaan dood", "gingen dood", "doodga", "doodgaat", "doodging", "doodgingen", "doodgaand", "doodgegaan"], "example": { "nl": "Het oude paard ging dood.", "en": "The old horse died." } }
+  ],
+  "grammar": {
+    "title": "Simple past (1): ik woonde, ik werkte",
+    "points": [
+      "The simple past (imperfect) is used to tell stories and describe how things were: Vroeger woonde ik op een boerderij (I used to live on a farm).",
+      "Regular (weak) verbs add -te or -de to the stem in the singular (ik/jij/hij werkte) and -ten or -den in the plural (wij/jullie/zij werkten).",
+      "Choose -te(n) when the stem ends in t, k, f, s, ch or p ('t kofschip — the same rule as the participle): werken → werkte, koken → kookte, fietsen → fietste.",
+      "All other stems take -de(n): wonen → woonde, spelen → speelde, leren → leerde.",
+      "Look at the infinitive, not the stem spelling: reizen → reisde (z), because the z is not in 't kofschip.",
+      "If the stem already ends in t or d you still add -te/-de, so you get a double letter: praten → praatte, antwoorden → antwoordde."
+    ],
+    "examples": [
+      { "nl": "Vroeger woonde oma op een boerderij.", "en": "Grandma used to live on a farm." },
+      { "nl": "Mijn opa werkte als boer.", "en": "My grandpa worked as a farmer." },
+      { "nl": "Wij speelden vaak bij de paarden.", "en": "We often played near the horses." },
+      { "nl": "Mijn moeder kookte elke dag voor de familie.", "en": "My mother cooked for the family every day." },
+      { "nl": "Fietsten jullie naar school?", "en": "Did you cycle to school?" },
+      { "nl": "Soms regende het een week lang.", "en": "Sometimes it rained for a whole week." }
+    ],
+    "exercises": [
+      { "prompt": "Vroeger ___ oma in een klein dorp.", "answer": "woonde", "hint": "wonen" },
+      { "prompt": "Opa ___ elke dag op de boerderij.", "answer": "werkte", "hint": "werken" },
+      { "prompt": "Wij ___ vaak in het dorp.", "answer": "speelden", "hint": "spelen" },
+      { "prompt": "Mijn moeder ___ nooit vlees.", "answer": "kookte", "hint": "koken" },
+      { "prompt": "De kinderen ___ naar school.", "answer": "fietsten", "hint": "fietsen" },
+      { "prompt": "Ik ___ op school Engels.", "answer": "leerde", "hint": "leren" }
+    ]
+  },
+  "dialogue": {
+    "title": "Vroeger op de boerderij",
+    "scene": "Sara visits Tom's grandmother, Oma Riet, who tells about her childhood on a farm.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Oma, Sara wil graag iets over vroeger horen.", "en": "Grandma, Sara would like to hear about the old days." },
+      { "speaker": "Oma Riet", "nl": "Vroeger? Toen woonde ik op een boerderij, bij een klein dorp.", "en": "The old days? Back then I lived on a farm, near a small village.", "gap": "woonde" },
+      { "speaker": "Sara", "nl": "Op een boerderij? Wat mooi! Had u ook paarden?", "en": "On a farm? How lovely! Did you have horses too?" },
+      { "speaker": "Oma Riet", "nl": "Ja, wij hadden twee paarden en veel koeien. Mijn vader was boer.", "en": "Yes, we had two horses and lots of cows. My father was a farmer.", "gap": "hadden" },
+      { "speaker": "Sara", "nl": "Speelde u vaak met de paarden?", "en": "Did you often play with the horses?", "gap": "vaak" },
+      { "speaker": "Oma Riet", "nl": "Ja, soms. Maar wij werkten ook veel. Ik hielp mijn moeder in de keuken.", "en": "Yes, sometimes. But we also worked a lot. I helped my mother in the kitchen." },
+      { "speaker": "Tom", "nl": "En ging u ook naar school?", "en": "And did you go to school as well?" },
+      { "speaker": "Oma Riet", "nl": "Ja, in het dorp. Ik fietste elke dag naar school. Soms regende het, soms was het koud.", "en": "Yes, in the village. I cycled to school every day. Sometimes it rained, sometimes it was cold.", "gap": "fietste" },
+      { "speaker": "Sara", "nl": "Hadden jullie geen auto?", "en": "Didn't you have a car?" },
+      { "speaker": "Oma Riet", "nl": "Nee, nooit! Wij liepen of wij fietsten.", "en": "No, never! We walked or we cycled.", "gap": "nooit" },
+      { "speaker": "Sara", "nl": "Was het een mooie tijd?", "en": "Was it a good time?" },
+      { "speaker": "Oma Riet", "nl": "Ja, het was een mooie tijd. Maar het was ook een zware tijd.", "en": "Yes, it was a lovely time. But it was also a hard time." }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "day": 56,
+  "title": "Een e-mail schrijven",
+  "names": ["Bakker", "Fatima", "Lucía"],
+  "words": [
+    { "id": "e-mail", "nl": "e-mail", "en": "email", "article": "de", "plural": "e-mails", "forms": ["e-mailtje"], "example": { "nl": "Ik schrijf een e-mail aan de verhuurder.", "en": "I'm writing an email to the landlord." } },
+    { "id": "geachte", "nl": "geachte", "en": "Dear (formal, in letters)", "example": { "nl": "Geachte heer Bakker,", "en": "Dear Mr Bakker," } },
+    { "id": "beste", "nl": "beste", "en": "Dear (neutral, in letters); best", "example": { "nl": "Beste Fatima,", "en": "Dear Fatima," } },
+    { "id": "groet", "nl": "groet", "en": "greeting, regards", "article": "de", "plural": "groeten", "forms": ["groetje"], "example": { "nl": "Met vriendelijke groet, Sara", "en": "Kind regards, Sara" } },
+    { "id": "hartelijk", "nl": "hartelijk", "en": "warm, cordial; heartily", "forms": ["hartelijker", "hartelijkst", "hartelijke", "hartelijkere", "hartelijkste"], "example": { "nl": "Hartelijke groeten van Sara!", "en": "Warm wishes from Sara!" } },
+    { "id": "bijlage", "nl": "bijlage", "en": "attachment; appendix", "article": "de", "plural": "bijlagen", "forms": ["bijlages", "bijlagetje"], "example": { "nl": "In de bijlage vindt u een foto.", "en": "Please find a photo attached." } },
+    { "id": "onderwerp", "nl": "onderwerp", "en": "subject, topic", "article": "het", "plural": "onderwerpen", "forms": ["onderwerpje"], "example": { "nl": "Wat is het onderwerp van de mail?", "en": "What's the subject of the email?" } },
+    { "id": "reageren", "nl": "reageren", "en": "to respond, to react (reageren op)", "forms": ["reageer", "reageerde", "reageert", "reageerden", "reagerend", "gereageerd"], "example": { "nl": "Hij reageert niet op mijn mail.", "en": "He isn't answering my email." } },
+    { "id": "reactie", "nl": "reactie", "en": "reply, response; reaction", "article": "de", "plural": "reacties", "forms": ["reactietje"], "example": { "nl": "Bedankt voor uw snelle reactie.", "en": "Thank you for your quick reply." } },
+    { "id": "informeren", "nl": "informeren", "en": "to inform; to enquire (informeren naar)", "forms": ["informeer", "informeerde", "informeert", "informeerden", "informerend", "geïnformeerd"], "example": { "nl": "Ik wil graag informeren naar het appartement.", "en": "I'd like to enquire about the apartment." } },
+    { "id": "informatie", "nl": "informatie", "en": "information", "article": "de", "plural": "informaties", "example": { "nl": "Heeft u meer informatie?", "en": "Do you have more information?" } },
+    { "id": "alvast", "nl": "alvast", "en": "in advance, already", "example": { "nl": "Alvast bedankt!", "en": "Thanks in advance!" } },
+    { "id": "bijvoorbeeld", "nl": "bijvoorbeeld", "en": "for example", "example": { "nl": "Je kunt bijvoorbeeld bellen.", "en": "You could call, for example." } },
+    { "id": "binnenkort", "nl": "binnenkort", "en": "soon", "example": { "nl": "Ik hoor graag binnenkort van u.", "en": "I look forward to hearing from you soon." } },
+    { "id": "heer-noun", "nl": "heer", "en": "gentleman; Mr (in letters)", "article": "de", "plural": "heren", "example": { "nl": "Geachte heer De Vries,", "en": "Dear Mr De Vries," } }
+  ],
+  "grammar": {
+    "title": "Letters and emails: Geachte, Beste, Met vriendelijke groet",
+    "points": [
+      "Formal opening: Geachte heer / mevrouw + surname: Geachte heer Bakker. Use it for people you don't know, or official letters.",
+      "Neutral or informal opening: Beste + first name (Beste Fatima). Beste is very common in work emails too. To friends: Hoi or Hallo.",
+      "Formal closing: Met vriendelijke groet, + your name. Warmer: Hartelijke groeten. To friends: Groetjes.",
+      "In a formal email write u and uw, not jij and jouw.",
+      "Useful phrases: In de bijlage vindt u ... (please find attached), Alvast bedankt (thanks in advance), Ik hoor graag van u (I look forward to hearing from you)."
+    ],
+    "examples": [
+      { "nl": "Geachte heer Bakker,", "en": "Dear Mr Bakker," },
+      { "nl": "Beste Lucía,", "en": "Dear Lucía," },
+      { "nl": "In de bijlage vindt u de foto's.", "en": "Please find the photos attached." },
+      { "nl": "Alvast bedankt voor uw reactie.", "en": "Thank you in advance for your reply." },
+      { "nl": "Met vriendelijke groet, Sara", "en": "Kind regards, Sara" },
+      { "nl": "Hartelijke groeten van Sara", "en": "Warm wishes from Sara" }
+    ],
+    "exercises": [
+      { "prompt": "___ heer Bakker,", "answer": "Geachte", "hint": "formal" },
+      { "prompt": "___ Lucía,", "answer": "Beste", "hint": "informal" },
+      { "prompt": "Met vriendelijke ___,", "answer": "groet", "hint": "regards" },
+      { "prompt": "In de ___ vindt u een foto.", "answer": "bijlage", "hint": "attachment" },
+      { "prompt": "___ bedankt voor uw reactie.", "answer": "Alvast", "hint": "in advance" },
+      { "prompt": "Ik hoor graag van ___.", "answer": "u", "hint": "formal 'you'" }
+    ]
+  },
+  "dialogue": {
+    "title": "Geachte heer Bakker",
+    "scene": "A window in Sara's apartment is broken. She writes an email to her landlord, Mr Bakker, and asks Tom how to start and end it.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Tom, ik schrijf een e-mail aan mijn verhuurder. Begin ik met 'Beste' of met 'Geachte'?", "en": "Tom, I'm writing an email to my landlord. Do I start with 'Beste' or 'Geachte'?" },
+      { "speaker": "Tom", "nl": "Ken je hem goed?", "en": "Do you know him well?" },
+      { "speaker": "Sara", "nl": "Nee, ik heb hem maar één keer gezien.", "en": "No, I've only seen him once." },
+      { "speaker": "Tom", "nl": "Dan schrijf je 'Geachte heer Bakker'. 'Beste' is voor mensen die je kent.", "en": "Then you write 'Geachte heer Bakker'. 'Beste' is for people you know.", "gap": "Geachte" },
+      { "speaker": "Sara", "nl": "En wat schrijf ik bij het onderwerp?", "en": "And what do I put as the subject?", "gap": "onderwerp" },
+      { "speaker": "Tom", "nl": "Kort is goed. Bijvoorbeeld: 'Kapot raam'.", "en": "Short is good. For example: 'Broken window'." },
+      { "speaker": "Sara", "nl": "Goed. 'Het raam in de slaapkamer is kapot. In de bijlage vindt u een foto.'", "en": "OK. 'The bedroom window is broken. Please find a photo attached.'", "gap": "bijlage" },
+      { "speaker": "Tom", "nl": "Mooi. En schrijf: 'Ik hoor graag binnenkort van u.'", "en": "Good. And write: 'I look forward to hearing from you soon.'", "gap": "binnenkort" },
+      { "speaker": "Sara", "nl": "En aan het einde 'Hartelijke groeten'?", "en": "And at the end 'Hartelijke groeten'?" },
+      { "speaker": "Tom", "nl": "Nee, dat schrijf je aan mensen die je kent. Schrijf 'Met vriendelijke groet'.", "en": "No, you write that to people you know. Write 'Met vriendelijke groet'.", "gap": "groet" },
+      { "speaker": "Sara", "nl": "Klaar! Ik hoop dat hij snel reageert.", "en": "Done! I hope he replies quickly." },
+      { "speaker": "Tom", "nl": "Dat doet hij vast.", "en": "I'm sure he will." }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "day": 94,
+  "title": "Het hotel",
+  "names": ["Jansen"],
+  "words": [
+    { "id": "receptie", "nl": "receptie", "en": "reception (desk)", "article": "de", "plural": "recepties", "forms": ["receptietje"], "example": { "nl": "De receptie is dag en nacht open.", "en": "Reception is open day and night." } },
+    { "id": "receptionist", "nl": "receptionist", "en": "receptionist", "article": "de", "plural": "receptionisten", "forms": ["receptionistje"], "example": { "nl": "De receptionist is heel vriendelijk.", "en": "The receptionist is very friendly." } },
+    { "id": "tweepersoonskamer", "nl": "tweepersoonskamer", "en": "double room", "article": "de", "plural": "tweepersoonskamers", "example": { "nl": "We hebben een tweepersoonskamer gereserveerd.", "en": "We've booked a double room." } },
+    { "id": "eenpersoonskamer", "nl": "eenpersoonskamer", "en": "single room", "article": "de", "plural": "eenpersoonskamers", "example": { "nl": "Een eenpersoonskamer kost negentig euro.", "en": "A single room costs ninety euros." } },
+    { "id": "ontbijt-noun", "nl": "ontbijt", "en": "breakfast", "article": "het", "plural": "ontbijten", "forms": ["ontbijtje"], "example": { "nl": "Het ontbijt begint om zeven uur.", "en": "Breakfast starts at seven." } },
+    { "id": "inbegrepen", "nl": "inbegrepen", "en": "included", "example": { "nl": "Is het ontbijt inbegrepen?", "en": "Is breakfast included?" } },
+    { "id": "handdoek", "nl": "handdoek", "en": "towel", "article": "de", "plural": "handdoeken", "forms": ["handdoekje"], "example": { "nl": "Zou ik nog een handdoek kunnen hebben?", "en": "Could I have another towel?" } },
+    { "id": "uitzicht", "nl": "uitzicht", "en": "view", "article": "het", "plural": "uitzichten", "forms": ["uitzichtje"], "example": { "nl": "De kamer heeft een mooi uitzicht op zee.", "en": "The room has a lovely view of the sea." } },
+    { "id": "airco", "nl": "airco", "en": "air conditioning", "article": "de", "plural": "airco's", "example": { "nl": "De airco doet het niet.", "en": "The air conditioning isn't working." } },
+    { "id": "lawaai", "nl": "lawaai", "en": "noise", "article": "het", "example": { "nl": "Er is veel lawaai van de straat.", "en": "There's a lot of noise from the street." } },
+    { "id": "lawaai-noun", "nl": "lawaai", "en": "racket, din", "article": "het", "example": { "nl": "Wat een lawaai!", "en": "What a racket!" } },
+    { "id": "nacht-noun", "nl": "nacht", "en": "night (in a hotel)", "article": "de", "plural": "nachten", "forms": ["nachtje"], "example": { "nl": "We blijven drie nachten.", "en": "We're staying three nights." } },
+    { "id": "overnachting", "nl": "overnachting", "en": "overnight stay, night (in a hotel)", "article": "de", "plural": "overnachtingen", "forms": ["overnachtinkje"], "example": { "nl": "Een overnachting kost honderd euro.", "en": "One night costs a hundred euros." } }
+  ],
+  "grammar": {
+    "title": "Polite requests: Zou ik ... kunnen ...?",
+    "points": [
+      "Zou ik ... kunnen + infinitive? is a very polite way to ask for something: Zou ik een handdoek kunnen hebben?",
+      "It is more polite than Kan ik ...? or Mag ik ...? — good for hotels, shops and talking to people you don't know.",
+      "To ask someone else to do something, use Zou u ... kunnen/willen ...?: Zou u de airco willen repareren?",
+      "zou(den) comes first, then the subject; the infinitives go to the very end of the sentence.",
+      "With we or jullie, use zouden: Zouden we een rustige kamer kunnen krijgen?"
+    ],
+    "examples": [
+      { "nl": "Zou ik nog een handdoek kunnen hebben?", "en": "Could I have another towel?" },
+      { "nl": "Zou u de airco willen repareren?", "en": "Would you mind fixing the air conditioning?" },
+      { "nl": "Zouden we een kamer met uitzicht kunnen hebben?", "en": "Could we have a room with a view?" },
+      { "nl": "Zou ik morgen later kunnen uitchecken?", "en": "Could I check out later tomorrow?" },
+      { "nl": "Zou u mij om zeven uur kunnen bellen?", "en": "Could you call me at seven o'clock?" }
+    ],
+    "exercises": [
+      { "prompt": "___ ik nog een handdoek kunnen hebben?", "answer": "Zou", "hint": "zullen" },
+      { "prompt": "Zou u de airco ___ repareren?", "answer": "willen", "hint": "to want / be willing" },
+      { "prompt": "___ we een kamer met uitzicht kunnen hebben?", "answer": "Zouden", "hint": "zullen" },
+      { "prompt": "Zou ik morgen later kunnen ___?", "answer": "uitchecken", "hint": "to check out" },
+      { "prompt": "Is het ontbijt ___?", "answer": "inbegrepen", "hint": "included" }
+    ]
+  },
+  "dialogue": {
+    "title": "Een kamer met uitzicht",
+    "scene": "Sara and Tom check into a hotel in Amsterdam for a friend's party. The room turns out to be hot and noisy.",
+    "lines": [
+      { "speaker": "Receptionist", "nl": "Hallo, kan ik u helpen?", "en": "Hello, can I help you?" },
+      { "speaker": "Tom", "nl": "Ja, we hebben een tweepersoonskamer gereserveerd, voor twee nachten. Ik heet Tom Jansen.", "en": "Yes, we've booked a double room for two nights. My name is Tom Jansen.", "gap": "tweepersoonskamer" },
+      { "speaker": "Receptionist", "nl": "Ja, ik zie het. Kamer 214, op de tweede verdieping.", "en": "Yes, I see it. Room 214, on the second floor." },
+      { "speaker": "Sara", "nl": "Is het ontbijt inbegrepen?", "en": "Is breakfast included?", "gap": "inbegrepen" },
+      { "speaker": "Receptionist", "nl": "Ja. Het ontbijt begint om zeven uur, in de zaal naast de receptie.", "en": "Yes. Breakfast starts at seven, in the room next to reception." },
+      { "speaker": "Sara", "nl": "Hallo, met kamer 214. De airco in onze kamer doet het niet.", "en": "Hello, this is room 214. The air conditioning in our room isn't working.", "gap": "airco" },
+      { "speaker": "Receptionist", "nl": "Dat spijt me. Ik stuur een monteur.", "en": "I'm sorry about that. I'll send a technician." },
+      { "speaker": "Sara", "nl": "Nee, er is ook veel lawaai van de straat. Zouden we een rustige kamer kunnen hebben?", "en": "No, there's also a lot of noise from the street. Could we have a quiet room?", "gap": "Zouden" },
+      { "speaker": "Receptionist", "nl": "Ik kijk even. Ja, kamer 305 is rustig en heeft een mooi uitzicht op de gracht.", "en": "Let me have a look. Yes, room 305 is quiet and has a lovely view of the canal." },
+      { "speaker": "Sara", "nl": "Prachtig! En zou ik nog twee handdoeken kunnen hebben?", "en": "Wonderful! And could I have two more towels?", "gap": "zou ik" },
+      { "speaker": "Receptionist", "nl": "Natuurlijk. De handdoeken liggen in de kamer.", "en": "Of course. The towels are in the room." },
+      { "speaker": "Sara", "nl": "Dank u wel. U bent heel vriendelijk.", "en": "Thank you. You're very kind." }
+    ]
+  }
+}

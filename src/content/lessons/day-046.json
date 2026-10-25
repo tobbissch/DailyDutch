@@ -1,0 +1,67 @@
+{
+  "day": 46,
+  "title": "Bij de apotheek",
+  "words": [
+    { "id": "apotheek", "nl": "apotheek", "en": "pharmacy", "article": "de", "plural": "apotheken", "forms": ["apotheekje"], "example": { "nl": "De apotheek is om negen uur open.", "en": "The pharmacy opens at nine." } },
+    { "id": "apotheker", "nl": "apotheker", "en": "pharmacist", "article": "de", "plural": "apothekers", "forms": ["apothekertje"], "example": { "nl": "De apotheker helpt de klant.", "en": "The pharmacist helps the customer." } },
+    { "id": "recept", "nl": "recept", "en": "prescription; recipe", "article": "het", "plural": "recepten", "forms": ["receptje"], "example": { "nl": "Ik heb een recept van de huisarts.", "en": "I have a prescription from the GP." } },
+    { "id": "pil", "nl": "pil", "en": "pill", "article": "de", "plural": "pillen", "forms": ["pilletje"], "example": { "nl": "Neem één pil per dag.", "en": "Take one pill a day." } },
+    { "id": "tablet", "nl": "tablet", "en": "tablet (medicine)", "article": "de", "plural": "tabletten", "forms": ["tabletje"], "example": { "nl": "Neem twee tabletten met water in.", "en": "Take two tablets with water." } },
+    { "id": "innemen", "nl": "innemen", "en": "to take (medicine)", "forms": ["neem in", "nam in", "inneem", "innam", "neemt in", "inneemt", "nemen in", "namen in", "innamen", "innemend", "ingenomen"], "example": { "nl": "Hoe vaak moet ik de tabletten innemen?", "en": "How often do I have to take the tablets?" } },
+    { "id": "bijwerking", "nl": "bijwerking", "en": "side effect", "article": "de", "plural": "bijwerkingen", "forms": ["bijwerkinkje"], "example": { "nl": "Heeft dit medicijn bijwerkingen?", "en": "Does this medicine have side effects?" } },
+    { "id": "dosis", "nl": "dosis", "en": "dose", "article": "de", "plural": "doses", "forms": ["dosisje"], "example": { "nl": "De dosis is twee tabletten per dag.", "en": "The dose is two tablets a day." } },
+    { "id": "per", "nl": "per", "en": "per, a (each)", "example": { "nl": "Het kost vijf euro per doos.", "en": "It costs five euros a box." } },
+    { "id": "keer-per-dag", "nl": "keer per dag", "en": "times a day", "example": { "nl": "Neem de pillen drie keer per dag in.", "en": "Take the pills three times a day." } },
+    { "id": "water-noun", "nl": "water", "en": "water", "article": "het", "plural": "waters", "forms": ["watertje"], "example": { "nl": "Neem de tablet in met een glas water.", "en": "Take the tablet with a glass of water." } },
+    { "id": "slok", "nl": "slok", "en": "sip, gulp", "article": "de", "plural": "slokken", "forms": ["slokje"], "example": { "nl": "Neem een slok water.", "en": "Have a sip of water." } },
+    { "id": "hoest", "nl": "hoest", "en": "cough", "article": "de", "forms": ["hoestje"], "example": { "nl": "Ik heb al een week een hoest.", "en": "I've had a cough for a week." } },
+    { "id": "koorts", "nl": "koorts", "en": "fever", "article": "de", "plural": "koortsen", "forms": ["koortsje"], "example": { "nl": "Het kind heeft koorts.", "en": "The child has a fever." } },
+    { "id": "verkoudheid", "nl": "verkoudheid", "en": "cold (illness)", "article": "de", "plural": "verkoudheden", "example": { "nl": "Het is maar een verkoudheid.", "en": "It's only a cold." } },
+    { "id": "griep", "nl": "griep", "en": "flu", "article": "de", "forms": ["griepje"], "example": { "nl": "Ik denk dat ik griep heb.", "en": "I think I have the flu." } }
+  ],
+  "grammar": {
+    "title": "Instructions: Neem drie keer per dag één tablet in",
+    "points": [
+      "Instructions use the imperative: just the stem of the verb (the ik-form): Neem, Drink, Lees, Bel.",
+      "Separable verbs split, with the small part at the end: innemen → Neem de tablet in.",
+      "On leaflets and in polite speech you often hear stem + t + u: Neemt u de tablet bij het eten in.",
+      "How often? number + keer per dag/week: twee keer per dag (twice a day), één keer per week (once a week).",
+      "per means 'a / each': vijf euro per doos, één pil per dag.",
+      "Negative instructions use niet or geen: Neem niet meer dan zes tabletten. Drink geen bier."
+    ],
+    "examples": [
+      { "nl": "Neem twee keer per dag een tablet in.", "en": "Take a tablet twice a day." },
+      { "nl": "Neemt u de pillen bij het eten in.", "en": "Please take the pills with food." },
+      { "nl": "Drink veel water.", "en": "Drink lots of water." },
+      { "nl": "Neem niet meer dan zes tabletten per dag.", "en": "Don't take more than six tablets a day." },
+      { "nl": "Bel de huisarts als de koorts niet minder wordt.", "en": "Call the GP if the fever doesn't go down." }
+    ],
+    "exercises": [
+      { "prompt": "___ de tabletten met water in.", "answer": "Neem", "hint": "innemen (imperative)" },
+      { "prompt": "Neem de pil drie ___ per dag in.", "answer": "keer", "hint": "times" },
+      { "prompt": "Neem één tablet ___ dag in.", "answer": "per", "hint": "a / each" },
+      { "prompt": "___ veel water!", "answer": "Drink", "hint": "drinken (imperative)" },
+      { "prompt": "Neemt u de tablet bij het eten ___.", "answer": "in", "hint": "innemen" }
+    ]
+  },
+  "dialogue": {
+    "title": "Drie keer per dag",
+    "scene": "Sara has a cough and picks up medicine at the pharmacy. The pharmacist explains how to take it.",
+    "lines": [
+      { "speaker": "Apotheker", "nl": "Dag! Kan ik u helpen?", "en": "Hello! Can I help you?" },
+      { "speaker": "Sara", "nl": "Ja, ik heb een recept van de huisarts.", "en": "Yes, I have a prescription from the GP." },
+      { "speaker": "Apotheker", "nl": "Even kijken. Dit zijn tabletten voor de hoest.", "en": "Let me see. These are tablets for your cough." },
+      { "speaker": "Sara", "nl": "Hoe vaak moet ik ze innemen?", "en": "How often do I have to take them?", "gap": "innemen" },
+      { "speaker": "Apotheker", "nl": "Neem drie keer per dag één tablet in, bij het eten.", "en": "Take one tablet three times a day, with food.", "gap": "keer per dag" },
+      { "speaker": "Sara", "nl": "Moet ik ze met water innemen?", "en": "Should I take them with water?" },
+      { "speaker": "Apotheker", "nl": "Ja, neem de tablet met een slok water in. Niet met melk.", "en": "Yes, take the tablet with a sip of water. Not with milk.", "gap": "slok" },
+      { "speaker": "Sara", "nl": "Zijn er bijwerkingen?", "en": "Are there any side effects?", "gap": "bijwerkingen" },
+      { "speaker": "Apotheker", "nl": "Soms wordt u er moe van. Rijd dan geen auto.", "en": "Sometimes they make you tired. Don't drive if they do." },
+      { "speaker": "Sara", "nl": "En als ik ook koorts heb?", "en": "And if I get a fever as well?", "gap": "koorts" },
+      { "speaker": "Apotheker", "nl": "Dan moet u de huisarts bellen. Maar ik denk dat het een verkoudheid is, geen griep.", "en": "Then you should call the GP. But I think it's a cold, not the flu." },
+      { "speaker": "Sara", "nl": "Gelukkig! Hoeveel kost het?", "en": "Good! How much is it?" },
+      { "speaker": "Apotheker", "nl": "Acht euro vijftig, alstublieft.", "en": "Eight fifty, please." },
+      { "speaker": "Sara", "nl": "Alstublieft. Dank u wel, dag!", "en": "Here you are. Thank you, bye!" }
+    ]
+  }
+}

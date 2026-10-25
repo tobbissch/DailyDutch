@@ -1,0 +1,65 @@
+{
+  "day": 19,
+  "title": "In de supermarkt",
+  "names": ["Sara", "Tom", "Spanje"],
+  "words": [
+    { "id": "er", "nl": "er", "en": "there (in er is / er zijn)", "example": { "nl": "Er is geen melk.", "en": "There's no milk." } },
+    { "id": "supermarkt", "nl": "supermarkt", "en": "supermarket", "article": "de", "plural": "supermarkten", "forms": ["supermarktje"], "example": { "nl": "De supermarkt is dichtbij.", "en": "The supermarket is close by." } },
+    { "id": "winkel", "nl": "winkel", "en": "shop", "article": "de", "plural": "winkels", "forms": ["winkeltje"], "example": { "nl": "Er zijn veel winkels in de stad.", "en": "There are lots of shops in town." } },
+    { "id": "kopen", "nl": "kopen", "en": "to buy", "forms": ["koop", "kocht", "koopt", "kochten", "kopend", "gekocht"], "example": { "nl": "Ik koop een fles wijn.", "en": "I'm buying a bottle of wine." } },
+    { "id": "boodschappen", "nl": "boodschap", "en": "errand; boodschappen = groceries, shopping", "article": "de", "plural": "boodschappen", "forms": ["boodschapjes"], "example": { "nl": "De boodschappen zijn in mijn tas.", "en": "The groceries are in my bag." } },
+    { "id": "tas", "nl": "tas", "en": "bag", "article": "de", "plural": "tassen", "forms": ["tasje"], "example": { "nl": "Heb je een tas?", "en": "Have you got a bag?" } },
+    { "id": "pak", "nl": "pak", "en": "carton, pack; suit", "article": "het", "plural": "pakken", "forms": ["pakje"], "example": { "nl": "Ik koop een pak melk.", "en": "I'm buying a carton of milk." } },
+    { "id": "fles", "nl": "fles", "en": "bottle", "article": "de", "plural": "flessen", "forms": ["flesje"], "example": { "nl": "Twee flessen wijn, graag.", "en": "Two bottles of wine, please." } },
+    { "id": "kilo", "nl": "kilo", "en": "kilo", "article": "de", "plural": "kilo's", "forms": ["kilootje"], "example": { "nl": "Een kilo tomaten kost drie euro.", "en": "A kilo of tomatoes costs three euros." } },
+    { "id": "rijst", "nl": "rijst", "en": "rice", "article": "de", "example": { "nl": "Hebben we nog rijst?", "en": "Do we still have rice?" } },
+    { "id": "pasta", "nl": "pasta", "en": "pasta", "article": "de", "plural": "pasta's", "forms": ["pastaatje"], "example": { "nl": "Ik kook pasta met kaas.", "en": "I'm cooking pasta with cheese." } },
+    { "id": "tomaat", "nl": "tomaat", "en": "tomato", "article": "de", "plural": "tomaten", "forms": ["tomaatje"], "example": { "nl": "De tomaten zijn lekker.", "en": "The tomatoes are tasty." } },
+    { "id": "duur", "nl": "duur", "en": "expensive", "forms": ["duurder", "duurst", "dure", "duurdere", "duurste"], "example": { "nl": "De wijn is duur.", "en": "The wine is expensive." } },
+    { "id": "goedkoop", "nl": "goedkoop", "en": "cheap", "forms": ["goedkoper", "goedkoopst", "goedkope", "goedkopere", "goedkoopste"], "example": { "nl": "De rijst is goedkoop.", "en": "The rice is cheap." } },
+    { "id": "nodig", "nl": "nodig", "en": "needed (nodig hebben = to need)", "forms": ["nodiger", "nodigst", "nodige", "nodigere", "nodigste"], "example": { "nl": "Wat hebben we nodig?", "en": "What do we need?" } },
+    { "id": "pakje", "nl": "pakje", "en": "packet; parcel", "article": "het", "plural": "pakjes", "example": { "nl": "Ik wil een pakje boter.", "en": "I'd like a packet of butter." } },
+    { "id": "krijgen", "nl": "krijgen", "en": "to get, to receive", "forms": ["krijg", "krijgt", "kreeg", "kregen", "gekregen", "krijgend"], "example": { "nl": "Krijg ik een tasje?", "en": "Can I have a bag?" } },
+    { "id": "zoals", "nl": "zoals", "en": "like, such as", "example": { "nl": "Ik koop fruit, zoals appels en bananen.", "en": "I buy fruit, like apples and bananas." } },
+    { "id": "paar", "nl": "paar", "en": "pair, couple; een paar = a few", "article": "het", "plural": "paren", "forms": ["paartje"], "example": { "nl": "Ik koop een paar tomaten.", "en": "I'm buying a few tomatoes." } }
+  ],
+  "grammar": {
+    "title": "er is / er zijn: there is, there are",
+    "points": [
+      "er is + singular: Er is een supermarkt. er zijn + plural: Er zijn drie winkels.",
+      "In a question the verb comes first: Is er melk? Zijn er tomaten?",
+      "With nouns, the negative is geen: Er is geen rijst. Er zijn geen tomaten.",
+      "Ask how many with hoeveel + plural + zijn er: Hoeveel flessen zijn er? With things you can't count: Hoeveel melk is er?",
+      "nodig hebben = to need. nodig goes at the end: Ik heb een tas nodig."
+    ],
+    "examples": [
+      { "nl": "Er is een supermarkt in de straat.", "en": "There's a supermarket in the street." },
+      { "nl": "Er zijn geen tomaten.", "en": "There are no tomatoes." },
+      { "nl": "Is er nog melk?", "en": "Is there any milk left?" },
+      { "nl": "Hoeveel flessen wijn zijn er?", "en": "How many bottles of wine are there?" },
+      { "nl": "Wij hebben rijst nodig.", "en": "We need rice." }
+    ],
+    "exercises": [
+      { "prompt": "___ is geen brood.", "answer": "Er", "hint": "there" },
+      { "prompt": "Er ___ drie flessen.", "answer": "zijn", "hint": "is / zijn" },
+      { "prompt": "Er ___ een winkel op de hoek.", "answer": "is", "hint": "is / zijn" },
+      { "prompt": "___ tomaten zijn er?", "answer": "Hoeveel", "hint": "how many" },
+      { "prompt": "Ik heb een tas ___.", "answer": "nodig", "hint": "need" }
+    ]
+  },
+  "dialogue": {
+    "title": "Wat hebben we nodig?",
+    "scene": "Sara is cooking for friends on Saturday. She and Tom do the shopping at the supermarket.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Wat hebben we nodig?", "en": "What do we need?", "gap": "nodig" },
+      { "speaker": "Sara", "nl": "Pasta, tomaten en kaas. En twee flessen wijn.", "en": "Pasta, tomatoes and cheese. And two bottles of wine." },
+      { "speaker": "Tom", "nl": "Heb je nog pasta thuis?", "en": "Have you still got pasta at home?" },
+      { "speaker": "Sara", "nl": "Nee, er is geen pasta. Er is wel rijst.", "en": "No, there's no pasta. There is rice, though.", "gap": "er is" },
+      { "speaker": "Tom", "nl": "Hoeveel tomaten wil je?", "en": "How many tomatoes do you want?", "gap": "Hoeveel" },
+      { "speaker": "Sara", "nl": "Een kilo. Hoeveel kost een kilo?", "en": "A kilo. How much is a kilo?" },
+      { "speaker": "Tom", "nl": "Drie euro. Dat is niet duur.", "en": "Three euros. That's not expensive.", "gap": "duur" },
+      { "speaker": "Sara", "nl": "En de wijn? Er zijn hier veel flessen.", "en": "And the wine? There are lots of bottles here." },
+      { "speaker": "Tom", "nl": "Neem de wijn uit Spanje. Hij is lekker en goedkoop.", "en": "Take the Spanish wine. It's nice and cheap.", "gap": "goedkoop" }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "day": 104,
+  "title": "Ruzie met de buren",
+  "names": ["De Vries", "Kees"],
+  "words": [
+    { "id": "conflict", "nl": "conflict", "en": "conflict, dispute", "article": "het", "plural": "conflicten", "forms": ["conflictje"], "example": { "nl": "Er is een conflict tussen de buren.", "en": "There's a dispute between the neighbours." } },
+    { "id": "schutting", "nl": "schutting", "en": "(wooden) fence", "article": "de", "plural": "schuttingen", "forms": ["schuttinkje"], "example": { "nl": "Tussen de twee tuinen staat een schutting.", "en": "There's a fence between the two gardens." } },
+    { "id": "grens-noun", "nl": "grens", "en": "border, boundary; limit", "article": "de", "plural": "grenzen", "forms": ["grensje"], "example": { "nl": "De schutting staat op de grens van de twee tuinen.", "en": "The fence is on the boundary between the two gardens." } },
+    { "id": "bemiddelaar", "nl": "bemiddelaar", "en": "mediator", "article": "de", "plural": "bemiddelaars", "example": { "nl": "Een bemiddelaar helpt de buren om te praten.", "en": "A mediator helps the neighbours to talk." } },
+    { "id": "buurtbemiddeling", "nl": "buurtbemiddeling", "en": "neighbourhood mediation (a free service for disputes between neighbours)", "article": "de", "example": { "nl": "Bij buurtbemiddeling zoeken buren samen een oplossing.", "en": "In neighbourhood mediation, neighbours look for a solution together." } },
+    { "id": "recht", "nl": "recht", "en": "right; law", "article": "het", "plural": "rechten", "forms": ["rechtje"], "example": { "nl": "Ik heb het recht om in mijn tuin te zitten.", "en": "I have the right to sit in my garden." } },
+    { "id": "overlast", "nl": "overlast", "en": "nuisance, trouble", "article": "de", "example": { "nl": "We hebben veel overlast van de hond van de buren.", "en": "The neighbours' dog is a real nuisance to us." } },
+    { "id": "beslissen", "nl": "beslissen", "en": "to decide", "forms": ["beslis", "besliste", "beslist", "beslisten", "beslissend"], "example": { "nl": "We beslissen het samen.", "en": "We'll decide it together." } },
+    { "id": "compromis", "nl": "compromis", "en": "compromise", "article": "het", "forms": ["compromistje", "compromisje", "compromissen"], "example": { "nl": "Zullen we een compromis zoeken?", "en": "Shall we look for a compromise?" } },
+    { "id": "oneerlijk", "nl": "oneerlijk", "en": "unfair; dishonest", "forms": ["oneerlijker", "oneerlijkst", "oneerlijke", "oneerlijkere", "oneerlijkste"], "example": { "nl": "Dat vind ik oneerlijk.", "en": "I think that's unfair." } },
+    { "id": "boos-worden", "nl": "boos worden", "en": "to get angry", "forms": ["word boos", "wordt boos", "werd boos", "boos geworden"], "example": { "nl": "U hoeft niet boos te worden.", "en": "There's no need to get angry." } },
+    { "id": "kwaad", "nl": "kwaad", "en": "angry; bad, evil", "forms": ["kwader", "kwaadst", "kwade", "kwadere", "kwaadste"], "example": { "nl": "Meneer De Vries is kwaad op de nieuwe buurman.", "en": "Mr De Vries is angry with the new neighbour." } },
+    { "id": "afspraak-noun", "nl": "afspraak", "en": "agreement, arrangement; appointment", "article": "de", "plural": "afspraken", "forms": ["afspraakje"], "example": { "nl": "We maken een afspraak over de schutting.", "en": "We're making an agreement about the fence." } },
+    { "id": "kalmeren", "nl": "kalmeren", "en": "to calm down", "forms": ["kalmeer", "kalmeerde", "kalmeert", "kalmeerden", "kalmerend", "gekalmeerd"], "example": { "nl": "Kalmeer even, dan praten we rustig.", "en": "Calm down a moment, then we'll talk calmly." } }
+  ],
+  "grammar": {
+    "title": "Disagreeing politely: toch and wel",
+    "points": [
+      "Soften your disagreement: Ik zie het anders. Daar ben ik het niet mee eens. Or start with something positive: Dat is waar, maar ...",
+      "wel contradicts a negative: \"Dat is niet uw tuin.\" \"Het is wel mijn tuin!\" Stress the word wel when you speak.",
+      "wel also makes a concession before maar: Dat is wel zo, maar ik vind het oneerlijk (That may be so, but ...).",
+      "toch in a statement asks for agreement, like English \"..., isn't it?\": De schutting staat toch op de grens?",
+      "toch also contradicts or means \"anyway\": Je komt niet? Ik kom toch! Zullen we toch een compromis zoeken?",
+      "Stay with u when you talk to neighbours you don't know well. It keeps a conflict calmer."
+    ],
+    "examples": [
+      { "nl": "Dat is wel zo, maar ik ben het er niet mee eens.", "en": "That may be true, but I don't agree." },
+      { "nl": "De schutting staat toch op de grens?", "en": "The fence is on the boundary, isn't it?" },
+      { "nl": "Dat is niet uw tuin. – Het is wel mijn tuin!", "en": "That's not your garden. – It is my garden!" },
+      { "nl": "Zullen we toch een compromis zoeken?", "en": "Shall we look for a compromise after all?" },
+      { "nl": "U hebt toch ook overlast van die bomen?", "en": "Those trees bother you too, don't they?" }
+    ],
+    "exercises": [
+      { "prompt": "Dat is niet uw schutting. – Het is ___ mijn schutting!", "answer": "wel", "hint": "contradicts a negative" },
+      { "prompt": "De schutting staat ___ op de grens?", "answer": "toch", "hint": "..., isn't it?" },
+      { "prompt": "Dat is ___ zo, maar ik vind het oneerlijk.", "answer": "wel", "hint": "that may be so" },
+      { "prompt": "Daar ben ik het niet mee ___.", "answer": "eens", "hint": "agree" },
+      { "prompt": "Zullen we een ___ zoeken?", "answer": "compromis", "hint": "compromise" },
+      { "prompt": "U hoeft niet boos te ___.", "answer": "worden", "hint": "boos worden" }
+    ]
+  },
+  "dialogue": {
+    "title": "De schutting",
+    "scene": "Sara's neighbour meneer De Vries and the new neighbour Kees argue about the fence between their gardens. Sara tries to calm things down.",
+    "lines": [
+      { "speaker": "Kees", "nl": "Meneer De Vries, uw schutting staat niet op de grens.", "en": "Mr De Vries, your fence isn't on the boundary.", "gap": "grens" },
+      { "speaker": "Meneer De Vries", "nl": "Dat klopt niet. Die schutting staat er al dertig jaar.", "en": "That's not right. That fence has been there for thirty years." },
+      { "speaker": "Kees", "nl": "Hij staat wel een meter in mijn tuin!", "en": "It's a whole metre into my garden!", "gap": "wel" },
+      { "speaker": "Meneer De Vries", "nl": "Nu moet u niet boos worden.", "en": "Now don't get angry.", "gap": "boos worden" },
+      { "speaker": "Kees", "nl": "Ik ben niet kwaad. Maar ik vind het oneerlijk.", "en": "I'm not angry. But I think it's unfair.", "gap": "oneerlijk" },
+      { "speaker": "Sara", "nl": "Zullen we even kalmeren? Wat is het echte probleem?", "en": "Shall we calm down a moment? What's the real problem?", "gap": "kalmeren" },
+      { "speaker": "Kees", "nl": "Ook die hoge bomen geven overlast. Mijn tuin heeft nooit zon.", "en": "Those tall trees are a nuisance too. My garden never gets any sun.", "gap": "overlast" },
+      { "speaker": "Meneer De Vries", "nl": "Dat is wel zo, maar ik heb ook rechten. Het zijn mijn bomen.", "en": "That may be so, but I have rights too. They're my trees." },
+      { "speaker": "Sara", "nl": "U wilt toch goede buren blijven?", "en": "You want to stay good neighbours, don't you?", "gap": "toch" },
+      { "speaker": "Meneer De Vries", "nl": "Natuurlijk. Wat stel je voor, Sara?", "en": "Of course. What do you suggest, Sara?" },
+      { "speaker": "Sara", "nl": "Er is buurtbemiddeling. Een bemiddelaar helpt u om een compromis te vinden.", "en": "There's neighbourhood mediation. A mediator helps you find a compromise." },
+      { "speaker": "Kees", "nl": "Maar de bemiddelaar beslist niet, toch?", "en": "But the mediator doesn't decide, right?" },
+      { "speaker": "Sara", "nl": "Nee, u beslist samen. Dan maakt u een afspraak die voor iedereen eerlijk is.", "en": "No, you decide together. Then you make an agreement that's fair for everyone." },
+      { "speaker": "Meneer De Vries", "nl": "Goed. En sorry, Kees, dat ik zo kwaad werd.", "en": "All right. And sorry, Kees, that I got so angry." }
+    ]
+  }
+}

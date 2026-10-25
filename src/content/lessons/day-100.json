@@ -1,0 +1,67 @@
+{
+  "day": 100,
+  "title": "Honderd dagen!",
+  "words": [
+    { "id": "vooruitgang", "nl": "vooruitgang", "en": "progress", "article": "de", "plural": "vooruitgangen", "forms": ["vooruitgangetje"], "example": { "nl": "Sara maakt veel vooruitgang.", "en": "Sara is making a lot of progress." } },
+    { "id": "fout-noun", "nl": "fout", "en": "mistake, error", "article": "de", "plural": "fouten", "forms": ["foutje"], "example": { "nl": "Iedereen maakt fouten.", "en": "Everyone makes mistakes." } },
+    { "id": "vergissing", "nl": "vergissing", "en": "mistake, slip", "article": "de", "plural": "vergissingen", "forms": ["vergissinkje"], "example": { "nl": "Sorry, dat was een vergissing.", "en": "Sorry, that was a mistake." } },
+    { "id": "verbeteren", "nl": "verbeteren", "en": "to improve; to correct", "forms": ["verbeter", "verbeterde", "verbetert", "verbeterden", "verbeterend", "verbeterd"], "example": { "nl": "Ik wil mijn uitspraak verbeteren.", "en": "I want to improve my pronunciation." } },
+    { "id": "doel-noun", "nl": "doel", "en": "goal, aim", "article": "het", "plural": "doelen", "forms": ["doeltje"], "example": { "nl": "Mijn doel is om vloeiend Nederlands te spreken.", "en": "My goal is to speak Dutch fluently." } },
+    { "id": "bereiken", "nl": "bereiken", "en": "to reach, to achieve", "forms": ["bereik", "bereikte", "bereikt", "bereikten", "bereikend"], "example": { "nl": "Ik heb mijn doel bereikt.", "en": "I've achieved my goal." } },
+    { "id": "woordenboek", "nl": "woordenboek", "en": "dictionary", "article": "het", "plural": "woordenboeken", "forms": ["woordenboekje"], "example": { "nl": "Ik zoek het woord op in het woordenboek.", "en": "I look the word up in the dictionary." } },
+    { "id": "uitspraak", "nl": "uitspraak", "en": "pronunciation", "article": "de", "plural": "uitspraken", "forms": ["uitspraakje"], "example": { "nl": "Je uitspraak is heel goed.", "en": "Your pronunciation is very good." } },
+    { "id": "grammatica", "nl": "grammatica", "en": "grammar", "article": "de", "plural": "grammatica's", "forms": ["grammaticaatje"], "example": { "nl": "De Nederlandse grammatica is niet makkelijk.", "en": "Dutch grammar isn't easy." } },
+    { "id": "woordenschat", "nl": "woordenschat", "en": "vocabulary", "article": "de", "example": { "nl": "Mijn woordenschat wordt elke dag groter.", "en": "My vocabulary gets bigger every day." } },
+    { "id": "vloeiend", "nl": "vloeiend", "en": "fluent(ly)", "example": { "nl": "Over een jaar spreek ik vloeiend Nederlands.", "en": "In a year I'll speak fluent Dutch." } },
+    { "id": "moeite", "nl": "moeite", "en": "effort; difficulty", "article": "de", "plural": "moeiten", "example": { "nl": "Ik heb moeite met de uitspraak.", "en": "I have trouble with the pronunciation." } },
+    { "id": "moeite-waard", "nl": "moeite waard", "en": "worth it, worth the effort", "example": { "nl": "Het was de moeite waard.", "en": "It was worth it." } },
+    { "id": "waard", "nl": "waard", "en": "worth", "forms": ["weerd"], "example": { "nl": "Die fiets is veel geld waard.", "en": "That bike is worth a lot of money." } },
+    { "id": "woord", "nl": "woord", "en": "word", "article": "het", "plural": "woorden", "forms": ["woordje"], "example": { "nl": "Elke dag leer ik nieuwe woorden.", "en": "Every day I learn new words." } }
+  ],
+  "grammar": {
+    "title": "Review: the big rules so far",
+    "points": [
+      "Main clause: the verb is always in second place. If you start with something else, the subject comes after the verb: Elke dag leer ik nieuwe woorden.",
+      "After omdat, dat, als, nadat, tenzij and other linking words, the verb goes to the end: ..., omdat ik veel oefen.",
+      "Past events: the present perfect (hebben/zijn + participle) for facts, the simple past for stories: Ik heb veel geleerd. Toen kon ik maar twee woorden.",
+      "Separable verbs split in a main clause: Ik zoek het woord op. Together at the end: Ik ga het woord opzoeken.",
+      "Every noun is de or het; plurals are always de. Adjectives get -e, except before a het-word with een: een goed woordenboek.",
+      "Fixed phrases are worth learning as one unit: het eens zijn, de moeite waard, moeite hebben met."
+    ],
+    "examples": [
+      { "nl": "Elke dag leer ik nieuwe woorden.", "en": "Every day I learn new words." },
+      { "nl": "Ik maak minder fouten, omdat ik veel oefen.", "en": "I make fewer mistakes because I practise a lot." },
+      { "nl": "Ik heb in honderd dagen veel geleerd.", "en": "I've learned a lot in a hundred days." },
+      { "nl": "Ik zoek het woord op in een goed woordenboek.", "en": "I look the word up in a good dictionary." },
+      { "nl": "Het is veel werk, maar het is de moeite waard.", "en": "It's a lot of work, but it's worth it." }
+    ],
+    "exercises": [
+      { "prompt": "Elke dag ___ ik nieuwe woorden.", "answer": "leer", "hint": "leren" },
+      { "prompt": "Ik maak minder fouten, omdat ik veel ___.", "answer": "oefen", "hint": "oefenen" },
+      { "prompt": "Ik ___ in honderd dagen veel geleerd.", "answer": "heb", "hint": "hebben / zijn" },
+      { "prompt": "Ik zoek het woord ___ in het woordenboek.", "answer": "op", "hint": "opzoeken" },
+      { "prompt": "Het is veel werk, maar het is de moeite ___.", "answer": "waard", "hint": "worth" },
+      { "prompt": "Ik heb ___ met de uitspraak.", "answer": "moeite", "hint": "difficulty" }
+    ]
+  },
+  "dialogue": {
+    "title": "Honderd dagen Nederlands",
+    "scene": "Tom surprises Sara: today is her hundredth day of learning Dutch. They look back on how far she has come.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Gefeliciteerd! Je leert nu honderd dagen Nederlands.", "en": "Congratulations! You've been learning Dutch for a hundred days now." },
+      { "speaker": "Sara", "nl": "Echt? De tijd gaat snel.", "en": "Really? Time flies." },
+      { "speaker": "Tom", "nl": "Je hebt veel vooruitgang gemaakt. Weet je je eerste dag nog?", "en": "You've made a lot of progress. Do you remember your first day?", "gap": "vooruitgang" },
+      { "speaker": "Sara", "nl": "Ja! Toen kon ik maar twee woorden zeggen: hallo en dank je wel.", "en": "Yes! Back then I could only say two words: hallo and dank je wel." },
+      { "speaker": "Tom", "nl": "En nu praat je over het klimaat en de geschiedenis van Nederland.", "en": "And now you talk about the climate and the history of the Netherlands." },
+      { "speaker": "Sara", "nl": "Maar ik maak nog veel fouten, met de en het bijvoorbeeld.", "en": "But I still make lots of mistakes, with de and het for example.", "gap": "fouten" },
+      { "speaker": "Tom", "nl": "Dat geeft niet. Iedereen maakt fouten.", "en": "That doesn't matter. Everyone makes mistakes." },
+      { "speaker": "Sara", "nl": "En ik heb nog moeite met de uitspraak.", "en": "And I still have trouble with the pronunciation.", "gap": "moeite" },
+      { "speaker": "Tom", "nl": "Je uitspraak is veel beter geworden. En je woordenschat is groot.", "en": "Your pronunciation has got much better. And your vocabulary is big." },
+      { "speaker": "Sara", "nl": "Ik heb het woordenboek nu minder vaak nodig.", "en": "I need the dictionary less often now." },
+      { "speaker": "Tom", "nl": "En wat is nu je doel?", "en": "And what's your goal now?" },
+      { "speaker": "Sara", "nl": "Over een jaar wil ik vloeiend Nederlands spreken. En het examen voor de inburgering halen.", "en": "In a year I want to speak Dutch fluently. And pass the civic integration exam.", "gap": "vloeiend" },
+      { "speaker": "Tom", "nl": "Dat ga je zeker bereiken.", "en": "You'll definitely achieve that." },
+      { "speaker": "Sara", "nl": "Het is veel werk, maar het is de moeite waard.", "en": "It's a lot of work, but it's worth it.", "gap": "de moeite waard" }
+    ]
+  }
+}

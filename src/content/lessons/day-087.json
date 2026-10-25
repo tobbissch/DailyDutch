@@ -1,0 +1,66 @@
+{
+  "day": 87,
+  "title": "Studeren",
+  "names": ["Sara", "Tom", "Utrecht", "Spanje", "Madrid"],
+  "words": [
+    { "id": "studeren", "nl": "studeren", "en": "to study (at college or university)", "forms": ["studeer", "studeerde", "studeert", "studeerden", "studerend", "gestudeerd"], "example": { "nl": "Tom heeft in Utrecht gestudeerd.", "en": "Tom studied in Utrecht." } },
+    { "id": "universiteit", "nl": "universiteit", "en": "university", "article": "de", "plural": "universiteiten", "forms": ["universiteitje"], "example": { "nl": "Sara heeft in Madrid op de universiteit gezeten.", "en": "Sara went to university in Madrid." } },
+    { "id": "hbo", "nl": "hbo", "en": "higher professional education (university of applied sciences)", "article": "het", "plural": "HBO's", "example": { "nl": "Ze heeft op het hbo gestudeerd.", "en": "She studied at a university of applied sciences." } },
+    { "id": "mbo", "nl": "mbo", "en": "vocational education (secondary level)", "article": "het", "example": { "nl": "Mijn broer leert op het mbo voor kok.", "en": "My brother is training to be a cook at vocational school." } },
+    { "id": "studie", "nl": "studie", "en": "studies; degree course", "article": "de", "plural": "studies", "forms": ["studietje"], "example": { "nl": "Wat voor studie doe je?", "en": "What are you studying?" } },
+    { "id": "vak", "nl": "vak", "en": "(school) subject; trade, profession; compartment", "article": "het", "plural": "vakken", "forms": ["vakje"], "example": { "nl": "Wat is je leukste vak?", "en": "What's your favourite subject?" } },
+    { "id": "examen", "nl": "examen", "en": "exam", "article": "het", "plural": "examens", "forms": ["examentje"], "example": { "nl": "Morgen heb ik examen.", "en": "I have an exam tomorrow." } },
+    { "id": "slagen", "nl": "slagen", "en": "to pass (an exam); to succeed", "forms": ["slaag", "slaagde", "slaagt", "slaagden", "slagend", "geslaagd"], "example": { "nl": "Ik ben geslaagd!", "en": "I passed!" } },
+    { "id": "zakken", "nl": "zakken", "en": "to fail (an exam); to drop, to sink", "forms": ["zak", "zakte", "zakt", "zakten", "zakkend", "gezakt"], "example": { "nl": "Hij is twee keer gezakt voor zijn examen.", "en": "He failed his exam twice." } },
+    { "id": "beurs", "nl": "beurs", "en": "grant, scholarship; purse; trade fair", "article": "de", "plural": "beurzen", "forms": ["beursje"], "example": { "nl": "Zij kreeg een beurs voor haar studie.", "en": "She got a grant for her studies." } },
+    { "id": "studieschuld", "nl": "studieschuld", "en": "student debt", "article": "de", "plural": "studieschulden", "example": { "nl": "Veel studenten hebben een grote studieschuld.", "en": "Many students have a big student debt." } },
+    { "id": "hoeven", "nl": "hoeven", "en": "to need to, to have to (with niet/geen)", "forms": ["hoef", "hoefde", "hoeft", "hoefden", "hoevend", "gehoeven", "gehoefd"], "example": { "nl": "Je hoeft niet te betalen.", "en": "You don't have to pay." } },
+    { "id": "durven", "nl": "durven", "en": "to dare", "forms": ["durf", "durfde", "durft", "durfden", "durvend", "gedurfd", "dorst", "dorsten"], "example": { "nl": "Ik durf niet te zwemmen in de zee.", "en": "I don't dare to swim in the sea." } },
+    { "id": "lijken", "nl": "lijken", "en": "to seem; to look like", "forms": ["lijk", "leek", "lijkt", "leken", "lijkend", "geleken"], "example": { "nl": "Dat lijkt me leuk.", "en": "That sounds fun to me." } },
+    { "id": "schijnen", "nl": "schijnen", "en": "to shine; to be said to, apparently", "forms": ["schijn", "scheen", "schijnt", "schenen", "schijnend", "geschenen"], "example": { "nl": "De zon schijnt.", "en": "The sun is shining." } }
+  ],
+  "grammar": {
+    "title": "Hoeven, durven, lijken, schijnen + te",
+    "points": [
+      "These four verbs work like a modal verb, but the infinitive at the end usually gets te: Je hoeft niet te komen.",
+      "hoeven is only used with a negative (niet, geen, nooit) or with maar (only): Je hoeft niet te werken = you don't have to work. The positive is moeten: Je moet werken.",
+      "durven = to dare. te is often left out: Ik durf (te) vragen. Ik durf het niet.",
+      "lijken te = to seem: Het lijkt moeilijk te zijn. Het lijkt me leuk = I think it would be fun.",
+      "schijnen te = apparently / people say: Die studie schijnt zwaar te zijn = apparently that course is hard. (Without te, schijnen means 'to shine'.)"
+    ],
+    "examples": [
+      { "nl": "Je hoeft niet te stoppen met werken.", "en": "You don't have to stop working." },
+      { "nl": "Ik durf niet te vragen of het goed is.", "en": "I don't dare to ask if it's good." },
+      { "nl": "Hij lijkt het examen niet te willen doen.", "en": "He doesn't seem to want to take the exam." },
+      { "nl": "Die studie schijnt heel zwaar te zijn.", "en": "Apparently that course is very hard." },
+      { "nl": "Je hoeft maar één formulier in te vullen.", "en": "You only need to fill in one form." }
+    ],
+    "exercises": [
+      { "prompt": "Je ___ niet te komen.", "answer": "hoeft", "hint": "hoeven" },
+      { "prompt": "Het examen schijnt makkelijk ___ zijn.", "answer": "te", "hint": "schijnen ... te" },
+      { "prompt": "Ik ___ niet in de zee te zwemmen.", "answer": "durf", "hint": "durven" },
+      { "prompt": "Ze ___ moe te zijn.", "answer": "lijkt", "hint": "lijken" },
+      { "prompt": "Hij is ___ voor zijn examen: hij had een vier.", "answer": "gezakt", "hint": "zakken" },
+      { "prompt": "Gefeliciteerd, je bent ___!", "answer": "geslaagd", "hint": "slagen" }
+    ]
+  },
+  "dialogue": {
+    "title": "Weer studeren?",
+    "scene": "On a Sunday morning Sara tells Tom she's thinking about studying again, next to her job.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Tom, ik denk erover om weer te gaan studeren.", "en": "Tom, I'm thinking about going back to studying." },
+      { "speaker": "Tom", "nl": "Echt? Wat wil je studeren?", "en": "Really? What do you want to study?", "gap": "studeren" },
+      { "speaker": "Sara", "nl": "Er is een studie op het hbo in Amsterdam, in de avond. Het lijkt me heel leuk.", "en": "There's an evening course at a university of applied sciences in Amsterdam. I think it would be really nice.", "gap": "lijkt" },
+      { "speaker": "Tom", "nl": "Dan hoef je niet te stoppen met werken.", "en": "Then you don't have to stop working.", "gap": "hoef" },
+      { "speaker": "Sara", "nl": "Ja. Maar het schijnt heel zwaar te zijn, naast een baan.", "en": "Yes. But apparently it's very hard alongside a job.", "gap": "schijnt" },
+      { "speaker": "Tom", "nl": "Dat is waar. Toen ik op de universiteit zat, had ik er ook een baan naast.", "en": "That's true. When I was at university, I had a job on the side too." },
+      { "speaker": "Sara", "nl": "En de vakken zijn in het Nederlands. Ik durf het eigenlijk niet goed.", "en": "And the subjects are in Dutch. To be honest, I don't really dare.", "gap": "durf" },
+      { "speaker": "Tom", "nl": "Jouw Nederlands is toch al heel goed!", "en": "Your Dutch is already really good!" },
+      { "speaker": "Sara", "nl": "En wat als ik zak voor de examens?", "en": "And what if I fail the exams?" },
+      { "speaker": "Tom", "nl": "Dan doe je ze nog een keer. Ik ben ook een keer gezakt.", "en": "Then you take them again. I failed once too." },
+      { "speaker": "Sara", "nl": "Wat kost die studie eigenlijk?", "en": "How much does that course cost, actually?" },
+      { "speaker": "Tom", "nl": "Dat weet ik niet. Maar pas op, want ik heb nu nog studieschuld!", "en": "I don't know. But be careful, because I've still got student debt!" },
+      { "speaker": "Sara", "nl": "Ik ga eerst kijken of ik een beurs kan krijgen.", "en": "First I'll look into whether I can get a grant." }
+    ]
+  }
+}

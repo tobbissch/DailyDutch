@@ -1,0 +1,65 @@
+{
+  "day": 91,
+  "title": "Naar België",
+  "names": ["Brussel", "Berlijn", "Londen", "Javier"],
+  "words": [
+    { "id": "belgie", "nl": "België", "en": "Belgium", "example": { "nl": "België is een klein land.", "en": "Belgium is a small country." } },
+    { "id": "belgisch", "nl": "Belgisch", "en": "Belgian", "forms": ["Belgischer", "Belgischt", "Belgische", "Belgischere", "Belgischte"], "example": { "nl": "Ik drink graag Belgisch bier.", "en": "I like drinking Belgian beer." } },
+    { "id": "vlaams", "nl": "Vlaams", "en": "Flemish", "forms": ["Vlaamser", "Vlaamst", "Vlaamse", "Vlaamsere", "Vlaamste"], "example": { "nl": "In Antwerpen hoor je veel Vlaams.", "en": "In Antwerp you hear a lot of Flemish." } },
+    { "id": "duitsland", "nl": "Duitsland", "en": "Germany", "example": { "nl": "Duitsland ligt naast Nederland.", "en": "Germany is next to the Netherlands." } },
+    { "id": "duits", "nl": "Duits", "en": "German", "forms": ["Duitser", "Duitst", "Duitse", "Duitsere", "Duitste"], "example": { "nl": "Mijn collega spreekt goed Duits.", "en": "My colleague speaks German well." } },
+    { "id": "engeland", "nl": "Engeland", "en": "England", "example": { "nl": "Javier werkt een jaar in Engeland.", "en": "Javier is working in England for a year." } },
+    { "id": "brits", "nl": "Brits", "en": "British", "forms": ["Britser", "Britst", "Britse", "Britsere", "Britste"], "example": { "nl": "Hij heeft een Brits accent.", "en": "He has a British accent." } },
+    { "id": "europa", "nl": "Europa", "en": "Europe", "example": { "nl": "Nederland ligt in het westen van Europa.", "en": "The Netherlands is in western Europe." } },
+    { "id": "europees", "nl": "Europees", "en": "European", "forms": ["Europeser", "Europeest", "Europese", "Europesere", "Europeeste"], "example": { "nl": "De euro is Europees geld.", "en": "The euro is European money." } },
+    { "id": "grens", "nl": "grens", "en": "border", "article": "de", "plural": "grenzen", "forms": ["grensje"], "example": { "nl": "De grens met België is dichtbij.", "en": "The border with Belgium is close." } },
+    { "id": "taal", "nl": "taal", "en": "language", "article": "de", "plural": "talen", "forms": ["taaltje"], "example": { "nl": "Hoeveel talen spreek jij?", "en": "How many languages do you speak?" } },
+    { "id": "accent", "nl": "accent", "en": "accent", "article": "het", "plural": "accenten", "forms": ["accentje"], "example": { "nl": "Sara heeft een Spaans accent.", "en": "Sara has a Spanish accent." } },
+    { "id": "belg", "nl": "Belg", "en": "Belgian (person)", "article": "de", "plural": "Belgen", "forms": ["Belgje"], "example": { "nl": "Mijn buurman is een Belg.", "en": "My neighbour is a Belgian." } },
+    { "id": "antwerpen", "nl": "Antwerpen", "en": "Antwerp", "example": { "nl": "Antwerpen is een mooie stad in België.", "en": "Antwerp is a beautiful city in Belgium." } },
+    { "id": "hoofdstad", "nl": "hoofdstad", "en": "capital (city)", "article": "de", "plural": "hoofdsteden", "forms": ["hoofdstadje"], "example": { "nl": "Brussel is de hoofdstad van België.", "en": "Brussels is the capital of Belgium." } },
+    { "id": "frans", "nl": "Frans", "en": "French", "forms": ["Franse"], "example": { "nl": "In Brussel spreken veel mensen Frans.", "en": "In Brussels a lot of people speak French." } }
+  ],
+  "grammar": {
+    "title": "Countries, nationalities and languages",
+    "points": [
+      "Country names take no article and start with a capital letter: Nederland, België, Duitsland, Engeland.",
+      "The adjective for a country is also written with a capital: Nederlands, Belgisch, Duits, Brits, Spaans, Frans.",
+      "These adjectives follow the normal rules: add -e before a de-word or after de/het: de Duitse auto, het Belgische bier — but een Belgisch biertje.",
+      "The name of the language is usually the same word as the adjective: Ik spreek Duits, Engels, Frans. As a noun it is a het-word: het Nederlands.",
+      "There is no 'Belgian' language: Belgians (Belgen) speak Dutch — often called Vlaams in the north — French or German.",
+      "Words for people are separate nouns: een Belg, een Duitser, een Brit, een Nederlander."
+    ],
+    "examples": [
+      { "nl": "Ik kom uit Spanje. Ik spreek Spaans.", "en": "I'm from Spain. I speak Spanish." },
+      { "nl": "Belgen spreken Nederlands, Frans of Duits.", "en": "Belgians speak Dutch, French or German." },
+      { "nl": "We rijden naar de Belgische grens.", "en": "We're driving to the Belgian border." },
+      { "nl": "Berlijn is de hoofdstad van Duitsland.", "en": "Berlin is the capital of Germany." },
+      { "nl": "Hij is Brits, maar hij woont in Europa.", "en": "He is British, but he lives in Europe." }
+    ],
+    "exercises": [
+      { "prompt": "In Duitsland spreken ze ___.", "answer": "Duits", "hint": "language" },
+      { "prompt": "Antwerpen ligt in ___.", "answer": "België", "hint": "country" },
+      { "prompt": "Hij komt uit België. Hij is een ___.", "answer": "Belg", "hint": "person" },
+      { "prompt": "Wij drinken graag ___ bier.", "answer": "Belgisch", "hint": "Belgian" },
+      { "prompt": "Londen is de hoofdstad van ___.", "answer": "Engeland", "hint": "country" }
+    ]
+  },
+  "dialogue": {
+    "title": "Een weekend in Antwerpen",
+    "scene": "Sara and Tom take the train to Antwerp for the weekend. Somewhere along the way they cross the border.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Kijk, we zijn over de grens. Nu zijn we in België!", "en": "Look, we've crossed the border. Now we're in Belgium!", "gap": "grens" },
+      { "speaker": "Sara", "nl": "Echt? Ik zie geen grens.", "en": "Really? I don't see a border." },
+      { "speaker": "Tom", "nl": "Nee, in Europa zie je de grens vaak niet.", "en": "No, in Europe you often can't see the border." },
+      { "speaker": "Sara", "nl": "Spreken ze in Antwerpen ook Nederlands?", "en": "Do they speak Dutch in Antwerp too?" },
+      { "speaker": "Tom", "nl": "Ja, maar met een Vlaams accent. Dat is voor mij soms moeilijk.", "en": "Yes, but with a Flemish accent. I sometimes find that hard.", "gap": "accent" },
+      { "speaker": "Sara", "nl": "Is Antwerpen de hoofdstad van België?", "en": "Is Antwerp the capital of Belgium?", "gap": "hoofdstad" },
+      { "speaker": "Tom", "nl": "Nee, dat is Brussel. Daar spreken veel mensen Frans.", "en": "No, that's Brussels. A lot of people speak French there." },
+      { "speaker": "Sara", "nl": "En Duits? Ik heb op school een beetje Duits geleerd.", "en": "And German? I learned a bit of German at school." },
+      { "speaker": "Tom", "nl": "In het oosten spreken ze Duits. België is een land met drie talen.", "en": "In the east they speak German. Belgium is a country with three languages.", "gap": "talen" },
+      { "speaker": "Sara", "nl": "Wat een mooi land! En wat gaan we nu doen?", "en": "What a lovely country! And what are we going to do now?" },
+      { "speaker": "Tom", "nl": "Eerst een Belgisch biertje natuurlijk!", "en": "First a Belgian beer, of course!" }
+    ]
+  }
+}

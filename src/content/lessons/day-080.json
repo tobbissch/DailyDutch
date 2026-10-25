@@ -1,0 +1,62 @@
+{
+  "day": 80,
+  "title": "Review: dagelijks leven",
+  "names": ["Anna", "Fatima"],
+  "words": [
+    { "id": "meestal", "nl": "meestal", "en": "usually, mostly", "example": { "nl": "Ik fiets meestal naar mijn werk.", "en": "I usually cycle to work." } },
+    { "id": "gewoonlijk", "nl": "gewoonlijk", "en": "usually, normally", "example": { "nl": "Gewoonlijk eten we om zes uur.", "en": "We normally eat at six." } },
+    { "id": "af-en-toe", "nl": "af en toe", "en": "now and then, occasionally", "example": { "nl": "Af en toe ga ik naar de bioscoop.", "en": "Now and then I go to the cinema." } },
+    { "id": "regelmatig", "nl": "regelmatig", "en": "regular; regularly", "forms": ["regelmatiger", "regelmatigst", "regelmatige", "regelmatigere", "regelmatigste"], "example": { "nl": "Ik sport regelmatig.", "en": "I exercise regularly." } },
+    { "id": "zelden", "nl": "zelden", "en": "rarely, seldom", "example": { "nl": "Tom is zelden te laat.", "en": "Tom is rarely late." } },
+    { "id": "telkens", "nl": "telkens", "en": "every time, again and again", "example": { "nl": "Telkens als ik bel, is hij in gesprek.", "en": "Every time I call, he's on the phone." } },
+    { "id": "iedere", "nl": "iedere", "en": "every, each (ieder with het-words)", "forms": ["ieder"], "example": { "nl": "Iedere dag drink ik koffie.", "en": "I drink coffee every day." } },
+    { "id": "begin-noun", "nl": "begin", "en": "start, beginning", "article": "het", "forms": ["beginnetje"], "example": { "nl": "Aan het begin van de week heb ik veel werk.", "en": "At the start of the week I have a lot of work." } },
+    { "id": "tegelijk", "nl": "tegelijk", "en": "at the same time", "example": { "nl": "Ik kan niet koken en bellen tegelijk.", "en": "I can't cook and talk on the phone at the same time." } },
+    { "id": "ondertussen", "nl": "ondertussen", "en": "meanwhile, in the meantime", "example": { "nl": "Ik kook. Ondertussen doet Tom de afwas.", "en": "I cook. Meanwhile Tom does the dishes." } },
+    { "id": "verder", "nl": "verder", "en": "further; apart from that", "example": { "nl": "Verder gaat alles goed.", "en": "Apart from that, everything's fine." } },
+    { "id": "ten-slotte", "nl": "ten slotte", "en": "finally, lastly", "example": { "nl": "Ten slotte wil ik iedereen bedanken.", "en": "Finally, I'd like to thank everyone." } }
+  ],
+  "grammar": {
+    "title": "Review: telling your day in order",
+    "points": [
+      "When a sentence starts with a time word or adverb, the verb comes second and the subject after it: Meestal staat Sara om zeven uur op.",
+      "Put events in order with eerst (first), dan / daarna (then, after that), ondertussen (meanwhile) and ten slotte (finally).",
+      "tegelijk means 'at the same time': Ze kookt en belt tegelijk.",
+      "iedere and elke (every) go with de-words; with het-words use ieder or elk: iedere dag, ieder jaar.",
+      "Separable verbs split in a main clause: opstaan → Ze staat op. Afspreken → Ze spreekt af met Fatima."
+    ],
+    "examples": [
+      { "nl": "Meestal staat Sara om zeven uur op.", "en": "Sara usually gets up at seven." },
+      { "nl": "Eerst drinkt ze koffie, daarna gaat ze douchen.", "en": "First she drinks coffee, then she has a shower." },
+      { "nl": "Ondertussen leest ze het nieuws op haar telefoon.", "en": "Meanwhile she reads the news on her phone." },
+      { "nl": "Iedere dinsdag gaat ze naar de sportschool.", "en": "Every Tuesday she goes to the gym." },
+      { "nl": "Ten slotte kookt ze en belt ze haar moeder.", "en": "Finally she cooks and calls her mother." }
+    ],
+    "exercises": [
+      { "prompt": "Meestal ___ Sara met de fiets naar kantoor.", "answer": "gaat", "hint": "gaan" },
+      { "prompt": "___ dag drinkt ze koffie.", "answer": "Iedere", "hint": "every" },
+      { "prompt": "Ze kookt en luistert ___ naar muziek.", "answer": "tegelijk", "hint": "at the same time" },
+      { "prompt": "___ gaat ze naar bed.", "answer": "Ten slotte", "hint": "finally" },
+      { "prompt": "Ze gaat ___ naar de bioscoop, maar niet vaak.", "answer": "af en toe", "hint": "now and then" }
+    ]
+  },
+  "dialogue": {
+    "title": "Een dag van Sara",
+    "scene": "Tom's sister Anna asks what a normal day is like for Sara, and Tom tells her.",
+    "lines": [
+      { "speaker": "Anna", "nl": "Wat doet Sara eigenlijk iedere dag?", "en": "So what does Sara actually do all day?" },
+      { "speaker": "Tom", "nl": "Meestal staat ze om half zeven op.", "en": "She usually gets up at half past six.", "gap": "Meestal" },
+      { "speaker": "Tom", "nl": "Eerst drinkt ze koffie en ondertussen leest ze het nieuws.", "en": "First she drinks coffee, and meanwhile she reads the news.", "gap": "ondertussen" },
+      { "speaker": "Anna", "nl": "En dan gaat ze naar kantoor?", "en": "And then she goes to the office?" },
+      { "speaker": "Tom", "nl": "Gewoonlijk wel, maar af en toe werkt ze thuis.", "en": "Usually, yes, but now and then she works from home.", "gap": "af en toe" },
+      { "speaker": "Anna", "nl": "Gaat ze met de fiets?", "en": "Does she cycle?" },
+      { "speaker": "Tom", "nl": "Ja, iedere dag, ook als het regent. Ze neemt zelden de bus.", "en": "Yes, every day, even when it rains. She rarely takes the bus.", "gap": "zelden" },
+      { "speaker": "Anna", "nl": "En als ze klaar is met werken?", "en": "And when she's finished work?" },
+      { "speaker": "Tom", "nl": "Dan sport ze regelmatig, of ze spreekt af met Fatima.", "en": "Then she often does sport, or she meets up with Fatima." },
+      { "speaker": "Anna", "nl": "Wanneer heeft ze dan tijd voor jou?", "en": "So when does she have time for you?" },
+      { "speaker": "Tom", "nl": "In het weekend! En verder bellen we elke avond.", "en": "At the weekend! And apart from that we call every evening.", "gap": "verder" },
+      { "speaker": "Tom", "nl": "Om elf uur ligt ze ten slotte in bed, met een boek.", "en": "Finally, at eleven, she's in bed with a book.", "gap": "ten slotte" },
+      { "speaker": "Anna", "nl": "Telkens als ik bel, slaapt ze al!", "en": "Every time I call, she's already asleep!" }
+    ]
+  }
+}

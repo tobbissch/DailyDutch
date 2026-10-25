@@ -1,0 +1,67 @@
+{
+  "day": 54,
+  "title": "Een vergadering",
+  "names": ["Peter", "Fatima"],
+  "words": [
+    { "id": "agenda", "nl": "agenda", "en": "agenda; diary, planner", "article": "de", "plural": "agenda's", "forms": ["agendaatje"], "example": { "nl": "Wat staat er op de agenda?", "en": "What's on the agenda?" } },
+    { "id": "punt", "nl": "punt", "en": "point, item", "article": "het", "plural": "punten", "forms": ["puntje"], "example": { "nl": "Het eerste punt is het nieuwe project.", "en": "The first item is the new project." } },
+    { "id": "bespreken", "nl": "bespreken", "en": "to discuss", "forms": ["bespreek", "besprak", "bespreekt", "bespraken", "besprekend", "besproken"], "example": { "nl": "We bespreken het voorstel van Sara.", "en": "We're discussing Sara's proposal." } },
+    { "id": "voorstel", "nl": "voorstel", "en": "proposal, suggestion", "article": "het", "plural": "voorstellen", "example": { "nl": "Ik heb een voorstel.", "en": "I have a suggestion." } },
+    { "id": "akkoord", "nl": "akkoord", "en": "agreed, OK", "forms": ["accoord"], "example": { "nl": "Zijn jullie akkoord?", "en": "Do you agree?" } },
+    { "id": "besluit", "nl": "besluit", "en": "decision", "article": "het", "plural": "besluiten", "forms": ["besluitje"], "example": { "nl": "We moeten vandaag een besluit nemen.", "en": "We have to make a decision today." } },
+    { "id": "deadline", "nl": "deadline", "en": "deadline", "article": "de", "plural": "deadlines", "forms": ["deadlinetje"], "example": { "nl": "De deadline is vrijdag.", "en": "The deadline is Friday." } },
+    { "id": "project", "nl": "project", "en": "project", "article": "het", "plural": "projecten", "forms": ["projectje"], "example": { "nl": "Het nieuwe project begint maandag.", "en": "The new project starts on Monday." } },
+    { "id": "presentatie", "nl": "presentatie", "en": "presentation", "article": "de", "plural": "presentaties", "forms": ["presentatietje"], "example": { "nl": "Sara houdt een presentatie.", "en": "Sara is giving a presentation." } },
+    { "id": "resultaat", "nl": "resultaat", "en": "result", "article": "het", "plural": "resultaten", "forms": ["resultaatje"], "example": { "nl": "De resultaten zijn goed.", "en": "The results are good." } },
+    { "id": "notulen", "nl": "notulen", "en": "minutes (of a meeting)", "article": "de", "example": { "nl": "Wie maakt de notulen?", "en": "Who's taking the minutes?" } },
+    { "id": "mail", "nl": "mail", "en": "email (message)", "article": "de", "plural": "mails", "forms": ["mailtje"], "example": { "nl": "Ik heb je mail gelezen.", "en": "I've read your email." } },
+    { "id": "sturen", "nl": "sturen", "en": "to send; to steer", "forms": ["stuur", "stuurde", "stuurt", "stuurden", "sturend", "gestuurd"], "example": { "nl": "Kun je me de presentatie sturen?", "en": "Can you send me the presentation?" } },
+    { "id": "eens-particle", "nl": "eens", "en": "just, (for) once (friendly particle); once, some time", "example": { "nl": "Kijk eens!", "en": "Have a look!" } },
+    { "id": "toch-particle", "nl": "toch", "en": "right?, surely; still, anyway", "example": { "nl": "Je komt toch ook?", "en": "You're coming too, aren't you?" } }
+  ],
+  "grammar": {
+    "title": "Little words: even, maar, eens, toch",
+    "points": [
+      "Dutch uses small 'modal particles' to make sentences softer and friendlier. They often have no direct English translation.",
+      "even (just, quickly) makes a request sound small: Kun je de notulen even sturen?",
+      "maar (go ahead, just) encourages or gives permission: Zeg het maar. Ga maar zitten.",
+      "eens (just, why not) makes an invitation or suggestion friendly: Kijk eens. Probeer het eens.",
+      "toch (right? / surely) checks something you expect to be true: De deadline is toch vrijdag?",
+      "They can be combined: Kijk maar eens. Without them, an imperative can sound rather blunt."
+    ],
+    "examples": [
+      { "nl": "Kun je de notulen even sturen?", "en": "Could you just send the minutes?" },
+      { "nl": "Zeg het maar.", "en": "Go ahead (what would you like?)." },
+      { "nl": "Kijk eens naar deze resultaten.", "en": "Take a look at these results." },
+      { "nl": "De deadline is toch vrijdag?", "en": "The deadline is Friday, isn't it?" },
+      { "nl": "Probeer het maar eens.", "en": "Go on, give it a try." },
+      { "nl": "Mag ik even iets vragen?", "en": "Can I ask something quickly?" }
+    ],
+    "exercises": [
+      { "prompt": "Kun je de mail ___ sturen?", "answer": "even", "hint": "just, quickly" },
+      { "prompt": "De deadline is ___ morgen?", "answer": "toch", "hint": "right?" },
+      { "prompt": "Kijk ___ naar deze presentatie.", "answer": "eens", "hint": "friendly suggestion" },
+      { "prompt": "Ga ___ zitten.", "answer": "maar", "hint": "go ahead" },
+      { "prompt": "Mag ik ___ iets vragen?", "answer": "even", "hint": "just, quickly" }
+    ]
+  },
+  "dialogue": {
+    "title": "Maandagochtend",
+    "scene": "Monday morning team meeting at Sara's new job. Peter leads, Fatima takes the minutes.",
+    "lines": [
+      { "speaker": "Peter", "nl": "Zo, zullen we beginnen? Fatima, wil jij even de notulen maken?", "en": "Right, shall we start? Fatima, would you take the minutes?" },
+      { "speaker": "Fatima", "nl": "Ja, natuurlijk.", "en": "Yes, of course." },
+      { "speaker": "Peter", "nl": "Het eerste punt op de agenda is het nieuwe project.", "en": "The first item on the agenda is the new project.", "gap": "agenda" },
+      { "speaker": "Peter", "nl": "Sara, jij hebt een voorstel, toch?", "en": "Sara, you have a proposal, right?", "gap": "toch" },
+      { "speaker": "Sara", "nl": "Ja. Kijk eens naar deze presentatie.", "en": "Yes. Have a look at this presentation.", "gap": "eens" },
+      { "speaker": "Sara", "nl": "Ik stel voor dat we eerst met de klant praten.", "en": "I suggest we talk to the client first." },
+      { "speaker": "Fatima", "nl": "Goed idee. Wanneer is de deadline?", "en": "Good idea. When's the deadline?" },
+      { "speaker": "Peter", "nl": "Over drie weken. Dat is kort, maar het kan.", "en": "In three weeks. That's tight, but it's doable." },
+      { "speaker": "Peter", "nl": "Zijn jullie akkoord met het voorstel?", "en": "Do you agree with the proposal?", "gap": "akkoord" },
+      { "speaker": "Fatima", "nl": "Ja, akkoord.", "en": "Yes, agreed." },
+      { "speaker": "Peter", "nl": "Mooi, dan is het besluit genomen.", "en": "Great, then the decision is made." },
+      { "speaker": "Peter", "nl": "Fatima, stuur de notulen maar even naar het team.", "en": "Fatima, please just send the minutes to the team.", "gap": "maar even" },
+      { "speaker": "Fatima", "nl": "Doe ik!", "en": "Will do!" }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "day": 7,
+  "title": "Hoe oud ben jij?",
+  "words": [
+    { "id": "elf", "nl": "elf", "en": "eleven", "example": { "nl": "Tien en één is elf.", "en": "Ten and one is eleven." } },
+    { "id": "twaalf", "nl": "twaalf", "en": "twelve", "example": { "nl": "Het kost twaalf euro.", "en": "It costs twelve euros." } },
+    { "id": "dertien", "nl": "dertien", "en": "thirteen", "example": { "nl": "Hij is dertien jaar oud.", "en": "He is thirteen years old." } },
+    { "id": "veertien", "nl": "veertien", "en": "fourteen", "example": { "nl": "Zij heeft veertien euro.", "en": "She has fourteen euros." } },
+    { "id": "vijftien", "nl": "vijftien", "en": "fifteen", "example": { "nl": "Vijftien euro, alstublieft.", "en": "Fifteen euros, please." } },
+    { "id": "zestien", "nl": "zestien", "en": "sixteen", "example": { "nl": "Mijn zus is zestien.", "en": "My sister is sixteen." } },
+    { "id": "zeventien", "nl": "zeventien", "en": "seventeen", "example": { "nl": "Tien en zeven is zeventien.", "en": "Ten and seven is seventeen." } },
+    { "id": "achttien", "nl": "achttien", "en": "eighteen", "example": { "nl": "Hij is achttien jaar oud.", "en": "He is eighteen years old." } },
+    { "id": "negentien", "nl": "negentien", "en": "nineteen", "example": { "nl": "Zij is negentien en zij is student.", "en": "She is nineteen and she's a student." } },
+    { "id": "twintig", "nl": "twintig", "en": "twenty", "example": { "nl": "Twintig euro? Dat is veel!", "en": "Twenty euros? That's a lot!" } },
+    { "id": "jong", "nl": "jong", "en": "young", "forms": ["jonger", "jongst", "jonge", "jongere", "jongste"], "example": { "nl": "Noor is nog jong.", "en": "Noor is still young." } },
+    { "id": "verjaardag", "nl": "verjaardag", "en": "birthday", "article": "de", "plural": "verjaardagen", "forms": ["verjaardagje"], "example": { "nl": "Morgen is mijn verjaardag.", "en": "Tomorrow is my birthday." } },
+    { "id": "vandaag", "nl": "vandaag", "en": "today", "example": { "nl": "Vandaag is Noor zeven jaar.", "en": "Today Noor turns seven." } },
+    { "id": "morgen", "nl": "morgen", "en": "tomorrow", "example": { "nl": "Morgen werk ik niet.", "en": "I'm not working tomorrow." } },
+    { "id": "gefeliciteerd", "nl": "gefeliciteerd", "en": "congratulations; happy birthday", "example": { "nl": "Gefeliciteerd met je verjaardag!", "en": "Happy birthday!" } },
+    { "id": "cadeau", "nl": "cadeau", "en": "present, gift", "article": "het", "plural": "cadeaus", "forms": ["cadeautje"], "example": { "nl": "Het cadeau is van Tom.", "en": "The present is from Tom." } },
+    { "id": "geweldig", "nl": "geweldig", "en": "great, amazing", "forms": ["geweldige", "geweldiger", "geweldigere", "geweldigst", "geweldigste"], "example": { "nl": "Een cadeau? Geweldig!", "en": "A present? Great!" } }
+  ],
+  "grammar": {
+    "title": "Numbers 11–20 and age: Ik ben … jaar",
+    "points": [
+      "11 = elf, 12 = twaalf. From 13 to 19: number + tien: dertien, veertien, vijftien …",
+      "Watch the spelling: dertien (not drietien), veertien (not viertien).",
+      "Age: Ik ben zeven jaar (oud). oud is optional, and jaar stays singular: tien jaar, not tien jaren.",
+      "To ask someone's age: Hoe oud ben jij? Hoe oud is hij?",
+      "At a Dutch birthday you congratulate everyone, also the family: Gefeliciteerd met je dochter!"
+    ],
+    "examples": [
+      { "nl": "Hoe oud ben jij?", "en": "How old are you?" },
+      { "nl": "Ik ben twintig jaar oud.", "en": "I'm twenty years old." },
+      { "nl": "Noor is vandaag zeven.", "en": "Noor turns seven today." },
+      { "nl": "Daan is tien jaar.", "en": "Daan is ten." },
+      { "nl": "Gefeliciteerd met je dochter!", "en": "Congratulations on your daughter's birthday!" }
+    ],
+    "exercises": [
+      { "prompt": "Hoe ___ ben jij?", "answer": "oud", "hint": "old" },
+      { "prompt": "Hij is twaalf ___.", "answer": "jaar", "hint": "year" },
+      { "prompt": "Tien en drie is ___.", "answer": "dertien", "hint": "10 + 3" },
+      { "prompt": "Tien en vier is ___.", "answer": "veertien", "hint": "10 + 4" },
+      { "prompt": "___ met je verjaardag!", "answer": "Gefeliciteerd", "hint": "congratulations" }
+    ]
+  },
+  "dialogue": {
+    "title": "De verjaardag van Noor",
+    "scene": "It's the birthday of Tom's niece Noor. Sara comes along with Tom.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Hallo Noor! Gefeliciteerd!", "en": "Hi Noor! Happy birthday!", "gap": "Gefeliciteerd" },
+      { "speaker": "Noor", "nl": "Dank je wel!", "en": "Thank you!" },
+      { "speaker": "Sara", "nl": "Hoe oud ben jij vandaag?", "en": "How old are you today?", "gap": "oud" },
+      { "speaker": "Noor", "nl": "Ik ben zeven! En Daan is tien.", "en": "I'm seven! And Daan is ten." },
+      { "speaker": "Sara", "nl": "Zeven jaar! Wil jij een cadeau?", "en": "Seven! Would you like a present?", "gap": "cadeau" },
+      { "speaker": "Noor", "nl": "Ja! Dank je wel, Sara!", "en": "Yes! Thank you, Sara!" },
+      { "speaker": "Anna", "nl": "Hallo! Ik ben Anna, de zus van Tom.", "en": "Hello! I'm Anna, Tom's sister." },
+      { "speaker": "Sara", "nl": "Hallo Anna! Gefeliciteerd met je dochter!", "en": "Hi Anna! Congratulations on your daughter's birthday!" },
+      { "speaker": "Anna", "nl": "Dank je wel! En Tom, morgen is jouw verjaardag!", "en": "Thank you! And Tom, it's your birthday tomorrow!", "gap": "morgen" },
+      { "speaker": "Tom", "nl": "Ja, maar ik ben niet zo jong!", "en": "Yes, but I'm not that young!", "gap": "jong" }
+    ]
+  }
+}

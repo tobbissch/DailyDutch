@@ -1,0 +1,65 @@
+{
+  "day": 22,
+  "title": "Groter en beter",
+  "names": ["Sara", "Tom", "Anna", "Amsterdam", "Utrecht"],
+  "words": [
+    { "id": "dan-conj", "nl": "dan", "en": "than", "example": { "nl": "Tom is ouder dan Sara.", "en": "Tom is older than Sara." } },
+    { "id": "meer", "nl": "meer", "en": "more", "example": { "nl": "Het huis in Utrecht heeft meer kamers.", "en": "The house in Utrecht has more rooms." } },
+    { "id": "minder", "nl": "minder", "en": "less, fewer", "forms": ["mindere"], "example": { "nl": "Ik werk minder dan Tom.", "en": "I work less than Tom." } },
+    { "id": "meest", "nl": "meest", "en": "most", "forms": ["meeste"], "example": { "nl": "Wat kost het meest?", "en": "What costs the most?" } },
+    { "id": "snel", "nl": "snel", "en": "fast, quick", "forms": ["sneller", "snelst", "snelle", "snellere", "snelste"], "example": { "nl": "De trein is sneller dan de bus.", "en": "The train is faster than the bus." } },
+    { "id": "langzaam", "nl": "langzaam", "en": "slow", "forms": ["langzamer", "langzaamst", "langzame", "langzamere", "langzaamste"], "example": { "nl": "De bus is langzaam.", "en": "The bus is slow." } },
+    { "id": "kort", "nl": "kort", "en": "short", "forms": ["korter", "kortst", "korte", "kortere", "kortste"], "example": { "nl": "De les is kort vandaag.", "en": "The lesson is short today." } },
+    { "id": "zwaar", "nl": "zwaar", "en": "heavy; hard", "forms": ["zwaarder", "zwaarst", "zware", "zwaardere", "zwaarste"], "example": { "nl": "Mijn tas is zwaar.", "en": "My bag is heavy." } },
+    { "id": "licht", "nl": "licht", "en": "light (not heavy; bright)", "forms": ["lichter", "lichtst", "lichte", "lichtere", "lichtste"], "example": { "nl": "De kamer is groot en licht.", "en": "The room is big and bright." } },
+    { "id": "rustig", "nl": "rustig", "en": "quiet, calm", "forms": ["rustiger", "rustigst", "rustige", "rustigere", "rustigste"], "example": { "nl": "De straat is rustig.", "en": "The street is quiet." } },
+    { "id": "liever", "nl": "liever", "en": "rather (graag → liever → liefst)", "forms": ["liefst"], "example": { "nl": "Ik drink liever thee.", "en": "I'd rather drink tea." } },
+    { "id": "even", "nl": "even", "en": "just, for a moment; equally (even … als = as … as)", "example": { "nl": "Mag ik even kijken?", "en": "May I have a quick look?" } },
+    { "id": "als", "nl": "als", "en": "as (in even … als); if, when", "example": { "nl": "Anna is even groot als Tom.", "en": "Anna is as tall as Tom." } },
+    { "id": "duurder", "nl": "duurder", "en": "more expensive (duur → duurder)", "example": { "nl": "Amsterdam is duurder dan Utrecht.", "en": "Amsterdam is more expensive than Utrecht." } },
+    { "id": "zelfs", "nl": "zelfs", "en": "even", "example": { "nl": "Anna is zelfs sneller dan Tom.", "en": "Anna is even faster than Tom." } }
+  ],
+  "grammar": {
+    "title": "Comparing: groter dan, het grootst",
+    "points": [
+      "Comparative: adjective + -er. groot → groter, klein → kleiner. 'Than' is dan: Utrecht is kleiner dan Amsterdam.",
+      "After -r, add -der: duur → duurder, ver → verder.",
+      "Superlative: adjective + -st. Before a noun it gets -e: de kleinste kamer. After the verb use het: Deze kamer is het kleinst.",
+      "The normal spelling rules apply: groot → groter, snel → sneller, langzaam → langzamer.",
+      "Irregular: goed – beter – best, veel – meer – meest, graag – liever – liefst.",
+      "even … als = as … as: Anna is even groot als Tom."
+    ],
+    "examples": [
+      { "nl": "Het appartement in Utrecht is groter dan het appartement in Amsterdam.", "en": "The flat in Utrecht is bigger than the flat in Amsterdam." },
+      { "nl": "De trein is sneller dan de bus.", "en": "The train is faster than the bus." },
+      { "nl": "Dat is de mooiste kamer.", "en": "That's the nicest room." },
+      { "nl": "Ik drink liever thee dan koffie.", "en": "I prefer tea to coffee." },
+      { "nl": "Wie heeft de meeste tijd?", "en": "Who has the most time?" },
+      { "nl": "Het plan van Tom is het best.", "en": "Tom's plan is the best." }
+    ],
+    "exercises": [
+      { "prompt": "De bus is ___ dan de trein.", "answer": "langzamer", "hint": "langzaam" },
+      { "prompt": "Amsterdam is groter ___ Utrecht.", "answer": "dan", "hint": "than" },
+      { "prompt": "Ik drink ___ thee dan koffie.", "answer": "liever", "hint": "graag" },
+      { "prompt": "Dat is de ___ kamer.", "answer": "mooiste", "hint": "mooi, superlative" },
+      { "prompt": "Het appartement in Utrecht is ___.", "answer": "beter", "hint": "goed, comparative" },
+      { "prompt": "Wie heeft ___ tijd, jij of ik?", "answer": "meer", "hint": "veel, comparative" }
+    ]
+  },
+  "dialogue": {
+    "title": "Twee appartementen",
+    "scene": "Sara is looking for a new flat. She tells Tom about the two she has found.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Wat vind je van de twee appartementen?", "en": "What do you think of the two flats?" },
+      { "speaker": "Sara", "nl": "Het appartement in de stad is klein, maar het is dichtbij het station.", "en": "The flat in town is small, but it's close to the station." },
+      { "speaker": "Tom", "nl": "En het appartement bij het park?", "en": "And the flat by the park?" },
+      { "speaker": "Sara", "nl": "Dat is groter en lichter. En de straat is rustiger.", "en": "That one is bigger and brighter. And the street is quieter.", "gap": "groter" },
+      { "speaker": "Tom", "nl": "Is het ook duurder?", "en": "Is it more expensive too?", "gap": "duurder" },
+      { "speaker": "Sara", "nl": "Ja, het is veel duurder dan het appartement in de stad.", "en": "Yes, it's much more expensive than the flat in town.", "gap": "dan" },
+      { "speaker": "Tom", "nl": "Hoe ver is het station?", "en": "How far is the station?" },
+      { "speaker": "Sara", "nl": "Twintig minuten met de bus. Met de fiets is het sneller.", "en": "Twenty minutes by bus. By bike it's quicker.", "gap": "sneller" },
+      { "speaker": "Tom", "nl": "Wat wil je liever: groot of dichtbij?", "en": "What would you prefer: big or close by?", "gap": "liever" },
+      { "speaker": "Sara", "nl": "Het liefst een groot appartement dichtbij het station!", "en": "Ideally a big flat close to the station!" }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "day": 62,
+  "title": "Gevoelens",
+  "names": ["Sara", "Tom", "Amsterdam"],
+  "words": [
+    { "id": "gevoel", "nl": "gevoel", "en": "feeling", "article": "het", "plural": "gevoelens", "example": { "nl": "Ik heb een goed gevoel over het gesprek.", "en": "I have a good feeling about the interview." } },
+    { "id": "blij", "nl": "blij", "en": "happy, glad", "forms": ["blijer", "blijst", "blije", "blijere", "blijste", "blijde"], "example": { "nl": "Ik ben blij dat je er bent.", "en": "I'm glad you're here." } },
+    { "id": "boos", "nl": "boos", "en": "angry", "forms": ["bozer", "boost", "boze", "bozere", "booste"], "example": { "nl": "Tom is boos op zijn baas.", "en": "Tom is angry with his boss." } },
+    { "id": "teleurgesteld", "nl": "teleurgesteld", "en": "disappointed", "forms": ["teleurgestelder", "teleurgesteldst", "teleurgestelde", "teleurgesteldere", "teleurgesteldste"], "example": { "nl": "Hij is teleurgesteld over het resultaat.", "en": "He's disappointed with the result." } },
+    { "id": "zenuwachtig", "nl": "zenuwachtig", "en": "nervous", "forms": ["zenuwachtiger", "zenuwachtigst", "zenuwachtige", "zenuwachtigere", "zenuwachtigste"], "example": { "nl": "Sara is zenuwachtig voor de presentatie.", "en": "Sara is nervous about the presentation." } },
+    { "id": "ergeren", "nl": "ergeren", "en": "to annoy (zich ergeren aan = to be annoyed by)", "forms": ["erger", "ergerde", "ergert", "ergerden", "ergerend", "geërgerd"], "example": { "nl": "Ik erger me aan de herrie van de buren.", "en": "The neighbours' noise annoys me." } },
+    { "id": "verheugen", "nl": "verheugen", "en": "to delight (zich verheugen op = to look forward to)", "forms": ["verheug", "verheugde", "verheugt", "verheugden", "verheugend", "verheugd"], "example": { "nl": "Ik verheug me op de vakantie.", "en": "I'm looking forward to the holiday." } },
+    { "id": "zorg-noun", "nl": "zorg", "en": "worry, care (zich zorgen maken = to worry)", "article": "de", "plural": "zorgen", "forms": ["zorgje"], "example": { "nl": "Tom maakt zich zorgen over zijn werk.", "en": "Tom is worried about his work." } },
+    { "id": "stress", "nl": "stress", "en": "stress", "article": "de", "example": { "nl": "Tom heeft veel stress op zijn werk.", "en": "Tom has a lot of stress at work." } },
+    { "id": "jaloers", "nl": "jaloers", "en": "jealous", "forms": ["jaloerser", "jaloerst", "jaloerse", "jaloersere", "jaloerste"], "example": { "nl": "Ben je jaloers op haar?", "en": "Are you jealous of her?" } },
+    { "id": "eenzaam", "nl": "eenzaam", "en": "lonely", "forms": ["eenzamer", "eenzaamst", "eenzame", "eenzamere", "eenzaamste"], "example": { "nl": "In het begin was Sara soms eenzaam in Amsterdam.", "en": "At first Sara was sometimes lonely in Amsterdam." } },
+    { "id": "tevreden", "nl": "tevreden", "en": "satisfied, content", "forms": ["tevredener", "tevredenst", "tevredenste", "tevree", "tevrêe"], "example": { "nl": "De baas is tevreden over het project.", "en": "The boss is happy with the project." } },
+    { "id": "opgelucht", "nl": "opgelucht", "en": "relieved", "forms": ["opgeluchter", "opgeluchtst", "opgeluchte", "opgeluchtere", "opgeluchtste"], "example": { "nl": "Ik ben opgelucht dat het goed is gegaan.", "en": "I'm relieved that it went well." } },
+    { "id": "schrikken", "nl": "schrikken", "en": "to get a fright, to be startled", "forms": ["schrik", "schrok", "schrikt", "schrokt", "schrokken", "schrikkend", "geschrokken"], "example": { "nl": "Ik schrok van het geluid.", "en": "The noise gave me a fright." } },
+    { "id": "alsof", "nl": "alsof", "en": "as if (doen alsof = to pretend)", "example": { "nl": "Hij doet alsof hij blij is.", "en": "He pretends to be happy." } }
+  ],
+  "grammar": {
+    "title": "Feelings: zich ergeren aan, zich verheugen op",
+    "points": [
+      "Some verbs are reflexive (with me, je, zich, ons) and go with a fixed preposition. Learn them as one block.",
+      "zich ergeren aan = to be annoyed by: Ik erger me aan de herrie.",
+      "zich verheugen op = to look forward to: Wij verheugen ons op de vakantie.",
+      "zich zorgen maken over = to worry about: Hij maakt zich zorgen over zijn werk. Maak je geen zorgen! = Don't worry!",
+      "Many feeling words also have a fixed preposition: blij met, boos op, jaloers op, tevreden over, bang voor, schrikken van.",
+      "The preposition can move to the end with er or daar: Daar verheug ik me op. = I'm looking forward to that."
+    ],
+    "examples": [
+      { "nl": "Ik erger me aan de herrie.", "en": "The noise annoys me." },
+      { "nl": "Wij verheugen ons op de vakantie.", "en": "We're looking forward to the holiday." },
+      { "nl": "Tom maakt zich zorgen over zijn werk.", "en": "Tom is worried about his work." },
+      { "nl": "Maak je geen zorgen!", "en": "Don't worry!" },
+      { "nl": "Sara is blij met haar nieuwe baan.", "en": "Sara is happy with her new job." },
+      { "nl": "Ben je boos op mij?", "en": "Are you angry with me?" }
+    ],
+    "exercises": [
+      { "prompt": "Ik erger ___ aan de herrie.", "answer": "me", "hint": "reflexive pronoun" },
+      { "prompt": "Wij verheugen ons ___ de vakantie.", "answer": "op", "hint": "preposition" },
+      { "prompt": "Tom maakt ___ zorgen over zijn werk.", "answer": "zich", "hint": "reflexive pronoun" },
+      { "prompt": "Maak je geen zorgen ___ mij!", "answer": "over", "hint": "preposition" },
+      { "prompt": "Sara is boos ___ Tom.", "answer": "op", "hint": "preposition" },
+      { "prompt": "Ik ___ van het geluid.", "answer": "schrok", "hint": "schrikken, past" }
+    ]
+  },
+  "dialogue": {
+    "title": "Maak je geen zorgen",
+    "scene": "Tom comes home stressed after a bad day at work. Sara tries to cheer him up.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Tom, wat is er aan de hand? Je ziet er moe uit.", "en": "Tom, what's wrong? You look tired." },
+      { "speaker": "Tom", "nl": "Ik heb zo veel stress op mijn werk.", "en": "I've got so much stress at work.", "gap": "stress" },
+      { "speaker": "Sara", "nl": "Waarom? Wat is er?", "en": "Why? What's up?" },
+      { "speaker": "Tom", "nl": "Mijn baas is niet tevreden over mijn project. Ik maak me zorgen.", "en": "My boss isn't happy with my project. I'm worried.", "gap": "tevreden" },
+      { "speaker": "Sara", "nl": "Ben je boos op hem?", "en": "Are you angry with him?" },
+      { "speaker": "Tom", "nl": "Nee, niet boos. Wel teleurgesteld, want ik heb er hard aan gewerkt.", "en": "No, not angry. Disappointed, though, because I worked hard on it.", "gap": "teleurgesteld" },
+      { "speaker": "Sara", "nl": "Dat kan ik me voorstellen.", "en": "I can imagine." },
+      { "speaker": "Tom", "nl": "En ik erger me aan mijn collega. Hij praat altijd zo hard.", "en": "And my colleague annoys me. He always talks so loudly.", "gap": "erger me" },
+      { "speaker": "Sara", "nl": "Maak je geen zorgen. Binnenkort is de presentatie, en dan is het klaar.", "en": "Don't worry. The presentation is soon, and then it's done." },
+      { "speaker": "Tom", "nl": "Ja, maar ik ben er nu al zenuwachtig voor.", "en": "Yes, but I'm already nervous about it." },
+      { "speaker": "Sara", "nl": "Je kunt het! En daarna gaan we samen op vakantie.", "en": "You can do it! And after that we're going on holiday together." },
+      { "speaker": "Tom", "nl": "Ja! Daar verheug ik me echt op.", "en": "Yes! I'm really looking forward to that.", "gap": "verheug" },
+      { "speaker": "Sara", "nl": "Zie je? Je bent nu al blijer.", "en": "See? You're happier already." },
+      { "speaker": "Tom", "nl": "Dank je. Ik ben opgelucht dat ik er met jou over heb gepraat.", "en": "Thanks. I'm relieved I talked to you about it." }
+    ]
+  }
+}

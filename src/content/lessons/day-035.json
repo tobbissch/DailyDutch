@@ -1,0 +1,65 @@
+{
+  "day": 35,
+  "title": "Als het regent...",
+  "words": [
+    { "id": "als-conj", "nl": "als", "en": "if; when(ever)", "example": { "nl": "Als het regent, neem ik de bus.", "en": "If it rains, I take the bus." } },
+    { "id": "paraplu", "nl": "paraplu", "en": "umbrella", "article": "de", "plural": "paraplu's", "forms": ["parapluutje"], "example": { "nl": "Neem een paraplu mee!", "en": "Take an umbrella!" } },
+    { "id": "nat", "nl": "nat", "en": "wet", "forms": ["natter", "natst", "natte", "nattere", "natste"], "example": { "nl": "Mijn jas is nat.", "en": "My coat is wet." } },
+    { "id": "droog", "nl": "droog", "en": "dry", "forms": ["droger", "droogst", "droge", "drogere", "droogste"], "example": { "nl": "Morgen blijft het droog.", "en": "Tomorrow it will stay dry." } },
+    { "id": "binnen", "nl": "binnen", "en": "inside, indoors; within", "example": { "nl": "Als het regent, spelen we binnen.", "en": "If it rains, we play inside." } },
+    { "id": "buiten", "nl": "buiten", "en": "outside, outdoors", "example": { "nl": "De kinderen spelen buiten.", "en": "The children are playing outside." } },
+    { "id": "spelletje", "nl": "spelletje", "en": "game (board game, card game)", "article": "het", "plural": "spelletjes", "example": { "nl": "Wie wil een spelletje doen?", "en": "Who wants to play a game?" } },
+    { "id": "bioscoop", "nl": "bioscoop", "en": "cinema", "article": "de", "plural": "bioscopen", "forms": ["bioscoopje"], "example": { "nl": "Zondag gaan we naar de bioscoop.", "en": "On Sunday we're going to the cinema." } },
+    { "id": "zwembad", "nl": "zwembad", "en": "swimming pool", "article": "het", "plural": "zwembaden", "forms": ["zwembadje"], "example": { "nl": "Het zwembad is binnen, dus het weer is niet belangrijk.", "en": "The pool is indoors, so the weather doesn't matter." } },
+    { "id": "anders", "nl": "anders", "en": "otherwise; different(ly)", "example": { "nl": "Neem een paraplu mee, anders word je nat.", "en": "Take an umbrella, otherwise you'll get wet." } },
+    { "id": "bui", "nl": "bui", "en": "shower (of rain)", "article": "de", "plural": "buien", "forms": ["buitje"], "example": { "nl": "Het is maar een bui.", "en": "It's just a shower." } },
+    { "id": "onweer", "nl": "onweer", "en": "thunderstorm", "article": "het", "plural": "onweren", "forms": ["onweertje"], "example": { "nl": "Bij onweer gaan we niet zwemmen.", "en": "We don't go swimming in a thunderstorm." } },
+    { "id": "sneeuw", "nl": "sneeuw", "en": "snow", "article": "de", "example": { "nl": "De kinderen spelen in de sneeuw.", "en": "The children are playing in the snow." } },
+    { "id": "sneeuwen", "nl": "sneeuwen", "en": "to snow", "forms": ["sneeuw", "sneeuwt", "sneeuwde", "sneeuwden", "sneeuwend", "gesneeuwd"], "example": { "nl": "Het sneeuwt! Kijk naar buiten.", "en": "It's snowing! Look outside." } }
+  ],
+  "grammar": {
+    "title": "Als het regent...: if and whenever",
+    "points": [
+      "als starts a clause with a condition (if): Als het regent, blijven we binnen.",
+      "als (or wanneer) can also mean 'whenever' for things that happen again and again: Als het sneeuwt, spelen de kinderen altijd buiten.",
+      "As in every subordinate clause, the conjugated verb goes to the end: als het droog is.",
+      "If the als-clause comes first, the main clause starts with its verb, so you get verb – comma – verb: Als het regent, blijf ik thuis.",
+      "You can add dan to the main clause for extra clarity: Als het droog is, dan gaan we fietsen.",
+      "For one moment in the past use toen, not als: Toen het regende, bleven we binnen."
+    ],
+    "examples": [
+      { "nl": "Als het regent, blijven wij binnen.", "en": "If it rains, we stay indoors." },
+      { "nl": "Als het morgen droog is, gaan we fietsen.", "en": "If it's dry tomorrow, we'll go cycling." },
+      { "nl": "Wanneer het sneeuwt, spelen de kinderen buiten.", "en": "Whenever it snows, the children play outside." },
+      { "nl": "Neem een paraplu mee als je naar buiten gaat.", "en": "Take an umbrella when you go outside." },
+      { "nl": "Als er onweer is, gaan we niet zwemmen.", "en": "If there's a thunderstorm, we won't go swimming." },
+      { "nl": "Wat doen we als het regent?", "en": "What do we do if it rains?" }
+    ],
+    "exercises": [
+      { "prompt": "Als het ___, blijven we binnen.", "answer": "regent", "hint": "regenen" },
+      { "prompt": "Als het droog is, ___ we naar het park.", "answer": "gaan", "hint": "gaan" },
+      { "prompt": "___ je moe bent, moet je slapen.", "answer": "Als", "hint": "if" },
+      { "prompt": "Als het sneeuwt, ___ de kinderen buiten.", "answer": "spelen", "hint": "spelen" },
+      { "prompt": "Wanneer ik tijd ___, lees ik een boek.", "answer": "heb", "hint": "hebben" },
+      { "prompt": "Neem je jas mee, ___ word je nat.", "answer": "anders", "hint": "otherwise" }
+    ]
+  },
+  "dialogue": {
+    "title": "Een natte zondag",
+    "scene": "It's a rainy Sunday at Anna and Mark's house, and the kids want to know what they're going to do.",
+    "lines": [
+      { "speaker": "Noor", "nl": "Het regent! Wat gaan we vandaag doen?", "en": "It's raining! What are we going to do today?" },
+      { "speaker": "Anna", "nl": "Als het regent, blijven we binnen. We kunnen een spelletje doen.", "en": "If it rains, we stay inside. We can play a game.", "gap": "Als" },
+      { "speaker": "Daan", "nl": "Nee, niet weer een spelletje!", "en": "No, not another game!" },
+      { "speaker": "Mark", "nl": "Wat denk je van de bioscoop?", "en": "How about the cinema?" },
+      { "speaker": "Noor", "nl": "Of het zwembad! Daar ben je altijd nat.", "en": "Or the swimming pool! You're always wet there anyway.", "gap": "zwembad" },
+      { "speaker": "Anna", "nl": "Goed idee. Maar als er onweer is, gaan we niet zwemmen.", "en": "Good idea. But if there's a thunderstorm, we're not going swimming.", "gap": "onweer" },
+      { "speaker": "Mark", "nl": "Er is geen onweer. Het is maar een bui.", "en": "There's no thunderstorm. It's just a shower." },
+      { "speaker": "Daan", "nl": "En als het droog wordt, kunnen we daarna buiten spelen?", "en": "And if it gets dry, can we play outside afterwards?", "gap": "buiten" },
+      { "speaker": "Anna", "nl": "Ja, als het droog is.", "en": "Yes, if it's dry." },
+      { "speaker": "Mark", "nl": "Neem jullie jassen mee, anders worden jullie nat.", "en": "Bring your coats, otherwise you'll get wet.", "gap": "anders" },
+      { "speaker": "Noor", "nl": "En in de winter? Als het sneeuwt, gaan we dan ook naar het zwembad?", "en": "And in winter? When it snows, do we go to the pool too?" },
+      { "speaker": "Anna", "nl": "Nee, als het sneeuwt, spelen we in de sneeuw!", "en": "No, when it snows, we play in the snow!" }
+    ]
+  }
+}

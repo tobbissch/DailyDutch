@@ -1,0 +1,66 @@
+{
+  "day": 58,
+  "title": "Wat ben je aan het doen?",
+  "names": ["Sara", "Tom", "Fatima", "Noor"],
+  "words": [
+    { "id": "aan-het", "nl": "aan het", "en": "be ...ing (zijn aan het + infinitive)", "forms": ["aan't"], "example": { "nl": "Ik ben aan het koken.", "en": "I'm cooking." } },
+    { "id": "opruimen", "nl": "opruimen", "en": "to tidy up, to clear up", "forms": ["ruim op", "ruimde op", "opruim", "opruimde", "ruimt op", "opruimt", "ruimen op", "ruimden op", "opruimden", "opruimend", "opgeruimd"], "example": { "nl": "Ik ruim de woonkamer op.", "en": "I'm tidying up the living room." } },
+    { "id": "stofzuigen", "nl": "stofzuigen", "en": "to vacuum, to hoover", "forms": ["stofzuig", "stofzuigde", "stofzuigt", "stofzuigden", "stofzuigend", "gestofzuigd"], "example": { "nl": "Ik stofzuig elke zaterdag.", "en": "I vacuum every Saturday." } },
+    { "id": "strijken", "nl": "strijken", "en": "to iron", "forms": ["strijk", "streek", "strijkt", "streken", "strijkend", "gestreken"], "example": { "nl": "Tom strijkt zijn overhemd.", "en": "Tom is ironing his shirt." } },
+    { "id": "was", "nl": "was", "en": "laundry, washing", "article": "de", "plural": "wassen", "forms": ["wasje"], "example": { "nl": "Ik doe de was op zaterdag.", "en": "I do the laundry on Saturdays." } },
+    { "id": "afwas", "nl": "afwas", "en": "the dishes, washing-up", "article": "de", "example": { "nl": "Wie doet vandaag de afwas?", "en": "Who's doing the dishes today?" } },
+    { "id": "afwassen", "nl": "afwassen", "en": "to do the dishes, to wash up", "forms": ["was af", "waste af", "afwas", "afwaste", "wast af", "afwast", "wassen af", "wasten af", "afwasten", "afwassend", "afgewassen"], "example": { "nl": "Ik was af, jij ruimt op.", "en": "I'll wash up, you tidy up." } },
+    { "id": "huishouden", "nl": "huishouden", "en": "housework; household", "article": "het", "plural": "huishoudens", "forms": ["huishoudentje"], "example": { "nl": "Het huishouden kost veel tijd.", "en": "Housework takes a lot of time." } },
+    { "id": "stofzuiger", "nl": "stofzuiger", "en": "vacuum cleaner", "article": "de", "plural": "stofzuigers", "forms": ["stofzuigertje"], "example": { "nl": "De stofzuiger staat in de kast.", "en": "The vacuum cleaner is in the cupboard." } },
+    { "id": "vaatwasser", "nl": "vaatwasser", "en": "dishwasher", "article": "de", "plural": "vaatwassers", "forms": ["vaatwassertje"], "example": { "nl": "Zet de borden maar in de vaatwasser.", "en": "Just put the plates in the dishwasher." } },
+    { "id": "wasmachine", "nl": "wasmachine", "en": "washing machine", "article": "de", "plural": "wasmachines", "forms": ["wasmachinetje", "wasmachientje"], "example": { "nl": "De wasmachine is klaar.", "en": "The washing machine has finished." } },
+    { "id": "vouwen", "nl": "vouwen", "en": "to fold", "forms": ["vouw", "vouwde", "vouwt", "vouwden", "vouwend", "gevouwen"], "example": { "nl": "Ze vouwt de was.", "en": "She's folding the laundry." } },
+    { "id": "rommel", "nl": "rommel", "en": "mess; junk", "article": "de", "forms": ["rommeltje"], "example": { "nl": "Wat een rommel!", "en": "What a mess!" } }
+  ],
+  "grammar": {
+    "title": "What are you doing? aan het + infinitive, zitten te",
+    "points": [
+      "To say what someone is busy doing right now, Dutch often uses zijn + aan het + infinitive: Ik ben aan het koken (I'm cooking). The simple present also works: Ik kook.",
+      "An object usually goes before aan het, and the infinitive comes last: Ik ben de afwas aan het doen.",
+      "Separable verbs stay in one piece after aan het: Ik ben aan het opruimen.",
+      "With zitten, staan, liggen or lopen + te + infinitive you also say the position: Fatima zit te lezen, Noor ligt te slapen. Separable verbs split around te: Ik sta af te wassen.",
+      "Both work in the past too: Ik was aan het koken toen je belde. Hij zat te lezen."
+    ],
+    "examples": [
+      { "nl": "Wat ben je aan het doen?", "en": "What are you doing?" },
+      { "nl": "Ik ben aan het stofzuigen.", "en": "I'm vacuuming." },
+      { "nl": "Tom is de afwas aan het doen.", "en": "Tom is doing the dishes." },
+      { "nl": "Fatima zit op de bank te lezen.", "en": "Fatima is sitting on the sofa reading." },
+      { "nl": "Ik sta af te wassen.", "en": "I'm (standing) washing up." },
+      { "nl": "We waren aan het opruimen toen je belde.", "en": "We were tidying up when you called." }
+    ],
+    "exercises": [
+      { "prompt": "Ik ben aan het ___.", "answer": "stofzuigen", "hint": "to vacuum" },
+      { "prompt": "Wat ben je aan ___ doen?", "answer": "het", "hint": "aan ___ + infinitive" },
+      { "prompt": "Hij ___ de was aan het vouwen.", "answer": "is", "hint": "zijn" },
+      { "prompt": "Noor ligt ___ slapen.", "answer": "te", "hint": "liggen + ? + infinitive" },
+      { "prompt": "Ik sta af te ___.", "answer": "wassen", "hint": "afwassen" },
+      { "prompt": "Ze ___ op de bank te lezen.", "answer": "zit", "hint": "zitten" }
+    ]
+  },
+  "dialogue": {
+    "title": "Wat ben je aan het doen?",
+    "scene": "A busy Saturday. Sara is doing housework and phones Tom, and then Fatima calls her.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Hallo Tom! Wat ben je aan het doen?", "en": "Hi Tom! What are you doing?", "gap": "aan het doen" },
+      { "speaker": "Tom", "nl": "Ik ben aan het opruimen. Mijn huis is een grote rommel.", "en": "I'm tidying up. My house is a total mess.", "gap": "opruimen" },
+      { "speaker": "Sara", "nl": "Ik ook. Ik heb al gestofzuigd en nu ben ik de was aan het doen.", "en": "Me too. I've already vacuumed and now I'm doing the laundry." },
+      { "speaker": "Tom", "nl": "Het huishouden kost zo veel tijd! Ik moet ook nog strijken.", "en": "Housework takes so much time! I still have to do the ironing too.", "gap": "strijken" },
+      { "speaker": "Sara", "nl": "Strijken? Dat doe ik nooit. Ik vouw mijn kleren als ze nog warm zijn.", "en": "Ironing? I never do that. I fold my clothes while they're still warm." },
+      { "speaker": "Tom", "nl": "Goed idee. Zeg, heb je vandaag nog tijd?", "en": "Good idea. Say, are you free later today?" },
+      { "speaker": "Sara", "nl": "Misschien. Wacht, Fatima belt. Ik bel je zo terug!", "en": "Maybe. Hang on, Fatima's calling. I'll call you right back!" },
+      { "speaker": "Fatima", "nl": "Hallo Sara! Ben je druk?", "en": "Hi Sara! Are you busy?" },
+      { "speaker": "Sara", "nl": "Een beetje. Ik zit de was te vouwen.", "en": "A bit. I'm sitting folding the laundry.", "gap": "zit" },
+      { "speaker": "Fatima", "nl": "Ik lig lekker op de bank te lezen. De vaatwasser doet de afwas!", "en": "I'm lying on the sofa reading. The dishwasher is doing the dishes!", "gap": "vaatwasser" },
+      { "speaker": "Sara", "nl": "Jij hebt het goed! Ik heb geen vaatwasser, dus ik was elke avond af.", "en": "Lucky you! I don't have a dishwasher, so I wash up every evening." },
+      { "speaker": "Fatima", "nl": "Kom vandaag bij mij eten. Dan doe ik de afwas.", "en": "Come and eat at my place tonight. I'll do the dishes." },
+      { "speaker": "Sara", "nl": "Leuk! Mag Tom ook komen?", "en": "Lovely! Can Tom come too?" },
+      { "speaker": "Fatima", "nl": "Natuurlijk! Om zeven uur?", "en": "Of course! At seven?" }
+    ]
+  }
+}

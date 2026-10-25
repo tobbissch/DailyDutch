@@ -1,0 +1,66 @@
+{
+  "day": 90,
+  "title": "Geld en budget",
+  "names": ["Sara", "Tom", "Spanje"],
+  "words": [
+    { "id": "budget", "nl": "budget", "en": "budget", "article": "het", "plural": "budgetten", "forms": ["budgetje"], "example": { "nl": "Ik heb een budget van 300 euro voor boodschappen.", "en": "I have a budget of 300 euros for groceries." } },
+    { "id": "uitgave", "nl": "uitgave", "en": "expense; edition", "article": "de", "plural": "uitgaven", "forms": ["uitgavetje", "uitgaafje"], "example": { "nl": "De huur is mijn grootste uitgave.", "en": "Rent is my biggest expense." } },
+    { "id": "inkomen", "nl": "inkomen", "en": "income", "article": "het", "plural": "inkomens", "forms": ["inkomentje"], "example": { "nl": "Mijn inkomen is niet hoog.", "en": "My income isn't high." } },
+    { "id": "uitgeven", "nl": "uitgeven", "en": "to spend (money); to publish", "forms": ["geef uit", "gaf uit", "uitgeef", "uitgaf", "geeft uit", "uitgeeft", "geven uit", "gaven uit", "uitgaven", "uitgevend", "uitgegeven"], "example": { "nl": "Ik geef te veel geld uit aan kleren.", "en": "I spend too much money on clothes." } },
+    { "id": "besparen", "nl": "besparen", "en": "to save (on), to cut costs", "forms": ["bespaar", "bespaarde", "bespaart", "bespaarden", "besparend", "bespaard"], "example": { "nl": "Zo bespaar je 20 euro per maand.", "en": "That way you save 20 euros a month." } },
+    { "id": "rekening-noun", "nl": "rekening", "en": "(bank) account; bill", "article": "de", "plural": "rekeningen", "forms": ["rekeningetje"], "example": { "nl": "Mijn salaris komt op mijn rekening.", "en": "My salary goes into my account." } },
+    { "id": "energie", "nl": "energie", "en": "energy; gas and electricity", "article": "de", "plural": "energieën", "example": { "nl": "Energie is in de winter duur.", "en": "Energy is expensive in winter." } },
+    { "id": "belasting", "nl": "belasting", "en": "tax; burden", "article": "de", "plural": "belastingen", "forms": ["belastinkje"], "example": { "nl": "Over je salaris betaal je belasting.", "en": "You pay tax on your salary." } },
+    { "id": "toeslag", "nl": "toeslag", "en": "allowance, benefit; surcharge", "article": "de", "plural": "toeslagen", "forms": ["toeslagje"], "example": { "nl": "Met een klein inkomen krijg je soms een toeslag.", "en": "With a small income you sometimes get an allowance." } },
+    { "id": "lening", "nl": "lening", "en": "loan", "article": "de", "plural": "leningen", "forms": ["leninkje"], "example": { "nl": "Voor de auto heeft hij een lening.", "en": "He has a loan for the car." } },
+    { "id": "weinig", "nl": "weinig", "en": "little, not much; few", "forms": ["weinige", "minder", "minst"], "example": { "nl": "Ik heb deze maand weinig geld.", "en": "I don't have much money this month." } },
+    { "id": "genoeg", "nl": "genoeg", "en": "enough", "example": { "nl": "Heb je genoeg geld bij je?", "en": "Have you got enough money on you?" } },
+    { "id": "spaargeld", "nl": "spaargeld", "en": "savings", "article": "het", "plural": "spaargelden", "forms": ["spaargeldje"], "example": { "nl": "Ze betaalt de vakantie met haar spaargeld.", "en": "She's paying for the holiday with her savings." } },
+    { "id": "pinautomaat", "nl": "pinautomaat", "en": "cash machine, ATM", "article": "de", "plural": "pinautomaten", "forms": ["pinautomaatje"], "example": { "nl": "Is er hier een pinautomaat?", "en": "Is there a cash machine here?" } },
+    { "id": "pinautomaat-noun", "nl": "pinautomaat", "en": "cash machine (where you withdraw money)", "article": "de", "plural": "pinautomaten", "forms": ["pinautomaatje"], "example": { "nl": "Ik haal 50 euro bij de pinautomaat.", "en": "I'm getting 50 euros from the cash machine." } }
+  ],
+  "grammar": {
+    "title": "Money talk: genoeg, te veel, te weinig, procent",
+    "points": [
+      "te veel = too much / too many, te weinig = too little / too few: Ik geef te veel uit. Ik heb te weinig tijd.",
+      "genoeg usually comes before a noun but after an adjective: genoeg geld, but groot genoeg, oud genoeg.",
+      "veel – meer – meest and weinig – minder – minst: Ik wil minder uitgeven en meer sparen.",
+      "Percentages: 30 procent (30%). Procent stays singular: 20 procent van mijn inkomen.",
+      "Money: 12,50 euro (twaalf euro vijftig). The Dutch use a comma for decimals and a point for thousands: € 1.500 = duizend vijfhonderd.",
+      "Big numbers are written as one word: tweehonderd, drieduizend. Euro stays singular after a number: 10 euro."
+    ],
+    "examples": [
+      { "nl": "Ik geef te veel geld uit aan eten buiten de deur.", "en": "I spend too much money on eating out." },
+      { "nl": "Aan het einde van de maand heb ik te weinig over.", "en": "At the end of the month I've got too little left." },
+      { "nl": "Is je inkomen hoog genoeg voor dit huis?", "en": "Is your income high enough for this house?" },
+      { "nl": "De huur is 40 procent van mijn inkomen.", "en": "The rent is 40 percent of my income." },
+      { "nl": "Ik wil minder uitgeven en meer sparen.", "en": "I want to spend less and save more." }
+    ],
+    "exercises": [
+      { "prompt": "Ik heb niet ___ geld voor een nieuwe fiets.", "answer": "genoeg", "hint": "enough" },
+      { "prompt": "Je geeft te ___ uit! Zo heb je niets over.", "answer": "veel", "hint": "too much" },
+      { "prompt": "Is hij oud ___ om op zijn fiets naar school te gaan?", "answer": "genoeg", "hint": "enough, after adjective" },
+      { "prompt": "Ik wil ___ uitgeven en meer sparen.", "answer": "minder", "hint": "weinig, comparative" },
+      { "prompt": "Hoeveel geld heb je deze maand ___?", "answer": "uitgegeven", "hint": "uitgeven, participle" },
+      { "prompt": "Met een korte douche ___ je energie.", "answer": "bespaar", "hint": "besparen" }
+    ]
+  },
+  "dialogue": {
+    "title": "Een budget maken",
+    "scene": "Sara wants to save for her evening course, so she sits down with Tom to make a monthly budget.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Als ik wil studeren, moet ik meer sparen. Maar ik weet niet waar mijn geld blijft.", "en": "If I want to study, I need to save more. But I don't know where my money goes." },
+      { "speaker": "Tom", "nl": "Zullen we een budget maken? Wat is je inkomen per maand?", "en": "Shall we make a budget? What's your monthly income?", "gap": "inkomen" },
+      { "speaker": "Sara", "nl": "Netto ongeveer 2.400 euro. De belasting is dan al betaald.", "en": "About 2,400 euros net. That's after tax.", "gap": "belasting" },
+      { "speaker": "Tom", "nl": "En wat zijn je grootste uitgaven?", "en": "And what are your biggest expenses?", "gap": "uitgaven" },
+      { "speaker": "Sara", "nl": "De huur is 1.100 euro. Dat is meer dan 45 procent!", "en": "The rent is 1,100 euros. That's more than 45 percent!" },
+      { "speaker": "Tom", "nl": "Dat is veel. Dan nog energie, internet, je telefoon en boodschappen.", "en": "That's a lot. Then there's energy, internet, your phone and groceries." },
+      { "speaker": "Sara", "nl": "En ik geef te veel uit aan eten buiten de deur, denk ik.", "en": "And I spend too much on eating out, I think.", "gap": "te veel" },
+      { "speaker": "Tom", "nl": "Als je één keer per week minder buiten de deur eet, bespaar je zo 100 euro.", "en": "If you eat out one time less a week, you'll easily save 100 euros.", "gap": "bespaar" },
+      { "speaker": "Sara", "nl": "Goed idee. Kan ik ook een toeslag krijgen?", "en": "Good idea. Can I get an allowance too?" },
+      { "speaker": "Tom", "nl": "Nee, daarvoor is je inkomen te hoog.", "en": "No, your income is too high for that." },
+      { "speaker": "Sara", "nl": "Helaas. Ik heb nu 3.000 euro spaargeld. Is dat genoeg voor de studie?", "en": "Too bad. I've got 3,000 euros in savings now. Is that enough for the course?", "gap": "genoeg" },
+      { "speaker": "Tom", "nl": "Als je elke maand 200 euro op je rekening zet, wel. Dan heb je geen lening nodig.", "en": "If you put 200 euros into your account every month, it is. Then you won't need a loan." }
+    ]
+  }
+}

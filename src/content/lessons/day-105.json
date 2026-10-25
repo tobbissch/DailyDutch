@@ -1,0 +1,64 @@
+{
+  "day": 105,
+  "title": "Een klacht schrijven",
+  "words": [
+    { "id": "klacht-noun", "nl": "klacht", "en": "complaint", "article": "de", "plural": "klachten", "forms": ["klachtje"], "example": { "nl": "Ik heb een klacht over de factuur.", "en": "I have a complaint about the invoice." } },
+    { "id": "indienen", "nl": "indienen", "en": "to submit, to file (a complaint, a request)", "forms": ["dien in", "diende in", "indien", "indiende", "dient in", "indient", "dienen in", "dienden in", "indienden", "indienend", "ingediend"], "example": { "nl": "Sara dient een klacht in bij het bedrijf.", "en": "Sara files a complaint with the company." } },
+    { "id": "klantnummer", "nl": "klantnummer", "en": "customer number", "article": "het", "plural": "klantnummers", "example": { "nl": "Wat is uw klantnummer?", "en": "What's your customer number?" } },
+    { "id": "factuur", "nl": "factuur", "en": "invoice, bill", "article": "de", "plural": "facturen", "forms": ["factuurtje"], "example": { "nl": "De factuur moet binnen veertien dagen betaald worden.", "en": "The invoice must be paid within fourteen days." } },
+    { "id": "onterecht", "nl": "onterecht", "en": "unjustified, wrongly", "forms": ["onterechter", "onterechtst", "onterechte", "onterechtere", "onterechtste"], "example": { "nl": "Het bedrag is onterecht betaald.", "en": "The amount was paid wrongly." } },
+    { "id": "bedrag-noun", "nl": "bedrag", "en": "amount (of money)", "article": "het", "plural": "bedragen", "forms": ["bedragje"], "example": { "nl": "Het bedrag van de factuur is te hoog.", "en": "The amount on the invoice is too high." } },
+    { "id": "terugbetalen", "nl": "terugbetalen", "en": "to pay back, to refund", "forms": ["betaal terug", "betaalde terug", "terugbetaal", "terugbetaalde", "betaalt terug", "terugbetaalt", "betalen terug", "betaalden terug", "terugbetaalden", "terugbetalend", "terugbetaald"], "example": { "nl": "Het geld wordt binnen een maand terugbetaald.", "en": "The money will be refunded within a month." } },
+    { "id": "termijn", "nl": "termijn", "en": "period, term; deadline", "article": "de", "plural": "termijnen", "forms": ["termijntje"], "example": { "nl": "U moet binnen deze termijn betalen.", "en": "You must pay within this period." } },
+    { "id": "verzoeken", "nl": "verzoeken", "en": "to request (formal)", "forms": ["verzoek", "verzocht", "verzoekt", "verzochten", "verzoekend"], "example": { "nl": "Ik verzoek u het bedrag terug te betalen.", "en": "I request that you refund the amount." } },
+    { "id": "verzoek", "nl": "verzoek", "en": "request", "article": "het", "plural": "verzoeken", "forms": ["verzoekje"], "example": { "nl": "Op uw verzoek stuur ik de factuur mee.", "en": "At your request I'm enclosing the invoice." } },
+    { "id": "hoogachtend", "nl": "hoogachtend", "en": "Yours faithfully (very formal closing of a letter)", "forms": ["hoogachtender", "hoogachtendst", "hoogachtende", "hoogachtendere", "hoogachtendste"], "example": { "nl": "Hoogachtend, Sara", "en": "Yours faithfully, Sara" } },
+    { "id": "ondertekening", "nl": "ondertekening", "en": "signature (at the end of a letter); signing", "article": "de", "plural": "ondertekeningen", "example": { "nl": "Onder de brief staat de ondertekening.", "en": "The signature is at the bottom of the letter." } },
+    { "id": "met-spoed", "nl": "met spoed", "en": "urgently, as soon as possible", "example": { "nl": "Ik verzoek u met spoed te antwoorden.", "en": "I ask you to reply urgently." } },
+    { "id": "schriftelijk", "nl": "schriftelijk", "en": "written, in writing", "forms": ["schriftelijke"], "example": { "nl": "U kunt uw klacht schriftelijk indienen.", "en": "You can submit your complaint in writing." } }
+  ],
+  "grammar": {
+    "title": "A formal letter, and the passive",
+    "points": [
+      "A formal letter has a fixed order: your address and the date, the subject, Geachte heer/mevrouw, the reason you write, what you want, and a closing: Met vriendelijke groet or (very formal) Hoogachtend. Then your name and signature.",
+      "Give the facts first: your klantnummer, the date and number of the invoice, the amount. Then the request.",
+      "Formal requests: Ik verzoek u ... te + infinitive: Ik verzoek u het bedrag terug te betalen. With a separable verb, te goes in the middle: terug te betalen.",
+      "The passive is very common in formal letters, because the person who does it is less important: Het bedrag wordt terugbetaald (present: worden + participle).",
+      "For the past use is or werd + participle: Het bedrag is twee keer betaald. De factuur werd in maart gestuurd."
+    ],
+    "examples": [
+      { "nl": "Geachte heer, mevrouw,", "en": "Dear Sir or Madam," },
+      { "nl": "Het bedrag is in maart twee keer betaald.", "en": "The amount was paid twice in March." },
+      { "nl": "De factuur werd naar mijn oude adres gestuurd.", "en": "The invoice was sent to my old address." },
+      { "nl": "Ik verzoek u het bedrag binnen veertien dagen terug te betalen.", "en": "I request that you refund the amount within fourteen days." },
+      { "nl": "Mijn klacht is nog niet opgelost.", "en": "My complaint hasn't been resolved yet." }
+    ],
+    "exercises": [
+      { "prompt": "Het bedrag ___ binnen veertien dagen terugbetaald.", "answer": "wordt", "hint": "passive, present" },
+      { "prompt": "De factuur ___ in maart gestuurd.", "answer": "werd", "hint": "passive, past" },
+      { "prompt": "Ik ___ u het bedrag terug te betalen.", "answer": "verzoek", "hint": "verzoeken" },
+      { "prompt": "Ik verzoek u het bedrag terug te ___.", "answer": "betalen", "hint": "terugbetalen" },
+      { "prompt": "Ik wil een klacht ___.", "answer": "indienen", "hint": "to submit" },
+      { "prompt": "Geachte ___, mevrouw,", "answer": "heer", "hint": "sir" }
+    ]
+  },
+  "dialogue": {
+    "title": "Een klacht over de factuur",
+    "scene": "Sara has paid her energy bill twice. Tom helps her write a formal complaint to the energy company.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Kijk eens naar deze factuur! Ik moet driehonderd euro betalen.", "en": "Look at this invoice! I have to pay three hundred euros." },
+      { "speaker": "Tom", "nl": "Dat is veel. Klopt het bedrag wel?", "en": "That's a lot. Is the amount right?", "gap": "bedrag" },
+      { "speaker": "Sara", "nl": "Nee, het is onterecht. De factuur is in maart al betaald.", "en": "No, it's wrong. The invoice was already paid in March.", "gap": "onterecht" },
+      { "speaker": "Tom", "nl": "Dan moet je een klacht indienen. Het liefst schriftelijk.", "en": "Then you need to file a complaint. Preferably in writing.", "gap": "klacht indienen" },
+      { "speaker": "Sara", "nl": "Kun je me helpen met de brief? Hoe begin ik?", "en": "Can you help me with the letter? How do I start?" },
+      { "speaker": "Tom", "nl": "Met Geachte heer, mevrouw. En vergeet je klantnummer niet.", "en": "With Dear Sir or Madam. And don't forget your customer number.", "gap": "klantnummer" },
+      { "speaker": "Sara", "nl": "Dan schrijf ik: Het bedrag van uw factuur is op 3 maart door mij betaald.", "en": "Then I write: The amount on your invoice was paid by me on 3 March." },
+      { "speaker": "Tom", "nl": "Goed. En nu je verzoek. Wat wil je dat ze doen?", "en": "Good. And now your request. What do you want them to do?" },
+      { "speaker": "Sara", "nl": "Ik verzoek u het bedrag binnen veertien dagen terug te betalen.", "en": "I request that you refund the amount within fourteen days.", "gap": "terug te betalen" },
+      { "speaker": "Tom", "nl": "Goed zo. Een termijn is belangrijk. Stuur de factuur ook mee.", "en": "Well done. A deadline is important. Enclose the invoice too." },
+      { "speaker": "Sara", "nl": "En aan het einde schrijf ik Met vriendelijke groet?", "en": "And at the end I write Kind regards?" },
+      { "speaker": "Tom", "nl": "Dat kan. Hoogachtend kan ook, maar dat is meer voor een brief aan de koning.", "en": "That's fine. Yours faithfully is possible too, but that's more for a letter to the king.", "gap": "Hoogachtend" },
+      { "speaker": "Sara", "nl": "Dan nog mijn ondertekening. Ik schrijf erbij dat het met spoed moet.", "en": "Then just my signature. I'll add that it's urgent.", "gap": "met spoed" }
+    ]
+  }
+}

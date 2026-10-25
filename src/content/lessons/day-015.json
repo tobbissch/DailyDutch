@@ -1,0 +1,63 @@
+{
+  "day": 15,
+  "title": "Plannen voor het weekend",
+  "names": ["Rijksmuseum", "Vondelpark"],
+  "words": [
+    { "id": "gaan", "nl": "gaan", "en": "to go", "forms": ["ga", "ging", "gaat", "gingen", "gaand", "gegaan"], "example": { "nl": "Wij gaan naar het park.", "en": "We're going to the park." } },
+    { "id": "plan", "nl": "plan", "en": "plan", "article": "het", "plural": "plannen", "forms": ["plannetje"], "example": { "nl": "Wat zijn jouw plannen voor het weekend?", "en": "What are your plans for the weekend?" } },
+    { "id": "film", "nl": "film", "en": "film, movie", "article": "de", "plural": "films", "forms": ["filmpje"], "example": { "nl": "Wij gaan een film kijken.", "en": "We're going to watch a film." } },
+    { "id": "kijken", "nl": "kijken", "en": "to look; to watch", "forms": ["kijk", "keek", "kijkt", "keken", "kijkend", "gekeken"], "example": { "nl": "Tom kijkt graag films.", "en": "Tom likes watching films." } },
+    { "id": "zien", "nl": "zien", "en": "to see", "forms": ["zie", "zag", "ziet", "zagen", "ziend", "gezien"], "example": { "nl": "Ik wil het Rijksmuseum zien.", "en": "I want to see the Rijksmuseum." } },
+    { "id": "museum", "nl": "museum", "en": "museum", "article": "het", "plural": "musea", "forms": ["museumpje"], "example": { "nl": "Het museum is heel mooi.", "en": "The museum is very beautiful." } },
+    { "id": "stad", "nl": "stad", "en": "city, town", "article": "de", "plural": "steden", "forms": ["stadje"], "example": { "nl": "Amsterdam is een mooie stad.", "en": "Amsterdam is a beautiful city." } },
+    { "id": "wandelen", "nl": "wandelen", "en": "to walk, to go for a walk", "forms": ["wandel", "wandelde", "wandelt", "wandelden", "wandelend", "gewandeld"], "example": { "nl": "Op zondag wandel ik in het Vondelpark.", "en": "On Sundays I go for a walk in the Vondelpark." } },
+    { "id": "park", "nl": "park", "en": "park", "article": "het", "plural": "parken", "forms": ["parkje"], "example": { "nl": "Het park is groot.", "en": "The park is big." } },
+    { "id": "lezen", "nl": "lezen", "en": "to read", "forms": ["lees", "las", "leest", "lazen", "lezend", "gelezen"], "example": { "nl": "Ik lees een boek.", "en": "I'm reading a book." } },
+    { "id": "boek", "nl": "boek", "en": "book", "article": "het", "plural": "boeken", "forms": ["boekje"], "example": { "nl": "Het boek is leuk.", "en": "The book is good." } },
+    { "id": "misschien", "nl": "misschien", "en": "maybe, perhaps", "example": { "nl": "Misschien regent het morgen.", "en": "Maybe it'll rain tomorrow." } },
+    { "id": "leuk", "nl": "leuk", "en": "nice, fun", "forms": ["leuker", "leukst", "leuke", "leukere", "leukste"], "example": { "nl": "Dat is leuk!", "en": "That's fun!" } },
+    { "id": "zin", "nl": "zin", "en": "sentence; zin hebben in = to feel like", "article": "de", "plural": "zinnen", "forms": ["zinnetje"], "example": { "nl": "Heb jij zin in een film?", "en": "Do you feel like a film?" } },
+    { "id": "samen", "nl": "samen", "en": "together", "example": { "nl": "Wij gaan samen.", "en": "We're going together." } },
+    { "id": "vanavond", "nl": "vanavond", "en": "tonight, this evening", "example": { "nl": "Vanavond kijk ik een film.", "en": "Tonight I'm watching a film." } },
+    { "id": "laten", "nl": "laten", "en": "to let; laten we … = let's …", "forms": ["laat", "liet", "lieten", "gelaten", "latend"], "example": { "nl": "Laten we samen naar het park gaan.", "en": "Let's go to the park together." } },
+    { "id": "heen", "nl": "heen", "en": "(to) there; heen en terug = there and back", "example": { "nl": "Waar ga je heen?", "en": "Where are you going?" } }
+  ],
+  "grammar": {
+    "title": "gaan + infinitive: Ik ga lezen.",
+    "points": [
+      "gaan: ik ga, jij gaat, hij/zij gaat, wij/jullie/zij gaan.",
+      "gaan + infinitive = going to: Ik ga lezen (I'm going to read). The infinitive goes to the end, just like after a modal verb.",
+      "gaan + activity also means 'go and do something': gaan wandelen, gaan fietsen.",
+      "Dutch also often uses the plain present tense for the future, with a time word: Morgen werk ik.",
+      "zin hebben in = to feel like: Ik heb zin in een film."
+    ],
+    "examples": [
+      { "nl": "Ik ga een boek lezen.", "en": "I'm going to read a book." },
+      { "nl": "Wij gaan samen wandelen.", "en": "We're going for a walk together." },
+      { "nl": "Zaterdag gaat Tom een film kijken.", "en": "On Saturday Tom is going to watch a film." },
+      { "nl": "Gaan jullie naar het museum?", "en": "Are you going to the museum?" },
+      { "nl": "Morgen ga ik fietsen.", "en": "Tomorrow I'm going cycling." }
+    ],
+    "exercises": [
+      { "prompt": "Ik ___ een film kijken.", "answer": "ga", "hint": "gaan" },
+      { "prompt": "Tom ___ een boek lezen.", "answer": "gaat", "hint": "gaan" },
+      { "prompt": "Wij gaan in het park ___.", "answer": "wandelen", "hint": "to walk" },
+      { "prompt": "___ jullie naar het museum?", "answer": "Gaan", "hint": "gaan" },
+      { "prompt": "Heb jij ___ in een film?", "answer": "zin", "hint": "feel like" }
+    ]
+  },
+  "dialogue": {
+    "title": "Wat gaan wij doen?",
+    "scene": "Sara and Tom plan their Saturday in Amsterdam.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Sara, wat zijn jouw plannen voor zaterdag?", "en": "Sara, what are your plans for Saturday?", "gap": "plannen" },
+      { "speaker": "Sara", "nl": "Ik heb nog geen plan. Misschien ga ik lezen.", "en": "I don't have a plan yet. Maybe I'll read.", "gap": "Misschien" },
+      { "speaker": "Tom", "nl": "Lezen? Nee! Heb jij zin in het Rijksmuseum?", "en": "Reading? No! Do you feel like going to the Rijksmuseum?", "gap": "zin" },
+      { "speaker": "Sara", "nl": "Ja, leuk! Ik wil het museum heel graag zien.", "en": "Yes, nice! I'd really like to see the museum." },
+      { "speaker": "Tom", "nl": "En in de middag gaan wij wandelen in het Vondelpark.", "en": "And in the afternoon we'll go for a walk in the Vondelpark.", "gap": "wandelen" },
+      { "speaker": "Sara", "nl": "Maar misschien regent het!", "en": "But maybe it'll rain!" },
+      { "speaker": "Tom", "nl": "Ja, misschien. Wij kunnen ook een film kijken.", "en": "Yes, maybe. We can also watch a film." },
+      { "speaker": "Sara", "nl": "Goed! Laten we samen naar de stad gaan.", "en": "Great! Let's go into town together.", "gap": "samen" }
+    ]
+  }
+}

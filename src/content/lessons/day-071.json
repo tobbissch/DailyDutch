@@ -1,0 +1,71 @@
+{
+  "day": 71,
+  "title": "Koken",
+  "names": ["Sara", "Tom", "Daan"],
+  "words": [
+    { "id": "recept-noun", "nl": "recept", "en": "recipe; prescription", "article": "het", "plural": "recepten", "forms": ["receptje"], "example": { "nl": "Heb jij een goed recept voor soep?", "en": "Have you got a good soup recipe?" } },
+    { "id": "stamppot", "nl": "stamppot", "en": "stamppot (mashed potatoes with vegetables)", "article": "de", "plural": "stamppotten", "forms": ["stamppotje"], "example": { "nl": "In de winter eten we vaak stamppot.", "en": "In winter we often eat stamppot." } },
+    { "id": "aardappel", "nl": "aardappel", "en": "potato", "article": "de", "plural": "aardappelen", "forms": ["aardappeltje", "aardappels"], "example": { "nl": "Schil eerst de aardappelen.", "en": "First peel the potatoes." } },
+    { "id": "ui", "nl": "ui", "en": "onion", "article": "de", "plural": "uien", "forms": ["uitje"], "example": { "nl": "Snijd de ui in kleine stukken.", "en": "Cut the onion into small pieces." } },
+    { "id": "wortel", "nl": "wortel", "en": "carrot; root", "article": "de", "plural": "wortels", "forms": ["worteltje"], "example": { "nl": "Daan eet graag wortels.", "en": "Daan likes eating carrots." } },
+    { "id": "boerenkool", "nl": "boerenkool", "en": "kale", "article": "de", "plural": "boerenkolen", "forms": ["boerenkooltje"], "example": { "nl": "Boerenkool met worst is lekker in de winter.", "en": "Kale with sausage is delicious in winter." } },
+    { "id": "worst", "nl": "worst", "en": "sausage", "article": "de", "plural": "worsten", "forms": ["worstje"], "example": { "nl": "Bak de worst in de pan.", "en": "Fry the sausage in the pan." } },
+    { "id": "snijden", "nl": "snijden", "en": "to cut", "forms": ["snij", "snijd", "sneed", "snijdt", "sneedt", "sneden", "snijdend", "gesneden"], "example": { "nl": "Ik snijd de ui.", "en": "I'm cutting the onion." } },
+    { "id": "schillen", "nl": "schillen", "en": "to peel", "forms": ["schil", "schilde", "schilt", "schilden", "schillend", "geschild"], "example": { "nl": "Tom schilt de aardappelen.", "en": "Tom is peeling the potatoes." } },
+    { "id": "bakken", "nl": "bakken", "en": "to bake; to fry", "forms": ["bak", "bakte", "bakt", "bakten", "bakkend", "gebakken"], "example": { "nl": "Mijn moeder bakt een taart.", "en": "My mother is baking a cake." } },
+    { "id": "braden", "nl": "braden", "en": "to roast", "forms": ["braad", "braadde", "braadt", "braadden", "bradend", "gebraden"], "example": { "nl": "Oma braadt het vlees in de oven.", "en": "Grandma roasts the meat in the oven." } },
+    { "id": "roeren", "nl": "roeren", "en": "to stir", "forms": ["roer", "roerde", "roert", "roerden", "roerend", "geroerd"], "example": { "nl": "Roer goed!", "en": "Stir well!" } },
+    { "id": "pan", "nl": "pan", "en": "pan", "article": "de", "plural": "pannen", "forms": ["pannetje"], "example": { "nl": "Doe het water in een grote pan.", "en": "Put the water in a big pan." } },
+    { "id": "oven", "nl": "oven", "en": "oven", "article": "de", "plural": "ovens", "forms": ["oventje"], "example": { "nl": "De taart staat in de oven.", "en": "The cake is in the oven." } },
+    { "id": "zout-noun", "nl": "zout", "en": "salt", "article": "het", "plural": "zouten", "forms": ["zoutje"], "example": { "nl": "Doe een beetje zout in het water.", "en": "Put a little salt in the water." } },
+    { "id": "peper", "nl": "peper", "en": "pepper", "article": "de", "plural": "pepers", "forms": ["pepertje"], "example": { "nl": "Peper en zout, graag.", "en": "Salt and pepper, please." } },
+    { "id": "stampen", "nl": "stampen", "en": "to mash; to stamp", "forms": ["stamp", "stampt", "stampte", "stampten", "stampend", "gestampt"], "example": { "nl": "Stamp de aardappelen met de boerenkool.", "en": "Mash the potatoes with the kale." } },
+    { "id": "tot-slot", "nl": "tot slot", "en": "finally, to finish", "example": { "nl": "Tot slot: eet smakelijk!", "en": "And finally: enjoy your meal!" } }
+  ],
+  "grammar": {
+    "title": "Recipes: Schil de aardappelen!",
+    "points": [
+      "Recipes and instructions use the imperative: the stem of the verb, at the start: Schil de aardappelen. Snijd de ui.",
+      "Keep the spelling of the stem: snijden → snijd, braden → braad, bakken → bak, roeren → roer.",
+      "When someone explains out loud, they often use je + verb instead: Eerst schil je de aardappelen.",
+      "Order words: eerst (first), dan (then), daarna (after that), tot slot (finally). After them the verb comes next: Daarna snijd je de ui.",
+      "Before or after the meal: Eet smakelijk! = Enjoy your meal!"
+    ],
+    "examples": [
+      { "nl": "Schil eerst de aardappelen.", "en": "First peel the potatoes." },
+      { "nl": "Snijd de aardappelen in stukken.", "en": "Cut the potatoes into pieces." },
+      { "nl": "Dan kook je ze twintig minuten.", "en": "Then you boil them for twenty minutes." },
+      { "nl": "Daarna stamp je de aardappelen met de boerenkool.", "en": "After that you mash the potatoes with the kale." },
+      { "nl": "Tot slot doe je er zout en peper op.", "en": "Finally you add salt and pepper." },
+      { "nl": "Bak de worst in een kleine pan.", "en": "Fry the sausage in a small pan." }
+    ],
+    "exercises": [
+      { "prompt": "___ de aardappelen!", "answer": "Schil", "hint": "schillen" },
+      { "prompt": "___ de ui in kleine stukken.", "answer": "Snijd", "hint": "snijden" },
+      { "prompt": "Eerst schil je de aardappelen. ___ kook je ze.", "answer": "Dan", "hint": "then" },
+      { "prompt": "___ goed!", "answer": "Roer", "hint": "roeren" },
+      { "prompt": "Daarna ___ je de worst in de pan.", "answer": "bak", "hint": "bakken" },
+      { "prompt": "Tot ___: eet smakelijk!", "answer": "slot", "hint": "finally" }
+    ]
+  },
+  "dialogue": {
+    "title": "Stamppot maken",
+    "scene": "On a cold evening, Tom teaches Sara how to make boerenkool stamppot, his grandmother's recipe.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Vandaag leer ik je stamppot maken. Het recept is van mijn oma.", "en": "Today I'm teaching you to make stamppot. The recipe is my grandma's.", "gap": "recept" },
+      { "speaker": "Sara", "nl": "Leuk! Wat moet ik eerst doen?", "en": "Great! What do I do first?" },
+      { "speaker": "Tom", "nl": "Eerst schil je de aardappelen. Hier is een mes.", "en": "First you peel the potatoes. Here's a knife.", "gap": "schil" },
+      { "speaker": "Sara", "nl": "Zo? Ik schil niet zo snel als jij.", "en": "Like this? I don't peel as fast as you." },
+      { "speaker": "Tom", "nl": "Goed zo. Snijd ze daarna in stukken en doe ze in de pan.", "en": "Well done. Then cut them into pieces and put them in the pan.", "gap": "Snijd" },
+      { "speaker": "Sara", "nl": "En dan?", "en": "And then?" },
+      { "speaker": "Tom", "nl": "Dan doe je water in de pan, met een beetje zout. Kook de aardappelen twintig minuten.", "en": "Then you put water in the pan, with a little salt. Boil the potatoes for twenty minutes." },
+      { "speaker": "Sara", "nl": "En de boerenkool?", "en": "And the kale?" },
+      { "speaker": "Tom", "nl": "Die kook je samen met de aardappelen. Bak de worst in een kleine pan.", "en": "You boil that together with the potatoes. Fry the sausage in a small pan.", "gap": "Bak" },
+      { "speaker": "Sara", "nl": "Klaar! Wat nu?", "en": "Done! What now?" },
+      { "speaker": "Tom", "nl": "Nu stamp je de aardappelen en de boerenkool. Doe er ook melk en boter in.", "en": "Now you mash the potatoes and the kale. Add some milk and butter too." },
+      { "speaker": "Tom", "nl": "Roer goed. Tot slot: zout en peper.", "en": "Stir well. And finally: salt and pepper.", "gap": "Tot slot" },
+      { "speaker": "Sara", "nl": "Het ziet er lekker uit!", "en": "It looks delicious!" },
+      { "speaker": "Tom", "nl": "Eet smakelijk!", "en": "Enjoy your meal!" }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "day": 76,
+  "title": "Het nieuws",
+  "words": [
+    { "id": "krant", "nl": "krant", "en": "newspaper", "article": "de", "plural": "kranten", "forms": ["krantje"], "example": { "nl": "Tom leest elke ochtend de krant.", "en": "Tom reads the paper every morning." } },
+    { "id": "artikel", "nl": "artikel", "en": "article", "article": "het", "plural": "artikelen", "forms": ["artikeltje"], "example": { "nl": "Heb je dit artikel gelezen?", "en": "Have you read this article?" } },
+    { "id": "journaal", "nl": "journaal", "en": "the TV news", "article": "het", "plural": "journaals", "forms": ["journaaltje"], "example": { "nl": "Om acht uur kijken we naar het journaal.", "en": "At eight o'clock we watch the news." } },
+    { "id": "gebeuren", "nl": "gebeuren", "en": "to happen", "forms": ["gebeur", "gebeurde", "gebeurt", "gebeurden", "gebeurend", "gebeurd"], "example": { "nl": "Wat is er gebeurd?", "en": "What happened?" } },
+    { "id": "ongeluk", "nl": "ongeluk", "en": "accident; bad luck", "article": "het", "plural": "ongelukken", "forms": ["ongelukje"], "example": { "nl": "Er was een ongeluk in het centrum.", "en": "There was an accident in the town centre." } },
+    { "id": "politie", "nl": "politie", "en": "police", "article": "de", "example": { "nl": "De politie kwam heel snel.", "en": "The police came very quickly." } },
+    { "id": "brand", "nl": "brand", "en": "fire (a blaze)", "article": "de", "plural": "branden", "forms": ["brandje"], "example": { "nl": "Er was gisteren een grote brand in Utrecht.", "en": "There was a big fire in Utrecht yesterday." } },
+    { "id": "regering", "nl": "regering", "en": "government", "article": "de", "plural": "regeringen", "forms": ["regerinkje"], "example": { "nl": "De regering heeft een nieuw plan.", "en": "The government has a new plan." } },
+    { "id": "minister", "nl": "minister", "en": "minister (in government)", "article": "de", "plural": "ministers", "forms": ["ministertje"], "example": { "nl": "De minister wil morgen een reactie geven.", "en": "The minister wants to respond tomorrow." } },
+    { "id": "verkiezingen", "nl": "verkiezing", "en": "election", "article": "de", "plural": "verkiezingen", "example": { "nl": "In maart zijn er verkiezingen.", "en": "There are elections in March." } },
+    { "id": "stemmen", "nl": "stemmen", "en": "to vote", "forms": ["stem", "stemde", "stemt", "stemden", "stemmend", "gestemd"], "example": { "nl": "Op wie ga jij stemmen?", "en": "Who are you going to vote for?" } },
+    { "id": "economie", "nl": "economie", "en": "economy; economics", "article": "de", "plural": "economieën", "forms": ["economietje"], "example": { "nl": "Het gaat goed met de economie.", "en": "The economy is doing well." } },
+    { "id": "prijzen", "nl": "prijs", "en": "price", "article": "de", "plural": "prijzen", "example": { "nl": "De prijzen in de supermarkt stijgen.", "en": "Prices in the supermarket are rising." } },
+    { "id": "stijgen", "nl": "stijgen", "en": "to rise, to go up", "forms": ["stijg", "steeg", "stijgt", "stegen", "stijgend", "gestegen"], "example": { "nl": "De huur stijgt weer.", "en": "The rent is going up again." } },
+    { "id": "dalen", "nl": "dalen", "en": "to fall, to go down", "forms": ["daal", "daalde", "daalt", "daalden", "dalend", "gedaald"], "example": { "nl": "De prijs van gas daalt.", "en": "The price of gas is falling." } }
+  ],
+  "grammar": {
+    "title": "In the news: passive and had gedaan",
+    "points": [
+      "News reports often use the passive: worden + participle. The focus is on what happens, not on who does it: De regering wordt gekozen.",
+      "For the past, use werd (singular) or werden (plural) + participle: De man werd gevonden. For a finished event, use is/zijn + participle: De dief is gevonden.",
+      "Add the person who does it with door: Het ongeluk werd door een buurman gezien.",
+      "The past perfect (had gedaan) is for something that happened before another moment in the past: Toen Tom de krant opende, had hij het nieuws al gehoord.",
+      "Form it with had/hadden or was/waren + participle. Verbs that take zijn in the perfect take was/waren: De prijzen waren al gestegen."
+    ],
+    "examples": [
+      { "nl": "De nieuwe regering wordt in mei gekozen.", "en": "The new government will be elected in May." },
+      { "nl": "De minister werd door de krant gebeld.", "en": "The minister was called by the newspaper." },
+      { "nl": "De brand werd door een buurman gezien.", "en": "The fire was seen by a neighbour." },
+      { "nl": "Toen Tom de krant opende, had hij het nieuws al gehoord.", "en": "When Tom opened the paper, he had already heard the news." },
+      { "nl": "Ze hadden al gestemd voordat het ging regenen.", "en": "They had already voted before it started to rain." },
+      { "nl": "De prijzen waren in maart al gestegen.", "en": "Prices had already gone up in March." }
+    ],
+    "exercises": [
+      { "prompt": "De nieuwe regering wordt in mei ___.", "answer": "gekozen", "hint": "kiezen" },
+      { "prompt": "De man ___ door de politie gevonden.", "answer": "werd", "hint": "worden, past" },
+      { "prompt": "Toen ik thuiskwam, ___ Tom al gegeten.", "answer": "had", "hint": "hebben, past" },
+      { "prompt": "De prijzen ___ in maart al gestegen.", "answer": "waren", "hint": "zijn, past" },
+      { "prompt": "Wat is er ___?", "answer": "gebeurd", "hint": "gebeuren" }
+    ]
+  },
+  "dialogue": {
+    "title": "Het ochtendnieuws",
+    "scene": "Tom reads the morning paper while Sara makes coffee.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Staat er iets in de krant?", "en": "Is there anything in the paper?" },
+      { "speaker": "Tom", "nl": "Ja, er was gisteren een grote brand in Utrecht, bij mijn oude school.", "en": "Yes, there was a big fire in Utrecht yesterday, near my old school." },
+      { "speaker": "Sara", "nl": "Wat vreselijk! Wat is er gebeurd?", "en": "How awful! What happened?", "gap": "gebeurd" },
+      { "speaker": "Tom", "nl": "Er was brand in een restaurant. Toen de politie kwam, was iedereen al buiten.", "en": "There was a fire in a restaurant. When the police arrived, everyone was already outside.", "gap": "was" },
+      { "speaker": "Sara", "nl": "Gelukkig! Weet de politie hoe het is gebeurd?", "en": "Thank goodness! Do the police know how it happened?" },
+      { "speaker": "Tom", "nl": "Nee, dat weten ze nog niet.", "en": "No, they don't know yet." },
+      { "speaker": "Sara", "nl": "En wat staat er nog meer in de krant?", "en": "And what else is in the paper?" },
+      { "speaker": "Tom", "nl": "Een artikel over de verkiezingen. Er wordt in maart gestemd.", "en": "An article about the elections. The vote is in March.", "gap": "gestemd" },
+      { "speaker": "Sara", "nl": "Ik mag nog niet stemmen, want ik heb de Nederlandse nationaliteit niet.", "en": "I can't vote yet, because I don't have Dutch nationality." },
+      { "speaker": "Tom", "nl": "En de prijzen in de supermarkt zijn weer gestegen.", "en": "And supermarket prices have gone up again.", "gap": "gestegen" },
+      { "speaker": "Sara", "nl": "Dat had ik al gezien! Mijn boodschappen waren gisteren heel duur.", "en": "I'd already noticed! My groceries were really expensive yesterday." },
+      { "speaker": "Tom", "nl": "Gelukkig daalt de prijs van gas wel.", "en": "Luckily the price of gas is going down.", "gap": "daalt" },
+      { "speaker": "Sara", "nl": "Dat is eindelijk goed nieuws!", "en": "Finally some good news!" }
+    ]
+  }
+}

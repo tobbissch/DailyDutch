@@ -1,0 +1,63 @@
+{
+  "day": 110,
+  "title": "Een presentatie",
+  "names": ["Peter", "Fatima"],
+  "words": [
+    { "id": "ten-eerste", "nl": "ten eerste", "en": "firstly, first of all", "example": { "nl": "Ten eerste wil ik iedereen bedanken.", "en": "First of all, I want to thank everyone." } },
+    { "id": "ten-tweede", "nl": "ten tweede", "en": "secondly", "example": { "nl": "Ten tweede is het plan goedkoop.", "en": "Secondly, the plan is cheap." } },
+    { "id": "bovendien", "nl": "bovendien", "en": "moreover, besides", "example": { "nl": "Het is te duur. Bovendien hebben we geen tijd.", "en": "It's too expensive. Besides, we don't have time." } },
+    { "id": "daarom", "nl": "daarom", "en": "that's why, therefore", "example": { "nl": "Het regent, daarom neem ik de bus.", "en": "It's raining, that's why I'm taking the bus." } },
+    { "id": "daarnaast", "nl": "daarnaast", "en": "in addition, besides that", "example": { "nl": "Ik werk fulltime. Daarnaast leer ik Nederlands.", "en": "I work full-time. In addition, I'm learning Dutch." } },
+    { "id": "samenvattend", "nl": "samenvattend", "en": "in summary, to sum up", "example": { "nl": "Samenvattend: het project is een succes.", "en": "To sum up: the project is a success." } },
+    { "id": "conclusie", "nl": "conclusie", "en": "conclusion", "article": "de", "plural": "conclusies", "forms": ["conclusietje"], "example": { "nl": "Wat is jouw conclusie?", "en": "What's your conclusion?" } },
+    { "id": "grafiek", "nl": "grafiek", "en": "graph, chart", "article": "de", "plural": "grafieken", "forms": ["grafiekje"], "example": { "nl": "In de grafiek zie je de resultaten.", "en": "In the graph you can see the results." } },
+    { "id": "onderzoek", "nl": "onderzoek", "en": "research, study", "article": "het", "plural": "onderzoeken", "forms": ["onderzoekje"], "example": { "nl": "Voor het onderzoek hebben we 100 mensen gesproken.", "en": "For the research we spoke to 100 people." } },
+    { "id": "dia", "nl": "dia", "en": "slide (in a presentation)", "article": "de", "plural": "dia's", "forms": ["diaatje"], "example": { "nl": "Op deze dia ziet u het plan.", "en": "On this slide you can see the plan." } },
+    { "id": "uitleggen", "nl": "uitleggen", "en": "to explain", "forms": ["leg uit", "legde uit", "uitleg", "uitlegde", "legt uit", "uitlegt", "leggen uit", "legden uit", "uitlegden", "uitleggend", "uitgelegd"], "example": { "nl": "Kun je dat nog een keer uitleggen?", "en": "Can you explain that once more?" } },
+    { "id": "uitleg", "nl": "uitleg", "en": "explanation", "article": "de", "plural": "uitleggen", "forms": ["uitlegje"], "example": { "nl": "Bedankt voor de uitleg!", "en": "Thanks for the explanation!" } },
+    { "id": "publiek-noun", "nl": "publiek", "en": "audience", "article": "het", "plural": "publieken", "forms": ["publiekje"], "example": { "nl": "Het publiek stelt veel vragen.", "en": "The audience asks a lot of questions." } },
+    { "id": "toehoorder", "nl": "toehoorder", "en": "listener", "article": "de", "plural": "toehoorders", "example": { "nl": "De toehoorders luisteren goed.", "en": "The listeners are paying attention." } },
+    { "id": "duidelijk", "nl": "duidelijk", "en": "clear", "forms": ["duidelijker", "duidelijkst", "duidelijke", "duidelijkere", "duidelijkste"], "example": { "nl": "Is dat duidelijk?", "en": "Is that clear?" } }
+  ],
+  "grammar": {
+    "title": "Linking words: ten eerste, bovendien, daarom",
+    "points": [
+      "Linking words help you structure a talk: ten eerste (first), ten tweede (second), daarnaast / bovendien (in addition, moreover), daarom (that's why), samenvattend (to sum up).",
+      "When such a word starts the sentence, the verb comes right after it and the subject follows: Daarom wil ik ... (not: Daarom ik wil ...).",
+      "This is the normal Dutch rule: the conjugated verb is always in second place in a main clause.",
+      "daarom gives a result; omdat gives a reason and sends the verb to the end: Het regent, daarom neem ik de bus. / Ik neem de bus, omdat het regent."
+    ],
+    "examples": [
+      { "nl": "Ten eerste is het project goedkoop.", "en": "Firstly, the project is cheap." },
+      { "nl": "Ten tweede kunnen we snel beginnen.", "en": "Secondly, we can start quickly." },
+      { "nl": "Bovendien zijn de klanten tevreden.", "en": "Moreover, the clients are satisfied." },
+      { "nl": "Daarnaast heb ik een onderzoek gedaan.", "en": "In addition, I've done some research." },
+      { "nl": "Het budget is klein, daarom moeten we besparen.", "en": "The budget is small, that's why we have to save." }
+    ],
+    "exercises": [
+      { "prompt": "Ten eerste ___ het project goedkoop.", "answer": "is", "hint": "zijn — word order" },
+      { "prompt": "___ zijn de klanten tevreden.", "answer": "Bovendien", "hint": "moreover" },
+      { "prompt": "Het budget is klein. ___ moeten we besparen.", "answer": "Daarom", "hint": "that's why" },
+      { "prompt": "Ten tweede ___ we snel beginnen.", "answer": "kunnen", "hint": "kunnen" },
+      { "prompt": "Kun je dat nog een keer ___?", "answer": "uitleggen", "hint": "to explain" }
+    ]
+  },
+  "dialogue": {
+    "title": "Mijn project",
+    "scene": "Sara presents her project to Peter, Fatima and the rest of the team.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Dag iedereen. Vandaag wil ik ons nieuwe project voor de klant uitleggen.", "en": "Hello everyone. Today I want to explain our new project for the client.", "gap": "uitleggen" },
+      { "speaker": "Sara", "nl": "Op deze dia ziet u het plan. Ten eerste maken we een nieuwe app.", "en": "On this slide you can see the plan. First, we're making a new app.", "gap": "Ten eerste" },
+      { "speaker": "Sara", "nl": "Ten tweede maken we nieuwe foto's voor de klant.", "en": "Second, we're taking new photos for the client." },
+      { "speaker": "Sara", "nl": "In deze grafiek ziet u het resultaat van ons onderzoek.", "en": "In this graph you can see the result of our research.", "gap": "grafiek" },
+      { "speaker": "Sara", "nl": "Bovendien vinden de mensen in het onderzoek de app heel makkelijk.", "en": "Moreover, the people in the study find the app very easy." },
+      { "speaker": "Peter", "nl": "Heb je ook naar de kosten gekeken?", "en": "Have you also looked at the costs?" },
+      { "speaker": "Sara", "nl": "Ja. Het project is goedkoper dan het oude plan. Daarom stel ik voor om in juni te beginnen.", "en": "Yes. The project is cheaper than the old plan. That's why I suggest starting in June.", "gap": "Daarom" },
+      { "speaker": "Fatima", "nl": "Kun je de laatste dia nog een keer uitleggen?", "en": "Can you explain the last slide once more?" },
+      { "speaker": "Sara", "nl": "Natuurlijk. Samenvattend: de app is duidelijk, goedkoop en klaar voor de zomer.", "en": "Of course. To sum up: the app is clear, cheap and ready for the summer.", "gap": "Samenvattend" },
+      { "speaker": "Peter", "nl": "Dank je, Sara. Heeft het publiek nog vragen?", "en": "Thank you, Sara. Does the audience have any questions?" },
+      { "speaker": "Fatima", "nl": "Nee, jouw uitleg was heel duidelijk.", "en": "No, your explanation was very clear." },
+      { "speaker": "Peter", "nl": "Dan is de conclusie makkelijk: we beginnen in juni!", "en": "Then the conclusion is easy: we start in June!" }
+    ]
+  }
+}

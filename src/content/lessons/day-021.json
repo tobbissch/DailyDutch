@@ -1,0 +1,65 @@
+{
+  "day": 21,
+  "title": "Waar ligt mijn sleutel?",
+  "names": ["Sara", "Tom"],
+  "words": [
+    { "id": "onder", "nl": "onder", "en": "under", "example": { "nl": "Mijn tas staat onder de tafel.", "en": "My bag is under the table." } },
+    { "id": "naast", "nl": "naast", "en": "next to", "example": { "nl": "De stoel staat naast het raam.", "en": "The chair is next to the window." } },
+    { "id": "achter", "nl": "achter", "en": "behind", "example": { "nl": "De fiets staat achter het huis.", "en": "The bike is behind the house." } },
+    { "id": "tussen", "nl": "tussen", "en": "between", "example": { "nl": "Het station ligt tussen het park en het plein.", "en": "The station is between the park and the square." } },
+    { "id": "bij", "nl": "bij", "en": "at, near; at someone's place", "example": { "nl": "Ik ben bij Tom.", "en": "I'm at Tom's." } },
+    { "id": "tafel", "nl": "tafel", "en": "table", "article": "de", "plural": "tafels", "forms": ["tafeltje"], "example": { "nl": "Het brood ligt op de tafel.", "en": "The bread is on the table." } },
+    { "id": "stoel", "nl": "stoel", "en": "chair", "article": "de", "plural": "stoelen", "forms": ["stoeltje"], "example": { "nl": "Er staan vier stoelen in de keuken.", "en": "There are four chairs in the kitchen." } },
+    { "id": "kast", "nl": "kast", "en": "cupboard, wardrobe", "article": "de", "plural": "kasten", "forms": ["kastje"], "example": { "nl": "De kopjes staan in de kast.", "en": "The cups are in the cupboard." } },
+    { "id": "bed", "nl": "bed", "en": "bed", "article": "het", "plural": "bedden", "forms": ["bedje"], "example": { "nl": "Mijn telefoon ligt naast mijn bed.", "en": "My phone is next to my bed." } },
+    { "id": "deur", "nl": "deur", "en": "door", "article": "de", "plural": "deuren", "forms": ["deurtje", "deurke"], "example": { "nl": "De sleutel zit in de deur.", "en": "The key is in the door." } },
+    { "id": "raam", "nl": "raam", "en": "window", "article": "het", "plural": "ramen", "forms": ["raampje"], "example": { "nl": "Ik zit bij het raam.", "en": "I'm sitting by the window." } },
+    { "id": "sleutel", "nl": "sleutel", "en": "key", "article": "de", "plural": "sleutels", "forms": ["sleuteltje"], "example": { "nl": "Waar is mijn sleutel?", "en": "Where is my key?" } },
+    { "id": "liggen", "nl": "liggen", "en": "to lie; to be (of flat things)", "forms": ["lig", "lag", "ligt", "laagt", "lagen", "liggend", "gelegen"], "example": { "nl": "Het boek ligt op de tafel.", "en": "The book is on the table." } },
+    { "id": "staan", "nl": "staan", "en": "to stand; to be (of upright things)", "forms": ["sta", "stond", "staat", "stondt", "stonden", "staand", "gestaan"], "example": { "nl": "De fles staat in de kast.", "en": "The bottle is in the cupboard." } },
+    { "id": "zitten", "nl": "zitten", "en": "to sit; to be (inside something)", "forms": ["zit", "zat", "zaten", "zittend", "gezeten"], "example": { "nl": "Ik zit op een stoel.", "en": "I'm sitting on a chair." } },
+    { "id": "bank", "nl": "bank", "en": "sofa; bench; bank", "article": "de", "plural": "banken", "forms": ["bankje"], "example": { "nl": "Tom zit op de bank.", "en": "Tom is sitting on the sofa." } },
+    { "id": "ding", "nl": "ding", "en": "thing", "article": "het", "plural": "dingen", "forms": ["dingetje"], "example": { "nl": "Wat is dat ding op de tafel?", "en": "What's that thing on the table?" } }
+  ],
+  "grammar": {
+    "title": "Where is it? liggen, staan, zitten",
+    "points": [
+      "Prepositions of place: in, op (on), onder (under), naast (next to), achter (behind), voor (in front of), tussen (between), bij (at, near).",
+      "To say where something is, Dutch often uses liggen (lie), staan (stand) or zitten (sit) instead of zijn.",
+      "liggen: flat things or things lying down. Het boek ligt op de tafel.",
+      "staan: upright things, furniture and buildings. De fles staat in de kast.",
+      "zitten: people sitting, and things inside something closed or tight. De sleutel zit in mijn tas.",
+      "Pronouns for things: a de-word is hij, a het-word is het. Waar is mijn sleutel? Hij ligt op tafel."
+    ],
+    "examples": [
+      { "nl": "De sleutel ligt op de tafel.", "en": "The key is on the table." },
+      { "nl": "De fles staat in de kast.", "en": "The bottle is in the cupboard." },
+      { "nl": "Tom zit op de bank.", "en": "Tom is sitting on the sofa." },
+      { "nl": "Mijn telefoon zit in mijn tas.", "en": "My phone is in my bag." },
+      { "nl": "De fiets staat achter het huis.", "en": "The bike is behind the house." },
+      { "nl": "Het boek ligt naast het bed.", "en": "The book is next to the bed." }
+    ],
+    "exercises": [
+      { "prompt": "Het boek ___ op de tafel.", "answer": "ligt", "hint": "liggen / staan / zitten" },
+      { "prompt": "De stoel ___ naast de tafel.", "answer": "staat", "hint": "liggen / staan / zitten" },
+      { "prompt": "Tom ___ op een stoel.", "answer": "zit", "hint": "liggen / staan / zitten" },
+      { "prompt": "Mijn sleutel ligt ___ het bed.", "answer": "onder", "hint": "under" },
+      { "prompt": "De bank staat ___ de deur en het raam.", "answer": "tussen", "hint": "between" }
+    ]
+  },
+  "dialogue": {
+    "title": "Waar is mijn sleutel?",
+    "scene": "Tom is visiting. Sara has to catch her train, but she can't find her key.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Tom, waar is mijn sleutel? Mijn trein gaat om acht uur!", "en": "Tom, where's my key? My train leaves at eight!" },
+      { "speaker": "Tom", "nl": "Ligt hij op de tafel?", "en": "Is it on the table?", "gap": "Ligt" },
+      { "speaker": "Sara", "nl": "Nee, daar ligt hij niet.", "en": "No, it's not there." },
+      { "speaker": "Tom", "nl": "Zit hij in je tas?", "en": "Is it in your bag?", "gap": "Zit" },
+      { "speaker": "Sara", "nl": "Nee, in mijn tas zit hij ook niet.", "en": "No, it's not in my bag either." },
+      { "speaker": "Tom", "nl": "Kijk onder de bank.", "en": "Look under the sofa.", "gap": "onder" },
+      { "speaker": "Sara", "nl": "Niet onder de bank. En ook niet naast het bed.", "en": "Not under the sofa. And not next to the bed either.", "gap": "naast" },
+      { "speaker": "Tom", "nl": "Hier! Hij zit in de deur!", "en": "Here! It's in the door!", "gap": "deur" },
+      { "speaker": "Sara", "nl": "In de deur? Dank je wel, Tom!", "en": "In the door? Thanks, Tom!" }
+    ]
+  }
+}

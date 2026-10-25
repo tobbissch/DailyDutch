@@ -8,7 +8,9 @@
     "build": "npm run check && tsc --noEmit && vite build",
     "preview": "vite preview",
     "check": "node scripts/check-content.mjs",
-    "test": "vitest run"
+    "test": "vitest run",
+    "wordlist": "node scripts/build-wordlist.mjs",
+    "coverage": "node scripts/coverage.mjs"
   },
   "dependencies": {
     "react": "18.3.1",

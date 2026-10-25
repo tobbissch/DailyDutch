@@ -1,0 +1,64 @@
+{
+  "day": 113,
+  "title": "Ziek melden",
+  "names": ["Peter"],
+  "words": [
+    { "id": "bedrijfsarts", "nl": "bedrijfsarts", "en": "company doctor", "article": "de", "plural": "bedrijfsartsen", "example": { "nl": "De bedrijfsarts belt je over je herstel.", "en": "The company doctor will call you about your recovery." } },
+    { "id": "ziekte", "nl": "ziekte", "en": "illness, disease", "article": "de", "plural": "ziekten", "forms": ["ziektetje", "ziektes"], "example": { "nl": "Hij heeft een zware ziekte gehad.", "en": "He has had a serious illness." } },
+    { "id": "beter-melden", "nl": "beter melden", "en": "to report back fit for work (zich beter melden)", "forms": ["meld me beter", "meldt zich beter", "meldde zich beter", "beter gemeld"], "example": { "nl": "Morgen meld ik me weer beter.", "en": "Tomorrow I will report back fit for work." } },
+    { "id": "hersteld", "nl": "hersteld", "en": "recovered", "example": { "nl": "Ben je al hersteld?", "en": "Have you recovered yet?" } },
+    { "id": "griep-noun", "nl": "griep", "en": "flu", "article": "de", "forms": ["griepje"], "example": { "nl": "Veel collega's hebben griep.", "en": "A lot of colleagues have the flu." } },
+    { "id": "ziekmelding", "nl": "ziekmelding", "en": "sick report, calling in sick", "article": "de", "plural": "ziekmeldingen", "example": { "nl": "Doe je ziekmelding voor negen uur.", "en": "Call in sick before nine o'clock." } },
+    { "id": "vanaf", "nl": "vanaf", "en": "from, as of", "example": { "nl": "Vanaf maandag werk ik weer.", "en": "From Monday I'm working again." } },
+    { "id": "tot", "nl": "tot", "en": "until, to", "example": { "nl": "Ik werk van negen tot vijf.", "en": "I work from nine to five." } },
+    { "id": "totdat", "nl": "totdat", "en": "until (+ clause)", "example": { "nl": "Blijf in bed totdat de koorts weg is.", "en": "Stay in bed until the fever is gone." } },
+    { "id": "uitrusten", "nl": "uitrusten", "en": "to rest", "forms": ["rust uit", "rustte uit", "uitrust", "uitrustte", "rusten uit", "rustten uit", "uitrustten", "uitrustend", "uitgerust"], "example": { "nl": "Op zondag rust ik lekker uit.", "en": "On Sundays I have a good rest." } },
+    { "id": "terugkeer", "nl": "terugkeer", "en": "return", "article": "de", "example": { "nl": "We bespreken je terugkeer naar het werk.", "en": "We'll discuss your return to work." } },
+    { "id": "voorzichtig", "nl": "voorzichtig", "en": "careful", "forms": ["voorzichtiger", "voorzichtigst", "voorzichtige", "voorzichtigere", "voorzichtigste"], "example": { "nl": "Doe voorzichtig!", "en": "Be careful!" } },
+    { "id": "overbelast", "nl": "overbelast", "en": "overloaded, overworked", "example": { "nl": "Ik voel me overbelast door het werk.", "en": "I feel overworked by my job." } },
+    { "id": "burn-out", "nl": "burn-out", "en": "burnout", "article": "de", "plural": "burn-outs", "example": { "nl": "Te veel stress kan tot een burn-out leiden.", "en": "Too much stress can lead to burnout." } }
+  ],
+  "grammar": {
+    "title": "Past perfect review; vanaf, tot, totdat",
+    "points": [
+      "The past perfect (had / was + participle) describes something that happened before another moment in the past: Ik had me al ziek gemeld toen Peter belde.",
+      "Use was instead of had with verbs that use zijn in the perfect, such as gaan, komen, worden: Ik was al naar bed gegaan.",
+      "vanaf = from (a moment onwards): vanaf maandag, vanaf negen uur.",
+      "tot = until, to (before a noun or time): tot vrijdag, van negen tot vijf.",
+      "totdat = until, but it starts a clause, so the verb goes to the end: Blijf thuis totdat je beter bent."
+    ],
+    "examples": [
+      { "nl": "Ik had me al ziek gemeld toen Peter belde.", "en": "I had already called in sick when Peter rang." },
+      { "nl": "Ik was al naar bed gegaan toen Tom kwam.", "en": "I had already gone to bed when Tom came." },
+      { "nl": "Vanaf maandag werk ik weer.", "en": "From Monday I'll be working again." },
+      { "nl": "De eerste week werk ik van negen tot drie.", "en": "The first week I'll work from nine to three." },
+      { "nl": "Blijf thuis totdat je beter bent.", "en": "Stay home until you're better." }
+    ],
+    "exercises": [
+      { "prompt": "Ik ___ me al ziek gemeld toen Peter belde.", "answer": "had", "hint": "hebben (past perfect)" },
+      { "prompt": "Ik ___ al naar bed gegaan toen Tom kwam.", "answer": "was", "hint": "zijn (past perfect)" },
+      { "prompt": "___ maandag werk ik weer.", "answer": "Vanaf", "hint": "from … on" },
+      { "prompt": "Ik werk van negen ___ drie.", "answer": "tot", "hint": "until" },
+      { "prompt": "Blijf thuis ___ je beter bent.", "answer": "totdat", "hint": "until + clause" }
+    ]
+  },
+  "dialogue": {
+    "title": "Ziek en weer beter",
+    "scene": "Sara calls her manager Peter to report sick. A week later she calls him again to say she's coming back.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Dag Peter, met Sara. Ik wil me ziek melden.", "en": "Hi Peter, it's Sara. I'm calling in sick.", "gap": "ziek melden" },
+      { "speaker": "Peter", "nl": "Wat vervelend! Wat heb je?", "en": "Oh no! What's wrong?" },
+      { "speaker": "Sara", "nl": "Ik heb griep. Ik heb koorts en ik ben heel moe.", "en": "I've got the flu. I have a fever and I'm very tired." },
+      { "speaker": "Peter", "nl": "Rust goed uit en blijf thuis totdat je beter bent.", "en": "Get some proper rest and stay home until you're better.", "gap": "totdat" },
+      { "speaker": "Sara", "nl": "Dank je. Ik zet je ziekmelding nog even in de mail.", "en": "Thanks. I'll put my sick report in an email as well." },
+      { "speaker": "Sara", "nl": "Peter, met Sara. Ik ben hersteld! Ik meld me beter vanaf maandag.", "en": "Peter, it's Sara. I've recovered! I'll be back at work from Monday.", "gap": "vanaf" },
+      { "speaker": "Peter", "nl": "Wat goed! Hoe gaat het nu?", "en": "Great! How are you now?" },
+      { "speaker": "Sara", "nl": "Veel beter. Toen ik eindelijk naar de huisarts ging, was de koorts al weg.", "en": "Much better. When I finally went to the doctor, the fever had already gone." },
+      { "speaker": "Peter", "nl": "Doe wel voorzichtig. Werk de eerste week van negen tot drie.", "en": "Do take it easy, though. Work from nine to three the first week.", "gap": "voorzichtig" },
+      { "speaker": "Sara", "nl": "Goed idee. Ik had de laatste maanden ook te veel gewerkt.", "en": "Good idea. I had been working too much the last few months, too.", "gap": "had" },
+      { "speaker": "Peter", "nl": "Ja, je was overbelast. Als het niet gaat, praten we met de bedrijfsarts.", "en": "Yes, you were overloaded. If it doesn't work out, we'll talk to the company doctor." },
+      { "speaker": "Sara", "nl": "Dank je. Een burn-out wil ik echt niet.", "en": "Thanks. I really don't want a burnout." },
+      { "speaker": "Peter", "nl": "Goed zo. Tot maandag!", "en": "Good. See you Monday!" }
+    ]
+  }
+}

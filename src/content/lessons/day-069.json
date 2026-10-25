@@ -1,0 +1,69 @@
+{
+  "day": 69,
+  "title": "In het restaurant",
+  "names": ["Sara", "Tom", "Nederland", "Portugal"],
+  "words": [
+    { "id": "restaurant", "nl": "restaurant", "en": "restaurant", "article": "het", "plural": "restaurants", "forms": ["restaurantje"], "example": { "nl": "Dit restaurant is altijd vol.", "en": "This restaurant is always full." } },
+    { "id": "reserveren", "nl": "reserveren", "en": "to book, to reserve", "forms": ["reserveer", "reserveerde", "reserveert", "reserveerden", "reserverend", "gereserveerd"], "example": { "nl": "Ik wil graag een tafel reserveren.", "en": "I'd like to book a table." } },
+    { "id": "reservering", "nl": "reservering", "en": "reservation, booking", "article": "de", "plural": "reserveringen", "example": { "nl": "Heeft u een reservering?", "en": "Do you have a reservation?" } },
+    { "id": "menu", "nl": "menu", "en": "menu", "article": "het", "plural": "menu's", "forms": ["menuutje"], "example": { "nl": "Mag ik het menu zien?", "en": "May I see the menu?" } },
+    { "id": "voorgerecht", "nl": "voorgerecht", "en": "starter", "article": "het", "plural": "voorgerechten", "forms": ["voorgerechtje"], "example": { "nl": "Als voorgerecht neem ik de soep.", "en": "For a starter I'll have the soup." } },
+    { "id": "hoofdgerecht", "nl": "hoofdgerecht", "en": "main course", "article": "het", "plural": "hoofdgerechten", "forms": ["hoofdgerechtje"], "example": { "nl": "Als hoofdgerecht neem ik de vis.", "en": "For my main course I'll have the fish." } },
+    { "id": "nagerecht", "nl": "nagerecht", "en": "dessert", "article": "het", "plural": "nagerechten", "forms": ["nagerechtje"], "example": { "nl": "Wil je nog een nagerecht?", "en": "Would you like a dessert?" } },
+    { "id": "bestellen", "nl": "bestellen", "en": "to order", "forms": ["bestel", "bestelde", "bestelt", "bestelden", "bestellend", "besteld"], "example": { "nl": "Wilt u bestellen?", "en": "Would you like to order?" } },
+    { "id": "bestelling", "nl": "bestelling", "en": "order", "article": "de", "plural": "bestellingen", "forms": ["bestellinkje"], "example": { "nl": "De ober brengt de bestelling.", "en": "The waiter brings the order." } },
+    { "id": "fooi", "nl": "fooi", "en": "tip (money)", "article": "de", "plural": "fooien", "forms": ["fooitje"], "example": { "nl": "Wil je een fooi geven?", "en": "Do you want to leave a tip?" } },
+    { "id": "tafeltje", "nl": "tafeltje", "en": "(small) table", "article": "het", "plural": "tafeltjes", "example": { "nl": "Een tafeltje bij het raam, graag.", "en": "A table by the window, please." } },
+    { "id": "kok", "nl": "kok", "en": "cook, chef", "article": "de", "plural": "koks", "forms": ["kokje"], "example": { "nl": "De kok komt uit Portugal.", "en": "The chef is from Portugal." } },
+    { "id": "aanbevelen", "nl": "aanbevelen", "en": "to recommend", "forms": ["beveel aan", "beval aan", "aanbeveel", "aanbeval", "beveelt aan", "aanbeveelt", "bevaalt aan", "aanbevaalt", "bevelen aan", "bevalen aan", "aanbevalen", "aanbevelend", "aanbevolen"], "example": { "nl": "Wat kunt u ons aanbevelen?", "en": "What can you recommend to us?" } },
+    { "id": "specialiteit", "nl": "specialiteit", "en": "speciality", "article": "de", "plural": "specialiteiten", "forms": ["specialiteitje"], "example": { "nl": "Wat is de specialiteit van het huis?", "en": "What's the house speciality?" } },
+    { "id": "vegetarier", "nl": "vegetariër", "en": "vegetarian", "article": "de", "plural": "vegetariërs", "forms": ["vegetariërtje"], "example": { "nl": "Ik ben vegetariër: ik eet geen vlees.", "en": "I'm a vegetarian: I don't eat meat." } }
+  ],
+  "grammar": {
+    "title": "Polite requests: Zou ik… mogen?",
+    "points": [
+      "zou/zouden make a request softer and more polite than wil or kan. Use them with staff you don't know.",
+      "Zou ik … mogen? = Could I have…? / May I…?: Zou ik het menu mogen?",
+      "Ik zou graag … willen = I would like…: Ik zou graag een tafel willen reserveren.",
+      "Zou u … kunnen? = Could you…?: Zou u de rekening kunnen brengen?",
+      "The infinitive (mogen, willen, kunnen, brengen…) goes to the end of the sentence.",
+      "Ordering phrases: Ik neem…, Voor mij…, Als voorgerecht / hoofdgerecht / nagerecht…"
+    ],
+    "examples": [
+      { "nl": "Zou ik het menu mogen?", "en": "Could I have the menu?" },
+      { "nl": "Ik zou graag een tafel voor twee willen reserveren.", "en": "I'd like to book a table for two." },
+      { "nl": "Zou u iets kunnen aanbevelen?", "en": "Could you recommend something?" },
+      { "nl": "Wij zouden graag willen bestellen.", "en": "We'd like to order." },
+      { "nl": "Als voorgerecht neem ik de soep.", "en": "For a starter I'll have the soup." },
+      { "nl": "Zou u de rekening kunnen brengen?", "en": "Could you bring the bill?" }
+    ],
+    "exercises": [
+      { "prompt": "___ ik het menu mogen?", "answer": "Zou", "hint": "zullen (polite)" },
+      { "prompt": "Ik zou graag een tafel willen ___.", "answer": "reserveren", "hint": "to book" },
+      { "prompt": "Wij ___ graag willen bestellen.", "answer": "zouden", "hint": "zullen (polite, wij)" },
+      { "prompt": "Zou u de rekening kunnen ___?", "answer": "brengen", "hint": "to bring" },
+      { "prompt": "Als ___ neem ik de vis.", "answer": "hoofdgerecht", "hint": "main course" },
+      { "prompt": "Wat kunt u ___?", "answer": "aanbevelen", "hint": "to recommend" }
+    ]
+  },
+  "dialogue": {
+    "title": "Een tafel voor twee",
+    "scene": "Sara and Tom go out for dinner at a fish restaurant.",
+    "lines": [
+      { "speaker": "Ober", "nl": "Dag! Heeft u een reservering?", "en": "Hello! Do you have a reservation?", "gap": "reservering" },
+      { "speaker": "Tom", "nl": "Ja, een tafel voor twee. Ik heb gisteren gebeld.", "en": "Yes, a table for two. I called yesterday." },
+      { "speaker": "Ober", "nl": "Ja, ik zie het. Dit tafeltje bij het raam is voor u.", "en": "Yes, I see it. This table by the window is yours." },
+      { "speaker": "Sara", "nl": "Dank u. Zou ik het menu mogen?", "en": "Thank you. Could I have the menu?", "gap": "Zou" },
+      { "speaker": "Ober", "nl": "Natuurlijk, alstublieft. Wilt u al iets drinken?", "en": "Of course, here you are. Would you like something to drink?" },
+      { "speaker": "Tom", "nl": "Ik zou graag een glas rode wijn willen.", "en": "I'd like a glass of red wine." },
+      { "speaker": "Sara", "nl": "Voor mij water, graag. Wat kunt u aanbevelen?", "en": "Water for me, please. What can you recommend?", "gap": "aanbevelen" },
+      { "speaker": "Ober", "nl": "De specialiteit van het huis is de vis. Onze kok komt uit Portugal.", "en": "The house speciality is the fish. Our chef is from Portugal.", "gap": "specialiteit" },
+      { "speaker": "Sara", "nl": "Lekker. Als voorgerecht neem ik de soep en als hoofdgerecht de vis.", "en": "Lovely. For a starter I'll have the soup, and the fish for my main course.", "gap": "hoofdgerecht" },
+      { "speaker": "Tom", "nl": "Ik neem de pasta. Zou de kok hem zonder kaas kunnen maken?", "en": "I'll have the pasta. Could the chef make it without cheese?" },
+      { "speaker": "Ober", "nl": "Ja, dat kan. Ik breng uw bestelling naar de keuken.", "en": "Yes, that's possible. I'll take your order to the kitchen." },
+      { "speaker": "Ober", "nl": "Wilt u nog een nagerecht?", "en": "Would you like a dessert?" },
+      { "speaker": "Sara", "nl": "Nee, dank u, ik zit vol. Zou u de rekening kunnen brengen?", "en": "No, thank you, I'm full. Could you bring the bill?" },
+      { "speaker": "Tom", "nl": "Het was heel lekker. Dit is een fooi voor u.", "en": "It was delicious. This is a tip for you." }
+    ]
+  }
+}

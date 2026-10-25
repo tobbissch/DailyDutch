@@ -1,0 +1,64 @@
+{
+  "day": 112,
+  "title": "Thuiswerken",
+  "names": ["Fatima"],
+  "words": [
+    { "id": "thuiswerken", "nl": "thuiswerken", "en": "to work from home", "forms": ["werk thuis", "werkt thuis", "werkte thuis", "werkten thuis", "thuisgewerkt"], "example": { "nl": "Thuiswerken bespaart veel tijd.", "en": "Working from home saves a lot of time." } },
+    { "id": "bureau", "nl": "bureau", "en": "desk; office", "article": "het", "plural": "bureaus", "forms": ["bureautje"], "example": { "nl": "Mijn laptop staat op mijn bureau.", "en": "My laptop is on my desk." } },
+    { "id": "laptop", "nl": "laptop", "en": "laptop", "article": "de", "plural": "laptops", "forms": ["laptopje"], "example": { "nl": "Ik neem mijn laptop mee naar kantoor.", "en": "I take my laptop to the office." } },
+    { "id": "koptelefoon", "nl": "koptelefoon", "en": "headphones", "article": "de", "plural": "koptelefoons", "forms": ["koptelefoontje"], "example": { "nl": "Met een koptelefoon hoor ik de buren niet.", "en": "With headphones I can't hear the neighbours." } },
+    { "id": "videogesprek", "nl": "videogesprek", "en": "video call", "article": "het", "plural": "videogesprekken", "forms": ["videogesprekje"], "example": { "nl": "Om tien uur heb ik een videogesprek met een klant.", "en": "At ten I have a video call with a client." } },
+    { "id": "camera", "nl": "camera", "en": "camera", "article": "de", "plural": "camera's", "forms": ["cameraatje"], "example": { "nl": "Zet je camera even aan?", "en": "Could you turn your camera on?" } },
+    { "id": "microfoon", "nl": "microfoon", "en": "microphone", "article": "de", "plural": "microfoons", "forms": ["microfoontje"], "example": { "nl": "Je microfoon staat uit.", "en": "Your microphone is off." } },
+    { "id": "dempen", "nl": "dempen", "en": "to mute; to dampen", "forms": ["demp", "dempte", "dempt", "dempten", "dempend", "gedempt"], "example": { "nl": "Wil je je microfoon dempen?", "en": "Would you mute your microphone?" } },
+    { "id": "concentratie", "nl": "concentratie", "en": "concentration", "article": "de", "plural": "concentraties", "forms": ["concentratietje"], "example": { "nl": "Voor dit werk heb ik veel concentratie nodig.", "en": "I need a lot of concentration for this work." } },
+    { "id": "concentreren", "nl": "concentreren", "en": "to concentrate (zich concentreren)", "forms": ["concentreer", "concentreerde", "concentreert", "concentreerden", "concentrerend", "geconcentreerd"], "example": { "nl": "Ik kan me niet concentreren.", "en": "I can't concentrate." } },
+    { "id": "afleiden", "nl": "afleiden", "en": "to distract", "forms": ["leid af", "leidde af", "afleid", "afleidde", "leidt af", "afleidt", "leiden af", "leidden af", "afleidden", "afleidend", "afgeleid"], "example": { "nl": "De hond leidt me af.", "en": "The dog is distracting me." } },
+    { "id": "afleiding", "nl": "afleiding", "en": "distraction", "article": "de", "plural": "afleidingen", "forms": ["afleidinkje"], "example": { "nl": "Mijn telefoon is een grote afleiding.", "en": "My phone is a big distraction." } },
+    { "id": "werkplek", "nl": "werkplek", "en": "workplace, desk", "article": "de", "plural": "werkplekken", "forms": ["werkplekje"], "example": { "nl": "Op kantoor heb ik een vaste werkplek.", "en": "At the office I have my own desk." } },
+    { "id": "balans", "nl": "balans", "en": "balance", "article": "de", "plural": "balansen", "forms": ["balansje"], "example": { "nl": "Thuiswerken geeft me meer balans tussen werk en vrije tijd.", "en": "Working from home gives me a better balance between work and free time." } },
+    { "id": "reistijd", "nl": "reistijd", "en": "travel time, commute", "article": "de", "example": { "nl": "Mijn reistijd is een uur per dag.", "en": "My commute is an hour a day." } }
+  ],
+  "grammar": {
+    "title": "Separable verbs; word order: time – manner – place",
+    "points": [
+      "In a main clause the prefix of a separable verb goes to the end: aanzetten → Ik zet de camera aan.",
+      "With a modal verb or in a subordinate clause the verb stays together at the end: Je moet je camera aanzetten. / ..., omdat ik mijn camera aanzet.",
+      "In the perfect tense ge- goes between prefix and verb: aangezet, afgeleid, thuisgewerkt.",
+      "When a sentence has several adverbials, the usual order is time – manner – place (when – how – where): Ik werk morgen rustig thuis.",
+      "You can start with the time to stress it; the verb stays in second place: Morgen werk ik rustig thuis."
+    ],
+    "examples": [
+      { "nl": "Ik zet de camera aan.", "en": "I'm turning the camera on." },
+      { "nl": "Je moet je microfoon uitzetten.", "en": "You have to turn off your microphone." },
+      { "nl": "De herrie heeft me afgeleid.", "en": "The noise distracted me." },
+      { "nl": "Ik werk morgen rustig thuis.", "en": "Tomorrow I'll work quietly at home." },
+      { "nl": "Sara werkt op vrijdag met haar koptelefoon in de woonkamer.", "en": "On Fridays Sara works in the living room with her headphones on." }
+    ],
+    "exercises": [
+      { "prompt": "Ik zet mijn laptop ___.", "answer": "aan", "hint": "aanzetten" },
+      { "prompt": "Je moet je microfoon ___.", "answer": "uitzetten", "hint": "to turn off" },
+      { "prompt": "De herrie heeft me ___.", "answer": "afgeleid", "hint": "afleiden" },
+      { "prompt": "Ik werk morgen rustig ___.", "answer": "thuis", "hint": "place comes last" },
+      { "prompt": "Ik ___ op vrijdag thuis.", "answer": "werk", "hint": "thuiswerken" }
+    ]
+  },
+  "dialogue": {
+    "title": "Een videogesprek",
+    "scene": "Sara is working from home while her neighbour is drilling. She has a video call with Fatima.",
+    "lines": [
+      { "speaker": "Fatima", "nl": "Dag Sara! Ik zie je niet. Zet je camera even aan?", "en": "Hi Sara! I can't see you. Could you turn your camera on?", "gap": "camera" },
+      { "speaker": "Sara", "nl": "Sorry, nu wel. Hoor je mij?", "en": "Sorry, there. Can you hear me?" },
+      { "speaker": "Fatima", "nl": "Ja, maar ik hoor ook veel herrie. Wat is dat?", "en": "Yes, but I can also hear a lot of noise. What's that?" },
+      { "speaker": "Sara", "nl": "Mijn buurman is sinds acht uur aan het boren.", "en": "My neighbour has been drilling since eight o'clock." },
+      { "speaker": "Fatima", "nl": "Dat leidt je zeker af.", "en": "That must be distracting.", "gap": "leidt" },
+      { "speaker": "Sara", "nl": "Ja, ik kan me niet concentreren. Ik zet mijn koptelefoon op.", "en": "Yes, I can't concentrate. I'll put my headphones on.", "gap": "concentreren" },
+      { "speaker": "Fatima", "nl": "Goed idee. Demp je microfoon als je niet praat.", "en": "Good idea. Mute your microphone when you're not talking.", "gap": "Demp" },
+      { "speaker": "Sara", "nl": "Doe ik. Thuiswerken is leuk, maar soms mis ik mijn werkplek op kantoor.", "en": "Will do. Working from home is nice, but sometimes I miss my desk at the office." },
+      { "speaker": "Fatima", "nl": "Ik ook. Maar ik heb geen reistijd, en dat is ook veel waard.", "en": "Me too. But I have no commute, and that's worth a lot too." },
+      { "speaker": "Sara", "nl": "Dat is waar. Morgen werk ik weer rustig op kantoor.", "en": "That's true. Tomorrow I'll work quietly at the office again.", "gap": "rustig op kantoor" },
+      { "speaker": "Fatima", "nl": "Goed plan. Het gaat om de balans tussen thuis en kantoor.", "en": "Good plan. It's all about the balance between home and office." },
+      { "speaker": "Sara", "nl": "Zo is het. Zullen we beginnen?", "en": "Exactly. Shall we start?" }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "day": 115,
+  "title": "Een vriend helpen",
+  "names": ["Fatima", "Anna"],
+  "words": [
+    { "id": "probleem-noun", "nl": "probleem", "en": "problem", "article": "het", "plural": "problemen", "forms": ["probleempje"], "example": { "nl": "Ik heb een probleem met mijn laptop.", "en": "I have a problem with my laptop." } },
+    { "id": "raad", "nl": "raad", "en": "advice", "article": "de", "plural": "raden", "forms": ["raadje"], "example": { "nl": "Kun je mij raad geven?", "en": "Can you give me some advice?" } },
+    { "id": "steun", "nl": "steun", "en": "support", "article": "de", "plural": "steunen", "forms": ["steuntje"], "example": { "nl": "Bedankt voor je steun.", "en": "Thanks for your support." } },
+    { "id": "steun-noun", "nl": "steun", "en": "support (a person or thing you lean on)", "article": "de", "plural": "steunen", "forms": ["steuntje"], "example": { "nl": "Mijn familie is een grote steun voor mij.", "en": "My family is a great support to me." } },
+    { "id": "oor-noun", "nl": "oor", "en": "ear", "article": "het", "plural": "oren", "forms": ["oortje"], "example": { "nl": "Sara heeft altijd een luisterend oor.", "en": "Sara is always ready to listen. (lit. a listening ear)" } },
+    { "id": "troosten", "nl": "troosten", "en": "to comfort", "forms": ["troost", "troostte", "troostten", "troostend", "getroost"], "example": { "nl": "Sara troost haar vriendin.", "en": "Sara comforts her friend." } },
+    { "id": "verdriet", "nl": "verdriet", "en": "sadness, grief", "article": "het", "plural": "verdrieten", "forms": ["verdrietje"], "example": { "nl": "Ze heeft veel verdriet om haar opa.", "en": "She is very sad about her grandfather." } },
+    { "id": "overleggen", "nl": "overleggen", "en": "to discuss, to consult", "forms": ["overleg", "overlegde", "overlegt", "overlegden", "overleggend", "overlegd"], "example": { "nl": "Ik moet even met Tom overleggen.", "en": "I need to talk it over with Tom first." } },
+    { "id": "oplossing-noun", "nl": "oplossing", "en": "solution", "article": "de", "plural": "oplossingen", "forms": ["oplossinkje"], "example": { "nl": "Samen vinden we wel een oplossing.", "en": "Together we'll find a solution." } },
+    { "id": "eerlijk-zijn", "nl": "eerlijk zijn", "en": "to be honest", "example": { "nl": "Mag ik eerlijk zijn? Ik vind het geen goed idee.", "en": "Can I be honest? I don't think it's a good idea." } },
+    { "id": "eerlijkheid", "nl": "eerlijkheid", "en": "honesty", "article": "de", "example": { "nl": "Eerlijkheid is belangrijk in een vriendschap.", "en": "Honesty is important in a friendship." } },
+    { "id": "op-je-gemak", "nl": "op je gemak", "en": "at ease, comfortable", "example": { "nl": "Bij Anna voel ik me op mijn gemak.", "en": "I feel at ease with Anna." } },
+    { "id": "gemak", "nl": "gemak", "en": "ease, convenience", "article": "het", "plural": "gemakken", "forms": ["gemakje"], "example": { "nl": "Voor het gemak neem ik de auto.", "en": "For convenience I'll take the car." } }
+  ],
+  "grammar": {
+    "title": "Giving advice: Als ik jou was ...; Waarom ... je niet?",
+    "points": [
+      "Als ik jou was, zou ik ... = If I were you, I would ...: Als ik jou was, zou ik haar bellen.",
+      "Waarom + verb + je niet ...? = Why don't you ...? — a friendly suggestion: Waarom bel je haar niet?",
+      "Je zou ... kunnen = You could ...: Je zou met Peter kunnen overleggen.",
+      "Het is beter om ... te ... = It's better to ...: Het is beter om eerlijk te zijn.",
+      "Softer still: Misschien kun je ... (Maybe you can ...)."
+    ],
+    "examples": [
+      { "nl": "Als ik jou was, zou ik met haar praten.", "en": "If I were you, I'd talk to her." },
+      { "nl": "Waarom bel je haar niet?", "en": "Why don't you call her?" },
+      { "nl": "Je zou met Peter kunnen overleggen.", "en": "You could discuss it with Peter." },
+      { "nl": "Misschien kun je eerst een nacht slapen.", "en": "Maybe you can sleep on it first." },
+      { "nl": "Het is beter om eerlijk te zijn.", "en": "It's better to be honest." }
+    ],
+    "exercises": [
+      { "prompt": "Als ik jou ___, zou ik haar bellen.", "answer": "was", "hint": "zijn (past)" },
+      { "prompt": "Als ik jou was, ___ ik eerlijk zijn.", "answer": "zou", "hint": "would" },
+      { "prompt": "___ bel je haar niet?", "answer": "Waarom", "hint": "why" },
+      { "prompt": "Je zou met Peter kunnen ___.", "answer": "overleggen", "hint": "to discuss" },
+      { "prompt": "Het is beter ___ eerlijk te zijn.", "answer": "om", "hint": "om … te" }
+    ]
+  },
+  "dialogue": {
+    "title": "Een luisterend oor",
+    "scene": "Fatima has fallen out with her sister and asks Sara for advice during their lunch break.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Fatima, wat is er? Je kijkt zo verdrietig.", "en": "Fatima, what's wrong? You look so sad." },
+      { "speaker": "Fatima", "nl": "Ik heb ruzie met mijn zus. Ik heb er echt verdriet van.", "en": "I've fallen out with my sister. It really makes me sad.", "gap": "verdriet" },
+      { "speaker": "Sara", "nl": "Wat vervelend. Wil je praten? Ik heb altijd een luisterend oor.", "en": "Oh no. Do you want to talk? I'm always happy to listen.", "gap": "oor" },
+      { "speaker": "Fatima", "nl": "Ze gaat trouwen, maar ze heeft mij niet als getuige gevraagd.", "en": "She's getting married, but she hasn't asked me to be a witness." },
+      { "speaker": "Sara", "nl": "Heb je het haar al gevraagd?", "en": "Have you asked her about it?" },
+      { "speaker": "Fatima", "nl": "Nee, nog niet. Wat zou jij doen?", "en": "No, not yet. What would you do?" },
+      { "speaker": "Sara", "nl": "Als ik jou was, zou ik eerlijk zijn. Zeg haar dat het je pijn doet.", "en": "If I were you, I'd be honest. Tell her that it hurts you.", "gap": "Als ik jou was" },
+      { "speaker": "Fatima", "nl": "Maar dan krijgen we misschien nog meer ruzie.", "en": "But then we might fight even more." },
+      { "speaker": "Sara", "nl": "Waarom bel je haar niet? Dan kunnen jullie samen rustig overleggen.", "en": "Why don't you call her? Then you can talk it over calmly together.", "gap": "Waarom" },
+      { "speaker": "Fatima", "nl": "Je hebt gelijk. Eerlijkheid is de beste oplossing.", "en": "You're right. Honesty is the best solution.", "gap": "oplossing" },
+      { "speaker": "Sara", "nl": "En als je steun nodig hebt, ben ik er voor je.", "en": "And if you need support, I'm there for you." },
+      { "speaker": "Fatima", "nl": "Dank je, Sara. Bij jou voel ik me altijd op mijn gemak.", "en": "Thanks, Sara. I always feel at ease with you." },
+      { "speaker": "Sara", "nl": "Daar zijn vrienden voor!", "en": "That's what friends are for!" }
+    ]
+  }
+}

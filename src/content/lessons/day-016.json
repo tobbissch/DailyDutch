@@ -1,0 +1,64 @@
+{
+  "day": 16,
+  "title": "Mijn dag",
+  "words": [
+    { "id": "opstaan", "nl": "opstaan", "en": "to get up", "forms": ["sta op", "stond op", "opsta", "opstond", "staat op", "opstaat", "staan op", "stonden op", "opstonden", "opstaand", "opgestaan"], "example": { "nl": "Ik sta om zeven uur op.", "en": "I get up at seven." } },
+    { "id": "douchen", "nl": "douchen", "en": "to shower", "forms": ["douche", "douch", "douchte", "doucht", "douchten", "douchend", "gedoucht"], "example": { "nl": "Eerst douche ik.", "en": "First I take a shower." } },
+    { "id": "opbellen", "nl": "opbellen", "en": "to call (on the phone)", "forms": ["bel op", "belde op", "opbel", "opbelde", "belt op", "opbelt", "bellen op", "belden op", "opbelden", "opbellend", "opgebeld"], "example": { "nl": "Ik bel mijn moeder op.", "en": "I call my mother." } },
+    { "id": "meenemen", "nl": "meenemen", "en": "to take along, to bring", "forms": ["neem mee", "nam mee", "meeneem", "meenam", "neemt mee", "meeneemt", "nemen mee", "namen mee", "meenamen", "meenemend", "meegenomen"], "example": { "nl": "Ik neem mijn lunch mee.", "en": "I take my lunch with me." } },
+    { "id": "terugkomen", "nl": "terugkomen", "en": "to come back", "forms": ["kom terug", "kwam terug", "terugkom", "terugkwam", "komt terug", "terugkomt", "komen terug", "kwamen terug", "terugkwamen", "terugkomend", "teruggekomen"], "example": { "nl": "Wanneer kom jij terug?", "en": "When are you coming back?" } },
+    { "id": "thuiskomen", "nl": "thuiskomen", "en": "to come home", "forms": ["kom thuis", "kwam thuis", "thuiskom", "thuiskwam", "komt thuis", "thuiskomt", "komen thuis", "kwamen thuis", "thuiskwamen", "thuiskomend", "thuisgekomen"], "example": { "nl": "Ik kom om zes uur thuis.", "en": "I get home at six." } },
+    { "id": "thuis", "nl": "thuis", "en": "at home", "example": { "nl": "Op zondag ben ik thuis.", "en": "On Sundays I'm at home." } },
+    { "id": "slapen", "nl": "slapen", "en": "to sleep", "forms": ["slaap", "sliep", "slaapt", "sliepen", "slapend", "geslapen"], "example": { "nl": "Ik slaap acht uur.", "en": "I sleep eight hours." } },
+    { "id": "lunch", "nl": "lunch", "en": "lunch", "article": "de", "plural": "lunchen", "forms": ["lunchje"], "example": { "nl": "Mijn lunch is brood met kaas.", "en": "My lunch is bread and cheese." } },
+    { "id": "avondeten", "nl": "avondeten", "en": "dinner, evening meal", "article": "het", "example": { "nl": "Het avondeten is lekker.", "en": "The dinner is tasty." } },
+    { "id": "koken", "nl": "koken", "en": "to cook", "forms": ["kook", "kookte", "kookt", "kookten", "kokend", "gekookt"], "example": { "nl": "Tom kookt graag.", "en": "Tom likes cooking." } },
+    { "id": "dan", "nl": "dan", "en": "then", "example": { "nl": "Eerst werk ik, dan ga ik naar huis.", "en": "First I work, then I go home." } },
+    { "id": "eerst", "nl": "eerst", "en": "first", "example": { "nl": "Eerst sta ik op.", "en": "First I get up." } },
+    { "id": "daarna", "nl": "daarna", "en": "after that, afterwards", "example": { "nl": "Daarna drink ik koffie.", "en": "After that I drink coffee." } },
+    { "id": "elke", "nl": "elke", "en": "every, each", "forms": ["elk"], "example": { "nl": "Ik fiets elke dag.", "en": "I cycle every day." } },
+    { "id": "gewoon", "nl": "gewoon", "en": "just; normal, ordinary", "forms": ["gewone", "gewoner", "gewonere", "gewoonst", "gewoonste"], "example": { "nl": "Ik sta gewoon om zeven uur op.", "en": "I just get up at seven." } },
+    { "id": "zelf", "nl": "zelf", "en": "myself, yourself, … (self)", "example": { "nl": "Ik kook altijd zelf.", "en": "I always cook myself." } },
+    { "id": "na", "nl": "na", "en": "after", "example": { "nl": "Na het ontbijt douche ik.", "en": "After breakfast I take a shower." } }
+  ],
+  "grammar": {
+    "title": "Separable verbs: opstaan → ik sta op",
+    "points": [
+      "Some verbs start with a prefix that can split off: opstaan (op + staan), opbellen, meenemen, terugkomen, thuiskomen.",
+      "In a normal sentence the verb takes second place and the prefix goes to the very end: Ik sta om zeven uur op.",
+      "With a modal verb or gaan, the verb stays in one piece at the end: Ik moet vroeg opstaan.",
+      "The stress is on the prefix: OPstaan, MEEnemen.",
+      "Words like eerst, dan and daarna at the start of a sentence still keep the verb in second place: Daarna douche ik."
+    ],
+    "examples": [
+      { "nl": "Ik sta om zeven uur op.", "en": "I get up at seven." },
+      { "nl": "Sara neemt haar lunch mee.", "en": "Sara brings her lunch." },
+      { "nl": "Om zes uur kom ik thuis.", "en": "I get home at six." },
+      { "nl": "Ik bel mijn moeder op.", "en": "I call my mother." },
+      { "nl": "Ik moet morgen vroeg opstaan.", "en": "I have to get up early tomorrow." }
+    ],
+    "exercises": [
+      { "prompt": "Ik sta om zeven uur ___.", "answer": "op", "hint": "opstaan" },
+      { "prompt": "Sara neemt haar lunch ___.", "answer": "mee", "hint": "meenemen" },
+      { "prompt": "Hoe laat kom jij ___?", "answer": "thuis", "hint": "thuiskomen" },
+      { "prompt": "Ik moet morgen vroeg ___.", "answer": "opstaan", "hint": "opstaan" },
+      { "prompt": "Tom ___ zijn moeder op.", "answer": "belt", "hint": "opbellen" }
+    ]
+  },
+  "dialogue": {
+    "title": "Mijn dag",
+    "scene": "Sara tells Tom about her typical day.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Hoe laat sta jij op, Sara?", "en": "What time do you get up, Sara?" },
+      { "speaker": "Sara", "nl": "Ik sta elke dag om zeven uur op.", "en": "I get up at seven every day.", "gap": "elke dag" },
+      { "speaker": "Tom", "nl": "Zo vroeg! En dan?", "en": "So early! And then?" },
+      { "speaker": "Sara", "nl": "Eerst douche ik. Daarna ontbijt ik met koffie en brood.", "en": "First I take a shower. After that I have breakfast with coffee and bread.", "gap": "Daarna" },
+      { "speaker": "Tom", "nl": "Neem jij je lunch mee?", "en": "Do you bring your lunch?", "gap": "mee" },
+      { "speaker": "Sara", "nl": "Ja, brood met kaas. Om zes uur kom ik thuis.", "en": "Yes, bread and cheese. I get home at six.", "gap": "thuis" },
+      { "speaker": "Tom", "nl": "Kook jij dan?", "en": "Do you cook then?" },
+      { "speaker": "Sara", "nl": "Ja, ik kook elke avond. Daarna bel ik mijn moeder op.", "en": "Yes, I cook every evening. After that I call my mother.", "gap": "bel" },
+      { "speaker": "Tom", "nl": "En om elf uur ga jij slapen!", "en": "And at eleven you go to sleep!" },
+      { "speaker": "Sara", "nl": "Nee, om half elf!", "en": "No, at half past ten!" }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "day": 38,
+  "title": "Om fit te blijven",
+  "words": [
+    { "id": "sportschool", "nl": "sportschool", "en": "gym", "article": "de", "plural": "sportscholen", "forms": ["sportschooltje"], "example": { "nl": "Ik ga twee keer in de week naar de sportschool.", "en": "I go to the gym twice a week." } },
+    { "id": "fit", "nl": "fit", "en": "fit", "forms": ["fitter", "fitst", "fitte", "fittere", "fitste"], "example": { "nl": "Ik voel me fit.", "en": "I feel fit." } },
+    { "id": "gezond", "nl": "gezond", "en": "healthy", "forms": ["gezonder", "gezondst", "gezonde", "gezondere", "gezondste"], "example": { "nl": "Fruit is gezond.", "en": "Fruit is healthy." } },
+    { "id": "ongezond", "nl": "ongezond", "en": "unhealthy", "forms": ["ongezonder", "ongezondst", "ongezonde"], "example": { "nl": "Te veel suiker is ongezond.", "en": "Too much sugar is unhealthy." } },
+    { "id": "proberen", "nl": "proberen", "en": "to try", "forms": ["probeer", "probeerde", "probeert", "probeerden", "proberend", "geprobeerd"], "example": { "nl": "Ik probeer minder koffie te drinken.", "en": "I'm trying to drink less coffee." } },
+    { "id": "vergeten", "nl": "vergeten", "en": "to forget", "forms": ["vergeet", "vergat", "vergaten", "vergetend"], "example": { "nl": "Ik ben mijn sleutel vergeten.", "en": "I've forgotten my key." } },
+    { "id": "lichaam", "nl": "lichaam", "en": "body", "article": "het", "plural": "lichamen", "forms": ["lichaampje"], "example": { "nl": "Sport is goed voor je lichaam.", "en": "Exercise is good for your body." } },
+    { "id": "spier", "nl": "spier", "en": "muscle", "article": "de", "plural": "spieren", "forms": ["spiertje"], "example": { "nl": "Mijn spieren doen pijn.", "en": "My muscles ache." } },
+    { "id": "gewicht", "nl": "gewicht", "en": "weight", "article": "het", "plural": "gewichten", "forms": ["gewichtje"], "example": { "nl": "Dit gewicht is te zwaar voor mij.", "en": "This weight is too heavy for me." } },
+    { "id": "afvallen", "nl": "afvallen", "en": "to lose weight", "forms": ["val af", "viel af", "afval", "afviel", "valt af", "afvalt", "vallen af", "vielen af", "afvielen", "afvallend", "afgevallen"], "example": { "nl": "Hij is vijf kilo afgevallen.", "en": "He has lost five kilos." } },
+    { "id": "rennen", "nl": "rennen", "en": "to run", "forms": ["ren", "rende", "rent", "renden", "rennend", "gerend"], "example": { "nl": "Ik ren elke ochtend in het park.", "en": "I run in the park every morning." } },
+    { "id": "trainen", "nl": "trainen", "en": "to train, to work out", "forms": ["train", "trainde", "traint", "trainden", "trainend", "getraind"], "example": { "nl": "Wij trainen op dinsdag en donderdag.", "en": "We train on Tuesdays and Thursdays." } },
+    { "id": "abonnement", "nl": "abonnement", "en": "membership, subscription", "article": "het", "plural": "abonnementen", "forms": ["abonnementje"], "example": { "nl": "Een abonnement kost dertig euro in de maand.", "en": "A membership costs thirty euros a month." } },
+    { "id": "sport", "nl": "sport", "en": "sport; exercise", "article": "de", "plural": "sporten", "forms": ["sportje"], "example": { "nl": "Zwemmen is een gezonde sport.", "en": "Swimming is a healthy sport." } }
+  ],
+  "grammar": {
+    "title": "Om fit te blijven: om ... te and te + infinitive",
+    "points": [
+      "om … te + infinitive says why you do something (in order to): Ik ga naar de sportschool om fit te blijven.",
+      "The infinitive with te goes at the very end; other words go between om and te: om elke dag te rennen.",
+      "With separable verbs, te goes between the prefix and the verb: afvallen → om af te vallen, meenemen → mee te nemen.",
+      "Some verbs are followed by te + infinitive (without om): proberen, beginnen, vergeten. Ik probeer gezond te eten.",
+      "Modal verbs (kunnen, moeten, willen, mogen) and gaan never take te: Ik wil afvallen. Ik ga rennen."
+    ],
+    "examples": [
+      { "nl": "Ik ga naar de sportschool om fit te blijven.", "en": "I go to the gym to stay fit." },
+      { "nl": "Hij rent elke ochtend om af te vallen.", "en": "He runs every morning to lose weight." },
+      { "nl": "Ik probeer gezond te eten.", "en": "I try to eat healthily." },
+      { "nl": "Het begint te regenen.", "en": "It's starting to rain." },
+      { "nl": "Ik vergeet vaak water mee te nemen.", "en": "I often forget to bring water." },
+      { "nl": "Ik wil afvallen, dus ik train drie keer in de week.", "en": "I want to lose weight, so I work out three times a week." }
+    ],
+    "exercises": [
+      { "prompt": "Ik ga naar de sportschool om fit te ___.", "answer": "blijven", "hint": "blijven" },
+      { "prompt": "Hij traint ___ af te vallen.", "answer": "om", "hint": "in order to" },
+      { "prompt": "Ik probeer elke dag ___ rennen.", "answer": "te", "hint": "te or nothing?" },
+      { "prompt": "Ik ben vergeten mijn schoenen mee te ___.", "answer": "nemen", "hint": "meenemen" },
+      { "prompt": "Om af ___ vallen, moet je gezond eten.", "answer": "te", "hint": "afvallen" },
+      { "prompt": "Het begint ___ regenen.", "answer": "te", "hint": "te or nothing?" }
+    ]
+  },
+  "dialogue": {
+    "title": "Bij de sportschool",
+    "scene": "Sara signs up at a gym and talks to a trainer at the front desk.",
+    "lines": [
+      { "speaker": "Trainer", "nl": "Hallo! Kan ik je helpen?", "en": "Hi! Can I help you?" },
+      { "speaker": "Sara", "nl": "Ja, graag. Ik wil een abonnement nemen.", "en": "Yes, please. I'd like to get a membership.", "gap": "abonnement" },
+      { "speaker": "Trainer", "nl": "Leuk! Waarom wil je sporten?", "en": "Great! Why do you want to exercise?" },
+      { "speaker": "Sara", "nl": "Ik zit veel op kantoor. Ik wil sporten om fit te blijven.", "en": "I sit a lot at the office. I want to exercise to stay fit.", "gap": "fit" },
+      { "speaker": "Trainer", "nl": "Heel goed. Wil je ook afvallen?", "en": "Very good. Do you want to lose weight too?" },
+      { "speaker": "Sara", "nl": "Nee, niet echt. Maar ik probeer gezonder te leven.", "en": "No, not really. But I'm trying to live more healthily.", "gap": "probeer" },
+      { "speaker": "Trainer", "nl": "Dan kun je beginnen met rennen en een beetje trainen met gewichten.", "en": "Then you can start with running and a bit of training with weights." },
+      { "speaker": "Sara", "nl": "Gewichten? Zijn die niet te zwaar voor mij?", "en": "Weights? Aren't they too heavy for me?" },
+      { "speaker": "Trainer", "nl": "Nee, we beginnen met lichte gewichten. Dat is goed voor je spieren.", "en": "No, we start with light weights. That's good for your muscles.", "gap": "spieren" },
+      { "speaker": "Sara", "nl": "Goed. Hoeveel kost een abonnement?", "en": "Okay. How much is a membership?" },
+      { "speaker": "Trainer", "nl": "Dertig euro in de maand. En vergeet niet water mee te nemen als je komt!", "en": "Thirty euros a month. And don't forget to bring water when you come!", "gap": "vergeet" },
+      { "speaker": "Sara", "nl": "Dank je! Ik kom morgen om te trainen.", "en": "Thanks! I'll come tomorrow to work out." }
+    ]
+  }
+}

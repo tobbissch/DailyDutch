@@ -1,0 +1,65 @@
+{
+  "day": 34,
+  "title": "Ik denk dat...",
+  "names": ["Peter"],
+  "words": [
+    { "id": "denken", "nl": "denken", "en": "to think", "forms": ["denk", "dacht", "denkt", "dachten", "denkend", "gedacht"], "example": { "nl": "Ik denk dat het gaat regenen.", "en": "I think it's going to rain." } },
+    { "id": "weten", "nl": "weten", "en": "to know (a fact)", "forms": ["weet", "wist", "wisten", "wetend", "geweten"], "example": { "nl": "Ik weet het niet.", "en": "I don't know." } },
+    { "id": "geloven", "nl": "geloven", "en": "to believe", "forms": ["geloof", "geloofde", "gelooft", "geloofden", "gelovend", "geloofd"], "example": { "nl": "Ik geloof dat hij al thuis is.", "en": "I believe he's already home." } },
+    { "id": "hopen", "nl": "hopen", "en": "to hope", "forms": ["hoop", "hoopte", "hoopt", "hoopten", "hopend", "gehoopt"], "example": { "nl": "Ik hoop dat je snel beter bent.", "en": "I hope you get better soon." } },
+    { "id": "mening", "nl": "mening", "en": "opinion", "article": "de", "plural": "meningen", "forms": ["meninkje"], "example": { "nl": "Wat is jouw mening?", "en": "What's your opinion?" } },
+    { "id": "eigenlijk", "nl": "eigenlijk", "en": "actually, really", "forms": ["eigenlijke"], "example": { "nl": "Eigenlijk wil ik liever thee.", "en": "Actually, I'd rather have tea." } },
+    { "id": "natuurlijk", "nl": "natuurlijk", "en": "of course; natural", "forms": ["natuurlijker", "natuurlijkst", "natuurlijke", "natuurlijkere", "natuurlijkste"], "example": { "nl": "Natuurlijk help ik je!", "en": "Of course I'll help you!" } },
+    { "id": "zeker", "nl": "zeker", "en": "sure, certain; certainly", "forms": ["zekerder", "zekerst", "zekere", "zekerdere", "zekerste"], "example": { "nl": "Weet je het zeker?", "en": "Are you sure?" } },
+    { "id": "echt", "nl": "echt", "en": "really; real", "forms": ["echter", "echtst", "echte", "echtere", "echtste"], "example": { "nl": "Is dat echt zo?", "en": "Is that really so?" } },
+    { "id": "waar-adj", "nl": "waar", "en": "true", "forms": ["ware"], "example": { "nl": "Dat is niet waar!", "en": "That's not true!" } },
+    { "id": "idee", "nl": "idee", "en": "idea", "article": "het", "plural": "ideeën", "forms": ["ideetje"], "example": { "nl": "Dat is een goed idee.", "en": "That's a good idea." } },
+    { "id": "aardig", "nl": "aardig", "en": "nice, kind", "forms": ["aardiger", "aardigst", "aardige", "aardigere", "aardigste"], "example": { "nl": "De nieuwe buurman is heel aardig.", "en": "The new neighbour is very nice." } },
+    { "id": "streng", "nl": "streng", "en": "strict", "forms": ["strenger", "strengst", "strenge", "strengere", "strengste"], "example": { "nl": "Mijn leraar was heel streng.", "en": "My teacher was very strict." } }
+  ],
+  "grammar": {
+    "title": "Ik denk dat...: dat-clauses",
+    "points": [
+      "After verbs like denken, weten, geloven, hopen, zeggen and horen you often add a clause with dat (that).",
+      "In the dat-clause the conjugated verb goes to the end, just like after omdat: Hij is aardig. → Ik denk dat hij aardig is.",
+      "In English you can leave out 'that' (I think he's nice). In Dutch dat is never left out.",
+      "To give an opinion use Ik vind dat …: Ik vind dat het een goed idee is.",
+      "Short answers without dat: Ik denk het wel (I think so), Ik denk het niet, Ik weet het niet, Ik hoop het."
+    ],
+    "examples": [
+      { "nl": "Ik denk dat het gaat regenen.", "en": "I think it's going to rain." },
+      { "nl": "Weet jij dat Peter onze nieuwe baas is?", "en": "Do you know that Peter is our new boss?" },
+      { "nl": "Ik hoop dat hij aardig is.", "en": "I hope he's nice." },
+      { "nl": "Fatima zegt dat hij heel streng is.", "en": "Fatima says he's very strict." },
+      { "nl": "Ik vind dat het een goed idee is.", "en": "I think it's a good idea." },
+      { "nl": "Ik geloof niet dat het waar is.", "en": "I don't believe it's true." }
+    ],
+    "exercises": [
+      { "prompt": "Ik denk dat hij aardig ___.", "answer": "is", "hint": "zijn" },
+      { "prompt": "Ik hoop ___ het morgen mooi weer is.", "answer": "dat", "hint": "that" },
+      { "prompt": "Weet jij dat Peter in Utrecht ___?", "answer": "woont", "hint": "wonen" },
+      { "prompt": "Ik geloof dat ze een nieuwe baan ___.", "answer": "heeft", "hint": "hebben" },
+      { "prompt": "Sara zegt dat ze morgen niet ___.", "answer": "kan komen", "hint": "kunnen + komen" },
+      { "prompt": "Gaat het regenen? Ik denk het ___.", "answer": "wel", "hint": "I think so" }
+    ]
+  },
+  "dialogue": {
+    "title": "De nieuwe baas",
+    "scene": "Fatima and Sara talk about their new manager at the coffee machine.",
+    "lines": [
+      { "speaker": "Fatima", "nl": "Heb je het al gehoord? Er komt een nieuwe baas.", "en": "Have you heard? We're getting a new boss." },
+      { "speaker": "Sara", "nl": "Echt? Wie is het?", "en": "Really? Who is it?", "gap": "Echt" },
+      { "speaker": "Fatima", "nl": "Hij heet Peter. Ik denk dat hij morgen begint.", "en": "His name is Peter. I think he starts tomorrow.", "gap": "denk dat" },
+      { "speaker": "Sara", "nl": "Weet je iets over hem?", "en": "Do you know anything about him?" },
+      { "speaker": "Fatima", "nl": "Een beetje. Mijn collega zegt dat hij heel streng is.", "en": "A little. My colleague says he's very strict.", "gap": "streng" },
+      { "speaker": "Sara", "nl": "Nee! Ik hoop dat het niet waar is.", "en": "Oh no! I hope it isn't true.", "gap": "hoop" },
+      { "speaker": "Fatima", "nl": "Ik weet het niet zeker. Misschien is hij ook aardig.", "en": "I'm not sure. Maybe he's nice too." },
+      { "speaker": "Sara", "nl": "Wat is jouw mening? Is een strenge baas slecht?", "en": "What's your opinion? Is a strict boss bad?" },
+      { "speaker": "Fatima", "nl": "Eigenlijk niet. Ik denk dat een strenge baas soms goed is.", "en": "Not really. I think a strict boss is sometimes good.", "gap": "Eigenlijk" },
+      { "speaker": "Sara", "nl": "Natuurlijk. Maar een aardige baas is beter!", "en": "Of course. But a nice boss is better!" },
+      { "speaker": "Fatima", "nl": "Dat is waar. Morgen weten we het.", "en": "That's true. We'll know tomorrow." },
+      { "speaker": "Sara", "nl": "Ik heb een idee: morgen nemen wij taart mee voor Peter!", "en": "I have an idea: tomorrow we'll bring cake for Peter!" },
+      { "speaker": "Fatima", "nl": "Goed idee! Dan is hij misschien niet zo streng.", "en": "Good idea! Then maybe he won't be so strict." }
+    ]
+  }
+}

@@ -4,10 +4,10 @@
   "names": ["Spanje", "Amsterdam", "Utrecht"],
   "words": [
     { "id": "waar", "nl": "waar", "en": "where", "example": { "nl": "Waar woon jij?", "en": "Where do you live?" } },
-    { "id": "komen", "nl": "komen", "en": "to come", "forms": ["kom", "komt"], "example": { "nl": "Ik kom uit Spanje.", "en": "I come from Spain." } },
+    { "id": "komen", "nl": "komen", "en": "to come", "forms": ["kom", "komt", "kwam", "kwaamt", "kwamen", "komend", "gekomen", "kommen"], "example": { "nl": "Ik kom uit Spanje.", "en": "I come from Spain." } },
     { "id": "uit", "nl": "uit", "en": "from, out of", "example": { "nl": "Jij komt uit Utrecht.", "en": "You come from Utrecht." } },
     { "id": "vandaan", "nl": "vandaan", "en": "from (in 'waar … vandaan')", "example": { "nl": "Waar kom jij vandaan?", "en": "Where do you come from?" } },
-    { "id": "wonen", "nl": "wonen", "en": "to live (reside)", "forms": ["woon", "woont"], "example": { "nl": "Ik woon in Amsterdam.", "en": "I live in Amsterdam." } },
+    { "id": "wonen", "nl": "wonen", "en": "to live (reside)", "forms": ["woon", "woont", "woonde", "woonden", "wonend", "gewoond"], "example": { "nl": "Ik woon in Amsterdam.", "en": "I live in Amsterdam." } },
     { "id": "in", "nl": "in", "en": "in", "example": { "nl": "Tom woont in Utrecht.", "en": "Tom lives in Utrecht." } },
     { "id": "nederland", "nl": "Nederland", "en": "the Netherlands", "example": { "nl": "Ik woon in Nederland.", "en": "I live in the Netherlands." } },
     { "id": "nu", "nl": "nu", "en": "now", "example": { "nl": "Ik woon nu in Nederland.", "en": "I live in the Netherlands now." } },

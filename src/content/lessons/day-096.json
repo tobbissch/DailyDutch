@@ -1,0 +1,64 @@
+{
+  "day": 96,
+  "title": "Nederland en het water",
+  "names": ["Afsluitdijk", "IJsselmeer", "Waddenzee", "Zuiderzee", "Zeeland"],
+  "words": [
+    { "id": "dijk", "nl": "dijk", "en": "dike, dyke", "article": "de", "plural": "dijken", "forms": ["dijkje"], "example": { "nl": "De dijk beschermt het land.", "en": "The dike protects the land." } },
+    { "id": "zeespiegel", "nl": "zeespiegel", "en": "sea level", "article": "de", "plural": "zeespiegels", "example": { "nl": "Een groot deel van Nederland ligt onder de zeespiegel.", "en": "A large part of the Netherlands is below sea level." } },
+    { "id": "overstroming", "nl": "overstroming", "en": "flood", "article": "de", "plural": "overstromingen", "forms": ["overstrominkje"], "example": { "nl": "In 1953 was er een grote overstroming in Zeeland.", "en": "In 1953 there was a big flood in Zeeland." } },
+    { "id": "molen", "nl": "molen", "en": "(wind)mill", "article": "de", "plural": "molens", "forms": ["molentje"], "example": { "nl": "Vroeger maakten molens de polders droog.", "en": "In the past, windmills kept the polders dry." } },
+    { "id": "polder", "nl": "polder", "en": "polder (land reclaimed from water)", "article": "de", "plural": "polders", "forms": ["poldertje"], "example": { "nl": "Oma Riet woonde op een boerderij in de polder.", "en": "Grandma Riet lived on a farm in the polder." } },
+    { "id": "kanaal", "nl": "kanaal", "en": "canal; (TV) channel", "article": "het", "plural": "kanalen", "forms": ["kanaaltje"], "example": { "nl": "Het kanaal loopt van Amsterdam naar de zee.", "en": "The canal runs from Amsterdam to the sea." } },
+    { "id": "sluis", "nl": "sluis", "en": "lock (in a canal)", "article": "de", "plural": "sluizen", "forms": ["sluisje"], "example": { "nl": "De boot wacht voor de sluis.", "en": "The boat is waiting at the lock." } },
+    { "id": "beschermen", "nl": "beschermen", "en": "to protect", "forms": ["bescherm", "beschermde", "beschermt", "beschermden", "beschermend", "beschermd"], "example": { "nl": "Nederland wordt door dijken beschermd.", "en": "The Netherlands is protected by dikes." } },
+    { "id": "geschiedenis", "nl": "geschiedenis", "en": "history", "article": "de", "plural": "geschiedenissen", "forms": ["geschiedenisje"], "example": { "nl": "Water is een belangrijk deel van de Nederlandse geschiedenis.", "en": "Water is an important part of Dutch history." } },
+    { "id": "eeuw", "nl": "eeuw", "en": "century", "article": "de", "plural": "eeuwen", "forms": ["eeuwtje"], "example": { "nl": "Deze molen is drie eeuwen oud.", "en": "This windmill is three centuries old." } },
+    { "id": "eeuw-noun", "nl": "eeuw", "en": "ages, a very long time", "article": "de", "plural": "eeuwen", "forms": ["eeuwtje"], "example": { "nl": "Ik heb je in geen eeuwen gezien!", "en": "I haven't seen you in ages!" } },
+    { "id": "bouwen", "nl": "bouwen", "en": "to build", "forms": ["bouw", "bouwde", "bouwt", "bouwden", "bouwend", "gebouwd"], "example": { "nl": "De Afsluitdijk werd tussen 1927 en 1932 gebouwd.", "en": "The Afsluitdijk was built between 1927 and 1932." } },
+    { "id": "gebouw", "nl": "gebouw", "en": "building", "article": "het", "plural": "gebouwen", "forms": ["gebouwtje"], "example": { "nl": "Dit gebouw staat op een oude dijk.", "en": "This building stands on an old dike." } },
+    { "id": "laag", "nl": "laag", "en": "low", "forms": ["lager", "laagst", "lage", "lagere", "laagste"], "example": { "nl": "Nederland is een laag land.", "en": "The Netherlands is a low-lying country." } },
+    { "id": "kilometer", "nl": "kilometer", "en": "kilometre", "article": "de", "plural": "kilometers", "example": { "nl": "De dijk is ongeveer dertig kilometer lang.", "en": "The dike is about thirty kilometres long." } }
+  ],
+  "grammar": {
+    "title": "The passive: Het werd gebouwd",
+    "points": [
+      "The passive is formed with worden + participle: De dijk wordt gebouwd (The dike is being built).",
+      "In the simple past, use werd (singular) or werden (plural): De dijk werd in 1932 gebouwd.",
+      "In the present perfect, use zijn + participle — without geworden: De sluis is in de vorige eeuw gebouwd.",
+      "To say who or what does the action, use door: Het land wordt door dijken beschermd.",
+      "The passive is very common in history and the news, where the doer is unknown or not important."
+    ],
+    "examples": [
+      { "nl": "De Afsluitdijk werd tussen 1927 en 1932 gebouwd.", "en": "The Afsluitdijk was built between 1927 and 1932." },
+      { "nl": "Het land wordt door dijken beschermd.", "en": "The land is protected by dikes." },
+      { "nl": "Vroeger werden de polders door molens droog gehouden.", "en": "In the past, the polders were kept dry by windmills." },
+      { "nl": "Sinds 1953 zijn er veel nieuwe dijken gebouwd.", "en": "Many new dikes have been built since 1953." },
+      { "nl": "Deze sluis is in de vorige eeuw gebouwd.", "en": "This lock was built in the last century." }
+    ],
+    "exercises": [
+      { "prompt": "De dijk ___ in 1932 gebouwd.", "answer": "werd", "hint": "worden, past" },
+      { "prompt": "Nederland ___ door dijken beschermd.", "answer": "wordt", "hint": "worden, present" },
+      { "prompt": "Veel molens ___ vroeger in de polder gebouwd.", "answer": "werden", "hint": "worden, past plural" },
+      { "prompt": "Deze sluis is in de vorige eeuw ___.", "answer": "gebouwd", "hint": "bouwen" },
+      { "prompt": "Een groot deel van Nederland ligt onder de ___.", "answer": "zeespiegel", "hint": "sea level" }
+    ]
+  },
+  "dialogue": {
+    "title": "Op de Afsluitdijk",
+    "scene": "Tom drives Sara across the Afsluitdijk, the long dam that closed off the old Zuiderzee, and explains its history.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Wat is deze weg lang! Hoe lang is de Afsluitdijk?", "en": "This road is so long! How long is the Afsluitdijk?" },
+      { "speaker": "Tom", "nl": "Ongeveer dertig kilometer. Links is de Waddenzee, rechts het IJsselmeer.", "en": "About thirty kilometres. On the left is the Wadden Sea, on the right the IJsselmeer.", "gap": "kilometer" },
+      { "speaker": "Sara", "nl": "Wanneer werd de dijk gebouwd?", "en": "When was the dike built?", "gap": "werd" },
+      { "speaker": "Tom", "nl": "Tussen 1927 en 1932. Vroeger was het IJsselmeer een zee, de Zuiderzee.", "en": "Between 1927 and 1932. The IJsselmeer used to be a sea, the Zuiderzee." },
+      { "speaker": "Sara", "nl": "En waarom werd hij gebouwd?", "en": "And why was it built?" },
+      { "speaker": "Tom", "nl": "Omdat er vaak overstromingen waren. De dijk beschermt het land en de mensen.", "en": "Because there were often floods. The dike protects the land and the people.", "gap": "overstromingen" },
+      { "speaker": "Sara", "nl": "Ligt Nederland echt onder de zeespiegel?", "en": "Is the Netherlands really below sea level?", "gap": "zeespiegel" },
+      { "speaker": "Tom", "nl": "Een groot deel wel. Dat land wordt door dijken en sluizen beschermd.", "en": "A large part of it is. That land is protected by dikes and locks.", "gap": "beschermd" },
+      { "speaker": "Sara", "nl": "En de molens? Waren die ook voor het water?", "en": "And the windmills? Were they for the water too?" },
+      { "speaker": "Tom", "nl": "Ja, vroeger werden de polders door molens droog gehouden. Nu gaat dat met stroom.", "en": "Yes, in the past the polders were kept dry by windmills. Now it's done with electricity." },
+      { "speaker": "Sara", "nl": "Wat een geschiedenis! Het water is hier al eeuwen belangrijk.", "en": "What a history! Water has been important here for centuries." },
+      { "speaker": "Tom", "nl": "Ja, en de zeespiegel stijgt. Dus we moeten de dijken nog beter maken.", "en": "Yes, and the sea level is rising. So we have to make the dikes even better." }
+    ]
+  }
+}

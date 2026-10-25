@@ -1,0 +1,64 @@
+{
+  "day": 92,
+  "title": "Op reis",
+  "names": ["Fatima", "Lucía", "Javier", "Amerika"],
+  "words": [
+    { "id": "reisbureau", "nl": "reisbureau", "en": "travel agency", "article": "het", "plural": "reisbureaus", "forms": ["reisbureautje"], "example": { "nl": "We hebben de reis bij een reisbureau geboekt.", "en": "We booked the trip at a travel agency." } },
+    { "id": "reisbureau-noun", "nl": "reisbureau", "en": "travel agent's (the shop)", "article": "het", "plural": "reisbureaus", "forms": ["reisbureautje"], "example": { "nl": "Het reisbureau is op zaterdag open.", "en": "The travel agent's is open on Saturdays." } },
+    { "id": "vlucht", "nl": "vlucht", "en": "flight", "article": "de", "plural": "vluchten", "forms": ["vluchtje"], "example": { "nl": "De vlucht naar Spanje is om negen uur.", "en": "The flight to Spain is at nine o'clock." } },
+    { "id": "boeken", "nl": "boeken", "en": "to book", "forms": ["boek", "boekte", "boekt", "boekten", "boekend", "geboekt"], "example": { "nl": "Ik heb een vlucht geboekt.", "en": "I've booked a flight." } },
+    { "id": "annuleren", "nl": "annuleren", "en": "to cancel", "forms": ["annuleer", "annuleerde", "annuleert", "annuleerden", "annulerend", "geannuleerd"], "example": { "nl": "De vlucht is geannuleerd.", "en": "The flight has been cancelled." } },
+    { "id": "bagage", "nl": "bagage", "en": "luggage", "article": "de", "example": { "nl": "Waar is mijn bagage?", "en": "Where is my luggage?" } },
+    { "id": "handbagage", "nl": "handbagage", "en": "hand luggage", "article": "de", "example": { "nl": "Ik neem een kleine tas mee als handbagage.", "en": "I'm taking a small bag as hand luggage." } },
+    { "id": "vliegveld", "nl": "vliegveld", "en": "airport", "article": "het", "plural": "vliegvelden", "forms": ["vliegveldje"], "example": { "nl": "We gaan met de trein naar het vliegveld.", "en": "We're taking the train to the airport." } },
+    { "id": "douane", "nl": "douane", "en": "customs", "article": "de", "plural": "douanen", "example": { "nl": "Bij de douane moest ik mijn koffer openen.", "en": "At customs I had to open my suitcase." } },
+    { "id": "paspoortcontrole", "nl": "paspoortcontrole", "en": "passport control", "article": "de", "example": { "nl": "De paspoortcontrole was snel.", "en": "Passport control was quick." } },
+    { "id": "gate", "nl": "gate", "en": "gate (at the airport)", "article": "de", "plural": "gates", "forms": ["gatetje"], "example": { "nl": "Onze vlucht vertrekt van gate twaalf.", "en": "Our flight leaves from gate twelve." } },
+    { "id": "landen", "nl": "landen", "en": "to land", "forms": ["land", "landde", "landt", "landden", "landend", "geland"], "example": { "nl": "Het vliegtuig is om acht uur geland.", "en": "The plane landed at eight o'clock." } },
+    { "id": "opstijgen", "nl": "opstijgen", "en": "to take off (plane)", "forms": ["stijg op", "steeg op", "opstijg", "opsteeg", "stijgt op", "opstijgt", "steegt op", "opsteegt", "stijgen op", "stegen op", "opstegen", "opstijgend", "opgestegen"], "example": { "nl": "Het vliegtuig stijgt over tien minuten op.", "en": "The plane takes off in ten minutes." } },
+    { "id": "jetlag", "nl": "jetlag", "en": "jet lag", "article": "de", "example": { "nl": "Nadat ik was geland, had ik een week jetlag.", "en": "After I had landed, I had jet lag for a week." } },
+    { "id": "visum", "nl": "visum", "en": "visa", "article": "het", "plural": "visa", "forms": ["visumpje"], "example": { "nl": "Voor Amerika heb je een visum nodig.", "en": "You need a visa for America." } }
+  ],
+  "grammar": {
+    "title": "Past perfect: Ik had al geboekt",
+    "points": [
+      "The past perfect (voltooid verleden tijd) says that something had already happened before another moment in the past.",
+      "Form it like the present perfect, but with the past tense of hebben or zijn: had/hadden or was/waren + participle.",
+      "Verbs that take zijn in the perfect also take it here: ik ben geland → ik was geland.",
+      "It is common in stories with nadat (after): Nadat we waren geland, ... The verbs go to the end of the nadat-clause.",
+      "When the nadat-clause comes first, the main clause starts with the verb: Nadat we waren geland, gingen we naar het hotel."
+    ],
+    "examples": [
+      { "nl": "Ik had de vlucht al geboekt.", "en": "I had already booked the flight." },
+      { "nl": "Toen we bij de gate kwamen, was het vliegtuig al opgestegen.", "en": "When we got to the gate, the plane had already taken off." },
+      { "nl": "Nadat we waren geland, gingen we met de trein naar Utrecht.", "en": "After we had landed, we took the train to Utrecht." },
+      { "nl": "Sara had haar paspoort thuis vergeten.", "en": "Sara had forgotten her passport at home." },
+      { "nl": "Nadat ik de reis had geboekt, belde ik mijn moeder.", "en": "After I had booked the trip, I called my mother." }
+    ],
+    "exercises": [
+      { "prompt": "Toen ik bij de gate kwam, ___ het vliegtuig al opgestegen.", "answer": "was", "hint": "hebben / zijn" },
+      { "prompt": "Ik ___ mijn paspoort thuis vergeten.", "answer": "had", "hint": "hebben / zijn" },
+      { "prompt": "Nadat het vliegtuig was ___, belde ik Tom.", "answer": "geland", "hint": "landen" },
+      { "prompt": "We hadden de reis bij het reisbureau ___.", "answer": "geboekt", "hint": "boeken" },
+      { "prompt": "De vlucht was ___, dus we bleven thuis.", "answer": "geannuleerd", "hint": "annuleren" }
+    ]
+  },
+  "dialogue": {
+    "title": "Een lange reis",
+    "scene": "Back at the office, Sara tells Fatima about her trip home from Spain — nothing went to plan.",
+    "lines": [
+      { "speaker": "Fatima", "nl": "Hoe was je reis naar Spanje?", "en": "How was your trip to Spain?" },
+      { "speaker": "Sara", "nl": "Niet zo goed. Onze eerste vlucht was geannuleerd!", "en": "Not great. Our first flight had been cancelled!", "gap": "geannuleerd" },
+      { "speaker": "Fatima", "nl": "Wat vervelend! Wat hebben jullie toen gedaan?", "en": "How annoying! What did you do then?" },
+      { "speaker": "Sara", "nl": "Nadat we twee uur hadden gewacht, konden we een nieuwe vlucht boeken.", "en": "After we had waited for two hours, we were able to book a new flight.", "gap": "hadden gewacht" },
+      { "speaker": "Fatima", "nl": "Had je veel bagage bij je?", "en": "Did you have a lot of luggage with you?" },
+      { "speaker": "Sara", "nl": "Nee, ik had maar een kleine tas als handbagage. Gelukkig!", "en": "No, I just had a small bag as hand luggage. Luckily!" },
+      { "speaker": "Fatima", "nl": "En de paspoortcontrole?", "en": "And passport control?" },
+      { "speaker": "Sara", "nl": "Die was snel. Maar toen we bij de gate kwamen, was iedereen al ingestapt.", "en": "That was quick. But when we got to the gate, everyone had already boarded.", "gap": "gate" },
+      { "speaker": "Fatima", "nl": "Wat spannend! Hoe laat zijn jullie geland?", "en": "How exciting! What time did you land?", "gap": "geland" },
+      { "speaker": "Sara", "nl": "Om twee uur in de nacht. Ik was heel moe.", "en": "At two in the morning. I was really tired." },
+      { "speaker": "Fatima", "nl": "Neem je de trein als je weer naar Spanje gaat?", "en": "Will you take the train when you go to Spain again?" },
+      { "speaker": "Sara", "nl": "Misschien wel. Dan heb ik geen stress op het vliegveld.", "en": "Maybe. Then I won't have any stress at the airport." }
+    ]
+  }
+}

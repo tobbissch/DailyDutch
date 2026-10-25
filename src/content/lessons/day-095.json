@@ -1,0 +1,66 @@
+{
+  "day": 95,
+  "title": "Koningsdag",
+  "names": ["Koningsdag", "Vondelpark", "Henk", "Fatima", "Noor", "Daan"],
+  "words": [
+    { "id": "koning", "nl": "koning", "en": "king", "article": "de", "plural": "koningen", "forms": ["koninkje"], "example": { "nl": "Koningsdag is de verjaardag van de koning.", "en": "King's Day is the king's birthday." } },
+    { "id": "koningin", "nl": "koningin", "en": "queen", "article": "de", "plural": "koninginnen", "forms": ["koninginnetje"], "example": { "nl": "De koningin draagt een mooie jurk.", "en": "The queen is wearing a beautiful dress." } },
+    { "id": "oranje", "nl": "oranje", "en": "orange", "forms": ["oranjer", "oranjest", "oranjere", "oranjeste"], "example": { "nl": "Op Koningsdag draagt iedereen oranje.", "en": "On King's Day everyone wears orange." } },
+    { "id": "vrijmarkt", "nl": "vrijmarkt", "en": "free market (street sale on King's Day)", "article": "de", "plural": "vrijmarkten", "forms": ["vrijmarktje"], "example": { "nl": "Op de vrijmarkt verkopen kinderen hun oude spullen.", "en": "At the free market children sell their old things." } },
+    { "id": "verkopen", "nl": "verkopen", "en": "to sell", "forms": ["verkoop", "verkocht", "verkoopt", "verkochten", "verkopend"], "example": { "nl": "Ik heb mijn oude fiets verkocht.", "en": "I've sold my old bike." } },
+    { "id": "feestdag-noun", "nl": "feestdag", "en": "public holiday", "article": "de", "plural": "feestdagen", "forms": ["feestdagje"], "example": { "nl": "Koningsdag is een nationale feestdag.", "en": "King's Day is a national holiday." } },
+    { "id": "nationaal", "nl": "nationaal", "en": "national", "forms": ["nationaler", "nationaalst", "nationale", "nationalere", "nationaalste"], "example": { "nl": "Het is een nationaal feest.", "en": "It's a national celebration." } },
+    { "id": "vlag", "nl": "vlag", "en": "flag", "article": "de", "plural": "vlaggen", "forms": ["vlaggetje"], "example": { "nl": "Henk hangt de vlag uit.", "en": "Henk hangs out the flag." } },
+    { "id": "koningshuis", "nl": "koningshuis", "en": "royal family", "article": "het", "plural": "koningshuizen", "forms": ["koningshuisje"], "example": { "nl": "Mijn oma vindt het koningshuis heel belangrijk.", "en": "My grandma thinks the royal family is very important." } },
+    { "id": "kroon", "nl": "kroon", "en": "crown", "article": "de", "plural": "kronen", "forms": ["kroontje"], "example": { "nl": "De koning draagt niet vaak een kroon.", "en": "The king doesn't often wear a crown." } },
+    { "id": "verkleden", "nl": "verkleden", "en": "to dress up (in a costume)", "forms": ["verkleed", "verkleedde", "verkleedt", "verkleedden", "verkledend"], "example": { "nl": "De kinderen verkleden zich als koning.", "en": "The children dress up as kings." } },
+    { "id": "menigte", "nl": "menigte", "en": "crowd", "article": "de", "plural": "menigten", "example": { "nl": "Er was een grote menigte op het plein.", "en": "There was a big crowd on the square." } },
+    { "id": "rommelmarkt", "nl": "rommelmarkt", "en": "flea market", "article": "de", "plural": "rommelmarkten", "forms": ["rommelmarktje"], "example": { "nl": "Op de rommelmarkt kun je goedkope spullen kopen.", "en": "At the flea market you can buy cheap things." } },
+    { "id": "spullen-noun", "nl": "spullen", "en": "stuff, things", "article": "de", "example": { "nl": "Ik heb te veel spullen.", "en": "I have too much stuff." } },
+    { "id": "koopjes", "nl": "koopjes", "en": "bargains", "article": "de", "example": { "nl": "Op Koningsdag zoek ik koopjes.", "en": "On King's Day I look for bargains." } },
+    { "id": "koopje", "nl": "koopje", "en": "bargain", "article": "het", "plural": "koopjes", "example": { "nl": "Die lamp voor twee euro was een koopje!", "en": "That lamp for two euros was a bargain!" } }
+  ],
+  "grammar": {
+    "title": "Telling a story in the simple past",
+    "points": [
+      "When you tell a story about the past, you often start with the present perfect (Ik ben naar de vrijmarkt geweest) and then continue in the simple past (Het was heel druk).",
+      "Regular verbs add -te(n) or -de(n) to the stem: verkleden → verkleedde, verkleedden.",
+      "Many common verbs are irregular and simply have to be learned: gaan → ging, kopen → kocht, verkopen → verkocht, zien → zag, lopen → liep, dragen → droeg.",
+      "In the plural, add -en: ik kocht → wij kochten; ik was → wij waren.",
+      "Time words like toen, daarna and vorig jaar help to move the story along. After them, the verb comes second: Daarna liepen we naar de gracht."
+    ],
+    "examples": [
+      { "nl": "Vorig jaar ging ik voor het eerst naar Koningsdag.", "en": "Last year I went to King's Day for the first time." },
+      { "nl": "De straten waren vol mensen in het oranje.", "en": "The streets were full of people dressed in orange." },
+      { "nl": "Kinderen verkochten hun oude spullen op de vrijmarkt.", "en": "Children were selling their old things at the free market." },
+      { "nl": "Ik kocht een lamp voor drie euro.", "en": "I bought a lamp for three euros." },
+      { "nl": "Daarna verkleedden we ons als koning en koningin.", "en": "Then we dressed up as king and queen." }
+    ],
+    "exercises": [
+      { "prompt": "Vorig jaar ___ ik naar de vrijmarkt.", "answer": "ging", "hint": "gaan" },
+      { "prompt": "Er ___ een grote menigte op het plein.", "answer": "was", "hint": "zijn" },
+      { "prompt": "Noor en Daan ___ hun oude spullen.", "answer": "verkochten", "hint": "verkopen" },
+      { "prompt": "Ik ___ een lamp voor twee euro.", "answer": "kocht", "hint": "kopen" },
+      { "prompt": "Iedereen ___ oranje.", "answer": "droeg", "hint": "dragen" }
+    ]
+  },
+  "dialogue": {
+    "title": "Mijn eerste Koningsdag",
+    "scene": "The day after King's Day, Sara tells Tom about her first one in Amsterdam.",
+    "lines": [
+      { "speaker": "Tom", "nl": "En, hoe was je eerste Koningsdag?", "en": "So, how was your first King's Day?" },
+      { "speaker": "Sara", "nl": "Heel leuk! Heel Amsterdam was oranje.", "en": "Great fun! All of Amsterdam was orange.", "gap": "oranje" },
+      { "speaker": "Tom", "nl": "Ben je naar de vrijmarkt geweest?", "en": "Did you go to the free market?" },
+      { "speaker": "Sara", "nl": "Ja, in het Vondelpark. Daar verkochten kinderen hun oude spullen.", "en": "Yes, in the Vondelpark. Children were selling their old things there.", "gap": "verkochten" },
+      { "speaker": "Tom", "nl": "Heb je koopjes gevonden?", "en": "Did you find any bargains?" },
+      { "speaker": "Sara", "nl": "Ja! Ik kocht een lamp voor twee euro. Een echt koopje.", "en": "Yes! I bought a lamp for two euros. A real bargain.", "gap": "kocht" },
+      { "speaker": "Tom", "nl": "Wat deden jullie daarna?", "en": "What did you do after that?" },
+      { "speaker": "Sara", "nl": "We liepen naar de grachten. Er was een grote menigte en er was veel muziek.", "en": "We walked to the canals. There was a huge crowd and lots of music.", "gap": "menigte" },
+      { "speaker": "Tom", "nl": "Droeg je ook oranje?", "en": "Did you wear orange too?" },
+      { "speaker": "Sara", "nl": "Natuurlijk! Fatima en ik verkleedden ons als koningin, met een kroon.", "en": "Of course! Fatima and I dressed up as queens, with a crown." },
+      { "speaker": "Tom", "nl": "Wat grappig! Heb je de koning gezien?", "en": "How funny! Did you see the king?" },
+      { "speaker": "Sara", "nl": "Nee, de koning was niet in Amsterdam. Maar ik zag heel veel vlaggen.", "en": "No, the king wasn't in Amsterdam. But I saw loads of flags." },
+      { "speaker": "Tom", "nl": "Leuk! Dan vieren we Koningsdag over een jaar samen.", "en": "Nice! Then we'll celebrate King's Day together next year." }
+    ]
+  }
+}

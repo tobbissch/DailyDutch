@@ -1,0 +1,67 @@
+{
+  "day": 39,
+  "title": "Zou je...?",
+  "names": ["De Vries"],
+  "words": [
+    { "id": "zullen", "nl": "zullen", "en": "shall, will; zou = would", "forms": ["zal", "zou", "zult", "zul", "zouden", "zullend"], "example": { "nl": "Zullen we morgen gaan fietsen?", "en": "Shall we go cycling tomorrow?" } },
+    { "id": "gunst", "nl": "gunst", "en": "favour", "article": "de", "plural": "gunsten", "forms": ["gunstje"], "example": { "nl": "Mag ik u om een gunst vragen?", "en": "May I ask you a favour?" } },
+    { "id": "lenen", "nl": "lenen", "en": "to borrow; to lend", "forms": ["leen", "leende", "leent", "leenden", "lenend", "geleend"], "example": { "nl": "Mag ik je fiets lenen?", "en": "Can I borrow your bike?" } },
+    { "id": "boor", "nl": "boor", "en": "drill", "article": "de", "plural": "boren", "forms": ["boortje"], "example": { "nl": "Heeft u een boor voor mij?", "en": "Do you have a drill I could use?" } },
+    { "id": "plant", "nl": "plant", "en": "plant", "article": "de", "plural": "planten", "forms": ["plantje"], "example": { "nl": "Deze plant heeft veel water nodig.", "en": "This plant needs a lot of water." } },
+    { "id": "water-geven", "nl": "water geven", "en": "to water (plants)", "forms": ["geef water", "geeft water", "gaf water", "gaven water", "water gegeven", "geef", "geeft", "gaf", "gaven", "gegeven"], "example": { "nl": "Ik geef de planten elke week water.", "en": "I water the plants every week." } },
+    { "id": "post", "nl": "post", "en": "post, mail", "article": "de", "forms": ["postje"], "plural": "posten", "example": { "nl": "Is er post voor mij?", "en": "Is there any post for me?" } },
+    { "id": "brievenbus", "nl": "brievenbus", "en": "letterbox, mailbox", "article": "de", "plural": "brievenbussen", "forms": ["brievenbusje"], "example": { "nl": "De post ligt in de brievenbus.", "en": "The post is in the letterbox." } },
+    { "id": "pakket", "nl": "pakket", "en": "parcel", "article": "het", "plural": "pakketten", "forms": ["pakketje"], "example": { "nl": "Er is een pakket voor u.", "en": "There's a parcel for you." } },
+    { "id": "ophalen", "nl": "ophalen", "en": "to pick up, to collect", "forms": ["haal op", "haalde op", "ophaal", "ophaalde", "haalt op", "ophaalt", "halen op", "haalden op", "ophaalden", "ophalend", "opgehaald"], "example": { "nl": "Ik haal het pakket morgen op.", "en": "I'll pick up the parcel tomorrow." } },
+    { "id": "terugbrengen", "nl": "terugbrengen", "en": "to bring back, to return", "forms": ["breng terug", "bracht terug", "terugbreng", "terugbracht", "brengt terug", "terugbrengt", "brengen terug", "brachten terug", "terugbrachten", "terugbrengend", "teruggebracht"], "example": { "nl": "Ik breng de boor morgen terug.", "en": "I'll bring the drill back tomorrow." } },
+    { "id": "vriendelijk", "nl": "vriendelijk", "en": "kind, friendly", "forms": ["vriendelijker", "vriendelijkst", "vriendelijke", "vriendelijkere", "vriendelijkste"], "example": { "nl": "Wat vriendelijk van u!", "en": "How kind of you!" } },
+    { "id": "bedanken", "nl": "bedanken", "en": "to thank", "forms": ["bedank", "bedankte", "bedankt", "bedankten", "bedankend"], "example": { "nl": "Ik wil u graag bedanken!", "en": "I'd like to thank you!" } },
+    { "id": "meneer", "nl": "meneer", "en": "Mr; sir, gentleman", "article": "de", "plural": "meneren", "example": { "nl": "Dag meneer De Vries!", "en": "Hello Mr De Vries!" } },
+    { "id": "mevrouw", "nl": "mevrouw", "en": "Mrs, Ms; madam, lady", "article": "de", "plural": "mevrouwen", "example": { "nl": "Mevrouw De Vries is heel vriendelijk.", "en": "Mrs De Vries is very kind." } }
+  ],
+  "grammar": {
+    "title": "Zou je...? Polite requests with zou and zullen",
+    "points": [
+      "zou (singular) and zouden (plural) are the past forms of zullen. They work like English 'would'.",
+      "A very polite request: Zou je / Zou u … kunnen / willen + infinitive at the end? Zou u mij kunnen helpen?",
+      "A polite wish: Ik zou graag … willen: Ik zou graag een boor willen lenen (I would like to borrow a drill).",
+      "Advice: Ik zou … (If I were you, I would …): Ik zou een paraplu meenemen.",
+      "Proposals use zullen in the present: Zullen we …? (Shall we …?) and Zal ik …? (Shall I …?).",
+      "zou never takes -t: ik zou, jij zou, u zou, hij zou — but wij/jullie/zij zouden."
+    ],
+    "examples": [
+      { "nl": "Zou u mij kunnen helpen?", "en": "Could you help me?" },
+      { "nl": "Zou je mijn planten water willen geven?", "en": "Would you mind watering my plants?" },
+      { "nl": "Ik zou graag een boor willen lenen.", "en": "I would like to borrow a drill." },
+      { "nl": "Zal ik je pakket ophalen?", "en": "Shall I pick up your parcel?" },
+      { "nl": "Zullen we samen koffie drinken?", "en": "Shall we have coffee together?" },
+      { "nl": "Ik zou een paraplu meenemen.", "en": "I'd take an umbrella (if I were you)." }
+    ],
+    "exercises": [
+      { "prompt": "___ u mij kunnen helpen?", "answer": "Zou", "hint": "zullen" },
+      { "prompt": "___ jullie mijn post willen ophalen?", "answer": "Zouden", "hint": "zullen" },
+      { "prompt": "Ik zou graag een boor willen ___.", "answer": "lenen", "hint": "to borrow" },
+      { "prompt": "___ we samen koffie drinken?", "answer": "Zullen", "hint": "shall we" },
+      { "prompt": "Zal ik je pakket ___?", "answer": "ophalen", "hint": "ophalen" },
+      { "prompt": "Wanneer breng je de boor ___?", "answer": "terug", "hint": "terugbrengen" }
+    ]
+  },
+  "dialogue": {
+    "title": "Een paar gunsten",
+    "scene": "Before a trip to Spain, Sara knocks on the door of her older neighbours, Mr and Mrs De Vries, to ask some favours.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Dag meneer De Vries! Mag ik u om een gunst vragen?", "en": "Hello Mr De Vries! May I ask you a favour?", "gap": "gunst" },
+      { "speaker": "Meneer De Vries", "nl": "Natuurlijk, Sara. Wat kan ik voor je doen?", "en": "Of course, Sara. What can I do for you?" },
+      { "speaker": "Sara", "nl": "Zou ik een boor van u mogen lenen?", "en": "Could I borrow a drill from you?", "gap": "Zou" },
+      { "speaker": "Meneer De Vries", "nl": "Ja hoor. Wanneer breng je hem terug?", "en": "Sure. When will you bring it back?" },
+      { "speaker": "Sara", "nl": "Morgen. En ik heb nog een vraag. Ik ga een week naar Spanje.", "en": "Tomorrow. And I have another question. I'm going to Spain for a week." },
+      { "speaker": "Mevrouw De Vries", "nl": "Zullen wij je planten water geven?", "en": "Shall we water your plants?", "gap": "Zullen" },
+      { "speaker": "Sara", "nl": "Ja, graag! Dat is heel vriendelijk. En zou u ook mijn post uit de brievenbus kunnen halen?", "en": "Yes, please! That's very kind. And could you also take my post out of the letterbox?", "gap": "vriendelijk" },
+      { "speaker": "Mevrouw De Vries", "nl": "Natuurlijk. Komt er ook een pakket?", "en": "Of course. Is a parcel coming too?" },
+      { "speaker": "Sara", "nl": "Ja, misschien. Dan moet u het pakket bij de supermarkt ophalen.", "en": "Yes, maybe. Then you'll have to pick it up at the supermarket.", "gap": "ophalen" },
+      { "speaker": "Meneer De Vries", "nl": "Dat doen we.", "en": "We'll do that." },
+      { "speaker": "Sara", "nl": "Dank u wel! Hoe kan ik u bedanken?", "en": "Thank you! How can I thank you?" },
+      { "speaker": "Mevrouw De Vries", "nl": "Neem een lekkere fles Spaanse wijn mee!", "en": "Bring back a nice bottle of Spanish wine!" }
+    ]
+  }
+}

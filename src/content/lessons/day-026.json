@@ -1,0 +1,66 @@
+{
+  "day": 26,
+  "title": "Kleren kopen",
+  "names": ["Sara"],
+  "words": [
+    { "id": "kleren", "nl": "kleren", "en": "clothes (always plural)", "article": "de", "forms": ["kleertjes"], "example": { "nl": "Ik koop nieuwe kleren.", "en": "I'm buying new clothes." } },
+    { "id": "jas", "nl": "jas", "en": "coat, jacket", "article": "de", "plural": "jassen", "forms": ["jasje"], "example": { "nl": "Ik zoek een warme jas.", "en": "I'm looking for a warm coat." } },
+    { "id": "broek", "nl": "broek", "en": "trousers, pants", "article": "de", "plural": "broeken", "forms": ["broekje"], "example": { "nl": "De broek is te lang.", "en": "The trousers are too long." } },
+    { "id": "overhemd", "nl": "overhemd", "en": "shirt (with buttons)", "article": "het", "plural": "overhemden", "forms": ["overhemdje"], "example": { "nl": "Het overhemd is wit.", "en": "The shirt is white." } },
+    { "id": "trui", "nl": "trui", "en": "sweater, jumper", "article": "de", "plural": "truien", "forms": ["truitje"], "example": { "nl": "Ik neem de blauwe trui.", "en": "I'll take the blue sweater." } },
+    { "id": "jurk", "nl": "jurk", "en": "dress", "article": "de", "plural": "jurken", "forms": ["jurkje"], "example": { "nl": "De rode jurk is mooi.", "en": "The red dress is pretty." } },
+    { "id": "schoen", "nl": "schoen", "en": "shoe", "article": "de", "plural": "schoenen", "forms": ["schoentje"], "example": { "nl": "Deze schoenen zijn te klein.", "en": "These shoes are too small." } },
+    { "id": "maat", "nl": "maat", "en": "size", "article": "de", "plural": "maten", "forms": ["maatje"], "example": { "nl": "Wat is uw maat?", "en": "What's your size?" } },
+    { "id": "passen", "nl": "passen", "en": "to fit; to try on", "forms": ["pas", "paste", "past", "pasten", "passend", "gepast"], "example": { "nl": "Mag ik deze jas passen?", "en": "May I try on this coat?" } },
+    { "id": "rood", "nl": "rood", "en": "red", "forms": ["roder", "roodst", "rode", "rodere", "roodste"], "example": { "nl": "Ik wil een rode jas.", "en": "I want a red coat." } },
+    { "id": "blauw", "nl": "blauw", "en": "blue", "forms": ["blauwer", "blauwst", "blauwe", "blauwere", "blauwste"], "example": { "nl": "Ik heb een blauwe fiets.", "en": "I have a blue bike." } },
+    { "id": "groen", "nl": "groen", "en": "green", "forms": ["groener", "groenst", "groene", "groenere", "groenste"], "example": { "nl": "Het park is groen.", "en": "The park is green." } },
+    { "id": "geel", "nl": "geel", "en": "yellow", "forms": ["geler", "geelst", "gele", "gelere", "geelste"], "example": { "nl": "een gele banaan", "en": "a yellow banana" } },
+    { "id": "zwart", "nl": "zwart", "en": "black", "forms": ["zwarter", "zwartst", "zwarte", "zwartere", "zwartste"], "example": { "nl": "Ik heb zwarte schoenen.", "en": "I have black shoes." } },
+    { "id": "wit", "nl": "wit", "en": "white", "forms": ["witter", "witst", "witte", "wittere", "witste"], "example": { "nl": "een wit overhemd", "en": "a white shirt" } },
+    { "id": "deze", "nl": "deze", "en": "this, these (de-words, plurals)", "example": { "nl": "Deze jas is mooi.", "en": "This coat is nice." } },
+    { "id": "die", "nl": "die", "en": "that, those (de-words, plurals)", "example": { "nl": "Die broek is te duur.", "en": "Those trousers are too expensive." } },
+    { "id": "dit", "nl": "dit", "en": "this (het-words)", "example": { "nl": "Dit overhemd is te groot.", "en": "This shirt is too big." } }
+  ],
+  "grammar": {
+    "title": "This and that: deze, die, dit, dat",
+    "points": [
+      "With de-words and all plurals: deze (this/these) and die (that/those). With het-words: dit (this) and dat (that).",
+      "deze jas, die jas, deze schoenen, die schoenen — but dit overhemd, dat overhemd.",
+      "They can stand alone too: Ik neem deze. Dat is mooi.",
+      "Colours are adjectives: before a noun they take -e, like other adjectives: de rode jas, een blauwe trui. No -e after een + het-word: een wit overhemd.",
+      "Watch the spelling: rood → rode, geel → gele, wit → witte."
+    ],
+    "examples": [
+      { "nl": "Deze jas is te groot.", "en": "This coat is too big." },
+      { "nl": "Die schoenen zijn mooi.", "en": "Those shoes are nice." },
+      { "nl": "Dit overhemd is wit.", "en": "This shirt is white." },
+      { "nl": "Dat is een mooie jurk.", "en": "That's a pretty dress." },
+      { "nl": "Ik neem de rode trui.", "en": "I'll take the red sweater." },
+      { "nl": "Ik wil een wit overhemd.", "en": "I want a white shirt." }
+    ],
+    "exercises": [
+      { "prompt": "___ jas is mooi.", "answer": "Deze", "hint": "this (de jas)" },
+      { "prompt": "___ overhemd is te klein.", "answer": "Dit", "hint": "this (het overhemd)" },
+      { "prompt": "___ schoenen zijn duur.", "answer": "Die", "hint": "those" },
+      { "prompt": "Ik wil de ___ jas.", "answer": "rode", "hint": "rood" },
+      { "prompt": "Ik heb een ___ overhemd.", "answer": "wit", "hint": "wit" }
+    ]
+  },
+  "dialogue": {
+    "title": "Een warme jas",
+    "scene": "Winter is coming. Sara looks for a warm coat in a clothes shop.",
+    "lines": [
+      { "speaker": "Verkoopster", "nl": "Dag! Kan ik u helpen?", "en": "Hello! Can I help you?" },
+      { "speaker": "Sara", "nl": "Ja, graag. Ik zoek een warme jas.", "en": "Yes, please. I'm looking for a warm coat.", "gap": "jas" },
+      { "speaker": "Verkoopster", "nl": "Wat is uw maat?", "en": "What's your size?", "gap": "maat" },
+      { "speaker": "Sara", "nl": "Maat achtendertig.", "en": "Size thirty-eight." },
+      { "speaker": "Verkoopster", "nl": "Deze zwarte jas is heel warm.", "en": "This black coat is very warm.", "gap": "Deze" },
+      { "speaker": "Sara", "nl": "Zwart vind ik niet zo mooi. Heeft u die blauwe jas in maat achtendertig?", "en": "I don't really like black. Do you have that blue coat in size thirty-eight?", "gap": "die" },
+      { "speaker": "Verkoopster", "nl": "Ja, hier. Wilt u hem passen?", "en": "Yes, here. Would you like to try it on?", "gap": "passen" },
+      { "speaker": "Sara", "nl": "Hij past goed! Hoeveel kost hij?", "en": "It fits well! How much is it?" },
+      { "speaker": "Verkoopster", "nl": "Negentig euro.", "en": "Ninety euros." },
+      { "speaker": "Sara", "nl": "Dat is duur, maar hij is mooi. Ik neem hem.", "en": "That's expensive, but it's nice. I'll take it." }
+    ]
+  }
+}

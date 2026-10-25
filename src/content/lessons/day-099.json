@@ -1,0 +1,66 @@
+{
+  "day": 99,
+  "title": "Het milieu",
+  "names": ["Peter", "Fatima"],
+  "words": [
+    { "id": "klimaat", "nl": "klimaat", "en": "climate", "article": "het", "plural": "klimaten", "forms": ["klimaatje"], "example": { "nl": "Het klimaat verandert.", "en": "The climate is changing." } },
+    { "id": "klimaatverandering", "nl": "klimaatverandering", "en": "climate change", "article": "de", "plural": "klimaatveranderingen", "example": { "nl": "Klimaatverandering is een groot probleem.", "en": "Climate change is a big problem." } },
+    { "id": "opwarming", "nl": "opwarming", "en": "warming", "article": "de", "forms": ["opwarminkje"], "example": { "nl": "De opwarming gaat heel snel.", "en": "Warming is happening very fast." } },
+    { "id": "zonnepaneel", "nl": "zonnepaneel", "en": "solar panel", "article": "het", "plural": "zonnepanelen", "forms": ["zonnepaneeltje"], "example": { "nl": "Wij hebben zonnepanelen op het dak.", "en": "We have solar panels on the roof." } },
+    { "id": "duurzaam", "nl": "duurzaam", "en": "sustainable; durable", "forms": ["duurzamer", "duurzaamst", "duurzame", "duurzamere", "duurzaamste"], "example": { "nl": "Fietsen is duurzaam.", "en": "Cycling is sustainable." } },
+    { "id": "vervuiling", "nl": "vervuiling", "en": "pollution", "article": "de", "plural": "vervuilingen", "forms": ["vervuilinkje"], "example": { "nl": "De vervuiling in grote steden is ongezond.", "en": "The pollution in big cities is unhealthy." } },
+    { "id": "vervuilen", "nl": "vervuilen", "en": "to pollute", "forms": ["vervuil", "vervuilde", "vervuilt", "vervuilden", "vervuilend", "vervuild"], "example": { "nl": "Auto's vervuilen de lucht.", "en": "Cars pollute the air." } },
+    { "id": "afval-noun", "nl": "afval", "en": "waste, rubbish", "article": "het", "example": { "nl": "Je afval moet in de vuilnisbak.", "en": "Your rubbish goes in the bin." } },
+    { "id": "volgens", "nl": "volgens", "en": "according to", "example": { "nl": "Volgens mij is dat niet waar.", "en": "I don't think that's true." } },
+    { "id": "eens", "nl": "eens", "en": "agreed (het eens zijn = to agree); once", "forms": ["'ns", "'s"], "example": { "nl": "Ik ben het met je eens.", "en": "I agree with you." } },
+    { "id": "oneens", "nl": "oneens", "en": "in disagreement (het oneens zijn = to disagree)", "example": { "nl": "Ik ben het oneens met Peter.", "en": "I disagree with Peter." } },
+    { "id": "oplossing", "nl": "oplossing", "en": "solution", "article": "de", "plural": "oplossingen", "forms": ["oplossinkje"], "example": { "nl": "Wat is de oplossing?", "en": "What's the solution?" } },
+    { "id": "probleem", "nl": "probleem", "en": "problem", "article": "het", "plural": "problemen", "forms": ["probleempje"], "example": { "nl": "Dat is geen probleem.", "en": "That's no problem." } },
+    { "id": "verandering", "nl": "verandering", "en": "change", "article": "de", "plural": "veranderingen", "forms": ["veranderingetje"], "example": { "nl": "We hebben grote veranderingen nodig.", "en": "We need big changes." } },
+    { "id": "lucht", "nl": "lucht", "en": "air; sky", "article": "de", "plural": "luchten", "example": { "nl": "De lucht in de stad is vies.", "en": "The air in the city is dirty." } },
+    { "id": "dak", "nl": "dak", "en": "roof", "article": "het", "plural": "daken", "forms": ["dakje"], "example": { "nl": "Er liggen zonnepanelen op het dak.", "en": "There are solar panels on the roof." } }
+  ],
+  "grammar": {
+    "title": "Giving your opinion: volgens mij, het eens zijn",
+    "points": [
+      "Volgens mij ... means 'I think / in my opinion'. It counts as the first part of the sentence, so the verb comes next: Volgens mij is dat waar.",
+      "volgens + a person or source means 'according to': volgens Tom, volgens de krant.",
+      "To agree: Ik ben het (met je) eens. To disagree: Ik ben het (met je) oneens, or more often Ik ben het niet met je eens. The het is fixed.",
+      "To agree with a statement, use daar ... mee: Daar ben ik het mee eens.",
+      "You can also use Ik vind dat ..., Ik denk dat ... — remember the verb goes to the end after dat."
+    ],
+    "examples": [
+      { "nl": "Volgens mij is fietsen de beste oplossing.", "en": "I think cycling is the best solution." },
+      { "nl": "Volgens de krant stijgt de zeespiegel.", "en": "According to the newspaper, the sea level is rising." },
+      { "nl": "Ik ben het met je eens.", "en": "I agree with you." },
+      { "nl": "Ik ben het niet met Tom eens.", "en": "I don't agree with Tom." },
+      { "nl": "Daar ben ik het mee eens.", "en": "I agree with that." }
+    ],
+    "exercises": [
+      { "prompt": "___ mij is dat een goed idee.", "answer": "Volgens", "hint": "according to" },
+      { "prompt": "Ik ben het met je ___.", "answer": "eens", "hint": "agree" },
+      { "prompt": "Ik ben het ___ met Peter.", "answer": "oneens", "hint": "disagree" },
+      { "prompt": "Wat is volgens jou de beste ___?", "answer": "oplossing", "hint": "solution" },
+      { "prompt": "Auto's ___ de lucht.", "answer": "vervuilen", "hint": "to pollute" }
+    ]
+  },
+  "dialogue": {
+    "title": "Wat kunnen we doen?",
+    "scene": "Over lunch at the office, Sara, Fatima and their manager Peter discuss climate change and what the company could do.",
+    "lines": [
+      { "speaker": "Peter", "nl": "Hebben jullie het artikel over klimaatverandering gelezen?", "en": "Have you read the article about climate change?" },
+      { "speaker": "Fatima", "nl": "Ja. Volgens mij is het een heel groot probleem.", "en": "Yes. I think it's a really big problem.", "gap": "Volgens mij" },
+      { "speaker": "Peter", "nl": "Ik ben het met je eens. Maar wat is de oplossing?", "en": "I agree with you. But what's the solution?", "gap": "eens" },
+      { "speaker": "Sara", "nl": "Minder vliegen, meer fietsen. En zonnepanelen op elk dak.", "en": "Less flying, more cycling. And solar panels on every roof." },
+      { "speaker": "Peter", "nl": "Zonnepanelen zijn duur.", "en": "Solar panels are expensive." },
+      { "speaker": "Fatima", "nl": "Dat ben ik niet met je eens. Je bespaart veel geld op energie.", "en": "I don't agree. You save a lot of money on energy." },
+      { "speaker": "Peter", "nl": "Misschien. Maar wat kunnen wij als bedrijf doen?", "en": "Maybe. But what can we do as a company?" },
+      { "speaker": "Sara", "nl": "Volgens mij kunnen we beginnen met ons afval. We scheiden het nu niet.", "en": "I think we can start with our rubbish. We don't separate it at the moment.", "gap": "afval" },
+      { "speaker": "Peter", "nl": "Goed idee. En de lampen kunnen uit als er niemand is.", "en": "Good idea. And the lights can go off when nobody's here." },
+      { "speaker": "Fatima", "nl": "En misschien kan iedereen met de trein naar het werk komen. Dat is duurzamer.", "en": "And maybe everyone could come to work by train. That's more sustainable.", "gap": "duurzamer" },
+      { "speaker": "Peter", "nl": "Daar ben ik het niet mee eens. Met de trein ben ik veel meer tijd kwijt.", "en": "I don't agree with that. By train I lose a lot more time." },
+      { "speaker": "Sara", "nl": "Kleine veranderingen helpen ook al.", "en": "Small changes help too." },
+      { "speaker": "Peter", "nl": "Daar ben ik het mee eens.", "en": "I agree with that." }
+    ]
+  }
+}

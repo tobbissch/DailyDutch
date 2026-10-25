@@ -1,0 +1,66 @@
+{
+  "day": 32,
+  "title": "Toen ik klein was",
+  "names": ["Sevilla", "Madrid"],
+  "words": [
+    { "id": "toen-conj", "nl": "toen", "en": "when (one moment in the past)", "example": { "nl": "Toen ik tien was, verhuisden wij.", "en": "When I was ten, we moved." } },
+    { "id": "jeugd", "nl": "jeugd", "en": "childhood, youth", "article": "de", "example": { "nl": "Ik had een gelukkige jeugd.", "en": "I had a happy childhood." } },
+    { "id": "vriendschap", "nl": "vriendschap", "en": "friendship", "article": "de", "plural": "vriendschappen", "forms": ["vriendschapje"], "example": { "nl": "Onze vriendschap is heel oud.", "en": "Our friendship goes back a long way." } },
+    { "id": "spel", "nl": "spel", "en": "game", "article": "het", "plural": "spellen", "forms": ["spelletje", "speeltje"], "example": { "nl": "Wij speelden een spel op straat.", "en": "We played a game in the street." } },
+    { "id": "broertje", "nl": "broertje", "en": "little brother", "article": "het", "plural": "broertjes", "example": { "nl": "Mijn broertje is zes jaar.", "en": "My little brother is six." } },
+    { "id": "verhuizen", "nl": "verhuizen", "en": "to move (house)", "forms": ["verhuis", "verhuisde", "verhuist", "verhuisden", "verhuizend", "verhuisd"], "example": { "nl": "Wij verhuisden naar Madrid.", "en": "We moved to Madrid." } },
+    { "id": "herinnering", "nl": "herinnering", "en": "memory", "article": "de", "plural": "herinneringen", "forms": ["herinneringetje"], "example": { "nl": "Ik heb mooie herinneringen aan mijn jeugd.", "en": "I have lovely memories of my childhood." } },
+    { "id": "gelukkig", "nl": "gelukkig", "en": "happy; luckily", "forms": ["gelukkiger", "gelukkigst", "gelukkige", "gelukkigere", "gelukkigste"], "example": { "nl": "Ik was een gelukkig kind.", "en": "I was a happy child." } },
+    { "id": "verdrietig", "nl": "verdrietig", "en": "sad", "forms": ["verdrietiger", "verdrietigst", "verdrietige", "verdrietigere", "verdrietigste"], "example": { "nl": "Mijn moeder was verdrietig toen wij verhuisden.", "en": "My mother was sad when we moved." } },
+    { "id": "bang", "nl": "bang", "en": "afraid, scared", "forms": ["banger", "bangst", "bange", "bangere", "bangste"], "example": { "nl": "Ben jij bang voor de zee?", "en": "Are you afraid of the sea?" } },
+    { "id": "straat-noun", "nl": "straat", "en": "street", "article": "de", "plural": "straten", "forms": ["straatje"], "example": { "nl": "Wij speelden altijd op straat.", "en": "We always played in the street." } },
+    { "id": "speeltuin", "nl": "speeltuin", "en": "playground", "article": "de", "plural": "speeltuinen", "forms": ["speeltuintje"], "example": { "nl": "De speeltuin was naast onze school.", "en": "The playground was next to our school." } },
+    { "id": "zwemmen", "nl": "zwemmen", "en": "to swim", "forms": ["zwem", "zwom", "zwemt", "zwommen", "zwemmend", "gezwommen"], "example": { "nl": "Ik zwom elke zomer in de zee.", "en": "I swam in the sea every summer." } }
+  ],
+  "grammar": {
+    "title": "Simple past (2): ik was, ik ging, ik zag",
+    "points": [
+      "Many common verbs are strong: in the past they change their vowel and get no ending in the singular: gaan → ging, komen → kwam, zien → zag, zwemmen → zwom.",
+      "In the plural just add -en: ging → gingen, kwam → kwamen, zag → zagen.",
+      "The two most important irregular verbs: zijn → was / waren, hebben → had / hadden.",
+      "There is no rule for the vowel change, so learn each strong verb as a set: zwemmen – zwom – gezwommen.",
+      "toen + clause means 'when' for one moment or period in the past. The verb goes to the end: toen ik klein was.",
+      "If the toen-clause comes first, the next part starts with the verb: Toen ik klein was, woonde ik in Sevilla."
+    ],
+    "examples": [
+      { "nl": "Toen ik klein was, woonde ik in Sevilla.", "en": "When I was little, I lived in Seville." },
+      { "nl": "Wij gingen elke zomer naar de zee.", "en": "We went to the sea every summer." },
+      { "nl": "Mijn broertje was bang voor de zee.", "en": "My little brother was afraid of the sea." },
+      { "nl": "Ik zwom vaak met mijn zus.", "en": "I often swam with my sister." },
+      { "nl": "Toen ik twaalf was, verhuisden wij naar Madrid.", "en": "When I was twelve, we moved to Madrid." },
+      { "nl": "In onze straat was een speeltuin.", "en": "There was a playground in our street." }
+    ],
+    "exercises": [
+      { "prompt": "Vroeger ___ wij vaak naar de speeltuin.", "answer": "gingen", "hint": "gaan" },
+      { "prompt": "Toen ik klein ___, woonde ik in Spanje.", "answer": "was", "hint": "zijn" },
+      { "prompt": "Wij ___ een groot huis.", "answer": "hadden", "hint": "hebben" },
+      { "prompt": "Ik ___ elke dag in de zee.", "answer": "zwom", "hint": "zwemmen" },
+      { "prompt": "Mijn opa ___ elke zondag bij ons.", "answer": "kwam", "hint": "komen" },
+      { "prompt": "Wij ___ veel films.", "answer": "zagen", "hint": "zien" }
+    ]
+  },
+  "dialogue": {
+    "title": "Een oude foto",
+    "scene": "Tom finds an old photo of Sara, and she tells him about growing up in Spain.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Wie is dat kind op de foto?", "en": "Who's that child in the photo?" },
+      { "speaker": "Sara", "nl": "Dat ben ik! Toen was ik zeven.", "en": "That's me! I was seven then." },
+      { "speaker": "Tom", "nl": "En wie is dat kleine kind naast je?", "en": "And who's the little kid next to you?" },
+      { "speaker": "Sara", "nl": "Dat is mijn broertje. Hij was altijd bang voor de zee.", "en": "That's my little brother. He was always scared of the sea.", "gap": "bang" },
+      { "speaker": "Tom", "nl": "Waar woonden jullie toen?", "en": "Where did you live back then?", "gap": "woonden" },
+      { "speaker": "Sara", "nl": "In Sevilla, in een kleine straat bij het centrum. Er was een speeltuin naast ons huis.", "en": "In Seville, in a small street near the centre. There was a playground next to our house." },
+      { "speaker": "Tom", "nl": "Speelde je daar vaak?", "en": "Did you play there a lot?" },
+      { "speaker": "Sara", "nl": "Ja, elke dag! En in de zomer gingen wij naar de zee. Ik zwom elke dag.", "en": "Yes, every day! And in the summer we went to the sea. I swam every day.", "gap": "gingen" },
+      { "speaker": "Tom", "nl": "Wat leuk. Was je een gelukkig kind?", "en": "How nice. Were you a happy child?", "gap": "gelukkig" },
+      { "speaker": "Sara", "nl": "Ja, heel gelukkig. Maar toen ik twaalf was, verhuisden wij naar Madrid.", "en": "Yes, very happy. But when I was twelve, we moved to Madrid.", "gap": "verhuisden" },
+      { "speaker": "Tom", "nl": "Was dat moeilijk?", "en": "Was that hard?" },
+      { "speaker": "Sara", "nl": "Ja, ik was heel verdrietig, want ik zag mijn oude straat en mijn school nooit meer.", "en": "Yes, I was very sad, because I never saw my old street and my school again." },
+      { "speaker": "Tom", "nl": "Maar je hebt nog mooie herinneringen.", "en": "But you still have lovely memories." }
+    ]
+  }
+}

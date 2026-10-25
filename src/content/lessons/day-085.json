@@ -1,0 +1,66 @@
+{
+  "day": 85,
+  "title": "Slapen",
+  "names": ["Fatima", "Noor"],
+  "words": [
+    { "id": "slaap", "nl": "slaap", "en": "sleep; sleepiness", "article": "de", "example": { "nl": "Ik heb slaap.", "en": "I'm sleepy." } },
+    { "id": "wakker", "nl": "wakker", "en": "awake", "forms": ["wakkerder", "wakkerst", "wakkere", "wakkerdere", "wakkerste"], "example": { "nl": "Ben je al wakker?", "en": "Are you awake yet?" } },
+    { "id": "wakker-worden", "nl": "wakker worden", "en": "to wake up", "example": { "nl": "Ik word om zeven uur wakker.", "en": "I wake up at seven." } },
+    { "id": "wekker", "nl": "wekker", "en": "alarm clock", "article": "de", "plural": "wekkers", "forms": ["wekkertje"], "example": { "nl": "Mijn wekker gaat om zes uur.", "en": "My alarm goes off at six." } },
+    { "id": "droom", "nl": "droom", "en": "dream", "article": "de", "plural": "dromen", "forms": ["droompje"], "example": { "nl": "Ik had een mooie droom.", "en": "I had a lovely dream." } },
+    { "id": "dromen", "nl": "dromen", "en": "to dream", "forms": ["droom", "droomde", "droomt", "droomden", "dromend", "gedroomd"], "example": { "nl": "Ik droom vaak over Spanje.", "en": "I often dream about Spain." } },
+    { "id": "kussen", "nl": "kussen", "en": "pillow, cushion", "article": "het", "plural": "kussens", "forms": ["kussentje"], "example": { "nl": "Dit kussen is te zacht.", "en": "This pillow is too soft." } },
+    { "id": "deken", "nl": "deken", "en": "blanket", "article": "de", "plural": "dekens", "forms": ["dekentje"], "example": { "nl": "Ik heb het koud. Is er nog een deken?", "en": "I'm cold. Is there another blanket?" } },
+    { "id": "snurken", "nl": "snurken", "en": "to snore", "forms": ["snurk", "snurkte", "snurkt", "snurkten", "snurkend", "gesnurkt", "snorken"], "example": { "nl": "Tom snurkt heel hard.", "en": "Tom snores really loudly." } },
+    { "id": "inslapen", "nl": "inslapen", "en": "to fall asleep", "forms": ["slaap in", "sliep in", "inslaap", "insliep", "slaapt in", "inslaapt", "slapen in", "sliepen in", "insliepen", "inslapend", "ingeslapen"], "example": { "nl": "Ik kan niet inslapen.", "en": "I can't fall asleep." } },
+    { "id": "doorslapen", "nl": "doorslapen", "en": "to sleep through (the night)", "forms": ["slaap door", "sliep door", "doorslaap", "doorsliep", "slaapt door", "doorslaapt", "slapen door", "sliepen door", "doorsliepen", "doorslapend", "doorgeslapen"], "example": { "nl": "Ik slaap zelden door.", "en": "I rarely sleep through the night." } },
+    { "id": "rust", "nl": "rust", "en": "rest, peace and quiet", "article": "de", "plural": "rusten", "example": { "nl": "Je hebt rust nodig.", "en": "You need rest." } },
+    { "id": "rusten", "nl": "rusten", "en": "to rest", "forms": ["rust", "rustte", "rustten", "rustend", "gerust"], "example": { "nl": "Ik ga even rusten.", "en": "I'm going to rest for a bit." } },
+    { "id": "nachtmerrie", "nl": "nachtmerrie", "en": "nightmare", "article": "de", "plural": "nachtmerries", "forms": ["nachtmerrietje"], "example": { "nl": "Noor had een nachtmerrie.", "en": "Noor had a nightmare." } },
+    { "id": "uitslapen", "nl": "uitslapen", "en": "to sleep in, to have a lie-in", "forms": ["slaap uit", "sliep uit", "uitslaap", "uitsliep", "slaapt uit", "uitslaapt", "slapen uit", "sliepen uit", "uitsliepen", "uitslapend", "uitgeslapen"], "example": { "nl": "Zaterdag ga ik uitslapen.", "en": "On Saturday I'm going to have a lie-in." } }
+  ],
+  "grammar": {
+    "title": "How often? altijd, vaak, soms, zelden, nooit",
+    "points": [
+      "From always to never: altijd – meestal – vaak – regelmatig – soms – af en toe – zelden – nooit.",
+      "In a main clause the adverb comes right after the conjugated verb: Ik slaap meestal goed. Tom snurkt altijd.",
+      "You can start with the adverb for emphasis; then the verb comes second and the subject follows: Soms word ik om vier uur wakker.",
+      "A pronoun object comes before the adverb, a noun object usually after it: Ik zie hem zelden. Ik drink nooit koffie.",
+      "In a subordinate clause the adverb comes before the verb at the end: ...omdat ik zelden goed slaap.",
+      "nooit already means 'not ever', so never add niet."
+    ],
+    "examples": [
+      { "nl": "Ik slaap meestal acht uur.", "en": "I usually sleep eight hours." },
+      { "nl": "Soms word ik om vier uur wakker.", "en": "Sometimes I wake up at four." },
+      { "nl": "Tom snurkt altijd.", "en": "Tom always snores." },
+      { "nl": "Ik drink in de avond nooit koffie.", "en": "I never drink coffee in the evening." },
+      { "nl": "Ze is moe, omdat ze zelden doorslaapt.", "en": "She's tired because she rarely sleeps through the night." }
+    ],
+    "exercises": [
+      { "prompt": "Ik word ___ om zeven uur wakker.", "answer": "meestal", "hint": "usually" },
+      { "prompt": "___ slaap ik slecht.", "answer": "Soms", "hint": "sometimes" },
+      { "prompt": "Hij drinkt ___ koffie in de avond.", "answer": "nooit", "hint": "never" },
+      { "prompt": "In het weekend slaap ik graag ___.", "answer": "uit", "hint": "uitslapen" },
+      { "prompt": "Ik kan niet ___ als het licht aan is.", "answer": "inslapen", "hint": "to fall asleep" }
+    ]
+  },
+  "dialogue": {
+    "title": "Slecht geslapen",
+    "scene": "At work, Fatima notices Sara looks tired. Sara hasn't been sleeping well.",
+    "lines": [
+      { "speaker": "Fatima", "nl": "Je ziet er moe uit. Heb je slecht geslapen?", "en": "You look tired. Did you sleep badly?" },
+      { "speaker": "Sara", "nl": "Ja, ik slaap de laatste tijd zo slecht.", "en": "Yes, I've been sleeping so badly lately." },
+      { "speaker": "Fatima", "nl": "Kun je niet inslapen?", "en": "Can't you fall asleep?", "gap": "inslapen" },
+      { "speaker": "Sara", "nl": "Inslapen gaat wel, maar ik word om drie uur wakker en dan kan ik niet meer slapen.", "en": "Falling asleep is fine, but I wake up at three and then I can't get back to sleep.", "gap": "wakker" },
+      { "speaker": "Fatima", "nl": "Heb je stress? Of nachtmerries?", "en": "Are you stressed? Or having nightmares?", "gap": "nachtmerries" },
+      { "speaker": "Sara", "nl": "Soms droom ik over het werk.", "en": "Sometimes I dream about work.", "gap": "droom" },
+      { "speaker": "Fatima", "nl": "En Tom? Snurkt hij?", "en": "And Tom? Does he snore?", "gap": "Snurkt" },
+      { "speaker": "Sara", "nl": "Ja, af en toe! Dan neem ik mijn kussen en deken mee naar de bank.", "en": "Yes, now and then! Then I take my pillow and blanket to the sofa." },
+      { "speaker": "Fatima", "nl": "Kijk je in bed vaak naar je telefoon?", "en": "Do you often look at your phone in bed?" },
+      { "speaker": "Sara", "nl": "Ja... altijd, eigenlijk.", "en": "Yes... always, actually." },
+      { "speaker": "Fatima", "nl": "Koop een wekker en laat je telefoon in de keuken.", "en": "Buy an alarm clock and leave your phone in the kitchen." },
+      { "speaker": "Sara", "nl": "Goed idee. En dit weekend ga ik lekker uitslapen!", "en": "Good idea. And this weekend I'm going to have a nice lie-in!" },
+      { "speaker": "Fatima", "nl": "Ja, je hebt rust nodig.", "en": "Yes, you need some rest.", "gap": "rust" }
+    ]
+  }
+}

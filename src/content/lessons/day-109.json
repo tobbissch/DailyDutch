@@ -1,0 +1,64 @@
+{
+  "day": 109,
+  "title": "Tradities thuis",
+  "words": [
+    { "id": "cultuur", "nl": "cultuur", "en": "culture", "article": "de", "plural": "culturen", "forms": ["cultuurtje"], "example": { "nl": "Ik leer veel over de Nederlandse cultuur.", "en": "I'm learning a lot about Dutch culture." } },
+    { "id": "gewoonte", "nl": "gewoonte", "en": "habit, custom", "article": "de", "plural": "gewoonten", "forms": ["gewoontetje", "gewoontes"], "example": { "nl": "Fietsen is een typisch Nederlandse gewoonte.", "en": "Cycling is a typically Dutch habit." } },
+    { "id": "gewend", "nl": "gewend", "en": "used to (gewend aan)", "example": { "nl": "Ik ben gewend aan de regen.", "en": "I'm used to the rain." } },
+    { "id": "verschil", "nl": "verschil", "en": "difference", "article": "het", "plural": "verschillen", "forms": ["verschilletje"], "example": { "nl": "Wat is het verschil tussen de en het?", "en": "What's the difference between de and het?" } },
+    { "id": "verschillen", "nl": "verschillen", "en": "to differ", "forms": ["verschil", "verschilde", "verschilt", "verschilden", "verschillend", "verschild"], "example": { "nl": "De prijzen verschillen per winkel.", "en": "Prices differ from shop to shop." } },
+    { "id": "overeenkomst", "nl": "overeenkomst", "en": "similarity; agreement", "article": "de", "plural": "overeenkomsten", "forms": ["overeenkomstje"], "example": { "nl": "Er zijn ook veel overeenkomsten tussen onze landen.", "en": "There are also many similarities between our countries." } },
+    { "id": "vergelijkbaar", "nl": "vergelijkbaar", "en": "comparable, similar", "forms": ["vergelijkbaarder", "vergelijkbaarst", "vergelijkbare", "vergelijkbaardere", "vergelijkbaarste"], "example": { "nl": "Het weer in Engeland is vergelijkbaar met het weer hier.", "en": "The weather in England is similar to the weather here." } },
+    { "id": "typisch", "nl": "typisch", "en": "typical(ly)", "forms": ["typischer", "typischt", "typische", "typischere", "typischte"], "example": { "nl": "Stamppot is typisch Nederlands.", "en": "Stamppot is typically Dutch." } },
+    { "id": "direct", "nl": "direct", "en": "direct, blunt; immediately", "forms": ["directer", "directst", "directe", "directere", "directste"], "example": { "nl": "Mijn baas is heel direct.", "en": "My boss is very direct." } },
+    { "id": "beleefd", "nl": "beleefd", "en": "polite", "forms": ["beleefder", "beleefdst", "beleefde", "beleefdere", "beleefdste"], "example": { "nl": "Bij ouderen is het beleefd om u te zeggen.", "en": "With older people it's polite to say u." } },
+    { "id": "onbeleefd", "nl": "onbeleefd", "en": "rude, impolite", "forms": ["onbeleefder", "onbeleefdst", "onbeleefde", "onbeleefdere", "onbeleefdste"], "example": { "nl": "Is het onbeleefd om te laat te komen?", "en": "Is it rude to arrive late?" } },
+    { "id": "gesprek-noun", "nl": "gesprek", "en": "conversation", "article": "het", "plural": "gesprekken", "forms": ["gesprekje"], "example": { "nl": "We hadden een leuk gesprek over cultuur.", "en": "We had a nice conversation about culture." } },
+    { "id": "uitnodiging", "nl": "uitnodiging", "en": "invitation", "article": "de", "plural": "uitnodigingen", "forms": ["uitnodigingetje"], "example": { "nl": "Bedankt voor de uitnodiging!", "en": "Thanks for the invitation!" } },
+    { "id": "uitnodiging-noun", "nl": "uitnodiging", "en": "invitation (card)", "article": "de", "plural": "uitnodigingen", "forms": ["uitnodigingetje"], "example": { "nl": "Op de uitnodiging staat: om zeven uur.", "en": "The invitation says: at seven o'clock." } },
+    { "id": "op-tijd", "nl": "op tijd", "en": "on time", "example": { "nl": "In Nederland kom je liever op tijd.", "en": "In the Netherlands you'd better be on time." } },
+    { "id": "stipt", "nl": "stipt", "en": "punctual; sharp (time)", "forms": ["stipter", "stiptst", "stipte", "stiptere", "stiptste"], "example": { "nl": "Het feest begint stipt om acht uur.", "en": "The party starts at eight sharp." } }
+  ],
+  "grammar": {
+    "title": "Comparing cultures: terwijl, net als, anders dan",
+    "points": [
+      "terwijl can mean 'while' (two things at the same time), but also 'whereas' (a contrast): In Spanje eten we laat, terwijl jullie vroeg eten.",
+      "terwijl starts a subordinate clause, so the verb goes to the end.",
+      "net als = just like: Net als in Spanje is familie hier belangrijk.",
+      "anders dan = different from; vergelijkbaar met = similar to.",
+      "gewend zijn aan = to be used to: Ik ben gewend aan het weer."
+    ],
+    "examples": [
+      { "nl": "In Spanje eten we laat, terwijl jullie om zes uur eten.", "en": "In Spain we eat late, whereas you eat at six." },
+      { "nl": "Terwijl Tom kookt, leest Sara de krant.", "en": "While Tom is cooking, Sara reads the paper." },
+      { "nl": "Net als in Spanje is familie hier heel belangrijk.", "en": "Just like in Spain, family is very important here." },
+      { "nl": "Een verjaardag in Nederland is anders dan in Spanje.", "en": "A birthday in the Netherlands is different from one in Spain." },
+      { "nl": "Ik ben nu gewend aan de directe mensen hier.", "en": "I'm used to the direct people here now." }
+    ],
+    "exercises": [
+      { "prompt": "In Spanje eet je laat, ___ je in Nederland vroeg eet.", "answer": "terwijl", "hint": "whereas" },
+      { "prompt": "Ik ben nog niet ___ aan het koude weer.", "answer": "gewend", "hint": "used to" },
+      { "prompt": "___ als in Spanje is familie hier belangrijk.", "answer": "Net", "hint": "just like" },
+      { "prompt": "De gewoonten ___ per land.", "answer": "verschillen", "hint": "to differ" },
+      { "prompt": "Mensen hier zijn ___ dan in Spanje.", "answer": "directer", "hint": "direct (comparative)" }
+    ]
+  },
+  "dialogue": {
+    "title": "Spanje en Nederland",
+    "scene": "Over dinner, Sara and Tom compare Spanish and Dutch habits.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Wat vind jij het grootste verschil tussen Spanje en Nederland?", "en": "What do you think is the biggest difference between Spain and the Netherlands?", "gap": "verschil" },
+      { "speaker": "Sara", "nl": "Het eten! In Spanje eten we pas om tien uur, terwijl jullie al om zes uur eten.", "en": "Food! In Spain we don't eat until ten, whereas you already eat at six.", "gap": "terwijl" },
+      { "speaker": "Tom", "nl": "Daar ben ik aan gewend. Om tien uur lig ik al in bed!", "en": "I'm used to that. At ten I'm already in bed!", "gap": "gewend" },
+      { "speaker": "Sara", "nl": "En mensen zijn hier heel direct.", "en": "And people here are very direct." },
+      { "speaker": "Tom", "nl": "Vind je dat onbeleefd?", "en": "Do you find that rude?" },
+      { "speaker": "Sara", "nl": "In het begin wel. Nu vind ik het eigenlijk makkelijk: je weet altijd wat iemand denkt.", "en": "At first I did. Now I actually find it easy: you always know what someone thinks." },
+      { "speaker": "Tom", "nl": "En wat is typisch Spaans?", "en": "And what's typically Spanish?", "gap": "typisch" },
+      { "speaker": "Sara", "nl": "Wij zijn minder stipt. Als een feest om acht uur begint, komt niemand op tijd.", "en": "We're less punctual. If a party starts at eight, nobody arrives on time.", "gap": "op tijd" },
+      { "speaker": "Tom", "nl": "Hier staat de tijd op de uitnodiging, en dan kom je ook echt op die tijd.", "en": "Here the time is on the invitation, and then you really come at that time." },
+      { "speaker": "Sara", "nl": "Dat heb ik geleerd! Maar er zijn ook overeenkomsten.", "en": "I've learned that! But there are also similarities." },
+      { "speaker": "Tom", "nl": "Echt waar? Wat dan?", "en": "Really? Like what?" },
+      { "speaker": "Sara", "nl": "Net als in Spanje is familie hier heel belangrijk. De culturen verschillen minder dan je denkt.", "en": "Just like in Spain, family is very important here. The cultures differ less than you think." }
+    ]
+  }
+}

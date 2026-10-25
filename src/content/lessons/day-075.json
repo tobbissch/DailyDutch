@@ -1,0 +1,64 @@
+{
+  "day": 75,
+  "title": "Sociale media",
+  "names": ["Sara", "Tom", "Javier", "Spanje"],
+  "words": [
+    { "id": "iedereen", "nl": "iedereen", "en": "everyone", "example": { "nl": "Iedereen heeft een telefoon.", "en": "Everyone has a phone." } },
+    { "id": "niemand", "nl": "niemand", "en": "nobody, no one", "example": { "nl": "Niemand leest mijn berichten.", "en": "Nobody reads my messages." } },
+    { "id": "iemand", "nl": "iemand", "en": "someone; anyone", "example": { "nl": "Is er iemand thuis?", "en": "Is anyone home?" } },
+    { "id": "alles", "nl": "alles", "en": "everything", "example": { "nl": "Javier post alles online.", "en": "Javier posts everything online." } },
+    { "id": "posten", "nl": "posten", "en": "to post (online)", "forms": ["post", "postte", "postten", "postend", "gepost"], "example": { "nl": "Ik post een foto van de zee.", "en": "I'm posting a photo of the sea." } },
+    { "id": "like", "nl": "like", "en": "like (on social media)", "article": "de", "plural": "likes", "forms": ["likeje"], "example": { "nl": "Mijn foto heeft honderd likes.", "en": "My photo has a hundred likes." } },
+    { "id": "volger", "nl": "volger", "en": "follower", "article": "de", "plural": "volgers", "forms": ["volgertje"], "example": { "nl": "Javier heeft duizend volgers.", "en": "Javier has a thousand followers." } },
+    { "id": "filmpje", "nl": "filmpje", "en": "(short) video, clip", "article": "het", "plural": "filmpjes", "example": { "nl": "Kijk, een grappig filmpje van een kat!", "en": "Look, a funny video of a cat!" } },
+    { "id": "nieuws", "nl": "nieuws", "en": "news", "article": "het", "forms": ["nieuwsje"], "example": { "nl": "Ik lees het nieuws op mijn telefoon.", "en": "I read the news on my phone." } },
+    { "id": "prive", "nl": "privé", "en": "private", "example": { "nl": "Mijn account is privé.", "en": "My account is private." } },
+    { "id": "openbaar", "nl": "openbaar", "en": "public", "forms": ["openbaarder", "openbaarst", "openbare", "openbaardere", "openbaarste"], "example": { "nl": "Zijn account is openbaar: iedereen kan het zien.", "en": "His account is public: anyone can see it." } },
+    { "id": "reactie-noun", "nl": "reactie", "en": "reaction, reply, comment", "article": "de", "plural": "reacties", "forms": ["reactietje"], "example": { "nl": "Ik heb veel reacties op mijn foto.", "en": "I've got lots of comments on my photo." } },
+    { "id": "commentaar", "nl": "commentaar", "en": "comment(s), commentary", "article": "het", "plural": "commentaren", "example": { "nl": "Zijn oma geeft op elke foto commentaar.", "en": "His grandma comments on every photo." } }
+  ],
+  "grammar": {
+    "title": "Iedereen, niemand, iemand, alles, niets",
+    "points": [
+      "For people: iedereen (everyone), iemand (someone / anyone), niemand (nobody). For things: alles (everything), iets (something / anything), niets (nothing).",
+      "They take a singular verb, even iedereen: Iedereen heeft een telefoon. Niemand weet het. Alles is duur.",
+      "In questions, iemand and iets mean 'anyone' and 'anything': Heeft iemand mijn oplader gezien? Wil je iets drinken?",
+      "To say 'not anyone / not anything', use niemand and niets, not niet iemand / niet iets: Ik zie niemand. Ik heb niets gepost.",
+      "After iets and niets an adjective gets -s: iets leuks (something nice), niets nieuws (nothing new)."
+    ],
+    "examples": [
+      { "nl": "Iedereen kan je foto's zien.", "en": "Everyone can see your photos." },
+      { "nl": "Niemand heeft gereageerd.", "en": "Nobody has replied." },
+      { "nl": "Heeft iemand mijn filmpje gezien?", "en": "Has anyone seen my video?" },
+      { "nl": "Hij post alles: zijn ontbijt, zijn lunch, zijn kat…", "en": "He posts everything: his breakfast, his lunch, his cat…" },
+      { "nl": "Ik heb vandaag niets gepost.", "en": "I haven't posted anything today." },
+      { "nl": "Is er iets nieuws? — Nee, niets nieuws.", "en": "Is there any news? — No, nothing new." }
+    ],
+    "exercises": [
+      { "prompt": "___ heeft een telefoon.", "answer": "Iedereen", "hint": "everyone" },
+      { "prompt": "Ik zie ___. Waar is iedereen?", "answer": "niemand", "hint": "nobody" },
+      { "prompt": "Is er ___ thuis?", "answer": "iemand", "hint": "anyone" },
+      { "prompt": "Ik heb vandaag ___ gepost.", "answer": "niets", "hint": "nothing" },
+      { "prompt": "Javier post ___ online.", "answer": "alles", "hint": "everything" },
+      { "prompt": "Mijn account is niet openbaar, maar ___.", "answer": "privé", "hint": "private" }
+    ]
+  },
+  "dialogue": {
+    "title": "Javier post alles",
+    "scene": "Tom and Sara scroll through the social media of Sara's cousin Javier, who posts everything online.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Wie is die Javier? Hij heeft wel duizend volgers.", "en": "Who's this Javier? He has a good thousand followers!", "gap": "volgers" },
+      { "speaker": "Sara", "nl": "Hij is familie van mij, uit Spanje. Hij post alles online.", "en": "He's my cousin, from Spain. He posts everything online.", "gap": "alles" },
+      { "speaker": "Tom", "nl": "Echt alles: zijn ontbijt, zijn lunch, zijn kat…", "en": "Really everything: his breakfast, his lunch, his cat…" },
+      { "speaker": "Sara", "nl": "En elke dag een filmpje. Ik vind het een beetje veel.", "en": "And a video every day. I think it's a bit much." },
+      { "speaker": "Tom", "nl": "Zijn account is openbaar. Iedereen kan het zien!", "en": "His account is public. Anyone can see it!", "gap": "Iedereen" },
+      { "speaker": "Sara", "nl": "Mijn account is privé. En ik post eigenlijk niets.", "en": "My account is private. And I don't really post anything." },
+      { "speaker": "Tom", "nl": "Kijk, er is een nieuw filmpje. Is dat niet jouw balkon?", "en": "Look, there's a new video. Isn't that your balcony?" },
+      { "speaker": "Sara", "nl": "Ja! Dat is van vorige week. Hij heeft het niet eens gevraagd!", "en": "Yes! That's from last week. He didn't even ask!" },
+      { "speaker": "Tom", "nl": "Het heeft al tweehonderd likes en veel reacties.", "en": "It already has two hundred likes and lots of comments." },
+      { "speaker": "Sara", "nl": "Wat schrijft iemand daar? \"Wie is die man?\" Dat ben jij!", "en": "What's someone writing there? \"Who's that man?\" That's you!", "gap": "iemand" },
+      { "speaker": "Tom", "nl": "Nu weet iedereen het: wij zijn samen.", "en": "Now everyone knows: we're together." },
+      { "speaker": "Sara", "nl": "Ik geef wel even commentaar: \"Javier, niemand vindt dit leuk!\"", "en": "I'll leave a comment: \"Javier, nobody likes this!\"", "gap": "niemand" }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "day": 79,
+  "title": "Dieren",
+  "names": ["Spanje", "Pluis", "Riet"],
+  "words": [
+    { "id": "huisdier", "nl": "huisdier", "en": "pet", "article": "het", "plural": "huisdieren", "forms": ["huisdiertje"], "example": { "nl": "Heb jij een huisdier?", "en": "Do you have a pet?" } },
+    { "id": "dierenarts", "nl": "dierenarts", "en": "vet", "article": "de", "plural": "dierenartsen", "forms": ["dierenartsje"], "example": { "nl": "De hond moet naar de dierenarts.", "en": "The dog has to go to the vet." } },
+    { "id": "asiel", "nl": "asiel", "en": "animal shelter; asylum", "article": "het", "plural": "asiels", "forms": ["asieltje"], "example": { "nl": "Deze kat komt uit het asiel.", "en": "This cat comes from the shelter." } },
+    { "id": "adopteren", "nl": "adopteren", "en": "to adopt", "forms": ["adopteer", "adopteerde", "adopteert", "adopteerden", "adopterend", "geadopteerd"], "example": { "nl": "We willen een hond adopteren.", "en": "We want to adopt a dog." } },
+    { "id": "verzorgen", "nl": "verzorgen", "en": "to look after, to take care of", "forms": ["verzorg", "verzorgde", "verzorgt", "verzorgden", "verzorgend", "verzorgd"], "example": { "nl": "Wie verzorgt de kat als je op vakantie bent?", "en": "Who looks after the cat when you're on holiday?" } },
+    { "id": "voeren", "nl": "voeren", "en": "to feed (animals)", "forms": ["voer", "voerde", "voert", "voerden", "voerend", "gevoerd"], "example": { "nl": "Ik voer de eenden.", "en": "I'm feeding the ducks." } },
+    { "id": "voer", "nl": "voer", "en": "animal food, feed", "article": "het", "example": { "nl": "Het voer voor de kat is op.", "en": "The cat food has run out." } },
+    { "id": "vis-noun", "nl": "vis", "en": "fish", "article": "de", "plural": "vissen", "forms": ["visje"], "example": { "nl": "Mijn zoon heeft een vis in een glazen bak.", "en": "My son has a fish in a glass tank." } },
+    { "id": "konijn", "nl": "konijn", "en": "rabbit", "article": "het", "plural": "konijnen", "forms": ["konijntje"], "example": { "nl": "Het konijn eet een wortel.", "en": "The rabbit is eating a carrot." } },
+    { "id": "muis", "nl": "muis", "en": "mouse", "article": "de", "plural": "muizen", "forms": ["muisje"], "example": { "nl": "Er zit een muis onder de kast.", "en": "There's a mouse under the cupboard." } },
+    { "id": "schaap", "nl": "schaap", "en": "sheep", "article": "het", "plural": "schapen", "forms": ["schaapje"], "example": { "nl": "Op de heide lopen schapen.", "en": "There are sheep walking on the heath." } },
+    { "id": "varken", "nl": "varken", "en": "pig", "article": "het", "plural": "varkens", "forms": ["varkentje"], "example": { "nl": "De boer heeft honderd varkens.", "en": "The farmer has a hundred pigs." } },
+    { "id": "kip", "nl": "kip", "en": "chicken, hen", "article": "de", "plural": "kippen", "forms": ["kippetje", "kipje"], "example": { "nl": "Oma Riet had vroeger kippen.", "en": "Grandma Riet used to have chickens." } },
+    { "id": "eend", "nl": "eend", "en": "duck", "article": "de", "plural": "eenden", "forms": ["eendje"], "example": { "nl": "Er zwemmen eenden in de gracht.", "en": "There are ducks swimming in the canal." } },
+    { "id": "aaien", "nl": "aaien", "en": "to stroke, to pet", "forms": ["aai", "aaide", "aait", "aaiden", "aaiend", "geaaid"], "example": { "nl": "Mag ik je hond aaien?", "en": "May I pet your dog?" } }
+  ],
+  "grammar": {
+    "title": "Small and cute: katje, konijntje, boompje",
+    "points": [
+      "A diminutive makes a noun small, cute or informal. Most nouns just add -je: kat → katje, huis → huisje.",
+      "After a vowel, or after a long vowel + l, n or r, add -tje: auto → autootje, konijn → konijntje, deur → deurtje.",
+      "After -m add -pje: boom → boompje. After a short vowel + l, m, n, r or ng, add -etje: bal → balletje, kip → kippetje.",
+      "Every diminutive is a het-word, even when the noun is a de-word: de kat → het katje. The plural ends in -s: katjes.",
+      "Most animals are de-words (de hond, de kat, de kip), but learn these het-words: het dier, het paard, het konijn, het schaap, het varken."
+    ],
+    "examples": [
+      { "nl": "Het katje slaapt op de bank.", "en": "The kitten is sleeping on the sofa." },
+      { "nl": "De kinderen aaien het konijntje.", "en": "The children are stroking the little rabbit." },
+      { "nl": "Op de boerderij zijn varkens, schapen en kippen.", "en": "There are pigs, sheep and chickens on the farm." },
+      { "nl": "Kijk, een klein eendje!", "en": "Look, a little duckling!" },
+      { "nl": "Het paard en het schaap staan bij de boerderij.", "en": "The horse and the sheep are standing by the farm." }
+    ],
+    "exercises": [
+      { "prompt": "Het kleine ___ drinkt melk.", "answer": "katje", "hint": "kat, diminutive" },
+      { "prompt": "Er staat een klein ___ in de tuin.", "answer": "boompje", "hint": "boom, diminutive" },
+      { "prompt": "___ konijn eet een wortel.", "answer": "Het", "hint": "de / het" },
+      { "prompt": "___ muis zit onder de kast.", "answer": "De", "hint": "de / het" },
+      { "prompt": "Hoe vaak moet je een vis ___?", "answer": "voeren", "hint": "to feed" },
+      { "prompt": "De kinderen ___ de kat.", "answer": "aaien", "hint": "to stroke" }
+    ]
+  },
+  "dialogue": {
+    "title": "Een kat uit het asiel",
+    "scene": "Sara visits an animal shelter because she'd like to adopt a cat.",
+    "lines": [
+      { "speaker": "Medewerker", "nl": "Hallo! Kan ik u helpen?", "en": "Hello! Can I help you?" },
+      { "speaker": "Sara", "nl": "Ja, ik wil graag een kat adopteren.", "en": "Yes, I'd like to adopt a cat.", "gap": "adopteren" },
+      { "speaker": "Medewerker", "nl": "Wat leuk! Heeft u al ervaring met huisdieren?", "en": "How nice! Do you have experience with pets?", "gap": "huisdieren" },
+      { "speaker": "Sara", "nl": "Ja, in Spanje hadden we een hond en twee konijnen.", "en": "Yes, in Spain we had a dog and two rabbits." },
+      { "speaker": "Medewerker", "nl": "Mooi. Kijk, dit is Pluis. Ze is twee jaar oud en heel rustig.", "en": "Great. Look, this is Pluis. She's two years old and very calm." },
+      { "speaker": "Sara", "nl": "Wat een mooie kat! Mag ik haar aaien?", "en": "What a beautiful cat! May I stroke her?", "gap": "aaien" },
+      { "speaker": "Medewerker", "nl": "Natuurlijk. Ze is gezond; de dierenarts heeft haar vorige week gezien.", "en": "Of course. She's healthy; the vet saw her last week.", "gap": "dierenarts" },
+      { "speaker": "Sara", "nl": "Hoe vaak moet ik haar voeren?", "en": "How often do I need to feed her?", "gap": "voeren" },
+      { "speaker": "Medewerker", "nl": "Twee keer per dag. Het voer kunt u bij ons kopen.", "en": "Twice a day. You can buy the food from us." },
+      { "speaker": "Sara", "nl": "Wat moet ik nog meer doen?", "en": "What else do I need to do?" },
+      { "speaker": "Medewerker", "nl": "Een kat verzorgen is niet moeilijk, maar u moet wel veel met haar spelen.", "en": "Looking after a cat isn't hard, but you do need to play with her a lot." },
+      { "speaker": "Sara", "nl": "Dat doe ik graag. Ik werk vaak thuis.", "en": "I'd love to. I often work from home." },
+      { "speaker": "Medewerker", "nl": "Mooi. Dan gaan we het formulier invullen.", "en": "Great. Then let's fill in the form." }
+    ]
+  }
+}

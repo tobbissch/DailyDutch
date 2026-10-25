@@ -1,0 +1,67 @@
+{
+  "day": 74,
+  "title": "Mijn telefoon is kapot",
+  "names": ["Sara", "Tom", "Daan", "Fatima"],
+  "words": [
+    { "id": "scherm", "nl": "scherm", "en": "screen", "article": "het", "plural": "schermen", "forms": ["schermpje"], "example": { "nl": "Het scherm van mijn telefoon is kapot.", "en": "My phone screen is broken." } },
+    { "id": "batterij", "nl": "batterij", "en": "battery", "article": "de", "plural": "batterijen", "forms": ["batterijtje"], "example": { "nl": "Mijn batterij is leeg.", "en": "My battery is dead." } },
+    { "id": "opladen", "nl": "opladen", "en": "to charge (a battery)", "forms": ["laad op", "laadde op", "oplaad", "oplaadde", "laadt op", "oplaadt", "laden op", "laadden op", "oplaadden", "opladend", "opgeladen"], "example": { "nl": "Ik laad mijn telefoon elke nacht op.", "en": "I charge my phone every night." } },
+    { "id": "oplader", "nl": "oplader", "en": "charger", "article": "de", "plural": "opladers", "forms": ["opladertje"], "example": { "nl": "Mag ik je oplader even lenen?", "en": "Can I borrow your charger for a moment?" } },
+    { "id": "toestel", "nl": "toestel", "en": "device, phone", "article": "het", "plural": "toestellen", "forms": ["toestelletje"], "example": { "nl": "Dit toestel is twee jaar oud.", "en": "This phone is two years old." } },
+    { "id": "garantie", "nl": "garantie", "en": "warranty, guarantee", "article": "de", "plural": "garanties", "forms": ["garantietje"], "example": { "nl": "Er zit nog een jaar garantie op.", "en": "It still has a year's warranty." } },
+    { "id": "winkel-noun", "nl": "winkel", "en": "shop", "article": "de", "plural": "winkels", "forms": ["winkeltje"], "example": { "nl": "De winkel gaat om negen uur open.", "en": "The shop opens at nine." } },
+    { "id": "hoes", "nl": "hoes", "en": "cover, case", "article": "de", "plural": "hoezen", "forms": ["hoesje", "hoesjes"], "example": { "nl": "Koop een hoesje voor je telefoon.", "en": "Buy a case for your phone." } },
+    { "id": "abonnement-noun", "nl": "abonnement", "en": "subscription; (phone) contract", "article": "het", "plural": "abonnementen", "forms": ["abonnementje"], "example": { "nl": "Mijn abonnement kost twintig euro per maand.", "en": "My phone contract costs twenty euros a month." } },
+    { "id": "data", "nl": "data", "en": "(mobile) data", "article": "de", "example": { "nl": "Ik heb geen data meer.", "en": "I've run out of data." } },
+    { "id": "wifi", "nl": "wifi", "en": "wifi", "article": "de", "plural": "wifi's", "forms": ["wifietje"], "example": { "nl": "Is er hier wifi?", "en": "Is there wifi here?" } },
+    { "id": "internet", "nl": "internet", "en": "internet", "article": "het", "forms": ["internetje"], "example": { "nl": "Het internet is vandaag heel langzaam.", "en": "The internet is really slow today." } },
+    { "id": "verbinding", "nl": "verbinding", "en": "connection", "article": "de", "plural": "verbindingen", "forms": ["verbindinkje"], "example": { "nl": "In de trein is de verbinding slecht.", "en": "The connection is bad on the train." } },
+    { "id": "downloaden", "nl": "downloaden", "en": "to download", "forms": ["download", "downloadde", "downloadt", "downloadden", "downloadend", "gedownload", "load down", "loadde down", "loadt down", "loaden down", "loadden down", "downgeload"], "example": { "nl": "Ik download de app van de bank.", "en": "I'm downloading the bank's app." } },
+    { "id": "updaten", "nl": "updaten", "en": "to update", "forms": ["update", "updatete", "updatet", "updateten", "updatend", "geüpdatet"], "example": { "nl": "Je moet je telefoon updaten.", "en": "You need to update your phone." } }
+  ],
+  "grammar": {
+    "title": "Ik heb er twee: er with numbers",
+    "points": [
+      "When you give a number or amount without repeating the noun, Dutch needs er: Hoeveel opladers heb je? Ik heb er twee. (English just says: I have two.)",
+      "This works with numbers and amount words: er één, er drie, er veel, er geen, er nog één, er meer.",
+      "er comes right after the conjugated verb: Ik heb er twee. Wij hebben er geen. In a question it comes after the subject: Heb jij er één?",
+      "Write één (with accents) when you mean the number one: Ik heb er één.",
+      "Don't use er for one specific thing: Waar is mijn oplader? Ik heb hem. But: Heb je een oplader? Ja, ik heb er één."
+    ],
+    "examples": [
+      { "nl": "Hoeveel opladers heb je? Ik heb er twee.", "en": "How many chargers have you got? I've got two." },
+      { "nl": "Heb jij een hoesje? Nee, ik heb er geen.", "en": "Have you got a case? No, I haven't got one." },
+      { "nl": "Hoeveel apps heeft Daan? Hij heeft er veel.", "en": "How many apps does Daan have? He has lots." },
+      { "nl": "Ik wil een nieuwe telefoon. De winkel heeft er nog drie.", "en": "I want a new phone. The shop has three left." },
+      { "nl": "Ik heb al een telefoon, maar ik wil er nog één.", "en": "I already have a phone, but I want another one." },
+      { "nl": "Waar is mijn oplader? — Tom heeft hem.", "en": "Where's my charger? — Tom has it." }
+    ],
+    "exercises": [
+      { "prompt": "Hoeveel opladers heb je? Ik heb ___ twee.", "answer": "er", "hint": "er / het" },
+      { "prompt": "Heb jij een hoesje? Nee, ik heb er ___.", "answer": "geen", "hint": "none" },
+      { "prompt": "Heb jij er ___? Ja, hier.", "answer": "één", "hint": "one" },
+      { "prompt": "Mijn batterij is leeg. Ik moet mijn telefoon ___.", "answer": "opladen", "hint": "to charge" },
+      { "prompt": "Het ___ van mijn telefoon is kapot.", "answer": "scherm", "hint": "screen" },
+      { "prompt": "Is er hier ___? Ik heb geen data meer.", "answer": "wifi", "hint": "wireless internet" }
+    ]
+  },
+  "dialogue": {
+    "title": "Een nieuw scherm",
+    "scene": "Sara drops her phone and the screen breaks. Tom goes with her to the phone shop.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Nee! Mijn telefoon viel uit mijn hand. Het scherm is kapot.", "en": "No! My phone fell out of my hand. The screen is broken.", "gap": "scherm" },
+      { "speaker": "Tom", "nl": "Wat vervelend. Er is een winkel in de straat. Zullen we gaan?", "en": "How annoying. There's a shop on this street. Shall we go?" },
+      { "speaker": "Verkoper", "nl": "Dag! Waarmee kan ik u helpen?", "en": "Hello! How can I help you?" },
+      { "speaker": "Sara", "nl": "Mijn scherm is kapot. Zit er nog garantie op het toestel?", "en": "My screen is broken. Is the phone still under warranty?", "gap": "garantie" },
+      { "speaker": "Verkoper", "nl": "Helaas niet. Het toestel is twee jaar oud. Maar we kunnen het repareren.", "en": "Unfortunately not. The phone is two years old. But we can repair it." },
+      { "speaker": "Sara", "nl": "Wat kost dat?", "en": "How much does that cost?" },
+      { "speaker": "Verkoper", "nl": "Negentig euro. Over een uur is het klaar.", "en": "Ninety euros. It'll be ready in an hour." },
+      { "speaker": "Tom", "nl": "Heeft u ook hoesjes? Dan gaat het scherm niet weer kapot.", "en": "Do you also have cases? Then the screen won't break again." },
+      { "speaker": "Verkoper", "nl": "Ja, we hebben er veel. Kijk maar.", "en": "Yes, we have lots. Have a look.", "gap": "er veel" },
+      { "speaker": "Verkoper", "nl": "Uw batterij is ook leeg. Ik laad hem even op.", "en": "Your battery is dead too. I'll charge it for you.", "gap": "laad" },
+      { "speaker": "Sara", "nl": "Dank u. Tom, mag ik jouw telefoon even? Ik moet Fatima bellen.", "en": "Thank you. Tom, can I use your phone for a moment? I need to call Fatima." },
+      { "speaker": "Tom", "nl": "Hier. Maar mijn data is op, en hier is geen wifi.", "en": "Here. But my data's run out, and there's no wifi here." },
+      { "speaker": "Sara", "nl": "Bellen kan wel zonder internet!", "en": "You can still make calls without internet!", "gap": "internet" }
+    ]
+  }
+}

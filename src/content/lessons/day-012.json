@@ -1,0 +1,65 @@
+{
+  "day": 12,
+  "title": "Mooi weer!",
+  "words": [
+    { "id": "weer", "nl": "weer", "en": "weather", "article": "het", "forms": ["weertje"], "example": { "nl": "Het weer is mooi vandaag.", "en": "The weather is nice today." } },
+    { "id": "mooi", "nl": "mooi", "en": "beautiful, nice", "forms": ["mooier", "mooist", "mooie", "mooiere", "mooiste"], "example": { "nl": "Wat een mooie dag!", "en": "What a beautiful day!" } },
+    { "id": "slecht", "nl": "slecht", "en": "bad", "forms": ["slechter", "slechtst", "slechte", "slechtere", "slechtste"], "example": { "nl": "Het weer is slecht.", "en": "The weather is bad." } },
+    { "id": "warm", "nl": "warm", "en": "warm, hot", "forms": ["warmer", "warmst", "warme", "warmere", "warmste"], "example": { "nl": "Het is warm vandaag.", "en": "It's warm today." } },
+    { "id": "koud", "nl": "koud", "en": "cold", "forms": ["kouder", "koudst", "koude", "koudere", "koudste"], "example": { "nl": "Het is koud in Nederland.", "en": "It's cold in the Netherlands." } },
+    { "id": "zon", "nl": "zon", "en": "sun", "article": "de", "plural": "zonnen", "forms": ["zonnetje"], "example": { "nl": "Spanje heeft veel zon.", "en": "Spain has a lot of sun." } },
+    { "id": "regen", "nl": "regen", "en": "rain", "article": "de", "plural": "regens", "forms": ["regentje"], "example": { "nl": "Nederland heeft veel regen.", "en": "The Netherlands has a lot of rain." } },
+    { "id": "regenen", "nl": "regenen", "en": "to rain", "forms": ["regen", "regende", "regent", "regenden", "regenend", "geregend"], "example": { "nl": "Het regent vandaag.", "en": "It's raining today." } },
+    { "id": "wind", "nl": "wind", "en": "wind", "article": "de", "plural": "winden", "forms": ["windje"], "example": { "nl": "De wind is koud.", "en": "The wind is cold." } },
+    { "id": "groot", "nl": "groot", "en": "big, large", "forms": ["groter", "grootst", "grote", "grotere", "grootste"], "example": { "nl": "Een groot brood, alstublieft.", "en": "A large loaf of bread, please." } },
+    { "id": "klein", "nl": "klein", "en": "small, little", "forms": ["kleiner", "kleinst", "kleine", "kleinere", "kleinste"], "example": { "nl": "Noor is een klein kind.", "en": "Noor is a little child." } },
+    { "id": "nieuw", "nl": "nieuw", "en": "new", "forms": ["nieuwer", "nieuwst", "nieuwe", "nieuwere", "nieuwste"], "example": { "nl": "Ik heb een nieuwe telefoon.", "en": "I have a new phone." } },
+    { "id": "heel", "nl": "heel", "en": "very", "example": { "nl": "Het is heel koud!", "en": "It's very cold!" } },
+    { "id": "te", "nl": "te", "en": "too", "example": { "nl": "De koffie is te warm.", "en": "The coffee is too hot." } },
+    { "id": "dag-noun", "nl": "dag", "en": "day", "article": "de", "plural": "dagen", "forms": ["dagje", "daagje"], "example": { "nl": "Wat een lange dag!", "en": "What a long day!" } },
+    { "id": "lang", "nl": "lang", "en": "long; tall", "forms": ["langer", "langst", "lange", "langere", "langste"], "example": { "nl": "De week is lang.", "en": "The week is long." } },
+    { "id": "fijn", "nl": "fijn", "en": "nice, pleasant; fine", "forms": ["fijne", "fijner", "fijnere", "fijnst", "fijnste"], "example": { "nl": "Fijn weekend!", "en": "Have a nice weekend!" } },
+    { "id": "erg", "nl": "erg", "en": "very; bad", "forms": ["erge", "erger", "ergere", "ergst", "ergste"], "example": { "nl": "Het is erg koud vandaag.", "en": "It's very cold today." } },
+    { "id": "steeds", "nl": "steeds", "en": "all the time; more and more", "example": { "nl": "Het regent steeds.", "en": "It keeps raining." } },
+    { "id": "jammer", "nl": "jammer", "en": "a pity, too bad", "example": { "nl": "Regen? Wat jammer!", "en": "Rain? What a pity!" } }
+  ],
+  "grammar": {
+    "title": "Adjectives: de mooie dag, een mooi huis",
+    "points": [
+      "After the noun (with zijn) an adjective has no ending: De dag is mooi.",
+      "Before a noun the adjective gets -e: de mooie dag, een mooie dag, de mooie dagen.",
+      "One exception: no -e with a singular het-word after een (or with no article): een klein kind, een groot brood, mooi weer. But with het it's -e again: het kleine kind.",
+      "Mind the spelling: groot → grote, slecht → slechte, lang → lange.",
+      "heel = very, te = too: heel warm (very warm), te warm (too warm)."
+    ],
+    "examples": [
+      { "nl": "Het weer is mooi.", "en": "The weather is nice." },
+      { "nl": "Wat een mooie dag!", "en": "What a beautiful day!" },
+      { "nl": "Ik heb een nieuwe telefoon.", "en": "I have a new phone." },
+      { "nl": "Daan is een groot kind.", "en": "Daan is a big kid." },
+      { "nl": "Het nieuwe brood is lekker.", "en": "The new bread is tasty." }
+    ],
+    "exercises": [
+      { "prompt": "Wat een ___ dag!", "answer": "mooie", "hint": "mooi" },
+      { "prompt": "De dag is ___.", "answer": "mooi", "hint": "mooi" },
+      { "prompt": "Noor is een ___ kind.", "answer": "klein", "hint": "klein (het kind)" },
+      { "prompt": "Het ___ brood is lekker.", "answer": "nieuwe", "hint": "nieuw" },
+      { "prompt": "Het is een ___ week.", "answer": "lange", "hint": "lang" },
+      { "prompt": "De koffie is ___ warm.", "answer": "te", "hint": "too" }
+    ]
+  },
+  "dialogue": {
+    "title": "Wat een mooi weer!",
+    "scene": "Sara chats about the weather with her older neighbour, mevrouw De Vries.",
+    "lines": [
+      { "speaker": "Mevrouw De Vries", "nl": "Dag Sara! Wat een mooi weer vandaag!", "en": "Hello Sara! What lovely weather today!", "gap": "mooi weer" },
+      { "speaker": "Sara", "nl": "Ja, heel mooi! Het is lekker warm.", "en": "Yes, really nice! It's lovely and warm.", "gap": "warm" },
+      { "speaker": "Mevrouw De Vries", "nl": "Maar morgen regent het.", "en": "But tomorrow it's going to rain.", "gap": "regent" },
+      { "speaker": "Sara", "nl": "Nee! Regen en wind? Wat jammer!", "en": "Oh no! Rain and wind? What a pity!" },
+      { "speaker": "Mevrouw De Vries", "nl": "Ja, en het is koud. Het weer in Nederland is altijd slecht!", "en": "Yes, and it'll be cold. The weather in the Netherlands is always bad!", "gap": "slecht" },
+      { "speaker": "Sara", "nl": "In Spanje is het niet zo koud.", "en": "In Spain it isn't so cold." },
+      { "speaker": "Mevrouw De Vries", "nl": "Ja, Spanje heeft veel zon. Spanje is mooi!", "en": "Yes, Spain gets a lot of sun. Spain is beautiful!" },
+      { "speaker": "Sara", "nl": "Maar Nederland is ook heel mooi!", "en": "But the Netherlands is very beautiful too!" }
+    ]
+  }
+}

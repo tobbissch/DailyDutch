@@ -1,0 +1,67 @@
+{
+  "day": 61,
+  "title": "Mijn karakter",
+  "names": ["Sara", "Tom", "Fatima", "Noor", "Daan"],
+  "words": [
+    { "id": "karakter", "nl": "karakter", "en": "character, personality", "article": "het", "plural": "karakters", "forms": ["karaktertje"], "example": { "nl": "Tom heeft een rustig karakter.", "en": "Tom has a calm personality." } },
+    { "id": "eerlijk", "nl": "eerlijk", "en": "honest, fair", "forms": ["eerlijker", "eerlijkst", "eerlijke", "eerlijkere", "eerlijkste"], "example": { "nl": "Ik ben altijd eerlijk.", "en": "I'm always honest." } },
+    { "id": "grappig", "nl": "grappig", "en": "funny", "forms": ["grappiger", "grappigst", "grappige", "grappigere", "grappigste"], "example": { "nl": "Tom is heel grappig.", "en": "Tom is very funny." } },
+    { "id": "verlegen", "nl": "verlegen", "en": "shy", "forms": ["verlegener", "verlegenst", "verlegenste"], "example": { "nl": "Als kind was ik verlegen.", "en": "As a child I was shy." } },
+    { "id": "open", "nl": "open", "en": "open, outgoing", "forms": ["opener", "openst", "openste"], "example": { "nl": "Sara is heel open.", "en": "Sara is very outgoing." } },
+    { "id": "lui", "nl": "lui", "en": "lazy", "forms": ["luier", "luist", "luie", "luiere", "luiste"], "example": { "nl": "Op zondag ben ik lui.", "en": "On Sundays I'm lazy." } },
+    { "id": "slim", "nl": "slim", "en": "clever, smart", "forms": ["slimmer", "slimst", "slimme", "slimmere", "slimste"], "example": { "nl": "Noor is een slim meisje.", "en": "Noor is a clever girl." } },
+    { "id": "dom", "nl": "dom", "en": "stupid, silly", "forms": ["dommer", "domst", "domme", "dommere", "domste"], "example": { "nl": "Dat was een domme vraag.", "en": "That was a silly question." } },
+    { "id": "geduldig", "nl": "geduldig", "en": "patient", "forms": ["geduldiger", "geduldigst", "geduldige", "geduldigere", "geduldigste"], "example": { "nl": "Een leraar moet geduldig zijn.", "en": "A teacher has to be patient." } },
+    { "id": "ongeduldig", "nl": "ongeduldig", "en": "impatient", "forms": ["ongeduldiger", "ongeduldigst", "ongeduldige", "ongeduldigere", "ongeduldigste"], "example": { "nl": "Tom is ongeduldig als de trein vertraging heeft.", "en": "Tom gets impatient when the train is delayed." } },
+    { "id": "sociaal", "nl": "sociaal", "en": "sociable, social", "forms": ["socialer", "sociaalst", "sociale", "socialere", "sociaalste"], "example": { "nl": "Fatima is een sociale collega.", "en": "Fatima is a sociable colleague." } },
+    { "id": "kalm", "nl": "kalm", "en": "calm", "forms": ["kalmer", "kalmst", "kalme", "kalmere", "kalmste"], "example": { "nl": "Blijf kalm!", "en": "Stay calm!" } },
+    { "id": "nieuwsgierig", "nl": "nieuwsgierig", "en": "curious, nosy", "forms": ["nieuwsgieriger", "nieuwsgierigst", "nieuwsgierige", "nieuwsgierigere", "nieuwsgierigste"], "example": { "nl": "Daan is nieuwsgierig en stelt veel vragen.", "en": "Daan is curious and asks lots of questions." } },
+    { "id": "eigenschap", "nl": "eigenschap", "en": "quality, trait", "article": "de", "plural": "eigenschappen", "forms": ["eigenschapje"], "example": { "nl": "Eerlijk zijn is een mooie eigenschap.", "en": "Being honest is a nice quality." } }
+  ],
+  "grammar": {
+    "title": "Adjectives with and without -e",
+    "points": [
+      "After a verb like zijn, worden or blijven, an adjective never gets -e: Tom is grappig. Blijf kalm!",
+      "Before a noun the adjective usually gets -e: de slimme vrouw, het eerlijke kind, grappige mensen.",
+      "Exception: een + a singular het-word → no -e: een rustig karakter, een slim meisje. The same after geen and elk: geen dom idee.",
+      "With a de-word you always add -e, also after een: een domme vraag, een sociale collega.",
+      "Adjectives ending in -en (verlegen, open) never take -e: een verlegen jongen, de open deur.",
+      "on- in front often means 'not': geduldig → ongeduldig, gezond → ongezond."
+    ],
+    "examples": [
+      { "nl": "Tom heeft een rustig karakter.", "en": "Tom has a calm personality." },
+      { "nl": "Ik vind het rustige karakter van Tom leuk.", "en": "I like Tom's calm personality." },
+      { "nl": "Noor is een slim meisje.", "en": "Noor is a clever girl." },
+      { "nl": "Daan is een nieuwsgierig kind.", "en": "Daan is a curious child." },
+      { "nl": "Fatima is een sociale collega.", "en": "Fatima is a sociable colleague." },
+      { "nl": "Als kind was Sara verlegen.", "en": "As a child Sara was shy." }
+    ],
+    "exercises": [
+      { "prompt": "Noor is een ___ meisje.", "answer": "slim", "hint": "slim" },
+      { "prompt": "Fatima is een ___ collega.", "answer": "sociale", "hint": "sociaal" },
+      { "prompt": "Dat was een ___ vraag.", "answer": "domme", "hint": "dom" },
+      { "prompt": "Mijn broer is op zondag heel ___.", "answer": "lui", "hint": "lui" },
+      { "prompt": "Een ___ kind stelt veel vragen.", "answer": "nieuwsgierig", "hint": "nieuwsgierig" },
+      { "prompt": "Tom heeft een ___ karakter.", "answer": "rustig", "hint": "rustig" }
+    ]
+  },
+  "dialogue": {
+    "title": "Wat voor karakter heb jij?",
+    "scene": "At lunch, Fatima reads Sara a personality quiz from a magazine app on her phone.",
+    "lines": [
+      { "speaker": "Fatima", "nl": "Sara, ik heb hier vragen over je karakter. Mag ik?", "en": "Sara, I've got some questions about your personality here. May I?", "gap": "karakter" },
+      { "speaker": "Sara", "nl": "Natuurlijk! Wat wil je weten?", "en": "Of course! What do you want to know?" },
+      { "speaker": "Fatima", "nl": "Vraag één: ben je verlegen of open?", "en": "Question one: are you shy or outgoing?" },
+      { "speaker": "Sara", "nl": "Als kind was ik verlegen, maar nu ben ik heel open.", "en": "As a child I was shy, but now I'm very outgoing.", "gap": "verlegen" },
+      { "speaker": "Fatima", "nl": "Vraag twee: ben je geduldig?", "en": "Question two: are you patient?" },
+      { "speaker": "Sara", "nl": "Niet altijd. Ik ben ongeduldig als de trein vertraging heeft.", "en": "Not always. I get impatient when the train is delayed.", "gap": "ongeduldig" },
+      { "speaker": "Fatima", "nl": "Ik ook! Vraag drie: ben je soms lui?", "en": "Me too! Question three: are you sometimes lazy?" },
+      { "speaker": "Sara", "nl": "Op zondag wel. Dan blijf ik lang in bed.", "en": "On Sundays, yes. Then I stay in bed for a long time." },
+      { "speaker": "Fatima", "nl": "En wat is je beste eigenschap?", "en": "And what's your best quality?", "gap": "eigenschap" },
+      { "speaker": "Sara", "nl": "Ik denk dat ik eerlijk ben. En Tom zegt dat ik grappig ben.", "en": "I think I'm honest. And Tom says I'm funny." },
+      { "speaker": "Fatima", "nl": "Tom zegt dat? Wat zegt hij nog meer?", "en": "Tom says that? What else does he say?" },
+      { "speaker": "Sara", "nl": "Jij bent wel heel nieuwsgierig, Fatima!", "en": "You're really nosy, Fatima!" },
+      { "speaker": "Fatima", "nl": "Dat is ook een mooie eigenschap! Het resultaat: je hebt een sociaal karakter.", "en": "That's a nice quality too! The result: you have a sociable personality." }
+    ]
+  }
+}

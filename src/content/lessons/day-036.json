@@ -1,0 +1,69 @@
+{
+  "day": 36,
+  "title": "De trein naar Groningen",
+  "names": ["Groningen", "Zwolle", "Lucía"],
+  "words": [
+    { "id": "perron", "nl": "perron", "en": "platform", "article": "het", "plural": "perrons", "forms": ["perronnetje"], "example": { "nl": "Op het perron is het druk.", "en": "It's busy on the platform." } },
+    { "id": "conducteur", "nl": "conducteur", "en": "conductor, ticket inspector", "article": "de", "plural": "conducteurs", "forms": ["conducteurtje"], "example": { "nl": "De conducteur wil je kaartje zien.", "en": "The conductor wants to see your ticket." } },
+    { "id": "vertraging", "nl": "vertraging", "en": "delay", "article": "de", "plural": "vertragingen", "forms": ["vertraginkje"], "example": { "nl": "De trein heeft tien minuten vertraging.", "en": "The train is ten minutes late." } },
+    { "id": "overstappen", "nl": "overstappen", "en": "to change (trains, buses)", "forms": ["stap over", "stapte over", "overstap", "overstapte", "stapt over", "overstapt", "stappen over", "stapten over", "overstapten", "overstappend", "overgestapt"], "example": { "nl": "U moet in Utrecht overstappen.", "en": "You have to change in Utrecht." } },
+    { "id": "instappen", "nl": "instappen", "en": "to get on, to board", "forms": ["stap in", "stapte in", "instap", "instapte", "stapt in", "instapt", "stappen in", "stapten in", "instapten", "instappend", "ingestapt"], "example": { "nl": "Stap snel in, de trein vertrekt!", "en": "Get on quickly, the train is leaving!" } },
+    { "id": "uitstappen", "nl": "uitstappen", "en": "to get off", "forms": ["stap uit", "stapte uit", "uitstap", "uitstapte", "stapt uit", "uitstapt", "stappen uit", "stapten uit", "uitstapten", "uitstappend", "uitgestapt"], "example": { "nl": "Ik stap in Groningen uit.", "en": "I'm getting off in Groningen." } },
+    { "id": "vertrekken", "nl": "vertrekken", "en": "to leave, to depart", "forms": ["vertrek", "vertrok", "vertrekt", "vertrokken", "vertrekkend"], "example": { "nl": "De trein vertrekt om half negen.", "en": "The train leaves at half past eight." } },
+    { "id": "aankomen", "nl": "aankomen", "en": "to arrive", "forms": ["kom aan", "kwam aan", "aankom", "aankwam", "komt aan", "aankomt", "komen aan", "kwamen aan", "aankwamen", "aankomend", "aangekomen"], "example": { "nl": "Wanneer komen we in Groningen aan?", "en": "When do we arrive in Groningen?" } },
+    { "id": "spoor", "nl": "spoor", "en": "track, platform number", "article": "het", "plural": "sporen", "forms": ["spoortje"], "example": { "nl": "De trein naar Groningen vertrekt van spoor acht.", "en": "The train to Groningen leaves from platform eight." } },
+    { "id": "ov-chipkaart", "nl": "OV-chipkaart", "en": "public transport card", "article": "de", "plural": "OV-chipkaarten", "forms": ["OV-chipkaartje"], "example": { "nl": "Ik betaal met mijn OV-chipkaart.", "en": "I pay with my public transport card." } },
+    { "id": "inchecken", "nl": "inchecken", "en": "to check in (tap in)", "forms": ["check in", "checkte in", "incheck", "incheckte", "checkt in", "incheckt", "checken in", "checkten in", "incheckten", "incheckend", "ingecheckt"], "example": { "nl": "Je moet eerst inchecken.", "en": "You have to tap in first." } },
+    { "id": "uitchecken", "nl": "uitchecken", "en": "to check out (tap out)", "forms": ["check uit", "checkte uit", "uitcheck", "uitcheckte", "checkt uit", "uitcheckt", "checken uit", "checkten uit", "uitcheckten", "uitcheckend", "uitgecheckt"], "example": { "nl": "Op het station check ik weer uit.", "en": "At the station I tap out again." } },
+    { "id": "reis", "nl": "reis", "en": "journey, trip", "article": "de", "plural": "reizen", "forms": ["reisje"], "example": { "nl": "De reis naar Groningen is lang.", "en": "The journey to Groningen is long." } },
+    { "id": "goede-reis", "nl": "goede reis", "en": "have a good trip", "example": { "nl": "Goede reis! — Dank je wel!", "en": "Have a good trip! — Thanks!" } },
+    { "id": "enkele", "nl": "enkele", "en": "single (enkele reis = one-way ticket)", "example": { "nl": "Een enkele reis naar Groningen, alstublieft.", "en": "A one-way ticket to Groningen, please." } },
+    { "id": "retour", "nl": "retour", "en": "return ticket", "article": "het", "plural": "retours", "example": { "nl": "Een retour naar Groningen, alstublieft.", "en": "A return to Groningen, please." } }
+  ],
+  "grammar": {
+    "title": "Separable verbs in subordinate clauses",
+    "points": [
+      "In a main clause a separable verb splits, and the prefix goes to the end: Ik stap in Utrecht over.",
+      "In a subordinate clause (after omdat, dat, als, toen …) the verb goes to the end, so prefix and verb join again: …, omdat ik in Utrecht overstap.",
+      "With a modal verb the infinitive stays in one piece: Ik moet in Utrecht overstappen.",
+      "In the perfect, ge- goes between the prefix and the verb: overgestapt, ingecheckt, aangekomen.",
+      "Verbs starting with be-, ver- or ont- never split: De trein vertrekt om negen uur.",
+      "Tip: separable prefixes are stressed when you speak: OVERstappen, INchecken — but verTREKken."
+    ],
+    "examples": [
+      { "nl": "Ik stap in Utrecht over.", "en": "I change trains in Utrecht." },
+      { "nl": "Ik denk dat we in Utrecht overstappen.", "en": "I think we change trains in Utrecht." },
+      { "nl": "Je moet altijd inchecken en uitchecken.", "en": "You always have to tap in and tap out." },
+      { "nl": "Als de trein aankomt, stappen we in.", "en": "When the train arrives, we get on." },
+      { "nl": "Hij is te laat, omdat de trein vertraging had.", "en": "He's late because the train was delayed." },
+      { "nl": "Toen ik uitstapte, zag ik Lucía op het perron.", "en": "When I got off, I saw Lucía on the platform." }
+    ],
+    "exercises": [
+      { "prompt": "Ik weet dat de trein om tien uur ___.", "answer": "aankomt", "hint": "aankomen" },
+      { "prompt": "We moeten in Utrecht ___.", "answer": "overstappen", "hint": "overstappen" },
+      { "prompt": "Ik stap in Zwolle ___.", "answer": "uit", "hint": "uitstappen" },
+      { "prompt": "Ik heb al ___.", "answer": "ingecheckt", "hint": "inchecken" },
+      { "prompt": "Ze is moe, omdat ze vroeg ___.", "answer": "opstond", "hint": "opstaan" },
+      { "prompt": "De trein ___ om acht uur.", "answer": "vertrekt", "hint": "vertrekken" }
+    ]
+  },
+  "dialogue": {
+    "title": "Met de trein",
+    "scene": "Sara buys a ticket at Amsterdam Centraal and takes the train to visit a friend in Groningen. On the way, the conductor checks her ticket.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Dag! Een kaartje naar Groningen, alstublieft.", "en": "Hello! A ticket to Groningen, please." },
+      { "speaker": "Medewerker", "nl": "Een enkele reis of een retour?", "en": "One-way or return?", "gap": "enkele reis" },
+      { "speaker": "Sara", "nl": "Een retour, graag. Moet ik overstappen?", "en": "A return, please. Do I have to change?", "gap": "overstappen" },
+      { "speaker": "Medewerker", "nl": "Ja, u stapt in Zwolle over. De trein vertrekt om tien over negen van spoor zeven.", "en": "Yes, you change in Zwolle. The train leaves at ten past nine from platform seven.", "gap": "vertrekt" },
+      { "speaker": "Conducteur", "nl": "Kaartjes, alstublieft!", "en": "Tickets, please!" },
+      { "speaker": "Sara", "nl": "Alstublieft. Komen we op tijd in Zwolle aan?", "en": "Here you are. Will we arrive in Zwolle on time?" },
+      { "speaker": "Conducteur", "nl": "Nee, helaas. We hebben tien minuten vertraging.", "en": "No, unfortunately. We're ten minutes late.", "gap": "vertraging" },
+      { "speaker": "Sara", "nl": "Maar mijn trein naar Groningen vertrekt om tien uur!", "en": "But my train to Groningen leaves at ten!" },
+      { "speaker": "Conducteur", "nl": "Rustig maar. De trein naar Groningen heeft ook vertraging.", "en": "Don't worry. The train to Groningen is delayed too." },
+      { "speaker": "Sara", "nl": "Gelukkig!", "en": "Thank goodness!" },
+      { "speaker": "Conducteur", "nl": "Maar als we in Zwolle aankomen, moet u snel uitstappen.", "en": "But when we arrive in Zwolle, you have to get off quickly.", "gap": "aankomen" },
+      { "speaker": "Sara", "nl": "Dank u wel! En in Groningen check ik uit.", "en": "Thank you! And in Groningen I tap out." },
+      { "speaker": "Conducteur", "nl": "Ja, bij het station. Goede reis!", "en": "Yes, at the station. Have a good trip!" }
+    ]
+  }
+}

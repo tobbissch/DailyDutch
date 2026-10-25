@@ -1,0 +1,68 @@
+{
+  "day": 119,
+  "title": "Terugkijken",
+  "names": ["Tom", "Sara", "Amsterdam", "Utrecht", "Spanje", "Nederland"],
+  "words": [
+    { "id": "terugkijken", "nl": "terugkijken", "en": "to look back", "forms": ["kijk terug", "keek terug", "terugkijk", "terugkeek", "kijkt terug", "terugkijkt", "keekt terug", "terugkeekt", "kijken terug", "keken terug", "terugkeken", "terugkijkend", "teruggekeken"], "example": { "nl": "Als ik terugkijk, ben ik heel dankbaar.", "en": "When I look back, I'm very grateful." } },
+    { "id": "ervaring-noun", "nl": "ervaring", "en": "experience", "article": "de", "plural": "ervaringen", "forms": ["ervarinkje"], "example": { "nl": "Wonen in een nieuw land is een mooie ervaring.", "en": "Living in a new country is a wonderful experience." } },
+    { "id": "moment", "nl": "moment", "en": "moment", "article": "het", "plural": "momenten", "forms": ["momentje"], "example": { "nl": "Dat was een moment dat ik nooit vergeet.", "en": "That was a moment I'll never forget." } },
+    { "id": "hoogtepunt", "nl": "hoogtepunt", "en": "high point, highlight", "article": "het", "plural": "hoogtepunten", "forms": ["hoogtepuntje"], "example": { "nl": "Het hoogtepunt van het jaar was onze reis naar Spanje.", "en": "The highlight of the year was our trip to Spain." } },
+    { "id": "dieptepunt", "nl": "dieptepunt", "en": "low point", "article": "het", "plural": "dieptepunten", "forms": ["dieptepuntje"], "example": { "nl": "Het dieptepunt was toen mijn fiets gestolen werd.", "en": "The low point was when my bike was stolen." } },
+    { "id": "ontdekken", "nl": "ontdekken", "en": "to discover", "forms": ["ontdek", "ontdekte", "ontdekt", "ontdekten", "ontdekkend"], "example": { "nl": "In Utrecht heb ik veel mooie straten ontdekt.", "en": "In Utrecht I've discovered lots of lovely streets." } },
+    { "id": "ontdekking", "nl": "ontdekking", "en": "discovery", "article": "de", "plural": "ontdekkingen", "forms": ["ontdekkinkje"], "example": { "nl": "De Nederlandse kaas was een grote ontdekking voor mij.", "en": "Dutch cheese was a big discovery for me." } },
+    { "id": "groeien", "nl": "groeien", "en": "to grow", "forms": ["groei", "groeide", "groeit", "groeiden", "groeiend", "gegroeid"], "example": { "nl": "De kinderen groeien zo snel!", "en": "The children are growing so fast!" } },
+    { "id": "groei", "nl": "groei", "en": "growth", "article": "de", "example": { "nl": "Ik ben trots op mijn groei dit jaar.", "en": "I'm proud of how I've grown this year." } },
+    { "id": "avontuur", "nl": "avontuur", "en": "adventure", "article": "het", "plural": "avonturen", "forms": ["avontuurtje"], "example": { "nl": "Verhuizen naar Nederland was een groot avontuur.", "en": "Moving to the Netherlands was a big adventure." } },
+    { "id": "onverwacht", "nl": "onverwacht", "en": "unexpected; unexpectedly", "forms": ["onverwachter", "onverwachtst", "onverwachte", "onverwachtere", "onverwachtste"], "example": { "nl": "Het was een onverwachte vraag.", "en": "It was an unexpected question." } },
+    { "id": "dankbaar", "nl": "dankbaar", "en": "grateful; rewarding", "forms": ["dankbaarder", "dankbaarst", "dankbare", "dankbaardere", "dankbaarste"], "example": { "nl": "Ik ben dankbaar voor jullie steun.", "en": "I'm grateful for your support." } },
+    { "id": "kracht", "nl": "kracht", "en": "strength, power", "article": "de", "plural": "krachten", "forms": ["krachtje"], "example": { "nl": "Je hebt meer kracht dan je denkt.", "en": "You're stronger than you think." } },
+    { "id": "moed", "nl": "moed", "en": "courage", "article": "de", "example": { "nl": "Je hebt moed nodig om in een nieuw land te beginnen.", "en": "It takes courage to start over in a new country." } }
+  ],
+  "grammar": {
+    "title": "Telling your story: all the past tenses",
+    "points": [
+      "Perfect (hebben / zijn + participle): for single events, and to open a story: Ik ben drie jaar geleden naar Nederland gekomen.",
+      "Simple past: to describe how things were and to tell what happened next: Ik kende niemand en ik sprak geen Nederlands.",
+      "vroeger + simple past: for things you used to do: Vroeger fietste ik nooit.",
+      "Past perfect (had / was + participle): for something that happened even earlier: Ik had nog nooit sneeuw gezien.",
+      "toen = when (one moment in the past). It sends the verb to the end: Toen ik in Amsterdam aankwam, regende het.",
+      "Don't use als for one moment in the past; als means 'whenever' in the past: Als het regende, nam ik de tram."
+    ],
+    "examples": [
+      { "nl": "Ik ben drie jaar geleden naar Nederland gekomen.", "en": "I came to the Netherlands three years ago." },
+      { "nl": "Toen ik in Amsterdam aankwam, regende het.", "en": "When I arrived in Amsterdam, it was raining." },
+      { "nl": "Ik kende niemand en ik sprak geen woord Nederlands.", "en": "I didn't know anyone and I didn't speak a word of Dutch." },
+      { "nl": "Vroeger fietste ik nooit, nu fiets ik elke dag.", "en": "I never used to cycle; now I cycle every day." },
+      { "nl": "Ik had nog nooit sneeuw gezien toen ik hier kwam.", "en": "I'd never seen snow when I came here." },
+      { "nl": "Als ik terugkijk, ben ik veel gegroeid.", "en": "When I look back, I've grown a lot." }
+    ],
+    "exercises": [
+      { "prompt": "Ik ___ drie jaar geleden naar Nederland gekomen.", "answer": "ben", "hint": "hebben / zijn" },
+      { "prompt": "___ ik in Amsterdam aankwam, regende het.", "answer": "Toen", "hint": "when (one moment)" },
+      { "prompt": "Ik ___ niemand in Nederland.", "answer": "kende", "hint": "kennen (simple past)" },
+      { "prompt": "Vroeger ___ ik nooit.", "answer": "fietste", "hint": "fietsen (simple past)" },
+      { "prompt": "Ik had nog nooit sneeuw ___.", "answer": "gezien", "hint": "zien (participle)" },
+      { "prompt": "In Utrecht heb ik veel mooie straten ___.", "answer": "ontdekt", "hint": "ontdekken (participle)" }
+    ]
+  },
+  "dialogue": {
+    "title": "Wat een avontuur",
+    "scene": "Unpacking boxes in their new house, Sara finds her very first Dutch dictionary. She and Tom look back on how her life has changed.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Wat heb je daar gevonden?", "en": "What have you found there?" },
+      { "speaker": "Sara", "nl": "Mijn eerste woordenboek! Kijk, hier staan mijn eerste woorden: hallo en dank je wel.", "en": "My first dictionary! Look, here are my first words: hallo and dank je wel." },
+      { "speaker": "Tom", "nl": "Weet je nog, de dag dat we elkaar ontmoetten?", "en": "Do you remember the day we met?" },
+      { "speaker": "Sara", "nl": "Natuurlijk. Ik was net in Amsterdam aangekomen. Ik kende niemand en ik sprak geen woord Nederlands.", "en": "Of course. I'd just arrived in Amsterdam. I didn't know anyone and I didn't speak a word of Dutch.", "gap": "kende" },
+      { "speaker": "Tom", "nl": "En nu wonen we samen in ons eigen huis in Utrecht. Wat een avontuur!", "en": "And now we live together in our own house in Utrecht. What an adventure!", "gap": "avontuur" },
+      { "speaker": "Sara", "nl": "Als ik terugkijk, zie ik zo veel mooie momenten.", "en": "When I look back, I see so many lovely moments.", "gap": "terugkijk" },
+      { "speaker": "Tom", "nl": "Wat was voor jou het hoogtepunt?", "en": "What was the highlight for you?", "gap": "hoogtepunt" },
+      { "speaker": "Sara", "nl": "De dag dat jij me die onverwachte vraag stelde, natuurlijk.", "en": "The day you asked me that unexpected question, of course." },
+      { "speaker": "Tom", "nl": "En het dieptepunt?", "en": "And the low point?" },
+      { "speaker": "Sara", "nl": "De eerste winter. Het was koud, het regende elke dag en ik miste mijn familie in Spanje.", "en": "The first winter. It was cold, it rained every day and I missed my family in Spain." },
+      { "speaker": "Tom", "nl": "Toen had je veel moed en kracht nodig.", "en": "You needed a lot of courage and strength back then.", "gap": "moed" },
+      { "speaker": "Sara", "nl": "Ja. Maar ik heb ook veel ontdekt, over Nederland en over wie ik ben.", "en": "Yes. But I've also discovered a lot, about the Netherlands and about who I am." },
+      { "speaker": "Tom", "nl": "Je bent echt gegroeid. Ik ben trots op je.", "en": "You've really grown. I'm proud of you." },
+      { "speaker": "Sara", "nl": "Dank je. Ik ben zo dankbaar voor alles. En morgen is weer een belangrijke dag!", "en": "Thank you. I'm so grateful for everything. And tomorrow is another big day!" }
+    ]
+  }
+}

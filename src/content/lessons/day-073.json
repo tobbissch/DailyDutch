@@ -1,0 +1,64 @@
+{
+  "day": 73,
+  "title": "Online bestellen",
+  "names": ["Sara", "De Vries"],
+  "words": [
+    { "id": "online", "nl": "online", "en": "online", "forms": ["on-line"], "example": { "nl": "Ik bestel mijn boeken vaak online.", "en": "I often order my books online." } },
+    { "id": "webwinkel", "nl": "webwinkel", "en": "online shop", "article": "de", "plural": "webwinkels", "forms": ["webwinkeltje"], "example": { "nl": "Deze webwinkel bezorgt ook op zondag.", "en": "This online shop delivers on Sundays too." } },
+    { "id": "bezorgen", "nl": "bezorgen", "en": "to deliver", "forms": ["bezorg", "bezorgde", "bezorgt", "bezorgden", "bezorgend", "bezorgd"], "example": { "nl": "Het pakketje wordt morgen bezorgd.", "en": "The parcel will be delivered tomorrow." } },
+    { "id": "bezorger", "nl": "bezorger", "en": "delivery person", "article": "de", "plural": "bezorgers", "example": { "nl": "De bezorger staat voor de deur.", "en": "The delivery man is at the door." } },
+    { "id": "bezorging", "nl": "bezorging", "en": "delivery", "article": "de", "plural": "bezorgingen", "forms": ["bezorginkje"], "example": { "nl": "De bezorging kost vijf euro.", "en": "Delivery costs five euros." } },
+    { "id": "pakketje", "nl": "pakketje", "en": "parcel, package", "article": "het", "plural": "pakketjes", "example": { "nl": "Er ligt een pakketje voor je bij de buren.", "en": "There's a parcel for you at the neighbours'." } },
+    { "id": "retourneren", "nl": "retourneren", "en": "to return (an order)", "forms": ["retourneer", "retourneerde", "retourneert", "retourneerden", "retournerend", "geretourneerd"], "example": { "nl": "Ik retourneer de schoenen, want ze zijn te klein.", "en": "I'm returning the shoes, because they're too small." } },
+    { "id": "klantenservice", "nl": "klantenservice", "en": "customer service", "article": "de", "plural": "klantenservices", "example": { "nl": "Ik bel de klantenservice.", "en": "I'm calling customer service." } },
+    { "id": "account", "nl": "account", "en": "account (online)", "article": "het", "plural": "accounts", "forms": ["accountje"], "example": { "nl": "Voor deze webwinkel heb je een account nodig.", "en": "You need an account for this online shop." } },
+    { "id": "levering", "nl": "levering", "en": "delivery; supply", "article": "de", "plural": "leveringen", "forms": ["leveringetje", "leverinkje"], "example": { "nl": "De levering is twee dagen te laat.", "en": "The delivery is two days late." } },
+    { "id": "kwijt", "nl": "kwijt", "en": "lost, gone (iets kwijt zijn = to have lost something)", "forms": ["kwijte"], "example": { "nl": "Ik ben mijn sleutel kwijt.", "en": "I've lost my key." } },
+    { "id": "ontvangen", "nl": "ontvangen", "en": "to receive", "forms": ["ontvang", "ontving", "ontvangt", "ontvingen", "ontvangend"], "example": { "nl": "Ik heb het pakketje nog niet ontvangen.", "en": "I haven't received the parcel yet." } },
+    { "id": "bevestiging", "nl": "bevestiging", "en": "confirmation", "article": "de", "plural": "bevestigingen", "forms": ["bevestigingetje"], "example": { "nl": "Ik heb een bevestiging per mail ontvangen.", "en": "I've received a confirmation by email." } }
+  ],
+  "grammar": {
+    "title": "The passive: Het pakketje wordt bezorgd",
+    "points": [
+      "The passive puts the thing first, not the person who does the action: Het pakketje wordt bezorgd. = The parcel is being delivered.",
+      "Present: worden + past participle (at the end): Het pakketje wordt morgen bezorgd. De pakketjes worden morgen bezorgd.",
+      "Past: werd / werden + past participle: Het pakketje werd gisteren bezorgd.",
+      "zijn + past participle says the action is finished: Het pakketje is bezorgd. = The parcel has been delivered.",
+      "Say who did it with door (by): De jas wordt door de klant geretourneerd. Usually you leave it out: Mijn jas is gisteren besteld."
+    ],
+    "examples": [
+      { "nl": "Het pakketje wordt morgen bezorgd.", "en": "The parcel will be delivered tomorrow." },
+      { "nl": "De pakketjes worden op zaterdag bezorgd.", "en": "The parcels are delivered on Saturday." },
+      { "nl": "Mijn jas werd gisteren bezorgd.", "en": "My coat was delivered yesterday." },
+      { "nl": "Het pakketje is al bezorgd, maar ik heb het niet ontvangen.", "en": "The parcel has already been delivered, but I haven't received it." },
+      { "nl": "Uw bestelling is betaald.", "en": "Your order has been paid." },
+      { "nl": "De schoenen worden door de klant geretourneerd.", "en": "The shoes are being returned by the customer." }
+    ],
+    "exercises": [
+      { "prompt": "Het pakketje ___ morgen bezorgd.", "answer": "wordt", "hint": "worden" },
+      { "prompt": "De pakketjes ___ vandaag bezorgd.", "answer": "worden", "hint": "worden, plural" },
+      { "prompt": "Mijn jas ___ gisteren bezorgd.", "answer": "werd", "hint": "worden, past" },
+      { "prompt": "Het pakketje is al ___.", "answer": "bezorgd", "hint": "bezorgen" },
+      { "prompt": "De schoenen worden ___.", "answer": "geretourneerd", "hint": "retourneren" },
+      { "prompt": "Ik ben mijn sleutel ___.", "answer": "kwijt", "hint": "lost" }
+    ]
+  },
+  "dialogue": {
+    "title": "Waar is mijn pakketje?",
+    "scene": "Sara's online order says it has been delivered, but there's no parcel. She calls customer service.",
+    "lines": [
+      { "speaker": "Klantenservice", "nl": "Dag, klantenservice. Waarmee kan ik u helpen?", "en": "Hello, customer service. How can I help you?" },
+      { "speaker": "Sara", "nl": "Ik heb vorige week een jas besteld. Ik heb een bevestiging ontvangen, maar mijn pakketje is kwijt.", "en": "I ordered a coat last week. I got a confirmation, but my parcel is missing.", "gap": "kwijt" },
+      { "speaker": "Klantenservice", "nl": "Wat is het nummer van uw bestelling?", "en": "What's your order number?" },
+      { "speaker": "Sara", "nl": "Het is 4-5-2-7. In de app staat: het pakketje is bezorgd.", "en": "It's 4-5-2-7. The app says: the parcel has been delivered.", "gap": "bezorgd" },
+      { "speaker": "Klantenservice", "nl": "Ik kijk even. Ja, het werd gisteren om drie uur bezorgd.", "en": "Let me have a look. Yes, it was delivered yesterday at three o'clock.", "gap": "werd" },
+      { "speaker": "Sara", "nl": "Maar ik was thuis en de bezorger heeft niet gebeld.", "en": "But I was at home and the delivery man didn't ring." },
+      { "speaker": "Klantenservice", "nl": "Misschien heeft de bezorger het bij de buren bezorgd.", "en": "Maybe the delivery man left it with the neighbours." },
+      { "speaker": "Sara", "nl": "Ja, dat kan. Ik vraag het even.", "en": "Yes, that's possible. I'll ask." },
+      { "speaker": "Meneer De Vries", "nl": "Sara! Er ligt hier een pakketje voor jou.", "en": "Sara! There's a parcel here for you." },
+      { "speaker": "Sara", "nl": "Gelukkig! Dank u wel, meneer De Vries.", "en": "Thank goodness! Thank you, Mr De Vries." },
+      { "speaker": "Sara", "nl": "Maar de jas is te klein. Hij wordt dus geretourneerd.", "en": "But the coat is too small. So it's going back.", "gap": "geretourneerd" },
+      { "speaker": "Meneer De Vries", "nl": "Dan komt de bezorger morgen weer!", "en": "Then the delivery man will be back tomorrow!" }
+    ]
+  }
+}

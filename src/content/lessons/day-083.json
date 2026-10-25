@@ -1,0 +1,64 @@
+{
+  "day": 83,
+  "title": "In het ziekenhuis",
+  "names": ["Henk", "Ria"],
+  "words": [
+    { "id": "operatie", "nl": "operatie", "en": "operation, surgery", "article": "de", "plural": "operaties", "forms": ["operatietje"], "example": { "nl": "De operatie is goed gegaan.", "en": "The operation went well." } },
+    { "id": "opereren", "nl": "opereren", "en": "to operate (on)", "forms": ["opereer", "opereerde", "opereert", "opereerden", "opererend", "geopereerd"], "example": { "nl": "De dokter opereert zijn knie.", "en": "The doctor is operating on his knee." } },
+    { "id": "opnemen", "nl": "opnemen", "en": "to admit (to hospital); to pick up (the phone)", "forms": ["neem op", "nam op", "opneem", "opnam", "neemt op", "opneemt", "nemen op", "namen op", "opnamen", "opnemend", "opgenomen"], "example": { "nl": "Hij is in het ziekenhuis opgenomen.", "en": "He has been admitted to hospital." } },
+    { "id": "patient", "nl": "patiënt", "en": "patient", "article": "de", "plural": "patiënten", "forms": ["patiëntje"], "example": { "nl": "De patiënt mag naar huis.", "en": "The patient can go home." } },
+    { "id": "verpleegkundige", "nl": "verpleegkundige", "en": "nurse", "article": "de", "plural": "verpleegkundigen", "example": { "nl": "De verpleegkundige brengt de medicijnen.", "en": "The nurse brings the medicines." } },
+    { "id": "afdeling", "nl": "afdeling", "en": "ward; department", "article": "de", "plural": "afdelingen", "forms": ["afdelinkje"], "example": { "nl": "Op deze afdeling is het rustig.", "en": "It's quiet on this ward." } },
+    { "id": "bezoekuur", "nl": "bezoekuur", "en": "visiting hour", "article": "het", "plural": "bezoekuren", "forms": ["bezoekuurtje"], "example": { "nl": "Het bezoekuur begint om zeven uur.", "en": "Visiting hour starts at seven." } },
+    { "id": "herstellen", "nl": "herstellen", "en": "to recover; to repair", "forms": ["herstel", "herstelde", "herstelt", "herstelden", "herstellend", "hersteld"], "example": { "nl": "Hij herstelt snel van de operatie.", "en": "He's recovering quickly from the operation." } },
+    { "id": "herstel", "nl": "herstel", "en": "recovery", "article": "het", "example": { "nl": "Sterkte met je herstel!", "en": "Good luck with your recovery!" } },
+    { "id": "gebroken", "nl": "gebroken", "en": "broken", "example": { "nl": "Haar arm is gebroken.", "en": "Her arm is broken." } },
+    { "id": "rontgenfoto", "nl": "röntgenfoto", "en": "X-ray", "article": "de", "plural": "röntgenfoto's", "example": { "nl": "De dokter maakt een röntgenfoto.", "en": "The doctor takes an X-ray." } },
+    { "id": "gips", "nl": "gips", "en": "plaster cast", "article": "het", "example": { "nl": "Zijn been zit in het gips.", "en": "His leg is in plaster." } },
+    { "id": "spoedeisende-hulp", "nl": "spoedeisende hulp", "en": "A&E, emergency department", "article": "de", "example": { "nl": "We moesten naar de spoedeisende hulp.", "en": "We had to go to A&E." } },
+    { "id": "ontslaan", "nl": "ontslaan", "en": "to discharge (from hospital); to fire (from a job)", "forms": ["ontsla", "ontsloeg", "ontslaat", "ontsloegen", "ontslaand", "ontslagen"], "example": { "nl": "Morgen wordt ze uit het ziekenhuis ontslagen.", "en": "Tomorrow she'll be discharged from hospital." } }
+  ],
+  "grammar": {
+    "title": "Passive in the past: Ik ben geopereerd",
+    "points": [
+      "Present perfect passive: is/zijn + participle. Dutch drops 'geworden' here: Mijn vader is geopereerd (My father has been operated on).",
+      "Simple past passive: werd/werden + participle: Hij werd maandag opgenomen.",
+      "Past perfect passive: was/waren + participle: Hij was al geopereerd toen we kwamen.",
+      "Add who did it with door: Hij is door een specialist geopereerd.",
+      "Many participles also work as adjectives: een gebroken been, een gestolen fiets."
+    ],
+    "examples": [
+      { "nl": "Henk is gisteren aan zijn been geopereerd.", "en": "Henk had an operation on his leg yesterday." },
+      { "nl": "Hij werd maandag in het ziekenhuis opgenomen.", "en": "He was admitted to hospital on Monday." },
+      { "nl": "Er werd eerst een röntgenfoto gemaakt.", "en": "First an X-ray was taken." },
+      { "nl": "Hij is door een specialist geopereerd.", "en": "He was operated on by a specialist." },
+      { "nl": "Hij was al geopereerd toen we kwamen.", "en": "He had already had the operation when we arrived." }
+    ],
+    "exercises": [
+      { "prompt": "Mijn vader is gisteren ___.", "answer": "geopereerd", "hint": "opereren" },
+      { "prompt": "Hij ___ maandag opgenomen.", "answer": "werd", "hint": "worden, past" },
+      { "prompt": "Er is een ___ gemaakt van zijn been.", "answer": "röntgenfoto", "hint": "X-ray" },
+      { "prompt": "Haar arm is ___; ze heeft gips.", "answer": "gebroken", "hint": "breken" },
+      { "prompt": "Het ___ begint om zeven uur.", "answer": "bezoekuur", "hint": "visiting hour" }
+    ]
+  },
+  "dialogue": {
+    "title": "Op bezoek bij Henk",
+    "scene": "Tom's father Henk broke his leg and has had an operation. Tom and Sara visit him; Ria and a nurse are there too.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Hallo! Hoe gaat het met je?", "en": "Hi! How are you doing?" },
+      { "speaker": "Henk", "nl": "Goed hoor. De operatie is goed gegaan.", "en": "Fine, really. The operation went well.", "gap": "operatie" },
+      { "speaker": "Sara", "nl": "Hoe is het gebeurd?", "en": "How did it happen?" },
+      { "speaker": "Henk", "nl": "Ik was van de trap gevallen en mijn been was gebroken.", "en": "I'd fallen down the stairs and my leg was broken.", "gap": "gebroken" },
+      { "speaker": "Ria", "nl": "We zijn eerst naar de spoedeisende hulp gegaan. Daar werd een röntgenfoto gemaakt.", "en": "First we went to A&E. They took an X-ray there.", "gap": "spoedeisende hulp" },
+      { "speaker": "Henk", "nl": "Toen werd ik opgenomen, en gisteren ben ik geopereerd.", "en": "Then I was admitted, and yesterday I had the operation.", "gap": "geopereerd" },
+      { "speaker": "Tom", "nl": "Moet je nu lang in het ziekenhuis blijven?", "en": "Do you have to stay in hospital long now?" },
+      { "speaker": "Verpleegkundige", "nl": "Nee hoor, als alles goed gaat, wordt hij vrijdag ontslagen.", "en": "No, if all goes well he'll be discharged on Friday.", "gap": "ontslagen" },
+      { "speaker": "Sara", "nl": "En hoe lang moet het gips blijven zitten?", "en": "And how long does the cast have to stay on?" },
+      { "speaker": "Verpleegkundige", "nl": "Ongeveer zes weken. Daarna begint het herstel.", "en": "About six weeks. After that the recovery starts." },
+      { "speaker": "Ria", "nl": "Zes weken! Dan moet ik alles in huis doen.", "en": "Six weeks! Then I have to do everything in the house." },
+      { "speaker": "Henk", "nl": "Sorry, Ria! Ik zal heel rustig herstellen.", "en": "Sorry, Ria! I'll recover very quietly." },
+      { "speaker": "Verpleegkundige", "nl": "Het bezoekuur is om acht uur klaar.", "en": "Visiting hour ends at eight.", "gap": "bezoekuur" }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "day": 116,
+  "title": "Een avond uit",
+  "names": ["Fatima", "Peter", "Utrecht"],
+  "words": [
+    { "id": "uitgaan", "nl": "uitgaan", "en": "to go out (at night); to go off (a light)", "forms": ["ga uit", "ging uit", "uitga", "uitging", "gaat uit", "uitgaat", "gingt uit", "uitgingt", "gaan uit", "gingen uit", "uitgingen", "uitgaand", "uitgegaan"], "example": { "nl": "Op vrijdag gaan we vaak uit.", "en": "We often go out on Fridays." } },
+    { "id": "kroeg", "nl": "kroeg", "en": "pub, bar", "article": "de", "plural": "kroegen", "forms": ["kroegje"], "example": { "nl": "Nadat we klaar waren met werken, gingen we naar de kroeg.", "en": "When we'd finished work, we went to the pub." } },
+    { "id": "club-noun", "nl": "club", "en": "club (nightclub; sports club)", "article": "de", "plural": "clubs", "forms": ["clubje", "cluppie"], "example": { "nl": "Om twaalf uur gingen we naar een club.", "en": "At twelve o'clock we went to a club." } },
+    { "id": "discotheek", "nl": "discotheek", "en": "disco, nightclub", "article": "de", "plural": "discotheken", "forms": ["discotheekje"], "example": { "nl": "Vroeger ging mijn vader elke zaterdag naar de discotheek.", "en": "My father used to go to the disco every Saturday." } },
+    { "id": "terras", "nl": "terras", "en": "terrace, outdoor seating (of a café)", "article": "het", "plural": "terrassen", "forms": ["terrasje"], "example": { "nl": "Bij mooi weer zitten we graag op een terras.", "en": "When the weather is nice we like to sit outside at a café." } },
+    { "id": "rondje", "nl": "rondje", "en": "round (of drinks)", "article": "het", "plural": "rondjes", "example": { "nl": "Dit rondje is van mij!", "en": "This round is on me!" } },
+    { "id": "trakteren", "nl": "trakteren", "en": "to treat (someone to something)", "forms": ["trakteer", "trakteerde", "trakteert", "trakteerden", "trakterend", "getrakteerd", "tracteren"], "example": { "nl": "Peter trakteerde ons op het eerste rondje.", "en": "Peter treated us to the first round." } },
+    { "id": "dj", "nl": "dj", "en": "DJ", "article": "de", "plural": "dj's", "forms": ["dj'tje"], "example": { "nl": "De dj speelde heel goede muziek.", "en": "The DJ played really good music." } },
+    { "id": "wachtrij", "nl": "wachtrij", "en": "queue, line", "article": "de", "plural": "wachtrijen", "forms": ["wachtrijtje"], "example": { "nl": "We stonden een half uur in de wachtrij.", "en": "We stood in the queue for half an hour." } },
+    { "id": "portier", "nl": "portier", "en": "doorman, bouncer", "article": "de", "plural": "portiers", "example": { "nl": "De portier vroeg naar mijn paspoort.", "en": "The bouncer asked for my passport." } },
+    { "id": "feesten", "nl": "feesten", "en": "to party", "forms": ["feest", "feestte", "feestten", "feestend", "gefeest"], "example": { "nl": "We hebben tot drie uur gefeest.", "en": "We partied until three o'clock." } },
+    { "id": "taxi", "nl": "taxi", "en": "taxi", "article": "de", "plural": "taxi's", "forms": ["taxietje"], "example": { "nl": "We namen samen een taxi naar huis.", "en": "We shared a taxi home." } },
+    { "id": "nachtbus", "nl": "nachtbus", "en": "night bus", "article": "de", "plural": "nachtbussen", "example": { "nl": "De nachtbus rijdt elk uur.", "en": "The night bus runs every hour." } },
+    { "id": "kater", "nl": "kater", "en": "hangover; tomcat", "article": "de", "plural": "katers", "forms": ["katertje"], "example": { "nl": "Ik heb een kater. Ik heb te veel gedronken.", "en": "I've got a hangover. I drank too much." } }
+  ],
+  "grammar": {
+    "title": "Talking about last night: perfect and simple past",
+    "points": [
+      "In conversation, Dutch usually starts with the perfect (hebben / zijn + participle): Ik ben gisteren uitgegaan. Wat heb je gedaan?",
+      "The simple past is used to set the scene and to keep a story going, especially with zijn, hebben and modal verbs: Het was druk. We moesten lang wachten.",
+      "Use zijn with verbs of moving to a place or changing: Ik ben naar huis gegaan. Use hebben for most other verbs: We hebben gedanst.",
+      "Separable verbs: the participle is one word (uitgegaan), but the simple past splits in a main clause: We gingen om tien uur uit.",
+      "A typical mix: Ik heb een leuke avond gehad. Eerst zaten we op een terras, daarna gingen we naar een club."
+    ],
+    "examples": [
+      { "nl": "Ik ben gisteren met mijn collega's uitgegaan.", "en": "I went out with my colleagues yesterday." },
+      { "nl": "Het was heel druk in de kroeg.", "en": "The pub was really busy." },
+      { "nl": "We moesten een half uur in de wachtrij staan.", "en": "We had to stand in the queue for half an hour." },
+      { "nl": "Peter heeft op een rondje getrakteerd.", "en": "Peter bought a round." },
+      { "nl": "We gingen om tien uur uit en kwamen om vier uur thuis.", "en": "We went out at ten and got home at four." },
+      { "nl": "Hoe ben je naar huis gegaan? Met de nachtbus?", "en": "How did you get home? On the night bus?" }
+    ],
+    "exercises": [
+      { "prompt": "Ik ___ gisteren uitgegaan.", "answer": "ben", "hint": "hebben / zijn" },
+      { "prompt": "We hebben tot drie uur ___.", "answer": "gefeest", "hint": "feesten (participle)" },
+      { "prompt": "Het ___ heel gezellig.", "answer": "was", "hint": "zijn (simple past)" },
+      { "prompt": "We ___ lang in de wachtrij staan.", "answer": "moesten", "hint": "moeten (simple past)" },
+      { "prompt": "Peter ___ op het eerste rondje getrakteerd.", "answer": "heeft", "hint": "hebben / zijn" },
+      { "prompt": "We ___ om tien uur uit.", "answer": "gingen", "hint": "uitgaan (simple past)" }
+    ]
+  },
+  "dialogue": {
+    "title": "De ochtend erna",
+    "scene": "The morning after Sara went out in Utrecht with her colleagues, Tom wants to hear all about it.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Morgen! Hoe laat ben je gisteren thuisgekomen?", "en": "Good morning! What time did you get home last night?" },
+      { "speaker": "Sara", "nl": "Om half vier. Ik heb een kater, praat niet zo hard.", "en": "At half past three. I've got a hangover, don't talk so loud.", "gap": "kater" },
+      { "speaker": "Tom", "nl": "Waar zijn jullie eigenlijk geweest?", "en": "So where did you go?" },
+      { "speaker": "Sara", "nl": "Eerst zaten we op een terras aan de gracht. Peter trakteerde op het eerste rondje.", "en": "First we sat outside at a café by the canal. Peter bought the first round.", "gap": "trakteerde" },
+      { "speaker": "Tom", "nl": "Peter? Dat had ik niet verwacht!", "en": "Peter? I didn't expect that!" },
+      { "speaker": "Sara", "nl": "Daarna zijn we naar een kroeg gegaan, en om twaalf uur naar een club.", "en": "Then we went to a pub, and at midnight to a club.", "gap": "kroeg" },
+      { "speaker": "Tom", "nl": "Moesten jullie lang in de wachtrij staan?", "en": "Did you have to queue for long?", "gap": "wachtrij" },
+      { "speaker": "Sara", "nl": "Een half uur. En de portier zei eerst nee tegen Fatima.", "en": "Half an hour. And at first the bouncer said no to Fatima." },
+      { "speaker": "Tom", "nl": "Waarom niet?", "en": "Why not?" },
+      { "speaker": "Sara", "nl": "Ze was haar paspoort vergeten. Gelukkig had ze een foto ervan op haar telefoon.", "en": "She'd forgotten her passport. Luckily she had a photo of it on her phone." },
+      { "speaker": "Tom", "nl": "En hoe was de muziek?", "en": "And how was the music?" },
+      { "speaker": "Sara", "nl": "De dj was echt goed. We hebben uren gedanst en gefeest.", "en": "The DJ was really good. We danced and partied for hours.", "gap": "gefeest" },
+      { "speaker": "Tom", "nl": "En hoe ben je naar huis gegaan? Met de nachtbus?", "en": "And how did you get home? On the night bus?" },
+      { "speaker": "Sara", "nl": "Nee, we hebben samen een taxi genomen. En nu wil ik heel veel koffie.", "en": "No, we shared a taxi. And now I want lots of coffee." }
+    ]
+  }
+}

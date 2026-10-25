@@ -1,0 +1,61 @@
+{
+  "day": 14,
+  "title": "Ik moet werken",
+  "words": [
+    { "id": "kunnen", "nl": "kunnen", "en": "can, to be able to", "forms": ["kan", "kon", "kunt", "kun", "konden", "kunnend", "gekund"], "example": { "nl": "Kun jij morgen komen?", "en": "Can you come tomorrow?" } },
+    { "id": "moeten", "nl": "moeten", "en": "must, to have to", "forms": ["moet", "moest", "moesten", "moetend", "gemoeten"], "example": { "nl": "Ik moet vandaag werken.", "en": "I have to work today." } },
+    { "id": "mogen", "nl": "mogen", "en": "may, to be allowed to", "forms": ["mag", "mocht", "mochten", "mogend", "gemogen"], "example": { "nl": "Mag ik betalen?", "en": "May I pay?" } },
+    { "id": "fiets", "nl": "fiets", "en": "bicycle, bike", "article": "de", "plural": "fietsen", "forms": ["fietsje"], "example": { "nl": "Mijn fiets is nieuw.", "en": "My bike is new." } },
+    { "id": "fietsen", "nl": "fietsen", "en": "to cycle", "forms": ["fiets", "fietste", "fietst", "fietsten", "fietsend", "gefietst"], "example": { "nl": "Ik fiets naar de les.", "en": "I cycle to class." } },
+    { "id": "rijden", "nl": "rijden", "en": "to drive; to ride", "forms": ["rij", "rijd", "reed", "rijdt", "reden", "rijdend", "gereden"], "example": { "nl": "Tom rijdt naar Utrecht.", "en": "Tom drives to Utrecht." } },
+    { "id": "auto", "nl": "auto", "en": "car", "article": "de", "plural": "auto's", "forms": ["autootje"], "example": { "nl": "Henk heeft een grote auto.", "en": "Henk has a big car." } },
+    { "id": "lopen", "nl": "lopen", "en": "to walk", "forms": ["loop", "liep", "loopt", "liepen", "lopend", "gelopen"], "example": { "nl": "Ik loop naar het station.", "en": "I walk to the station." } },
+    { "id": "ver", "nl": "ver", "en": "far", "forms": ["verder", "verst", "verre", "verdere", "verste"], "example": { "nl": "Is het ver?", "en": "Is it far?" } },
+    { "id": "dichtbij", "nl": "dichtbij", "en": "nearby, close", "forms": ["dichterbij", "dichtstbij", "dichtbije", "dichterbije", "dichtstbije"], "example": { "nl": "Het station is dichtbij.", "en": "The station is nearby." } },
+    { "id": "naar", "nl": "naar", "en": "to (a place)", "example": { "nl": "Ik wil naar huis.", "en": "I want to go home." } },
+    { "id": "station", "nl": "station", "en": "station", "article": "het", "plural": "stations", "forms": ["stationnetje"], "example": { "nl": "Waar is het station?", "en": "Where is the station?" } },
+    { "id": "bus", "nl": "bus", "en": "bus", "article": "de", "plural": "bussen", "forms": ["busje"], "example": { "nl": "Ik neem de bus.", "en": "I'm taking the bus." } },
+    { "id": "trein", "nl": "trein", "en": "train", "article": "de", "plural": "treinen", "forms": ["treintje"], "example": { "nl": "Ik neem de trein naar Utrecht.", "en": "I'm taking the train to Utrecht." } },
+    { "id": "helaas", "nl": "helaas", "en": "unfortunately", "example": { "nl": "Ik kan helaas niet.", "en": "Unfortunately I can't." } }
+  ],
+  "grammar": {
+    "title": "kunnen, moeten, mogen + infinitive",
+    "points": [
+      "kunnen = can, moeten = must / have to, mogen = may / be allowed to.",
+      "The modal verb takes second place; the other verb goes to the very end as an infinitive: Ik moet vandaag werken.",
+      "Forms: ik kan, jij kunt (or kan), hij kan, wij kunnen; ik moet, jij moet, hij moet; ik mag, jij mag, hij mag.",
+      "In a question kunt loses its -t before jij: Kun jij morgen komen?",
+      "With a place, you can leave out the verb of movement: Ik moet naar Utrecht (= I have to go to Utrecht)."
+    ],
+    "examples": [
+      { "nl": "Ik moet vandaag werken.", "en": "I have to work today." },
+      { "nl": "Kun jij morgen komen?", "en": "Can you come tomorrow?" },
+      { "nl": "Mag ik betalen?", "en": "May I pay?" },
+      { "nl": "Wij kunnen de trein nemen.", "en": "We can take the train." },
+      { "nl": "Daan is tien. Hij mag niet rijden.", "en": "Daan is ten. He isn't allowed to drive." }
+    ],
+    "exercises": [
+      { "prompt": "Ik moet vandaag ___.", "answer": "werken", "hint": "werken" },
+      { "prompt": "___ jij morgen komen?", "answer": "Kun", "hint": "kunnen" },
+      { "prompt": "Daan is tien. Hij ___ niet rijden.", "answer": "mag", "hint": "mogen" },
+      { "prompt": "Wij ___ de bus nemen.", "answer": "kunnen", "hint": "kunnen" },
+      { "prompt": "Sara ___ morgen werken.", "answer": "moet", "hint": "moeten" }
+    ]
+  },
+  "dialogue": {
+    "title": "Kun jij morgen komen?",
+    "scene": "Tom invites Sara to Utrecht, but she has to work.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Sara, kun jij morgen naar Utrecht komen?", "en": "Sara, can you come to Utrecht tomorrow?", "gap": "kun" },
+      { "speaker": "Sara", "nl": "Morgen? Nee, helaas. Ik moet werken.", "en": "Tomorrow? No, unfortunately. I have to work.", "gap": "helaas" },
+      { "speaker": "Tom", "nl": "Kun jij op zaterdag komen?", "en": "Can you come on Saturday?" },
+      { "speaker": "Sara", "nl": "Ja, op zaterdag kan ik! Is Utrecht ver?", "en": "Yes, on Saturday I can! Is Utrecht far?", "gap": "kan" },
+      { "speaker": "Tom", "nl": "Nee, het is niet ver. Je kunt de trein nemen.", "en": "No, it's not far. You can take the train.", "gap": "trein" },
+      { "speaker": "Sara", "nl": "Hoeveel kost de trein?", "en": "How much is the train?" },
+      { "speaker": "Tom", "nl": "Ongeveer tien euro. Mijn huis is niet ver van het station.", "en": "About ten euros. My house isn't far from the station." },
+      { "speaker": "Sara", "nl": "Mag mijn fiets in de trein?", "en": "Can I take my bike on the train?" },
+      { "speaker": "Tom", "nl": "Ja, maar je moet betalen. Je kunt ook lopen.", "en": "Yes, but you have to pay. You can also walk." },
+      { "speaker": "Sara", "nl": "Goed, ik loop!", "en": "OK, I'll walk!" }
+    ]
+  }
+}

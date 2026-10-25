@@ -1,0 +1,63 @@
+{
+  "day": 20,
+  "title": "Een kopje koffie",
+  "names": ["Sara", "Tom", "Ria"],
+  "words": [
+    { "id": "kopje", "nl": "kopje", "en": "cup", "article": "het", "plural": "kopjes", "example": { "nl": "Wil je een kopje koffie?", "en": "Would you like a cup of coffee?" } },
+    { "id": "glas", "nl": "glas", "en": "glass", "article": "het", "plural": "glazen", "forms": ["glaasje"], "example": { "nl": "Een glas water, alstublieft.", "en": "A glass of water, please." } },
+    { "id": "stuk", "nl": "stuk", "en": "piece", "article": "het", "plural": "stukken", "forms": ["stukje"], "example": { "nl": "Wil je een stuk taart?", "en": "Would you like a piece of cake?" } },
+    { "id": "taart", "nl": "taart", "en": "cake, pie", "article": "de", "plural": "taarten", "forms": ["taartje"], "example": { "nl": "De taart is heel lekker.", "en": "The cake is really nice." } },
+    { "id": "koekje", "nl": "koekje", "en": "biscuit, cookie", "article": "het", "plural": "koekjes", "example": { "nl": "Wil je een koekje?", "en": "Would you like a biscuit?" } },
+    { "id": "boterham", "nl": "boterham", "en": "slice of bread (often with a topping)", "article": "de", "plural": "boterhammen", "forms": ["boterhammetje"], "example": { "nl": "Ik eet een boterham met kaas.", "en": "I'm having a slice of bread with cheese." } },
+    { "id": "broodje", "nl": "broodje", "en": "bread roll, sandwich", "article": "het", "plural": "broodjes", "example": { "nl": "Ik neem een broodje kaas.", "en": "I'll have a cheese roll." } },
+    { "id": "soep", "nl": "soep", "en": "soup", "article": "de", "plural": "soepen", "forms": ["soepje"], "example": { "nl": "De soep is warm.", "en": "The soup is hot." } },
+    { "id": "salade", "nl": "salade", "en": "salad", "article": "de", "plural": "salades", "forms": ["saladetje"], "example": { "nl": "een salade met tomaten", "en": "a salad with tomatoes" } },
+    { "id": "klaar", "nl": "klaar", "en": "ready; finished", "forms": ["klaarder", "klaarst", "klare", "klaardere", "klaarste"], "example": { "nl": "De koffie is klaar!", "en": "The coffee is ready!" } },
+    { "id": "smakelijk", "nl": "smakelijk", "en": "tasty (eet smakelijk = enjoy your meal)", "forms": ["smakelijker", "smakelijkst", "smakelijke", "smakelijkere", "smakelijkste"], "example": { "nl": "Eet smakelijk!", "en": "Enjoy your meal!" } },
+    { "id": "nog-een", "nl": "nog een", "en": "another, one more", "example": { "nl": "Nog een kopje thee?", "en": "Another cup of tea?" } },
+    { "id": "bord", "nl": "bord", "en": "plate", "article": "het", "plural": "borden", "forms": ["bordje"], "example": { "nl": "Heb je een bord voor mij?", "en": "Have you got a plate for me?" } },
+    { "id": "mes", "nl": "mes", "en": "knife", "article": "het", "plural": "messen", "forms": ["mesje"], "example": { "nl": "Ik heb een mes nodig.", "en": "I need a knife." } },
+    { "id": "vork", "nl": "vork", "en": "fork", "article": "de", "plural": "vorken", "forms": ["vorkje"], "example": { "nl": "een mes en een vork", "en": "a knife and a fork" } },
+    { "id": "lepel", "nl": "lepel", "en": "spoon", "article": "de", "plural": "lepels", "forms": ["lepeltje"], "example": { "nl": "Ik eet de soep met een lepel.", "en": "I eat the soup with a spoon." } },
+    { "id": "helemaal", "nl": "helemaal", "en": "completely, totally", "example": { "nl": "De soep is helemaal klaar.", "en": "The soup is completely ready." } }
+  ],
+  "grammar": {
+    "title": "Small words: kopje, stukje, glaasje",
+    "points": [
+      "Dutch loves diminutives: add -je to make something small, cute or casual. het stuk → het stukje (a little piece).",
+      "A diminutive is always a het-word, even if the noun is a de-word: de taart → het taartje, de zus → het zusje.",
+      "The ending follows the sound: -je after most consonants (stukje), -tje after a vowel or after l, n, r following a long vowel (theetje, telefoontje), -pje after m following a long vowel (raampje), -etje after a short vowel + l, m, n, r or ng (plannetje, zonnetje).",
+      "The plural adds -s: het kopje → de kopjes.",
+      "Some diminutives have their own meaning: het kopje (cup), het broodje (roll), het koekje (biscuit)."
+    ],
+    "examples": [
+      { "nl": "Wil je een kopje koffie?", "en": "Would you like a cup of coffee?" },
+      { "nl": "Een stukje taart, graag.", "en": "A little piece of cake, please." },
+      { "nl": "Ik neem een glaasje water.", "en": "I'll have a (small) glass of water." },
+      { "nl": "Mijn zusje is zeven jaar.", "en": "My little sister is seven." },
+      { "nl": "Twee broodjes kaas, graag.", "en": "Two cheese rolls, please." }
+    ],
+    "exercises": [
+      { "prompt": "Wil je een ___ taart?", "answer": "stukje", "hint": "stuk → small" },
+      { "prompt": "___ kopje is klaar.", "answer": "Het", "hint": "de / het" },
+      { "prompt": "Ik neem twee ___.", "answer": "koekjes", "hint": "koekje, plural" },
+      { "prompt": "Een ___ water, graag.", "answer": "glaasje", "hint": "glas → small" },
+      { "prompt": "Ik wil een ___ kaas.", "answer": "broodje", "hint": "brood → small" }
+    ]
+  },
+  "dialogue": {
+    "title": "Koffie en taart",
+    "scene": "Sara has coffee and cake at the house of Ria, Tom's mother. Sara is polite and uses u with her.",
+    "lines": [
+      { "speaker": "Ria", "nl": "Dag Sara! Wil je een kopje koffie?", "en": "Hello Sara! Would you like a cup of coffee?", "gap": "kopje" },
+      { "speaker": "Sara", "nl": "Ja, graag. Met melk, maar zonder suiker.", "en": "Yes, please. With milk, but no sugar." },
+      { "speaker": "Ria", "nl": "De koffie is klaar. En wil je een stukje taart?", "en": "The coffee's ready. And would you like a piece of cake?", "gap": "klaar" },
+      { "speaker": "Sara", "nl": "Ja, graag!", "en": "Yes, please!" },
+      { "speaker": "Tom", "nl": "Voor mij een groot stuk, graag.", "en": "A big piece for me, please." },
+      { "speaker": "Ria", "nl": "Hier, een groot stuk voor jou. Eet smakelijk!", "en": "Here, a big piece for you. Enjoy!", "gap": "smakelijk" },
+      { "speaker": "Sara", "nl": "De taart is heel lekker!", "en": "The cake is really nice!" },
+      { "speaker": "Ria", "nl": "Wil je nog een kopje, Sara?", "en": "Would you like another cup, Sara?", "gap": "nog een" },
+      { "speaker": "Sara", "nl": "Nee, dank u wel. Maar nog een stukje taart, graag!", "en": "No, thank you. But another little piece of cake, please!", "gap": "stukje" }
+    ]
+  }
+}

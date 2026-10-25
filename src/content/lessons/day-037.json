@@ -1,0 +1,65 @@
+{
+  "day": 37,
+  "title": "De man die daar staat",
+  "names": ["Anna", "Mark", "Henk", "Noor", "Daan"],
+  "words": [
+    { "id": "vrouw-noun", "nl": "vrouw", "en": "woman", "article": "de", "plural": "vrouwen", "forms": ["vrouwtje", "vrouwetje", "vrouwke"], "example": { "nl": "Wie is die vrouw met de rode jas?", "en": "Who's that woman in the red coat?" } },
+    { "id": "jongen", "nl": "jongen", "en": "boy", "article": "de", "plural": "jongens", "forms": ["jongetje"], "example": { "nl": "Daan is een jongen van tien.", "en": "Daan is a ten-year-old boy." } },
+    { "id": "meisje", "nl": "meisje", "en": "girl", "article": "het", "plural": "meisjes", "example": { "nl": "Noor is een meisje van zeven.", "en": "Noor is a seven-year-old girl." } },
+    { "id": "mensen", "nl": "mens", "en": "person, human being (plural: people)", "article": "de", "plural": "mensen", "example": { "nl": "Er zijn veel mensen op het feest.", "en": "There are lots of people at the party." } },
+    { "id": "kennen", "nl": "kennen", "en": "to know (a person, a place)", "forms": ["ken", "kende", "kent", "kenden", "kennend", "gekend"], "example": { "nl": "Ken jij die man?", "en": "Do you know that man?" } },
+    { "id": "gast", "nl": "gast", "en": "guest", "article": "de", "plural": "gasten", "forms": ["gastje"], "example": { "nl": "De gasten komen om acht uur.", "en": "The guests are coming at eight." } },
+    { "id": "feest", "nl": "feest", "en": "party", "article": "het", "plural": "feesten", "forms": ["feestje"], "example": { "nl": "Zaterdag is er een feest bij Tom.", "en": "There's a party at Tom's on Saturday." } },
+    { "id": "uitnodigen", "nl": "uitnodigen", "en": "to invite", "forms": ["nodig uit", "nodigde uit", "uitnodig", "uitnodigde", "nodigt uit", "uitnodigt", "nodigen uit", "nodigden uit", "uitnodigden", "uitnodigend", "uitgenodigd"], "example": { "nl": "Ik nodig al mijn collega's uit.", "en": "I'm inviting all my colleagues." } },
+    { "id": "lang-adj", "nl": "lang", "en": "tall (of people); long", "forms": ["langer", "langst", "lange", "langere", "langste"], "example": { "nl": "Mijn broer is heel lang.", "en": "My brother is very tall." } },
+    { "id": "blond", "nl": "blond", "en": "blond, fair", "forms": ["blonder", "blondst", "blonde", "blondere", "blondste"], "example": { "nl": "Ze heeft lang blond haar.", "en": "She has long blond hair." } },
+    { "id": "haar-noun", "nl": "haar", "en": "hair", "article": "het", "plural": "haren", "forms": ["haartje"], "example": { "nl": "Hij heeft kort zwart haar.", "en": "He has short black hair." } },
+    { "id": "bril", "nl": "bril", "en": "glasses (a pair of)", "article": "de", "plural": "brillen", "forms": ["brilletje"], "example": { "nl": "Ik draag een bril.", "en": "I wear glasses." } },
+    { "id": "dragen", "nl": "dragen", "en": "to wear; to carry", "forms": ["draag", "droeg", "draagt", "droegen", "dragend", "gedragen"], "example": { "nl": "Ze draagt een mooie rode jurk.", "en": "She's wearing a beautiful red dress." } },
+    { "id": "baard", "nl": "baard", "en": "beard", "article": "de", "plural": "baarden", "forms": ["baardje"], "example": { "nl": "Mijn opa had een lange witte baard.", "en": "My grandpa had a long white beard." } }
+  ],
+  "grammar": {
+    "title": "De man die daar staat: relative clauses with die and dat",
+    "points": [
+      "A relative clause tells you more about a noun: de man die daar staat (the man who is standing there).",
+      "Use die after de-words and after all plurals: de vrouw die …, de mensen die ….",
+      "Use dat after singular het-words: het meisje dat …, het boek dat ….",
+      "die and dat are used for people and for things, so they cover English who, which and that.",
+      "The conjugated verb goes to the end of the relative clause: de man die een bril draagt.",
+      "In English you can drop the pronoun (the woman I know); in Dutch you can't: de vrouw die ik ken."
+    ],
+    "examples": [
+      { "nl": "De man die daar staat, is Mark.", "en": "The man standing over there is Mark." },
+      { "nl": "Het meisje dat daar speelt, heet Noor.", "en": "The girl playing over there is called Noor." },
+      { "nl": "Ken jij de vrouw die een bril draagt?", "en": "Do you know the woman who wears glasses?" },
+      { "nl": "De mensen die ik heb uitgenodigd, zijn er al.", "en": "The people I invited are already here." },
+      { "nl": "Het boek dat ik lees, is heel mooi.", "en": "The book I'm reading is very good." }
+    ],
+    "exercises": [
+      { "prompt": "De man ___ daar staat, is mijn vader.", "answer": "die", "hint": "die / dat" },
+      { "prompt": "Het meisje ___ blond haar heeft, is Noor.", "answer": "dat", "hint": "die / dat" },
+      { "prompt": "De gasten ___ ik heb uitgenodigd, komen om acht uur.", "answer": "die", "hint": "die / dat" },
+      { "prompt": "Ken je de man die een baard ___?", "answer": "heeft", "hint": "hebben" },
+      { "prompt": "Het boek ___ ik lees, is heel goed.", "answer": "dat", "hint": "die / dat" },
+      { "prompt": "De vrouw die daar ___, is mijn zus.", "answer": "staat", "hint": "staan" }
+    ]
+  },
+  "dialogue": {
+    "title": "Wie is wie?",
+    "scene": "At Tom's birthday party Sara hardly knows anyone, so Tom points out who is who.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Wat een gezellig feest, Tom! Maar ik ken hier niet veel mensen.", "en": "What a lovely party, Tom! But I don't know many people here.", "gap": "ken" },
+      { "speaker": "Tom", "nl": "Ik help je. Zie je die vrouw die daar bij de tafel staat?", "en": "I'll help you. Do you see that woman standing by the table?", "gap": "staat" },
+      { "speaker": "Sara", "nl": "De vrouw met het lange blonde haar?", "en": "The woman with the long blond hair?", "gap": "blonde" },
+      { "speaker": "Tom", "nl": "Ja, dat is Anna, mijn zus. En de man die naast haar staat, is Mark.", "en": "Yes, that's Anna, my sister. And the man next to her is Mark." },
+      { "speaker": "Sara", "nl": "De lange man met de baard?", "en": "The tall man with the beard?" },
+      { "speaker": "Tom", "nl": "Nee, de man die een bril draagt. De man met de baard is Henk, mijn vader.", "en": "No, the man wearing glasses. The man with the beard is Henk, my dad.", "gap": "draagt" },
+      { "speaker": "Sara", "nl": "En de twee kinderen die daar spelen?", "en": "And the two kids playing over there?" },
+      { "speaker": "Tom", "nl": "Dat zijn Noor en Daan. Het meisje dat de rode jurk draagt, is Noor.", "en": "That's Noor and Daan. The girl in the red dress is Noor.", "gap": "dat" },
+      { "speaker": "Sara", "nl": "Wie heeft al die mensen uitgenodigd?", "en": "Who invited all these people?" },
+      { "speaker": "Tom", "nl": "Ik! Mijn familie, mijn collega's... en jij natuurlijk.", "en": "Me! My family, my colleagues... and you, of course." },
+      { "speaker": "Sara", "nl": "Dank je wel. Ik vind het heel gezellig.", "en": "Thank you. I'm having a great time." },
+      { "speaker": "Tom", "nl": "Kom, we gaan naar Anna. Zij wil je graag leren kennen.", "en": "Come on, let's go to Anna. She'd love to meet you." }
+    ]
+  }
+}

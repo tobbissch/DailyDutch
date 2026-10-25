@@ -1,0 +1,63 @@
+{
+  "day": 48,
+  "title": "Bij de tandarts",
+  "words": [
+    { "id": "tandarts", "nl": "tandarts", "en": "dentist", "article": "de", "plural": "tandartsen", "forms": ["tandartsje"], "example": { "nl": "Ik moet morgen naar de tandarts.", "en": "I have to go to the dentist tomorrow." } },
+    { "id": "kies", "nl": "kies", "en": "molar, back tooth", "article": "de", "plural": "kiezen", "forms": ["kiesje"], "example": { "nl": "Mijn kies doet pijn.", "en": "My tooth hurts." } },
+    { "id": "vulling", "nl": "vulling", "en": "filling", "article": "de", "plural": "vullingen", "forms": ["vullinkje"], "example": { "nl": "De tandarts maakt een nieuwe vulling.", "en": "The dentist puts in a new filling." } },
+    { "id": "gevoelig", "nl": "gevoelig", "en": "sensitive", "forms": ["gevoeliger", "gevoeligst", "gevoelige", "gevoeligere", "gevoeligste"], "example": { "nl": "Mijn tanden zijn gevoelig voor koud water.", "en": "My teeth are sensitive to cold water." } },
+    { "id": "geleden", "nl": "geleden", "en": "ago", "example": { "nl": "Ik ben een jaar geleden naar Amsterdam verhuisd.", "en": "I moved to Amsterdam a year ago." } },
+    { "id": "sinds", "nl": "sinds", "en": "since", "example": { "nl": "Ik heb sinds zaterdag pijn.", "en": "I've been in pain since Saturday." } },
+    { "id": "spoedgeval", "nl": "spoedgeval", "en": "emergency", "article": "het", "plural": "spoedgevallen", "forms": ["spoedgevalletje"], "example": { "nl": "Is het een spoedgeval?", "en": "Is it an emergency?" } },
+    { "id": "verdoven", "nl": "verdoven", "en": "to numb, to anaesthetize", "forms": ["verdoof", "verdoofde", "verdooft", "verdoofden", "verdovend", "verdoofd"], "example": { "nl": "De tandarts verdooft eerst de kies.", "en": "The dentist numbs the tooth first." } },
+    { "id": "verdoving", "nl": "verdoving", "en": "anaesthetic", "article": "de", "plural": "verdovingen", "forms": ["verdovinkje"], "example": { "nl": "Wilt u een verdoving?", "en": "Would you like an anaesthetic?" } },
+    { "id": "eng", "nl": "eng", "en": "scary, creepy", "forms": ["enger", "engst", "enge", "engere", "engste"], "example": { "nl": "Ik vind de tandarts eng.", "en": "I find the dentist scary." } },
+    { "id": "slikken", "nl": "slikken", "en": "to swallow", "forms": ["slik", "slikte", "slikt", "slikten", "slikkend", "geslikt"], "example": { "nl": "Het doet pijn als ik slik.", "en": "It hurts when I swallow." } },
+    { "id": "bijten", "nl": "bijten", "en": "to bite", "forms": ["bijt", "beet", "beten", "bijtend", "gebeten"], "example": { "nl": "Ik kan niet goed bijten.", "en": "I can't bite properly." } },
+    { "id": "vreselijk", "nl": "vreselijk", "en": "terrible, awful", "forms": ["vreselijker", "vreselijkst", "vreselijke", "vreselijkere", "vreselijkste"], "example": { "nl": "Ik heb vreselijke pijn.", "en": "I'm in terrible pain." } },
+    { "id": "controle", "nl": "controle", "en": "check-up; control", "article": "de", "plural": "controles", "example": { "nl": "Ik ga twee keer per jaar op controle.", "en": "I go for a check-up twice a year." } }
+  ],
+  "grammar": {
+    "title": "Perfect tense review; geleden and sinds",
+    "points": [
+      "The perfect tense is hebben or zijn + past participle at the end: Ik heb op een stuk brood gebeten. Ik ben naar de tandarts gegaan.",
+      "Use zijn with verbs of movement or change (gaan, komen, verhuizen, worden) and with zijn itself: Ik ben bij de tandarts geweest.",
+      "geleden means 'ago' and comes after the time: twee dagen geleden, een jaar geleden.",
+      "sinds means 'since': sinds maandag, sinds gisteren.",
+      "For something that is still going on, Dutch uses the present tense, not the perfect: Ik heb sinds maandag pijn (I've had pain since Monday). With a length of time use al: Ik heb al een week pijn."
+    ],
+    "examples": [
+      { "nl": "Ik heb sinds zaterdag pijn aan mijn kies.", "en": "My tooth has been hurting since Saturday." },
+      { "nl": "Ik ben twee weken geleden bij de tandarts geweest.", "en": "I went to the dentist two weeks ago." },
+      { "nl": "Ik heb gisteren op een stuk brood gebeten.", "en": "Yesterday I bit on a piece of bread." },
+      { "nl": "Ik heb al een week pijn.", "en": "I've been in pain for a week." },
+      { "nl": "Hij heeft de pil met water geslikt.", "en": "He swallowed the pill with water." }
+    ],
+    "exercises": [
+      { "prompt": "Ik ben een jaar ___ naar Nederland verhuisd.", "answer": "geleden", "hint": "ago" },
+      { "prompt": "Ik heb ___ maandag pijn.", "answer": "sinds", "hint": "since" },
+      { "prompt": "Ik heb op een stuk kaas ___.", "answer": "gebeten", "hint": "bijten" },
+      { "prompt": "Ze heeft de tablet ___.", "answer": "geslikt", "hint": "slikken" },
+      { "prompt": "De tandarts heeft de kies ___.", "answer": "verdoofd", "hint": "verdoven" },
+      { "prompt": "Ik ___ naar de tandarts gegaan.", "answer": "ben", "hint": "hebben / zijn" }
+    ]
+  },
+  "dialogue": {
+    "title": "Een spoedgeval",
+    "scene": "Sara has a terrible toothache. She calls the dentist and gets an emergency appointment the same morning.",
+    "lines": [
+      { "speaker": "Assistent", "nl": "Dag, kan ik u helpen?", "en": "Hello, how can I help you?" },
+      { "speaker": "Sara", "nl": "Ja, ik heb vreselijke pijn aan een kies.", "en": "Yes, I have a terrible toothache.", "gap": "vreselijke" },
+      { "speaker": "Assistent", "nl": "Sinds wanneer heeft u pijn?", "en": "Since when have you been in pain?", "gap": "Sinds" },
+      { "speaker": "Sara", "nl": "Sinds gisteren. Ik heb op een stuk brood gebeten en toen begon het.", "en": "Since yesterday. I bit on a piece of bread and then it started.", "gap": "gebeten" },
+      { "speaker": "Assistent", "nl": "Wanneer bent u voor het laatst op controle geweest?", "en": "When did you last have a check-up?" },
+      { "speaker": "Sara", "nl": "Een jaar geleden, in Spanje.", "en": "A year ago, in Spain.", "gap": "geleden" },
+      { "speaker": "Assistent", "nl": "Dit is een spoedgeval. Kunt u om elf uur komen?", "en": "This is an emergency. Can you come at eleven?", "gap": "spoedgeval" },
+      { "speaker": "Tandarts", "nl": "Ik zie het al: de vulling is kapot.", "en": "I can see it already: the filling is broken." },
+      { "speaker": "Sara", "nl": "Gaat het pijn doen? Ik vind de tandarts een beetje eng.", "en": "Is it going to hurt? I find the dentist a bit scary." },
+      { "speaker": "Tandarts", "nl": "Nee hoor, ik verdoof de kies eerst.", "en": "No, don't worry, I'll numb the tooth first." },
+      { "speaker": "Tandarts", "nl": "Zo, klaar. Eet de eerste twee uur niet.", "en": "There, done. Don't eat for the first two hours." },
+      { "speaker": "Sara", "nl": "Dank u wel. Dat was minder eng dan ik dacht.", "en": "Thank you. That was less scary than I thought." }
+    ]
+  }
+}

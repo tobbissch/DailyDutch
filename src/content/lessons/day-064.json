@@ -1,0 +1,66 @@
+{
+  "day": 64,
+  "title": "Relaties",
+  "names": ["Sara", "Tom", "Anna", "Mark", "Utrecht", "Parijs"],
+  "words": [
+    { "id": "relatie", "nl": "relatie", "en": "relationship", "article": "de", "plural": "relaties", "forms": ["relatietje"], "example": { "nl": "Ze hebben al vijf jaar een relatie.", "en": "They've been in a relationship for five years." } },
+    { "id": "partner", "nl": "partner", "en": "partner", "article": "de", "plural": "partners", "forms": ["partnertje"], "example": { "nl": "Komt je partner ook naar het feest?", "en": "Is your partner coming to the party too?" } },
+    { "id": "trouwen", "nl": "trouwen", "en": "to marry, to get married", "forms": ["trouw", "trouwde", "trouwt", "trouwden", "trouwend", "getrouwd"], "example": { "nl": "Anna en Mark zijn in 2014 getrouwd.", "en": "Anna and Mark got married in 2014." } },
+    { "id": "bruiloft", "nl": "bruiloft", "en": "wedding", "article": "de", "plural": "bruiloften", "forms": ["bruiloftje"], "example": { "nl": "We gaan in juni naar een bruiloft.", "en": "We're going to a wedding in June." } },
+    { "id": "samenwonen", "nl": "samenwonen", "en": "to live together", "forms": ["woon samen", "woonde samen", "samenwoon", "samenwoonde", "woont samen", "samenwoont", "wonen samen", "woonden samen", "samenwoonden", "samenwonend", "samengewoond"], "example": { "nl": "Ze wonen al twee jaar samen.", "en": "They've been living together for two years." } },
+    { "id": "verloven", "nl": "verloven", "en": "to get engaged (zich verloven)", "forms": ["verloof", "verloofde", "verlooft", "verloofden", "verlovend", "verloofd"], "example": { "nl": "Ze hebben zich verloofd!", "en": "They've got engaged!" } },
+    { "id": "ring", "nl": "ring", "en": "ring", "article": "de", "plural": "ringen", "forms": ["ringetje"], "example": { "nl": "Wat een mooie ring!", "en": "What a beautiful ring!" } },
+    { "id": "bruid", "nl": "bruid", "en": "bride", "article": "de", "plural": "bruiden", "forms": ["bruidje"], "example": { "nl": "De bruid draagt een witte jurk.", "en": "The bride is wearing a white dress." } },
+    { "id": "bruidegom", "nl": "bruidegom", "en": "groom", "article": "de", "plural": "bruidegoms", "forms": ["bruidegommetje"], "example": { "nl": "De bruidegom is zenuwachtig.", "en": "The groom is nervous." } },
+    { "id": "huwelijk", "nl": "huwelijk", "en": "marriage", "article": "het", "plural": "huwelijken", "forms": ["huwelijkje"], "example": { "nl": "Hun huwelijk is gelukkig.", "en": "Their marriage is a happy one." } },
+    { "id": "verliefd-worden", "nl": "verliefd worden", "en": "to fall in love", "forms": ["word verliefd", "wordt verliefd", "worden verliefd", "werd verliefd", "werden verliefd", "verliefd geworden"], "example": { "nl": "Ze werden verliefd in de trein.", "en": "They fell in love on the train." } },
+    { "id": "date", "nl": "date", "en": "date (romantic)", "article": "de", "plural": "dates", "example": { "nl": "Ik heb zaterdag een date.", "en": "I've got a date on Saturday." } },
+    { "id": "daten", "nl": "daten", "en": "to date", "forms": ["date", "datete", "datet", "dateten", "datend", "gedatet"], "example": { "nl": "Ze daten al drie maanden.", "en": "They've been dating for three months." } }
+  ],
+  "grammar": {
+    "title": "Telling a story: perfect and past",
+    "points": [
+      "Dutch often starts a story (or asks about it) in the perfect tense: Hoe hebben jullie elkaar ontmoet? Anna heeft Mark in de trein ontmoet.",
+      "The details of the story, one after another, are told in the simple past: De trein had vertraging. Ze praatten twee uur.",
+      "A single finished fact is usually in the perfect, especially in speech: Ze zijn in 2014 getrouwd.",
+      "trouwen and verliefd worden take zijn in the perfect: Ze zijn getrouwd. Hij is verliefd geworden.",
+      "samenwonen is separable: Ze wonen samen. Ze hebben twee jaar samengewoond. zich verloven is reflexive: Ze hebben zich verloofd."
+    ],
+    "examples": [
+      { "nl": "Anna heeft Mark in de trein ontmoet.", "en": "Anna met Mark on the train." },
+      { "nl": "De trein had vertraging en Anna zat naast Mark.", "en": "The train was delayed and Anna sat next to Mark." },
+      { "nl": "Een jaar later woonden ze samen.", "en": "A year later they were living together." },
+      { "nl": "Ze zijn in 2014 getrouwd.", "en": "They got married in 2014." },
+      { "nl": "Het was een prachtige bruiloft.", "en": "It was a beautiful wedding." },
+      { "nl": "Hoe hebben jullie elkaar ontmoet?", "en": "How did you two meet?" }
+    ],
+    "exercises": [
+      { "prompt": "Anna ___ Mark in de trein ontmoet.", "answer": "heeft", "hint": "hebben / zijn" },
+      { "prompt": "Ze ___ in 2014 getrouwd.", "answer": "zijn", "hint": "hebben / zijn" },
+      { "prompt": "Het ___ een prachtige bruiloft.", "answer": "was", "hint": "zijn, past" },
+      { "prompt": "Een jaar later ___ ze samen.", "answer": "woonden", "hint": "samenwonen, past" },
+      { "prompt": "Ze ___ verliefd in de trein.", "answer": "werden", "hint": "worden, past" },
+      { "prompt": "Ze hebben ___ in Parijs verloofd.", "answer": "zich", "hint": "reflexive pronoun" }
+    ]
+  },
+  "dialogue": {
+    "title": "Liefde in de trein",
+    "scene": "Tom tells Sara how his sister Anna met her husband Mark — and then asks Sara something important.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Tom, hoe hebben Anna en Mark elkaar eigenlijk ontmoet?", "en": "Tom, how did Anna and Mark actually meet?", "gap": "ontmoet" },
+      { "speaker": "Tom", "nl": "In de trein! Het was een koude dag in januari.", "en": "On the train! It was a cold day in January." },
+      { "speaker": "Tom", "nl": "De trein had vertraging en Anna zat naast Mark. Ze praatten twee uur.", "en": "The train was delayed and Anna was sitting next to Mark. They talked for two hours.", "gap": "praatten" },
+      { "speaker": "Sara", "nl": "En werden ze toen al verliefd?", "en": "And did they fall in love right then?", "gap": "verliefd" },
+      { "speaker": "Tom", "nl": "Mark wel! Hij vroeg haar nummer, en een week later hadden ze hun eerste date.", "en": "Mark did! He asked for her number, and a week later they had their first date." },
+      { "speaker": "Sara", "nl": "Wat mooi! En daarna?", "en": "How lovely! And after that?" },
+      { "speaker": "Tom", "nl": "Twee jaar later gingen ze samenwonen in Utrecht.", "en": "Two years later they moved in together in Utrecht.", "gap": "samenwonen" },
+      { "speaker": "Sara", "nl": "En wanneer zijn ze getrouwd?", "en": "And when did they get married?" },
+      { "speaker": "Tom", "nl": "In 2014. Ze hadden zich in Parijs verloofd. De bruiloft was prachtig.", "en": "In 2014. They'd got engaged in Paris. The wedding was beautiful.", "gap": "bruiloft" },
+      { "speaker": "Sara", "nl": "Anna was vast een mooie bruid.", "en": "I bet Anna was a beautiful bride." },
+      { "speaker": "Tom", "nl": "Ja. En Mark was een zenuwachtige bruidegom. Hij vergat de ring thuis!", "en": "Yes. And Mark was a nervous groom. He left the ring at home!" },
+      { "speaker": "Sara", "nl": "Wat grappig!", "en": "How funny!" },
+      { "speaker": "Tom", "nl": "Sara… mag ik je iets vragen? Wil jij mijn vriendin zijn?", "en": "Sara… can I ask you something? Will you be my girlfriend?" },
+      { "speaker": "Sara", "nl": "Ja, Tom. Natuurlijk!", "en": "Yes, Tom. Of course!" }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "day": 81,
+  "title": "Een ongeluk",
+  "words": [
+    { "id": "fietser", "nl": "fietser", "en": "cyclist", "article": "de", "plural": "fietsers", "forms": ["fietsertje"], "example": { "nl": "In Amsterdam zijn veel fietsers.", "en": "There are lots of cyclists in Amsterdam." } },
+    { "id": "voetganger", "nl": "voetganger", "en": "pedestrian", "article": "de", "plural": "voetgangers", "forms": ["voetgangertje"], "example": { "nl": "Pas op voor de voetgangers!", "en": "Watch out for the pedestrians!" } },
+    { "id": "kruispunt", "nl": "kruispunt", "en": "crossroads, junction", "article": "het", "plural": "kruispunten", "forms": ["kruispuntje"], "example": { "nl": "Bij het kruispunt gaat u links.", "en": "Turn left at the junction." } },
+    { "id": "vallen", "nl": "vallen", "en": "to fall", "forms": ["val", "viel", "valt", "vielen", "vallend", "gevallen"], "example": { "nl": "Ik ben van mijn fiets gevallen.", "en": "I fell off my bike." } },
+    { "id": "botsen", "nl": "botsen", "en": "to collide, to crash", "forms": ["bots", "botste", "botst", "botsten", "botsend", "gebotst"], "example": { "nl": "Twee fietsers botsten op elkaar.", "en": "Two cyclists crashed into each other." } },
+    { "id": "botsing", "nl": "botsing", "en": "collision, crash", "article": "de", "plural": "botsingen", "forms": ["botsinkje"], "example": { "nl": "Bij de botsing was niemand gewond.", "en": "Nobody was hurt in the crash." } },
+    { "id": "gewond", "nl": "gewond", "en": "injured, hurt", "forms": ["gewonde"], "example": { "nl": "De fietser is licht gewond.", "en": "The cyclist is slightly injured." } },
+    { "id": "wond", "nl": "wond", "en": "wound, cut", "article": "de", "plural": "wonden", "forms": ["wondje"], "example": { "nl": "De wond doet pijn.", "en": "The wound hurts." } },
+    { "id": "ambulance", "nl": "ambulance", "en": "ambulance", "article": "de", "plural": "ambulances", "example": { "nl": "Bel snel een ambulance!", "en": "Call an ambulance, quick!" } },
+    { "id": "getuige", "nl": "getuige", "en": "witness", "article": "de", "plural": "getuigen", "forms": ["getuigetje"], "example": { "nl": "Zijn er getuigen?", "en": "Are there any witnesses?" } },
+    { "id": "schuld", "nl": "schuld", "en": "fault, blame", "article": "de", "plural": "schulden", "forms": ["schuldje"], "example": { "nl": "Het is niet mijn schuld!", "en": "It's not my fault!" } },
+    { "id": "schuld-noun", "nl": "schuld", "en": "debt", "article": "de", "plural": "schulden", "forms": ["schuldje"], "example": { "nl": "Hij heeft veel schulden.", "en": "He has a lot of debts." } },
+    { "id": "verzekering-noun", "nl": "verzekering", "en": "insurance", "article": "de", "plural": "verzekeringen", "forms": ["verzekeringetje", "verzekerinkje"], "example": { "nl": "Betaalt de verzekering de reparatie?", "en": "Does the insurance pay for the repair?" } },
+    { "id": "schadeformulier", "nl": "schadeformulier", "en": "(insurance) claim form", "article": "het", "plural": "schadeformulieren", "example": { "nl": "We vullen samen een schadeformulier in.", "en": "We fill in a claim form together." } }
+  ],
+  "grammar": {
+    "title": "Past perfect: Hij was gevallen, ik had het gezien",
+    "points": [
+      "The past perfect is had/hadden or was/waren + participle: ik had gezien (I had seen), hij was gevallen (he had fallen).",
+      "Use it for something that happened before another moment in the past: Toen de ambulance kwam, was de fietser al opgestaan.",
+      "Choose hebben or zijn just like in the present perfect: verbs of movement and change (vallen, gaan, komen, gebeuren) take was/waren.",
+      "The participle goes to the end: De fietser had het rode licht niet gezien.",
+      "It often comes with toen, nadat, voordat or al (already)."
+    ],
+    "examples": [
+      { "nl": "Toen ik bij het kruispunt kwam, was het ongeluk al gebeurd.", "en": "When I got to the junction, the accident had already happened." },
+      { "nl": "De fietser had het rode licht niet gezien.", "en": "The cyclist hadn't seen the red light." },
+      { "nl": "Nadat de auto's waren gebotst, belde ik de politie.", "en": "After the cars had collided, I called the police." },
+      { "nl": "De voetganger was op straat gevallen.", "en": "The pedestrian had fallen in the street." },
+      { "nl": "Gelukkig had een getuige alles gezien.", "en": "Luckily a witness had seen everything." }
+    ],
+    "exercises": [
+      { "prompt": "De fietser ___ het stoplicht niet gezien.", "answer": "had", "hint": "hebben, past" },
+      { "prompt": "Toen de ambulance kwam, ___ de vrouw al opgestaan.", "answer": "was", "hint": "zijn, past" },
+      { "prompt": "Twee auto's zijn op het kruispunt ___.", "answer": "gebotst", "hint": "botsen" },
+      { "prompt": "Ze ___ gevallen en had een wond aan haar knie.", "answer": "was", "hint": "zijn, past" },
+      { "prompt": "Het was niet mijn ___.", "answer": "schuld", "hint": "fault" }
+    ]
+  },
+  "dialogue": {
+    "title": "Op het kruispunt",
+    "scene": "On her way to work Sara sees a car hit a cyclist. She helps, and then talks to the police.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Gaat het? Ben je gewond?", "en": "Are you okay? Are you hurt?", "gap": "gewond" },
+      { "speaker": "Fietser", "nl": "Mijn knie doet pijn. Ik ben gevallen.", "en": "My knee hurts. I fell." },
+      { "speaker": "Sara", "nl": "Je hebt een wond aan je hoofd. Ik bel een ambulance.", "en": "You've got a cut on your head. I'll call an ambulance.", "gap": "ambulance" },
+      { "speaker": "Politie", "nl": "Bent u getuige van de botsing?", "en": "Did you witness the collision?", "gap": "getuige" },
+      { "speaker": "Sara", "nl": "Ja. Ik stond bij het kruispunt toen het gebeurde.", "en": "Yes. I was standing at the junction when it happened." },
+      { "speaker": "Politie", "nl": "Wat heeft u gezien?", "en": "What did you see?" },
+      { "speaker": "Sara", "nl": "De fietser had groen licht, maar de auto was door rood gereden.", "en": "The cyclist had a green light, but the car had gone through red.", "gap": "had" },
+      { "speaker": "Politie", "nl": "Dus het was de schuld van de auto?", "en": "So it was the car's fault?", "gap": "schuld" },
+      { "speaker": "Sara", "nl": "Ja, dat denk ik. De fietser kon niets doen.", "en": "Yes, I think so. The cyclist couldn't do anything." },
+      { "speaker": "Politie", "nl": "Dank u wel. Wilt u dit formulier invullen?", "en": "Thank you. Would you fill in this form?" },
+      { "speaker": "Fietser", "nl": "Bedankt voor alles!", "en": "Thanks for everything!" },
+      { "speaker": "Sara", "nl": "Graag gedaan. Heb je een goede verzekering?", "en": "You're welcome. Do you have good insurance?" },
+      { "speaker": "Fietser", "nl": "Ja, ik moet nog een schadeformulier invullen.", "en": "Yes, I still have to fill in a claim form." },
+      { "speaker": "Sara", "nl": "Sterkte!", "en": "Hang in there!" }
+    ]
+  }
+}

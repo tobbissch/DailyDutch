@@ -1,0 +1,67 @@
+{
+  "day": 82,
+  "title": "Bij de politie",
+  "names": ["Gazelle"],
+  "words": [
+    { "id": "politie-noun", "nl": "politie", "en": "police", "article": "de", "example": { "nl": "Bel de politie!", "en": "Call the police!" } },
+    { "id": "politiebureau", "nl": "politiebureau", "en": "police station", "article": "het", "plural": "politiebureaus", "forms": ["politiebureautje"], "example": { "nl": "Het politiebureau is in het centrum.", "en": "The police station is in the town centre." } },
+    { "id": "agent", "nl": "agent", "en": "police officer", "article": "de", "plural": "agenten", "forms": ["agentje"], "example": { "nl": "De agent schrijft alles op.", "en": "The officer writes everything down." } },
+    { "id": "stelen", "nl": "stelen", "en": "to steal", "forms": ["steel", "stal", "steelt", "stalen", "stelend", "gestolen"], "example": { "nl": "Iemand heeft mijn fiets gestolen.", "en": "Someone has stolen my bike." } },
+    { "id": "dief", "nl": "dief", "en": "thief", "article": "de", "plural": "dieven", "forms": ["diefje"], "example": { "nl": "De politie zoekt de dief.", "en": "The police are looking for the thief." } },
+    { "id": "diefstal", "nl": "diefstal", "en": "theft", "article": "de", "plural": "diefstallen", "forms": ["diefstalletje"], "example": { "nl": "Ik wil een diefstal melden.", "en": "I want to report a theft." } },
+    { "id": "aangifte", "nl": "aangifte", "en": "(police) report; declaration", "article": "de", "plural": "aangiften", "forms": ["aangiftetje"], "example": { "nl": "Ik heb de aangifte online gedaan.", "en": "I filed the report online." } },
+    { "id": "aangifte-doen", "nl": "aangifte doen", "en": "to report (a crime) to the police", "example": { "nl": "Ik wil aangifte doen van diefstal.", "en": "I want to report a theft." } },
+    { "id": "slot", "nl": "slot", "en": "lock", "article": "het", "plural": "sloten", "forms": ["slotje"], "example": { "nl": "Mijn fiets stond op slot.", "en": "My bike was locked." } },
+    { "id": "beschrijven", "nl": "beschrijven", "en": "to describe", "forms": ["beschrijf", "beschreef", "beschrijft", "beschreven", "beschrijvend"], "example": { "nl": "Kunt u de dief beschrijven?", "en": "Can you describe the thief?" } },
+    { "id": "beschrijving", "nl": "beschrijving", "en": "description", "article": "de", "plural": "beschrijvingen", "forms": ["beschrijvinkje"], "example": { "nl": "De politie heeft een beschrijving van de dief.", "en": "The police have a description of the thief." } },
+    { "id": "merk", "nl": "merk", "en": "brand, make", "article": "het", "plural": "merken", "forms": ["merkje"], "example": { "nl": "Wat is het merk van je fiets?", "en": "What make is your bike?" } },
+    { "id": "serienummer", "nl": "serienummer", "en": "serial number", "article": "het", "plural": "serienummers", "example": { "nl": "Het serienummer staat onder de fiets.", "en": "The serial number is underneath the bike." } },
+    { "id": "terugvinden", "nl": "terugvinden", "en": "to find (again), to recover", "forms": ["vind terug", "vond terug", "terugvind", "terugvond", "vindt terug", "terugvindt", "vinden terug", "vonden terug", "terugvonden", "terugvindend", "teruggevonden"], "example": { "nl": "Ik heb mijn sleutels teruggevonden!", "en": "I've found my keys again!" } },
+    { "id": "verdacht", "nl": "verdacht", "en": "suspicious", "forms": ["verdachter", "verdachtst", "verdachte", "verdachtere", "verdachtste", "verdachts"], "example": { "nl": "Die man doet verdacht.", "en": "That man is acting suspiciously." } }
+  ],
+  "grammar": {
+    "title": "Reported speech: Hij zei dat...",
+    "points": [
+      "To report what someone said, use zei dat + a subordinate clause; the verb goes to the end: Hij zei dat hij moe was.",
+      "Tenses shift back, as in English: 'Ik ben moe.' → Hij zei dat hij moe was. 'Ik heb het gezien.' → Ze zei dat ze het had gezien.",
+      "Pronouns change too: 'Mijn fiets is weg.' → Sara zei dat haar fiets weg was.",
+      "Reported yes/no questions use of (whether): Hij vroeg of ik een slot had. Question words stay: Hij vroeg waar de fiets had gestaan.",
+      "zal / zullen becomes zou / zouden: 'Ik zal je bellen.' → Hij zei dat hij me zou bellen."
+    ],
+    "examples": [
+      { "nl": "De agent zei dat de politie de dief zocht.", "en": "The officer said the police were looking for the thief." },
+      { "nl": "Sara zei dat haar fiets gestolen was.", "en": "Sara said her bike had been stolen." },
+      { "nl": "Hij vroeg of ik het serienummer wist.", "en": "He asked if I knew the serial number." },
+      { "nl": "Ze vroeg waar de fiets had gestaan.", "en": "She asked where the bike had been." },
+      { "nl": "De agent zei dat hij me zou bellen.", "en": "The officer said he would call me." }
+    ],
+    "exercises": [
+      { "prompt": "Sara zei dat haar fiets gestolen ___.", "answer": "was", "hint": "zijn, past" },
+      { "prompt": "De agent vroeg ___ ik een slot had.", "answer": "of", "hint": "whether" },
+      { "prompt": "Hij zei dat hij me morgen ___ bellen.", "answer": "zou", "hint": "zullen, past" },
+      { "prompt": "Ik wil graag ___ doen van diefstal.", "answer": "aangifte", "hint": "report" },
+      { "prompt": "Kunt u de fiets ___?", "answer": "beschrijven", "hint": "to describe" }
+    ]
+  },
+  "dialogue": {
+    "title": "Mijn fiets is gestolen",
+    "scene": "Sara's bike has been stolen. She reports it at the police station, then tells Tom on the phone.",
+    "lines": [
+      { "speaker": "Agent", "nl": "Hallo. Kan ik u helpen?", "en": "Hello. Can I help you?" },
+      { "speaker": "Sara", "nl": "Ja, mijn fiets is gestolen. Ik wil graag aangifte doen.", "en": "Yes, my bike has been stolen. I'd like to report it.", "gap": "aangifte doen" },
+      { "speaker": "Agent", "nl": "Waar en wanneer is de diefstal gebeurd?", "en": "Where and when did the theft happen?", "gap": "diefstal" },
+      { "speaker": "Sara", "nl": "Gisteren, bij het station. Hij stond op slot.", "en": "Yesterday, at the station. It was locked." },
+      { "speaker": "Agent", "nl": "Kunt u de fiets beschrijven? Wat voor merk is het?", "en": "Can you describe the bike? What make is it?", "gap": "beschrijven" },
+      { "speaker": "Sara", "nl": "Het is een zwarte Gazelle met twee tassen.", "en": "It's a black Gazelle with two bags." },
+      { "speaker": "Agent", "nl": "Weet u het serienummer?", "en": "Do you know the serial number?", "gap": "serienummer" },
+      { "speaker": "Sara", "nl": "Ja, dat staat op de rekening van de winkel.", "en": "Yes, it's on the receipt from the shop." },
+      { "speaker": "Agent", "nl": "Mooi. Heeft u iets verdachts gezien?", "en": "Good. Did you see anything suspicious?" },
+      { "speaker": "Sara", "nl": "Nee, ik heb niets gezien.", "en": "No, I didn't see anything." },
+      { "speaker": "Agent", "nl": "Veel gestolen fietsen worden nooit teruggevonden, maar soms vinden we de dief.", "en": "Many stolen bikes are never found, but sometimes we catch the thief.", "gap": "teruggevonden" },
+      { "speaker": "Tom", "nl": "En, wat zei de politie?", "en": "So, what did the police say?" },
+      { "speaker": "Sara", "nl": "De agent zei dat ze de fiets misschien nog zouden terugvinden.", "en": "The officer said they might still find the bike.", "gap": "zei dat" },
+      { "speaker": "Tom", "nl": "En vroeg hij of je een goed slot had?", "en": "And did he ask if you had a good lock?" },
+      { "speaker": "Sara", "nl": "Ja, en hij zei dat ik beter een tweede slot kon kopen.", "en": "Yes, and he said I'd better buy a second lock." }
+    ]
+  }
+}

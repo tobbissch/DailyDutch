@@ -1,0 +1,61 @@
+{
+  "day": 25,
+  "title": "Op het werk",
+  "names": ["Sara", "Fatima", "Peter"],
+  "words": [
+    { "id": "want", "nl": "want", "en": "because, as", "example": { "nl": "Ik ben moe, want ik werk veel.", "en": "I'm tired, because I work a lot." } },
+    { "id": "dus", "nl": "dus", "en": "so", "example": { "nl": "Ik ben ziek, dus ik ga naar de dokter.", "en": "I'm ill, so I'm going to the doctor." } },
+    { "id": "werk", "nl": "werk", "en": "work, job", "article": "het", "plural": "werken", "forms": ["werkje"], "example": { "nl": "Ik ga met de fiets naar mijn werk.", "en": "I cycle to work." } },
+    { "id": "baan", "nl": "baan", "en": "job", "article": "de", "plural": "banen", "forms": ["baantje"], "example": { "nl": "Ik heb een nieuwe baan.", "en": "I have a new job." } },
+    { "id": "collega", "nl": "collega", "en": "colleague", "article": "de", "plural": "collega's", "forms": ["collegaatje"], "example": { "nl": "Fatima is mijn collega.", "en": "Fatima is my colleague." } },
+    { "id": "kantoor", "nl": "kantoor", "en": "office", "article": "het", "plural": "kantoren", "forms": ["kantoortje"], "example": { "nl": "Het kantoor is dichtbij het station.", "en": "The office is close to the station." } },
+    { "id": "baas", "nl": "baas", "en": "boss", "article": "de", "plural": "bazen", "forms": ["baasje"], "example": { "nl": "Mijn baas heet Peter.", "en": "My boss is called Peter." } },
+    { "id": "klant", "nl": "klant", "en": "customer, client", "article": "de", "plural": "klanten", "forms": ["klantje"], "example": { "nl": "De klant komt om twee uur.", "en": "The client is coming at two o'clock." } },
+    { "id": "bedrijf", "nl": "bedrijf", "en": "company, business", "article": "het", "plural": "bedrijven", "forms": ["bedrijfje"], "example": { "nl": "Het bedrijf is klein.", "en": "The company is small." } },
+    { "id": "computer", "nl": "computer", "en": "computer", "article": "de", "plural": "computers", "forms": ["computertje"], "example": { "nl": "Mijn computer is nieuw.", "en": "My computer is new." } },
+    { "id": "vergadering", "nl": "vergadering", "en": "meeting", "article": "de", "plural": "vergaderingen", "forms": ["vergaderingetje"], "example": { "nl": "De vergadering begint om tien uur.", "en": "The meeting starts at ten." } },
+    { "id": "belangrijk", "nl": "belangrijk", "en": "important", "forms": ["belangrijker", "belangrijkst", "belangrijke", "belangrijkere", "belangrijkste"], "example": { "nl": "Dat is belangrijk.", "en": "That's important." } },
+    { "id": "moeilijk", "nl": "moeilijk", "en": "difficult, hard", "forms": ["moeilijker", "moeilijkst", "moeilijke", "moeilijkere", "moeilijkste"], "example": { "nl": "Nederlands is moeilijk.", "en": "Dutch is difficult." } },
+    { "id": "makkelijk", "nl": "makkelijk", "en": "easy", "forms": ["makkelijker", "makkelijkst", "makkelijke", "makkelijkere", "makkelijkste"], "example": { "nl": "Het werk is niet makkelijk.", "en": "The work isn't easy." } },
+    { "id": "gebruiken", "nl": "gebruiken", "en": "to use", "forms": ["gebruik", "gebruikt", "gebruikte", "gebruikten", "gebruikend"], "example": { "nl": "Ik gebruik de computer voor mijn werk.", "en": "I use the computer for my work." } }
+  ],
+  "grammar": {
+    "title": "Linking sentences: en, maar, of, want, dus",
+    "points": [
+      "en (and), maar (but), of (or), want (because) and dus (so) link two full sentences.",
+      "After en, maar, of and want the word order doesn't change: subject + verb. Ik ben moe, want ik werk veel.",
+      "want gives a reason, dus gives a result: Ik ben ziek, dus ik ga naar huis.",
+      "dus is flexible: after dus you may also put the verb first. Ik ben ziek, dus ga ik naar huis is also correct.",
+      "Put a comma before maar, want and dus."
+    ],
+    "examples": [
+      { "nl": "Ik werk op een kantoor en Tom werkt in Utrecht.", "en": "I work in an office and Tom works in Utrecht." },
+      { "nl": "Het werk is leuk, maar het is moeilijk.", "en": "The work is fun, but it's difficult." },
+      { "nl": "Drink je koffie of wil je thee?", "en": "Are you having coffee or would you like tea?" },
+      { "nl": "Ik ben moe, want de vergaderingen zijn lang.", "en": "I'm tired, because the meetings are long." },
+      { "nl": "Mijn computer is nieuw, dus hij is snel.", "en": "My computer is new, so it's fast." }
+    ],
+    "exercises": [
+      { "prompt": "Ik ben moe, ___ ik werk veel.", "answer": "want", "hint": "because" },
+      { "prompt": "Ik ben ziek, ___ ik ga naar de dokter.", "answer": "dus", "hint": "so" },
+      { "prompt": "Het werk is leuk, ___ het is moeilijk.", "answer": "maar", "hint": "but" },
+      { "prompt": "Wil je koffie ___ thee?", "answer": "of", "hint": "or" },
+      { "prompt": "Ik ga naar huis, want ik ___ moe.", "answer": "ben", "hint": "zijn — watch the word order" }
+    ]
+  },
+  "dialogue": {
+    "title": "Mijn eerste dag",
+    "scene": "Sara's first day at her new job at a design agency. Her colleague Fatima shows her around.",
+    "lines": [
+      { "speaker": "Fatima", "nl": "Hallo! Ben jij Sara, de nieuwe collega?", "en": "Hi! Are you Sara, the new colleague?", "gap": "collega" },
+      { "speaker": "Sara", "nl": "Ja! Het is mijn eerste dag.", "en": "Yes! It's my first day." },
+      { "speaker": "Fatima", "nl": "Ik ben Fatima. Hier is je computer.", "en": "I'm Fatima. Here's your computer.", "gap": "computer" },
+      { "speaker": "Sara", "nl": "Dank je wel. Is het werk moeilijk?", "en": "Thanks. Is the work hard?" },
+      { "speaker": "Fatima", "nl": "Het is niet makkelijk, maar het is leuk.", "en": "It isn't easy, but it's fun.", "gap": "maar" },
+      { "speaker": "Sara", "nl": "Wie is de baas?", "en": "Who's the boss?", "gap": "baas" },
+      { "speaker": "Fatima", "nl": "Peter. Hij is altijd druk, want het bedrijf is groot.", "en": "Peter. He's always busy, because the company is big.", "gap": "want" },
+      { "speaker": "Sara", "nl": "Hebben we vandaag een vergadering?", "en": "Do we have a meeting today?" },
+      { "speaker": "Fatima", "nl": "Ja, een belangrijke vergadering om tien uur. Dus neem je koffie mee!", "en": "Yes, an important meeting at ten. So bring your coffee!" }
+    ]
+  }
+}

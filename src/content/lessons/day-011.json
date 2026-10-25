@@ -1,0 +1,63 @@
+{
+  "day": 11,
+  "title": "Geen of niet?",
+  "words": [
+    { "id": "geen", "nl": "geen", "en": "no, not a, not any", "example": { "nl": "Ik heb geen brood.", "en": "I have no bread." } },
+    { "id": "eten", "nl": "eten", "en": "to eat; food", "forms": ["eet", "at", "aten", "etend", "gegeten"], "example": { "nl": "Ik eet een appel.", "en": "I'm eating an apple." } },
+    { "id": "appel", "nl": "appel", "en": "apple", "article": "de", "plural": "appels", "forms": ["appeltje"], "example": { "nl": "De appels zijn lekker.", "en": "The apples are tasty." } },
+    { "id": "banaan", "nl": "banaan", "en": "banana", "article": "de", "plural": "bananen", "forms": ["banaantje"], "example": { "nl": "Noor eet graag bananen.", "en": "Noor loves bananas." } },
+    { "id": "kaas", "nl": "kaas", "en": "cheese", "article": "de", "plural": "kazen", "forms": ["kaasje"], "example": { "nl": "Brood met kaas is lekker.", "en": "Bread with cheese is tasty." } },
+    { "id": "ei", "nl": "ei", "en": "egg", "article": "het", "plural": "eieren", "forms": ["eitje"], "example": { "nl": "Wil jij een ei?", "en": "Would you like an egg?" } },
+    { "id": "boter", "nl": "boter", "en": "butter", "article": "de", "plural": "boters", "forms": ["botertje"], "example": { "nl": "Hebben wij boter?", "en": "Do we have butter?" } },
+    { "id": "groente", "nl": "groente", "en": "vegetable(s)", "article": "de", "plural": "groenten", "forms": ["groentje", "groentetje", "groenteke"], "example": { "nl": "Tom eet niet veel groente.", "en": "Tom doesn't eat many vegetables." } },
+    { "id": "fruit", "nl": "fruit", "en": "fruit", "article": "het", "example": { "nl": "Ik eet veel fruit.", "en": "I eat a lot of fruit." } },
+    { "id": "vlees", "nl": "vlees", "en": "meat", "article": "het", "plural": "vlezen", "forms": ["vleesje"], "example": { "nl": "Sara eet geen vlees.", "en": "Sara doesn't eat meat." } },
+    { "id": "vis", "nl": "vis", "en": "fish", "article": "de", "plural": "vissen", "forms": ["visje"], "example": { "nl": "Ik eet graag vis.", "en": "I like eating fish." } },
+    { "id": "honger", "nl": "honger", "en": "hunger", "article": "de", "example": { "nl": "Ik heb honger!", "en": "I'm hungry!" } },
+    { "id": "dorst", "nl": "dorst", "en": "thirst", "article": "de", "example": { "nl": "Heb jij dorst? Wil je water?", "en": "Are you thirsty? Would you like some water?" } },
+    { "id": "lusten", "nl": "lusten", "en": "to like (food)", "forms": ["lust", "lustte", "lustten", "lustend", "gelust"], "example": { "nl": "Daan lust geen kaas.", "en": "Daan doesn't like cheese." } },
+    { "id": "ontbijten", "nl": "ontbijten", "en": "to have breakfast", "forms": ["ontbijt", "ontbeet", "ontbeten", "ontbijtend"], "example": { "nl": "Wij ontbijten om acht uur.", "en": "We have breakfast at eight." } },
+    { "id": "ontbijt", "nl": "ontbijt", "en": "breakfast", "article": "het", "plural": "ontbijten", "forms": ["ontbijtje"], "example": { "nl": "Het ontbijt is lekker.", "en": "The breakfast is good." } },
+    { "id": "niets", "nl": "niets", "en": "nothing", "example": { "nl": "Ik wil niets, dank je.", "en": "I don't want anything, thanks." } },
+    { "id": "niks", "nl": "niks", "en": "nothing (informal)", "example": { "nl": "Ik eet vandaag niks.", "en": "I'm not eating anything today." } }
+  ],
+  "grammar": {
+    "title": "geen or niet?",
+    "points": [
+      "Use geen (no, not a, not any) with a noun that has een or no article: Ik heb een appel → Ik heb geen appel. Ik eet vlees → Ik eet geen vlees.",
+      "Use niet for everything else: verbs, adjectives, and nouns with de, het or mijn: Ik ontbijt niet. Het is niet lekker. Ik lust de vis niet.",
+      "niet comes after a noun with de/het (Ik lust de kaas niet) but before an adjective or place (niet lekker, niet in Amsterdam).",
+      "honger and dorst go with hebben: Ik heb honger (lit. I have hunger).",
+      "lusten = to like (food). It's mostly used with geen or niet: Ik lust geen vis."
+    ],
+    "examples": [
+      { "nl": "Ik heb geen honger.", "en": "I'm not hungry." },
+      { "nl": "Sara eet geen vlees.", "en": "Sara doesn't eat meat." },
+      { "nl": "Wij hebben geen eieren.", "en": "We don't have any eggs." },
+      { "nl": "De kaas is niet lekker.", "en": "The cheese isn't good." },
+      { "nl": "Ik lust de vis niet.", "en": "I don't like the fish." }
+    ],
+    "exercises": [
+      { "prompt": "Ik heb ___ brood.", "answer": "geen", "hint": "geen / niet" },
+      { "prompt": "De koffie is ___ lekker.", "answer": "niet", "hint": "geen / niet" },
+      { "prompt": "Tom eet ___ vis.", "answer": "geen", "hint": "geen / niet" },
+      { "prompt": "Ik ontbijt ___.", "answer": "niet", "hint": "geen / niet" },
+      { "prompt": "Wij hebben ___ boter.", "answer": "geen", "hint": "geen / niet" }
+    ]
+  },
+  "dialogue": {
+    "title": "Wat eten wij?",
+    "scene": "Sara and Tom check the kitchen and make a quick shopping list for breakfast.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Ik heb honger! Wat eten wij?", "en": "I'm hungry! What are we eating?", "gap": "honger" },
+      { "speaker": "Sara", "nl": "Wij hebben geen brood en geen eieren.", "en": "We have no bread and no eggs.", "gap": "geen" },
+      { "speaker": "Tom", "nl": "Hebben wij kaas?", "en": "Do we have cheese?" },
+      { "speaker": "Sara", "nl": "Ja, kaas hebben wij. Maar geen boter.", "en": "Yes, we have cheese. But no butter." },
+      { "speaker": "Tom", "nl": "Ik wil ook fruit. Een banaan of een appel?", "en": "I want some fruit too. A banana or an apple?" },
+      { "speaker": "Sara", "nl": "Ik lust geen bananen. Appels graag!", "en": "I don't like bananas. Apples, please!", "gap": "lust" },
+      { "speaker": "Tom", "nl": "Wil jij ook een ei?", "en": "Do you want an egg too?" },
+      { "speaker": "Sara", "nl": "Nee, ik eet geen eieren. Maar ik heb dorst! Koffie graag.", "en": "No, I don't eat eggs. But I'm thirsty! Coffee, please.", "gap": "dorst" },
+      { "speaker": "Tom", "nl": "Goed. Brood, boter, appels en koffie!", "en": "OK. Bread, butter, apples and coffee!" }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "day": 88,
+  "title": "Het inburgeringsexamen",
+  "names": ["Sara", "Tom", "Nederland"],
+  "words": [
+    { "id": "inburgering", "nl": "inburgering", "en": "civic integration", "article": "de", "plural": "inburgeringen", "forms": ["inburgeringetje"], "example": { "nl": "Sara werkt aan haar inburgering.", "en": "Sara is working on her civic integration." } },
+    { "id": "onderdeel", "nl": "onderdeel", "en": "part, section; component", "article": "het", "plural": "onderdelen", "forms": ["onderdeeltje"], "example": { "nl": "Het examen heeft vijf onderdelen.", "en": "The exam has five parts." } },
+    { "id": "luistervaardigheid", "nl": "luistervaardigheid", "en": "listening skills", "article": "de", "example": { "nl": "Luistervaardigheid vind ik het moeilijkste onderdeel.", "en": "I find listening the hardest part." } },
+    { "id": "oefenen", "nl": "oefenen", "en": "to practise", "forms": ["oefen", "oefende", "oefent", "oefenden", "oefenend", "geoefend"], "example": { "nl": "Ik oefen elke dag een half uur.", "en": "I practise for half an hour every day." } },
+    { "id": "oefening", "nl": "oefening", "en": "exercise, practice", "article": "de", "plural": "oefeningen", "forms": ["oefeninkje"], "example": { "nl": "Deze oefening is te makkelijk.", "en": "This exercise is too easy." } },
+    { "id": "niveau", "nl": "niveau", "en": "level", "article": "het", "plural": "niveaus", "forms": ["niveautje"], "example": { "nl": "Mijn Nederlands is nu op een hoger niveau.", "en": "My Dutch is at a higher level now." } },
+    { "id": "uitslag", "nl": "uitslag", "en": "result (of a test or vote); score", "article": "de", "plural": "uitslagen", "forms": ["uitslagje"], "example": { "nl": "Over drie weken krijg je de uitslag.", "en": "You get the result in three weeks." } },
+    { "id": "kennis", "nl": "kennis", "en": "knowledge; acquaintance", "article": "de", "example": { "nl": "Hij heeft veel kennis van computers.", "en": "He knows a lot about computers." } },
+    { "id": "maatschappij", "nl": "maatschappij", "en": "society; company", "article": "de", "plural": "maatschappijen", "forms": ["maatschappijtje"], "example": { "nl": "Er is ook een toets over de Nederlandse maatschappij.", "en": "There's also a test on Dutch society." } },
+    { "id": "toets-noun", "nl": "toets", "en": "test, exam (part)", "article": "de", "plural": "toetsen", "forms": ["toetsje"], "example": { "nl": "De toets voor lezen is op maandag.", "en": "The reading test is on Monday." } },
+    { "id": "voorbereiden", "nl": "voorbereiden", "en": "to prepare", "forms": ["bereid voor", "bereidde voor", "voorbereid", "voorbereidde", "bereidt voor", "voorbereidt", "bereiden voor", "bereidden voor", "voorbereidden", "voorbereidend"], "example": { "nl": "Ik bereid me goed voor op het examen.", "en": "I'm preparing well for the exam." } },
+    { "id": "voorbereiding", "nl": "voorbereiding", "en": "preparation", "article": "de", "plural": "voorbereidingen", "forms": ["voorbereidinkje"], "example": { "nl": "Een goede voorbereiding is belangrijk.", "en": "Good preparation is important." } },
+    { "id": "haalbaar", "nl": "haalbaar", "en": "feasible, achievable", "forms": ["haalbaarder", "haalbaarst", "haalbare", "haalbaardere", "haalbaarste"], "example": { "nl": "Is dat haalbaar in drie maanden?", "en": "Is that achievable in three months?" } },
+    { "id": "zenuwen", "nl": "zenuwen", "en": "nerves (feeling nervous)", "article": "de", "example": { "nl": "Ik heb zenuwen voor het examen.", "en": "I'm nervous about the exam." } },
+    { "id": "zenuw", "nl": "zenuw", "en": "nerve", "article": "de", "plural": "zenuwen", "forms": ["zenuwtje"], "example": { "nl": "Hij werkt op mijn zenuwen.", "en": "He gets on my nerves." } }
+  ],
+  "grammar": {
+    "title": "Linking ideas: en, want, dus vs. omdat, als, hoewel",
+    "points": [
+      "en, maar, of, want and dus join two main clauses. The word order doesn't change: Ik oefen veel, want het examen is moeilijk.",
+      "omdat, als, dat, of (whether), hoewel, zodat, voordat, nadat, terwijl and toen start a subordinate clause: the verb goes to the end. Ik oefen veel, omdat het examen moeilijk is.",
+      "want and omdat both mean 'because'; dus means 'so': Ik heb examen, dus ik oefen veel.",
+      "If the sentence starts with the subordinate clause, the main clause starts with the verb: Als ik slaag, geef ik een feestje.",
+      "Exam instructions often use the imperative: Lees de tekst. Luister naar de vraag. Kies het goede antwoord. Schrijf een e-mail."
+    ],
+    "examples": [
+      { "nl": "Ik oefen elke dag, want ik wil slagen.", "en": "I practise every day because I want to pass." },
+      { "nl": "Ik oefen elke dag, omdat ik wil slagen.", "en": "I practise every day because I want to pass." },
+      { "nl": "Voordat het examen begint, moet je je telefoon uitzetten.", "en": "Before the exam starts, you have to switch off your phone." },
+      { "nl": "Hoewel ik me goed heb voorbereid, heb ik toch zenuwen.", "en": "Although I've prepared well, I'm nervous." },
+      { "nl": "Lees de vraag en kies het goede antwoord.", "en": "Read the question and choose the correct answer." }
+    ],
+    "exercises": [
+      { "prompt": "Ik ben moe, ___ ik heb slecht geslapen.", "answer": "want", "hint": "because (main clause)" },
+      { "prompt": "Ik ben moe, ___ ik slecht heb geslapen.", "answer": "omdat", "hint": "because (verb at end)" },
+      { "prompt": "Het examen is morgen, ___ ik ga vroeg naar bed.", "answer": "dus", "hint": "so" },
+      { "prompt": "Als ik slaag, ___ ik een feestje.", "answer": "geef", "hint": "geven" },
+      { "prompt": "Ik moet nog veel ___ voor het examen.", "answer": "oefenen", "hint": "to practise" },
+      { "prompt": "Hoe heb je je ___ op het examen?", "answer": "voorbereid", "hint": "voorbereiden, participle" }
+    ]
+  },
+  "dialogue": {
+    "title": "Bijna examen",
+    "scene": "The evening before her civic integration exam, Sara practises with Tom, who tries to calm her nerves.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Morgen is het examen. Hoe voel je je?", "en": "The exam is tomorrow. How are you feeling?" },
+      { "speaker": "Sara", "nl": "Ik heb echt zenuwen.", "en": "I'm really nervous.", "gap": "zenuwen" },
+      { "speaker": "Tom", "nl": "Wat is morgen het eerste onderdeel?", "en": "What's the first part tomorrow?", "gap": "onderdeel" },
+      { "speaker": "Sara", "nl": "Luistervaardigheid en de toets over de Nederlandse maatschappij.", "en": "Listening and the test on Dutch society.", "gap": "maatschappij" },
+      { "speaker": "Tom", "nl": "Maar je hebt toch heel veel geoefend?", "en": "But you've practised a lot, haven't you?", "gap": "geoefend" },
+      { "speaker": "Sara", "nl": "Ja, ik heb elke oefening op internet gedaan. Elke avond, terwijl jij naar voetbal keek.", "en": "Yes, I did every exercise online. Every evening, while you were watching football." },
+      { "speaker": "Tom", "nl": "Zal ik je wat vragen stellen? Wie helpt je met de huur als je niet veel geld hebt?", "en": "Shall I ask you some questions? Who helps you with the rent if you don't have much money?" },
+      { "speaker": "Sara", "nl": "Dan kun je geld krijgen van de gemeente. Dat weet ik wel.", "en": "Then you can get money from the council. I do know that." },
+      { "speaker": "Tom", "nl": "Zie je? Je kennis is goed. En het niveau is haalbaar voor jou.", "en": "See? Your knowledge is good. And the level is achievable for you.", "gap": "haalbaar" },
+      { "speaker": "Sara", "nl": "Hoewel ik me goed heb voorbereid, ben ik toch bang dat ik zak.", "en": "Although I've prepared well, I'm still afraid I'll fail." },
+      { "speaker": "Tom", "nl": "Dan doe je het nog een keer. Maar dat gebeurt niet.", "en": "Then you just do it again. But that won't happen." },
+      { "speaker": "Sara", "nl": "Wanneer krijg ik de uitslag eigenlijk?", "en": "When do I actually get the result?" },
+      { "speaker": "Tom", "nl": "Over drie weken. Ga nu maar slapen, zodat je morgen fit bent.", "en": "In three weeks. Go to sleep now, so that you're fresh tomorrow." }
+    ]
+  }
+}

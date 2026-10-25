@@ -1,0 +1,68 @@
+{
+  "day": 43,
+  "title": "Het afval",
+  "names": ["Sevilla"],
+  "words": [
+    { "id": "afval", "nl": "afval", "en": "rubbish, waste", "article": "het", "example": { "nl": "Het afval wordt op dinsdag opgehaald.", "en": "The rubbish is collected on Tuesday." } },
+    { "id": "vuilnisbak", "nl": "vuilnisbak", "en": "rubbish bin", "article": "de", "plural": "vuilnisbakken", "forms": ["vuilnisbakje"], "example": { "nl": "De vuilnisbak in de keuken is vol.", "en": "The bin in the kitchen is full." } },
+    { "id": "container", "nl": "container", "en": "(waste) container, large bin", "article": "de", "plural": "containers", "forms": ["containertje"], "example": { "nl": "De container staat op de hoek van de straat.", "en": "The container is on the corner of the street." } },
+    { "id": "papier", "nl": "papier", "en": "paper", "article": "het", "plural": "papieren", "forms": ["papiertje"], "example": { "nl": "Oud papier gaat in de blauwe container.", "en": "Old paper goes in the blue container." } },
+    { "id": "plastic", "nl": "plastic", "en": "plastic", "article": "het", "example": { "nl": "Is deze fles van plastic of van glas?", "en": "Is this bottle made of plastic or glass?" } },
+    { "id": "glas-noun", "nl": "glas", "en": "glass (the material)", "article": "het", "plural": "glazen", "forms": ["glaasje"], "example": { "nl": "Pas op, er ligt glas op straat.", "en": "Careful, there's glass on the street." } },
+    { "id": "glasbak", "nl": "glasbak", "en": "bottle bank", "article": "de", "plural": "glasbakken", "forms": ["glasbakje"], "example": { "nl": "Ik breng de lege flessen naar de glasbak.", "en": "I'm taking the empty bottles to the bottle bank." } },
+    { "id": "scheiden", "nl": "scheiden", "en": "to separate, to sort; to divorce", "forms": ["scheid", "scheidde", "scheidt", "scheidden", "scheidend", "gescheiden"], "example": { "nl": "In Nederland scheiden we het afval.", "en": "In the Netherlands we sort our rubbish." } },
+    { "id": "weggooien", "nl": "weggooien", "en": "to throw away", "forms": ["gooi weg", "gooide weg", "weggooi", "weggooide", "gooit weg", "weggooit", "gooien weg", "gooiden weg", "weggooiden", "weggooiend", "weggegooid"], "example": { "nl": "Gooi dat brood niet weg!", "en": "Don't throw that bread away!" } },
+    { "id": "milieu", "nl": "milieu", "en": "environment", "article": "het", "plural": "milieus", "forms": ["milieutje"], "example": { "nl": "Afval scheiden is goed voor het milieu.", "en": "Sorting rubbish is good for the environment." } },
+    { "id": "schoon", "nl": "schoon", "en": "clean", "forms": ["schoner", "schoonst", "schone", "schonere", "schoonste"], "example": { "nl": "De straat is weer schoon.", "en": "The street is clean again." } },
+    { "id": "vies", "nl": "vies", "en": "dirty; disgusting", "forms": ["viezer", "viest", "vieze", "viezere", "vieste"], "example": { "nl": "Die vuilnisbak is heel vies.", "en": "That bin is really dirty." } },
+    { "id": "regel", "nl": "regel", "en": "rule; line (of text)", "article": "de", "plural": "regels", "forms": ["regeltje"], "example": { "nl": "Ken je de regels voor het afval?", "en": "Do you know the rules for the rubbish?" } },
+    { "id": "gemeente", "nl": "gemeente", "en": "municipality, local council", "article": "de", "plural": "gemeenten", "forms": ["gemeentetje"], "example": { "nl": "De gemeente haalt het afval op.", "en": "The council collects the rubbish." } }
+  ],
+  "grammar": {
+    "title": "The passive: Het afval wordt opgehaald",
+    "points": [
+      "Use the passive when what happens matters more than who does it: Het afval wordt opgehaald (The rubbish is collected).",
+      "Form: worden + past participle. Present tense of worden: ik word, jij/hij/het wordt, wij/jullie/zij worden.",
+      "The participle goes to the end of the sentence: Het papier wordt elke maand opgehaald.",
+      "Who does it is often not mentioned at all: Het glas wordt gescheiden. (Who? Not important.)",
+      "In a subordinate clause, both verbs go to the end: Ik denk dat het plastic morgen wordt opgehaald.",
+      "Careful: English 'is collected' is Dutch wordt opgehaald. Het afval is opgehaald means it has already been collected."
+    ],
+    "examples": [
+      { "nl": "Het afval wordt op dinsdag opgehaald.", "en": "The rubbish is collected on Tuesday." },
+      { "nl": "Het papier wordt elke maand opgehaald.", "en": "Paper is collected every month." },
+      { "nl": "In Nederland wordt het afval gescheiden.", "en": "In the Netherlands rubbish is sorted." },
+      { "nl": "De straat wordt elke week schoongemaakt.", "en": "The street is cleaned every week." },
+      { "nl": "Veel eten wordt weggegooid.", "en": "A lot of food is thrown away." },
+      { "nl": "Ik denk dat de containers morgen worden opgehaald.", "en": "I think the containers are being collected tomorrow." }
+    ],
+    "exercises": [
+      { "prompt": "Het afval ___ op dinsdag opgehaald.", "answer": "wordt", "hint": "worden" },
+      { "prompt": "De containers ___ elke week opgehaald.", "answer": "worden", "hint": "worden" },
+      { "prompt": "In Nederland wordt het afval ___.", "answer": "gescheiden", "hint": "scheiden" },
+      { "prompt": "Oud brood wordt vaak ___.", "answer": "weggegooid", "hint": "weggooien" },
+      { "prompt": "De straat wordt elke week ___.", "answer": "schoongemaakt", "hint": "schoonmaken" },
+      { "prompt": "Ik denk dat het papier morgen ___ opgehaald.", "answer": "wordt", "hint": "worden" }
+    ]
+  },
+  "dialogue": {
+    "title": "Waar moet het afval naartoe?",
+    "scene": "Sara doesn't know where to put her rubbish. Her downstairs neighbour explains the rules in their street.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Hallo! Mag ik iets vragen? Waar gooi ik mijn afval weg?", "en": "Hi! Can I ask you something? Where do I throw away my rubbish?", "gap": "afval" },
+      { "speaker": "Buurvrouw", "nl": "Hier in de straat scheiden we het afval.", "en": "Here in our street we sort our rubbish." },
+      { "speaker": "Sara", "nl": "Scheiden? Hoe werkt dat?", "en": "Sort it? How does that work?" },
+      { "speaker": "Buurvrouw", "nl": "Papier gaat in de blauwe container op de hoek. Die wordt elke week opgehaald.", "en": "Paper goes in the blue container on the corner. It's emptied every week.", "gap": "opgehaald" },
+      { "speaker": "Sara", "nl": "En plastic? Ik heb veel lege flessen van plastic.", "en": "And plastic? I have a lot of empty plastic bottles." },
+      { "speaker": "Buurvrouw", "nl": "Plastic gaat in de grote container naast de deur.", "en": "Plastic goes in the big container next to the door." },
+      { "speaker": "Sara", "nl": "En lege flessen van glas?", "en": "And empty glass bottles?" },
+      { "speaker": "Buurvrouw", "nl": "Die breng je naar de glasbak. Die staat bij de supermarkt.", "en": "You take those to the bottle bank. It's by the supermarket.", "gap": "glasbak" },
+      { "speaker": "Sara", "nl": "En het afval uit de vuilnisbak in de keuken?", "en": "And the rubbish from the kitchen bin?" },
+      { "speaker": "Buurvrouw", "nl": "Dat wordt op dinsdag opgehaald, heel vroeg in de ochtend.", "en": "That's collected on Tuesday, very early in the morning." },
+      { "speaker": "Sara", "nl": "Wat veel regels! In Sevilla was het makkelijker.", "en": "So many rules! It was easier in Seville.", "gap": "regels" },
+      { "speaker": "Buurvrouw", "nl": "Ja, maar het is goed voor het milieu. En de gemeente is streng!", "en": "Yes, but it's good for the environment. And the council is strict!", "gap": "milieu" },
+      { "speaker": "Buurvrouw", "nl": "Als je afval op straat weggooit, moet je betalen.", "en": "If you throw rubbish on the street, you have to pay a fine." },
+      { "speaker": "Sara", "nl": "Goed, ik zal mijn afval scheiden. Dan blijft de straat mooi schoon!", "en": "OK, I'll sort my rubbish. Then the street will stay nice and clean!" }
+    ]
+  }
+}

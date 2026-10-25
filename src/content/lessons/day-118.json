@@ -1,0 +1,68 @@
+{
+  "day": 118,
+  "title": "Verbouwen",
+  "names": ["Tom"],
+  "words": [
+    { "id": "verbouwen", "nl": "verbouwen", "en": "to renovate, to rebuild; to grow (crops)", "forms": ["verbouw", "verbouwde", "verbouwt", "verbouwden", "verbouwend", "verbouwd"], "example": { "nl": "We gaan de keuken verbouwen.", "en": "We're going to renovate the kitchen." } },
+    { "id": "verbouwing", "nl": "verbouwing", "en": "renovation, building work", "article": "de", "plural": "verbouwingen", "forms": ["verbouwinkje"], "example": { "nl": "De verbouwing kost meer geld dan we dachten.", "en": "The renovation is costing more money than we thought." } },
+    { "id": "aannemer", "nl": "aannemer", "en": "(building) contractor", "article": "de", "plural": "aannemers", "forms": ["aannemertje"], "example": { "nl": "De aannemer komt maandag om acht uur.", "en": "The contractor is coming on Monday at eight." } },
+    { "id": "schilder-noun", "nl": "schilder", "en": "painter (decorator or artist)", "article": "de", "plural": "schilders", "forms": ["schildertje"], "example": { "nl": "De schilder verft de ramen wit.", "en": "The painter is painting the windows white." } },
+    { "id": "verven", "nl": "verven", "en": "to paint (walls etc.); to dye", "forms": ["verf", "verfde", "verft", "verfden", "vervend", "geverfd"], "example": { "nl": "Dit weekend verven we de slaapkamer.", "en": "This weekend we're painting the bedroom." } },
+    { "id": "verf", "nl": "verf", "en": "paint", "article": "de", "plural": "verven", "example": { "nl": "Pas op, de verf is nog nat!", "en": "Careful, the paint is still wet!" } },
+    { "id": "muur", "nl": "muur", "en": "wall", "article": "de", "plural": "muren", "forms": ["muurtje"], "example": { "nl": "De muren in de slaapkamer worden blauw.", "en": "The bedroom walls are going to be blue." } },
+    { "id": "vloer", "nl": "vloer", "en": "floor", "article": "de", "plural": "vloeren", "forms": ["vloertje"], "example": { "nl": "In de woonkamer komt een houten vloer.", "en": "A wooden floor is going into the living room." } },
+    { "id": "plafond", "nl": "plafond", "en": "ceiling", "article": "het", "plural": "plafonds", "forms": ["plafondje", "plafonnetje"], "example": { "nl": "Het plafond in dit oude huis is heel hoog.", "en": "The ceiling in this old house is very high." } },
+    { "id": "tegel", "nl": "tegel", "en": "tile", "article": "de", "plural": "tegels", "forms": ["tegeltje"], "example": { "nl": "In de badkamer willen we witte tegels.", "en": "We want white tiles in the bathroom." } },
+    { "id": "offerte", "nl": "offerte", "en": "quote, estimate (of a price)", "article": "de", "plural": "offertes", "forms": ["offertetje"], "example": { "nl": "We hebben drie offertes gevraagd.", "en": "We asked for three quotes." } },
+    { "id": "planning", "nl": "planning", "en": "schedule, planning", "article": "de", "plural": "planningen", "forms": ["planninkje"], "example": { "nl": "Volgens de planning is de keuken over twee weken klaar.", "en": "According to the schedule the kitchen will be ready in two weeks." } },
+    { "id": "uitlopen", "nl": "uitlopen", "en": "to run late, to overrun (time)", "forms": ["loop uit", "liep uit", "uitloop", "uitliep", "loopt uit", "uitloopt", "liept uit", "uitliept", "lopen uit", "liepen uit", "uitliepen", "uitlopend", "uitgelopen"], "example": { "nl": "De verbouwing is drie weken uitgelopen.", "en": "The renovation ran three weeks late." } },
+    { "id": "slopen", "nl": "slopen", "en": "to demolish, to knock down", "forms": ["sloop", "sloopte", "sloopt", "sloopten", "slopend", "gesloopt"], "example": { "nl": "De oude keuken wordt morgen gesloopt.", "en": "The old kitchen is being ripped out tomorrow." } }
+  ],
+  "grammar": {
+    "title": "Passive with a modal: moet geverfd worden",
+    "points": [
+      "To say what has to / can be done, use a modal + participle + worden at the end: De muur moet geverfd worden. (The wall has to be painted.)",
+      "The order worden + participle is also correct: De muur moet worden geverfd.",
+      "It works with every modal: moet (has to be), kan (can be), mag (may be), zal (will be): Het plafond kan morgen geverfd worden.",
+      "In the past, use the past of the modal: De oude keuken moest eerst gesloopt worden.",
+      "In a subordinate clause all verbs go to the end: De aannemer zegt dat het dak gerepareerd moet worden.",
+      "Say who does it with door: De muren moeten door een schilder geverfd worden."
+    ],
+    "examples": [
+      { "nl": "De oude keuken moet gesloopt worden.", "en": "The old kitchen has to be ripped out." },
+      { "nl": "Het plafond kan morgen geverfd worden.", "en": "The ceiling can be painted tomorrow." },
+      { "nl": "De badkamer moet ook verbouwd worden.", "en": "The bathroom has to be renovated too." },
+      { "nl": "De vloer moest eerst schoongemaakt worden.", "en": "The floor had to be cleaned first." },
+      { "nl": "De aannemer zegt dat het dak gerepareerd moet worden.", "en": "The contractor says the roof has to be repaired." },
+      { "nl": "De muren moeten door een schilder geverfd worden.", "en": "The walls have to be painted by a painter." }
+    ],
+    "exercises": [
+      { "prompt": "De muur moet geverfd ___.", "answer": "worden", "hint": "passive" },
+      { "prompt": "De oude keuken moet ___ worden.", "answer": "gesloopt", "hint": "slopen (participle)" },
+      { "prompt": "Het plafond ___ morgen geverfd worden.", "answer": "kan", "hint": "kunnen" },
+      { "prompt": "De vloer ___ eerst schoongemaakt worden.", "answer": "moest", "hint": "moeten (past)" },
+      { "prompt": "Hij zegt dat het dak gerepareerd ___ worden.", "answer": "moet", "hint": "moeten" },
+      { "prompt": "De muren moeten ___ een schilder geverfd worden.", "answer": "door", "hint": "by" }
+    ]
+  },
+  "dialogue": {
+    "title": "Wat moet er gebeuren?",
+    "scene": "Sara and Tom have the keys to their new house. They walk through it with the contractor to plan the renovation.",
+    "lines": [
+      { "speaker": "Aannemer", "nl": "Zo, dit is dus jullie nieuwe huis. Wat moet er gebeuren?", "en": "So, this is your new house. What needs doing?" },
+      { "speaker": "Tom", "nl": "Eerst de keuken. Die is heel oud, hij moet gesloopt worden.", "en": "The kitchen first. It's very old, it has to be ripped out.", "gap": "gesloopt worden" },
+      { "speaker": "Aannemer", "nl": "Dat kan. En de badkamer?", "en": "That's possible. And the bathroom?" },
+      { "speaker": "Sara", "nl": "Daar willen we nieuwe tegels, op de vloer en op de muren.", "en": "We'd like new tiles there, on the floor and on the walls.", "gap": "tegels" },
+      { "speaker": "Aannemer", "nl": "Dan moeten de oude tegels eerst weg. Dat kost twee of drie dagen.", "en": "Then the old tiles have to come off first. That takes two or three days." },
+      { "speaker": "Tom", "nl": "En de plafonds moeten geverfd worden. Dat kunnen we samen doen.", "en": "And the ceilings need painting. We can do that together.", "gap": "geverfd worden" },
+      { "speaker": "Sara", "nl": "Of zullen we toch een schilder vragen? Tom is niet zo goed met verf.", "en": "Or shall we ask a painter after all? Tom isn't very good with paint.", "gap": "schilder" },
+      { "speaker": "Aannemer", "nl": "Ik stuur jullie morgen een offerte. Dan weten jullie wat het kost.", "en": "I'll send you a quote tomorrow. Then you'll know what it costs.", "gap": "offerte" },
+      { "speaker": "Tom", "nl": "Wanneer is de verbouwing klaar, denkt u?", "en": "When do you think the renovation will be finished?" },
+      { "speaker": "Aannemer", "nl": "Volgens de planning over zes weken. Maar bij oude huizen loopt het vaak uit.", "en": "According to the schedule, in six weeks. But with old houses it often runs late.", "gap": "loopt" },
+      { "speaker": "Sara", "nl": "Waarom?", "en": "Why?" },
+      { "speaker": "Aannemer", "nl": "Soms moet er meer gesloopt worden dan we dachten.", "en": "Sometimes more has to be knocked down than we thought." },
+      { "speaker": "Sara", "nl": "Dan hopen we maar dat alles goed gaat. Met kerst wil ik hier wonen!", "en": "Then let's hope everything goes well. I want to live here by Christmas!" },
+      { "speaker": "Aannemer", "nl": "Dat moet kunnen, mevrouw.", "en": "That should be possible, ma'am." }
+    ]
+  }
+}

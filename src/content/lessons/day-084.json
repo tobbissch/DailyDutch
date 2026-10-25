@@ -1,0 +1,64 @@
+{
+  "day": 84,
+  "title": "Gezond leven",
+  "words": [
+    { "id": "leefstijl", "nl": "leefstijl", "en": "lifestyle", "article": "de", "plural": "leefstijlen", "forms": ["leefstijltje"], "example": { "nl": "Hij heeft een gezonde leefstijl.", "en": "He has a healthy lifestyle." } },
+    { "id": "advies", "nl": "advies", "en": "advice", "article": "het", "plural": "adviezen", "forms": ["adviesje"], "example": { "nl": "Mag ik je een advies geven?", "en": "Can I give you some advice?" } },
+    { "id": "adviseren", "nl": "adviseren", "en": "to advise, to recommend", "forms": ["adviseer", "adviseerde", "adviseert", "adviseerden", "adviserend", "geadviseerd"], "example": { "nl": "De dokter adviseert veel beweging.", "en": "The doctor recommends plenty of exercise." } },
+    { "id": "voeding", "nl": "voeding", "en": "food, diet, nutrition", "article": "de", "plural": "voedingen", "forms": ["voedinkje"], "example": { "nl": "Goede voeding is belangrijk.", "en": "A good diet is important." } },
+    { "id": "vitamine", "nl": "vitamine", "en": "vitamin", "article": "de", "plural": "vitaminen", "forms": ["vitamines"], "example": { "nl": "In fruit zitten veel vitaminen.", "en": "Fruit contains lots of vitamins." } },
+    { "id": "vet", "nl": "vet", "en": "fat", "article": "het", "plural": "vetten", "example": { "nl": "Dit vlees heeft veel vet.", "en": "This meat has a lot of fat." } },
+    { "id": "calorie", "nl": "calorie", "en": "calorie", "article": "de", "plural": "calorieën", "forms": ["calorietje"], "example": { "nl": "Hoeveel calorieën zitten er in een appel?", "en": "How many calories are there in an apple?" } },
+    { "id": "roken", "nl": "roken", "en": "to smoke", "forms": ["rook", "rookte", "rookt", "rookten", "rokend", "gerookt"], "example": { "nl": "Rook jij?", "en": "Do you smoke?" } },
+    { "id": "stoppen", "nl": "stoppen", "en": "to stop, to quit", "forms": ["stop", "stopte", "stopt", "stopten", "stoppend", "gestopt"], "example": { "nl": "Ik ben gestopt met roken.", "en": "I've quit smoking." } },
+    { "id": "alcohol", "nl": "alcohol", "en": "alcohol", "article": "de", "plural": "alcoholen", "example": { "nl": "Ik drink geen alcohol.", "en": "I don't drink alcohol." } },
+    { "id": "alcohol-noun", "nl": "alcohol", "en": "alcohol (the substance)", "article": "de", "plural": "alcoholen", "example": { "nl": "Te veel alcohol is ongezond.", "en": "Too much alcohol is unhealthy." } },
+    { "id": "bewegen", "nl": "bewegen", "en": "to move; to exercise", "forms": ["beweeg", "bewoog", "beweegt", "bewogen", "bewegend"], "example": { "nl": "Je moet elke dag bewegen.", "en": "You should get some exercise every day." } },
+    { "id": "beweging", "nl": "beweging", "en": "movement; exercise", "article": "de", "plural": "bewegingen", "forms": ["beweginkje"], "example": { "nl": "Wandelen is goede beweging.", "en": "Walking is good exercise." } },
+    { "id": "overgewicht", "nl": "overgewicht", "en": "being overweight", "article": "het", "plural": "overgewichten", "forms": ["overgewichtje"], "example": { "nl": "Veel mensen hebben overgewicht.", "en": "Many people are overweight." } }
+  ],
+  "grammar": {
+    "title": "Giving advice: Je zou ... moeten; Het is beter om ... te",
+    "points": [
+      "Je zou ... moeten + infinitive means 'you should': Je zou meer moeten bewegen. Both infinitives go to the end.",
+      "Je moet is stronger (you must); je zou moeten sounds softer and more polite.",
+      "Het is beter om ... te + infinitive = 'it's better to ...': Het is beter om niet te roken.",
+      "Ik zou ... means 'If I were you, I would ...': Ik zou minder vet eten.",
+      "stoppen met = to stop / quit (doing) something: stoppen met roken, stoppen met alcohol."
+    ],
+    "examples": [
+      { "nl": "Je zou meer moeten bewegen.", "en": "You should exercise more." },
+      { "nl": "Het is beter om niet te roken.", "en": "It's better not to smoke." },
+      { "nl": "Ik zou minder vet eten.", "en": "If I were you, I'd eat less fat." },
+      { "nl": "De dokter adviseert om elke dag te wandelen.", "en": "The doctor advises walking every day." },
+      { "nl": "Ik raad je aan om meer groente te eten.", "en": "I recommend that you eat more vegetables." }
+    ],
+    "exercises": [
+      { "prompt": "Je ___ meer water moeten drinken.", "answer": "zou", "hint": "zullen, past" },
+      { "prompt": "Het is beter ___ minder suiker te eten.", "answer": "om", "hint": "om ... te" },
+      { "prompt": "Hij wil stoppen ___ roken.", "answer": "met", "hint": "with" },
+      { "prompt": "Je zou meer ___ moeten.", "answer": "bewegen", "hint": "to move" },
+      { "prompt": "Wat is uw ___, dokter?", "answer": "advies", "hint": "advice" }
+    ]
+  },
+  "dialogue": {
+    "title": "Bij de huisarts",
+    "scene": "Tom goes to the GP for a check-up and gets advice about his lifestyle.",
+    "lines": [
+      { "speaker": "Huisarts", "nl": "U heeft wat overgewicht.", "en": "You're a bit overweight.", "gap": "overgewicht" },
+      { "speaker": "Tom", "nl": "Ja, dat weet ik. Ik werk veel en ik sport zelden.", "en": "Yes, I know. I work a lot and I rarely exercise." },
+      { "speaker": "Huisarts", "nl": "U zou meer moeten bewegen. Een half uur per dag is al goed.", "en": "You should get more exercise. Half an hour a day is already good.", "gap": "bewegen" },
+      { "speaker": "Tom", "nl": "Ik fiets wel naar het station.", "en": "I do cycle to the station." },
+      { "speaker": "Huisarts", "nl": "Dat is goed. Maar het is beter om ook te wandelen of te zwemmen.", "en": "That's good. But it's better to walk or swim as well.", "gap": "beter om" },
+      { "speaker": "Huisarts", "nl": "En wat eet u meestal?", "en": "And what do you usually eat?" },
+      { "speaker": "Tom", "nl": "Vaak eet ik snel iets uit de supermarkt.", "en": "I often eat something quick from the supermarket." },
+      { "speaker": "Huisarts", "nl": "Daar zitten veel calorieën en vet in. Ik adviseer u om thuis te koken, met veel groente en fruit.", "en": "That's full of calories and fat. I advise you to cook at home, with lots of vegetables and fruit.", "gap": "adviseer" },
+      { "speaker": "Tom", "nl": "En moet ik ook vitaminen slikken?", "en": "And should I take vitamins too?" },
+      { "speaker": "Huisarts", "nl": "Nee, als u gezond eet, zijn vitaminen niet nodig.", "en": "No, if you eat healthily you don't need vitamins.", "gap": "vitaminen" },
+      { "speaker": "Huisarts", "nl": "Rookt u?", "en": "Do you smoke?" },
+      { "speaker": "Tom", "nl": "Nee, ik ben vorig jaar gestopt met roken.", "en": "No, I quit smoking last year.", "gap": "gestopt" },
+      { "speaker": "Huisarts", "nl": "Heel goed. En alcohol?", "en": "Very good. And alcohol?" },
+      { "speaker": "Tom", "nl": "Af en toe een bier in het weekend.", "en": "A beer at the weekend now and then." }
+    ]
+  }
+}

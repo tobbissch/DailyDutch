@@ -1,0 +1,61 @@
+{
+  "day": 24,
+  "title": "Ik voel me goed",
+  "names": ["Sara", "Tom"],
+  "words": [
+    { "id": "zich", "nl": "zich", "en": "himself, herself, themselves, yourself (polite)", "example": { "nl": "Hij wast zich.", "en": "He's washing (himself)." } },
+    { "id": "wassen", "nl": "wassen", "en": "to wash", "forms": ["was", "waste", "wast", "wasten", "wassend", "gewassen"], "example": { "nl": "Ik was me elke ochtend.", "en": "I wash every morning." } },
+    { "id": "aankleden", "nl": "aankleden", "en": "to dress (zich aankleden = to get dressed)", "forms": ["kleed aan", "kleedde aan", "aankleed", "aankleedde", "kleedt aan", "aankleedt", "kleden aan", "kleedden aan", "aankleedden", "aankledend", "aangekleed"], "example": { "nl": "Ik kleed me aan.", "en": "I'm getting dressed." } },
+    { "id": "haasten", "nl": "haasten", "en": "zich haasten = to hurry", "forms": ["haast", "haastte", "haastten", "haastend", "gehaast"], "example": { "nl": "Haast je! De trein gaat om acht uur.", "en": "Hurry up! The train leaves at eight." } },
+    { "id": "vergissen", "nl": "vergissen", "en": "zich vergissen = to be mistaken", "forms": ["vergis", "vergiste", "vergist", "vergisten", "vergissend"], "example": { "nl": "Sorry, ik vergis me.", "en": "Sorry, my mistake." } },
+    { "id": "vervelen", "nl": "vervelen", "en": "zich vervelen = to be bored", "forms": ["verveel", "verveelde", "verveelt", "verveelden", "vervelend", "verveeld"], "example": { "nl": "Ik verveel me.", "en": "I'm bored." } },
+    { "id": "scheren", "nl": "scheren", "en": "to shave", "forms": ["scheer", "schoor", "scheert", "schoort", "schoren", "scherend", "geschoren"], "example": { "nl": "Tom scheert zich elke ochtend.", "en": "Tom shaves every morning." } },
+    { "id": "ontspannen", "nl": "ontspannen", "en": "to relax (zich ontspannen)", "forms": ["ontspan", "ontspande", "ontspant", "ontspanden", "ontspannend"], "example": { "nl": "Op zondag ontspan ik me.", "en": "On Sundays I relax." } },
+    { "id": "tand", "nl": "tand", "en": "tooth", "article": "de", "plural": "tanden", "forms": ["tandje"], "example": { "nl": "Ik poets mijn tanden.", "en": "I'm brushing my teeth." } },
+    { "id": "tandenborstel", "nl": "tandenborstel", "en": "toothbrush", "article": "de", "plural": "tandenborstels", "forms": ["tandenborsteltje"], "example": { "nl": "Waar is mijn tandenborstel?", "en": "Where's my toothbrush?" } },
+    { "id": "poetsen", "nl": "poetsen", "en": "to brush (teeth); to polish", "forms": ["poets", "poetste", "poetst", "poetsten", "poetsend", "gepoetst"], "example": { "nl": "Ik poets mijn tanden elke ochtend en elke avond.", "en": "I brush my teeth every morning and every evening." } },
+    { "id": "spiegel", "nl": "spiegel", "en": "mirror", "article": "de", "plural": "spiegels", "forms": ["spiegeltje"], "example": { "nl": "Ik kijk in de spiegel.", "en": "I look in the mirror." } },
+    { "id": "moe", "nl": "moe", "en": "tired", "forms": ["moeër", "moeier", "moest", "moeë", "moeëre", "moeste", "moeie", "moeiere", "moede"], "example": { "nl": "Ik ben moe.", "en": "I'm tired." } },
+    { "id": "gauw", "nl": "gauw", "en": "soon; quickly", "example": { "nl": "Ik kom gauw terug.", "en": "I'll be back soon." } }
+  ],
+  "grammar": {
+    "title": "Reflexive verbs: ik was me, hij wast zich",
+    "points": [
+      "Some verbs take a reflexive pronoun (myself, yourself …), often where English doesn't: zich haasten (to hurry), zich vergissen (to be mistaken), zich vervelen (to be bored).",
+      "The pronouns: ik … me, jij … je, u … zich, hij/zij … zich, wij … ons, jullie … je, zij … zich.",
+      "The pronoun comes right after the conjugated verb: Ik was me. In a question it comes after the subject: Haast jij je?",
+      "Some verbs work with or without it: Ik was de auto (I wash the car) / Ik was me (I wash myself). Others are always reflexive: zich haasten, zich vergissen.",
+      "With separable verbs the pronoun comes before the particle: Ik kleed me aan."
+    ],
+    "examples": [
+      { "nl": "Ik was me en ik kleed me aan.", "en": "I wash and get dressed." },
+      { "nl": "Hij scheert zich.", "en": "He's shaving." },
+      { "nl": "Haast je, het is laat!", "en": "Hurry up, it's late!" },
+      { "nl": "Wij vervelen ons niet.", "en": "We're not bored." },
+      { "nl": "Voelt u zich goed?", "en": "Are you feeling well?" },
+      { "nl": "Jullie vergissen je.", "en": "You're mistaken." }
+    ],
+    "exercises": [
+      { "prompt": "Ik was ___ elke ochtend.", "answer": "me", "hint": "ik" },
+      { "prompt": "Tom scheert ___.", "answer": "zich", "hint": "hij" },
+      { "prompt": "Wij haasten ___.", "answer": "ons", "hint": "wij" },
+      { "prompt": "Haast ___! De bus komt.", "answer": "je", "hint": "jij" },
+      { "prompt": "Ik kleed me ___.", "answer": "aan", "hint": "aankleden" }
+    ]
+  },
+  "dialogue": {
+    "title": "Rustig, Tom!",
+    "scene": "Sara phones Tom in the morning. He has overslept and is stressed.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Hallo Tom! Hoe gaat het?", "en": "Hi Tom! How are you?" },
+      { "speaker": "Tom", "nl": "Slecht. Ik ben laat en ik ben moe.", "en": "Bad. I'm late and I'm tired.", "gap": "moe" },
+      { "speaker": "Sara", "nl": "Ben je klaar?", "en": "Are you ready?" },
+      { "speaker": "Tom", "nl": "Nee! Ik moet me nog scheren en aankleden.", "en": "No! I still have to shave and get dressed.", "gap": "scheren" },
+      { "speaker": "Sara", "nl": "Haast je niet te veel. Je trein gaat om negen uur.", "en": "Don't rush too much. Your train leaves at nine.", "gap": "Haast je" },
+      { "speaker": "Tom", "nl": "Om negen uur? Nee, om half negen!", "en": "At nine? No, at half past eight!" },
+      { "speaker": "Sara", "nl": "Nee, je vergist je. De trein gaat om negen uur.", "en": "No, you're wrong. The train leaves at nine.", "gap": "vergist je" },
+      { "speaker": "Tom", "nl": "Dan heb ik nog tijd. Ik voel me nu beter.", "en": "Then I still have time. I feel better now." },
+      { "speaker": "Sara", "nl": "Ontspan je! En poets je tanden.", "en": "Relax! And brush your teeth.", "gap": "Ontspan" }
+    ]
+  }
+}

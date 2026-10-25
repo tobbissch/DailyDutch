@@ -1,0 +1,65 @@
+{
+  "day": 10,
+  "title": "In het café",
+  "words": [
+    { "id": "koffie", "nl": "koffie", "en": "coffee", "article": "de", "plural": "koffies", "forms": ["koffietje"], "example": { "nl": "Een koffie, alstublieft.", "en": "A coffee, please." } },
+    { "id": "thee", "nl": "thee", "en": "tea", "article": "de", "plural": "theeën", "forms": ["theetje"], "example": { "nl": "Ik drink thee met melk.", "en": "I drink tea with milk." } },
+    { "id": "water", "nl": "water", "en": "water", "article": "het", "plural": "waters", "forms": ["watertje"], "example": { "nl": "Ik drink veel water.", "en": "I drink a lot of water." } },
+    { "id": "melk", "nl": "melk", "en": "milk", "article": "de", "forms": ["melkje"], "example": { "nl": "Koffie met melk, graag.", "en": "Coffee with milk, please." } },
+    { "id": "suiker", "nl": "suiker", "en": "sugar", "article": "de", "plural": "suikers", "forms": ["suikertje"], "example": { "nl": "Wilt u suiker?", "en": "Would you like sugar?" } },
+    { "id": "bier", "nl": "bier", "en": "beer", "article": "het", "plural": "bieren", "forms": ["biertje"], "example": { "nl": "Tom neemt een bier.", "en": "Tom has a beer." } },
+    { "id": "wijn", "nl": "wijn", "en": "wine", "article": "de", "plural": "wijnen", "forms": ["wijntje"], "example": { "nl": "Sara drinkt graag wijn.", "en": "Sara likes drinking wine." } },
+    { "id": "drinken", "nl": "drinken", "en": "to drink", "forms": ["drink", "dronk", "drinkt", "dronken", "drinkend", "gedronken"], "example": { "nl": "Wat wil jij drinken?", "en": "What would you like to drink?" } },
+    { "id": "of", "nl": "of", "en": "or", "example": { "nl": "Koffie of thee?", "en": "Coffee or tea?" } },
+    { "id": "zonder", "nl": "zonder", "en": "without", "example": { "nl": "Thee zonder suiker, alstublieft.", "en": "Tea without sugar, please." } },
+    { "id": "nemen", "nl": "nemen", "en": "to take; to have (order)", "forms": ["neem", "nam", "neemt", "namen", "nemend", "genomen"], "example": { "nl": "Ik neem een koffie.", "en": "I'll have a coffee." } },
+    { "id": "lekker", "nl": "lekker", "en": "tasty, nice", "forms": ["lekkerder", "lekkerst", "lekkere", "lekkerdere", "lekkerste"], "example": { "nl": "De koffie is lekker!", "en": "The coffee is good!" } },
+    { "id": "rekening", "nl": "rekening", "en": "bill", "article": "de", "plural": "rekeningen", "forms": ["rekeningetje"], "example": { "nl": "De rekening, alstublieft.", "en": "The bill, please." } },
+    { "id": "betalen", "nl": "betalen", "en": "to pay", "forms": ["betaal", "betaalde", "betaalt", "betaalden", "betalend", "betaald"], "example": { "nl": "Ik wil graag betalen.", "en": "I'd like to pay." } },
+    { "id": "ober", "nl": "ober", "en": "waiter", "article": "de", "plural": "obers", "forms": ["obertje"], "example": { "nl": "De ober spreekt Engels.", "en": "The waiter speaks English." } },
+    { "id": "iets", "nl": "iets", "en": "something, anything", "example": { "nl": "Wilt u iets drinken?", "en": "Would you like something to drink?" } },
+    { "id": "alsjeblieft", "nl": "alsjeblieft", "en": "please; here you are (informal)", "example": { "nl": "Een koffie, alsjeblieft.", "en": "A coffee, please." } },
+    { "id": "welk", "nl": "welk", "en": "which", "forms": ["welke"], "example": { "nl": "Welke thee wil je?", "en": "Which tea do you want?" } },
+    { "id": "nou", "nl": "nou", "en": "well, so (filler word)", "example": { "nl": "Nou, ik neem een thee.", "en": "Well, I'll have a tea." } }
+  ],
+  "grammar": {
+    "title": "Ordering politely: Wilt u …? Ik neem …",
+    "points": [
+      "The u-form of willen is wilt: u wilt. In a question the verb comes first: Wilt u koffie?",
+      "To order, say Ik neem … (I'll have …) or Ik wil graag … (I'd like …). Just 'Ik wil …' sounds blunt.",
+      "nemen: ik neem, jij neemt, u neemt, wij nemen.",
+      "of = or: koffie of thee?",
+      "met = with, zonder = without: koffie met melk, thee zonder suiker."
+    ],
+    "examples": [
+      { "nl": "Wilt u koffie of thee?", "en": "Would you like coffee or tea?" },
+      { "nl": "Ik neem een thee.", "en": "I'll have a tea." },
+      { "nl": "Ik wil graag een koffie met melk.", "en": "I'd like a coffee with milk." },
+      { "nl": "Wilt u iets drinken?", "en": "Would you like something to drink?" },
+      { "nl": "De rekening, alstublieft.", "en": "The bill, please." }
+    ],
+    "exercises": [
+      { "prompt": "___ u iets drinken?", "answer": "Wilt", "hint": "willen" },
+      { "prompt": "Ik ___ een bier.", "answer": "neem", "hint": "nemen" },
+      { "prompt": "Koffie ___ thee?", "answer": "of", "hint": "or" },
+      { "prompt": "Thee ___ suiker, alstublieft.", "answer": "zonder", "hint": "without" },
+      { "prompt": "Jij ___ een wijn.", "answer": "neemt", "hint": "nemen" }
+    ]
+  },
+  "dialogue": {
+    "title": "Koffie of thee?",
+    "scene": "Sara and Tom order drinks at a café.",
+    "lines": [
+      { "speaker": "Ober", "nl": "Dag! Wat willen jullie drinken?", "en": "Hello! What would you like to drink?", "gap": "drinken" },
+      { "speaker": "Tom", "nl": "Nou, ik neem een koffie.", "en": "Well, I'll have a coffee.", "gap": "neem" },
+      { "speaker": "Ober", "nl": "Met melk en suiker?", "en": "With milk and sugar?" },
+      { "speaker": "Tom", "nl": "Met melk, zonder suiker.", "en": "With milk, no sugar.", "gap": "zonder" },
+      { "speaker": "Ober", "nl": "En u?", "en": "And you?" },
+      { "speaker": "Sara", "nl": "Ik wil graag een thee, alstublieft.", "en": "I'd like a tea, please." },
+      { "speaker": "Tom", "nl": "De koffie is lekker!", "en": "The coffee is good!", "gap": "lekker" },
+      { "speaker": "Sara", "nl": "De thee ook. Ober, de rekening, alstublieft!", "en": "So is the tea. Waiter, the bill, please!", "gap": "rekening" },
+      { "speaker": "Ober", "nl": "Dat is zes euro.", "en": "That's six euros." },
+      { "speaker": "Tom", "nl": "Ik betaal!", "en": "I'll pay!" }
+    ]
+  }
+}

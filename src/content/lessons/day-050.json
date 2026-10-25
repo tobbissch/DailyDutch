@@ -1,0 +1,64 @@
+{
+  "day": 50,
+  "title": "Een terugblik",
+  "names": ["Lucía"],
+  "words": [
+    { "id": "brief", "nl": "brief", "en": "letter", "article": "de", "plural": "brieven", "forms": ["briefje"], "example": { "nl": "Ik schrijf een brief aan mijn oma.", "en": "I'm writing a letter to my grandma." } },
+    { "id": "schrijven", "nl": "schrijven", "en": "to write", "forms": ["schrijf", "schreef", "schrijft", "schreven", "schrijvend", "geschreven"], "example": { "nl": "Sara schrijft een brief aan Lucía.", "en": "Sara is writing a letter to Lucía." } },
+    { "id": "jaar-noun", "nl": "jaar", "en": "year", "article": "het", "plural": "jaren", "forms": ["jaartje"], "example": { "nl": "Ik woon al een jaar in Nederland.", "en": "I've been living in the Netherlands for a year." } },
+    { "id": "afgelopen", "nl": "afgelopen", "en": "last, past; over", "example": { "nl": "Het afgelopen jaar was heel druk.", "en": "The past year was very busy." } },
+    { "id": "veranderen", "nl": "veranderen", "en": "to change", "forms": ["verander", "veranderde", "verandert", "veranderden", "veranderend", "veranderd"], "example": { "nl": "Er is veel veranderd.", "en": "A lot has changed." } },
+    { "id": "wennen", "nl": "wennen", "en": "to get used to (wennen aan)", "forms": ["wen", "wende", "went", "wenden", "wennend", "gewend"], "example": { "nl": "Ik moet nog wennen aan het eten.", "en": "I still have to get used to the food." } },
+    { "id": "missen", "nl": "missen", "en": "to miss", "forms": ["mis", "miste", "mist", "misten", "missend", "gemist"], "example": { "nl": "Ik mis de zon van Spanje.", "en": "I miss the Spanish sun." } },
+    { "id": "heimwee", "nl": "heimwee", "en": "homesickness", "article": "de", "plural": "heimweeën", "forms": ["heimweetje"], "example": { "nl": "In de winter had ik heimwee.", "en": "In the winter I was homesick." } },
+    { "id": "trots", "nl": "trots", "en": "proud (trots op)", "forms": ["trotser", "trotst", "trotse", "trotsere", "trotste"], "example": { "nl": "Ik ben trots op mijn Nederlands.", "en": "I'm proud of my Dutch." } },
+    { "id": "begin", "nl": "begin", "en": "beginning, start", "article": "het", "forms": ["beginnetje"], "example": { "nl": "In het begin was het moeilijk.", "en": "In the beginning it was hard." } },
+    { "id": "einde", "nl": "einde", "en": "end", "article": "het", "plural": "einden", "forms": ["eindje"], "example": { "nl": "Aan het einde van de zomer ben ik verhuisd.", "en": "I moved at the end of the summer." } },
+    { "id": "intussen", "nl": "intussen", "en": "meanwhile, in the meantime", "example": { "nl": "Intussen spreek ik al een beetje Nederlands.", "en": "Meanwhile I already speak a bit of Dutch." } },
+    { "id": "inmiddels", "nl": "inmiddels", "en": "by now", "example": { "nl": "Inmiddels ken ik veel mensen in Amsterdam.", "en": "By now I know lots of people in Amsterdam." } },
+    { "id": "eindelijk", "nl": "eindelijk", "en": "finally, at last", "example": { "nl": "Eindelijk is het lente!", "en": "Spring at last!" } }
+  ],
+  "grammar": {
+    "title": "Review: past tenses and subordinate clauses",
+    "points": [
+      "Perfect tense (heb/ben + participle) for single events, especially in conversation: Ik ben vorig jaar verhuisd.",
+      "Simple past (miste, had, was, ging) for stories and descriptions of how things were: In het begin had ik vaak heimwee.",
+      "In subordinate clauses (omdat, dat, als, toen) the verb goes to the end: ..., omdat ik mijn familie miste.",
+      "toen + past tense = 'when' for one moment or period in the past: Toen ik hier kwam, sprak ik geen Nederlands.",
+      "If the subordinate clause comes first, the main verb follows straight after the comma: Toen ik aankwam, regende het."
+    ],
+    "examples": [
+      { "nl": "Een jaar geleden ben ik naar Amsterdam verhuisd.", "en": "A year ago I moved to Amsterdam." },
+      { "nl": "In het begin miste ik mijn familie, omdat ik heimwee had.", "en": "In the beginning I missed my family, because I was homesick." },
+      { "nl": "Toen ik hier kwam, sprak ik geen Nederlands.", "en": "When I came here, I didn't speak any Dutch." },
+      { "nl": "Ik denk dat ik veel veranderd ben.", "en": "I think I've changed a lot." },
+      { "nl": "Inmiddels ben ik gewend aan het weer.", "en": "By now I'm used to the weather." }
+    ],
+    "exercises": [
+      { "prompt": "Toen ik in Nederland ___, regende het.", "answer": "aankwam", "hint": "aankomen (past)" },
+      { "prompt": "In het begin ___ ik mijn familie.", "answer": "miste", "hint": "missen (past)" },
+      { "prompt": "Ik ben trots, omdat ik nu Nederlands ___.", "answer": "spreek", "hint": "spreken" },
+      { "prompt": "Ik heb een lange brief ___.", "answer": "geschreven", "hint": "schrijven" },
+      { "prompt": "Ik ben eindelijk ___ aan het eten.", "answer": "gewend", "hint": "wennen" },
+      { "prompt": "Het afgelopen jaar is mijn leven veel ___.", "answer": "veranderd", "hint": "veranderen" }
+    ]
+  },
+  "dialogue": {
+    "title": "Een brief aan oma",
+    "scene": "Sara has been in the Netherlands for a year. She writes a letter to her grandmother in Spain and reads it to Tom.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Wat doe je?", "en": "What are you doing?" },
+      { "speaker": "Sara", "nl": "Ik schrijf een brief aan mijn oma. Ik ben nu een jaar in Nederland.", "en": "I'm writing a letter to my grandma. I've been in the Netherlands for a year now.", "gap": "brief" },
+      { "speaker": "Tom", "nl": "Wat leuk! Mag ik het horen?", "en": "How nice! Can I hear it?" },
+      { "speaker": "Sara", "nl": "Dag oma, het afgelopen jaar is mijn leven veel veranderd.", "en": "Dear Grandma, my life has changed a lot this past year.", "gap": "afgelopen" },
+      { "speaker": "Sara", "nl": "Toen ik in Amsterdam aankwam, sprak ik geen Nederlands.", "en": "When I arrived in Amsterdam, I didn't speak any Dutch." },
+      { "speaker": "Sara", "nl": "In het begin had ik vaak heimwee, omdat ik jullie zo miste.", "en": "In the beginning I was often homesick, because I missed you all so much.", "gap": "heimwee" },
+      { "speaker": "Tom", "nl": "Dat wist ik niet.", "en": "I didn't know that." },
+      { "speaker": "Sara", "nl": "Inmiddels ben ik gewend aan het weer en het eten.", "en": "By now I'm used to the weather and the food.", "gap": "gewend" },
+      { "speaker": "Sara", "nl": "Ik ken veel nieuwe mensen, en ik ben trots dat ik nu Nederlands spreek.", "en": "I know lots of new people, and I'm proud that I speak Dutch now." },
+      { "speaker": "Tom", "nl": "Je moet ook schrijven dat het hier heel gezellig is!", "en": "You should also write that it's really nice here!" },
+      { "speaker": "Sara", "nl": "Ja, en dat ik eindelijk in de regen kan fietsen.", "en": "Yes, and that I can finally cycle in the rain.", "gap": "eindelijk" },
+      { "speaker": "Tom", "nl": "Je oma zal trots op je zijn.", "en": "Your grandma will be proud of you." }
+    ]
+  }
+}

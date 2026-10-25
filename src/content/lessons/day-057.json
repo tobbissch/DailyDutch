@@ -1,0 +1,65 @@
+{
+  "day": 57,
+  "title": "Een probleem met de verwarming",
+  "words": [
+    { "id": "verwarming", "nl": "verwarming", "en": "heating", "article": "de", "plural": "verwarmingen", "forms": ["verwarminkje"], "example": { "nl": "De verwarming doet het niet.", "en": "The heating isn't working." } },
+    { "id": "ketel", "nl": "ketel", "en": "boiler; kettle", "article": "de", "plural": "ketels", "forms": ["keteltje"], "example": { "nl": "De ketel is kapot.", "en": "The boiler is broken." } },
+    { "id": "monteur", "nl": "monteur", "en": "repairman, mechanic", "article": "de", "plural": "monteurs", "forms": ["monteurtje"], "example": { "nl": "De monteur komt morgen.", "en": "The repairman is coming tomorrow." } },
+    { "id": "repareren", "nl": "repareren", "en": "to repair, to fix", "forms": ["repareer", "repareerde", "repareert", "repareerden", "reparerend", "gerepareerd"], "example": { "nl": "Kunt u de ketel repareren?", "en": "Can you repair the boiler?" } },
+    { "id": "reparatie", "nl": "reparatie", "en": "repair", "article": "de", "plural": "reparaties", "forms": ["reparatietje"], "example": { "nl": "De reparatie kost 150 euro.", "en": "The repair costs 150 euros." } },
+    { "id": "lek", "nl": "lek", "en": "leak", "article": "het", "plural": "lekken", "forms": ["lekje"], "example": { "nl": "Er is een lek in de badkamer.", "en": "There's a leak in the bathroom." } },
+    { "id": "lekken", "nl": "lekken", "en": "to leak", "forms": ["lek", "lekte", "lekt", "lekten", "lekkend", "gelekt"], "example": { "nl": "De kraan lekt.", "en": "The tap is leaking." } },
+    { "id": "kraan", "nl": "kraan", "en": "tap, faucet; crane", "article": "de", "plural": "kranen", "forms": ["kraantje"], "example": { "nl": "De kraan in de keuken lekt.", "en": "The kitchen tap is leaking." } },
+    { "id": "wc", "nl": "wc", "en": "toilet, loo", "article": "de", "plural": "wc's", "forms": ["wc'tje"], "example": { "nl": "Waar is de wc?", "en": "Where's the toilet?" } },
+    { "id": "verstopt", "nl": "verstopt", "en": "blocked, clogged; hidden", "forms": ["verstopte"], "example": { "nl": "De wc is verstopt.", "en": "The toilet is blocked." } },
+    { "id": "stopcontact", "nl": "stopcontact", "en": "socket, power outlet", "article": "het", "plural": "stopcontacten", "forms": ["stopcontactje"], "example": { "nl": "Het stopcontact naast het bed is kapot.", "en": "The socket next to the bed is broken." } },
+    { "id": "stroom", "nl": "stroom", "en": "electricity, power; current, stream", "article": "de", "plural": "stromen", "forms": ["stroompje"], "example": { "nl": "Er is geen stroom.", "en": "There's no power." } },
+    { "id": "gas", "nl": "gas", "en": "gas", "article": "het", "plural": "gassen", "forms": ["gasje"], "example": { "nl": "Ik kook op gas.", "en": "I cook on gas." } },
+    { "id": "aanzetten", "nl": "aanzetten", "en": "to switch on, to turn on", "forms": ["zet aan", "zette aan", "aanzet", "aanzette", "zetten aan", "aanzettend", "aangezet"], "example": { "nl": "Zet de verwarming maar aan.", "en": "Go ahead and turn the heating on." } },
+    { "id": "uitzetten", "nl": "uitzetten", "en": "to switch off, to turn off", "forms": ["zet uit", "zette uit", "uitzet", "uitzette", "zetten uit", "uitzettend", "uitgezet"], "example": { "nl": "Zet het gas uit.", "en": "Turn off the gas." } },
+    { "id": "ermee-adv", "nl": "ermee", "en": "with it (er + met); also eraan, ervan, erop, ernaar ...", "forms": ["eraan", "ervan", "erop", "erin", "erover", "ervoor", "ernaar", "erbij", "daarmee", "daaraan", "daarvan", "daarop", "daarover", "daarvoor", "waarmee", "waarvan", "waarover"], "example": { "nl": "Die oude ketel! Ik ben er klaar mee.", "en": "That old boiler! I'm done with it." } }
+  ],
+  "grammar": {
+    "title": "er + preposition: ermee, eraan, ervan",
+    "points": [
+      "With things (not people), Dutch doesn't say 'preposition + het/dat'. It uses er + preposition: van het → ervan, aan het → eraan, op het → erop, naar het → ernaar.",
+      "met changes to mee: ermee (with it). Likewise daarmee, waarmee.",
+      "When the sentence has more words, er and the preposition often split: er goes after the verb, the preposition to the end, before the infinitive or participle: Ik heb er niet aan gedacht.",
+      "For people, use preposition + pronoun as normal: met hem, aan haar.",
+      "daar + preposition (daarmee, daarvan) is more emphatic; waar + preposition asks a question: Waarmee? (With what?)"
+    ],
+    "examples": [
+      { "nl": "Heb je de monteur gebeld? Nee, ik heb er niet aan gedacht.", "en": "Did you call the repairman? No, I didn't think of it." },
+      { "nl": "Weet de verhuurder ervan?", "en": "Does the landlord know about it?" },
+      { "nl": "Ja, ik heb er gisteren met hem over gepraat.", "en": "Yes, I talked to him about it yesterday." },
+      { "nl": "De ketel is oud. De monteur kan er niet veel meer mee doen.", "en": "The boiler is old. The repairman can't do much more with it." },
+      { "nl": "De kraan lekt. Kunt u ernaar kijken?", "en": "The tap is leaking. Can you have a look at it?" }
+    ],
+    "exercises": [
+      { "prompt": "Ik heb er niet ___ gedacht.", "answer": "aan", "hint": "denken aan" },
+      { "prompt": "De kraan is kapot. Ik ben er klaar ___.", "answer": "mee", "hint": "met → ?" },
+      { "prompt": "Weet de verhuurder ___?", "answer": "ervan", "hint": "er + van" },
+      { "prompt": "Ik heb er met hem ___ gepraat.", "answer": "over", "hint": "praten over" },
+      { "prompt": "Hier is de ketel. Kunt u ___ kijken?", "answer": "ernaar", "hint": "er + naar" }
+    ]
+  },
+  "dialogue": {
+    "title": "De verwarming doet het niet",
+    "scene": "It's winter and Sara's heating has stopped working. A repairman comes to look at the boiler.",
+    "lines": [
+      { "speaker": "Monteur", "nl": "Dag, ik kom voor de verwarming.", "en": "Hello, I'm here about the heating." },
+      { "speaker": "Sara", "nl": "Kom binnen! De verwarming doet het sinds gisteren niet meer.", "en": "Come in! The heating hasn't worked since yesterday.", "gap": "verwarming" },
+      { "speaker": "Monteur", "nl": "Waar is de ketel?", "en": "Where's the boiler?", "gap": "ketel" },
+      { "speaker": "Sara", "nl": "In de kast naast de badkamer. Ik heb hem uitgezet en weer aangezet, maar het helpt niet.", "en": "In the cupboard next to the bathroom. I switched it off and on again, but it doesn't help.", "gap": "aangezet" },
+      { "speaker": "Monteur", "nl": "Even kijken. Er is een lek, dus hij werkt niet.", "en": "Let me see. There's a leak, so it isn't working.", "gap": "lek" },
+      { "speaker": "Sara", "nl": "Kunt u hem repareren?", "en": "Can you fix it?" },
+      { "speaker": "Monteur", "nl": "Ja, maar ik heb er een nieuw stuk voor nodig. Dat heb ik in de auto.", "en": "Yes, but I need a new part for it. I have it in the van." },
+      { "speaker": "Sara", "nl": "Gelukkig. En de kraan in de keuken lekt ook. Kunt u ernaar kijken?", "en": "Thank goodness. And the kitchen tap is leaking too. Could you look at it?", "gap": "ernaar" },
+      { "speaker": "Monteur", "nl": "Natuurlijk. Zo, de kraan is ook klaar.", "en": "Of course. There, the tap is done too." },
+      { "speaker": "Sara", "nl": "Wat kost de reparatie? Moet ik ervoor betalen?", "en": "What does the repair cost? Do I have to pay for it?" },
+      { "speaker": "Monteur", "nl": "Nee, de verhuurder betaalt. Weet hij ervan?", "en": "No, the landlord pays. Does he know about it?" },
+      { "speaker": "Sara", "nl": "Ja, ik heb er gisteren met hem over gepraat.", "en": "Yes, I talked to him about it yesterday." },
+      { "speaker": "Monteur", "nl": "Mooi. Zet de verwarming maar aan. Over een uur is het weer warm.", "en": "Good. Go ahead and turn the heating on. In an hour it'll be warm again." }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "day": 101,
+  "title": "Een verjaardag in een kring",
+  "names": ["Ria", "Henk", "Noor", "Daan", "Mark", "Javier"],
+  "words": [
+    { "id": "feliciteren", "nl": "feliciteren", "en": "to congratulate", "forms": ["feliciteer", "feliciteerde", "feliciteert", "feliciteerden", "feliciterend", "gefeliciteerd"], "example": { "nl": "Ik feliciteer je met je verjaardag.", "en": "Happy birthday to you." } },
+    { "id": "kring", "nl": "kring", "en": "circle", "article": "de", "plural": "kringen", "forms": ["kringetje"], "example": { "nl": "De gasten zitten in een kring.", "en": "The guests are sitting in a circle." } },
+    { "id": "jarige", "nl": "jarige", "en": "birthday boy / birthday girl", "article": "de", "plural": "jarigen", "example": { "nl": "Waar is de jarige?", "en": "Where's the birthday girl?" } },
+    { "id": "gebak", "nl": "gebak", "en": "pastries, cake", "article": "het", "forms": ["gebakje"], "example": { "nl": "Wil je koffie met gebak?", "en": "Would you like coffee and cake?" } },
+    { "id": "slagroom", "nl": "slagroom", "en": "whipped cream", "article": "de", "example": { "nl": "Wil je slagroom op je taart?", "en": "Would you like whipped cream on your cake?" } },
+    { "id": "kaars", "nl": "kaars", "en": "candle", "article": "de", "plural": "kaarsen", "forms": ["kaarsje"], "example": { "nl": "Er staan veertig kaarsen op de taart.", "en": "There are forty candles on the cake." } },
+    { "id": "uitblazen", "nl": "uitblazen", "en": "to blow out", "forms": ["blaas uit", "blies uit", "uitblaas", "uitblies", "blaast uit", "uitblaast", "blazen uit", "bliezen uit", "uitbliezen", "uitblazend", "uitgeblazen"], "example": { "nl": "Noor blaast de kaarsen uit.", "en": "Noor blows out the candles." } },
+    { "id": "taart-noun", "nl": "taart", "en": "cake, tart", "article": "de", "plural": "taarten", "forms": ["taartje"], "example": { "nl": "Ria heeft een taart gebakken.", "en": "Ria baked a cake." } },
+    { "id": "oom", "nl": "oom", "en": "uncle", "article": "de", "plural": "ooms", "forms": ["oompje"], "example": { "nl": "Oom Tom geeft Noor een cadeau.", "en": "Uncle Tom gives Noor a present." } },
+    { "id": "tante", "nl": "tante", "en": "aunt", "article": "de", "plural": "tantes", "forms": ["tantetje"], "example": { "nl": "Mijn tante komt ook op het feest.", "en": "My aunt is coming to the party too." } },
+    { "id": "neef", "nl": "neef", "en": "cousin (male); nephew", "article": "de", "plural": "neven", "forms": ["neefje"], "example": { "nl": "Javier is mijn neef.", "en": "Javier is my cousin." } },
+    { "id": "nicht", "nl": "nicht", "en": "cousin (female); niece", "article": "de", "plural": "nichten", "forms": ["nichtje"], "example": { "nl": "Noor is het nichtje van Tom.", "en": "Noor is Tom's niece." } },
+    { "id": "kleinkinderen", "nl": "kleinkinderen", "en": "grandchildren", "article": "de", "example": { "nl": "Henk en Ria hebben twee kleinkinderen.", "en": "Henk and Ria have two grandchildren." } },
+    { "id": "kleinkind", "nl": "kleinkind", "en": "grandchild", "article": "het", "plural": "kleinkinderen", "forms": ["kleinkindje"], "example": { "nl": "Daan is het oudste kleinkind.", "en": "Daan is the oldest grandchild." } },
+    { "id": "schoonmoeder", "nl": "schoonmoeder", "en": "mother-in-law", "article": "de", "plural": "schoonmoeders", "forms": ["schoonmoedertje"], "example": { "nl": "Ria is de schoonmoeder van Mark.", "en": "Ria is Mark's mother-in-law." } }
+  ],
+  "grammar": {
+    "title": "Congratulating: gefeliciteerd met ...",
+    "points": [
+      "The verb is feliciteren met: Ik feliciteer je met je verjaardag. met + the occasion or the person.",
+      "Most of the time you just say Gefeliciteerd! or Gefeliciteerd met je verjaardag! Hartelijk gefeliciteerd is extra warm.",
+      "A Dutch custom: at a birthday you also congratulate the family of the jarige: Gefeliciteerd met je moeder! Gefeliciteerd met Ria!",
+      "When you arrive at a circle party (kringverjaardag), you walk around the kring, shake everyone's hand and congratulate them.",
+      "Then there's usually coffee with taart or gebak, and later drinks and snacks."
+    ],
+    "examples": [
+      { "nl": "Gefeliciteerd met je verjaardag!", "en": "Happy birthday!" },
+      { "nl": "Gefeliciteerd met je moeder, Tom!", "en": "Congratulations on your mother's birthday, Tom!" },
+      { "nl": "Ik feliciteer je met je nieuwe baan.", "en": "Congratulations on your new job." },
+      { "nl": "We feliciteerden iedereen in de kring.", "en": "We congratulated everyone in the circle." },
+      { "nl": "Hartelijk gefeliciteerd met je zoon!", "en": "Warm congratulations on your son's birthday!" }
+    ],
+    "exercises": [
+      { "prompt": "Gefeliciteerd ___ je verjaardag!", "answer": "met", "hint": "preposition" },
+      { "prompt": "Ik ___ je met je nieuwe baan.", "answer": "feliciteer", "hint": "feliciteren" },
+      { "prompt": "Noor blaast de kaarsen ___.", "answer": "uit", "hint": "uitblazen" },
+      { "prompt": "Henk en Ria hebben twee ___.", "answer": "kleinkinderen", "hint": "grandchildren" },
+      { "prompt": "Javier is de zoon van mijn tante. Hij is mijn ___.", "answer": "neef", "hint": "cousin" }
+    ]
+  },
+  "dialogue": {
+    "title": "Gefeliciteerd met Ria!",
+    "scene": "Tom's mother Ria turns sixty. Sara goes to her first real Dutch circle birthday, where everybody sits in a ring of chairs.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Wat moet ik doen? Iedereen zit in een kring!", "en": "What do I do? Everybody's sitting in a circle!", "gap": "kring" },
+      { "speaker": "Tom", "nl": "Je geeft iedereen een hand en je zegt: gefeliciteerd met Ria.", "en": "You shake everyone's hand and say: congratulations on Ria's birthday." },
+      { "speaker": "Sara", "nl": "Ook aan mensen die ik niet ken?", "en": "Even people I don't know?" },
+      { "speaker": "Tom", "nl": "Ja, zo gaat dat hier.", "en": "Yes, that's how it's done here." },
+      { "speaker": "Sara", "nl": "Gefeliciteerd met je vrouw, Henk!", "en": "Congratulations on your wife's birthday, Henk!", "gap": "Gefeliciteerd met" },
+      { "speaker": "Henk", "nl": "Dank je wel, Sara. Ken je de oom en tante van Tom al?", "en": "Thank you, Sara. Have you met Tom's uncle and aunt yet?", "gap": "oom" },
+      { "speaker": "Tante", "nl": "Dus jij bent Sara! Gefeliciteerd met je schoonmoeder!", "en": "So you're Sara! Congratulations on your mother-in-law's birthday!" },
+      { "speaker": "Sara", "nl": "Mijn schoonmoeder? Maar we zijn niet getrouwd!", "en": "My mother-in-law? But we're not married!" },
+      { "speaker": "Tante", "nl": "Dat maakt niet uit.", "en": "That doesn't matter." },
+      { "speaker": "Ria", "nl": "Wie wil er koffie met gebak? Er is ook slagroom.", "en": "Who'd like coffee and cake? There's whipped cream too.", "gap": "gebak" },
+      { "speaker": "Noor", "nl": "Oma, je moet eerst de kaarsen uitblazen!", "en": "Grandma, you have to blow out the candles first!", "gap": "uitblazen" },
+      { "speaker": "Ria", "nl": "Goed, Noor. Help je me?", "en": "All right, Noor. Will you help me?" },
+      { "speaker": "Sara", "nl": "Hoe oud wordt Ria eigenlijk?", "en": "How old is Ria turning, actually?" },
+      { "speaker": "Tom", "nl": "Zestig. Kijk maar: zestig kaarsen!", "en": "Sixty. Just look: sixty candles!" }
+    ]
+  }
+}

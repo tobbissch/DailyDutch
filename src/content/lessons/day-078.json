@@ -1,0 +1,65 @@
+{
+  "day": 78,
+  "title": "De natuur",
+  "names": ["Veluwe", "Rijn"],
+  "words": [
+    { "id": "natuur", "nl": "natuur", "en": "nature", "article": "de", "plural": "naturen", "example": { "nl": "Ik hou van de natuur.", "en": "I love nature." } },
+    { "id": "bos-noun", "nl": "bos", "en": "wood, forest", "article": "het", "plural": "bossen", "forms": ["bosje"], "example": { "nl": "We wandelen in het bos.", "en": "We're walking in the woods." } },
+    { "id": "boom", "nl": "boom", "en": "tree", "article": "de", "plural": "bomen", "forms": ["boompje"], "example": { "nl": "Er zit een vogel in de boom.", "en": "There's a bird in the tree." } },
+    { "id": "blad", "nl": "blad", "en": "leaf", "article": "het", "plural": "bladeren", "forms": ["blaadje"], "example": { "nl": "In de herfst vallen de bladeren.", "en": "In autumn the leaves fall." } },
+    { "id": "heide", "nl": "heide", "en": "heath; heather", "article": "de", "plural": "heides", "forms": ["heidetje"], "example": { "nl": "In augustus is de heide prachtig.", "en": "The heath is beautiful in August." } },
+    { "id": "duinen", "nl": "duinen", "en": "the dunes (dune area along the coast)", "article": "de", "example": { "nl": "Achter de duinen ligt de zee.", "en": "Behind the dunes is the sea." } },
+    { "id": "duin", "nl": "duin", "en": "dune", "article": "het", "plural": "duinen", "forms": ["duintje"], "example": { "nl": "We lopen over het duin naar het strand.", "en": "We walk over the dune to the beach." } },
+    { "id": "rivier", "nl": "rivier", "en": "river", "article": "de", "plural": "rivieren", "forms": ["riviertje"], "example": { "nl": "De Rijn is een grote rivier.", "en": "The Rhine is a big river." } },
+    { "id": "meer-noun", "nl": "meer", "en": "lake", "article": "het", "plural": "meren", "forms": ["meertje"], "example": { "nl": "We zwemmen in het meer.", "en": "We're swimming in the lake." } },
+    { "id": "vogel", "nl": "vogel", "en": "bird", "article": "de", "plural": "vogels", "forms": ["vogeltje"], "example": { "nl": "Ik hoor een vogel.", "en": "I can hear a bird." } },
+    { "id": "dier", "nl": "dier", "en": "animal", "article": "het", "plural": "dieren", "forms": ["diertje"], "example": { "nl": "In het bos wonen veel dieren.", "en": "Lots of animals live in the forest." } },
+    { "id": "pad", "nl": "pad", "en": "path", "article": "het", "plural": "paden", "forms": ["paadje"], "example": { "nl": "Dit pad gaat naar het meer.", "en": "This path goes to the lake." } },
+    { "id": "zandweg", "nl": "zandweg", "en": "sandy track, dirt road", "article": "de", "plural": "zandwegen", "forms": ["zandweggetje"], "example": { "nl": "We fietsen over een zandweg.", "en": "We're cycling along a sandy track." } },
+    { "id": "zand", "nl": "zand", "en": "sand", "article": "het", "example": { "nl": "Er zit zand in mijn schoenen.", "en": "There's sand in my shoes." } },
+    { "id": "landschap", "nl": "landschap", "en": "landscape", "article": "het", "plural": "landschappen", "forms": ["landschapje"], "example": { "nl": "Wat een mooi landschap!", "en": "What a beautiful landscape!" } },
+    { "id": "houten", "nl": "houten", "en": "wooden", "example": { "nl": "We zitten op een houten bank.", "en": "We're sitting on a wooden bench." } }
+  ],
+  "grammar": {
+    "title": "Wooden, glass: houten, glazen; where things are",
+    "points": [
+      "Adjectives for materials end in -en: hout → houten (wooden), glas → glazen (glass), papier → papieren (paper), goud → gouden (golden).",
+      "These adjectives never get an extra -e: een houten bank, de houten brug, het glazen huis.",
+      "Some borrowed words don't change at all: een plastic tas.",
+      "Prepositions of place: in, op (on), onder (under), naast (next to), achter (behind), voor (in front of), tussen (between), bij (near, at).",
+      "For movement: door = through (door het bos), over = over, across (over de brug)."
+    ],
+    "examples": [
+      { "nl": "We lopen over een houten brug.", "en": "We're walking over a wooden bridge." },
+      { "nl": "Er staat een glazen fles op tafel.", "en": "There's a glass bottle on the table." },
+      { "nl": "De vogel zit in de boom.", "en": "The bird is in the tree." },
+      { "nl": "Tussen de bomen is een klein pad.", "en": "There's a little path between the trees." },
+      { "nl": "Achter de duinen ligt het strand.", "en": "The beach is behind the dunes." },
+      { "nl": "We fietsen door het bos naar het meer.", "en": "We cycle through the forest to the lake." }
+    ],
+    "exercises": [
+      { "prompt": "We zitten op een ___ bank.", "answer": "houten", "hint": "hout" },
+      { "prompt": "Ik drink uit een ___ fles.", "answer": "glazen", "hint": "glas" },
+      { "prompt": "De kat ligt ___ de tafel.", "answer": "onder", "hint": "under" },
+      { "prompt": "Het strand ligt ___ de duinen.", "answer": "achter", "hint": "behind" },
+      { "prompt": "We lopen ___ het bos.", "answer": "door", "hint": "through" }
+    ]
+  },
+  "dialogue": {
+    "title": "Op de Veluwe",
+    "scene": "Tom takes Sara for a walk in a national park on the Veluwe.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Kijk, dit is de Veluwe. Wat een mooi landschap!", "en": "Look, this is the Veluwe. What a beautiful landscape!", "gap": "landschap" },
+      { "speaker": "Sara", "nl": "Prachtig! Ik wist niet dat er in Nederland zo veel bos is.", "en": "Gorgeous! I didn't know there was so much forest in the Netherlands.", "gap": "bos" },
+      { "speaker": "Tom", "nl": "En daar, tussen de bomen, zie je de heide.", "en": "And over there, between the trees, you can see the heath.", "gap": "tussen" },
+      { "speaker": "Sara", "nl": "Wat zit daar in die boom? Een vogel?", "en": "What's that in the tree? A bird?" },
+      { "speaker": "Tom", "nl": "Ja. Er wonen hier ook veel dieren, maar die zijn verlegen.", "en": "Yes. Lots of animals live here too, but they're shy." },
+      { "speaker": "Sara", "nl": "Zullen we dit pad nemen, naar het meertje?", "en": "Shall we take this path, to the little lake?" },
+      { "speaker": "Tom", "nl": "Goed idee. Het is een zandweg, dus fietsen is daar zwaar.", "en": "Good idea. It's a sandy track, so cycling there is hard work." },
+      { "speaker": "Sara", "nl": "Dan lopen we. Kijk, er staat een houten bank bij het water.", "en": "Then we'll walk. Look, there's a wooden bench by the water.", "gap": "houten" },
+      { "speaker": "Tom", "nl": "Mooi! Daar kunnen we lunchen.", "en": "Great! We can have lunch there." },
+      { "speaker": "Sara", "nl": "Ik vind de natuur hier zo rustig. Geen auto's, geen herrie.", "en": "Nature here is so peaceful. No cars, no noise.", "gap": "natuur" },
+      { "speaker": "Tom", "nl": "Ja, hier kan ik echt ontspannen.", "en": "Yes, this is where I can really relax." }
+    ]
+  }
+}

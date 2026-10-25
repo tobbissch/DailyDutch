@@ -1,0 +1,65 @@
+{
+  "day": 103,
+  "title": "Afscheid nemen",
+  "names": ["Ellen", "Peter", "Fatima", "Rotterdam"],
+  "words": [
+    { "id": "afscheid", "nl": "afscheid", "en": "farewell, goodbye (afscheid nemen = to say goodbye)", "article": "het", "example": { "nl": "Vandaag nemen we afscheid van Ellen.", "en": "Today we say goodbye to Ellen." } },
+    { "id": "borrel", "nl": "borrel", "en": "drinks (get-together); a drink", "article": "de", "plural": "borrels", "forms": ["borreltje"], "example": { "nl": "Vrijdag is er een borrel op kantoor.", "en": "On Friday there are drinks at the office." } },
+    { "id": "toekomst-noun", "nl": "toekomst", "en": "future", "article": "de", "plural": "toekomsten", "example": { "nl": "Ik wens je veel succes in de toekomst.", "en": "I wish you every success in the future." } },
+    { "id": "opvolgen", "nl": "opvolgen", "en": "to succeed, to take over from; to follow (advice)", "forms": ["volg op", "volgde op", "opvolg", "opvolgde", "volgt op", "opvolgt", "volgen op", "volgden op", "opvolgden", "opvolgend", "opgevolgd"], "example": { "nl": "Wie gaat Ellen opvolgen?", "en": "Who's going to take over from Ellen?" } },
+    { "id": "opvolger", "nl": "opvolger", "en": "successor", "article": "de", "plural": "opvolgers", "forms": ["opvolgertje"], "example": { "nl": "Haar opvolger begint over een maand.", "en": "Her successor starts in a month." } },
+    { "id": "pensioen", "nl": "pensioen", "en": "pension; retirement", "article": "het", "plural": "pensioenen", "forms": ["pensioentje"], "example": { "nl": "Ze heeft veertig jaar gewerkt en krijgt nu een goed pensioen.", "en": "She worked for forty years and now gets a good pension." } },
+    { "id": "met-pensioen", "nl": "met pensioen", "en": "retired (met pensioen gaan = to retire)", "example": { "nl": "Ellen gaat in juni met pensioen.", "en": "Ellen is retiring in June." } },
+    { "id": "herinnering-noun", "nl": "herinnering", "en": "memory; reminder", "article": "de", "plural": "herinneringen", "forms": ["herinneringetje"], "example": { "nl": "Ik heb mooie herinneringen aan deze tijd.", "en": "I have lovely memories of this time." } },
+    { "id": "aandenken", "nl": "aandenken", "en": "keepsake, memento", "article": "het", "plural": "aandenkens", "forms": ["aandenkentje"], "example": { "nl": "Deze foto is een aandenken aan ons.", "en": "This photo is something to remember us by." } },
+    { "id": "speech", "nl": "speech", "en": "speech", "article": "de", "plural": "speechen", "forms": ["speechje", "speeches"], "example": { "nl": "Peter houdt een korte speech.", "en": "Peter gives a short speech." } },
+    { "id": "emotioneel", "nl": "emotioneel", "en": "emotional", "forms": ["emotioneler", "emotioneelst", "emotionele", "emotionelere", "emotioneelste"], "example": { "nl": "Bij een afscheid word ik altijd emotioneel.", "en": "I always get emotional when people say goodbye." } },
+    { "id": "succes", "nl": "succes", "en": "good luck; success", "article": "het", "plural": "successen", "example": { "nl": "Succes met je nieuwe baan!", "en": "Good luck with your new job!" } },
+    { "id": "veel-plezier", "nl": "veel plezier", "en": "have fun, enjoy yourself", "example": { "nl": "Veel plezier in Spanje!", "en": "Have fun in Spain!" } },
+    { "id": "plezier", "nl": "plezier", "en": "fun, pleasure", "article": "het", "forms": ["pleziertje"], "example": { "nl": "We hebben samen veel plezier gehad.", "en": "We've had a lot of fun together." } }
+  ],
+  "grammar": {
+    "title": "Ik zou het anders gedaan hebben",
+    "points": [
+      "zou + participle + hebben/zijn talks about something that would have happened, but didn't: Ik zou het anders gedaan hebben (I would have done it differently).",
+      "Choose hebben or zijn just like in the perfect tense: gedaan hebben, gewerkt hebben, but gekomen zijn, gebleven zijn.",
+      "zou (plural zouden) stands in second place; the participle and hebben/zijn go to the end. The order hebben + participle is also fine: Ik zou het anders hebben gedaan.",
+      "It often comes with an als-clause in the past perfect: Als ik het had geweten, zou ik een cadeau gekocht hebben.",
+      "In spoken Dutch you often hear just had instead: Ik had het anders gedaan."
+    ],
+    "examples": [
+      { "nl": "Ik zou het anders gedaan hebben.", "en": "I would have done it differently." },
+      { "nl": "Zonder jou zou ik het hier nooit zo leuk gevonden hebben.", "en": "Without you I would never have enjoyed it here so much." },
+      { "nl": "Als ik het had geweten, zou ik een cadeau gekocht hebben.", "en": "If I had known, I would have bought a present." },
+      { "nl": "Ellen zou graag langer gebleven zijn.", "en": "Ellen would have liked to stay longer." },
+      { "nl": "Wij zouden ook naar het feest gekomen zijn.", "en": "We would have come to the party too." }
+    ],
+    "exercises": [
+      { "prompt": "Ik zou het anders gedaan ___.", "answer": "hebben", "hint": "hebben / zijn" },
+      { "prompt": "Ellen zou graag langer gebleven ___.", "answer": "zijn", "hint": "hebben / zijn" },
+      { "prompt": "Als ik het had geweten, ___ ik een cadeau gekocht hebben.", "answer": "zou", "hint": "zullen" },
+      { "prompt": "Wie gaat Ellen ___?", "answer": "opvolgen", "hint": "to take over from" },
+      { "prompt": "Ellen gaat in juni met ___.", "answer": "pensioen", "hint": "retirement" },
+      { "prompt": "___ met je nieuwe baan!", "answer": "Succes", "hint": "good luck" }
+    ]
+  },
+  "dialogue": {
+    "title": "Afscheid van Ellen",
+    "scene": "Ellen, who has worked at Sara's design agency for thirty years, is retiring. At her farewell drinks Peter gives a speech, and Sara and Fatima say goodbye.",
+    "lines": [
+      { "speaker": "Peter", "nl": "Mag ik even iets zeggen? Vandaag nemen we afscheid van Ellen.", "en": "Can I say a few words? Today we're saying goodbye to Ellen.", "gap": "afscheid" },
+      { "speaker": "Peter", "nl": "Ellen heeft hier dertig jaar gewerkt. Nu gaat ze met pensioen.", "en": "Ellen has worked here for thirty years. Now she's retiring.", "gap": "met pensioen" },
+      { "speaker": "Peter", "nl": "Zonder jou zou dit bedrijf nooit zo groot geworden zijn. Proost op Ellen!", "en": "Without you this company would never have grown so big. Cheers to Ellen!" },
+      { "speaker": "Ellen", "nl": "Dank je wel, Peter. Ik word er een beetje emotioneel van.", "en": "Thank you, Peter. It's making me a bit emotional.", "gap": "emotioneel" },
+      { "speaker": "Fatima", "nl": "We hebben een aandenken voor je: een boek met foto's van ons.", "en": "We've got a keepsake for you: a book with photos of all of us.", "gap": "aandenken" },
+      { "speaker": "Ellen", "nl": "Wat mooi! Zo heb ik altijd een herinnering aan jullie.", "en": "How lovely! That way I'll always have something to remember you by." },
+      { "speaker": "Sara", "nl": "Ik zou graag langer met je samengewerkt hebben. Je hebt me zo goed geholpen.", "en": "I would have loved to work with you for longer. You've helped me so much." },
+      { "speaker": "Ellen", "nl": "Jij gaat het goed doen, Sara. Weet je al wie mijn opvolger wordt?", "en": "You'll do well, Sara. Do you already know who my successor will be?", "gap": "opvolger" },
+      { "speaker": "Sara", "nl": "Ja, een man uit Rotterdam. Hij begint over twee weken.", "en": "Yes, a man from Rotterdam. He starts in two weeks." },
+      { "speaker": "Fatima", "nl": "Wat ga je doen met al je vrije tijd?", "en": "What are you going to do with all your free time?" },
+      { "speaker": "Ellen", "nl": "Eerst ga ik drie maanden reizen. Dat wilde ik altijd al doen.", "en": "First I'm going travelling for three months. I've always wanted to do that." },
+      { "speaker": "Sara", "nl": "Veel plezier! We gaan je missen.", "en": "Have fun! We're going to miss you.", "gap": "Veel plezier" },
+      { "speaker": "Ellen", "nl": "Ik jullie ook. Veel succes in de toekomst!", "en": "I'll miss you too. Good luck in the future!" }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "day": 120,
+  "title": "Thuis in Nederland",
+  "names": ["Sara", "Tom", "Spanje", "Nederland", "Amsterdam", "Utrecht"],
+  "words": [
+    { "id": "diploma-noun", "nl": "diploma", "en": "diploma, certificate", "article": "het", "plural": "diploma's", "forms": ["diplomaatje"], "example": { "nl": "Vandaag krijg ik mijn diploma.", "en": "Today I get my diploma." } },
+    { "id": "inburgeringsdiploma", "nl": "inburgeringsdiploma", "en": "civic integration diploma", "article": "het", "plural": "inburgeringsdiploma's", "example": { "nl": "Sara is trots op haar inburgeringsdiploma.", "en": "Sara is proud of her civic integration diploma." } },
+    { "id": "ceremonie-noun", "nl": "ceremonie", "en": "ceremony", "article": "de", "plural": "ceremonies", "forms": ["ceremoniën", "ceremonietje"], "example": { "nl": "De ceremonie begint om twee uur in het gemeentehuis.", "en": "The ceremony starts at two o'clock in the town hall." } },
+    { "id": "uitreiking", "nl": "uitreiking", "en": "presentation, handing out (of diplomas, prizes)", "article": "de", "plural": "uitreikingen", "example": { "nl": "Bij de uitreiking van de diploma's waren veel mensen.", "en": "Lots of people were at the diploma presentation." } },
+    { "id": "burgemeester", "nl": "burgemeester", "en": "mayor", "article": "de", "plural": "burgemeesters", "example": { "nl": "De burgemeester geeft iedereen een hand.", "en": "The mayor shakes everyone's hand." } },
+    { "id": "toespraak-noun", "nl": "toespraak", "en": "speech", "article": "de", "plural": "toespraken", "forms": ["toespraakje"], "example": { "nl": "Sara houdt een korte toespraak.", "en": "Sara gives a short speech." } },
+    { "id": "thuisgevoel", "nl": "thuisgevoel", "en": "feeling of being at home", "article": "het", "example": { "nl": "In Utrecht heb ik echt een thuisgevoel.", "en": "In Utrecht I really feel at home." } },
+    { "id": "thuis-voelen", "nl": "thuis voelen", "en": "to feel at home (zich thuis voelen)", "example": { "nl": "Ik voel me hier thuis.", "en": "I feel at home here." } },
+    { "id": "thuisvoelen", "nl": "thuisvoelen", "en": "to feel at home (also written as one word)", "forms": ["thuisvoelt", "thuisvoelde", "thuisgevoeld"], "example": { "nl": "We willen dat iedereen zich bij ons thuisvoelt.", "en": "We want everyone to feel at home with us." } },
+    { "id": "nieuwe-begin", "nl": "nieuwe begin", "en": "new beginning, fresh start (het nieuwe begin, een nieuw begin)", "article": "het", "forms": ["nieuw begin"], "example": { "nl": "Voor mij was Nederland een nieuw begin.", "en": "For me the Netherlands was a fresh start." } },
+    { "id": "mijlpaal", "nl": "mijlpaal", "en": "milestone", "article": "de", "plural": "mijlpalen", "forms": ["mijlpaaltje"], "example": { "nl": "Dit diploma is een belangrijke mijlpaal.", "en": "This diploma is an important milestone." } },
+    { "id": "inspanning", "nl": "inspanning", "en": "effort", "article": "de", "plural": "inspanningen", "forms": ["inspanninkje"], "example": { "nl": "Het heeft veel inspanning gekost, maar nu heb ik mijn diploma.", "en": "It took a lot of effort, but now I have my diploma." } },
+    { "id": "succes-noun", "nl": "succes", "en": "success; (Succes!) good luck!", "article": "het", "plural": "successen", "forms": ["succesje"], "example": { "nl": "Succes met je examen!", "en": "Good luck with your exam!" } },
+    { "id": "succesvol", "nl": "succesvol", "en": "successful", "forms": ["succesvoller", "succesvolst", "succesvolle", "succesvollere", "succesvolste"], "example": { "nl": "Het was een succesvol jaar.", "en": "It was a successful year." } }
+  ],
+  "grammar": {
+    "title": "Telling your own story",
+    "points": [
+      "Start in the present: who you are and where you live now: Ik heet Sara. Ik kom uit Spanje en ik woon in Utrecht.",
+      "Tell what happened with the perfect, then keep the story going in the simple past: Ik ben naar Nederland gekomen. In het begin was het moeilijk.",
+      "Link your ideas. After omdat, hoewel, toen, nadat and dat the verb goes to the end; after en, maar and want the word order stays normal; after daarom and bovendien the verb comes straight next.",
+      "Say how you feel: Ik voel me hier thuis. Ik ben trots op ... Ik ben dankbaar voor ...",
+      "Look ahead with gaan or zullen, and add wishes with zou graag ... willen: Ik ga verder met Nederlands. Ik zou graag willen studeren."
+    ],
+    "examples": [
+      { "nl": "Ik kom uit Spanje, maar ik woon nu in Utrecht.", "en": "I'm from Spain, but I live in Utrecht now." },
+      { "nl": "In het begin was het moeilijk, omdat ik niemand kende.", "en": "In the beginning it was hard, because I didn't know anyone." },
+      { "nl": "Hoewel het vaak regent, voel ik me hier thuis.", "en": "Although it often rains, I feel at home here." },
+      { "nl": "Toen ik voor mijn examen slaagde, was ik heel trots.", "en": "When I passed my exam, I was very proud." },
+      { "nl": "Ik heb hard gewerkt, daarom is dit diploma een grote mijlpaal.", "en": "I worked hard, so this diploma is a big milestone." },
+      { "nl": "Ik zou graag nog een cursus Nederlands willen doen.", "en": "I'd like to do another Dutch course." }
+    ],
+    "exercises": [
+      { "prompt": "Ik voel ___ hier thuis.", "answer": "me", "hint": "zich (ik)" },
+      { "prompt": "In het begin was het moeilijk, ___ ik niemand kende.", "answer": "omdat", "hint": "because" },
+      { "prompt": "___ ik in Nederland aankwam, sprak ik geen Nederlands.", "answer": "Toen", "hint": "when (one moment)" },
+      { "prompt": "Ik ben trots ___ mijn diploma.", "answer": "op", "hint": "preposition" },
+      { "prompt": "___ het vaak regent, woon ik hier graag.", "answer": "Hoewel", "hint": "although" },
+      { "prompt": "Ik heb hard gewerkt, daarom ___ ik nu heel blij.", "answer": "ben", "hint": "zijn (word order)" }
+    ]
+  },
+  "dialogue": {
+    "title": "Welkom thuis",
+    "scene": "At the town hall in Utrecht, the mayor hands out civic integration diplomas. Sara is asked to give a short speech; Tom is in the audience.",
+    "lines": [
+      { "speaker": "Burgemeester", "nl": "Beste mensen, vandaag is een belangrijke mijlpaal. Jullie hebben met veel inspanning Nederlands geleerd.", "en": "Dear all, today is an important milestone. You have put a lot of effort into learning Dutch.", "gap": "mijlpaal" },
+      { "speaker": "Burgemeester", "nl": "Voor de uitreiking van de diploma's houdt Sara een korte toespraak. Sara, kom maar!", "en": "Before we hand out the diplomas, Sara will give a short speech. Sara, come on up!", "gap": "toespraak" },
+      { "speaker": "Sara", "nl": "Dank u wel, meneer de burgemeester.", "en": "Thank you, Mr Mayor." },
+      { "speaker": "Sara", "nl": "Toen ik uit Spanje naar Amsterdam kwam, kende ik niemand. Ik sprak geen woord Nederlands.", "en": "When I came from Spain to Amsterdam, I didn't know anyone. I didn't speak a word of Dutch." },
+      { "speaker": "Sara", "nl": "Mijn eerste Nederlandse woord was 'hallo'. Ik zei het tegen mijn nieuwe buurman. Nu woon ik met hem in ons eigen huis.", "en": "My first Dutch word was 'hallo'. I said it to my new neighbour. Now I live with him in our own house." },
+      { "speaker": "Sara", "nl": "Het was niet altijd makkelijk: de taal, het weer, de drukke fietspaden. Maar ik ben nooit gestopt.", "en": "It wasn't always easy: the language, the weather, the busy cycle paths. But I never gave up." },
+      { "speaker": "Sara", "nl": "Ik ben dankbaar voor iedereen die mij geholpen heeft: Tom, zijn familie, mijn collega's en mijn buren.", "en": "I'm grateful to everyone who helped me: Tom, his family, my colleagues and my neighbours." },
+      { "speaker": "Sara", "nl": "Dit diploma is voor mij geen einde, maar een nieuw begin. Ik voel me hier thuis.", "en": "For me this diploma isn't an end, but a new beginning. I feel at home here.", "gap": "nieuw begin" },
+      { "speaker": "Sara", "nl": "En tegen jullie zeg ik: blijf oefenen, elke dag een beetje. Succes!", "en": "And to you all I say: keep practising, a little every day. Good luck!", "gap": "Succes" },
+      { "speaker": "Burgemeester", "nl": "Mooi gezegd. Gefeliciteerd met je inburgeringsdiploma, Sara. Welkom thuis!", "en": "Well said. Congratulations on your civic integration diploma, Sara. Welcome home!", "gap": "Welkom" },
+      { "speaker": "Tom", "nl": "Ik ben zo trots op je. Hoe voel je je?", "en": "I'm so proud of you. How do you feel?" },
+      { "speaker": "Sara", "nl": "Thuis. Ik voel me eindelijk echt thuis.", "en": "At home. I finally feel really at home.", "gap": "thuis" },
+      { "speaker": "Tom", "nl": "Zullen we dat vieren? Ik trakteer!", "en": "Shall we celebrate? My treat!" },
+      { "speaker": "Sara", "nl": "Goed idee! En morgen ga ik weer verder met Nederlands. Tot morgen!", "en": "Good idea! And tomorrow I'll carry on with my Dutch. See you tomorrow!" }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "day": 49,
+  "title": "De zorgverzekering",
+  "words": [
+    { "id": "verzekering", "nl": "verzekering", "en": "insurance", "article": "de", "plural": "verzekeringen", "forms": ["verzekeringetje", "verzekerinkje"], "example": { "nl": "Ik heb een nieuwe verzekering.", "en": "I have new insurance." } },
+    { "id": "verzekerd", "nl": "verzekerd", "en": "insured", "forms": ["verzekerde"], "example": { "nl": "Ben je goed verzekerd?", "en": "Are you properly insured?" } },
+    { "id": "eigen-risico", "nl": "eigen risico", "en": "deductible, excess (insurance)", "article": "het", "plural": "eigen risico's", "example": { "nl": "Het eigen risico is 385 euro per jaar.", "en": "The deductible is 385 euros a year." } },
+    { "id": "premie", "nl": "premie", "en": "premium (insurance payment)", "article": "de", "plural": "premies", "forms": ["premietje"], "example": { "nl": "De premie is 140 euro per maand.", "en": "The premium is 140 euros a month." } },
+    { "id": "vergoeden", "nl": "vergoeden", "en": "to cover, to reimburse", "forms": ["vergoed", "vergoedde", "vergoedt", "vergoedden", "vergoedend"], "example": { "nl": "De verzekering vergoedt de tandarts niet.", "en": "The insurance doesn't cover the dentist." } },
+    { "id": "zorg", "nl": "zorg", "en": "care; worry", "article": "de", "plural": "zorgen", "forms": ["zorgje"], "example": { "nl": "De zorg in Nederland is goed.", "en": "Healthcare in the Netherlands is good." } },
+    { "id": "ziekenhuis", "nl": "ziekenhuis", "en": "hospital", "article": "het", "plural": "ziekenhuizen", "forms": ["ziekenhuisje"], "example": { "nl": "Haar opa ligt in het ziekenhuis.", "en": "Her grandpa is in hospital." } },
+    { "id": "specialist", "nl": "specialist", "en": "specialist (doctor)", "article": "de", "plural": "specialisten", "forms": ["specialistje"], "example": { "nl": "Voor een specialist heb je een verwijzing nodig.", "en": "You need a referral to see a specialist." } },
+    { "id": "verwijzing", "nl": "verwijzing", "en": "referral; reference", "article": "de", "plural": "verwijzingen", "forms": ["verwijzinkje"], "example": { "nl": "Ik heb een verwijzing van de huisarts.", "en": "I have a referral from the GP." } },
+    { "id": "verplicht", "nl": "verplicht", "en": "compulsory, required", "forms": ["verplichte"], "example": { "nl": "Een verzekering voor de zorg is verplicht in Nederland.", "en": "Health insurance is compulsory in the Netherlands." } },
+    { "id": "maandelijks", "nl": "maandelijks", "en": "monthly", "forms": ["maandelijkse"], "example": { "nl": "Ik betaal de premie maandelijks.", "en": "I pay the premium monthly." } },
+    { "id": "korting", "nl": "korting", "en": "discount", "article": "de", "plural": "kortingen", "forms": ["kortinkje"], "example": { "nl": "Ik heb tien procent korting.", "en": "I get a ten percent discount." } },
+    { "id": "vergelijken", "nl": "vergelijken", "en": "to compare", "forms": ["vergelijk", "vergeleek", "vergelijkt", "vergeleken", "vergelijkend"], "example": { "nl": "Ik vergelijk drie verzekeringen.", "en": "I'm comparing three insurance plans." } },
+    { "id": "procent-noun", "nl": "procent", "en": "percent", "article": "het", "example": { "nl": "De premie is vijf procent duurder dan vorig jaar.", "en": "The premium is five percent more expensive than last year." } },
+    { "id": "hoog-adj", "nl": "hoog", "en": "high", "forms": ["hoger", "hoogst", "hoge", "hogere", "hoogste"], "example": { "nl": "Het eigen risico is hoog.", "en": "The deductible is high." } }
+  ],
+  "grammar": {
+    "title": "Als ..., dan ...; numbers and percentages",
+    "points": [
+      "als (if) starts a subordinate clause: the verb goes to the end: als je naar het ziekenhuis moet.",
+      "If the als-clause comes first, the main clause starts with its verb (verb second!), often after dan: Als je ziek bent, (dan) blijf je thuis.",
+      "dan is optional, but very common in speech.",
+      "You can also start with the main clause: Je betaalt minder als je een hoog eigen risico kiest.",
+      "Percentages: number + procent, written %: tien procent korting (10%). procent never gets a plural -en.",
+      "Write big numbers as figures: 385 euro is driehonderdvijfentachtig — said units before tens, like in day 23."
+    ],
+    "examples": [
+      { "nl": "Als je naar het ziekenhuis moet, dan betaal je eerst het eigen risico.", "en": "If you have to go to hospital, you first pay the deductible." },
+      { "nl": "Als je een hoog eigen risico kiest, betaal je minder premie.", "en": "If you choose a high deductible, you pay a lower premium." },
+      { "nl": "Je hebt een verwijzing nodig als je naar een specialist gaat.", "en": "You need a referral if you go to a specialist." },
+      { "nl": "De premie is tien procent hoger dan vorig jaar.", "en": "The premium is ten percent higher than last year." },
+      { "nl": "Als ik ziek word, vergoedt de verzekering de zorg.", "en": "If I get ill, the insurance covers the care." }
+    ],
+    "exercises": [
+      { "prompt": "___ je ziek bent, dan blijf je thuis.", "answer": "Als", "hint": "if" },
+      { "prompt": "Als je korting hebt, ___ betaal je minder.", "answer": "dan", "hint": "then" },
+      { "prompt": "Als ik naar de specialist ga, ___ ik een verwijzing nodig.", "answer": "heb", "hint": "hebben" },
+      { "prompt": "Ik heb tien ___ korting.", "answer": "procent", "hint": "%" },
+      { "prompt": "Als je een hoog eigen risico kiest, betaal je ___ premie.", "answer": "minder", "hint": "meer / minder" },
+      { "prompt": "Ik betaal de premie ___: elke maand.", "answer": "maandelijks", "hint": "monthly" }
+    ]
+  },
+  "dialogue": {
+    "title": "Welke verzekering?",
+    "scene": "Sara has to choose a health insurance plan. Tom helps her compare two of them.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Tom, kun je me helpen? Ik moet een verzekering kiezen.", "en": "Tom, can you help me? I have to choose an insurance plan.", "gap": "verzekering" },
+      { "speaker": "Tom", "nl": "Natuurlijk. In Nederland is dat verplicht.", "en": "Of course. It's compulsory in the Netherlands.", "gap": "verplicht" },
+      { "speaker": "Sara", "nl": "Ik vergelijk twee verzekeringen. Deze kost 130 euro per maand, die 150.", "en": "I'm comparing two plans. This one costs 130 euros a month, that one 150." },
+      { "speaker": "Tom", "nl": "En hoe hoog is het eigen risico?", "en": "And how high is the deductible?", "gap": "eigen risico" },
+      { "speaker": "Sara", "nl": "Bij de eerste is het eigen risico 885 euro, bij de tweede 385.", "en": "With the first one the deductible is 885 euros, with the second 385." },
+      { "speaker": "Tom", "nl": "Als je niet vaak naar de dokter gaat, dan is de eerste goedkoper.", "en": "If you don't often go to the doctor, the first one is cheaper." },
+      { "speaker": "Sara", "nl": "Maar als ik naar het ziekenhuis moet, dan betaal ik meer.", "en": "But if I have to go to hospital, I pay more." },
+      { "speaker": "Tom", "nl": "Ja. En wat vergoeden ze voor de tandarts?", "en": "Yes. And what do they cover for the dentist?", "gap": "vergoeden" },
+      { "speaker": "Sara", "nl": "De tweede vergoedt de controle, de eerste niet.", "en": "The second one covers check-ups, the first one doesn't." },
+      { "speaker": "Sara", "nl": "En bij de tweede heb je vijf procent korting als je per jaar betaalt.", "en": "And with the second one you get a five percent discount if you pay yearly." },
+      { "speaker": "Tom", "nl": "Dan zou ik de tweede kiezen.", "en": "Then I'd choose the second one." },
+      { "speaker": "Sara", "nl": "Ik ook. Dan ben ik goed verzekerd.", "en": "Me too. Then I'm well insured.", "gap": "verzekerd" }
+    ]
+  }
+}

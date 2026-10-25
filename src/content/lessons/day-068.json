@@ -1,0 +1,66 @@
+{
+  "day": 68,
+  "title": "Naar de film",
+  "names": ["Sara", "Tom", "Fatima", "Frankrijk"],
+  "words": [
+    { "id": "bioscoop-noun", "nl": "bioscoop", "en": "cinema", "article": "de", "plural": "bioscopen", "forms": ["bioscoopje"], "example": { "nl": "Zullen we zaterdag naar de bioscoop gaan?", "en": "Shall we go to the cinema on Saturday?" } },
+    { "id": "zaal", "nl": "zaal", "en": "hall; (cinema) screen", "article": "de", "plural": "zalen", "forms": ["zaaltje"], "example": { "nl": "Zaal drie is vol.", "en": "Screen three is full." } },
+    { "id": "voorstelling", "nl": "voorstelling", "en": "showing, performance", "article": "de", "plural": "voorstellingen", "forms": ["voorstellinkje"], "example": { "nl": "De voorstelling begint om half negen.", "en": "The showing starts at half past eight." } },
+    { "id": "spannend", "nl": "spannend", "en": "exciting, tense", "forms": ["spannender", "spannendst", "spannende", "spannendere", "spannendste"], "example": { "nl": "Wat een spannende film!", "en": "What an exciting film!" } },
+    { "id": "saai", "nl": "saai", "en": "boring", "forms": ["saaier", "saaist", "saaie", "saaiere", "saaiste"], "example": { "nl": "Het boek was saai.", "en": "The book was boring." } },
+    { "id": "verhaal", "nl": "verhaal", "en": "story", "article": "het", "plural": "verhalen", "forms": ["verhaaltje"], "example": { "nl": "Het verhaal is heel mooi.", "en": "The story is really beautiful." } },
+    { "id": "acteur", "nl": "acteur", "en": "actor", "article": "de", "plural": "acteurs", "forms": ["acteurtje"], "example": { "nl": "Die acteur speelt heel goed.", "en": "That actor is really good." } },
+    { "id": "actrice", "nl": "actrice", "en": "actress", "article": "de", "plural": "actrices", "forms": ["actricetje"], "example": { "nl": "De actrice komt uit Frankrijk.", "en": "The actress is from France." } },
+    { "id": "rol", "nl": "rol", "en": "role, part", "article": "de", "plural": "rollen", "forms": ["rolletje"], "example": { "nl": "Ze speelt de rol van een moeder.", "en": "She plays the part of a mother." } },
+    { "id": "ondertiteling", "nl": "ondertiteling", "en": "subtitles", "article": "de", "plural": "ondertitelingen", "example": { "nl": "Is er Nederlandse ondertiteling?", "en": "Are there Dutch subtitles?" } },
+    { "id": "einde-noun", "nl": "einde", "en": "end, ending", "article": "het", "plural": "einden", "forms": ["eindje"], "example": { "nl": "Het einde was verrassend.", "en": "The ending was surprising." } },
+    { "id": "aanraden", "nl": "aanraden", "en": "to recommend, to advise", "forms": ["raad aan", "raadde aan", "aanraad", "aanraadde", "raadt aan", "aanraadt", "raden aan", "raadden aan", "aanraadden", "aanradend", "aangeraden", "ried aan", "aanried", "riedt aan", "aanriedt", "rieden aan", "aanrieden"], "example": { "nl": "Kun je een film aanraden?", "en": "Can you recommend a film?" } },
+    { "id": "recensie", "nl": "recensie", "en": "review", "article": "de", "plural": "recensies", "forms": ["recensietje"], "example": { "nl": "De recensie zegt dat de film goed is.", "en": "The review says the film is good." } },
+    { "id": "vertellen", "nl": "vertellen", "en": "to tell", "forms": ["vertel", "vertelt", "vertelde", "vertelden", "vertellend", "verteld"], "example": { "nl": "Vertel me niet het einde!", "en": "Don't tell me the ending!" } }
+  ],
+  "grammar": {
+    "title": "Hij zegt dat… / Ze vraagt of…",
+    "points": [
+      "To report what someone says, use zeggen dat + a subordinate clause. The verb goes to the end: Tom zegt dat de film spannend is.",
+      "Change the pronouns to fit the new speaker: Tom: 'Ik ben moe.' → Tom zegt dat hij moe is.",
+      "To report a yes/no question, use vragen of (whether/if): Sara vraagt of er ondertiteling is.",
+      "To report a question with a question word, keep that word: Hij vraagt hoe laat de voorstelling begint.",
+      "In the past: Hij zei dat… / Ze vroeg of… The verb in the clause usually goes into the past too: Hij zei dat de film saai was."
+    ],
+    "examples": [
+      { "nl": "Tom zegt dat de film spannend is.", "en": "Tom says the film is exciting." },
+      { "nl": "De recensie zegt dat het verhaal saai is.", "en": "The review says the story is boring." },
+      { "nl": "Sara vraagt of er ondertiteling is.", "en": "Sara asks whether there are subtitles." },
+      { "nl": "Hij vraagt hoe laat de voorstelling begint.", "en": "He asks what time the showing starts." },
+      { "nl": "Fatima zei dat ze de film kon aanraden.", "en": "Fatima said she could recommend the film." },
+      { "nl": "Ik vroeg of hij het einde wist.", "en": "I asked if he knew the ending." }
+    ],
+    "exercises": [
+      { "prompt": "Tom zegt ___ de film goed is.", "answer": "dat", "hint": "that" },
+      { "prompt": "Sara vraagt ___ er ondertiteling is.", "answer": "of", "hint": "whether" },
+      { "prompt": "Tom: 'Ik ben moe.' → Tom zegt dat ___ moe is.", "answer": "hij", "hint": "ik → ?" },
+      { "prompt": "Ze vraagt hoe laat de film ___.", "answer": "begint", "hint": "beginnen" },
+      { "prompt": "Hij zei dat de acteur heel goed ___.", "answer": "was", "hint": "zijn, past" },
+      { "prompt": "Kun je een film ___?", "answer": "aanraden", "hint": "to recommend" }
+    ]
+  },
+  "dialogue": {
+    "title": "Welke film?",
+    "scene": "Sara and Tom choose a film to see at the cinema tonight.",
+    "lines": [
+      { "speaker": "Tom", "nl": "Zullen we vandaag naar de bioscoop gaan?", "en": "Shall we go to the cinema today?", "gap": "bioscoop" },
+      { "speaker": "Sara", "nl": "Goed idee. Wat kunnen we zien?", "en": "Good idea. What can we see?" },
+      { "speaker": "Tom", "nl": "Er is een nieuwe Nederlandse film. Fatima zegt dat hij heel spannend is.", "en": "There's a new Dutch film. Fatima says it's really exciting.", "gap": "zegt dat" },
+      { "speaker": "Sara", "nl": "Is er Engelse ondertiteling?", "en": "Are there English subtitles?", "gap": "ondertiteling" },
+      { "speaker": "Tom", "nl": "Nee, maar Fatima zei dat het Nederlands niet moeilijk is.", "en": "No, but Fatima said the Dutch isn't hard." },
+      { "speaker": "Sara", "nl": "Waar gaat het verhaal over?", "en": "What's the story about?" },
+      { "speaker": "Tom", "nl": "Over een man die zijn vader zoekt. De recensie zegt dat de acteur de beste rol van zijn leven speelt.", "en": "About a man who's looking for his father. The review says the actor plays the best role of his life.", "gap": "recensie" },
+      { "speaker": "Sara", "nl": "En de actrice?", "en": "And the actress?" },
+      { "speaker": "Tom", "nl": "Ze schrijven dat zij ook goed is. Maar het einde is saai, zeggen ze.", "en": "They write that she's good too. But the ending is boring, they say." },
+      { "speaker": "Sara", "nl": "Vertel me niet het einde!", "en": "Don't tell me the ending!" },
+      { "speaker": "Tom", "nl": "Ik weet het niet, echt!", "en": "I don't know it, honestly!" },
+      { "speaker": "Sara", "nl": "Goed. Hoe laat is de voorstelling?", "en": "OK. What time is the showing?", "gap": "voorstelling" },
+      { "speaker": "Tom", "nl": "Om half negen, in zaal vier. Ik zal vragen of er nog kaartjes zijn.", "en": "At half past eight, in screen four. I'll ask if there are still tickets." }
+    ]
+  }
+}

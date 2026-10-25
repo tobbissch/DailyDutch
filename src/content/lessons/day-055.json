@@ -1,0 +1,64 @@
+{
+  "day": 55,
+  "title": "Aan de telefoon",
+  "names": ["Peter", "Erik Jansen", "meneer Jansen"],
+  "words": [
+    { "id": "bellen", "nl": "bellen", "en": "to call, to phone; to ring", "forms": ["bel", "belde", "belt", "belden", "bellend", "gebeld"], "example": { "nl": "Ik bel je morgen.", "en": "I'll call you tomorrow." } },
+    { "id": "terugbellen", "nl": "terugbellen", "en": "to call back", "forms": ["bel terug", "belde terug", "terugbel", "terugbelde", "belt terug", "terugbelt", "bellen terug", "belden terug", "terugbelden", "terugbellend", "teruggebeld"], "example": { "nl": "Kunt u me terugbellen?", "en": "Could you call me back?" } },
+    { "id": "beller", "nl": "beller", "en": "caller", "article": "de", "plural": "bellers", "forms": ["bellertje"], "example": { "nl": "De beller wil Peter spreken.", "en": "The caller wants to speak to Peter." } },
+    { "id": "bericht", "nl": "bericht", "en": "message; news", "article": "het", "plural": "berichten", "forms": ["berichtje"], "example": { "nl": "Ik heb je bericht gelezen.", "en": "I've read your message." } },
+    { "id": "voicemail", "nl": "voicemail", "en": "voicemail", "article": "de", "plural": "voicemails", "forms": ["voicemailtje"], "example": { "nl": "Ik spreek een bericht in op zijn voicemail.", "en": "I leave a message on his voicemail." } },
+    { "id": "inspreken", "nl": "inspreken", "en": "to leave (a voice message)", "forms": ["spreek in", "sprak in", "inspreek", "insprak", "spreekt in", "inspreekt", "spreken in", "spraken in", "inspraken", "insprekend", "ingesproken"], "example": { "nl": "Wilt u een bericht inspreken?", "en": "Would you like to leave a message?" } },
+    { "id": "doorverbinden", "nl": "doorverbinden", "en": "to put through (on the phone)", "forms": ["verbind door", "verbond door", "doorverbind", "doorverbond", "verbindt door", "doorverbindt", "verbinden door", "verbonden door", "doorverbonden", "doorverbindend"], "example": { "nl": "Ik verbind u door met Peter.", "en": "I'll put you through to Peter." } },
+    { "id": "bezet", "nl": "bezet", "en": "busy, engaged; taken", "example": { "nl": "De lijn is bezet.", "en": "The line is busy." } },
+    { "id": "bereikbaar", "nl": "bereikbaar", "en": "reachable, available", "forms": ["bereikbaarder", "bereikbaarst", "bereikbare", "bereikbaardere", "bereikbaarste"], "example": { "nl": "Ik ben morgen niet bereikbaar.", "en": "I can't be reached tomorrow." } },
+    { "id": "mobiel", "nl": "mobiel", "en": "mobile phone", "article": "de", "plural": "mobielen", "forms": ["mobieltje"], "example": { "nl": "Bel me op mijn mobiel.", "en": "Call me on my mobile." } },
+    { "id": "nummer-noun", "nl": "nummer", "en": "number", "article": "het", "plural": "nummers", "forms": ["nummertje"], "example": { "nl": "Wat is uw nummer?", "en": "What's your number?" } },
+    { "id": "ophangen", "nl": "ophangen", "en": "to hang up", "forms": ["hang op", "hing op", "ophang", "ophing", "hangt op", "ophangt", "hangen op", "hingen op", "ophingen", "ophangend", "opgehangen"], "example": { "nl": "Hij heeft opgehangen.", "en": "He hung up." } },
+    { "id": "lijn", "nl": "lijn", "en": "line", "article": "de", "plural": "lijnen", "forms": ["lijntje"], "example": { "nl": "Blijft u even aan de lijn?", "en": "Would you hold the line, please?" } },
+    { "id": "momentje", "nl": "momentje", "en": "just a moment", "article": "het", "example": { "nl": "Momentje, ik verbind u door.", "en": "One moment, I'll put you through." } }
+  ],
+  "grammar": {
+    "title": "On the phone; future with zullen",
+    "points": [
+      "Answer the phone with Met + your name: Met Sara. Say why you call with Ik bel over ... / Ik bel voor ...",
+      "Dutch often uses the present tense for the future, especially with a time word: Ik bel je morgen.",
+      "zullen + infinitive at the end is used for promises and for a more formal future: Ik zal het hem vragen. Hij zal u terugbellen.",
+      "Forms: ik zal, jij/u zult (or zal), hij/zij zal, wij/jullie/zij zullen.",
+      "Useful phrases: Momentje. Ik verbind u door. De lijn is bezet. Wilt u een bericht inspreken?"
+    ],
+    "examples": [
+      { "nl": "Met Sara. Ik bel over de presentatie.", "en": "Sara speaking. I'm calling about the presentation." },
+      { "nl": "Ik zal u doorverbinden.", "en": "I'll put you through." },
+      { "nl": "Hij zal u morgen terugbellen.", "en": "He'll call you back tomorrow." },
+      { "nl": "De lijn is bezet. Wilt u even wachten?", "en": "The line is busy. Would you like to hold?" },
+      { "nl": "Wij zullen u een mail sturen.", "en": "We will send you an email." }
+    ],
+    "exercises": [
+      { "prompt": "Ik ___ u doorverbinden.", "answer": "zal", "hint": "zullen" },
+      { "prompt": "Ze ___ u morgen terugbellen.", "answer": "zal", "hint": "zullen" },
+      { "prompt": "Wij ___ het morgen doen.", "answer": "zullen", "hint": "zullen" },
+      { "prompt": "Ik bel u morgen ___.", "answer": "terug", "hint": "terugbellen" },
+      { "prompt": "De lijn is ___.", "answer": "bezet", "hint": "busy" },
+      { "prompt": "___ Sara.", "answer": "Met", "hint": "answering the phone" }
+    ]
+  },
+  "dialogue": {
+    "title": "Kunt u mij terugbellen?",
+    "scene": "Sara calls a client's office to speak to Mr Jansen, but he's busy, so she leaves a voicemail.",
+    "lines": [
+      { "speaker": "Receptionist", "nl": "Dag, kan ik u helpen?", "en": "Hello, can I help you?" },
+      { "speaker": "Sara", "nl": "Dag, met Sara. Ik bel voor meneer Jansen.", "en": "Hello, this is Sara. I'm calling for Mr Jansen." },
+      { "speaker": "Receptionist", "nl": "Momentje, ik verbind u door.", "en": "One moment, I'll put you through.", "gap": "Momentje" },
+      { "speaker": "Receptionist", "nl": "Sorry, de lijn is bezet.", "en": "Sorry, the line is busy.", "gap": "bezet" },
+      { "speaker": "Receptionist", "nl": "Wilt u even wachten, of zal hij u terugbellen?", "en": "Would you like to hold, or shall he call you back?", "gap": "terugbellen" },
+      { "speaker": "Sara", "nl": "Ik spreek liever een bericht in.", "en": "I'd rather leave a message.", "gap": "bericht" },
+      { "speaker": "Receptionist", "nl": "Goed, ik verbind u door met zijn voicemail.", "en": "All right, I'll put you through to his voicemail." },
+      { "speaker": "Voicemail", "nl": "Dit is de voicemail van Erik Jansen. Ik ben nu niet bereikbaar. Spreek een bericht in.", "en": "This is Erik Jansen's voicemail. I can't take your call right now. Please leave a message." },
+      { "speaker": "Sara", "nl": "Dag meneer Jansen, met Sara. Ik bel over de presentatie van vrijdag.", "en": "Hello Mr Jansen, this is Sara. I'm calling about Friday's presentation." },
+      { "speaker": "Sara", "nl": "Kunt u mij terugbellen? Ik ben vandaag op mijn mobiel bereikbaar.", "en": "Could you call me back? You can reach me on my mobile today.", "gap": "bereikbaar" },
+      { "speaker": "Sara", "nl": "Mijn nummer is 06 12345678.", "en": "My number is 06 12345678." },
+      { "speaker": "Sara", "nl": "Ik zal u ook een mail sturen. Dank u wel, dag!", "en": "I'll send you an email as well. Thank you, goodbye!" }
+    ]
+  }
+}

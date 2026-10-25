@@ -1,0 +1,64 @@
+{
+  "day": 33,
+  "title": "Waarom?",
+  "words": [
+    { "id": "waarom", "nl": "waarom", "en": "why", "example": { "nl": "Waarom leer jij Nederlands?", "en": "Why are you learning Dutch?" } },
+    { "id": "omdat", "nl": "omdat", "en": "because", "example": { "nl": "Ik leer Nederlands, omdat ik hier woon.", "en": "I'm learning Dutch because I live here." } },
+    { "id": "reden", "nl": "reden", "en": "reason", "article": "de", "plural": "redenen", "forms": ["redentje"], "example": { "nl": "Ik had twee redenen.", "en": "I had two reasons." } },
+    { "id": "liefde", "nl": "liefde", "en": "love", "article": "de", "plural": "liefdes", "example": { "nl": "Ze is voor de liefde naar Nederland gekomen.", "en": "She came to the Netherlands for love." } },
+    { "id": "verliefd", "nl": "verliefd", "en": "in love", "forms": ["verliefder", "verliefdst", "verliefde", "verliefdere", "verliefdste"], "example": { "nl": "Hij is verliefd op een Nederlandse vrouw.", "en": "He's in love with a Dutch woman." } },
+    { "id": "kans", "nl": "kans", "en": "chance, opportunity", "article": "de", "plural": "kansen", "forms": ["kansje"], "example": { "nl": "Dit is een grote kans voor mij.", "en": "This is a big opportunity for me." } },
+    { "id": "leven", "nl": "leven", "en": "life; to live", "article": "het", "plural": "levens", "forms": ["leventje"], "example": { "nl": "Het leven in Nederland is duur.", "en": "Life in the Netherlands is expensive." } },
+    { "id": "salaris", "nl": "salaris", "en": "salary", "article": "het", "plural": "salarissen", "forms": ["salarisje"], "example": { "nl": "Het salaris is hier beter.", "en": "The salary is better here." } },
+    { "id": "toekomst", "nl": "toekomst", "en": "future", "article": "de", "plural": "toekomsten", "example": { "nl": "Ik zie mijn toekomst in Nederland.", "en": "I see my future in the Netherlands." } },
+    { "id": "kiezen", "nl": "kiezen", "en": "to choose", "forms": ["kies", "koos", "kiest", "kozen", "kiezend", "gekozen"], "example": { "nl": "Ik heb voor Amsterdam gekozen.", "en": "I chose Amsterdam." } },
+    { "id": "besluiten", "nl": "besluiten", "en": "to decide", "forms": ["besluit", "besloot", "besloten", "besluitend"], "example": { "nl": "Ik heb het besloten: ik ga naar Nederland.", "en": "I've decided: I'm going to the Netherlands." } },
+    { "id": "buitenland", "nl": "buitenland", "en": "abroad (lit. outside-land)", "article": "het", "example": { "nl": "Ik wilde graag in het buitenland werken.", "en": "I really wanted to work abroad." } }
+  ],
+  "grammar": {
+    "title": "Why? Because: omdat + verb at the end",
+    "points": [
+      "Waarom? asks for a reason. You usually answer with omdat (because).",
+      "omdat starts a subordinate clause: the conjugated verb moves to the end. Ik woon hier. → …, omdat ik hier woon.",
+      "With two verbs, both go to the end: …, omdat ik hier wil blijven.",
+      "Separable verbs join together again at the end: Ik sta vroeg op. → …, omdat ik vroeg opsta.",
+      "If the sentence starts with the omdat-clause, the main clause starts with its verb: Omdat het salaris goed is, kies ik deze baan.",
+      "want also means 'because', but keeps normal word order: …, want ik woon hier. A want-clause can never come first."
+    ],
+    "examples": [
+      { "nl": "Waarom woon je in Nederland? — Omdat ik hier werk.", "en": "Why do you live in the Netherlands? — Because I work here." },
+      { "nl": "Ik leer Nederlands, omdat ik hier wil blijven.", "en": "I'm learning Dutch because I want to stay here." },
+      { "nl": "Sara is verhuisd, omdat ze een nieuwe baan had.", "en": "Sara moved because she had a new job." },
+      { "nl": "Omdat het salaris goed is, kies ik deze baan.", "en": "Because the salary is good, I'm choosing this job." },
+      { "nl": "Hij is moe, omdat hij altijd vroeg opstaat.", "en": "He's tired because he always gets up early." },
+      { "nl": "Ik kom niet, want ik ben ziek. / Ik kom niet, omdat ik ziek ben.", "en": "I'm not coming, because I'm ill." }
+    ],
+    "exercises": [
+      { "prompt": "Ik leer Nederlands, omdat ik in Utrecht ___.", "answer": "woon", "hint": "wonen" },
+      { "prompt": "Ze is verdrietig, omdat ze haar familie niet ___.", "answer": "ziet", "hint": "zien" },
+      { "prompt": "Ik blijf thuis, ___ ik ziek ben.", "answer": "omdat", "hint": "want / omdat" },
+      { "prompt": "Hij komt niet, ___ hij is ziek.", "answer": "want", "hint": "want / omdat" },
+      { "prompt": "Omdat het salaris goed is, ___ ik deze baan.", "answer": "kies", "hint": "kiezen" },
+      { "prompt": "Ik ben moe, omdat ik om zes uur ___.", "answer": "opsta", "hint": "opstaan" }
+    ]
+  },
+  "dialogue": {
+    "title": "Waarom Nederland?",
+    "scene": "At lunch, Fatima asks Sara why she moved to the Netherlands.",
+    "lines": [
+      { "speaker": "Fatima", "nl": "Sara, waarom ben je naar Nederland gekomen?", "en": "Sara, why did you come to the Netherlands?", "gap": "waarom" },
+      { "speaker": "Sara", "nl": "Ik had drie redenen.", "en": "I had three reasons." },
+      { "speaker": "Fatima", "nl": "Drie? Wat waren ze?", "en": "Three? What were they?" },
+      { "speaker": "Sara", "nl": "Eerst: ik wilde graag in het buitenland werken, omdat ik een nieuw leven wilde.", "en": "First: I really wanted to work abroad, because I wanted a new life.", "gap": "omdat" },
+      { "speaker": "Fatima", "nl": "En de tweede reden?", "en": "And the second reason?" },
+      { "speaker": "Sara", "nl": "Het salaris! In Nederland is het salaris beter dan in Spanje.", "en": "The salary! In the Netherlands the salary is better than in Spain.", "gap": "salaris" },
+      { "speaker": "Fatima", "nl": "Ja, maar het leven is hier ook duurder.", "en": "Yes, but life is more expensive here too." },
+      { "speaker": "Sara", "nl": "Dat is zo.", "en": "That's true." },
+      { "speaker": "Fatima", "nl": "En de derde reden?", "en": "And the third reason?" },
+      { "speaker": "Sara", "nl": "Die zeg ik niet!", "en": "I'm not telling!" },
+      { "speaker": "Fatima", "nl": "Ben je soms verliefd?", "en": "Are you in love, by any chance?", "gap": "verliefd" },
+      { "speaker": "Sara", "nl": "Nee! Ik heb voor Nederland gekozen, omdat ik hier een mooie toekomst zie.", "en": "No! I chose the Netherlands because I see a bright future here.", "gap": "gekozen" },
+      { "speaker": "Fatima", "nl": "Ja ja... Wij gaan het zien!", "en": "Sure, sure... We'll see!" }
+    ]
+  }
+}

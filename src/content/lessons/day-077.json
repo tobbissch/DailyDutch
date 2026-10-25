@@ -1,0 +1,65 @@
+{
+  "day": 77,
+  "title": "Het weerbericht",
+  "names": ["Zandvoort"],
+  "words": [
+    { "id": "weerbericht", "nl": "weerbericht", "en": "weather forecast", "article": "het", "plural": "weerberichten", "forms": ["weerberichtje"], "example": { "nl": "Heb je het weerbericht gehoord?", "en": "Have you heard the weather forecast?" } },
+    { "id": "verwachting", "nl": "verwachting", "en": "expectation; forecast", "article": "de", "plural": "verwachtingen", "forms": ["verwachtinkje"], "example": { "nl": "De verwachting voor morgen is regen.", "en": "The forecast for tomorrow is rain." } },
+    { "id": "temperatuur", "nl": "temperatuur", "en": "temperature", "article": "de", "plural": "temperaturen", "forms": ["temperatuurtje"], "example": { "nl": "De temperatuur is vandaag twaalf graden.", "en": "The temperature today is twelve degrees." } },
+    { "id": "graad", "nl": "graad", "en": "degree", "article": "de", "plural": "graden", "forms": ["graadje"], "example": { "nl": "Het is vijf graden.", "en": "It's five degrees." } },
+    { "id": "wolk", "nl": "wolk", "en": "cloud", "article": "de", "plural": "wolken", "forms": ["wolkje"], "example": { "nl": "Er zijn veel wolken vandaag.", "en": "There are a lot of clouds today." } },
+    { "id": "bewolkt", "nl": "bewolkt", "en": "cloudy", "forms": ["bewolkter", "bewolktst", "bewolkte", "bewolktere", "bewolktste"], "example": { "nl": "Het is bewolkt, maar droog.", "en": "It's cloudy but dry." } },
+    { "id": "zonnig", "nl": "zonnig", "en": "sunny", "forms": ["zonniger", "zonnigst", "zonnige", "zonnigere", "zonnigste"], "example": { "nl": "Morgen wordt een zonnige dag.", "en": "Tomorrow will be a sunny day." } },
+    { "id": "storm", "nl": "storm", "en": "storm, gale", "article": "de", "plural": "stormen", "forms": ["stormpje"], "example": { "nl": "Er komt een storm uit het westen.", "en": "A storm is coming from the west." } },
+    { "id": "mist", "nl": "mist", "en": "fog, mist", "article": "de", "plural": "misten", "forms": ["mistje"], "example": { "nl": "In de ochtend is er veel mist.", "en": "There's a lot of fog in the morning." } },
+    { "id": "hagel", "nl": "hagel", "en": "hail", "article": "de", "example": { "nl": "Kijk, er valt hagel!", "en": "Look, it's hailing!" } },
+    { "id": "vriezen", "nl": "vriezen", "en": "to freeze", "forms": ["vries", "vroor", "vriest", "vroren", "vriezend", "gevroren"], "example": { "nl": "Het vriest in de nacht.", "en": "It's freezing at night." } },
+    { "id": "dooien", "nl": "dooien", "en": "to thaw", "forms": ["dooi", "dooide", "dooit", "dooiden", "dooiend", "gedooid"], "example": { "nl": "Het dooit en de sneeuw is weg.", "en": "It's thawing and the snow is gone." } },
+    { "id": "noorden", "nl": "noorden", "en": "north", "article": "het", "example": { "nl": "In het noorden is het kouder.", "en": "It's colder in the north." } },
+    { "id": "zuiden", "nl": "zuiden", "en": "south", "article": "het", "example": { "nl": "In het zuiden is het warmer.", "en": "It's warmer in the south." } },
+    { "id": "oosten", "nl": "oosten", "en": "east", "article": "het", "example": { "nl": "De zon komt op in het oosten.", "en": "The sun rises in the east." } },
+    { "id": "westen", "nl": "westen", "en": "west", "article": "het", "example": { "nl": "De wind komt uit het westen.", "en": "The wind is coming from the west." } }
+  ],
+  "grammar": {
+    "title": "The future with zullen; het regent, het vriest",
+    "points": [
+      "zullen + infinitive (at the end) talks about the future or makes a prediction: Morgen zal het regenen. Forms: ik/hij/zij zal, jij/u zult, wij/jullie/zij zullen.",
+      "In everyday speech Dutch often uses the present tense with a time word, or gaan: Morgen regent het. Het gaat regenen.",
+      "Zullen we ...? is a suggestion, like 'Shall we ...?': Zullen we naar het strand gaan?",
+      "Weather verbs always have het as subject: het regent, het sneeuwt, het vriest, het dooit, het onweert.",
+      "Temperatures: Het is tien graden. Directions take het and in: in het noorden, in het zuiden, in het oosten, in het westen."
+    ],
+    "examples": [
+      { "nl": "Morgen zal het in het noorden regenen.", "en": "Tomorrow it will rain in the north." },
+      { "nl": "Het wordt zonnig en warm in het zuiden.", "en": "It will be sunny and warm in the south." },
+      { "nl": "In de nacht zal het vriezen.", "en": "It will freeze during the night." },
+      { "nl": "Het is vandaag vijf graden en bewolkt.", "en": "Today it's five degrees and cloudy." },
+      { "nl": "Zondag gaat het dooien.", "en": "On Sunday it's going to thaw." },
+      { "nl": "Zullen we morgen naar het strand gaan?", "en": "Shall we go to the beach tomorrow?" }
+    ],
+    "exercises": [
+      { "prompt": "Morgen ___ het in het westen regenen.", "answer": "zal", "hint": "zullen" },
+      { "prompt": "In januari ___ het vaak.", "answer": "vriest", "hint": "vriezen" },
+      { "prompt": "Het wordt morgen twintig ___.", "answer": "graden", "hint": "degrees" },
+      { "prompt": "Er is veel ___; ik zie de brug niet.", "answer": "mist", "hint": "fog" },
+      { "prompt": "___ we morgen fietsen?", "answer": "Zullen", "hint": "shall we" }
+    ]
+  },
+  "dialogue": {
+    "title": "Naar Zandvoort?",
+    "scene": "Sara and Tom listen to the forecast on the radio before a weekend trip to the beach at Zandvoort.",
+    "lines": [
+      { "speaker": "Radio", "nl": "Hier is het weerbericht. Morgen wordt het in het noorden en het westen bewolkt.", "en": "Here is the weather forecast. Tomorrow it will be cloudy in the north and west.", "gap": "bewolkt" },
+      { "speaker": "Radio", "nl": "In het zuiden zal het zonnig zijn, met een temperatuur van achttien graden.", "en": "In the south it will be sunny, with a temperature of eighteen degrees.", "gap": "graden" },
+      { "speaker": "Radio", "nl": "Op zondag komt er storm, met regen en hagel.", "en": "On Sunday a storm is coming, with rain and hail." },
+      { "speaker": "Sara", "nl": "Storm? Maar we zouden zondag naar Zandvoort gaan!", "en": "A storm? But we were going to Zandvoort on Sunday!" },
+      { "speaker": "Tom", "nl": "Dan gaan we zaterdag. Wat is de verwachting voor zaterdag?", "en": "Then we'll go on Saturday. What's the forecast for Saturday?", "gap": "verwachting" },
+      { "speaker": "Sara", "nl": "Bewolkt, maar droog. Het wordt ongeveer vijftien graden.", "en": "Cloudy but dry. It'll be about fifteen degrees." },
+      { "speaker": "Tom", "nl": "Dat is niet slecht. Zal ik alvast kaartjes kopen?", "en": "That's not bad. Shall I buy tickets already?", "gap": "Zal" },
+      { "speaker": "Sara", "nl": "Ja, goed. En ik neem een warme trui mee, want aan zee is het altijd kouder.", "en": "Yes, fine. And I'll bring a warm jumper, because it's always colder by the sea." },
+      { "speaker": "Tom", "nl": "Slim! In de ochtend is er misschien wat mist.", "en": "Smart! There might be some fog in the morning." },
+      { "speaker": "Sara", "nl": "Dat maakt niet uit. Als het maar niet vriest!", "en": "That doesn't matter. As long as it doesn't freeze!" },
+      { "speaker": "Tom", "nl": "Nee, het vriest niet meer. Het dooit al sinds dinsdag.", "en": "No, it's not freezing any more. It's been thawing since Tuesday.", "gap": "dooit" }
+    ]
+  }
+}

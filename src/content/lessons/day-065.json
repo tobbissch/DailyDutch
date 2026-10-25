@@ -1,0 +1,67 @@
+{
+  "day": 65,
+  "title": "Hobby's",
+  "names": ["Sara", "Tom", "Fatima", "Peter", "Noor", "Daan", "Henk", "Ria", "Oma Riet", "Nederland"],
+  "words": [
+    { "id": "hobby", "nl": "hobby", "en": "hobby", "article": "de", "plural": "hobby's", "forms": ["hobby'tje"], "example": { "nl": "Wat zijn je hobby's?", "en": "What are your hobbies?" } },
+    { "id": "schilderen", "nl": "schilderen", "en": "to paint", "forms": ["schilder", "schilderde", "schildert", "schilderden", "schilderend", "geschilderd"], "example": { "nl": "Oma Riet schildert graag.", "en": "Grandma Riet likes painting." } },
+    { "id": "fotograferen", "nl": "fotograferen", "en": "to take photos", "forms": ["fotografeer", "fotografeerde", "fotografeert", "fotografeerden", "fotograferend", "gefotografeerd"], "example": { "nl": "Fatima fotografeert graag in de stad.", "en": "Fatima likes taking photos in the city." } },
+    { "id": "instrument", "nl": "instrument", "en": "(musical) instrument", "article": "het", "plural": "instrumenten", "forms": ["instrumentje"], "example": { "nl": "Speel jij een instrument?", "en": "Do you play an instrument?" } },
+    { "id": "gitaar", "nl": "gitaar", "en": "guitar", "article": "de", "plural": "gitaren", "forms": ["gitaartje"], "example": { "nl": "Tom speelt gitaar.", "en": "Tom plays the guitar." } },
+    { "id": "piano", "nl": "piano", "en": "piano", "article": "de", "plural": "piano's", "forms": ["pianootje"], "example": { "nl": "Noor speelt piano.", "en": "Noor plays the piano." } },
+    { "id": "tuin-noun", "nl": "tuin", "en": "garden", "article": "de", "plural": "tuinen", "forms": ["tuintje"], "example": { "nl": "Henk werkt graag in de tuin.", "en": "Henk likes working in the garden." } },
+    { "id": "tuinieren", "nl": "tuinieren", "en": "to garden", "forms": ["tuinier", "tuinierde", "tuiniert", "tuinierden", "tuinierend", "getuinierd"], "example": { "nl": "Ria tuiniert elke zaterdag.", "en": "Ria does the gardening every Saturday." } },
+    { "id": "breien", "nl": "breien", "en": "to knit", "forms": ["brei", "breide", "breit", "breiden", "breiend", "gebreid"], "example": { "nl": "Oma Riet breit een trui voor Daan.", "en": "Grandma Riet is knitting a jumper for Daan." } },
+    { "id": "verzamelen", "nl": "verzamelen", "en": "to collect", "forms": ["verzamel", "verzamelde", "verzamelt", "verzamelden", "verzamelend", "verzameld"], "example": { "nl": "Ik verzamel oude foto's.", "en": "I collect old photos." } },
+    { "id": "club", "nl": "club", "en": "club", "article": "de", "plural": "clubs", "forms": ["clubje", "cluppie"], "example": { "nl": "De club heeft veertig leden.", "en": "The club has forty members." } },
+    { "id": "lid", "nl": "lid", "en": "member", "article": "het", "plural": "leden", "forms": ["lidje", "ledeken"], "example": { "nl": "Ik ben lid van de sportschool.", "en": "I'm a member of the gym." } },
+    { "id": "vereniging", "nl": "vereniging", "en": "club, association", "article": "de", "plural": "verenigingen", "forms": ["vereniginkje"], "example": { "nl": "In Nederland zijn veel mensen lid van een vereniging.", "en": "In the Netherlands many people belong to a club." } },
+    { "id": "toernooi", "nl": "toernooi", "en": "tournament", "article": "het", "plural": "toernooien", "forms": ["toernooitje"], "example": { "nl": "Zaterdag speelt Daan een toernooi.", "en": "Daan is playing in a tournament on Saturday." } }
+  ],
+  "grammar": {
+    "title": "Saying what you like: graag and houden van",
+    "points": [
+      "To say you like doing something, put graag after the verb: Ik schilder graag. = I like painting.",
+      "niet graag = don't like doing: Ik brei niet graag. liever = prefer: Ik wandel liever.",
+      "houden van = to love, to be really fond of. It works with a noun: Ik hou van muziek.",
+      "houden van also works with an infinitive used as a noun: Ik hou van koken. = I love cooking.",
+      "In speech people say ik hou; in writing you also see ik houd. Both are correct.",
+      "You can also use vinden + adjective: Ik vind tuinieren leuk."
+    ],
+    "examples": [
+      { "nl": "Ik fotografeer graag.", "en": "I like taking photos." },
+      { "nl": "Peter sport niet graag. Hij wandelt liever.", "en": "Peter doesn't like sports. He prefers walking." },
+      { "nl": "Ik hou van muziek.", "en": "I love music." },
+      { "nl": "Henk houdt van tuinieren.", "en": "Henk loves gardening." },
+      { "nl": "Speel je graag piano?", "en": "Do you like playing the piano?" },
+      { "nl": "Ik vind breien heel rustig.", "en": "I find knitting very relaxing." }
+    ],
+    "exercises": [
+      { "prompt": "Ik schilder ___.", "answer": "graag", "hint": "like doing" },
+      { "prompt": "Henk ___ van tuinieren.", "answer": "houdt", "hint": "houden" },
+      { "prompt": "Ik sport niet graag. Ik wandel ___.", "answer": "liever", "hint": "prefer" },
+      { "prompt": "Wij houden ___ muziek.", "answer": "van", "hint": "preposition" },
+      { "prompt": "Daan ___ oude kaarten.", "answer": "verzamelt", "hint": "verzamelen" },
+      { "prompt": "Ik ben ___ van een club.", "answer": "lid", "hint": "member" }
+    ]
+  },
+  "dialogue": {
+    "title": "Wat doe jij graag?",
+    "scene": "During lunch, Sara, Fatima and their manager Peter talk about their hobbies.",
+    "lines": [
+      { "speaker": "Peter", "nl": "Wat doen jullie graag in je vrije tijd?", "en": "What do you like doing in your free time?", "gap": "graag" },
+      { "speaker": "Fatima", "nl": "Ik fotografeer graag. Ik ben lid van een club.", "en": "I like taking photos. I'm a member of a club.", "gap": "lid" },
+      { "speaker": "Sara", "nl": "Leuk! Wat fotografeer je?", "en": "Nice! What do you take photos of?" },
+      { "speaker": "Fatima", "nl": "Mensen in de stad, en soms de grachten.", "en": "People in the city, and sometimes the canals." },
+      { "speaker": "Peter", "nl": "En jij, Sara?", "en": "And you, Sara?" },
+      { "speaker": "Sara", "nl": "Ik hou van muziek. Ik speel gitaar, maar niet zo goed.", "en": "I love music. I play the guitar, but not very well.", "gap": "hou van" },
+      { "speaker": "Peter", "nl": "Ik speel ook een instrument: piano. Al dertig jaar.", "en": "I play an instrument too: the piano. For thirty years now.", "gap": "instrument" },
+      { "speaker": "Fatima", "nl": "Echt? Dat wist ik niet!", "en": "Really? I didn't know that!" },
+      { "speaker": "Sara", "nl": "Sport je ook, Peter?", "en": "Do you do sports too, Peter?" },
+      { "speaker": "Peter", "nl": "Nee, ik sport niet graag. Ik wandel liever. En ik tuinier.", "en": "No, I don't like sports. I prefer walking. And I garden.", "gap": "liever" },
+      { "speaker": "Sara", "nl": "De oma van Tom breit en schildert nog elke dag.", "en": "Tom's grandma still knits and paints every day." },
+      { "speaker": "Fatima", "nl": "Zullen we samen een club beginnen? Een club voor hobby's!", "en": "Shall we start a club together? A hobby club!" },
+      { "speaker": "Peter", "nl": "Goed idee! Ik word graag lid.", "en": "Good idea! I'd love to join." }
+    ]
+  }
+}

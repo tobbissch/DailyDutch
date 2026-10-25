@@ -1,0 +1,69 @@
+{
+  "day": 66,
+  "title": "Voetbal",
+  "names": ["Sara", "Tom", "Daan", "Utrecht", "Ajax"],
+  "words": [
+    { "id": "voetbal", "nl": "voetbal", "en": "football, soccer", "article": "het", "example": { "nl": "Tom kijkt elke week voetbal.", "en": "Tom watches football every week." } },
+    { "id": "wedstrijd", "nl": "wedstrijd", "en": "match, game, competition", "article": "de", "plural": "wedstrijden", "forms": ["wedstrijdje"], "example": { "nl": "De wedstrijd begint om acht uur.", "en": "The match starts at eight o'clock." } },
+    { "id": "stadion", "nl": "stadion", "en": "stadium", "article": "het", "plural": "stadions", "forms": ["stadionnetje"], "example": { "nl": "Het stadion is vol.", "en": "The stadium is full." } },
+    { "id": "team-noun", "nl": "team", "en": "team", "article": "het", "plural": "teams", "forms": ["teampje"], "example": { "nl": "Het team van Utrecht speelt vandaag thuis.", "en": "Utrecht's team is playing at home today." } },
+    { "id": "scoren", "nl": "scoren", "en": "to score", "forms": ["scoor", "scoorde", "scoort", "scoorden", "scorend", "gescoord"], "example": { "nl": "Wie heeft er gescoord?", "en": "Who scored?" } },
+    { "id": "doelpunt", "nl": "doelpunt", "en": "goal", "article": "het", "plural": "doelpunten", "forms": ["doelpuntje"], "example": { "nl": "Wat een mooi doelpunt!", "en": "What a great goal!" } },
+    { "id": "winnen", "nl": "winnen", "en": "to win", "forms": ["win", "won", "wint", "wont", "wonnen", "winnend", "gewonnen"], "example": { "nl": "Utrecht heeft met twee-één gewonnen.", "en": "Utrecht won two-one." } },
+    { "id": "verliezen", "nl": "verliezen", "en": "to lose", "forms": ["verlies", "verloor", "verliest", "verloort", "verloren", "verliezend"], "example": { "nl": "Ajax verloor de wedstrijd.", "en": "Ajax lost the match." } },
+    { "id": "gelijkspelen", "nl": "gelijkspelen", "en": "to draw (a match)", "forms": ["speel gelijk", "speelt gelijk", "spelen gelijk", "speelde gelijk", "speelden gelijk", "gelijkspeel", "gelijkspeelt", "gelijkspeelde", "gelijkspeelden", "gelijkgespeeld"], "example": { "nl": "De teams speelden gelijk: één-één.", "en": "The teams drew: one-all." } },
+    { "id": "speler", "nl": "speler", "en": "player", "article": "de", "plural": "spelers", "forms": ["spelertje"], "example": { "nl": "Hij is de beste speler van het team.", "en": "He's the best player on the team." } },
+    { "id": "scheidsrechter", "nl": "scheidsrechter", "en": "referee", "article": "de", "plural": "scheidsrechters", "forms": ["scheidsrechtertje"], "example": { "nl": "De scheidsrechter is vandaag streng.", "en": "The referee is strict today." } },
+    { "id": "supporter", "nl": "supporter", "en": "supporter, fan", "article": "de", "plural": "supporters", "forms": ["supportertje"], "example": { "nl": "De supporters zingen in het stadion.", "en": "The fans are singing in the stadium." } },
+    { "id": "kampioen", "nl": "kampioen", "en": "champion", "article": "de", "plural": "kampioenen", "forms": ["kampioentje"], "example": { "nl": "Wie wordt dit jaar kampioen?", "en": "Who'll be champion this year?" } },
+    { "id": "bal", "nl": "bal", "en": "ball", "article": "de", "plural": "ballen", "forms": ["balletje"], "example": { "nl": "Daan speelt met een bal in de tuin.", "en": "Daan is playing with a ball in the garden." } },
+    { "id": "schieten", "nl": "schieten", "en": "to shoot", "forms": ["schiet", "schoot", "schoten", "schietend", "geschoten"], "example": { "nl": "Hij schiet en scoort!", "en": "He shoots and scores!" } },
+    { "id": "tegen", "nl": "tegen", "en": "against; to (tegen iemand zeggen)", "example": { "nl": "Vandaag speelt Utrecht tegen Ajax.", "en": "Today Utrecht is playing against Ajax." } }
+  ],
+  "grammar": {
+    "title": "Better, best, as good as",
+    "points": [
+      "Comparative: adjective + -er, often with dan (than): snel → sneller dan. After an r add -der: duur → duurder.",
+      "Superlative: adjective + -st. Before a noun it gets -e: de snelste speler. After a verb: het snelst.",
+      "Irregular: goed – beter – best; veel – meer – meest; graag – liever – liefst.",
+      "Equal: zo … als or even … als (as … as): Utrecht is zo goed als Ajax.",
+      "Not equal: niet zo … als (not as … as): Tom is niet zo snel als Daan."
+    ],
+    "examples": [
+      { "nl": "Ajax is beter dan Utrecht.", "en": "Ajax is better than Utrecht." },
+      { "nl": "Deze speler is sneller dan die speler.", "en": "This player is faster than that player." },
+      { "nl": "Hij is de beste speler van het team.", "en": "He's the best player on the team." },
+      { "nl": "Vandaag is Utrecht zo goed als Ajax.", "en": "Today Utrecht is as good as Ajax." },
+      { "nl": "Tom is niet zo snel als Daan.", "en": "Tom isn't as fast as Daan." },
+      { "nl": "Dit was de mooiste wedstrijd van het jaar.", "en": "This was the best match of the year." }
+    ],
+    "exercises": [
+      { "prompt": "Ajax is ___ dan Utrecht.", "answer": "beter", "hint": "goed" },
+      { "prompt": "Hij is de ___ speler van het team.", "answer": "beste", "hint": "goed" },
+      { "prompt": "Utrecht is vandaag zo goed ___ Ajax.", "answer": "als", "hint": "as" },
+      { "prompt": "Dit stadion is ___ dan dat stadion.", "answer": "groter", "hint": "groot" },
+      { "prompt": "Daan rent ___ dan Tom.", "answer": "sneller", "hint": "snel" },
+      { "prompt": "Dit was de ___ wedstrijd van het jaar.", "answer": "mooiste", "hint": "mooi" }
+    ]
+  },
+  "dialogue": {
+    "title": "In het stadion",
+    "scene": "Tom takes Sara to her first football match: FC Utrecht against Ajax.",
+    "lines": [
+      { "speaker": "Sara", "nl": "Wat een groot stadion! En wat een herrie!", "en": "What a big stadium! And what a racket!", "gap": "stadion" },
+      { "speaker": "Tom", "nl": "Dit is de belangrijkste wedstrijd van het jaar: Utrecht tegen Ajax.", "en": "This is the most important match of the year: Utrecht against Ajax.", "gap": "belangrijkste" },
+      { "speaker": "Sara", "nl": "Is Ajax beter dan Utrecht?", "en": "Is Ajax better than Utrecht?" },
+      { "speaker": "Tom", "nl": "Op papier wel. Maar vandaag is Utrecht net zo goed als Ajax!", "en": "On paper, yes. But today Utrecht is just as good as Ajax!", "gap": "zo goed als" },
+      { "speaker": "Sara", "nl": "Wie is de beste speler van Utrecht?", "en": "Who's Utrecht's best player?" },
+      { "speaker": "Tom", "nl": "Nummer negen. Hij is de snelste speler van het team.", "en": "Number nine. He's the fastest player on the team." },
+      { "speaker": "Sara", "nl": "Kijk! Nummer negen heeft de bal. Hij schiet… en scoort!", "en": "Look! Number nine has the ball. He shoots… and scores!", "gap": "scoort" },
+      { "speaker": "Tom", "nl": "Doelpunt! Het is één-nul!", "en": "Goal! It's one-nil!" },
+      { "speaker": "Sara", "nl": "De supporters van Ajax zingen niet meer.", "en": "The Ajax fans have stopped singing." },
+      { "speaker": "Tom", "nl": "Nee, ze zijn teleurgesteld.", "en": "No, they're disappointed." },
+      { "speaker": "Sara", "nl": "De scheidsrechter is wel streng.", "en": "The referee is pretty strict." },
+      { "speaker": "Tom", "nl": "Ja, hij is strenger dan vorige week. Maar het maakt niet uit: we hebben gewonnen!", "en": "Yes, he's stricter than last week. But it doesn't matter: we've won!" },
+      { "speaker": "Sara", "nl": "Voetbal is leuker dan ik dacht!", "en": "Football is more fun than I thought!", "gap": "leuker" },
+      { "speaker": "Tom", "nl": "Misschien worden we dit jaar kampioen!", "en": "Maybe we'll be champions this year!" }
+    ]
+  }
+}
