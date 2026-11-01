@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { InstallBanner, NoVoiceNotice } from './components/Notices'
 import { Home } from './pages/Home'
 import { LessonPage } from './pages/LessonPage'
 import { MyWords } from './pages/MyWords'
@@ -45,6 +46,8 @@ export function App() {
         </nav>
       </header>
       <main>
+        <InstallBanner />
+        {path !== '/sounds' && <NoVoiceNotice /> /* Sounds page has its own message */}
         <Page key={path} path={path} />
       </main>
     </>

@@ -1,8 +1,17 @@
 // Offline support. Pages: network first, fall back to cache. Hashed assets: cache first.
 // Bump VERSION to drop old caches.
-const VERSION = 'v1'
+const VERSION = 'v2'
 const CACHE = `dailydutch-${VERSION}`
-const SHELL = ['./', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png', 'favicon-32.png']
+const SHELL = [
+  './',
+  'manifest.webmanifest',
+  'android-chrome-192x192.png',
+  'android-chrome-512x512.png',
+  'apple-touch-icon.png',
+  'favicon.ico',
+  'favicon-16x16.png',
+  'favicon-32x32.png',
+]
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()))

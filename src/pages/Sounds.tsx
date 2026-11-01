@@ -1,9 +1,9 @@
 import { Speak } from '../components/Speak'
 import { soundRules } from '../content/sounds'
-import { useCanSpeak, useVoiceName } from '../lib/speech'
+import { useNoDutchVoice, useVoiceName } from '../lib/speech'
 
 export function Sounds() {
-  const canSpeak = useCanSpeak()
+  const noVoice = useNoDutchVoice()
   const voiceName = useVoiceName()
   return (
     <section className="sounds">
@@ -12,10 +12,10 @@ export function Sounds() {
         Dutch uses the same letters as English, but many sound different. Tap the speaker to hear each example.
         {voiceName && <> Voice: {voiceName}.</>}
       </p>
-      {!canSpeak && (
+      {noVoice && (
         <p className="panel">
-          This device has no Dutch voice, so the speaker buttons are hidden. On a phone they usually work; on Windows
-          you can add Dutch under Settings → Time &amp; language → Speech.
+          Your device has no Dutch voice installed, so listening to the audio is not available. You can still read
+          the rules and examples below.
         </p>
       )}
       {soundRules.map((rule) => (

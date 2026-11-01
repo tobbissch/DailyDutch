@@ -355,6 +355,40 @@ button.speak {
   line-height: 0;
 }
 
+.notice {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.notice p {
+  margin: 0;
+  flex: 1 1 16rem;
+}
+
+.notice-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+button.small-btn {
+  padding: 0.35rem 0.9rem;
+  font-size: 0.9rem;
+}
+
+.inline-icon {
+  vertical-align: -2px;
+}
+
 .sounds .rule {
   margin-bottom: 1.5rem;
 }

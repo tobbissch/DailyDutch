@@ -19,12 +19,24 @@ function findVoice(): SpeechSynthesisVoice | null {
 
 // Voices load asynchronously in most browsers; re-check when the list changes.
 let voice = findVoice()
+// Whether the voice list has loaded, so "no Dutch voice" is a real answer and not "not loaded yet".
+// Some browsers (iOS Safari) never fire voiceschanged, so give up waiting after a few seconds.
+let ready = !supported || speechSynthesis.getVoices().length > 0
 const listeners = new Set<() => void>()
+const notify = () => listeners.forEach((l) => l())
 if (supported) {
   speechSynthesis.addEventListener('voiceschanged', () => {
     voice = findVoice()
-    listeners.forEach((l) => l())
+    ready = true
+    notify()
   })
+  if (!ready) {
+    setTimeout(() => {
+      voice = findVoice()
+      ready = true
+      notify()
+    }, 3000)
+  }
 }
 
 function subscribe(cb: () => void) {
@@ -35,6 +47,11 @@ function subscribe(cb: () => void) {
 /** Whether this device can speak Dutch. */
 export function useCanSpeak(): boolean {
   return useSyncExternalStore(subscribe, () => voice !== null)
+}
+
+/** True once we know for sure the device has no Dutch voice (voice list loaded, none Dutch). */
+export function useNoDutchVoice(): boolean {
+  return useSyncExternalStore(subscribe, () => ready && voice === null)
 }
 
 /** Name of the voice in use, e.g. "Google Nederlands", or null if none. */

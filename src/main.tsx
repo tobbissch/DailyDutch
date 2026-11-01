@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { App } from './App'
 import './index.css'
+import './lib/install' // start listening for the install prompt before React mounts
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
