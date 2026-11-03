@@ -1,5 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import '@fontsource-variable/figtree/wght.css'
+import '@fontsource-variable/fraunces/wght.css'
 import { App } from './App'
 import './index.css'
 import './lib/install' // start listening for the install prompt before React mounts

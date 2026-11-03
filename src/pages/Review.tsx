@@ -1,4 +1,6 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
+import { CheckIcon } from '../components/Icons'
+import { Progress } from '../components/Progress'
 import { Speak } from '../components/Speak'
 import { isCorrect } from '../lib/answer'
 import { displayNl, lessonWords } from '../lib/content'
@@ -27,11 +29,20 @@ export function Review() {
   const [graded, setGraded] = useState(new Set<string>())
   const [input, setInput] = useState('')
   const [result, setResult] = useState<Result | null>(null)
+  const inputRef = useRef<HTMLInputElement>(null)
+
+  // Keep the keyboard open and Enter working through check → next → next word.
+  useEffect(() => inputRef.current?.focus(), [queue, result])
 
   const word = queue[0]
   if (!word) {
     return (
-      <section className="panel">
+      <section className={initial.length ? 'panel done-card' : 'panel'}>
+        {initial.length > 0 && (
+          <span className="done-icon">
+            <CheckIcon size={30} />
+          </span>
+        )}
         <h2>{initial.length ? 'Goed gedaan!' : 'Nothing to review'}</h2>
         <p>{initial.length ? `${initial.length} words reviewed.` : 'Come back tomorrow.'}</p>
         <a className="button" href="#/">
@@ -63,16 +74,20 @@ export function Review() {
   return (
     <section className="panel review">
       <p className="label">{queue.length} left</p>
+      <Progress value={initial.length - queue.length} max={initial.length} label="Words reviewed" />
       <h2>{word.en}</h2>
-      {word.article && <p className="muted">noun — include de/het</p>}
+      {word.article && <p className="muted hint">noun — include de/het</p>}
 
       <input
+        ref={inputRef}
         autoFocus
+        aria-label="Dutch translation"
+        className={result ? (result.correct ? 'is-right' : 'is-wrong') : undefined}
         value={input}
-        disabled={result !== null}
+        readOnly={result !== null}
         onChange={(e) => setInput(e.target.value)}
         onKeyDown={(e) => {
-          if (e.key !== 'Enter') return
+          if (e.key !== 'Enter' || e.repeat) return
           if (result) next(result.correct)
           else check()
         }}
@@ -90,7 +105,7 @@ export function Review() {
         </div>
       ) : (
         <>
-          <p className={result.correct ? 'right' : 'wrong'}>
+          <p className={`feedback ${result.correct ? 'right' : 'wrong'}`} role="status">
             {result.correct ? 'Goed!' : <>Correct: <strong>{expected}</strong></>} <Speak text={expected} />
           </p>
           {word.example && (

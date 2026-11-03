@@ -25,16 +25,18 @@ export function MyWords() {
 
       <form className="panel add-word" onSubmit={submit}>
         <div className="row">
-          <select value={article} onChange={(e) => setArticle(e.target.value as typeof article)}>
+          <select aria-label="Article" value={article} onChange={(e) => setArticle(e.target.value as typeof article)}>
             <option value="">—</option>
             <option value="de">de</option>
             <option value="het">het</option>
           </select>
-          <input placeholder="Dutch" value={nl} onChange={(e) => setNl(e.target.value)} autoCapitalize="off" />
+          <input aria-label="Dutch" placeholder="Dutch" value={nl} onChange={(e) => setNl(e.target.value)} autoCapitalize="off" />
         </div>
-        <input placeholder="English" value={en} onChange={(e) => setEn(e.target.value)} />
+        <input aria-label="English" placeholder="English" value={en} onChange={(e) => setEn(e.target.value)} />
         <button type="submit">Add</button>
       </form>
+
+      {s.myWords.length === 0 && <p className="muted">No words yet. Add the first one you hear today.</p>}
 
       <ul className="list">
         {[...s.myWords].reverse().map((w) => (

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Gapped } from '../components/Gapped'
+import { CheckIcon } from '../components/Icons'
 import { Speak } from '../components/Speak'
 import { displayNl, getLesson } from '../lib/content'
 import { completeLesson, useStore } from '../lib/store'
@@ -17,6 +18,7 @@ export function LessonPage({ day }: { day: number }) {
   if (!unlocked) return <p>Finish day {day - 1} first.</p>
 
   const finished = step === STEPS.length
+  const speakers = [...new Set(lesson.dialogue.lines.map((line) => line.speaker))]
 
   function next() {
     if (step === STEPS.length - 1) completeLesson(lesson!.day, lesson!.words.map((w) => w.id))
@@ -32,7 +34,7 @@ export function LessonPage({ day }: { day: number }) {
       {!finished && (
         <ol className="steps">
           {STEPS.map((name, i) => (
-            <li key={name} className={i === step ? 'current' : i < step ? 'done' : ''}>
+            <li key={name} className={i === step ? 'current' : i < step ? 'done' : ''} aria-current={i === step ? 'step' : undefined}>
               {name}
             </li>
           ))}
@@ -62,30 +64,34 @@ export function LessonPage({ day }: { day: number }) {
       )}
 
       {step === 1 && (
-        <section>
-          <h3>{lesson.grammar.title}</h3>
-          <ul className="points">
-            {lesson.grammar.points.map((p) => (
-              <li key={p}>{p}</li>
-            ))}
-          </ul>
-          <ul className="examples">
-            {lesson.grammar.examples.map((e) => (
-              <li key={e.nl}>
-                {e.nl} <Speak text={e.nl} /> <span className="muted">— {e.en}</span>
-              </li>
-            ))}
-          </ul>
-          <h3>Practice</h3>
-          <ol className="exercises">
-            {lesson.grammar.exercises.map((ex) => (
-              <li key={ex.prompt}>
-                <Gapped text={ex.prompt} marker="___" answer={ex.answer} />
-                {ex.hint && <span className="muted"> ({ex.hint})</span>}
-              </li>
-            ))}
-          </ol>
-        </section>
+        <>
+          <section className="panel grammar">
+            <h3>{lesson.grammar.title}</h3>
+            <ul className="points">
+              {lesson.grammar.points.map((p) => (
+                <li key={p}>{p}</li>
+              ))}
+            </ul>
+            <ul className="examples">
+              {lesson.grammar.examples.map((e) => (
+                <li key={e.nl}>
+                  {e.nl} <Speak text={e.nl} /> <span className="muted">— {e.en}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+          <section className="panel">
+            <h3>Practice</h3>
+            <ol className="exercises">
+              {lesson.grammar.exercises.map((ex) => (
+                <li key={ex.prompt}>
+                  <Gapped text={ex.prompt} marker="___" answer={ex.answer} />
+                  {ex.hint && <span className="muted"> ({ex.hint})</span>}
+                </li>
+              ))}
+            </ol>
+          </section>
+        </>
       )}
 
       {step === 2 && (
@@ -94,7 +100,7 @@ export function LessonPage({ day }: { day: number }) {
           <p className="muted">{lesson.dialogue.scene}</p>
           <dl className="dialogue">
             {lesson.dialogue.lines.map((line, i) => (
-              <div key={i}>
+              <div key={i} className={speakers.indexOf(line.speaker) % 2 ? 'line alt' : 'line'}>
                 <dt>{line.speaker}</dt>
                 <dd>
                   {line.gap ? <Gapped text={line.nl} marker={line.gap} answer={line.gap} /> : line.nl}
@@ -111,7 +117,10 @@ export function LessonPage({ day }: { day: number }) {
       )}
 
       {finished ? (
-        <section className="panel">
+        <section className="panel done-card">
+          <span className="done-icon">
+            <CheckIcon size={30} />
+          </span>
           <h2>Les klaar!</h2>
           <p>{lesson.words.length} new words added to your reviews. They come back tomorrow.</p>
           <a className="button" href="#/">

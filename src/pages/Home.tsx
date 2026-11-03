@@ -1,3 +1,5 @@
+import { CheckIcon, FlameIcon } from '../components/Icons'
+import { Progress } from '../components/Progress'
 import { lessons } from '../lib/content'
 import { streak, today } from '../lib/dates'
 import { isDue, KNOWN_BOX } from '../lib/srs'
@@ -8,12 +10,14 @@ export function Home() {
   const day = today()
   const next = lessons.find((l) => !s.completed[l.day])
   const doneToday = Object.values(s.completed).includes(day)
-  const due = Object.values(s.cards).filter((c) => isDue(c, day)).length
-  const known = Object.values(s.cards).filter((c) => c.box >= KNOWN_BOX).length
+  const cards = Object.values(s.cards)
+  const due = cards.filter((c) => isDue(c, day)).length
+  const known = cards.filter((c) => c.box >= KNOWN_BOX).length
+  const doneCount = Object.keys(s.completed).length
 
   return (
     <>
-      <section className="panel">
+      <section className="panel hero">
         {next ? (
           <>
             <p className="label">{doneToday ? 'Done today — next up' : "Today's lesson"}</p>
@@ -30,11 +34,29 @@ export function Home() {
             <h2>New lessons coming soon.</h2>
           </>
         )}
+        <div className="hero-progress">
+          <Progress value={doneCount} max={lessons.length} label="Lessons done" />
+          <p>
+            {doneCount} of {lessons.length} lessons done
+          </p>
+        </div>
       </section>
 
-      <section className="panel">
-        <p className="label">Review</p>
-        <h2>{due === 0 ? 'Nothing due' : `${due} word${due === 1 ? '' : 's'} due`}</h2>
+      <section className="panel review-row">
+        <div>
+          <p className="label">Review</p>
+          {due > 0 ? (
+            <h2>
+              {due} word{due === 1 ? '' : 's'} due
+            </h2>
+          ) : cards.length > 0 ? (
+            <h2>
+              <CheckIcon /> All caught up
+            </h2>
+          ) : (
+            <h2>Nothing due yet</h2>
+          )}
+        </div>
         {due > 0 && (
           <a className="button" href="#/review">
             Review
@@ -43,8 +65,11 @@ export function Home() {
       </section>
 
       <section className="stats">
-        <div>
-          <strong>{streak(s.activity, day)}</strong>
+        <div className="streak">
+          <strong>
+            <FlameIcon />
+            {streak(s.activity, day)}
+          </strong>
           <span>day streak</span>
         </div>
         <div>
@@ -52,14 +77,14 @@ export function Home() {
           <span>words known</span>
         </div>
         <div>
-          <strong>{Object.keys(s.completed).length}</strong>
+          <strong>{doneCount}</strong>
           <span>lessons done</span>
         </div>
       </section>
 
-      {Object.keys(s.completed).length > 0 && (
-        <section>
-          <p className="label">Past lessons</p>
+      {doneCount > 0 && (
+        <details className="past">
+          <summary>Past lessons ({doneCount})</summary>
           <ul className="list">
             {lessons
               .filter((l) => s.completed[l.day])
@@ -71,7 +96,7 @@ export function Home() {
                 </li>
               ))}
           </ul>
-        </section>
+        </details>
       )}
     </>
   )
