@@ -13,6 +13,7 @@
   --wrong: #b3261e;
   --wrong-soft: #fceceb;
   --shadow: 0 1px 2px rgb(60 40 20 / 5%), 0 4px 14px rgb(60 40 20 / 5%);
+  --shadow-up: 0 -2px 12px rgb(60 40 20 / 8%);
   --radius: 16px;
   --radius-small: 10px;
   --font-display: 'Fraunces Variable', Georgia, serif;
@@ -37,6 +38,7 @@
     --wrong: #f2857d;
     --wrong-soft: #3a1a18;
     --shadow: none;
+    --shadow-up: none;
     color-scheme: dark;
   }
 }
@@ -67,7 +69,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: var(--bg);
+  background: var(--panel);
   border-bottom: 1px solid var(--line);
 }
 
@@ -148,6 +150,7 @@ nav svg {
     gap: 0;
     padding-bottom: env(safe-area-inset-bottom);
     background: var(--panel);
+    box-shadow: var(--shadow-up);
     border-top: 1px solid var(--line);
   }
 
