@@ -1,6 +1,7 @@
 :root {
   --bg: #faf8f3;
   --panel: #ffffff;
+  --bar: #ffffff;
   --text: #201c17;
   --muted: #6b655c;
   --line: #e8e3d9;
@@ -26,6 +27,7 @@
   :root {
     --bg: #15130f;
     --panel: #201d18;
+    --bar: #2a2620;
     --text: #f0ece4;
     --muted: #a39c90;
     --line: #37322a;
@@ -69,7 +71,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: var(--panel);
+  background: var(--bar);
   border-bottom: 1px solid var(--line);
 }
 
@@ -149,7 +151,7 @@ nav svg {
     grid-template-columns: repeat(4, 1fr);
     gap: 0;
     padding-bottom: env(safe-area-inset-bottom);
-    background: var(--panel);
+    background: var(--bar);
     box-shadow: var(--shadow-up);
     border-top: 1px solid var(--line);
   }
